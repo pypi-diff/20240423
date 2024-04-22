@@ -2089,3 +2089,42 @@
 [2024-04-23 01:53:14] INFO root fetch - processPackages [mayan-edms]: Remove: archive file [/home/abi/fetcher/tmp/mayan-edms-4.6.3.tar.gz]
 [2024-04-23 01:53:14] INFO root fetch - main [MainThread]: End processing [mayan-edms]: success
 [2024-04-23 01:53:14] INFO root fetch - main [MainThread]: Store serial: [22886099]
+[2024-04-23 01:55:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886099]
+[2024-04-23 01:55:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 01:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: octoflatbuffers
+[2024-04-23 01:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: footing
+[2024-04-23 01:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: launchflow
+[2024-04-23 01:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esphome
+[2024-04-23 01:55:24] INFO root fetch - processPackages [octoflatbuffers]: New version: [24.3.25] Old Version: [2.0.8]
+[2024-04-23 01:55:24] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev7]
+[2024-04-23 01:55:24] INFO root fetch - processPackages [footing]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-23 01:55:24] INFO root fetch - processPackages [octoflatbuffers]: Downloading https://files.pythonhosted.org/packages/cf/27/a619b75aa571b16fdcc3b6f07eacabb77302225c11fc9317263d9745c874/octoflatbuffers-2.0.8.tar.gz
+[2024-04-23 01:55:24] INFO root fetch - processPackages [footing]: Downloading https://files.pythonhosted.org/packages/01/44/ba4d87d2410ea890770f01585770856e1492dfdb67ff1f006c2184a15fcd/footing-0.1.4.tar.gz
+[2024-04-23 01:55:24] INFO root fetch - processPackages [esphome]: New version: [2024.4.1] Old Version: [2024.4.0b3]
+[2024-04-23 01:55:24] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/48/58/dc4bcb9a1d74952a08d0cfc5e24c45d961d331cb7a4434c9059bab154c72/launchflow-0.3.9.dev7.tar.gz
+[2024-04-23 01:55:24] INFO root fetch - processPackages [octoflatbuffers]: Downloading https://files.pythonhosted.org/packages/b8/6b/dab96da7f17de208a36e48de5f6a9b164e4446d62199393d633c160c6413/octoflatbuffers-24.3.25.tar.gz
+[2024-04-23 01:55:24] INFO root fetch - processPackages [footing]: Downloading https://files.pythonhosted.org/packages/ce/b6/b1e592c817d7c4672ee71feaf20aaf47477030fc54a2cdb0e421289894e7/footing-0.1.5.tar.gz
+[2024-04-23 01:55:24] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/8c/d2/f0544d4c3383370934bcc7b31fa0449e89fcfa2edeeac48bd86ada84b492/launchflow-0.3.9.dev8.tar.gz
+[2024-04-23 01:55:24] INFO root fetch - processPackages [octoflatbuffers]: executing diffoscope
+[2024-04-23 01:55:24] INFO root fetch - processPackages [octoflatbuffers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflatbuffers-2.0.8.tar.gz tmp/octoflatbuffers-24.3.25.tar.gz --markdown 20240423/o/octoflatbuffers/2.0.8-24.3.25/README.md --exclude *.pyd
+[2024-04-23 01:55:24] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/22/37/7b0b35884ed4711eca08df63bc6c3819990500b24ebaaee98b02351ce1a5/esphome-2024.4.0b3.tar.gz
+[2024-04-23 01:55:24] INFO root fetch - processPackages [footing]: executing diffoscope
+[2024-04-23 01:55:24] INFO root fetch - processPackages [footing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/footing-0.1.4.tar.gz tmp/footing-0.1.5.tar.gz --markdown 20240423/f/footing/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-23 01:55:24] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-04-23 01:55:24] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev7.tar.gz tmp/launchflow-0.3.9.dev8.tar.gz --markdown 20240423/l/launchflow/0.3.9.dev7-0.3.9.dev8/README.md --exclude *.pyd
+[2024-04-23 01:55:25] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/35/5d/6d8240e3a12691c1baeab5d87b3b510ed5c52dbef6ed0e65ceb4a1bc7fe2/esphome-2024.4.1-py2.py3-none-any.whl
+[2024-04-23 01:55:25] INFO root fetch - processPackages [footing]: Remove: archive file [/home/abi/fetcher/tmp/footing-0.1.4.tar.gz]
+[2024-04-23 01:55:25] INFO root fetch - processPackages [footing]: Remove: archive file [/home/abi/fetcher/tmp/footing-0.1.5.tar.gz]
+[2024-04-23 01:55:25] INFO root fetch - main [MainThread]: End processing [footing]: success
+[2024-04-23 01:55:25] INFO root fetch - processPackages [octoflatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/octoflatbuffers-2.0.8.tar.gz]
+[2024-04-23 01:55:25] INFO root fetch - processPackages [octoflatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/octoflatbuffers-24.3.25.tar.gz]
+[2024-04-23 01:55:25] INFO root fetch - main [MainThread]: End processing [octoflatbuffers]: success
+[2024-04-23 01:55:25] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev7.tar.gz]
+[2024-04-23 01:55:25] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev8.tar.gz]
+[2024-04-23 01:55:25] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-04-23 01:55:28] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-04-23 01:55:28] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.4.0b3.tar.gz tmp/esphome-2024.4.1-py2.py3-none-any.whl.zip --markdown 20240423/e/esphome/2024.4.0b3-2024.4.1/README.md --exclude *.pyd
+[2024-04-23 01:55:30] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.0b3.tar.gz]
+[2024-04-23 01:55:30] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.1-py2.py3-none-any.whl.zip]
+[2024-04-23 01:55:30] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-04-23 01:55:30] INFO root fetch - main [MainThread]: Store serial: [22886108]
