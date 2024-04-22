@@ -115,3 +115,24 @@
 [2024-04-23 00:03:35] INFO root fetch - processPackages [oracle-guardian-ai]: Remove: archive file [/home/abi/fetcher/tmp/oracle_guardian_ai-1.1.0.tar.gz]
 [2024-04-23 00:03:35] INFO root fetch - main [MainThread]: End processing [oracle-guardian-ai]: success
 [2024-04-23 00:03:35] INFO root fetch - main [MainThread]: Store serial: [22885289]
+[2024-04-23 00:05:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885289]
+[2024-04-23 00:05:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 00:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: communex
+[2024-04-23 00:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reverse-argparse
+[2024-04-23 00:05:44] INFO root fetch - processPackages [communex]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 00:05:44] INFO root fetch - processPackages [communex]: Downloading https://files.pythonhosted.org/packages/77/67/00051570e40b098c12038ef6aed5be120d14bfafef5d08885df5a9714f91/communex-0.1.8.tar.gz
+[2024-04-23 00:05:44] INFO root fetch - processPackages [reverse-argparse]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-23 00:05:44] INFO root fetch - processPackages [communex]: Downloading https://files.pythonhosted.org/packages/51/79/c7d8079cf08c4dcf6ea1f984e64a67fe00acfd76303d2f7f6159f574d5da/communex-0.1.9.tar.gz
+[2024-04-23 00:05:44] INFO root fetch - processPackages [reverse-argparse]: Downloading https://files.pythonhosted.org/packages/9d/ca/78acc975041593cb00f8fd52e74959e846299b6b9d16ff93142c8167a92e/reverse_argparse-1.0.6.tar.gz
+[2024-04-23 00:05:44] INFO root fetch - processPackages [communex]: executing diffoscope
+[2024-04-23 00:05:44] INFO root fetch - processPackages [communex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/communex-0.1.8.tar.gz tmp/communex-0.1.9.tar.gz --markdown 20240423/c/communex/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 00:05:44] INFO root fetch - processPackages [reverse-argparse]: Downloading https://files.pythonhosted.org/packages/aa/71/2ff27c9413a7e71a17b7d002aafbf116e8c3bb8ed2c52a8231655a01c42a/reverse_argparse-1.0.7.tar.gz
+[2024-04-23 00:05:45] INFO root fetch - processPackages [reverse-argparse]: executing diffoscope
+[2024-04-23 00:05:45] INFO root fetch - processPackages [reverse-argparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reverse_argparse-1.0.6.tar.gz tmp/reverse_argparse-1.0.7.tar.gz --markdown 20240423/r/reverse-argparse/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-23 00:05:45] INFO root fetch - processPackages [communex]: Remove: archive file [/home/abi/fetcher/tmp/communex-0.1.8.tar.gz]
+[2024-04-23 00:05:45] INFO root fetch - processPackages [communex]: Remove: archive file [/home/abi/fetcher/tmp/communex-0.1.9.tar.gz]
+[2024-04-23 00:05:45] INFO root fetch - main [MainThread]: End processing [communex]: success
+[2024-04-23 00:05:45] INFO root fetch - processPackages [reverse-argparse]: Remove: archive file [/home/abi/fetcher/tmp/reverse_argparse-1.0.6.tar.gz]
+[2024-04-23 00:05:45] INFO root fetch - processPackages [reverse-argparse]: Remove: archive file [/home/abi/fetcher/tmp/reverse_argparse-1.0.7.tar.gz]
+[2024-04-23 00:05:45] INFO root fetch - main [MainThread]: End processing [reverse-argparse]: success
+[2024-04-23 00:05:45] INFO root fetch - main [MainThread]: Store serial: [22885295]
