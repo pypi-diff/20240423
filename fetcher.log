@@ -1488,3 +1488,75 @@
 [2024-04-23 01:21:34] INFO root fetch - processPackages [bigframes]: Remove: archive file [/home/abi/fetcher/tmp/bigframes-1.3.0.tar.gz]
 [2024-04-23 01:21:34] INFO root fetch - main [MainThread]: End processing [bigframes]: success
 [2024-04-23 01:21:34] INFO root fetch - main [MainThread]: Store serial: [22885879]
+[2024-04-23 01:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885879]
+[2024-04-23 01:23:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 01:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epure
+[2024-04-23 01:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-commandx
+[2024-04-23 01:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kiddo-python-bindings
+[2024-04-23 01:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybunch
+[2024-04-23 01:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finsy
+[2024-04-23 01:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FuzzyTM
+[2024-04-23 01:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: citation-crawler
+[2024-04-23 01:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: databonsai
+[2024-04-23 01:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: intecomm-edc
+[2024-04-23 01:23:43] INFO root fetch - processPackages [pybunch]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-23 01:23:43] INFO root fetch - processPackages [citation-crawler]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-04-23 01:23:43] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/eb/a6/9772d9dbf819fb39c6e2ad6920bfc0a313debcbb5fdce47c5207079f7eb9/pybunch-1.0.2.tar.gz
+[2024-04-23 01:23:43] INFO root fetch - processPackages [epure]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-04-23 01:23:43] INFO root fetch - processPackages [FuzzyTM]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-23 01:23:43] WARNING root fetch - processPackages [kiddo-python-bindings]: Skipping, unable to determine old version
+[2024-04-23 01:23:43] INFO root fetch - processPackages [finsy]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-23 01:23:43] WARNING root fetch - processPackages [pulumi-commandx]: Skipping, unable to determine old version
+[2024-04-23 01:23:43] INFO root fetch - main [MainThread]: End processing [kiddo-python-bindings] error
+[2024-04-23 01:23:43] INFO root fetch - processPackages [databonsai]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-23 01:23:43] INFO root fetch - main [MainThread]: End processing [pulumi-commandx] error
+[2024-04-23 01:23:43] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/3b/0b/b31adfaf2cb49d6a74b5c056a6efdface5e2aa2fa1019a816dc7893b0714/citation_crawler-2.9.2.tar.gz
+[2024-04-23 01:23:43] INFO root fetch - processPackages [intecomm-edc]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 01:23:44] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/32/11/c83fb9c0188319436f734c93d1243d38f111abdc7e6bcb85f59c416e0c73/epure-0.3.7.tar.gz
+[2024-04-23 01:23:44] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/b6/e7/14cec65c365fb8c735962bb7880d3f51e83170796feb056a2de1211ed056/pybunch-1.0.3.tar.gz
+[2024-04-23 01:23:44] INFO root fetch - processPackages [FuzzyTM]: Downloading https://files.pythonhosted.org/packages/7a/42/23047aeff1e7acfa0523480ffb31741023fb1544913ff005ca217fb578c7/FuzzyTM-2.0.5.tar.gz
+[2024-04-23 01:23:44] INFO root fetch - processPackages [databonsai]: Downloading https://files.pythonhosted.org/packages/04/bb/d6deb3bb84ade2211462efd9071be79a3077ae6f2828e8e7987a103c3b8e/databonsai-0.5.0.tar.gz
+[2024-04-23 01:23:44] INFO root fetch - processPackages [finsy]: Downloading https://files.pythonhosted.org/packages/00/e6/0838c73be62cae24016990936d4bdaa810da94ff56a6948661c9db2c0492/finsy-0.8.0.tar.gz
+[2024-04-23 01:23:44] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/95/7e/91688931664f03b9e0b33b457b317a3c56b1a56f2296576c6566f791acb9/intecomm-edc-0.2.8.tar.gz
+[2024-04-23 01:23:44] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/6c/94/609fa10d2f84a313d48dd0920b448a3823cbf2dd9b000d060b0157e44503/citation_crawler-2.9.3.tar.gz
+[2024-04-23 01:23:44] INFO root fetch - processPackages [pybunch]: executing diffoscope
+[2024-04-23 01:23:44] INFO root fetch - processPackages [pybunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybunch-1.0.2.tar.gz tmp/pybunch-1.0.3.tar.gz --markdown 20240423/p/pybunch/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-23 01:23:44] INFO root fetch - processPackages [citation-crawler]: executing diffoscope
+[2024-04-23 01:23:44] INFO root fetch - processPackages [citation-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_crawler-2.9.2.tar.gz tmp/citation_crawler-2.9.3.tar.gz --markdown 20240423/c/citation-crawler/2.9.2-2.9.3/README.md --exclude *.pyd
+[2024-04-23 01:23:44] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/6e/c0/2ff88bb86937ad17b19fa19f21079eb6d36d0ac0df7c9cf1e0af8a3125cc/epure-0.3.8.tar.gz
+[2024-04-23 01:23:44] INFO root fetch - processPackages [FuzzyTM]: Downloading https://files.pythonhosted.org/packages/93/c1/14260331d3df7926277f8942c29bd80381f2ac3ced09851121012a5d3f10/FuzzyTM-2.0.6.tar.gz
+[2024-04-23 01:23:44] INFO root fetch - processPackages [databonsai]: Downloading https://files.pythonhosted.org/packages/8a/b9/db86a8b578f0459f0692435740074b104f0b65e9b9765cc32e5faf6972ff/databonsai-0.6.0.tar.gz
+[2024-04-23 01:23:44] INFO root fetch - processPackages [epure]: executing diffoscope
+[2024-04-23 01:23:44] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.3.7.tar.gz tmp/epure-0.3.8.tar.gz --markdown 20240423/e/epure/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-04-23 01:23:44] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/d8/f7/da7970f16a11303f171ea066f66e06b546fa84ee58cd6cfd9da33905321f/intecomm-edc-0.2.9.tar.gz
+[2024-04-23 01:23:44] INFO root fetch - processPackages [FuzzyTM]: executing diffoscope
+[2024-04-23 01:23:44] INFO root fetch - processPackages [FuzzyTM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuzzyTM-2.0.5.tar.gz tmp/FuzzyTM-2.0.6.tar.gz --markdown 20240423/F/FuzzyTM/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-04-23 01:23:44] INFO root fetch - processPackages [databonsai]: executing diffoscope
+[2024-04-23 01:23:44] INFO root fetch - processPackages [databonsai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databonsai-0.5.0.tar.gz tmp/databonsai-0.6.0.tar.gz --markdown 20240423/d/databonsai/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-23 01:23:44] INFO root fetch - processPackages [finsy]: Downloading https://files.pythonhosted.org/packages/15/4b/e454cff3e84238eb0cf0f9a05bb7e5fb8ed845c173710d65557c9f81fe47/finsy-0.9.0.tar.gz
+[2024-04-23 01:23:44] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2024-04-23 01:23:44] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.2.8.tar.gz tmp/intecomm-edc-0.2.9.tar.gz --markdown 20240423/i/intecomm-edc/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 01:23:44] INFO root fetch - processPackages [finsy]: executing diffoscope
+[2024-04-23 01:23:44] INFO root fetch - processPackages [finsy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finsy-0.8.0.tar.gz tmp/finsy-0.9.0.tar.gz --markdown 20240423/f/finsy/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-23 01:23:45] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.2.tar.gz]
+[2024-04-23 01:23:45] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.3.tar.gz]
+[2024-04-23 01:23:45] INFO root fetch - main [MainThread]: End processing [pybunch]: success
+[2024-04-23 01:23:45] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.2.tar.gz]
+[2024-04-23 01:23:45] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.3.tar.gz]
+[2024-04-23 01:23:45] INFO root fetch - main [MainThread]: End processing [citation-crawler]: success
+[2024-04-23 01:23:45] INFO root fetch - processPackages [databonsai]: Remove: archive file [/home/abi/fetcher/tmp/databonsai-0.5.0.tar.gz]
+[2024-04-23 01:23:45] INFO root fetch - processPackages [databonsai]: Remove: archive file [/home/abi/fetcher/tmp/databonsai-0.6.0.tar.gz]
+[2024-04-23 01:23:45] INFO root fetch - main [MainThread]: End processing [databonsai]: success
+[2024-04-23 01:23:45] INFO root fetch - processPackages [FuzzyTM]: Remove: archive file [/home/abi/fetcher/tmp/FuzzyTM-2.0.5.tar.gz]
+[2024-04-23 01:23:45] INFO root fetch - processPackages [FuzzyTM]: Remove: archive file [/home/abi/fetcher/tmp/FuzzyTM-2.0.6.tar.gz]
+[2024-04-23 01:23:45] INFO root fetch - main [MainThread]: End processing [FuzzyTM]: success
+[2024-04-23 01:23:45] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.3.7.tar.gz]
+[2024-04-23 01:23:45] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.3.8.tar.gz]
+[2024-04-23 01:23:45] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2024-04-23 01:23:45] INFO root fetch - processPackages [finsy]: Remove: archive file [/home/abi/fetcher/tmp/finsy-0.8.0.tar.gz]
+[2024-04-23 01:23:45] INFO root fetch - processPackages [finsy]: Remove: archive file [/home/abi/fetcher/tmp/finsy-0.9.0.tar.gz]
+[2024-04-23 01:23:45] INFO root fetch - main [MainThread]: End processing [finsy]: success
+[2024-04-23 01:23:47] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.8.tar.gz]
+[2024-04-23 01:23:47] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.9.tar.gz]
+[2024-04-23 01:23:47] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2024-04-23 01:23:47] INFO root fetch - main [MainThread]: Store serial: [22885909]
