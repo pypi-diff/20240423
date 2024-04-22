@@ -1931,3 +1931,69 @@
 [2024-04-23 01:46:08] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.9.tar.gz]
 [2024-04-23 01:46:08] INFO root fetch - main [MainThread]: End processing [entity-recognition-service]: success
 [2024-04-23 01:46:08] INFO root fetch - main [MainThread]: Store serial: [22886050]
+[2024-04-23 01:48:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886050]
+[2024-04-23 01:48:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 01:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plover-sound
+[2024-04-23 01:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FiberFusing
+[2024-04-23 01:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: G722
+[2024-04-23 01:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miml-package
+[2024-04-23 01:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typedllm
+[2024-04-23 01:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-rsp
+[2024-04-23 01:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: numalogic
+[2024-04-23 01:48:16] INFO root fetch - processPackages [G722]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-23 01:48:16] INFO root fetch - processPackages [plover-sound]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 01:48:16] INFO root fetch - processPackages [numalogic]: New version: [0.9.1a2] Old Version: [0.9.1]
+[2024-04-23 01:48:16] INFO root fetch - processPackages [miml-package]: New version: [0.3.0] Old Version: [0.0.9]
+[2024-04-23 01:48:16] INFO root fetch - processPackages [lsst-rsp]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-23 01:48:16] INFO root fetch - processPackages [plover-sound]: Downloading https://files.pythonhosted.org/packages/ec/f3/8c85733c85a511a42f066c675ec059cd880cbeed3a14be70cdbb816b0fd4/plover-sound-0.0.2.tar.gz
+[2024-04-23 01:48:16] INFO root fetch - processPackages [typedllm]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-23 01:48:16] INFO root fetch - processPackages [FiberFusing]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-23 01:48:16] INFO root fetch - processPackages [numalogic]: Downloading https://files.pythonhosted.org/packages/1b/29/05cfc48aec9d67c147239db52a6f72edadf8cb974e7799197e627b7706cd/numalogic-0.9.1.tar.gz
+[2024-04-23 01:48:16] INFO root fetch - processPackages [G722]: Downloading https://files.pythonhosted.org/packages/06/44/fe458675c8d45ee7a93a0f4ab14e7ead586b160d7e2eb3fe373fde09502d/g722-0.1.tar.gz
+[2024-04-23 01:48:16] INFO root fetch - processPackages [miml-package]: Downloading https://files.pythonhosted.org/packages/05/86/018ce13cfe1c1c0bbf846c5f22b38628d96d33aad49a5dc894550d123bff/miml_package-0.0.9.tar.gz
+[2024-04-23 01:48:16] INFO root fetch - processPackages [lsst-rsp]: Downloading https://files.pythonhosted.org/packages/5b/ff/73bee418a699d27909b23812f5caec2696da5edb088bff108ac6a3ee4111/lsst-rsp-0.5.1.tar.gz
+[2024-04-23 01:48:16] INFO root fetch - processPackages [typedllm]: Downloading https://files.pythonhosted.org/packages/e9/f1/c74e6591770e733667d6538a7e5f77d82f50bfb4c26518136400250c4f59/typedllm-0.2.2.tar.gz
+[2024-04-23 01:48:16] INFO root fetch - processPackages [numalogic]: Downloading https://files.pythonhosted.org/packages/bb/aa/53d9c5e0116882f127ae0cca51589cdbf458c056f06f160a7a35b62a8648/numalogic-0.9.1a2.tar.gz
+[2024-04-23 01:48:17] INFO root fetch - processPackages [FiberFusing]: Downloading https://files.pythonhosted.org/packages/be/16/af9f91c2ce03bfc85b82ec6a9e5b0367273f6bdcdf821a1e55b598a80be6/FiberFusing-1.1.1-py3-none-any.whl
+[2024-04-23 01:48:17] INFO root fetch - processPackages [plover-sound]: Downloading https://files.pythonhosted.org/packages/42/49/d4178e52add69b6b873ccc2a5b8f30946f35b05162d5c5703aee1f670bd5/plover-sound-0.0.3.tar.gz
+[2024-04-23 01:48:17] INFO root fetch - processPackages [numalogic]: executing diffoscope
+[2024-04-23 01:48:17] INFO root fetch - processPackages [numalogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numalogic-0.9.1.tar.gz tmp/numalogic-0.9.1a2.tar.gz --markdown 20240423/n/numalogic/0.9.1-0.9.1a2/README.md --exclude *.pyd
+[2024-04-23 01:48:17] INFO root fetch - processPackages [plover-sound]: executing diffoscope
+[2024-04-23 01:48:17] INFO root fetch - processPackages [plover-sound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plover-sound-0.0.2.tar.gz tmp/plover-sound-0.0.3.tar.gz --markdown 20240423/p/plover-sound/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 01:48:17] INFO root fetch - processPackages [G722]: Downloading https://files.pythonhosted.org/packages/b9/b6/7fd43611ae3602d39d92b0313c4cf5086e50fc084d4e929b1a8e1111f674/g722-0.1.1.tar.gz
+[2024-04-23 01:48:17] INFO root fetch - processPackages [lsst-rsp]: Downloading https://files.pythonhosted.org/packages/a4/34/1918eb44184bcfae9a26d6174a1edf06b17651011195d6f0daafd2fac3ba/lsst_rsp-0.5.2.tar.gz
+[2024-04-23 01:48:17] INFO root fetch - processPackages [typedllm]: Downloading https://files.pythonhosted.org/packages/2b/19/6d3576a8306c8d8dfb25ad484f3b747e4f2470fca748b8a716527b727501/typedllm-0.2.3.tar.gz
+[2024-04-23 01:48:17] INFO root fetch - processPackages [G722]: executing diffoscope
+[2024-04-23 01:48:17] INFO root fetch - processPackages [G722]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g722-0.1.tar.gz tmp/g722-0.1.1.tar.gz --markdown 20240423/G/G722/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-23 01:48:17] INFO root fetch - processPackages [FiberFusing]: Downloading https://files.pythonhosted.org/packages/da/9b/530691fd1b3776d393ed0d401dc5727abb365f9b9dfdde2eee4c0a1bffb7/FiberFusing-1.1.2-py3-none-any.whl
+[2024-04-23 01:48:17] INFO root fetch - processPackages [miml-package]: Downloading https://files.pythonhosted.org/packages/81/b6/416a6b58f1a39e6c3636057c7a85eb5567d459f4dd335dc0b67413d0669a/miml_package-0.3.0.tar.gz
+[2024-04-23 01:48:17] INFO root fetch - processPackages [typedllm]: executing diffoscope
+[2024-04-23 01:48:17] INFO root fetch - processPackages [typedllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedllm-0.2.2.tar.gz tmp/typedllm-0.2.3.tar.gz --markdown 20240423/t/typedllm/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-23 01:48:17] INFO root fetch - processPackages [FiberFusing]: executing diffoscope
+[2024-04-23 01:48:17] INFO root fetch - processPackages [FiberFusing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiberFusing-1.1.1-py3-none-any.whl.zip tmp/FiberFusing-1.1.2-py3-none-any.whl.zip --markdown 20240423/F/FiberFusing/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-23 01:48:17] INFO root fetch - processPackages [lsst-rsp]: executing diffoscope
+[2024-04-23 01:48:17] INFO root fetch - processPackages [lsst-rsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-rsp-0.5.1.tar.gz tmp/lsst_rsp-0.5.2.tar.gz --markdown 20240423/l/lsst-rsp/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-23 01:48:17] INFO root fetch - processPackages [miml-package]: executing diffoscope
+[2024-04-23 01:48:17] INFO root fetch - processPackages [miml-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miml_package-0.0.9.tar.gz tmp/miml_package-0.3.0.tar.gz --markdown 20240423/m/miml-package/0.0.9-0.3.0/README.md --exclude *.pyd
+[2024-04-23 01:48:17] INFO root fetch - processPackages [plover-sound]: Remove: archive file [/home/abi/fetcher/tmp/plover-sound-0.0.2.tar.gz]
+[2024-04-23 01:48:17] INFO root fetch - processPackages [plover-sound]: Remove: archive file [/home/abi/fetcher/tmp/plover-sound-0.0.3.tar.gz]
+[2024-04-23 01:48:17] INFO root fetch - main [MainThread]: End processing [plover-sound]: success
+[2024-04-23 01:48:18] INFO root fetch - processPackages [G722]: Remove: archive file [/home/abi/fetcher/tmp/g722-0.1.tar.gz]
+[2024-04-23 01:48:18] INFO root fetch - processPackages [G722]: Remove: archive file [/home/abi/fetcher/tmp/g722-0.1.1.tar.gz]
+[2024-04-23 01:48:18] INFO root fetch - main [MainThread]: End processing [G722]: success
+[2024-04-23 01:48:18] INFO root fetch - processPackages [typedllm]: Remove: archive file [/home/abi/fetcher/tmp/typedllm-0.2.2.tar.gz]
+[2024-04-23 01:48:18] INFO root fetch - processPackages [typedllm]: Remove: archive file [/home/abi/fetcher/tmp/typedllm-0.2.3.tar.gz]
+[2024-04-23 01:48:18] INFO root fetch - main [MainThread]: End processing [typedllm]: success
+[2024-04-23 01:48:18] INFO root fetch - processPackages [miml-package]: Remove: archive file [/home/abi/fetcher/tmp/miml_package-0.0.9.tar.gz]
+[2024-04-23 01:48:18] INFO root fetch - processPackages [miml-package]: Remove: archive file [/home/abi/fetcher/tmp/miml_package-0.3.0.tar.gz]
+[2024-04-23 01:48:18] INFO root fetch - main [MainThread]: End processing [miml-package]: success
+[2024-04-23 01:48:18] INFO root fetch - processPackages [numalogic]: Remove: archive file [/home/abi/fetcher/tmp/numalogic-0.9.1.tar.gz]
+[2024-04-23 01:48:18] INFO root fetch - processPackages [numalogic]: Remove: archive file [/home/abi/fetcher/tmp/numalogic-0.9.1a2.tar.gz]
+[2024-04-23 01:48:18] INFO root fetch - main [MainThread]: End processing [numalogic]: success
+[2024-04-23 01:48:18] INFO root fetch - processPackages [lsst-rsp]: Remove: archive file [/home/abi/fetcher/tmp/lsst-rsp-0.5.1.tar.gz]
+[2024-04-23 01:48:18] INFO root fetch - processPackages [lsst-rsp]: Remove: archive file [/home/abi/fetcher/tmp/lsst_rsp-0.5.2.tar.gz]
+[2024-04-23 01:48:18] INFO root fetch - main [MainThread]: End processing [lsst-rsp]: success
+[2024-04-23 01:48:18] INFO root fetch - processPackages [FiberFusing]: Remove: archive file [/home/abi/fetcher/tmp/FiberFusing-1.1.1-py3-none-any.whl.zip]
+[2024-04-23 01:48:18] INFO root fetch - processPackages [FiberFusing]: Remove: archive file [/home/abi/fetcher/tmp/FiberFusing-1.1.2-py3-none-any.whl.zip]
+[2024-04-23 01:48:18] INFO root fetch - main [MainThread]: End processing [FiberFusing]: success
+[2024-04-23 01:48:18] INFO root fetch - main [MainThread]: Store serial: [22886070]
