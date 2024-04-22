@@ -1115,3 +1115,51 @@
 [2024-04-23 00:58:34] INFO root fetch - processPackages [netbox-plugin-dns]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_dns-1.0b2.tar.gz]
 [2024-04-23 00:58:34] INFO root fetch - main [MainThread]: End processing [netbox-plugin-dns]: success
 [2024-04-23 00:58:34] INFO root fetch - main [MainThread]: Store serial: [22885695]
+[2024-04-23 01:00:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885695]
+[2024-04-23 01:00:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 01:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langflow
+[2024-04-23 01:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2024-04-23 01:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tkz
+[2024-04-23 01:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: od-metrics
+[2024-04-23 01:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: octoflatbuffers
+[2024-04-23 01:00:42] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-23 01:00:42] INFO root fetch - processPackages [tkz]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-23 01:00:42] INFO root fetch - processPackages [octoflatbuffers]: New version: [24.3.25] Old Version: [2.0.8]
+[2024-04-23 01:00:42] INFO root fetch - processPackages [od-metrics]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-23 01:00:42] INFO root fetch - processPackages [langflow]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-04-23 01:00:42] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-23 01:00:42] INFO root fetch - processPackages [tkz]: Downloading https://files.pythonhosted.org/packages/e1/f4/f43721fd29f64892f16531009be71fe721375dcda54a09d9e05127d4110a/tkz-1.0.0.tar.gz
+[2024-04-23 01:00:42] INFO root fetch - processPackages [octoflatbuffers]: Downloading https://files.pythonhosted.org/packages/cf/27/a619b75aa571b16fdcc3b6f07eacabb77302225c11fc9317263d9745c874/octoflatbuffers-2.0.8.tar.gz
+[2024-04-23 01:00:42] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-23 01:00:42] INFO root fetch - processPackages [od-metrics]: Downloading https://files.pythonhosted.org/packages/a9/f8/9fc4c11992f6a57fda625cbf47d96562fad00e17e1fdf9407833e68d68cf/od_metrics-1.0.2.tar.gz
+[2024-04-23 01:00:42] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/f1/f1/24fc8fab9078fe9a44249227b1e8c735ca2edcb3d35df1eb8fe21940eda2/langflow-1.0.0a8.tar.gz
+[2024-04-23 01:00:42] INFO root fetch - processPackages [tkz]: Downloading https://files.pythonhosted.org/packages/04/b5/1ab8e646b68601c36d46f0b14e459a6269b257cf4e02488b209a2d4bcc36/tkz-1.0.1.tar.gz
+[2024-04-23 01:00:42] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-23 01:00:42] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240423/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-23 01:00:42] INFO root fetch - processPackages [tkz]: executing diffoscope
+[2024-04-23 01:00:42] INFO root fetch - processPackages [tkz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkz-1.0.0.tar.gz tmp/tkz-1.0.1.tar.gz --markdown 20240423/t/tkz/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-23 01:00:42] INFO root fetch - processPackages [octoflatbuffers]: Downloading https://files.pythonhosted.org/packages/b8/6b/dab96da7f17de208a36e48de5f6a9b164e4446d62199393d633c160c6413/octoflatbuffers-24.3.25.tar.gz
+[2024-04-23 01:00:43] INFO root fetch - processPackages [od-metrics]: Downloading https://files.pythonhosted.org/packages/40/92/580e5f371b7b18b06bc7b4744ab087b88617211194ea628f269affb12ef4/od_metrics-1.1.0.tar.gz
+[2024-04-23 01:00:43] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/40/f603fd33ef5b1456a6be83efd05ca28a5af58e3ed1070e760b30edb9080e/langflow-1.0.0a9.tar.gz
+[2024-04-23 01:00:43] INFO root fetch - processPackages [octoflatbuffers]: executing diffoscope
+[2024-04-23 01:00:43] INFO root fetch - processPackages [octoflatbuffers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflatbuffers-2.0.8.tar.gz tmp/octoflatbuffers-24.3.25.tar.gz --markdown 20240423/o/octoflatbuffers/2.0.8-24.3.25/README.md --exclude *.pyd
+[2024-04-23 01:00:43] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-04-23 01:00:43] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a8.tar.gz tmp/langflow-1.0.0a9.tar.gz --markdown 20240423/l/langflow/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-04-23 01:00:43] INFO root fetch - processPackages [od-metrics]: executing diffoscope
+[2024-04-23 01:00:43] INFO root fetch - processPackages [od-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/od_metrics-1.0.2.tar.gz tmp/od_metrics-1.1.0.tar.gz --markdown 20240423/o/od-metrics/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-04-23 01:00:43] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-23 01:00:43] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-23 01:00:43] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-23 01:00:43] INFO root fetch - processPackages [tkz]: Remove: archive file [/home/abi/fetcher/tmp/tkz-1.0.0.tar.gz]
+[2024-04-23 01:00:43] INFO root fetch - processPackages [tkz]: Remove: archive file [/home/abi/fetcher/tmp/tkz-1.0.1.tar.gz]
+[2024-04-23 01:00:43] INFO root fetch - main [MainThread]: End processing [tkz]: success
+[2024-04-23 01:00:43] INFO root fetch - processPackages [od-metrics]: Remove: archive file [/home/abi/fetcher/tmp/od_metrics-1.0.2.tar.gz]
+[2024-04-23 01:00:43] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a8.tar.gz]
+[2024-04-23 01:00:43] INFO root fetch - processPackages [od-metrics]: Remove: archive file [/home/abi/fetcher/tmp/od_metrics-1.1.0.tar.gz]
+[2024-04-23 01:00:43] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
+[2024-04-23 01:00:43] INFO root fetch - main [MainThread]: End processing [od-metrics]: success
+[2024-04-23 01:00:43] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-04-23 01:00:43] INFO root fetch - processPackages [octoflatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/octoflatbuffers-2.0.8.tar.gz]
+[2024-04-23 01:00:43] INFO root fetch - processPackages [octoflatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/octoflatbuffers-24.3.25.tar.gz]
+[2024-04-23 01:00:43] INFO root fetch - main [MainThread]: End processing [octoflatbuffers]: success
+[2024-04-23 01:00:43] INFO root fetch - main [MainThread]: Store serial: [22885709]
