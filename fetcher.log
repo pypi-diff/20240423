@@ -367,3 +367,54 @@
 [2024-04-23 00:18:53] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
 [2024-04-23 00:18:53] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-04-23 00:18:53] INFO root fetch - main [MainThread]: Store serial: [22885405]
+[2024-04-23 00:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885405]
+[2024-04-23 00:21:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-dflp
+[2024-04-23 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Django-Safe-EmailBackend
+[2024-04-23 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-vector-stores-qdrant
+[2024-04-23 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hatchet-sdk
+[2024-04-23 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yoto-api
+[2024-04-23 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybunch
+[2024-04-23 00:21:02] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-23 00:21:02] INFO root fetch - processPackages [pybunch]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-23 00:21:02] INFO root fetch - processPackages [hatchet-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-23 00:21:02] WARNING root fetch - processPackages [sbcli-dflp]: Skipping, unable to determine old version
+[2024-04-23 00:21:02] INFO root fetch - main [MainThread]: End processing [sbcli-dflp] error
+[2024-04-23 00:21:02] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: Downloading https://files.pythonhosted.org/packages/74/0c/866418352451dd9c42d5aac6cab5affb1b062ef1534f0556223702f44d61/llama_index_vector_stores_qdrant-0.2.3.tar.gz
+[2024-04-23 00:21:02] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/64/d1/f64d17af88303500b92acecae69846db5aaf1e615e28e40eb3a96a561d58/pybunch-1.0.1.tar.gz
+[2024-04-23 00:21:02] INFO root fetch - processPackages [Django-Safe-EmailBackend]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-04-23 00:21:02] INFO root fetch - processPackages [yoto-api]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-23 00:21:02] INFO root fetch - processPackages [hatchet-sdk]: Downloading https://files.pythonhosted.org/packages/b7/8b/68973381c93504e7bb9a11fe80f87dcd98513e32ad380a834f18ebfd2e7a/hatchet_sdk-0.9.3.tar.gz
+[2024-04-23 00:21:02] INFO root fetch - processPackages [hatchet-sdk]: Downloading https://files.pythonhosted.org/packages/19/f2/b637c52e9d3495664654bf550e30f893558eb0a752bb7a6718c55674e5cd/hatchet_sdk-0.9.4.tar.gz
+[2024-04-23 00:21:02] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/3f/ca/2683bc432ad985b2ac5fca0855e0933920bd60bdf37a00522e81644a10b1/yoto_api-1.4.3.tar.gz
+[2024-04-23 00:21:02] INFO root fetch - processPackages [Django-Safe-EmailBackend]: Downloading https://files.pythonhosted.org/packages/93/b3/9d7834fdc10d78f65ba1cfa63b38d7711e68777e4f316ef199dc4710f1ea/Django-Safe-EmailBackend-1.2.5.tar.gz
+[2024-04-23 00:21:02] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/eb/a6/9772d9dbf819fb39c6e2ad6920bfc0a313debcbb5fdce47c5207079f7eb9/pybunch-1.0.2.tar.gz
+[2024-04-23 00:21:02] INFO root fetch - processPackages [hatchet-sdk]: executing diffoscope
+[2024-04-23 00:21:02] INFO root fetch - processPackages [hatchet-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatchet_sdk-0.9.3.tar.gz tmp/hatchet_sdk-0.9.4.tar.gz --markdown 20240423/h/hatchet-sdk/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-23 00:21:02] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: Downloading https://files.pythonhosted.org/packages/a9/84/8cd6ec0a84e568bdcfdef35fe35a0bdabc6cb0136336693d880a132e3660/llama_index_vector_stores_qdrant-0.2.4.tar.gz
+[2024-04-23 00:21:02] INFO root fetch - processPackages [pybunch]: executing diffoscope
+[2024-04-23 00:21:02] INFO root fetch - processPackages [pybunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybunch-1.0.1.tar.gz tmp/pybunch-1.0.2.tar.gz --markdown 20240423/p/pybunch/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-23 00:21:02] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: executing diffoscope
+[2024-04-23 00:21:02] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_qdrant-0.2.3.tar.gz tmp/llama_index_vector_stores_qdrant-0.2.4.tar.gz --markdown 20240423/l/llama-index-vector-stores-qdrant/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-23 00:21:02] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/fa/c8/d1832d122bebe98403db1b4de42d376dd2de427472c8644bbef1b3a036d9/yoto_api-1.4.4.tar.gz
+[2024-04-23 00:21:02] INFO root fetch - processPackages [Django-Safe-EmailBackend]: Downloading https://files.pythonhosted.org/packages/26/b9/1423c2b50212750db85c38c74072650b3d2d915ebea32cd1c912a9fdfc07/Django-Safe-EmailBackend-1.2.6.tar.gz
+[2024-04-23 00:21:02] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-04-23 00:21:02] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.4.3.tar.gz tmp/yoto_api-1.4.4.tar.gz --markdown 20240423/y/yoto-api/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-04-23 00:21:03] INFO root fetch - processPackages [Django-Safe-EmailBackend]: executing diffoscope
+[2024-04-23 00:21:03] INFO root fetch - processPackages [Django-Safe-EmailBackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Django-Safe-EmailBackend-1.2.5.tar.gz tmp/Django-Safe-EmailBackend-1.2.6.tar.gz --markdown 20240423/D/Django-Safe-EmailBackend/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-04-23 00:21:03] INFO root fetch - processPackages [hatchet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hatchet_sdk-0.9.3.tar.gz]
+[2024-04-23 00:21:03] INFO root fetch - processPackages [hatchet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hatchet_sdk-0.9.4.tar.gz]
+[2024-04-23 00:21:03] INFO root fetch - main [MainThread]: End processing [hatchet-sdk]: success
+[2024-04-23 00:21:03] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_qdrant-0.2.3.tar.gz]
+[2024-04-23 00:21:03] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_qdrant-0.2.4.tar.gz]
+[2024-04-23 00:21:03] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-qdrant]: success
+[2024-04-23 00:21:03] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.1.tar.gz]
+[2024-04-23 00:21:03] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.2.tar.gz]
+[2024-04-23 00:21:03] INFO root fetch - main [MainThread]: End processing [pybunch]: success
+[2024-04-23 00:21:03] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.4.3.tar.gz]
+[2024-04-23 00:21:03] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.4.4.tar.gz]
+[2024-04-23 00:21:03] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-04-23 00:21:03] INFO root fetch - processPackages [Django-Safe-EmailBackend]: Remove: archive file [/home/abi/fetcher/tmp/Django-Safe-EmailBackend-1.2.5.tar.gz]
+[2024-04-23 00:21:03] INFO root fetch - processPackages [Django-Safe-EmailBackend]: Remove: archive file [/home/abi/fetcher/tmp/Django-Safe-EmailBackend-1.2.6.tar.gz]
+[2024-04-23 00:21:03] INFO root fetch - main [MainThread]: End processing [Django-Safe-EmailBackend]: success
+[2024-04-23 00:21:03] INFO root fetch - main [MainThread]: Store serial: [22885425]
