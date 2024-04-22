@@ -1854,3 +1854,51 @@
 [2024-04-23 01:39:07] INFO root fetch - processPackages [keras]: Remove: archive file [/home/abi/fetcher/tmp/keras-3.3.1.tar.gz]
 [2024-04-23 01:39:07] INFO root fetch - main [MainThread]: End processing [keras]: success
 [2024-04-23 01:39:07] INFO root fetch - main [MainThread]: Store serial: [22886026]
+[2024-04-23 01:41:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886026]
+[2024-04-23 01:41:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 01:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tivars
+[2024-04-23 01:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domolibrary
+[2024-04-23 01:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crowbar-package-manager
+[2024-04-23 01:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: helpful-assistant
+[2024-04-23 01:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: policyengine-us
+[2024-04-23 01:41:16] INFO root fetch - processPackages [helpful-assistant]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-23 01:41:16] INFO root fetch - processPackages [domolibrary]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-23 01:41:16] INFO root fetch - processPackages [tivars]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-23 01:41:16] INFO root fetch - processPackages [policyengine-us]: New version: [0.744.1] Old Version: [0.744.0]
+[2024-04-23 01:41:16] INFO root fetch - processPackages [helpful-assistant]: Downloading https://files.pythonhosted.org/packages/7f/bf/e60560c548d8a5ae766ffe403e99f8b0d01871cdd9478d5fe20d030d5623/helpful_assistant-0.0.7.tar.gz
+[2024-04-23 01:41:16] INFO root fetch - processPackages [crowbar-package-manager]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 01:41:16] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/95/f3/6c9c1bcece92c131f243b06ce2ea786b42aac014c102edd4142844b5d688/domolibrary-4.0.8.tar.gz
+[2024-04-23 01:41:16] INFO root fetch - processPackages [tivars]: Downloading https://files.pythonhosted.org/packages/37/a0/09cbe8e2af654a62ac07a70216a2d59d5c8103bfcdfcaeaa0052afbf216c/tivars-0.8.2.tar.gz
+[2024-04-23 01:41:16] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/1b/c0/6574f9b869143b3b559c4bb6e9291d13497e921e62c916af31569291c449/policyengine-us-0.744.0.tar.gz
+[2024-04-23 01:41:17] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/63/97/4cb1d2617c5619e7148f9ac7c4a014fba249dc920ead6cc4d17a0b3b8359/crowbar_package_manager-0.1.8.tar.gz
+[2024-04-23 01:41:17] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/20/04/03f981a99262a7143a6a063a2e2f6e7ef8f7e8783b38fbaac09ad11e2cdd/domolibrary-4.0.9.tar.gz
+[2024-04-23 01:41:17] INFO root fetch - processPackages [helpful-assistant]: Downloading https://files.pythonhosted.org/packages/e5/cf/4af23902db94029d4c413ae3ed6c54dae38f19474c4f814fb9615ac2a5c0/helpful_assistant-0.0.8.tar.gz
+[2024-04-23 01:41:17] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2024-04-23 01:41:17] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-4.0.8.tar.gz tmp/domolibrary-4.0.9.tar.gz --markdown 20240423/d/domolibrary/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-04-23 01:41:17] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/34/3a/ea057b8cba3a2c45050bf1a89a4634f6186296c59c1aec914514947421d2/policyengine-us-0.744.1.tar.gz
+[2024-04-23 01:41:17] INFO root fetch - processPackages [helpful-assistant]: executing diffoscope
+[2024-04-23 01:41:17] INFO root fetch - processPackages [helpful-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helpful_assistant-0.0.7.tar.gz tmp/helpful_assistant-0.0.8.tar.gz --markdown 20240423/h/helpful-assistant/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-23 01:41:17] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/59/37/0dd70904f55a40f9d1306d5e4dbb6c73e7e18f7120c236406426245e1b93/crowbar_package_manager-0.1.9.tar.gz
+[2024-04-23 01:41:17] INFO root fetch - processPackages [tivars]: Downloading https://files.pythonhosted.org/packages/bb/18/28013cc6495ea726729b41983f488a6f89a93ec6c1206366b899d68fe5c5/tivars-0.9.0.tar.gz
+[2024-04-23 01:41:17] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-23 01:41:17] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.744.0.tar.gz tmp/policyengine-us-0.744.1.tar.gz --markdown 20240423/p/policyengine-us/0.744.0-0.744.1/README.md --exclude *.pyd
+[2024-04-23 01:41:17] INFO root fetch - processPackages [crowbar-package-manager]: executing diffoscope
+[2024-04-23 01:41:17] INFO root fetch - processPackages [crowbar-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowbar_package_manager-0.1.8.tar.gz tmp/crowbar_package_manager-0.1.9.tar.gz --markdown 20240423/c/crowbar-package-manager/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 01:41:17] INFO root fetch - processPackages [tivars]: executing diffoscope
+[2024-04-23 01:41:17] INFO root fetch - processPackages [tivars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tivars-0.8.2.tar.gz tmp/tivars-0.9.0.tar.gz --markdown 20240423/t/tivars/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-23 01:41:17] INFO root fetch - processPackages [helpful-assistant]: Remove: archive file [/home/abi/fetcher/tmp/helpful_assistant-0.0.7.tar.gz]
+[2024-04-23 01:41:17] INFO root fetch - processPackages [helpful-assistant]: Remove: archive file [/home/abi/fetcher/tmp/helpful_assistant-0.0.8.tar.gz]
+[2024-04-23 01:41:17] INFO root fetch - main [MainThread]: End processing [helpful-assistant]: success
+[2024-04-23 01:41:18] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.8.tar.gz]
+[2024-04-23 01:41:18] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.9.tar.gz]
+[2024-04-23 01:41:18] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2024-04-23 01:41:18] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.8.tar.gz]
+[2024-04-23 01:41:18] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.9.tar.gz]
+[2024-04-23 01:41:18] INFO root fetch - main [MainThread]: End processing [crowbar-package-manager]: success
+[2024-04-23 01:41:18] INFO root fetch - processPackages [tivars]: Remove: archive file [/home/abi/fetcher/tmp/tivars-0.8.2.tar.gz]
+[2024-04-23 01:41:18] INFO root fetch - processPackages [tivars]: Remove: archive file [/home/abi/fetcher/tmp/tivars-0.9.0.tar.gz]
+[2024-04-23 01:41:18] INFO root fetch - main [MainThread]: End processing [tivars]: success
+[2024-04-23 01:41:49] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.744.0.tar.gz]
+[2024-04-23 01:41:49] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.744.1.tar.gz]
+[2024-04-23 01:41:49] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-23 01:41:49] INFO root fetch - main [MainThread]: Store serial: [22886041]
