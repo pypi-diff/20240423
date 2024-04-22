@@ -1252,3 +1252,47 @@
 [2024-04-23 01:07:26] INFO root fetch - processPackages [spyglass-neuro]: Remove: archive file [/home/abi/fetcher/tmp/spyglass_neuro-0.5.2.tar.gz]
 [2024-04-23 01:07:26] INFO root fetch - main [MainThread]: End processing [spyglass-neuro]: success
 [2024-04-23 01:07:26] INFO root fetch - main [MainThread]: Store serial: [22885750]
+[2024-04-23 01:09:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885750]
+[2024-04-23 01:09:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 01:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diive
+[2024-04-23 01:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: citation-crawler
+[2024-04-23 01:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ytmusic-deleter
+[2024-04-23 01:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ligo-softioc
+[2024-04-23 01:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: policyengine-us
+[2024-04-23 01:09:35] INFO root fetch - processPackages [citation-crawler]: New version: [2.9.1] Old Version: [2.9]
+[2024-04-23 01:09:35] INFO root fetch - processPackages [policyengine-us]: New version: [0.744.0] Old Version: [0.743.1]
+[2024-04-23 01:09:35] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/77/cc/4e9ccf3d68a81f6d010dec104da9371e3bd39ca369f96dfb63b28235de91/citation_crawler-2.9.tar.gz
+[2024-04-23 01:09:35] INFO root fetch - processPackages [ligo-softioc]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-23 01:09:35] INFO root fetch - processPackages [diive]: New version: [0.74.1] Old Version: [0.74.0]
+[2024-04-23 01:09:35] INFO root fetch - processPackages [ytmusic-deleter]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-23 01:09:35] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/56/1c/eb283250b504205d64d3486c991fd849c7a6d620ee8e271a7b0484a1b47f/policyengine-us-0.743.1.tar.gz
+[2024-04-23 01:09:35] INFO root fetch - processPackages [ligo-softioc]: Downloading https://files.pythonhosted.org/packages/e1/58/a9a879ef9db85f099191962b74fa78b458692371dfec5230f86a136e6845/ligo_softioc-0.1.6.tar.gz
+[2024-04-23 01:09:35] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/43/fe/bac1a34bc425ca71eb767703e8db2d2fa2f69020a0c02b9ce7c9b7d0d06c/ytmusic_deleter-2.2.0.tar.gz
+[2024-04-23 01:09:35] INFO root fetch - processPackages [diive]: Downloading https://files.pythonhosted.org/packages/c6/07/1a54b93ce7f2fab3b6ac154b16b609cd992afe84c11e5fba74a78dd9c855/diive-0.74.0.tar.gz
+[2024-04-23 01:09:35] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/2a/7c/aad6f97e1d8231852eecf1e8f231ace18e3080421ce064a8a8adc45d4d3d/citation_crawler-2.9.1.tar.gz
+[2024-04-23 01:09:35] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/1b/c0/6574f9b869143b3b559c4bb6e9291d13497e921e62c916af31569291c449/policyengine-us-0.744.0.tar.gz
+[2024-04-23 01:09:35] WARNING root fetch - processPackages [diive]: Skipping package: exceeds size limit 18869524>=10485760
+[2024-04-23 01:09:35] INFO root fetch - main [MainThread]: End processing [diive] error
+[2024-04-23 01:09:36] INFO root fetch - processPackages [citation-crawler]: executing diffoscope
+[2024-04-23 01:09:36] INFO root fetch - processPackages [citation-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_crawler-2.9.tar.gz tmp/citation_crawler-2.9.1.tar.gz --markdown 20240423/c/citation-crawler/2.9-2.9.1/README.md --exclude *.pyd
+[2024-04-23 01:09:36] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/8d/4f/3eb7f0f00c902d6d5393a3843ec99f75019bbcd20dd74b8c6221ab3b3fb5/ytmusic_deleter-2.2.1.tar.gz
+[2024-04-23 01:09:36] INFO root fetch - processPackages [ligo-softioc]: Downloading https://files.pythonhosted.org/packages/c1/c9/aa7b8e41b258a30c12a50954e93191a7a8d7f658b14b8143b605a83b4b2e/ligo_softioc-0.1.7.tar.gz
+[2024-04-23 01:09:36] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-23 01:09:36] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.743.1.tar.gz tmp/policyengine-us-0.744.0.tar.gz --markdown 20240423/p/policyengine-us/0.743.1-0.744.0/README.md --exclude *.pyd
+[2024-04-23 01:09:36] INFO root fetch - processPackages [ytmusic-deleter]: executing diffoscope
+[2024-04-23 01:09:36] INFO root fetch - processPackages [ytmusic-deleter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytmusic_deleter-2.2.0.tar.gz tmp/ytmusic_deleter-2.2.1.tar.gz --markdown 20240423/y/ytmusic-deleter/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-04-23 01:09:36] INFO root fetch - processPackages [ligo-softioc]: executing diffoscope
+[2024-04-23 01:09:36] INFO root fetch - processPackages [ligo-softioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ligo_softioc-0.1.6.tar.gz tmp/ligo_softioc-0.1.7.tar.gz --markdown 20240423/l/ligo-softioc/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-23 01:09:36] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.tar.gz]
+[2024-04-23 01:09:36] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.1.tar.gz]
+[2024-04-23 01:09:36] INFO root fetch - main [MainThread]: End processing [citation-crawler]: success
+[2024-04-23 01:09:36] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.2.0.tar.gz]
+[2024-04-23 01:09:36] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.2.1.tar.gz]
+[2024-04-23 01:09:36] INFO root fetch - main [MainThread]: End processing [ytmusic-deleter]: success
+[2024-04-23 01:09:36] INFO root fetch - processPackages [ligo-softioc]: Remove: archive file [/home/abi/fetcher/tmp/ligo_softioc-0.1.6.tar.gz]
+[2024-04-23 01:09:36] INFO root fetch - processPackages [ligo-softioc]: Remove: archive file [/home/abi/fetcher/tmp/ligo_softioc-0.1.7.tar.gz]
+[2024-04-23 01:09:36] INFO root fetch - main [MainThread]: End processing [ligo-softioc]: success
+[2024-04-23 01:10:08] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.743.1.tar.gz]
+[2024-04-23 01:10:08] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.744.0.tar.gz]
+[2024-04-23 01:10:08] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-23 01:10:08] INFO root fetch - main [MainThread]: Store serial: [22885763]
