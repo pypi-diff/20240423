@@ -1419,3 +1419,33 @@
 [2024-04-23 01:17:11] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.92-cp39-cp39-win_amd64.whl.zip]
 [2024-04-23 01:17:11] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
 [2024-04-23 01:17:11] INFO root fetch - main [MainThread]: Store serial: [22885852]
+[2024-04-23 01:19:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885852]
+[2024-04-23 01:19:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 01:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: domolibrary-execution
+[2024-04-23 01:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: affixapi
+[2024-04-23 01:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DFRobotUPS
+[2024-04-23 01:19:20] INFO root fetch - processPackages [domolibrary-execution]: New version: [0.0.4] Old Version: [0.0.1]
+[2024-04-23 01:19:20] INFO root fetch - processPackages [affixapi]: New version: [1.1.62] Old Version: [1.1.61]
+[2024-04-23 01:19:20] INFO root fetch - processPackages [DFRobotUPS]: New version: [0.4] Old Version: [0.3.2]
+[2024-04-23 01:19:21] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/27/b0/c83228b94129ede7d7fd72530f53def0a3224896206f0eca3dfbc2f1299b/affixapi-1.1.61.tar.gz
+[2024-04-23 01:19:21] INFO root fetch - processPackages [domolibrary-execution]: Downloading https://files.pythonhosted.org/packages/3f/d1/7e0c0e225109509cf8aaa155dbf81a41e7de74fa8ff76ed6b4eb97c68226/domolibrary_execution-0.0.1.tar.gz
+[2024-04-23 01:19:21] INFO root fetch - processPackages [DFRobotUPS]: Downloading https://files.pythonhosted.org/packages/3b/3b/95a1598dd789779f391538e3532c4689b8a20076073ea58af12a5dbf5a28/DFRobotUPS-0.3.2.tar.gz
+[2024-04-23 01:19:21] INFO root fetch - processPackages [domolibrary-execution]: Downloading https://files.pythonhosted.org/packages/8f/eb/45aa204206fd33923249c7ed000ae89828cd9ced66b7c457ca38571ae8b1/domolibrary_execution-0.0.4.tar.gz
+[2024-04-23 01:19:21] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/2f/b3/b01bf4f6f7c99466fa0f399fdc4cac929b249bfff41a2e30f7bb91b6af3f/affixapi-1.1.62.tar.gz
+[2024-04-23 01:19:21] INFO root fetch - processPackages [domolibrary-execution]: executing diffoscope
+[2024-04-23 01:19:21] INFO root fetch - processPackages [domolibrary-execution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary_execution-0.0.1.tar.gz tmp/domolibrary_execution-0.0.4.tar.gz --markdown 20240423/d/domolibrary-execution/0.0.1-0.0.4/README.md --exclude *.pyd
+[2024-04-23 01:19:21] INFO root fetch - processPackages [DFRobotUPS]: Downloading https://files.pythonhosted.org/packages/c8/cb/1a44e7d68bf5d1d58b235c5cbe5ec1d70f3c93d6f879c327a79498fa0c58/DFRobotUPS-0.4.tar.gz
+[2024-04-23 01:19:21] INFO root fetch - processPackages [affixapi]: executing diffoscope
+[2024-04-23 01:19:21] INFO root fetch - processPackages [affixapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affixapi-1.1.61.tar.gz tmp/affixapi-1.1.62.tar.gz --markdown 20240423/a/affixapi/1.1.61-1.1.62/README.md --exclude *.pyd
+[2024-04-23 01:19:21] INFO root fetch - processPackages [DFRobotUPS]: executing diffoscope
+[2024-04-23 01:19:21] INFO root fetch - processPackages [DFRobotUPS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DFRobotUPS-0.3.2.tar.gz tmp/DFRobotUPS-0.4.tar.gz --markdown 20240423/D/DFRobotUPS/0.3.2-0.4/README.md --exclude *.pyd
+[2024-04-23 01:19:22] INFO root fetch - processPackages [domolibrary-execution]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary_execution-0.0.1.tar.gz]
+[2024-04-23 01:19:22] INFO root fetch - processPackages [domolibrary-execution]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary_execution-0.0.4.tar.gz]
+[2024-04-23 01:19:22] INFO root fetch - main [MainThread]: End processing [domolibrary-execution]: success
+[2024-04-23 01:19:22] INFO root fetch - processPackages [DFRobotUPS]: Remove: archive file [/home/abi/fetcher/tmp/DFRobotUPS-0.3.2.tar.gz]
+[2024-04-23 01:19:22] INFO root fetch - processPackages [DFRobotUPS]: Remove: archive file [/home/abi/fetcher/tmp/DFRobotUPS-0.4.tar.gz]
+[2024-04-23 01:19:22] INFO root fetch - main [MainThread]: End processing [DFRobotUPS]: success
+[2024-04-23 01:19:22] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.61.tar.gz]
+[2024-04-23 01:19:22] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.62.tar.gz]
+[2024-04-23 01:19:22] INFO root fetch - main [MainThread]: End processing [affixapi]: success
+[2024-04-23 01:19:22] INFO root fetch - main [MainThread]: Store serial: [22885861]
