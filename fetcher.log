@@ -850,3 +850,60 @@
 [2024-04-23 00:43:10] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.8.tar.gz]
 [2024-04-23 00:43:10] INFO root fetch - main [MainThread]: End processing [parsl]: success
 [2024-04-23 00:43:10] INFO root fetch - main [MainThread]: Store serial: [22885594]
+[2024-04-23 00:45:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885594]
+[2024-04-23 00:45:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 00:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drapi-lemur
+[2024-04-23 00:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-core
+[2024-04-23 00:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras
+[2024-04-23 00:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smadi
+[2024-04-23 00:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: waii-sdk-py
+[2024-04-23 00:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wdl-lsp
+[2024-04-23 00:45:19] INFO root fetch - processPackages [wdl-lsp]: New version: [0.0.87] Old Version: [0.0.86]
+[2024-04-23 00:45:19] INFO root fetch - processPackages [keras]: New version: [3.3.0] Old Version: [3.2.1]
+[2024-04-23 00:45:19] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-23 00:45:19] INFO root fetch - processPackages [drapi-lemur]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-23 00:45:19] INFO root fetch - processPackages [wdl-lsp]: Downloading https://files.pythonhosted.org/packages/2e/32/66e360fce7fc682a4e870ee7fa1f1f9d9e6b880fe860b54526a7def9f23e/wdl-lsp-0.0.86.tar.gz
+[2024-04-23 00:45:19] INFO root fetch - processPackages [smadi]: New version: [1.0.0] Old Version: [0.2.8]
+[2024-04-23 00:45:19] INFO root fetch - processPackages [waii-sdk-py]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-23 00:45:19] INFO root fetch - processPackages [keras]: Downloading https://files.pythonhosted.org/packages/b3/dd/3e37318ddcd9402293586b96988a5c8946f493334079eeedebaa80087d57/keras-3.2.1.tar.gz
+[2024-04-23 00:45:19] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2024-04-23 00:45:19] INFO root fetch - processPackages [drapi-lemur]: Downloading https://files.pythonhosted.org/packages/3e/5b/5bfdc65218ade3245d4acca327f837b703a02117e393630ec6d424bea64e/drapi-lemur-1.0.4.tar.gz
+[2024-04-23 00:45:19] INFO root fetch - processPackages [wdl-lsp]: Downloading https://files.pythonhosted.org/packages/a6/f1/7499d5fa57e75a6e3f54175baaaa0502f3cc3fb7483103411650d8074a21/wdl-lsp-0.0.87.tar.gz
+[2024-04-23 00:45:19] INFO root fetch - processPackages [smadi]: Downloading https://files.pythonhosted.org/packages/f2/5f/33c26399768f8f51ea768e0310c69c591c64307ed9d80ebe8698d31b22a7/smadi-0.2.8.tar.gz
+[2024-04-23 00:45:19] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2024-04-23 00:45:19] INFO root fetch - processPackages [keras]: Downloading https://files.pythonhosted.org/packages/71/84/b31e1c64a97ea0ac411e0304a5f8f51aa0987add9eebf9a12f724b594e4e/keras-3.3.0.tar.gz
+[2024-04-23 00:45:19] INFO root fetch - processPackages [wdl-lsp]: executing diffoscope
+[2024-04-23 00:45:19] INFO root fetch - processPackages [wdl-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wdl-lsp-0.0.86.tar.gz tmp/wdl-lsp-0.0.87.tar.gz --markdown 20240423/w/wdl-lsp/0.0.86-0.0.87/README.md --exclude *.pyd
+[2024-04-23 00:45:19] INFO root fetch - processPackages [waii-sdk-py]: Downloading https://files.pythonhosted.org/packages/66/9c/2c87fc22d28c4ea1b75c79ce5a78be2a0493900c8354fa627df4f02ef50f/waii-sdk-py-1.9.0.tar.gz
+[2024-04-23 00:45:19] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2024-04-23 00:45:19] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20240423/d/dragonfly-core/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-23 00:45:20] INFO root fetch - processPackages [keras]: executing diffoscope
+[2024-04-23 00:45:20] INFO root fetch - processPackages [keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-3.2.1.tar.gz tmp/keras-3.3.0.tar.gz --markdown 20240423/k/keras/3.2.1-3.3.0/README.md --exclude *.pyd
+[2024-04-23 00:45:20] INFO root fetch - processPackages [smadi]: Downloading https://files.pythonhosted.org/packages/f8/fd/8ff4b9e3a222506140cb3f11f392bae3541f9c797f82fa3aec691b6e7a21/smadi-1.0.0.tar.gz
+[2024-04-23 00:45:20] INFO root fetch - processPackages [drapi-lemur]: Downloading https://files.pythonhosted.org/packages/15/ce/710ec5c7b8555ce30083a9005f78d59379f62749b15e164fbb444cd64696/drapi-lemur-1.0.5.tar.gz
+[2024-04-23 00:45:20] INFO root fetch - processPackages [waii-sdk-py]: Downloading https://files.pythonhosted.org/packages/31/e8/ee7289f00157a5259fec17cd83451e92f8300f69ef9884cef2adb87ca6cf/waii-sdk-py-1.9.1.tar.gz
+[2024-04-23 00:45:20] INFO root fetch - processPackages [smadi]: executing diffoscope
+[2024-04-23 00:45:20] INFO root fetch - processPackages [smadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smadi-0.2.8.tar.gz tmp/smadi-1.0.0.tar.gz --markdown 20240423/s/smadi/0.2.8-1.0.0/README.md --exclude *.pyd
+[2024-04-23 00:45:20] INFO root fetch - processPackages [waii-sdk-py]: executing diffoscope
+[2024-04-23 00:45:20] INFO root fetch - processPackages [waii-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waii-sdk-py-1.9.0.tar.gz tmp/waii-sdk-py-1.9.1.tar.gz --markdown 20240423/w/waii-sdk-py/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-23 00:45:20] INFO root fetch - processPackages [drapi-lemur]: executing diffoscope
+[2024-04-23 00:45:20] INFO root fetch - processPackages [drapi-lemur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drapi-lemur-1.0.4.tar.gz tmp/drapi-lemur-1.0.5.tar.gz --markdown 20240423/d/drapi-lemur/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-23 00:45:20] INFO root fetch - processPackages [wdl-lsp]: Remove: archive file [/home/abi/fetcher/tmp/wdl-lsp-0.0.86.tar.gz]
+[2024-04-23 00:45:20] INFO root fetch - processPackages [wdl-lsp]: Remove: archive file [/home/abi/fetcher/tmp/wdl-lsp-0.0.87.tar.gz]
+[2024-04-23 00:45:20] INFO root fetch - main [MainThread]: End processing [wdl-lsp]: success
+[2024-04-23 00:45:20] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2024-04-23 00:45:20] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2024-04-23 00:45:20] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2024-04-23 00:45:21] INFO root fetch - processPackages [smadi]: Remove: archive file [/home/abi/fetcher/tmp/smadi-0.2.8.tar.gz]
+[2024-04-23 00:45:21] INFO root fetch - processPackages [smadi]: Remove: archive file [/home/abi/fetcher/tmp/smadi-1.0.0.tar.gz]
+[2024-04-23 00:45:21] INFO root fetch - main [MainThread]: End processing [smadi]: success
+[2024-04-23 00:45:21] INFO root fetch - processPackages [waii-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/waii-sdk-py-1.9.0.tar.gz]
+[2024-04-23 00:45:21] INFO root fetch - processPackages [waii-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/waii-sdk-py-1.9.1.tar.gz]
+[2024-04-23 00:45:21] INFO root fetch - main [MainThread]: End processing [waii-sdk-py]: success
+[2024-04-23 00:45:21] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.4.tar.gz]
+[2024-04-23 00:45:21] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.5.tar.gz]
+[2024-04-23 00:45:21] INFO root fetch - main [MainThread]: End processing [drapi-lemur]: success
+[2024-04-23 00:45:24] INFO root fetch - processPackages [keras]: Remove: archive file [/home/abi/fetcher/tmp/keras-3.2.1.tar.gz]
+[2024-04-23 00:45:24] INFO root fetch - processPackages [keras]: Remove: archive file [/home/abi/fetcher/tmp/keras-3.3.0.tar.gz]
+[2024-04-23 00:45:24] INFO root fetch - main [MainThread]: End processing [keras]: success
+[2024-04-23 00:45:24] INFO root fetch - main [MainThread]: Store serial: [22885612]
