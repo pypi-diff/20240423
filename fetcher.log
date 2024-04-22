@@ -1791,3 +1791,9 @@
 [2024-04-23 01:34:47] INFO root fetch - processPackages [sqlUts]: Remove: archive file [/home/abi/fetcher/tmp/sqlUts-1.0.2.tar.gz]
 [2024-04-23 01:34:47] INFO root fetch - main [MainThread]: End processing [sqlUts]: success
 [2024-04-23 01:34:47] INFO root fetch - main [MainThread]: Store serial: [22886005]
+[2024-04-23 01:36:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886005]
+[2024-04-23 01:36:55] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-23 01:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brightspacepyclient
+[2024-04-23 01:36:56] WARNING root fetch - processPackages [brightspacepyclient]: Skipping, unable to determine old version
+[2024-04-23 01:36:56] INFO root fetch - main [MainThread]: End processing [brightspacepyclient] error
+[2024-04-23 01:36:56] INFO root fetch - main [MainThread]: Store serial: [22886010]
