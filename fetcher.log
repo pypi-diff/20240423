@@ -487,3 +487,39 @@
 [2024-04-23 00:25:41] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.4.5.tar.gz]
 [2024-04-23 00:25:41] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
 [2024-04-23 00:25:41] INFO root fetch - main [MainThread]: Store serial: [22885446]
+[2024-04-23 00:27:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885446]
+[2024-04-23 00:27:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 00:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chaiverse
+[2024-04-23 00:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: memento-scorecard
+[2024-04-23 00:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafruit-circuitpython-wiznet5k
+[2024-04-23 00:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sysinfobj
+[2024-04-23 00:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zotasdk
+[2024-04-23 00:27:50] INFO root fetch - processPackages [memento-scorecard]: New version: [2.0.0] Old Version: [1.3.2]
+[2024-04-23 00:27:50] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: New version: [5.1.2] Old Version: [5.1.1]
+[2024-04-23 00:27:50] WARNING root fetch - processPackages [sysinfobj]: Skipping, unable to determine old version
+[2024-04-23 00:27:50] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/4f/da/cceeadb919be7df05b17a3a58f7b3254001ae022884011d94aac7361ea57/memento-scorecard-1.3.2.tar.gz
+[2024-04-23 00:27:50] INFO root fetch - main [MainThread]: End processing [sysinfobj] error
+[2024-04-23 00:27:50] INFO root fetch - processPackages [chaiverse]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-23 00:27:50] WARNING root fetch - processPackages [zotasdk]: Skipping, unable to determine old version
+[2024-04-23 00:27:50] INFO root fetch - main [MainThread]: End processing [zotasdk] error
+[2024-04-23 00:27:50] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/ae/37/d993828a3c2fcde038b8f5f971409111ef8c1cac13ee0c656fb2b06782bb/adafruit_circuitpython_wiznet5k-5.1.1.tar.gz
+[2024-04-23 00:27:50] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/17/33/bc6ecd14960defdbe88604a391d831bf277f0970164e47fbc2b005ee7a35/memento-scorecard-2.0.0.tar.gz
+[2024-04-23 00:27:50] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/40/8f/0c28b09c5b933f63a5e9e2b50a3e8a06a87151afc8e162b2c09deedc4bf0/chaiverse-1.9.8.tar.gz
+[2024-04-23 00:27:50] INFO root fetch - processPackages [memento-scorecard]: executing diffoscope
+[2024-04-23 00:27:50] INFO root fetch - processPackages [memento-scorecard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memento-scorecard-1.3.2.tar.gz tmp/memento-scorecard-2.0.0.tar.gz --markdown 20240423/m/memento-scorecard/1.3.2-2.0.0/README.md --exclude *.pyd
+[2024-04-23 00:27:50] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/46/d2/89a7952b57f0ef3e82dd09c1df6de528a87ee182398a43fdda5d9313ae6b/adafruit_circuitpython_wiznet5k-5.1.2.tar.gz
+[2024-04-23 00:27:50] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: executing diffoscope
+[2024-04-23 00:27:50] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit_circuitpython_wiznet5k-5.1.1.tar.gz tmp/adafruit_circuitpython_wiznet5k-5.1.2.tar.gz --markdown 20240423/a/adafruit-circuitpython-wiznet5k/5.1.1-5.1.2/README.md --exclude *.pyd
+[2024-04-23 00:27:51] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/4c/ed/6d3e89ab870b31d2281b7595f6030d767109316508a89f1d6178491348cd/chaiverse-1.9.9.tar.gz
+[2024-04-23 00:27:51] INFO root fetch - processPackages [chaiverse]: executing diffoscope
+[2024-04-23 00:27:51] INFO root fetch - processPackages [chaiverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaiverse-1.9.8.tar.gz tmp/chaiverse-1.9.9.tar.gz --markdown 20240423/c/chaiverse/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-23 00:27:51] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-1.3.2.tar.gz]
+[2024-04-23 00:27:51] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-2.0.0.tar.gz]
+[2024-04-23 00:27:51] INFO root fetch - main [MainThread]: End processing [memento-scorecard]: success
+[2024-04-23 00:27:51] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_wiznet5k-5.1.1.tar.gz]
+[2024-04-23 00:27:51] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_wiznet5k-5.1.2.tar.gz]
+[2024-04-23 00:27:51] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-wiznet5k]: success
+[2024-04-23 00:27:51] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.8.tar.gz]
+[2024-04-23 00:27:51] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.9.tar.gz]
+[2024-04-23 00:27:51] INFO root fetch - main [MainThread]: End processing [chaiverse]: success
+[2024-04-23 00:27:51] INFO root fetch - main [MainThread]: Store serial: [22885464]
