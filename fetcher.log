@@ -2158,3 +2158,33 @@
 [2024-04-23 01:57:41] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.1-py2.py3-none-any.whl.zip]
 [2024-04-23 01:57:41] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2024-04-23 01:57:41] INFO root fetch - main [MainThread]: Store serial: [22886118]
+[2024-04-23 01:59:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886118]
+[2024-04-23 01:59:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 01:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intecomm-edc
+[2024-04-23 01:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: infrasys
+[2024-04-23 01:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ethyca-fides
+[2024-04-23 01:59:49] INFO root fetch - processPackages [intecomm-edc]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 01:59:49] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-23 01:59:49] INFO root fetch - processPackages [infrasys]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 01:59:49] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/95/7e/91688931664f03b9e0b33b457b317a3c56b1a56f2296576c6566f791acb9/intecomm-edc-0.2.8.tar.gz
+[2024-04-23 01:59:49] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-04-23 01:59:49] INFO root fetch - processPackages [infrasys]: Downloading https://files.pythonhosted.org/packages/90/e8/37cc595c0d8755e8c1cec9c2a9aa86c74168250d85f59f8b9a872fae5e0c/infrasys-0.0.2.tar.gz
+[2024-04-23 01:59:49] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/d8/f7/da7970f16a11303f171ea066f66e06b546fa84ee58cd6cfd9da33905321f/intecomm-edc-0.2.9.tar.gz
+[2024-04-23 01:59:49] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2024-04-23 01:59:49] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.2.8.tar.gz tmp/intecomm-edc-0.2.9.tar.gz --markdown 20240423/i/intecomm-edc/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 01:59:49] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-04-23 01:59:50] INFO root fetch - processPackages [infrasys]: Downloading https://files.pythonhosted.org/packages/43/f5/ed2f128198dc9ce9261f7b53faf1e3c11e874198afe20e24c2b11486dc78/infrasys-0.0.3.tar.gz
+[2024-04-23 01:59:50] INFO root fetch - processPackages [infrasys]: executing diffoscope
+[2024-04-23 01:59:50] INFO root fetch - processPackages [infrasys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrasys-0.0.2.tar.gz tmp/infrasys-0.0.3.tar.gz --markdown 20240423/i/infrasys/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 01:59:50] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-04-23 01:59:50] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240423/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-23 01:59:50] INFO root fetch - processPackages [infrasys]: Remove: archive file [/home/abi/fetcher/tmp/infrasys-0.0.2.tar.gz]
+[2024-04-23 01:59:50] INFO root fetch - processPackages [infrasys]: Remove: archive file [/home/abi/fetcher/tmp/infrasys-0.0.3.tar.gz]
+[2024-04-23 01:59:50] INFO root fetch - main [MainThread]: End processing [infrasys]: success
+[2024-04-23 01:59:52] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.8.tar.gz]
+[2024-04-23 01:59:52] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.9.tar.gz]
+[2024-04-23 01:59:52] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2024-04-23 01:59:53] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-04-23 01:59:53] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-04-23 01:59:53] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-04-23 01:59:53] INFO root fetch - main [MainThread]: Store serial: [22886127]
