@@ -238,3 +238,75 @@
 [2024-04-23 00:14:32] INFO root fetch - processPackages [scAllele]: Remove: archive file [/home/abi/fetcher/tmp/scallele-0.0.9.4.tar.gz]
 [2024-04-23 00:14:32] INFO root fetch - main [MainThread]: End processing [scAllele]: success
 [2024-04-23 00:14:32] INFO root fetch - main [MainThread]: Store serial: [22885357]
+[2024-04-23 00:16:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885357]
+[2024-04-23 00:16:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 00:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anthropic-tools
+[2024-04-23 00:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sapiopylib
+[2024-04-23 00:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: artd-stock
+[2024-04-23 00:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: utilsforecast
+[2024-04-23 00:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whitecloak
+[2024-04-23 00:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkscreener
+[2024-04-23 00:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: baserun
+[2024-04-23 00:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: domolibrary
+[2024-04-23 00:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SappyCSTR
+[2024-04-23 00:16:40] INFO root fetch - processPackages [artd-stock]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-23 00:16:40] INFO root fetch - processPackages [whitecloak]: New version: [0.3.1] Old Version: [0.2.1]
+[2024-04-23 00:16:40] INFO root fetch - processPackages [utilsforecast]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-23 00:16:40] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240422.285] Old Version: [0.44.20240421.284]
+[2024-04-23 00:16:40] WARNING root fetch - processPackages [anthropic-tools]: Skipping, unable to determine old version
+[2024-04-23 00:16:40] INFO root fetch - main [MainThread]: End processing [anthropic-tools] error
+[2024-04-23 00:16:40] INFO root fetch - processPackages [baserun]: New version: [0.9.9] Old Version: [0.9.8b2]
+[2024-04-23 00:16:40] INFO root fetch - processPackages [utilsforecast]: Downloading https://files.pythonhosted.org/packages/92/c0/70e3fcc2608f99cc3b9ff05ba01aede49e1c25f386370ec5c8a4055c701a/utilsforecast-0.1.5.tar.gz
+[2024-04-23 00:16:40] WARNING root fetch - processPackages [SappyCSTR]: Skipping, unable to determine old version
+[2024-04-23 00:16:40] INFO root fetch - main [MainThread]: End processing [SappyCSTR] error
+[2024-04-23 00:16:40] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/c7/8e/72d4a618e451c4283dab4164feb2d796144b419c9eeeffadfa67761bc908/pkscreener-0.44.20240421.284.tar.gz
+[2024-04-23 00:16:40] INFO root fetch - processPackages [sapiopylib]: New version: [2024.4.9a182] Old Version: [2024.4.9a181]
+[2024-04-23 00:16:41] INFO root fetch - processPackages [artd-stock]: Downloading https://files.pythonhosted.org/packages/09/ff/9fb432e094ed52337354254ab541aee12a2089bf060fcf331ecb7027d90b/artd-stock-1.0.3.tar.gz
+[2024-04-23 00:16:41] INFO root fetch - processPackages [whitecloak]: Downloading https://files.pythonhosted.org/packages/fa/68/5ddeb459c0e9e2413bb0f015d74430ffbdfe862991ef05961ab36fd0f8d9/whitecloak-0.2.1.tar.gz
+[2024-04-23 00:16:41] INFO root fetch - processPackages [baserun]: Downloading https://files.pythonhosted.org/packages/c8/10/9cc8892d2a1f6b8cabf26022405fd253e7333776ca8f37da87051ed1cf3d/baserun-0.9.8b2.tar.gz
+[2024-04-23 00:16:41] INFO root fetch - processPackages [utilsforecast]: Downloading https://files.pythonhosted.org/packages/49/8a/09f9ff600193db75010e23aca422841a8c5af18c5dcb6fa960a727ce3c45/utilsforecast-0.1.6.tar.gz
+[2024-04-23 00:16:41] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/e7/a2/dfed0a88a19ff2b956251d7ca32e07b6b7b1f0f12eceaced425ae21e7a9f/sapiopylib-2024.4.9a181.tar.gz
+[2024-04-23 00:16:41] INFO root fetch - processPackages [domolibrary]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-23 00:16:41] INFO root fetch - processPackages [utilsforecast]: executing diffoscope
+[2024-04-23 00:16:41] INFO root fetch - processPackages [utilsforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilsforecast-0.1.5.tar.gz tmp/utilsforecast-0.1.6.tar.gz --markdown 20240423/u/utilsforecast/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-23 00:16:41] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/4d/54/adea7abf1b9b1ad326a1e3085dd52d1c54e2bdbffbf22c7ed3c3b26344a6/pkscreener-0.44.20240422.285.tar.gz
+[2024-04-23 00:16:41] INFO root fetch - processPackages [artd-stock]: Downloading https://files.pythonhosted.org/packages/07/6a/a4ba81428453b53c542f57282096a126b29174e8e6c18107f4fc87bfbf2c/artd-stock-1.0.4.tar.gz
+[2024-04-23 00:16:41] INFO root fetch - processPackages [whitecloak]: Downloading https://files.pythonhosted.org/packages/4c/c0/79da649239f523f4b9a84147bfe8c2bddb967b6162268d8a6bbef226cb27/whitecloak-0.3.1.tar.gz
+[2024-04-23 00:16:41] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/95/f3/6c9c1bcece92c131f243b06ce2ea786b42aac014c102edd4142844b5d688/domolibrary-4.0.8.tar.gz
+[2024-04-23 00:16:41] INFO root fetch - processPackages [artd-stock]: executing diffoscope
+[2024-04-23 00:16:41] INFO root fetch - processPackages [artd-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd-stock-1.0.3.tar.gz tmp/artd-stock-1.0.4.tar.gz --markdown 20240423/a/artd-stock/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-23 00:16:41] INFO root fetch - processPackages [whitecloak]: executing diffoscope
+[2024-04-23 00:16:41] INFO root fetch - processPackages [whitecloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitecloak-0.2.1.tar.gz tmp/whitecloak-0.3.1.tar.gz --markdown 20240423/w/whitecloak/0.2.1-0.3.1/README.md --exclude *.pyd
+[2024-04-23 00:16:41] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-23 00:16:41] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240421.284.tar.gz tmp/pkscreener-0.44.20240422.285.tar.gz --markdown 20240423/p/pkscreener/0.44.20240421.284-0.44.20240422.285/README.md --exclude *.pyd
+[2024-04-23 00:16:41] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/0a/6b/94a233fca31880977a33a8f70d7b3908cb3176e420daafd0446fd86d4cdd/sapiopylib-2024.4.9a182.tar.gz
+[2024-04-23 00:16:41] INFO root fetch - processPackages [baserun]: Downloading https://files.pythonhosted.org/packages/74/d8/7e0fd8860bd7e008312f628ef194c578e19cf4990540f502935f3c7c7a57/baserun-0.9.9.tar.gz
+[2024-04-23 00:16:41] INFO root fetch - processPackages [sapiopylib]: executing diffoscope
+[2024-04-23 00:16:41] INFO root fetch - processPackages [sapiopylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapiopylib-2024.4.9a181.tar.gz tmp/sapiopylib-2024.4.9a182.tar.gz --markdown 20240423/s/sapiopylib/2024.4.9a181-2024.4.9a182/README.md --exclude *.pyd
+[2024-04-23 00:16:41] INFO root fetch - processPackages [baserun]: executing diffoscope
+[2024-04-23 00:16:41] INFO root fetch - processPackages [baserun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baserun-0.9.8b2.tar.gz tmp/baserun-0.9.9.tar.gz --markdown 20240423/b/baserun/0.9.8b2-0.9.9/README.md --exclude *.pyd
+[2024-04-23 00:16:41] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/20/04/03f981a99262a7143a6a063a2e2f6e7ef8f7e8783b38fbaac09ad11e2cdd/domolibrary-4.0.9.tar.gz
+[2024-04-23 00:16:42] INFO root fetch - processPackages [utilsforecast]: Remove: archive file [/home/abi/fetcher/tmp/utilsforecast-0.1.5.tar.gz]
+[2024-04-23 00:16:42] INFO root fetch - processPackages [utilsforecast]: Remove: archive file [/home/abi/fetcher/tmp/utilsforecast-0.1.6.tar.gz]
+[2024-04-23 00:16:42] INFO root fetch - main [MainThread]: End processing [utilsforecast]: success
+[2024-04-23 00:16:42] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2024-04-23 00:16:42] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-4.0.8.tar.gz tmp/domolibrary-4.0.9.tar.gz --markdown 20240423/d/domolibrary/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-04-23 00:16:42] INFO root fetch - processPackages [whitecloak]: Remove: archive file [/home/abi/fetcher/tmp/whitecloak-0.2.1.tar.gz]
+[2024-04-23 00:16:42] INFO root fetch - processPackages [whitecloak]: Remove: archive file [/home/abi/fetcher/tmp/whitecloak-0.3.1.tar.gz]
+[2024-04-23 00:16:42] INFO root fetch - main [MainThread]: End processing [whitecloak]: success
+[2024-04-23 00:16:42] INFO root fetch - processPackages [artd-stock]: Remove: archive file [/home/abi/fetcher/tmp/artd-stock-1.0.3.tar.gz]
+[2024-04-23 00:16:42] INFO root fetch - processPackages [artd-stock]: Remove: archive file [/home/abi/fetcher/tmp/artd-stock-1.0.4.tar.gz]
+[2024-04-23 00:16:42] INFO root fetch - main [MainThread]: End processing [artd-stock]: success
+[2024-04-23 00:16:42] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240421.284.tar.gz]
+[2024-04-23 00:16:42] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240422.285.tar.gz]
+[2024-04-23 00:16:42] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-23 00:16:42] INFO root fetch - processPackages [baserun]: Remove: archive file [/home/abi/fetcher/tmp/baserun-0.9.8b2.tar.gz]
+[2024-04-23 00:16:42] INFO root fetch - processPackages [baserun]: Remove: archive file [/home/abi/fetcher/tmp/baserun-0.9.9.tar.gz]
+[2024-04-23 00:16:42] INFO root fetch - main [MainThread]: End processing [baserun]: success
+[2024-04-23 00:16:42] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2024.4.9a181.tar.gz]
+[2024-04-23 00:16:42] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2024.4.9a182.tar.gz]
+[2024-04-23 00:16:42] INFO root fetch - main [MainThread]: End processing [sapiopylib]: success
+[2024-04-23 00:16:43] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.8.tar.gz]
+[2024-04-23 00:16:43] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.9.tar.gz]
+[2024-04-23 00:16:43] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2024-04-23 00:16:43] INFO root fetch - main [MainThread]: Store serial: [22885390]
