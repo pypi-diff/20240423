@@ -1560,3 +1560,42 @@
 [2024-04-23 01:23:47] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.9.tar.gz]
 [2024-04-23 01:23:47] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2024-04-23 01:23:47] INFO root fetch - main [MainThread]: Store serial: [22885909]
+[2024-04-23 01:25:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885909]
+[2024-04-23 01:25:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 01:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: entity-recognition-service
+[2024-04-23 01:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qiskit-qryd-provider
+[2024-04-23 01:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: momento-wire-types
+[2024-04-23 01:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsdisagg
+[2024-04-23 01:25:56] INFO root fetch - processPackages [entity-recognition-service]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 01:25:56] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/23/18/7145326a6ea0566c2c41ba0bf3822fffc6b4da314a426433179c4724bda3/entity_recognition_service-0.1.8.tar.gz
+[2024-04-23 01:25:56] INFO root fetch - processPackages [tsdisagg]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-04-23 01:25:56] INFO root fetch - processPackages [qiskit-qryd-provider]: New version: [1.0.0] Old Version: [0.5.0]
+[2024-04-23 01:25:56] INFO root fetch - processPackages [momento-wire-types]: New version: [0.99.0] Old Version: [0.98.1]
+[2024-04-23 01:25:57] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/86/75/a994a9af22b16241a2b38cb3314e7d2457d9aaf73d35a5b70823d8c8ce18/entity_recognition_service-0.1.9.tar.gz
+[2024-04-23 01:25:57] INFO root fetch - processPackages [qiskit-qryd-provider]: Downloading https://files.pythonhosted.org/packages/c4/24/3823de37fb1232ea20f7e00801a6cd1e1adaa10a2ae6db900c2297833a38/qiskit_qryd_provider-0.5.0.tar.gz
+[2024-04-23 01:25:57] INFO root fetch - processPackages [tsdisagg]: Downloading https://files.pythonhosted.org/packages/33/b5/e4ffd65c1ff037c606f299acb98d6d3e628970ca7318f9c149f5826fee17/tsdisagg-1.0.4.tar.gz
+[2024-04-23 01:25:57] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/e4/46/0239df82cb6e9ffef5ee59019564c4485802b085aa41a571faefc8ebd223/momento_wire_types-0.98.1.tar.gz
+[2024-04-23 01:25:57] INFO root fetch - processPackages [entity-recognition-service]: executing diffoscope
+[2024-04-23 01:25:57] INFO root fetch - processPackages [entity-recognition-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entity_recognition_service-0.1.8.tar.gz tmp/entity_recognition_service-0.1.9.tar.gz --markdown 20240423/e/entity-recognition-service/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 01:25:57] INFO root fetch - processPackages [qiskit-qryd-provider]: Downloading https://files.pythonhosted.org/packages/7c/d7/a247c18228f902d19618e0aa31e3b59b2aca1e56b8f4987a6a15eb081a2b/qiskit_qryd_provider-1.0.0.tar.gz
+[2024-04-23 01:25:57] INFO root fetch - processPackages [tsdisagg]: Downloading https://files.pythonhosted.org/packages/4c/26/2a1679bd429c9c294bd558b197ed69d803438fda9bc502dc7a7f575e0abd/tsdisagg-1.1.0-py3-none-any.whl
+[2024-04-23 01:25:57] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/8e/77/73692d8207b35beda1e5b274d897b938a7de956cc301fe86b478cfeb5c26/momento_wire_types-0.99.0.tar.gz
+[2024-04-23 01:25:57] INFO root fetch - processPackages [qiskit-qryd-provider]: executing diffoscope
+[2024-04-23 01:25:57] INFO root fetch - processPackages [qiskit-qryd-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_qryd_provider-0.5.0.tar.gz tmp/qiskit_qryd_provider-1.0.0.tar.gz --markdown 20240423/q/qiskit-qryd-provider/0.5.0-1.0.0/README.md --exclude *.pyd
+[2024-04-23 01:25:57] INFO root fetch - processPackages [momento-wire-types]: executing diffoscope
+[2024-04-23 01:25:57] INFO root fetch - processPackages [momento-wire-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento_wire_types-0.98.1.tar.gz tmp/momento_wire_types-0.99.0.tar.gz --markdown 20240423/m/momento-wire-types/0.98.1-0.99.0/README.md --exclude *.pyd
+[2024-04-23 01:25:57] INFO root fetch - processPackages [tsdisagg]: executing diffoscope
+[2024-04-23 01:25:57] INFO root fetch - processPackages [tsdisagg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsdisagg-1.0.4.tar.gz tmp/tsdisagg-1.1.0-py3-none-any.whl.zip --markdown 20240423/t/tsdisagg/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-04-23 01:25:57] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.8.tar.gz]
+[2024-04-23 01:25:57] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.9.tar.gz]
+[2024-04-23 01:25:57] INFO root fetch - main [MainThread]: End processing [entity-recognition-service]: success
+[2024-04-23 01:25:58] INFO root fetch - processPackages [qiskit-qryd-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_qryd_provider-0.5.0.tar.gz]
+[2024-04-23 01:25:58] INFO root fetch - processPackages [qiskit-qryd-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_qryd_provider-1.0.0.tar.gz]
+[2024-04-23 01:25:58] INFO root fetch - main [MainThread]: End processing [qiskit-qryd-provider]: success
+[2024-04-23 01:25:58] INFO root fetch - processPackages [tsdisagg]: Remove: archive file [/home/abi/fetcher/tmp/tsdisagg-1.0.4.tar.gz]
+[2024-04-23 01:25:58] INFO root fetch - processPackages [tsdisagg]: Remove: archive file [/home/abi/fetcher/tmp/tsdisagg-1.1.0-py3-none-any.whl.zip]
+[2024-04-23 01:25:58] INFO root fetch - main [MainThread]: End processing [tsdisagg]: success
+[2024-04-23 01:25:58] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento_wire_types-0.98.1.tar.gz]
+[2024-04-23 01:25:58] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento_wire_types-0.99.0.tar.gz]
+[2024-04-23 01:25:58] INFO root fetch - main [MainThread]: End processing [momento-wire-types]: success
+[2024-04-23 01:25:58] INFO root fetch - main [MainThread]: Store serial: [22885920]
