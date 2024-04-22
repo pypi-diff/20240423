@@ -685,3 +685,60 @@
 [2024-04-23 00:36:32] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
 [2024-04-23 00:36:32] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
 [2024-04-23 00:36:32] INFO root fetch - main [MainThread]: Store serial: [22885528]
+[2024-04-23 00:38:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885528]
+[2024-04-23 00:38:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 00:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plover-sound
+[2024-04-23 00:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hj-proj-module
+[2024-04-23 00:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sleipnirgroup-jormungandr
+[2024-04-23 00:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tira
+[2024-04-23 00:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: almirah
+[2024-04-23 00:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafruit-circuitpython-wiznet5k
+[2024-04-23 00:38:40] INFO root fetch - processPackages [plover-sound]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 00:38:40] INFO root fetch - processPackages [hj-proj-module]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-23 00:38:40] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: New version: [5.2.0] Old Version: [5.1.2]
+[2024-04-23 00:38:40] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/3d/46/d51d6957d83d609620ecbf9f9acecee452a68751032996ccc4116fa54fb8/hj_proj_module-0.1.4.tar.gz
+[2024-04-23 00:38:40] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/46/d2/89a7952b57f0ef3e82dd09c1df6de528a87ee182398a43fdda5d9313ae6b/adafruit_circuitpython_wiznet5k-5.1.2.tar.gz
+[2024-04-23 00:38:40] INFO root fetch - processPackages [almirah]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-23 00:38:40] INFO root fetch - processPackages [tira]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 00:38:40] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-23 00:38:40] INFO root fetch - processPackages [plover-sound]: Downloading https://files.pythonhosted.org/packages/04/d8/ce8d4c7f1af594e985a3d5e830c50838745dae0e40f2888fd79040f2fcc5/plover-sound-0.0.1.tar.gz
+[2024-04-23 00:38:40] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/4b/d0/2e61e71a65015785af087e247c1a0fb86643b1a1315e058857f4c30e93d1/tira-0.0.98.tar.gz
+[2024-04-23 00:38:40] INFO root fetch - processPackages [almirah]: Downloading https://files.pythonhosted.org/packages/c5/e5/c218625621b371d8aa29b239c6edb98cdb73892285f26cdeb0064b2cc036/almirah-0.2.0.tar.gz
+[2024-04-23 00:38:40] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/38/5e/1cb838d4624a57b2da8c0396270816f9a8933a8a34cab251f15f25252d74/hj_proj_module-0.1.5.tar.gz
+[2024-04-23 00:38:40] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-23 00:38:40] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/60/fb/8ad25b5b9c41eccf97cc53d79d97dff3abfa9e156917c3e6927b69d26891/adafruit_circuitpython_wiznet5k-5.2.0.tar.gz
+[2024-04-23 00:38:40] INFO root fetch - processPackages [hj-proj-module]: executing diffoscope
+[2024-04-23 00:38:40] INFO root fetch - processPackages [hj-proj-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj_proj_module-0.1.4.tar.gz tmp/hj_proj_module-0.1.5.tar.gz --markdown 20240423/h/hj-proj-module/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-23 00:38:41] INFO root fetch - processPackages [plover-sound]: Downloading https://files.pythonhosted.org/packages/ec/f3/8c85733c85a511a42f066c675ec059cd880cbeed3a14be70cdbb816b0fd4/plover-sound-0.0.2.tar.gz
+[2024-04-23 00:38:41] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: executing diffoscope
+[2024-04-23 00:38:41] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit_circuitpython_wiznet5k-5.1.2.tar.gz tmp/adafruit_circuitpython_wiznet5k-5.2.0.tar.gz --markdown 20240423/a/adafruit-circuitpython-wiznet5k/5.1.2-5.2.0/README.md --exclude *.pyd
+[2024-04-23 00:38:41] INFO root fetch - processPackages [plover-sound]: executing diffoscope
+[2024-04-23 00:38:41] INFO root fetch - processPackages [plover-sound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plover-sound-0.0.1.tar.gz tmp/plover-sound-0.0.2.tar.gz --markdown 20240423/p/plover-sound/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 00:38:41] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/2d/31/b9af5a5b67ff777b2c9209808c8e4e18c7fd17c6348a13651170d8884d62/tira-0.0.99.tar.gz
+[2024-04-23 00:38:41] INFO root fetch - processPackages [almirah]: Downloading https://files.pythonhosted.org/packages/a4/9b/953f13f672aece6b6367203a2d8398e1410718f040ed701d6c3f66c7a4a2/almirah-0.3.0.tar.gz
+[2024-04-23 00:38:41] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-23 00:38:41] INFO root fetch - processPackages [tira]: executing diffoscope
+[2024-04-23 00:38:41] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.98.tar.gz tmp/tira-0.0.99.tar.gz --markdown 20240423/t/tira/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 00:38:41] INFO root fetch - processPackages [almirah]: executing diffoscope
+[2024-04-23 00:38:41] INFO root fetch - processPackages [almirah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almirah-0.2.0.tar.gz tmp/almirah-0.3.0.tar.gz --markdown 20240423/a/almirah/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-23 00:38:41] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-23 00:38:41] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240423/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-04-23 00:38:41] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.4.tar.gz]
+[2024-04-23 00:38:41] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.5.tar.gz]
+[2024-04-23 00:38:41] INFO root fetch - main [MainThread]: End processing [hj-proj-module]: success
+[2024-04-23 00:38:41] INFO root fetch - processPackages [plover-sound]: Remove: archive file [/home/abi/fetcher/tmp/plover-sound-0.0.1.tar.gz]
+[2024-04-23 00:38:41] INFO root fetch - processPackages [plover-sound]: Remove: archive file [/home/abi/fetcher/tmp/plover-sound-0.0.2.tar.gz]
+[2024-04-23 00:38:41] INFO root fetch - main [MainThread]: End processing [plover-sound]: success
+[2024-04-23 00:38:41] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_wiznet5k-5.1.2.tar.gz]
+[2024-04-23 00:38:41] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_wiznet5k-5.2.0.tar.gz]
+[2024-04-23 00:38:41] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-wiznet5k]: success
+[2024-04-23 00:38:42] INFO root fetch - processPackages [almirah]: Remove: archive file [/home/abi/fetcher/tmp/almirah-0.2.0.tar.gz]
+[2024-04-23 00:38:42] INFO root fetch - processPackages [almirah]: Remove: archive file [/home/abi/fetcher/tmp/almirah-0.3.0.tar.gz]
+[2024-04-23 00:38:42] INFO root fetch - main [MainThread]: End processing [almirah]: success
+[2024-04-23 00:38:42] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.98.tar.gz]
+[2024-04-23 00:38:42] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.99.tar.gz]
+[2024-04-23 00:38:42] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2024-04-23 00:38:42] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-23 00:38:42] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-23 00:38:42] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-23 00:38:42] INFO root fetch - main [MainThread]: Store serial: [22885557]
