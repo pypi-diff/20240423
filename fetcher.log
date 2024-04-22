@@ -1296,3 +1296,69 @@
 [2024-04-23 01:10:08] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.744.0.tar.gz]
 [2024-04-23 01:10:08] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-04-23 01:10:08] INFO root fetch - main [MainThread]: Store serial: [22885763]
+[2024-04-23 01:12:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885763]
+[2024-04-23 01:12:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 01:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2024-04-23 01:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypipr
+[2024-04-23 01:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example-pkg-calorietrackergoal
+[2024-04-23 01:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opencf
+[2024-04-23 01:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-adverse-event
+[2024-04-23 01:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: entity-recognition-service
+[2024-04-23 01:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sympytensor
+[2024-04-23 01:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shipyard-tableau
+[2024-04-23 01:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: passwork
+[2024-04-23 01:12:17] INFO root fetch - processPackages [shipyard-tableau]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2024-04-23 01:12:17] INFO root fetch - processPackages [entity-recognition-service]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 01:12:17] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 01:12:17] INFO root fetch - processPackages [policyengine-us]: New version: [0.744.1] Old Version: [0.744.0]
+[2024-04-23 01:12:17] WARNING root fetch - processPackages [example-pkg-calorietrackergoal]: Skipping, unable to determine old version
+[2024-04-23 01:12:17] INFO root fetch - main [MainThread]: End processing [example-pkg-calorietrackergoal] error
+[2024-04-23 01:12:17] INFO root fetch - processPackages [shipyard-tableau]: Downloading https://files.pythonhosted.org/packages/01/38/fa288ce9c98fe69574b0d10f9e582c4fd6b225a61d9f81c24382000c4178/shipyard_tableau-0.2.0a1.tar.gz
+[2024-04-23 01:12:17] WARNING root fetch - processPackages [opencf]: Skipping, unable to determine old version
+[2024-04-23 01:12:17] INFO root fetch - main [MainThread]: End processing [opencf] error
+[2024-04-23 01:12:17] INFO root fetch - processPackages [sympytensor]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-23 01:12:17] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/23/18/7145326a6ea0566c2c41ba0bf3822fffc6b4da314a426433179c4724bda3/entity_recognition_service-0.1.8.tar.gz
+[2024-04-23 01:12:17] INFO root fetch - processPackages [edc-adverse-event]: New version: [0.3.9] Old Version: [0.3.83]
+[2024-04-23 01:12:17] WARNING root fetch - processPackages [passwork]: Skipping, unable to determine old version
+[2024-04-23 01:12:17] INFO root fetch - main [MainThread]: End processing [passwork] error
+[2024-04-23 01:12:17] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2024-04-23 01:12:17] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/1b/c0/6574f9b869143b3b559c4bb6e9291d13497e921e62c916af31569291c449/policyengine-us-0.744.0.tar.gz
+[2024-04-23 01:12:17] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/a5/03/8eb40545f91b20d9951a66ec81fbd2c190e801d5ded3fa9d62e5dd307562/edc_adverse_event-0.3.83.tar.gz
+[2024-04-23 01:12:17] INFO root fetch - processPackages [sympytensor]: Downloading https://files.pythonhosted.org/packages/99/92/b459c61ddee17867cbcebcb009f645e2079733bdaa1c4f9623e46b077a0f/sympytensor-1.1.0.tar.gz
+[2024-04-23 01:12:17] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/86/75/a994a9af22b16241a2b38cb3314e7d2457d9aaf73d35a5b70823d8c8ce18/entity_recognition_service-0.1.9.tar.gz
+[2024-04-23 01:12:17] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-23 01:12:18] INFO root fetch - processPackages [entity-recognition-service]: executing diffoscope
+[2024-04-23 01:12:18] INFO root fetch - processPackages [entity-recognition-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entity_recognition_service-0.1.8.tar.gz tmp/entity_recognition_service-0.1.9.tar.gz --markdown 20240423/e/entity-recognition-service/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 01:12:18] INFO root fetch - processPackages [shipyard-tableau]: Downloading https://files.pythonhosted.org/packages/b4/08/7fe8aecc0dd5cd44ce9aac1c00f375cecda68fa385e49ed25dd59284f2b8/shipyard_tableau-0.2.0a2.tar.gz
+[2024-04-23 01:12:18] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-23 01:12:18] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240423/p/pypipr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 01:12:18] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/34/3a/ea057b8cba3a2c45050bf1a89a4634f6186296c59c1aec914514947421d2/policyengine-us-0.744.1.tar.gz
+[2024-04-23 01:12:18] INFO root fetch - processPackages [shipyard-tableau]: executing diffoscope
+[2024-04-23 01:12:18] INFO root fetch - processPackages [shipyard-tableau]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_tableau-0.2.0a1.tar.gz tmp/shipyard_tableau-0.2.0a2.tar.gz --markdown 20240423/s/shipyard-tableau/0.2.0a1-0.2.0a2/README.md --exclude *.pyd
+[2024-04-23 01:12:18] INFO root fetch - processPackages [sympytensor]: Downloading https://files.pythonhosted.org/packages/b9/41/0660693cb34b830eec338934c8cc1af6cf1d5c06647714821c3fc842efa9/sympytensor-1.1.1-py3-none-any.whl
+[2024-04-23 01:12:18] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/04/f0/b9f2b8c39c677c51359e09b0e2a6ec34dde4a98ad9ed7c6bb6f8cea26097/edc_adverse_event-0.3.9-py3-none-any.whl
+[2024-04-23 01:12:18] INFO root fetch - processPackages [sympytensor]: executing diffoscope
+[2024-04-23 01:12:18] INFO root fetch - processPackages [sympytensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sympytensor-1.1.0.tar.gz tmp/sympytensor-1.1.1-py3-none-any.whl.zip --markdown 20240423/s/sympytensor/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-23 01:12:18] INFO root fetch - processPackages [edc-adverse-event]: executing diffoscope
+[2024-04-23 01:12:18] INFO root fetch - processPackages [edc-adverse-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_adverse_event-0.3.83.tar.gz tmp/edc_adverse_event-0.3.9-py3-none-any.whl.zip --markdown 20240423/e/edc-adverse-event/0.3.83-0.3.9/README.md --exclude *.pyd
+[2024-04-23 01:12:18] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.8.tar.gz]
+[2024-04-23 01:12:18] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.9.tar.gz]
+[2024-04-23 01:12:18] INFO root fetch - main [MainThread]: End processing [entity-recognition-service]: success
+[2024-04-23 01:12:18] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2024-04-23 01:12:18] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-23 01:12:18] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-23 01:12:18] INFO root fetch - processPackages [shipyard-tableau]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_tableau-0.2.0a1.tar.gz]
+[2024-04-23 01:12:18] INFO root fetch - processPackages [shipyard-tableau]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_tableau-0.2.0a2.tar.gz]
+[2024-04-23 01:12:18] INFO root fetch - main [MainThread]: End processing [shipyard-tableau]: success
+[2024-04-23 01:12:18] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-23 01:12:18] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.744.0.tar.gz tmp/policyengine-us-0.744.1.tar.gz --markdown 20240423/p/policyengine-us/0.744.0-0.744.1/README.md --exclude *.pyd
+[2024-04-23 01:12:18] INFO root fetch - processPackages [sympytensor]: Remove: archive file [/home/abi/fetcher/tmp/sympytensor-1.1.0.tar.gz]
+[2024-04-23 01:12:18] INFO root fetch - processPackages [sympytensor]: Remove: archive file [/home/abi/fetcher/tmp/sympytensor-1.1.1-py3-none-any.whl.zip]
+[2024-04-23 01:12:18] INFO root fetch - main [MainThread]: End processing [sympytensor]: success
+[2024-04-23 01:12:19] INFO root fetch - processPackages [edc-adverse-event]: Remove: archive file [/home/abi/fetcher/tmp/edc_adverse_event-0.3.83.tar.gz]
+[2024-04-23 01:12:19] INFO root fetch - processPackages [edc-adverse-event]: Remove: archive file [/home/abi/fetcher/tmp/edc_adverse_event-0.3.9-py3-none-any.whl.zip]
+[2024-04-23 01:12:19] INFO root fetch - main [MainThread]: End processing [edc-adverse-event]: success
+[2024-04-23 01:12:50] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.744.0.tar.gz]
+[2024-04-23 01:12:50] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.744.1.tar.gz]
+[2024-04-23 01:12:50] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-23 01:12:50] INFO root fetch - main [MainThread]: Store serial: [22885794]
