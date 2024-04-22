@@ -781,3 +781,72 @@
 [2024-04-23 00:40:58] INFO root fetch - processPackages [gradio-leaderboard]: Remove: archive file [/home/abi/fetcher/tmp/gradio_leaderboard-0.0.2.tar.gz]
 [2024-04-23 00:40:58] INFO root fetch - main [MainThread]: End processing [gradio-leaderboard]: success
 [2024-04-23 00:40:58] INFO root fetch - main [MainThread]: Store serial: [22885569]
+[2024-04-23 00:43:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885569]
+[2024-04-23 00:43:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypsbuilder
+[2024-04-23 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ehdg-pupil-detector
+[2024-04-23 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wdl-lsp
+[2024-04-23 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: numalogic
+[2024-04-23 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tkz
+[2024-04-23 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sysinfobj
+[2024-04-23 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: parsl
+[2024-04-23 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: citation-crawler
+[2024-04-23 00:43:07] INFO root fetch - processPackages [ehdg-pupil-detector]: New version: [3.4.2] Old Version: [3.4.1]
+[2024-04-23 00:43:07] WARNING root fetch - processPackages [sysinfobj]: Skipping, unable to determine old version
+[2024-04-23 00:43:07] INFO root fetch - main [MainThread]: End processing [sysinfobj] error
+[2024-04-23 00:43:07] INFO root fetch - processPackages [citation-crawler]: New version: [2.9] Old Version: [2.8.4]
+[2024-04-23 00:43:07] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/95/23/74b6a05ad01cbf3deaf9b1fe960ea9a93de88e5f563a2c3c9aca6c69a2ea/ehdg_pupil_detector-3.4.1.tar.gz
+[2024-04-23 00:43:07] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/09/ca/433bfddd2581e2aa106bfefb01a540c42fe1cad03c7f257d70665702dc7d/citation_crawler-2.8.4.tar.gz
+[2024-04-23 00:43:07] INFO root fetch - processPackages [tkz]: New version: [1.0.0] Old Version: [0.0.7]
+[2024-04-23 00:43:07] INFO root fetch - processPackages [wdl-lsp]: New version: [0.0.87] Old Version: [0.0.86]
+[2024-04-23 00:43:07] INFO root fetch - processPackages [numalogic]: New version: [0.9.1a2] Old Version: [0.9.1]
+[2024-04-23 00:43:07] INFO root fetch - processPackages [pypsbuilder]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-04-23 00:43:07] INFO root fetch - processPackages [parsl]: New version: [2024.4.8] Old Version: [2024.4.22]
+[2024-04-23 00:43:07] INFO root fetch - processPackages [pypsbuilder]: Downloading https://files.pythonhosted.org/packages/38/2f/9ad12eb471d1750bd627364f616615457d4139c51b29e19e0901049e8172/pypsbuilder-2.4.1.tar.gz
+[2024-04-23 00:43:07] INFO root fetch - processPackages [tkz]: Downloading https://files.pythonhosted.org/packages/b0/d3/0f6f6b94138ee2823eae1281e4891353e429499640e0795dcf6c9aee8811/tkz-0.0.7.tar.gz
+[2024-04-23 00:43:07] INFO root fetch - processPackages [wdl-lsp]: Downloading https://files.pythonhosted.org/packages/2e/32/66e360fce7fc682a4e870ee7fa1f1f9d9e6b880fe860b54526a7def9f23e/wdl-lsp-0.0.86.tar.gz
+[2024-04-23 00:43:08] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/25/af/c2a1db3e90d1a73c264b947b5b6be7c0c1196fae2109cb83e14ad5367842/parsl-2024.4.22.tar.gz
+[2024-04-23 00:43:08] INFO root fetch - processPackages [numalogic]: Downloading https://files.pythonhosted.org/packages/1b/29/05cfc48aec9d67c147239db52a6f72edadf8cb974e7799197e627b7706cd/numalogic-0.9.1.tar.gz
+[2024-04-23 00:43:08] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/77/cc/4e9ccf3d68a81f6d010dec104da9371e3bd39ca369f96dfb63b28235de91/citation_crawler-2.9.tar.gz
+[2024-04-23 00:43:08] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/2a/d2/e92750f696264a4d24723eae053d815131b04cf0ba8a4b7c8ca7b4c95a5c/ehdg_pupil_detector-3.4.2.tar.gz
+[2024-04-23 00:43:08] INFO root fetch - processPackages [ehdg-pupil-detector]: executing diffoscope
+[2024-04-23 00:43:08] INFO root fetch - processPackages [ehdg-pupil-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdg_pupil_detector-3.4.1.tar.gz tmp/ehdg_pupil_detector-3.4.2.tar.gz --markdown 20240423/e/ehdg-pupil-detector/3.4.1-3.4.2/README.md --exclude *.pyd
+[2024-04-23 00:43:08] INFO root fetch - processPackages [citation-crawler]: executing diffoscope
+[2024-04-23 00:43:08] INFO root fetch - processPackages [citation-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_crawler-2.8.4.tar.gz tmp/citation_crawler-2.9.tar.gz --markdown 20240423/c/citation-crawler/2.8.4-2.9/README.md --exclude *.pyd
+[2024-04-23 00:43:08] INFO root fetch - processPackages [pypsbuilder]: Downloading https://files.pythonhosted.org/packages/8b/3d/b76c9619ba39e5c27235d9683f04a751867965eb118550b8f15f5049b268/pypsbuilder-2.4.2.tar.gz
+[2024-04-23 00:43:08] INFO root fetch - processPackages [tkz]: Downloading https://files.pythonhosted.org/packages/e1/f4/f43721fd29f64892f16531009be71fe721375dcda54a09d9e05127d4110a/tkz-1.0.0.tar.gz
+[2024-04-23 00:43:08] INFO root fetch - processPackages [wdl-lsp]: Downloading https://files.pythonhosted.org/packages/a6/f1/7499d5fa57e75a6e3f54175baaaa0502f3cc3fb7483103411650d8074a21/wdl-lsp-0.0.87.tar.gz
+[2024-04-23 00:43:08] INFO root fetch - processPackages [numalogic]: Downloading https://files.pythonhosted.org/packages/bb/aa/53d9c5e0116882f127ae0cca51589cdbf458c056f06f160a7a35b62a8648/numalogic-0.9.1a2.tar.gz
+[2024-04-23 00:43:08] INFO root fetch - processPackages [tkz]: executing diffoscope
+[2024-04-23 00:43:08] INFO root fetch - processPackages [tkz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkz-0.0.7.tar.gz tmp/tkz-1.0.0.tar.gz --markdown 20240423/t/tkz/0.0.7-1.0.0/README.md --exclude *.pyd
+[2024-04-23 00:43:08] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/94/de/893d796efa9e69eb525af6a6cc016f08b80bac955081b189080204720968/parsl-2024.4.8.tar.gz
+[2024-04-23 00:43:08] INFO root fetch - processPackages [pypsbuilder]: executing diffoscope
+[2024-04-23 00:43:08] INFO root fetch - processPackages [pypsbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypsbuilder-2.4.1.tar.gz tmp/pypsbuilder-2.4.2.tar.gz --markdown 20240423/p/pypsbuilder/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-04-23 00:43:08] INFO root fetch - processPackages [wdl-lsp]: executing diffoscope
+[2024-04-23 00:43:08] INFO root fetch - processPackages [wdl-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wdl-lsp-0.0.86.tar.gz tmp/wdl-lsp-0.0.87.tar.gz --markdown 20240423/w/wdl-lsp/0.0.86-0.0.87/README.md --exclude *.pyd
+[2024-04-23 00:43:08] INFO root fetch - processPackages [numalogic]: executing diffoscope
+[2024-04-23 00:43:08] INFO root fetch - processPackages [numalogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numalogic-0.9.1.tar.gz tmp/numalogic-0.9.1a2.tar.gz --markdown 20240423/n/numalogic/0.9.1-0.9.1a2/README.md --exclude *.pyd
+[2024-04-23 00:43:08] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2024-04-23 00:43:08] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2024.4.22.tar.gz tmp/parsl-2024.4.8.tar.gz --markdown 20240423/p/parsl/2024.4.22-2024.4.8/README.md --exclude *.pyd
+[2024-04-23 00:43:09] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.4.1.tar.gz]
+[2024-04-23 00:43:09] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.4.2.tar.gz]
+[2024-04-23 00:43:09] INFO root fetch - main [MainThread]: End processing [ehdg-pupil-detector]: success
+[2024-04-23 00:43:09] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.8.4.tar.gz]
+[2024-04-23 00:43:09] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.tar.gz]
+[2024-04-23 00:43:09] INFO root fetch - main [MainThread]: End processing [citation-crawler]: success
+[2024-04-23 00:43:09] INFO root fetch - processPackages [tkz]: Remove: archive file [/home/abi/fetcher/tmp/tkz-0.0.7.tar.gz]
+[2024-04-23 00:43:09] INFO root fetch - processPackages [tkz]: Remove: archive file [/home/abi/fetcher/tmp/tkz-1.0.0.tar.gz]
+[2024-04-23 00:43:09] INFO root fetch - main [MainThread]: End processing [tkz]: success
+[2024-04-23 00:43:09] INFO root fetch - processPackages [wdl-lsp]: Remove: archive file [/home/abi/fetcher/tmp/wdl-lsp-0.0.86.tar.gz]
+[2024-04-23 00:43:09] INFO root fetch - processPackages [wdl-lsp]: Remove: archive file [/home/abi/fetcher/tmp/wdl-lsp-0.0.87.tar.gz]
+[2024-04-23 00:43:09] INFO root fetch - main [MainThread]: End processing [wdl-lsp]: success
+[2024-04-23 00:43:09] INFO root fetch - processPackages [pypsbuilder]: Remove: archive file [/home/abi/fetcher/tmp/pypsbuilder-2.4.1.tar.gz]
+[2024-04-23 00:43:09] INFO root fetch - processPackages [pypsbuilder]: Remove: archive file [/home/abi/fetcher/tmp/pypsbuilder-2.4.2.tar.gz]
+[2024-04-23 00:43:09] INFO root fetch - main [MainThread]: End processing [pypsbuilder]: success
+[2024-04-23 00:43:09] INFO root fetch - processPackages [numalogic]: Remove: archive file [/home/abi/fetcher/tmp/numalogic-0.9.1.tar.gz]
+[2024-04-23 00:43:09] INFO root fetch - processPackages [numalogic]: Remove: archive file [/home/abi/fetcher/tmp/numalogic-0.9.1a2.tar.gz]
+[2024-04-23 00:43:09] INFO root fetch - main [MainThread]: End processing [numalogic]: success
+[2024-04-23 00:43:10] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.22.tar.gz]
+[2024-04-23 00:43:10] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.8.tar.gz]
+[2024-04-23 00:43:10] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2024-04-23 00:43:10] INFO root fetch - main [MainThread]: Store serial: [22885594]
