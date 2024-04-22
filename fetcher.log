@@ -2128,3 +2128,33 @@
 [2024-04-23 01:55:30] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.1-py2.py3-none-any.whl.zip]
 [2024-04-23 01:55:30] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2024-04-23 01:55:30] INFO root fetch - main [MainThread]: Store serial: [22886108]
+[2024-04-23 01:57:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886108]
+[2024-04-23 01:57:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 01:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esphome
+[2024-04-23 01:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: entity-recognition-service
+[2024-04-23 01:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorflow-metadata
+[2024-04-23 01:57:38] INFO root fetch - processPackages [entity-recognition-service]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 01:57:38] INFO root fetch - processPackages [esphome]: New version: [2024.4.1] Old Version: [2024.4.0b3]
+[2024-04-23 01:57:38] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/23/18/7145326a6ea0566c2c41ba0bf3822fffc6b4da314a426433179c4724bda3/entity_recognition_service-0.1.8.tar.gz
+[2024-04-23 01:57:38] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/22/37/7b0b35884ed4711eca08df63bc6c3819990500b24ebaaee98b02351ce1a5/esphome-2024.4.0b3.tar.gz
+[2024-04-23 01:57:38] INFO root fetch - processPackages [tensorflow-metadata]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-23 01:57:38] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/86/75/a994a9af22b16241a2b38cb3314e7d2457d9aaf73d35a5b70823d8c8ce18/entity_recognition_service-0.1.9.tar.gz
+[2024-04-23 01:57:38] INFO root fetch - processPackages [tensorflow-metadata]: Downloading https://files.pythonhosted.org/packages/20/e7/b4dcc898ca1c250ff1f1e431a3fdd2b347663283e8aea282704d59e92ad9/tensorflow_metadata-1.8.0-py3-none-any.whl
+[2024-04-23 01:57:38] INFO root fetch - processPackages [entity-recognition-service]: executing diffoscope
+[2024-04-23 01:57:38] INFO root fetch - processPackages [entity-recognition-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entity_recognition_service-0.1.8.tar.gz tmp/entity_recognition_service-0.1.9.tar.gz --markdown 20240423/e/entity-recognition-service/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 01:57:38] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/35/5d/6d8240e3a12691c1baeab5d87b3b510ed5c52dbef6ed0e65ceb4a1bc7fe2/esphome-2024.4.1-py2.py3-none-any.whl
+[2024-04-23 01:57:39] INFO root fetch - processPackages [tensorflow-metadata]: Downloading https://files.pythonhosted.org/packages/22/42/6ebb03aef0cb37f2ea98f1bf04ed21450fec73941e8421ba3fa37f94ffaf/tensorflow_metadata-1.9.0-py3-none-any.whl
+[2024-04-23 01:57:39] INFO root fetch - processPackages [tensorflow-metadata]: executing diffoscope
+[2024-04-23 01:57:39] INFO root fetch - processPackages [tensorflow-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_metadata-1.8.0-py3-none-any.whl.zip tmp/tensorflow_metadata-1.9.0-py3-none-any.whl.zip --markdown 20240423/t/tensorflow-metadata/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-23 01:57:39] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-04-23 01:57:39] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.4.0b3.tar.gz tmp/esphome-2024.4.1-py2.py3-none-any.whl.zip --markdown 20240423/e/esphome/2024.4.0b3-2024.4.1/README.md --exclude *.pyd
+[2024-04-23 01:57:39] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.8.tar.gz]
+[2024-04-23 01:57:39] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.9.tar.gz]
+[2024-04-23 01:57:39] INFO root fetch - main [MainThread]: End processing [entity-recognition-service]: success
+[2024-04-23 01:57:39] INFO root fetch - processPackages [tensorflow-metadata]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_metadata-1.8.0-py3-none-any.whl.zip]
+[2024-04-23 01:57:39] INFO root fetch - processPackages [tensorflow-metadata]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_metadata-1.9.0-py3-none-any.whl.zip]
+[2024-04-23 01:57:39] INFO root fetch - main [MainThread]: End processing [tensorflow-metadata]: success
+[2024-04-23 01:57:41] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.0b3.tar.gz]
+[2024-04-23 01:57:41] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.1-py2.py3-none-any.whl.zip]
+[2024-04-23 01:57:41] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-04-23 01:57:41] INFO root fetch - main [MainThread]: Store serial: [22886118]
