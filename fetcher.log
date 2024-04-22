@@ -1368,3 +1368,54 @@
 [2024-04-23 01:14:59] WARNING root fetch - processPackages [tensorrt-yolo]: Skipping, unable to determine old version
 [2024-04-23 01:14:59] INFO root fetch - main [MainThread]: End processing [tensorrt-yolo] error
 [2024-04-23 01:14:59] INFO root fetch - main [MainThread]: Store serial: [22885799]
+[2024-04-23 01:17:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885799]
+[2024-04-23 01:17:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 01:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aviatrix-discovery
+[2024-04-23 01:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lango-cli-beta
+[2024-04-23 01:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: komodo-sdk
+[2024-04-23 01:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aviatrix-migration
+[2024-04-23 01:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc
+[2024-04-23 01:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: citation-crawler
+[2024-04-23 01:17:08] INFO root fetch - processPackages [komodo-sdk]: New version: [0.0.97] Old Version: [0.0.96]
+[2024-04-23 01:17:08] INFO root fetch - processPackages [citation-crawler]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-23 01:17:08] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/bf/c9/7cd86415856d9b1f8ad05631299670f9d9dcbe2bf0ea82fb64525c3b7f7c/komodo_sdk-0.0.96.tar.gz
+[2024-04-23 01:17:08] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/2a/7c/aad6f97e1d8231852eecf1e8f231ace18e3080421ce064a8a8adc45d4d3d/citation_crawler-2.9.1.tar.gz
+[2024-04-23 01:17:08] WARNING root fetch - processPackages [lango-cli-beta]: Skipping, unable to determine old version
+[2024-04-23 01:17:08] INFO root fetch - main [MainThread]: End processing [lango-cli-beta] error
+[2024-04-23 01:17:08] INFO root fetch - processPackages [aviatrix-migration]: New version: [0.2.92] Old Version: [0.2.91]
+[2024-04-23 01:17:08] INFO root fetch - processPackages [edc]: New version: [0.5.9] Old Version: [0.5.86]
+[2024-04-23 01:17:08] INFO root fetch - processPackages [aviatrix-discovery]: New version: [0.2.92] Old Version: [0.2.91]
+[2024-04-23 01:17:09] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/b7/77/1a1969b08ae4b32dba69ed9988524d74f54c836d12f614e20683a3d2e6a7/aviatrix_discovery-0.2.91-cp39-cp39-win_amd64.whl
+[2024-04-23 01:17:09] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/ae/13/05aff8a5c2613bc3f90698379ea39dbca4b2a772f3a23276a65b03f5b9bf/edc-0.5.86.tar.gz
+[2024-04-23 01:17:09] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/8a/07/9bdd9b3999f81ac3b4cada66968f4fb24a8e71547c87b198578cdd00443c/aviatrix_migration-0.2.91-cp39-cp39-win_amd64.whl
+[2024-04-23 01:17:09] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/3b/0b/b31adfaf2cb49d6a74b5c056a6efdface5e2aa2fa1019a816dc7893b0714/citation_crawler-2.9.2.tar.gz
+[2024-04-23 01:17:09] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/2d/b2/2cffa884d250a5bb8930b410ea153e44a5c0db1b0f4b863766e60dde3c8b/komodo_sdk-0.0.97.tar.gz
+[2024-04-23 01:17:09] INFO root fetch - processPackages [citation-crawler]: executing diffoscope
+[2024-04-23 01:17:09] INFO root fetch - processPackages [citation-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_crawler-2.9.1.tar.gz tmp/citation_crawler-2.9.2.tar.gz --markdown 20240423/c/citation-crawler/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-23 01:17:09] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/d1/ef/65a7a5b4f5d634110b94581a4f2ce5d4442afd98bbe32cb6bed0a00de505/aviatrix_discovery-0.2.92-cp39-cp39-win_amd64.whl
+[2024-04-23 01:17:09] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/c3/e1/9aff20b85318cc37cad1323d68f6b4fc9186339dd91f77988832e79670ee/edc-0.5.9.tar.gz
+[2024-04-23 01:17:09] INFO root fetch - processPackages [komodo-sdk]: executing diffoscope
+[2024-04-23 01:17:09] INFO root fetch - processPackages [komodo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komodo_sdk-0.0.96.tar.gz tmp/komodo_sdk-0.0.97.tar.gz --markdown 20240423/k/komodo-sdk/0.0.96-0.0.97/README.md --exclude *.pyd
+[2024-04-23 01:17:09] INFO root fetch - processPackages [aviatrix-discovery]: executing diffoscope
+[2024-04-23 01:17:09] INFO root fetch - processPackages [aviatrix-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_discovery-0.2.91-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_discovery-0.2.92-cp39-cp39-win_amd64.whl.zip --markdown 20240423/a/aviatrix-discovery/0.2.91-0.2.92/README.md --exclude *.pyd
+[2024-04-23 01:17:09] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/e0/c9/af6c4252f05296639f28b20c40882febc45277e9eabd2a654666372aa6b4/aviatrix_migration-0.2.92-cp39-cp39-win_amd64.whl
+[2024-04-23 01:17:09] INFO root fetch - processPackages [edc]: executing diffoscope
+[2024-04-23 01:17:09] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.5.86.tar.gz tmp/edc-0.5.9.tar.gz --markdown 20240423/e/edc/0.5.86-0.5.9/README.md --exclude *.pyd
+[2024-04-23 01:17:09] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.1.tar.gz]
+[2024-04-23 01:17:09] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.2.tar.gz]
+[2024-04-23 01:17:09] INFO root fetch - main [MainThread]: End processing [citation-crawler]: success
+[2024-04-23 01:17:10] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.91-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 01:17:10] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.92-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 01:17:10] INFO root fetch - main [MainThread]: End processing [aviatrix-discovery]: success
+[2024-04-23 01:17:10] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.86.tar.gz]
+[2024-04-23 01:17:10] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.9.tar.gz]
+[2024-04-23 01:17:10] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2024-04-23 01:17:10] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.96.tar.gz]
+[2024-04-23 01:17:10] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.97.tar.gz]
+[2024-04-23 01:17:10] INFO root fetch - main [MainThread]: End processing [komodo-sdk]: success
+[2024-04-23 01:17:11] INFO root fetch - processPackages [aviatrix-migration]: executing diffoscope
+[2024-04-23 01:17:11] INFO root fetch - processPackages [aviatrix-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration-0.2.91-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration-0.2.92-cp39-cp39-win_amd64.whl.zip --markdown 20240423/a/aviatrix-migration/0.2.91-0.2.92/README.md --exclude *.pyd
+[2024-04-23 01:17:11] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.91-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 01:17:11] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.92-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 01:17:11] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
+[2024-04-23 01:17:11] INFO root fetch - main [MainThread]: Store serial: [22885852]
