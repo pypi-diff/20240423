@@ -1722,3 +1722,72 @@
 [2024-04-23 01:32:36] INFO root fetch - processPackages [mpl_bsic]: Remove: archive file [/home/abi/fetcher/tmp/mpl_bsic-1.3.1.tar.gz]
 [2024-04-23 01:32:36] INFO root fetch - main [MainThread]: End processing [mpl_bsic]: success
 [2024-04-23 01:32:36] INFO root fetch - main [MainThread]: Store serial: [22885970]
+[2024-04-23 01:34:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885970]
+[2024-04-23 01:34:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-23 01:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2024-04-23 01:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansi-string
+[2024-04-23 01:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domolibrary
+[2024-04-23 01:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-commandx
+[2024-04-23 01:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: danilogcastro-de-toolkit
+[2024-04-23 01:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spiceai
+[2024-04-23 01:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: habushu_cucumber_formatter
+[2024-04-23 01:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlUts
+[2024-04-23 01:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: citation-crawler
+[2024-04-23 01:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: snowflake-telemetry-python
+[2024-04-23 01:34:45] INFO root fetch - processPackages [ansi-string]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-23 01:34:45] WARNING root fetch - processPackages [pulumi-commandx]: Skipping, unable to determine old version
+[2024-04-23 01:34:45] INFO root fetch - main [MainThread]: End processing [pulumi-commandx] error
+[2024-04-23 01:34:45] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 01:34:45] INFO root fetch - processPackages [sqlUts]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-23 01:34:45] INFO root fetch - processPackages [citation-crawler]: New version: [2.9.4] Old Version: [2.9.3.1]
+[2024-04-23 01:34:45] INFO root fetch - processPackages [ansi-string]: Downloading https://files.pythonhosted.org/packages/4f/82/807057e1bc47835b6a6aa92cb8d11f806b7e41f90c7fae60e7c653fb0d25/ansi-string-1.0.2.tar.gz
+[2024-04-23 01:34:45] WARNING root fetch - processPackages [danilogcastro-de-toolkit]: Skipping, unable to determine old version
+[2024-04-23 01:34:45] INFO root fetch - main [MainThread]: End processing [danilogcastro-de-toolkit] error
+[2024-04-23 01:34:45] INFO root fetch - processPackages [spiceai]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-23 01:34:45] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2024-04-23 01:34:45] WARNING root fetch - processPackages [habushu_cucumber_formatter]: Skipping, unable to determine old version
+[2024-04-23 01:34:45] INFO root fetch - main [MainThread]: End processing [habushu_cucumber_formatter] error
+[2024-04-23 01:34:45] WARNING root fetch - processPackages [snowflake-telemetry-python]: Skipping, unable to determine old version
+[2024-04-23 01:34:45] INFO root fetch - main [MainThread]: End processing [snowflake-telemetry-python] error
+[2024-04-23 01:34:45] INFO root fetch - processPackages [sqlUts]: Downloading https://files.pythonhosted.org/packages/1d/ff/dba42d8a5dc587a151655119fe905bcd17525ff5a0d16565a6f94fc26074/sqlUts-1.0.1.tar.gz
+[2024-04-23 01:34:45] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/ae/b8/5268307aebdd8c4c0e40073376083523796298c472b3daa259e5e162c2d8/citation_crawler-2.9.3.1.tar.gz
+[2024-04-23 01:34:45] INFO root fetch - processPackages [domolibrary]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-23 01:34:45] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/d5/03/0c9fc8e1715f0318c29600fbecd720b8f26b92c3cf6adbd4cc733d33e011/spiceai-0.2.1.tar.gz
+[2024-04-23 01:34:45] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-23 01:34:45] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/95/f3/6c9c1bcece92c131f243b06ce2ea786b42aac014c102edd4142844b5d688/domolibrary-4.0.8.tar.gz
+[2024-04-23 01:34:45] INFO root fetch - processPackages [ansi-string]: Downloading https://files.pythonhosted.org/packages/25/b4/c9df3d0bb1b6a499c066fb7c0ab739455835fbb39a1d2a031c0c88f2d1df/ansi-string-1.0.3.tar.gz
+[2024-04-23 01:34:45] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-23 01:34:45] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240423/p/pypipr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 01:34:45] INFO root fetch - processPackages [sqlUts]: Downloading https://files.pythonhosted.org/packages/36/f3/98a703122a3bf4e821b19b4ad3088649fed6584b18d6b64516ec55d41385/sqlUts-1.0.2.tar.gz
+[2024-04-23 01:34:46] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/09/28/e9c332535e9ac1e434981cacd6ba971fed57493fbd7184754209a4433432/citation_crawler-2.9.4.tar.gz
+[2024-04-23 01:34:46] INFO root fetch - processPackages [ansi-string]: executing diffoscope
+[2024-04-23 01:34:46] INFO root fetch - processPackages [ansi-string]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansi-string-1.0.2.tar.gz tmp/ansi-string-1.0.3.tar.gz --markdown 20240423/a/ansi-string/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-23 01:34:46] INFO root fetch - processPackages [sqlUts]: executing diffoscope
+[2024-04-23 01:34:46] INFO root fetch - processPackages [sqlUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlUts-1.0.1.tar.gz tmp/sqlUts-1.0.2.tar.gz --markdown 20240423/s/sqlUts/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-23 01:34:46] INFO root fetch - processPackages [citation-crawler]: executing diffoscope
+[2024-04-23 01:34:46] INFO root fetch - processPackages [citation-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_crawler-2.9.3.1.tar.gz tmp/citation_crawler-2.9.4.tar.gz --markdown 20240423/c/citation-crawler/2.9.3.1-2.9.4/README.md --exclude *.pyd
+[2024-04-23 01:34:46] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/20/04/03f981a99262a7143a6a063a2e2f6e7ef8f7e8783b38fbaac09ad11e2cdd/domolibrary-4.0.9.tar.gz
+[2024-04-23 01:34:46] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/04/78/8e360d563cee102ac6ba58a4aa9f7fd9a01e45f90bb674578a4e414ba676/spiceai-0.2.2.tar.gz
+[2024-04-23 01:34:46] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2024-04-23 01:34:46] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-4.0.8.tar.gz tmp/domolibrary-4.0.9.tar.gz --markdown 20240423/d/domolibrary/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-04-23 01:34:46] INFO root fetch - processPackages [spiceai]: executing diffoscope
+[2024-04-23 01:34:46] INFO root fetch - processPackages [spiceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiceai-0.2.1.tar.gz tmp/spiceai-0.2.2.tar.gz --markdown 20240423/s/spiceai/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-23 01:34:46] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2024-04-23 01:34:46] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-23 01:34:46] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-23 01:34:46] INFO root fetch - processPackages [ansi-string]: Remove: archive file [/home/abi/fetcher/tmp/ansi-string-1.0.2.tar.gz]
+[2024-04-23 01:34:46] INFO root fetch - processPackages [ansi-string]: Remove: archive file [/home/abi/fetcher/tmp/ansi-string-1.0.3.tar.gz]
+[2024-04-23 01:34:46] INFO root fetch - main [MainThread]: End processing [ansi-string]: success
+[2024-04-23 01:34:46] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.3.1.tar.gz]
+[2024-04-23 01:34:46] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.4.tar.gz]
+[2024-04-23 01:34:46] INFO root fetch - main [MainThread]: End processing [citation-crawler]: success
+[2024-04-23 01:34:47] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.2.1.tar.gz]
+[2024-04-23 01:34:47] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.2.2.tar.gz]
+[2024-04-23 01:34:47] INFO root fetch - main [MainThread]: End processing [spiceai]: success
+[2024-04-23 01:34:47] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.8.tar.gz]
+[2024-04-23 01:34:47] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.9.tar.gz]
+[2024-04-23 01:34:47] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2024-04-23 01:34:47] INFO root fetch - processPackages [sqlUts]: Remove: archive file [/home/abi/fetcher/tmp/sqlUts-1.0.1.tar.gz]
+[2024-04-23 01:34:47] INFO root fetch - processPackages [sqlUts]: Remove: archive file [/home/abi/fetcher/tmp/sqlUts-1.0.2.tar.gz]
+[2024-04-23 01:34:47] INFO root fetch - main [MainThread]: End processing [sqlUts]: success
+[2024-04-23 01:34:47] INFO root fetch - main [MainThread]: Store serial: [22886005]
