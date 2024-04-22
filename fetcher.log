@@ -907,3 +907,15 @@
 [2024-04-23 00:45:24] INFO root fetch - processPackages [keras]: Remove: archive file [/home/abi/fetcher/tmp/keras-3.3.0.tar.gz]
 [2024-04-23 00:45:24] INFO root fetch - main [MainThread]: End processing [keras]: success
 [2024-04-23 00:45:24] INFO root fetch - main [MainThread]: Store serial: [22885612]
+[2024-04-23 00:47:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885612]
+[2024-04-23 00:47:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-23 00:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eule
+[2024-04-23 00:47:34] INFO root fetch - processPackages [eule]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-23 00:47:34] INFO root fetch - processPackages [eule]: Downloading https://files.pythonhosted.org/packages/5a/fe/14ba20d5adf42f30ba6a7a7af1d171a607d67fb2e2f65d6175a291f0a398/eule-1.1.0.tar.gz
+[2024-04-23 00:47:34] INFO root fetch - processPackages [eule]: Downloading https://files.pythonhosted.org/packages/ea/e0/072a1c0e9bcc308f4f5de08d3600775a14e8f83f293e8e5585e74c15266a/eule-1.2.0.tar.gz
+[2024-04-23 00:47:34] INFO root fetch - processPackages [eule]: executing diffoscope
+[2024-04-23 00:47:34] INFO root fetch - processPackages [eule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eule-1.1.0.tar.gz tmp/eule-1.2.0.tar.gz --markdown 20240423/e/eule/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-23 00:47:35] INFO root fetch - processPackages [eule]: Remove: archive file [/home/abi/fetcher/tmp/eule-1.1.0.tar.gz]
+[2024-04-23 00:47:35] INFO root fetch - processPackages [eule]: Remove: archive file [/home/abi/fetcher/tmp/eule-1.2.0.tar.gz]
+[2024-04-23 00:47:35] INFO root fetch - main [MainThread]: End processing [eule]: success
+[2024-04-23 00:47:35] INFO root fetch - main [MainThread]: Store serial: [22885616]
