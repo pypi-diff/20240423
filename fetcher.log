@@ -2023,3 +2023,69 @@
 [2024-04-23 01:50:29] INFO root fetch - processPackages [osm-fieldwork]: Remove: archive file [/home/abi/fetcher/tmp/osm-fieldwork-0.9.0.tar.gz]
 [2024-04-23 01:50:29] INFO root fetch - main [MainThread]: End processing [osm-fieldwork]: success
 [2024-04-23 01:50:29] INFO root fetch - main [MainThread]: Store serial: [22886078]
+[2024-04-23 01:52:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886078]
+[2024-04-23 01:52:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 01:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: domolibrary
+[2024-04-23 01:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zotasdk
+[2024-04-23 01:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-logs
+[2024-04-23 01:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ratecurve
+[2024-04-23 01:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mayan-edms
+[2024-04-23 01:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PYield
+[2024-04-23 01:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OperationBattleshipCommonUtilities
+[2024-04-23 01:52:39] INFO root fetch - processPackages [ratecurve]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 01:52:39] INFO root fetch - processPackages [domolibrary]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-23 01:52:39] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-23 01:52:39] INFO root fetch - processPackages [zotasdk]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-23 01:52:39] INFO root fetch - processPackages [mo-logs]: New version: [8.597.24113] Old Version: [8.591.24111]
+[2024-04-23 01:52:39] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/95/f3/6c9c1bcece92c131f243b06ce2ea786b42aac014c102edd4142844b5d688/domolibrary-4.0.8.tar.gz
+[2024-04-23 01:52:39] INFO root fetch - processPackages [PYield]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-23 01:52:39] INFO root fetch - processPackages [mayan-edms]: New version: [4.6.3] Old Version: [4.6.2]
+[2024-04-23 01:52:39] INFO root fetch - processPackages [ratecurve]: Downloading https://files.pythonhosted.org/packages/c6/79/3b0620fb3e03405e0c000a7b6ee953b8578e5cc74ceca0511352ae56c89c/ratecurve-0.0.1.tar.gz
+[2024-04-23 01:52:39] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/08/9e/c7d4d3720899965ea824a60ec3baaf59bd326b90f2cbd70385aaeadb3935/OperationBattleshipCommonUtilities-0.4.1.tar.gz
+[2024-04-23 01:52:39] INFO root fetch - processPackages [zotasdk]: Downloading https://files.pythonhosted.org/packages/7d/85/1cad5b766283f11bb322125c100dcb0a8e0976aaf9994351b27cbe1d5903/zotasdk-1.2.0-py3-none-any.whl
+[2024-04-23 01:52:39] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/c5/76/a210e5002f863fcfe2e50574d5b96b474c855bb709d5fb90f579d9d7fb62/mo_logs-8.591.24111.tar.gz
+[2024-04-23 01:52:39] INFO root fetch - processPackages [PYield]: Downloading https://files.pythonhosted.org/packages/53/37/be93f0fc02143f49d802fc5a417b6eeb844d8b086493a0080a0ed7694551/pyield-0.7.4.tar.gz
+[2024-04-23 01:52:39] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/20/04/03f981a99262a7143a6a063a2e2f6e7ef8f7e8783b38fbaac09ad11e2cdd/domolibrary-4.0.9.tar.gz
+[2024-04-23 01:52:39] INFO root fetch - processPackages [mayan-edms]: Downloading https://files.pythonhosted.org/packages/2f/65/c80da48be4c004fe2b17073f8c515c7c8edfb2039dfd09bf87dcd446070b/mayan-edms-4.6.2.tar.gz
+[2024-04-23 01:52:39] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2024-04-23 01:52:39] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-4.0.8.tar.gz tmp/domolibrary-4.0.9.tar.gz --markdown 20240423/d/domolibrary/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-04-23 01:52:39] INFO root fetch - processPackages [ratecurve]: Downloading https://files.pythonhosted.org/packages/8d/e7/761bd7ecc39ae55709125c32a3b29cbc4bd84baf126b78075df78ee870a8/ratecurve-0.0.2.tar.gz
+[2024-04-23 01:52:40] INFO root fetch - processPackages [ratecurve]: executing diffoscope
+[2024-04-23 01:52:40] INFO root fetch - processPackages [ratecurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratecurve-0.0.1.tar.gz tmp/ratecurve-0.0.2.tar.gz --markdown 20240423/r/ratecurve/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 01:52:40] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/43/ae/3247b76e36795a4a98f2feffa97e72284afcd1d774a1589ae183ad2bdccf/operationbattleshipcommonutilities-0.4.2.tar.gz
+[2024-04-23 01:52:40] INFO root fetch - processPackages [PYield]: Downloading https://files.pythonhosted.org/packages/40/71/4a8034bf7625129dc2f83e51e691a77865733160fc39c94eca08178125d9/pyield-0.7.5.tar.gz
+[2024-04-23 01:52:40] INFO root fetch - processPackages [zotasdk]: Downloading https://files.pythonhosted.org/packages/1a/d9/7dd915941fd29a685bf342bbf9123c0aa0540b9336a339b6e56f3bd16020/zotasdk-1.2.1.tar.gz
+[2024-04-23 01:52:40] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/81/74/376a533e6f7918bb4c9a530c1f33fe9b39797272b2cb3451687fe4400fea/mo_logs-8.597.24113.tar.gz
+[2024-04-23 01:52:40] INFO root fetch - processPackages [zotasdk]: executing diffoscope
+[2024-04-23 01:52:40] INFO root fetch - processPackages [zotasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zotasdk-1.2.0-py3-none-any.whl.zip tmp/zotasdk-1.2.1.tar.gz --markdown 20240423/z/zotasdk/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-23 01:52:40] INFO root fetch - processPackages [mo-logs]: executing diffoscope
+[2024-04-23 01:52:40] INFO root fetch - processPackages [mo-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_logs-8.591.24111.tar.gz tmp/mo_logs-8.597.24113.tar.gz --markdown 20240423/m/mo-logs/8.591.24111-8.597.24113/README.md --exclude *.pyd
+[2024-04-23 01:52:40] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: executing diffoscope
+[2024-04-23 01:52:40] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OperationBattleshipCommonUtilities-0.4.1.tar.gz tmp/operationbattleshipcommonutilities-0.4.2.tar.gz --markdown 20240423/O/OperationBattleshipCommonUtilities/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-23 01:52:40] INFO root fetch - processPackages [PYield]: executing diffoscope
+[2024-04-23 01:52:40] INFO root fetch - processPackages [PYield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyield-0.7.4.tar.gz tmp/pyield-0.7.5.tar.gz --markdown 20240423/P/PYield/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-04-23 01:52:40] INFO root fetch - processPackages [ratecurve]: Remove: archive file [/home/abi/fetcher/tmp/ratecurve-0.0.1.tar.gz]
+[2024-04-23 01:52:40] INFO root fetch - processPackages [ratecurve]: Remove: archive file [/home/abi/fetcher/tmp/ratecurve-0.0.2.tar.gz]
+[2024-04-23 01:52:40] INFO root fetch - main [MainThread]: End processing [ratecurve]: success
+[2024-04-23 01:52:40] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.8.tar.gz]
+[2024-04-23 01:52:40] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.9.tar.gz]
+[2024-04-23 01:52:40] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2024-04-23 01:52:40] INFO root fetch - processPackages [zotasdk]: Remove: archive file [/home/abi/fetcher/tmp/zotasdk-1.2.0-py3-none-any.whl.zip]
+[2024-04-23 01:52:40] INFO root fetch - processPackages [zotasdk]: Remove: archive file [/home/abi/fetcher/tmp/zotasdk-1.2.1.tar.gz]
+[2024-04-23 01:52:40] INFO root fetch - main [MainThread]: End processing [zotasdk]: success
+[2024-04-23 01:52:40] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.591.24111.tar.gz]
+[2024-04-23 01:52:40] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.597.24113.tar.gz]
+[2024-04-23 01:52:40] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
+[2024-04-23 01:52:40] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.4.1.tar.gz]
+[2024-04-23 01:52:40] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/operationbattleshipcommonutilities-0.4.2.tar.gz]
+[2024-04-23 01:52:40] INFO root fetch - main [MainThread]: End processing [OperationBattleshipCommonUtilities]: success
+[2024-04-23 01:52:41] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.7.4.tar.gz]
+[2024-04-23 01:52:41] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.7.5.tar.gz]
+[2024-04-23 01:52:41] INFO root fetch - main [MainThread]: End processing [PYield]: success
+[2024-04-23 01:52:41] INFO root fetch - processPackages [mayan-edms]: Downloading https://files.pythonhosted.org/packages/c8/7c/92390e4539bed05d2f60e00e4298b8d6c847935fc67a0285e5ddd18122df/mayan-edms-4.6.3.tar.gz
+[2024-04-23 01:52:41] INFO root fetch - processPackages [mayan-edms]: executing diffoscope
+[2024-04-23 01:52:41] INFO root fetch - processPackages [mayan-edms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayan-edms-4.6.2.tar.gz tmp/mayan-edms-4.6.3.tar.gz --markdown 20240423/m/mayan-edms/4.6.2-4.6.3/README.md --exclude *.pyd
+[2024-04-23 01:53:14] INFO root fetch - processPackages [mayan-edms]: Remove: archive file [/home/abi/fetcher/tmp/mayan-edms-4.6.2.tar.gz]
+[2024-04-23 01:53:14] INFO root fetch - processPackages [mayan-edms]: Remove: archive file [/home/abi/fetcher/tmp/mayan-edms-4.6.3.tar.gz]
+[2024-04-23 01:53:14] INFO root fetch - main [MainThread]: End processing [mayan-edms]: success
+[2024-04-23 01:53:14] INFO root fetch - main [MainThread]: Store serial: [22886099]
