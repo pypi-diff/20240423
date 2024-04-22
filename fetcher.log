@@ -1797,3 +1797,60 @@
 [2024-04-23 01:36:56] WARNING root fetch - processPackages [brightspacepyclient]: Skipping, unable to determine old version
 [2024-04-23 01:36:56] INFO root fetch - main [MainThread]: End processing [brightspacepyclient] error
 [2024-04-23 01:36:56] INFO root fetch - main [MainThread]: Store serial: [22886010]
+[2024-04-23 01:38:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886010]
+[2024-04-23 01:39:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quick-server
+[2024-04-23 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ragdaemon
+[2024-04-23 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras
+[2024-04-23 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: launchflow
+[2024-04-23 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DFRobotUPS
+[2024-04-23 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tivars
+[2024-04-23 01:39:04] INFO root fetch - processPackages [keras]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-04-23 01:39:04] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev7]
+[2024-04-23 01:39:04] INFO root fetch - processPackages [DFRobotUPS]: New version: [0.4] Old Version: [0.3.2]
+[2024-04-23 01:39:04] INFO root fetch - processPackages [quick-server]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-23 01:39:04] INFO root fetch - processPackages [ragdaemon]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-23 01:39:04] INFO root fetch - processPackages [keras]: Downloading https://files.pythonhosted.org/packages/71/84/b31e1c64a97ea0ac411e0304a5f8f51aa0987add9eebf9a12f724b594e4e/keras-3.3.0.tar.gz
+[2024-04-23 01:39:04] INFO root fetch - processPackages [tivars]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-23 01:39:04] INFO root fetch - processPackages [DFRobotUPS]: Downloading https://files.pythonhosted.org/packages/3b/3b/95a1598dd789779f391538e3532c4689b8a20076073ea58af12a5dbf5a28/DFRobotUPS-0.3.2.tar.gz
+[2024-04-23 01:39:04] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/48/58/dc4bcb9a1d74952a08d0cfc5e24c45d961d331cb7a4434c9059bab154c72/launchflow-0.3.9.dev7.tar.gz
+[2024-04-23 01:39:04] INFO root fetch - processPackages [quick-server]: Downloading https://files.pythonhosted.org/packages/ed/ab/1f9bb0e2b7a43babd3b5011a2c2ba2b806744846e73709c23c51a17399f4/quick_server-0.9.3.tar.gz
+[2024-04-23 01:39:04] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/35/8e/871161581f1fd926b773130a01a313bed5609e2e7b294ca94503b8e59d81/ragdaemon-0.1.9.tar.gz
+[2024-04-23 01:39:04] INFO root fetch - processPackages [tivars]: Downloading https://files.pythonhosted.org/packages/37/a0/09cbe8e2af654a62ac07a70216a2d59d5c8103bfcdfcaeaa0052afbf216c/tivars-0.8.2.tar.gz
+[2024-04-23 01:39:04] INFO root fetch - processPackages [DFRobotUPS]: Downloading https://files.pythonhosted.org/packages/c8/cb/1a44e7d68bf5d1d58b235c5cbe5ec1d70f3c93d6f879c327a79498fa0c58/DFRobotUPS-0.4.tar.gz
+[2024-04-23 01:39:04] INFO root fetch - processPackages [DFRobotUPS]: executing diffoscope
+[2024-04-23 01:39:04] INFO root fetch - processPackages [DFRobotUPS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DFRobotUPS-0.3.2.tar.gz tmp/DFRobotUPS-0.4.tar.gz --markdown 20240423/D/DFRobotUPS/0.3.2-0.4/README.md --exclude *.pyd
+[2024-04-23 01:39:04] INFO root fetch - processPackages [quick-server]: Downloading https://files.pythonhosted.org/packages/11/8f/db906b6b8e1ee0258350267ad2d859d5f942d6d93386133b988ac8926f14/quick_server-0.9.4.tar.gz
+[2024-04-23 01:39:04] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/8c/d2/f0544d4c3383370934bcc7b31fa0449e89fcfa2edeeac48bd86ada84b492/launchflow-0.3.9.dev8.tar.gz
+[2024-04-23 01:39:04] INFO root fetch - processPackages [keras]: Downloading https://files.pythonhosted.org/packages/c1/07/24a59ff5f226d1fabe45b1b11178c8a6c0254e7c1288669e523dc6bb55c7/keras-3.3.1.tar.gz
+[2024-04-23 01:39:04] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/3c/30/c82a03c5db02f134b7537d23c928149e97cb6c0a9aa96bd829e7f7c5a69d/ragdaemon-0.2.0.tar.gz
+[2024-04-23 01:39:05] INFO root fetch - processPackages [quick-server]: executing diffoscope
+[2024-04-23 01:39:05] INFO root fetch - processPackages [quick-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_server-0.9.3.tar.gz tmp/quick_server-0.9.4.tar.gz --markdown 20240423/q/quick-server/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-23 01:39:05] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-04-23 01:39:05] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev7.tar.gz tmp/launchflow-0.3.9.dev8.tar.gz --markdown 20240423/l/launchflow/0.3.9.dev7-0.3.9.dev8/README.md --exclude *.pyd
+[2024-04-23 01:39:05] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-04-23 01:39:05] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.1.9.tar.gz tmp/ragdaemon-0.2.0.tar.gz --markdown 20240423/r/ragdaemon/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-23 01:39:05] INFO root fetch - processPackages [tivars]: Downloading https://files.pythonhosted.org/packages/bb/18/28013cc6495ea726729b41983f488a6f89a93ec6c1206366b899d68fe5c5/tivars-0.9.0.tar.gz
+[2024-04-23 01:39:05] INFO root fetch - processPackages [DFRobotUPS]: Remove: archive file [/home/abi/fetcher/tmp/DFRobotUPS-0.3.2.tar.gz]
+[2024-04-23 01:39:05] INFO root fetch - processPackages [DFRobotUPS]: Remove: archive file [/home/abi/fetcher/tmp/DFRobotUPS-0.4.tar.gz]
+[2024-04-23 01:39:05] INFO root fetch - main [MainThread]: End processing [DFRobotUPS]: success
+[2024-04-23 01:39:05] INFO root fetch - processPackages [keras]: executing diffoscope
+[2024-04-23 01:39:05] INFO root fetch - processPackages [keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-3.3.0.tar.gz tmp/keras-3.3.1.tar.gz --markdown 20240423/k/keras/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-04-23 01:39:05] INFO root fetch - processPackages [quick-server]: Remove: archive file [/home/abi/fetcher/tmp/quick_server-0.9.3.tar.gz]
+[2024-04-23 01:39:05] INFO root fetch - processPackages [quick-server]: Remove: archive file [/home/abi/fetcher/tmp/quick_server-0.9.4.tar.gz]
+[2024-04-23 01:39:05] INFO root fetch - main [MainThread]: End processing [quick-server]: success
+[2024-04-23 01:39:05] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.1.9.tar.gz]
+[2024-04-23 01:39:05] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.2.0.tar.gz]
+[2024-04-23 01:39:05] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-04-23 01:39:05] INFO root fetch - processPackages [tivars]: executing diffoscope
+[2024-04-23 01:39:05] INFO root fetch - processPackages [tivars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tivars-0.8.2.tar.gz tmp/tivars-0.9.0.tar.gz --markdown 20240423/t/tivars/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-23 01:39:05] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev7.tar.gz]
+[2024-04-23 01:39:05] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev8.tar.gz]
+[2024-04-23 01:39:05] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-04-23 01:39:06] INFO root fetch - processPackages [tivars]: Remove: archive file [/home/abi/fetcher/tmp/tivars-0.8.2.tar.gz]
+[2024-04-23 01:39:06] INFO root fetch - processPackages [tivars]: Remove: archive file [/home/abi/fetcher/tmp/tivars-0.9.0.tar.gz]
+[2024-04-23 01:39:06] INFO root fetch - main [MainThread]: End processing [tivars]: success
+[2024-04-23 01:39:07] INFO root fetch - processPackages [keras]: Remove: archive file [/home/abi/fetcher/tmp/keras-3.3.0.tar.gz]
+[2024-04-23 01:39:07] INFO root fetch - processPackages [keras]: Remove: archive file [/home/abi/fetcher/tmp/keras-3.3.1.tar.gz]
+[2024-04-23 01:39:07] INFO root fetch - main [MainThread]: End processing [keras]: success
+[2024-04-23 01:39:07] INFO root fetch - main [MainThread]: Store serial: [22886026]
