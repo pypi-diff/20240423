@@ -742,3 +742,42 @@
 [2024-04-23 00:38:42] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
 [2024-04-23 00:38:42] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
 [2024-04-23 00:38:42] INFO root fetch - main [MainThread]: Store serial: [22885557]
+[2024-04-23 00:40:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885557]
+[2024-04-23 00:40:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 00:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymatgen-analysis-defects
+[2024-04-23 00:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Seq2SeqSharp
+[2024-04-23 00:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gradio-leaderboard
+[2024-04-23 00:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astro-ghost
+[2024-04-23 00:40:50] INFO root fetch - processPackages [pymatgen-analysis-defects]: New version: [2024.4.22] Old Version: [2024.2.9]
+[2024-04-23 00:40:50] INFO root fetch - processPackages [astro-ghost]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-23 00:40:51] INFO root fetch - processPackages [gradio-leaderboard]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 00:40:51] INFO root fetch - processPackages [Seq2SeqSharp]: New version: [2.8.9] Old Version: [2.8.12]
+[2024-04-23 00:40:51] INFO root fetch - processPackages [pymatgen-analysis-defects]: Downloading https://files.pythonhosted.org/packages/26/48/40118cf7807e239a5fcf61430ee21df8fcf59dd2c584f7ff21243e521f97/pymatgen-analysis-defects-2024.2.9.tar.gz
+[2024-04-23 00:40:51] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/22/da/79a769cdd9354bbd9c8ae8252e2fb84523ed4e2c91b14b066d65b5281b15/astro_ghost-2.1.4.tar.gz
+[2024-04-23 00:40:51] INFO root fetch - processPackages [Seq2SeqSharp]: Downloading https://files.pythonhosted.org/packages/49/81/45eef194a140f3b66f1b2a5562c1c3a94387d0412bfd0e478c8766be986d/Seq2SeqSharp-2.8.12.tar.gz
+[2024-04-23 00:40:51] INFO root fetch - processPackages [gradio-leaderboard]: Downloading https://files.pythonhosted.org/packages/5e/d8/6994abb709d443ff656405a184fe712f4ba2a5b18c869af5bef7a3ebc879/gradio_leaderboard-0.0.1.tar.gz
+[2024-04-23 00:40:51] INFO root fetch - processPackages [pymatgen-analysis-defects]: Downloading https://files.pythonhosted.org/packages/27/16/eada3e41e18b0a947025272908a0fa94537f6fbfe259e196551cffaa424b/pymatgen_analysis_defects-2024.4.22.tar.gz
+[2024-04-23 00:40:51] INFO root fetch - processPackages [pymatgen-analysis-defects]: executing diffoscope
+[2024-04-23 00:40:51] INFO root fetch - processPackages [pymatgen-analysis-defects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymatgen-analysis-defects-2024.2.9.tar.gz tmp/pymatgen_analysis_defects-2024.4.22.tar.gz --markdown 20240423/p/pymatgen-analysis-defects/2024.2.9-2024.4.22/README.md --exclude *.pyd
+[2024-04-23 00:40:51] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/df/ef/3f976b5e5dec011856f5ce9cff372c2b59da37274d8cdc32c23fbf820e48/astro_ghost-2.1.5.tar.gz
+[2024-04-23 00:40:51] INFO root fetch - processPackages [gradio-leaderboard]: Downloading https://files.pythonhosted.org/packages/0c/d9/b4b29916848acb50fe5b1fb978ed068a4176bcdf6a55fd6fad42826ed560/gradio_leaderboard-0.0.2.tar.gz
+[2024-04-23 00:40:51] INFO root fetch - processPackages [Seq2SeqSharp]: Downloading https://files.pythonhosted.org/packages/64/f6/b7c78b4370680a2676535195dab8c907806540f58adefd91acb3f27b9051/Seq2SeqSharp-2.8.9-py3-none-any.whl
+[2024-04-23 00:40:51] INFO root fetch - processPackages [gradio-leaderboard]: executing diffoscope
+[2024-04-23 00:40:51] INFO root fetch - processPackages [gradio-leaderboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_leaderboard-0.0.1.tar.gz tmp/gradio_leaderboard-0.0.2.tar.gz --markdown 20240423/g/gradio-leaderboard/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 00:40:52] INFO root fetch - processPackages [astro-ghost]: executing diffoscope
+[2024-04-23 00:40:52] INFO root fetch - processPackages [astro-ghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_ghost-2.1.4.tar.gz tmp/astro_ghost-2.1.5.tar.gz --markdown 20240423/a/astro-ghost/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-04-23 00:40:52] INFO root fetch - processPackages [Seq2SeqSharp]: executing diffoscope
+[2024-04-23 00:40:52] INFO root fetch - processPackages [Seq2SeqSharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Seq2SeqSharp-2.8.12.tar.gz tmp/Seq2SeqSharp-2.8.9-py3-none-any.whl.zip --markdown 20240423/S/Seq2SeqSharp/2.8.12-2.8.9/README.md --exclude *.pyd
+[2024-04-23 00:40:52] INFO root fetch - processPackages [pymatgen-analysis-defects]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-analysis-defects-2024.2.9.tar.gz]
+[2024-04-23 00:40:52] INFO root fetch - processPackages [pymatgen-analysis-defects]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen_analysis_defects-2024.4.22.tar.gz]
+[2024-04-23 00:40:52] INFO root fetch - main [MainThread]: End processing [pymatgen-analysis-defects]: success
+[2024-04-23 00:40:52] INFO root fetch - processPackages [Seq2SeqSharp]: Remove: archive file [/home/abi/fetcher/tmp/Seq2SeqSharp-2.8.12.tar.gz]
+[2024-04-23 00:40:52] INFO root fetch - processPackages [Seq2SeqSharp]: Remove: archive file [/home/abi/fetcher/tmp/Seq2SeqSharp-2.8.9-py3-none-any.whl.zip]
+[2024-04-23 00:40:52] INFO root fetch - main [MainThread]: End processing [Seq2SeqSharp]: success
+[2024-04-23 00:40:53] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.1.4.tar.gz]
+[2024-04-23 00:40:53] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.1.5.tar.gz]
+[2024-04-23 00:40:53] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
+[2024-04-23 00:40:58] INFO root fetch - processPackages [gradio-leaderboard]: Remove: archive file [/home/abi/fetcher/tmp/gradio_leaderboard-0.0.1.tar.gz]
+[2024-04-23 00:40:58] INFO root fetch - processPackages [gradio-leaderboard]: Remove: archive file [/home/abi/fetcher/tmp/gradio_leaderboard-0.0.2.tar.gz]
+[2024-04-23 00:40:58] INFO root fetch - main [MainThread]: End processing [gradio-leaderboard]: success
+[2024-04-23 00:40:58] INFO root fetch - main [MainThread]: Store serial: [22885569]
