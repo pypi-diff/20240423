@@ -970,3 +970,32 @@
 [2024-04-23 00:49:49] INFO root fetch - processPackages [apache-airflow-client]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_client-2.9.0rc1.tar.gz]
 [2024-04-23 00:49:49] INFO root fetch - main [MainThread]: End processing [apache-airflow-client]: success
 [2024-04-23 00:49:49] INFO root fetch - main [MainThread]: Store serial: [22885637]
+[2024-04-23 00:51:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885637]
+[2024-04-23 00:51:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 00:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: encryptoMe
+[2024-04-23 00:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devicetorch
+[2024-04-23 00:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elodin
+[2024-04-23 00:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ARCtrl
+[2024-04-23 00:51:58] INFO root fetch - processPackages [devicetorch]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-23 00:51:58] INFO root fetch - processPackages [devicetorch]: Downloading https://files.pythonhosted.org/packages/bf/30/4d762f62bfd02baee9b3b11a19b47e01173ea1dc60be131087f9c095a903/devicetorch-0.1.4.tar.gz
+[2024-04-23 00:51:58] INFO root fetch - processPackages [elodin]: New version: [0.3.17] Old Version: [0.3.16]
+[2024-04-23 00:51:58] INFO root fetch - processPackages [ARCtrl]: New version: [2.0.0a3] Old Version: [2.0.0a2]
+[2024-04-23 00:51:58] WARNING root fetch - processPackages [encryptoMe]: Skipping, unable to determine old version
+[2024-04-23 00:51:58] INFO root fetch - main [MainThread]: End processing [encryptoMe] error
+[2024-04-23 00:51:58] INFO root fetch - processPackages [devicetorch]: Downloading https://files.pythonhosted.org/packages/33/3f/9286d9947396f15eeafe68ee90c8078067b05f614fa21411108881647596/devicetorch-0.1.5.tar.gz
+[2024-04-23 00:51:58] INFO root fetch - processPackages [elodin]: Downloading https://files.pythonhosted.org/packages/0d/a0/451f2bc8b8d8b54ea757328785359b82ca5f7832d376b3978fa32f4a45c2/elodin-0.3.16-cp310-abi3-manylinux_2_31_x86_64.whl
+[2024-04-23 00:51:58] INFO root fetch - processPackages [ARCtrl]: Downloading https://files.pythonhosted.org/packages/02/2c/929b96586679a37e58f1b0c1e92423b854d61323584758f7802983c160ed/arctrl-2.0.0a2.tar.gz
+[2024-04-23 00:51:58] WARNING root fetch - processPackages [elodin]: Skipping package: exceeds size limit 64921363>=10485760
+[2024-04-23 00:51:58] INFO root fetch - main [MainThread]: End processing [elodin] error
+[2024-04-23 00:51:58] INFO root fetch - processPackages [devicetorch]: executing diffoscope
+[2024-04-23 00:51:58] INFO root fetch - processPackages [devicetorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devicetorch-0.1.4.tar.gz tmp/devicetorch-0.1.5.tar.gz --markdown 20240423/d/devicetorch/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-23 00:51:59] INFO root fetch - processPackages [ARCtrl]: Downloading https://files.pythonhosted.org/packages/48/a8/306202b357e1a72f4ca5d9bf7d494fbf6b9dc905d7d7685c015209bb6d29/arctrl-2.0.0a3.tar.gz
+[2024-04-23 00:51:59] INFO root fetch - processPackages [ARCtrl]: executing diffoscope
+[2024-04-23 00:51:59] INFO root fetch - processPackages [ARCtrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arctrl-2.0.0a2.tar.gz tmp/arctrl-2.0.0a3.tar.gz --markdown 20240423/A/ARCtrl/2.0.0a2-2.0.0a3/README.md --exclude *.pyd
+[2024-04-23 00:51:59] INFO root fetch - processPackages [devicetorch]: Remove: archive file [/home/abi/fetcher/tmp/devicetorch-0.1.4.tar.gz]
+[2024-04-23 00:51:59] INFO root fetch - processPackages [devicetorch]: Remove: archive file [/home/abi/fetcher/tmp/devicetorch-0.1.5.tar.gz]
+[2024-04-23 00:51:59] INFO root fetch - main [MainThread]: End processing [devicetorch]: success
+[2024-04-23 00:52:01] INFO root fetch - processPackages [ARCtrl]: Remove: archive file [/home/abi/fetcher/tmp/arctrl-2.0.0a2.tar.gz]
+[2024-04-23 00:52:01] INFO root fetch - processPackages [ARCtrl]: Remove: archive file [/home/abi/fetcher/tmp/arctrl-2.0.0a3.tar.gz]
+[2024-04-23 00:52:01] INFO root fetch - main [MainThread]: End processing [ARCtrl]: success
+[2024-04-23 00:52:01] INFO root fetch - main [MainThread]: Store serial: [22885655]
