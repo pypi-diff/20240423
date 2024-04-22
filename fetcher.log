@@ -1198,3 +1198,57 @@
 [2024-04-23 01:05:02] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 213039616>=10485760
 [2024-04-23 01:05:02] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
 [2024-04-23 01:05:02] INFO root fetch - main [MainThread]: Store serial: [22885728]
+[2024-04-23 01:07:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885728]
+[2024-04-23 01:07:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 01:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt
+[2024-04-23 01:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymsch
+[2024-04-23 01:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: indexify-extractor-sdk
+[2024-04-23 01:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flwr-nightly
+[2024-04-23 01:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-metadata
+[2024-04-23 01:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spyglass-neuro
+[2024-04-23 01:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: corgea-cli
+[2024-04-23 01:07:11] WARNING root fetch - processPackages [pymsch]: Skipping, unable to determine old version
+[2024-04-23 01:07:11] INFO root fetch - main [MainThread]: End processing [pymsch] error
+[2024-04-23 01:07:11] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240421] Old Version: [0.7.52b20240420]
+[2024-04-23 01:07:11] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240422] Old Version: [1.9.0.dev20240420]
+[2024-04-23 01:07:11] WARNING root fetch - processPackages [corgea-cli]: Skipping, unable to determine old version
+[2024-04-23 01:07:11] INFO root fetch - main [MainThread]: End processing [corgea-cli] error
+[2024-04-23 01:07:11] INFO root fetch - processPackages [edc-metadata]: New version: [0.3.95] Old Version: [0.3.94]
+[2024-04-23 01:07:11] INFO root fetch - processPackages [indexify-extractor-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 01:07:11] INFO root fetch - processPackages [spyglass-neuro]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-23 01:07:11] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/26/80/4319cf03b8ea4085b9e2110767a32f881b9fa1304d9f5bc2341c89eda9d9/tmnt-0.7.52b20240420.tar.gz
+[2024-04-23 01:07:11] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/a5/69/468e1aa36e35c21bf90081173f3006c8acd0fc2d723e637b4524cdaca277/flwr_nightly-1.9.0.dev20240420.tar.gz
+[2024-04-23 01:07:11] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/02/21/d23b3422da3e3c77b47f864cd03ccd62f955c1d59524ab1ce82830c197c0/edc-metadata-0.3.94.tar.gz
+[2024-04-23 01:07:11] INFO root fetch - processPackages [indexify-extractor-sdk]: Downloading https://files.pythonhosted.org/packages/25/fb/8dcfb1ddf593ada77ca7aebff3d9add072c6922c5b3efddeb31e991f5968/indexify-extractor-sdk-0.0.8.tar.gz
+[2024-04-23 01:07:11] INFO root fetch - processPackages [spyglass-neuro]: Downloading https://files.pythonhosted.org/packages/2d/d0/abc3b3b43e0f62f5b961d25ad509d38b33abc97994b5d3e48d9adbd9ecf5/spyglass_neuro-0.5.1.tar.gz
+[2024-04-23 01:07:11] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/24/08/8ddc3aea32f22b585402b9a2c5e9b142e8ea58ef168d9437a2db59369833/tmnt-0.7.52b20240421.tar.gz
+[2024-04-23 01:07:11] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-23 01:07:11] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240420.tar.gz tmp/tmnt-0.7.52b20240421.tar.gz --markdown 20240423/t/tmnt/0.7.52b20240420-0.7.52b20240421/README.md --exclude *.pyd
+[2024-04-23 01:07:11] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/44/6e/487dd23ff9320d1ca5bb282c33622a4d05cf496c74e3530f2f7f868fafea/flwr_nightly-1.9.0.dev20240422.tar.gz
+[2024-04-23 01:07:12] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/ab/46/6566e7c68347d5112fad1f40c08d54f8ac5762f465004c527385589adcd2/edc_metadata-0.3.95.tar.gz
+[2024-04-23 01:07:12] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-04-23 01:07:12] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240420.tar.gz tmp/flwr_nightly-1.9.0.dev20240422.tar.gz --markdown 20240423/f/flwr-nightly/1.9.0.dev20240420-1.9.0.dev20240422/README.md --exclude *.pyd
+[2024-04-23 01:07:12] INFO root fetch - processPackages [edc-metadata]: executing diffoscope
+[2024-04-23 01:07:12] INFO root fetch - processPackages [edc-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-metadata-0.3.94.tar.gz tmp/edc_metadata-0.3.95.tar.gz --markdown 20240423/e/edc-metadata/0.3.94-0.3.95/README.md --exclude *.pyd
+[2024-04-23 01:07:12] INFO root fetch - processPackages [indexify-extractor-sdk]: Downloading https://files.pythonhosted.org/packages/6b/69/1a816cb64f283ffbd7a285fc0aacdf84a8f4bc7214eaab78ac42be5e93ba/indexify-extractor-sdk-0.0.9.tar.gz
+[2024-04-23 01:07:12] INFO root fetch - processPackages [indexify-extractor-sdk]: executing diffoscope
+[2024-04-23 01:07:12] INFO root fetch - processPackages [indexify-extractor-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexify-extractor-sdk-0.0.8.tar.gz tmp/indexify-extractor-sdk-0.0.9.tar.gz --markdown 20240423/i/indexify-extractor-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 01:07:12] INFO root fetch - processPackages [spyglass-neuro]: Downloading https://files.pythonhosted.org/packages/a1/d7/a1dd7c39b925ece0513e391b8aae113bd7c1d1f7b2e086d703d607015f09/spyglass_neuro-0.5.2.tar.gz
+[2024-04-23 01:07:12] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240420.tar.gz]
+[2024-04-23 01:07:12] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240421.tar.gz]
+[2024-04-23 01:07:12] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-23 01:07:12] INFO root fetch - processPackages [spyglass-neuro]: executing diffoscope
+[2024-04-23 01:07:12] INFO root fetch - processPackages [spyglass-neuro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyglass_neuro-0.5.1.tar.gz tmp/spyglass_neuro-0.5.2.tar.gz --markdown 20240423/s/spyglass-neuro/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-23 01:07:12] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.8.tar.gz]
+[2024-04-23 01:07:12] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.9.tar.gz]
+[2024-04-23 01:07:12] INFO root fetch - main [MainThread]: End processing [indexify-extractor-sdk]: success
+[2024-04-23 01:07:13] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc-metadata-0.3.94.tar.gz]
+[2024-04-23 01:07:13] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.95.tar.gz]
+[2024-04-23 01:07:13] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
+[2024-04-23 01:07:13] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240420.tar.gz]
+[2024-04-23 01:07:13] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240422.tar.gz]
+[2024-04-23 01:07:13] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-04-23 01:07:26] INFO root fetch - processPackages [spyglass-neuro]: Remove: archive file [/home/abi/fetcher/tmp/spyglass_neuro-0.5.1.tar.gz]
+[2024-04-23 01:07:26] INFO root fetch - processPackages [spyglass-neuro]: Remove: archive file [/home/abi/fetcher/tmp/spyglass_neuro-0.5.2.tar.gz]
+[2024-04-23 01:07:26] INFO root fetch - main [MainThread]: End processing [spyglass-neuro]: success
+[2024-04-23 01:07:26] INFO root fetch - main [MainThread]: Store serial: [22885750]
