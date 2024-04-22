@@ -1362,3 +1362,9 @@
 [2024-04-23 01:12:50] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.744.1.tar.gz]
 [2024-04-23 01:12:50] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-04-23 01:12:50] INFO root fetch - main [MainThread]: Store serial: [22885794]
+[2024-04-23 01:14:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885794]
+[2024-04-23 01:14:59] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-23 01:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorrt-yolo
+[2024-04-23 01:14:59] WARNING root fetch - processPackages [tensorrt-yolo]: Skipping, unable to determine old version
+[2024-04-23 01:14:59] INFO root fetch - main [MainThread]: End processing [tensorrt-yolo] error
+[2024-04-23 01:14:59] INFO root fetch - main [MainThread]: Store serial: [22885799]
