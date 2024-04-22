@@ -1085,3 +1085,33 @@
 [2024-04-23 00:56:24] INFO root fetch - processPackages [alluka]: Remove: archive file [/home/abi/fetcher/tmp/alluka-0.1.5.tar.gz]
 [2024-04-23 00:56:24] INFO root fetch - main [MainThread]: End processing [alluka]: success
 [2024-04-23 00:56:24] INFO root fetch - main [MainThread]: Store serial: [22885683]
+[2024-04-23 00:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885683]
+[2024-04-23 00:58:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 00:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-energy
+[2024-04-23 00:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orbax-checkpoint
+[2024-04-23 00:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-plugin-dns
+[2024-04-23 00:58:32] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-23 00:58:32] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-04-23 00:58:32] INFO root fetch - processPackages [netbox-plugin-dns]: New version: [1.0b2] Old Version: [1.0b1]
+[2024-04-23 00:58:32] INFO root fetch - processPackages [orbax-checkpoint]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-23 00:58:32] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/83/06/c2bf766b7bf48d2a7629956d5ff52d27f99f51dcec51acf229e5713365e6/netbox_plugin_dns-1.0b1.tar.gz
+[2024-04-23 00:58:32] INFO root fetch - processPackages [orbax-checkpoint]: Downloading https://files.pythonhosted.org/packages/c1/33/06dd6342c517cbcdddbeae81663e3111814e2cf568fb4eae8ae07b99c023/orbax_checkpoint-0.5.8.tar.gz
+[2024-04-23 00:58:32] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-04-23 00:58:33] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-04-23 00:58:33] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240423/d/dragonfly-energy/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-23 00:58:33] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/61/a0/6850dc26ab05bb9103ee460b7b0f056dfbb98693393a3c64d0c381dc264f/netbox_plugin_dns-1.0b2.tar.gz
+[2024-04-23 00:58:33] INFO root fetch - processPackages [orbax-checkpoint]: Downloading https://files.pythonhosted.org/packages/b4/96/e50c54aa130cc768620b9bad0a4d1284f027cc7447186a412f8b506d4037/orbax_checkpoint-0.5.9.tar.gz
+[2024-04-23 00:58:33] INFO root fetch - processPackages [orbax-checkpoint]: executing diffoscope
+[2024-04-23 00:58:33] INFO root fetch - processPackages [orbax-checkpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbax_checkpoint-0.5.8.tar.gz tmp/orbax_checkpoint-0.5.9.tar.gz --markdown 20240423/o/orbax-checkpoint/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-23 00:58:33] INFO root fetch - processPackages [netbox-plugin-dns]: executing diffoscope
+[2024-04-23 00:58:33] INFO root fetch - processPackages [netbox-plugin-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_plugin_dns-1.0b1.tar.gz tmp/netbox_plugin_dns-1.0b2.tar.gz --markdown 20240423/n/netbox-plugin-dns/1.0b1-1.0b2/README.md --exclude *.pyd
+[2024-04-23 00:58:33] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-04-23 00:58:33] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-04-23 00:58:33] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-04-23 00:58:34] INFO root fetch - processPackages [orbax-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/orbax_checkpoint-0.5.8.tar.gz]
+[2024-04-23 00:58:34] INFO root fetch - processPackages [orbax-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/orbax_checkpoint-0.5.9.tar.gz]
+[2024-04-23 00:58:34] INFO root fetch - main [MainThread]: End processing [orbax-checkpoint]: success
+[2024-04-23 00:58:34] INFO root fetch - processPackages [netbox-plugin-dns]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_dns-1.0b1.tar.gz]
+[2024-04-23 00:58:34] INFO root fetch - processPackages [netbox-plugin-dns]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_dns-1.0b2.tar.gz]
+[2024-04-23 00:58:34] INFO root fetch - main [MainThread]: End processing [netbox-plugin-dns]: success
+[2024-04-23 00:58:34] INFO root fetch - main [MainThread]: Store serial: [22885695]
