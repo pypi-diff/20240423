@@ -1,0 +1,75 @@
+[2024-04-23 00:01:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885219]
+[2024-04-23 00:01:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thick
+[2024-04-23 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: komodo-sdk
+[2024-04-23 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mqt-core
+[2024-04-23 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qlet
+[2024-04-23 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: artd-price-list
+[2024-04-23 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: memento-scorecard
+[2024-04-23 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: es-wait
+[2024-04-23 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rapids-dependency-file-generator
+[2024-04-23 00:01:22] INFO root fetch - processPackages [es-wait]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-04-23 00:01:22] INFO root fetch - processPackages [artd-price-list]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-23 00:01:22] INFO root fetch - processPackages [qlet]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 00:01:22] INFO root fetch - processPackages [komodo-sdk]: New version: [0.0.97] Old Version: [0.0.96]
+[2024-04-23 00:01:22] INFO root fetch - processPackages [artd-price-list]: Downloading https://files.pythonhosted.org/packages/85/8a/e92d80d6cf6b10736ccdf14f405220bca87c9c9af832ff65c30ad811d4ac/artd_price_list-1.0.3.tar.gz
+[2024-04-23 00:01:22] INFO root fetch - processPackages [memento-scorecard]: New version: [2.0.0] Old Version: [1.3.2]
+[2024-04-23 00:01:22] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/9e/4b/1175dcac15158b9d084283b09202961250d48541cb12919f4f7c02a64ea6/es_wait-0.1.4.tar.gz
+[2024-04-23 00:01:22] INFO root fetch - processPackages [thick]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-23 00:01:22] INFO root fetch - processPackages [mqt-core]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-23 00:01:22] INFO root fetch - processPackages [rapids-dependency-file-generator]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-23 00:01:22] INFO root fetch - processPackages [artd-price-list]: Downloading https://files.pythonhosted.org/packages/d7/0d/b4d68a2ae270154e4703406c93ebee7c42bb90c6bbcb07ab299bb764bdce/artd_price_list-1.0.4.tar.gz
+[2024-04-23 00:01:22] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/bf/c9/7cd86415856d9b1f8ad05631299670f9d9dcbe2bf0ea82fb64525c3b7f7c/komodo_sdk-0.0.96.tar.gz
+[2024-04-23 00:01:22] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/4d/bb/c3be761c70dce3b50c4f58ad9e0ce922319be2a9a2e039a911412ba8c061/es_wait-0.2.0.tar.gz
+[2024-04-23 00:01:22] INFO root fetch - processPackages [qlet]: Downloading https://files.pythonhosted.org/packages/a8/3e/5c486232bd0eb05c8b0c09e0a5e001fcadba925f86b2141abbc21461f21c/qlet-0.1.1.tar.gz
+[2024-04-23 00:01:22] INFO root fetch - processPackages [mqt-core]: Downloading https://files.pythonhosted.org/packages/a3/4c/34aded5e588c3aa17005a7f51510e137049c5195c3239a05cfc0bd2024aa/mqt_core-2.4.0.tar.gz
+[2024-04-23 00:01:22] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/4f/da/cceeadb919be7df05b17a3a58f7b3254001ae022884011d94aac7361ea57/memento-scorecard-1.3.2.tar.gz
+[2024-04-23 00:01:22] INFO root fetch - processPackages [rapids-dependency-file-generator]: Downloading https://files.pythonhosted.org/packages/35/cc/fe0001af9e6b85bf03a3ced4911e4a78dfa8de7e254ca03dabe31164412c/rapids-dependency-file-generator-1.8.0.tar.gz
+[2024-04-23 00:01:22] INFO root fetch - processPackages [thick]: Downloading https://files.pythonhosted.org/packages/f6/5c/86fea44cdfd392113e8e2a532783a6fdd99d088452c9fca667255ee5dd8c/thick-0.0.4.tar.gz
+[2024-04-23 00:01:22] INFO root fetch - processPackages [artd-price-list]: executing diffoscope
+[2024-04-23 00:01:22] INFO root fetch - processPackages [artd-price-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd_price_list-1.0.3.tar.gz tmp/artd_price_list-1.0.4.tar.gz --markdown 20240423/a/artd-price-list/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-23 00:01:22] INFO root fetch - processPackages [es-wait]: executing diffoscope
+[2024-04-23 00:01:22] INFO root fetch - processPackages [es-wait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_wait-0.1.4.tar.gz tmp/es_wait-0.2.0.tar.gz --markdown 20240423/e/es-wait/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-04-23 00:01:23] INFO root fetch - processPackages [mqt-core]: Downloading https://files.pythonhosted.org/packages/7d/c2/ad003e176dcb213b7691bffaf8b165b855c639d50e85566495aac7dd4c43/mqt_core-2.4.1.tar.gz
+[2024-04-23 00:01:23] INFO root fetch - processPackages [qlet]: Downloading https://files.pythonhosted.org/packages/ce/16/b43ff491b807fc5230e553a3e16048116bf6775cea23056cd530636d298f/qlet-0.1.2.tar.gz
+[2024-04-23 00:01:23] INFO root fetch - processPackages [thick]: Downloading https://files.pythonhosted.org/packages/f6/82/33e2a214a14e6f1771c9c60134840127545fe1a0bd1fc90b68e8095a3337/thick-0.0.5.tar.gz
+[2024-04-23 00:01:23] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/2d/b2/2cffa884d250a5bb8930b410ea153e44a5c0db1b0f4b863766e60dde3c8b/komodo_sdk-0.0.97.tar.gz
+[2024-04-23 00:01:23] INFO root fetch - processPackages [rapids-dependency-file-generator]: Downloading https://files.pythonhosted.org/packages/1b/cc/edcd9e618969ad028bd2880c86f9e8984c9da491fcd730c7a81b46556a7d/rapids-dependency-file-generator-1.9.0.tar.gz
+[2024-04-23 00:01:23] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/17/33/bc6ecd14960defdbe88604a391d831bf277f0970164e47fbc2b005ee7a35/memento-scorecard-2.0.0.tar.gz
+[2024-04-23 00:01:23] INFO root fetch - processPackages [thick]: executing diffoscope
+[2024-04-23 00:01:23] INFO root fetch - processPackages [thick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thick-0.0.4.tar.gz tmp/thick-0.0.5.tar.gz --markdown 20240423/t/thick/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-23 00:01:23] INFO root fetch - processPackages [rapids-dependency-file-generator]: executing diffoscope
+[2024-04-23 00:01:23] INFO root fetch - processPackages [rapids-dependency-file-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapids-dependency-file-generator-1.8.0.tar.gz tmp/rapids-dependency-file-generator-1.9.0.tar.gz --markdown 20240423/r/rapids-dependency-file-generator/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-23 00:01:23] INFO root fetch - processPackages [komodo-sdk]: executing diffoscope
+[2024-04-23 00:01:23] INFO root fetch - processPackages [komodo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komodo_sdk-0.0.96.tar.gz tmp/komodo_sdk-0.0.97.tar.gz --markdown 20240423/k/komodo-sdk/0.0.96-0.0.97/README.md --exclude *.pyd
+[2024-04-23 00:01:23] INFO root fetch - processPackages [qlet]: executing diffoscope
+[2024-04-23 00:01:23] INFO root fetch - processPackages [qlet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlet-0.1.1.tar.gz tmp/qlet-0.1.2.tar.gz --markdown 20240423/q/qlet/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 00:01:23] INFO root fetch - processPackages [mqt-core]: executing diffoscope
+[2024-04-23 00:01:23] INFO root fetch - processPackages [mqt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqt_core-2.4.0.tar.gz tmp/mqt_core-2.4.1.tar.gz --markdown 20240423/m/mqt-core/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-04-23 00:01:23] INFO root fetch - processPackages [memento-scorecard]: executing diffoscope
+[2024-04-23 00:01:23] INFO root fetch - processPackages [memento-scorecard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memento-scorecard-1.3.2.tar.gz tmp/memento-scorecard-2.0.0.tar.gz --markdown 20240423/m/memento-scorecard/1.3.2-2.0.0/README.md --exclude *.pyd
+[2024-04-23 00:01:23] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.1.4.tar.gz]
+[2024-04-23 00:01:23] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.2.0.tar.gz]
+[2024-04-23 00:01:23] INFO root fetch - main [MainThread]: End processing [es-wait]: success
+[2024-04-23 00:01:23] INFO root fetch - processPackages [artd-price-list]: Remove: archive file [/home/abi/fetcher/tmp/artd_price_list-1.0.3.tar.gz]
+[2024-04-23 00:01:23] INFO root fetch - processPackages [artd-price-list]: Remove: archive file [/home/abi/fetcher/tmp/artd_price_list-1.0.4.tar.gz]
+[2024-04-23 00:01:23] INFO root fetch - main [MainThread]: End processing [artd-price-list]: success
+[2024-04-23 00:01:24] INFO root fetch - processPackages [thick]: Remove: archive file [/home/abi/fetcher/tmp/thick-0.0.4.tar.gz]
+[2024-04-23 00:01:24] INFO root fetch - processPackages [thick]: Remove: archive file [/home/abi/fetcher/tmp/thick-0.0.5.tar.gz]
+[2024-04-23 00:01:24] INFO root fetch - main [MainThread]: End processing [thick]: success
+[2024-04-23 00:01:24] INFO root fetch - processPackages [qlet]: Remove: archive file [/home/abi/fetcher/tmp/qlet-0.1.1.tar.gz]
+[2024-04-23 00:01:24] INFO root fetch - processPackages [qlet]: Remove: archive file [/home/abi/fetcher/tmp/qlet-0.1.2.tar.gz]
+[2024-04-23 00:01:24] INFO root fetch - main [MainThread]: End processing [qlet]: success
+[2024-04-23 00:01:24] INFO root fetch - processPackages [rapids-dependency-file-generator]: Remove: archive file [/home/abi/fetcher/tmp/rapids-dependency-file-generator-1.8.0.tar.gz]
+[2024-04-23 00:01:24] INFO root fetch - processPackages [rapids-dependency-file-generator]: Remove: archive file [/home/abi/fetcher/tmp/rapids-dependency-file-generator-1.9.0.tar.gz]
+[2024-04-23 00:01:24] INFO root fetch - main [MainThread]: End processing [rapids-dependency-file-generator]: success
+[2024-04-23 00:01:24] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-1.3.2.tar.gz]
+[2024-04-23 00:01:24] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-2.0.0.tar.gz]
+[2024-04-23 00:01:24] INFO root fetch - main [MainThread]: End processing [memento-scorecard]: success
+[2024-04-23 00:01:24] INFO root fetch - processPackages [mqt-core]: Remove: archive file [/home/abi/fetcher/tmp/mqt_core-2.4.0.tar.gz]
+[2024-04-23 00:01:24] INFO root fetch - processPackages [mqt-core]: Remove: archive file [/home/abi/fetcher/tmp/mqt_core-2.4.1.tar.gz]
+[2024-04-23 00:01:24] INFO root fetch - main [MainThread]: End processing [mqt-core]: success
+[2024-04-23 00:01:24] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.96.tar.gz]
+[2024-04-23 00:01:24] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.97.tar.gz]
+[2024-04-23 00:01:24] INFO root fetch - main [MainThread]: End processing [komodo-sdk]: success
+[2024-04-23 00:01:24] INFO root fetch - main [MainThread]: Store serial: [22885274]
