@@ -637,3 +637,51 @@
 [2024-04-23 00:34:21] INFO root fetch - processPackages [pyzdd]: Remove: archive file [/home/abi/fetcher/tmp/pyzdd-0.2.8.tar.gz]
 [2024-04-23 00:34:21] INFO root fetch - main [MainThread]: End processing [pyzdd]: success
 [2024-04-23 00:34:21] INFO root fetch - main [MainThread]: Store serial: [22885513]
+[2024-04-23 00:36:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885513]
+[2024-04-23 00:36:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eule
+[2024-04-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymatgen-analysis-defects
+[2024-04-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapids-dependency-file-generator
+[2024-04-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-04-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linalgebralib
+[2024-04-23 00:36:30] INFO root fetch - processPackages [rapids-dependency-file-generator]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-23 00:36:30] INFO root fetch - processPackages [pymatgen-analysis-defects]: New version: [2024.4.22] Old Version: [2024.2.9]
+[2024-04-23 00:36:30] INFO root fetch - processPackages [linalgebralib]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 00:36:30] INFO root fetch - processPackages [eule]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-23 00:36:30] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-23 00:36:30] INFO root fetch - processPackages [rapids-dependency-file-generator]: Downloading https://files.pythonhosted.org/packages/35/cc/fe0001af9e6b85bf03a3ced4911e4a78dfa8de7e254ca03dabe31164412c/rapids-dependency-file-generator-1.8.0.tar.gz
+[2024-04-23 00:36:30] INFO root fetch - processPackages [linalgebralib]: Downloading https://files.pythonhosted.org/packages/55/6f/889979c24592f033222d5e08cdfaec05245a3ab6602e480abc52a33f19a6/linalgebralib-0.0.2.tar.gz
+[2024-04-23 00:36:30] INFO root fetch - processPackages [eule]: Downloading https://files.pythonhosted.org/packages/5a/fe/14ba20d5adf42f30ba6a7a7af1d171a607d67fb2e2f65d6175a291f0a398/eule-1.1.0.tar.gz
+[2024-04-23 00:36:30] INFO root fetch - processPackages [pymatgen-analysis-defects]: Downloading https://files.pythonhosted.org/packages/26/48/40118cf7807e239a5fcf61430ee21df8fcf59dd2c584f7ff21243e521f97/pymatgen-analysis-defects-2024.2.9.tar.gz
+[2024-04-23 00:36:30] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-04-23 00:36:30] INFO root fetch - processPackages [rapids-dependency-file-generator]: Downloading https://files.pythonhosted.org/packages/1b/cc/edcd9e618969ad028bd2880c86f9e8984c9da491fcd730c7a81b46556a7d/rapids-dependency-file-generator-1.9.0.tar.gz
+[2024-04-23 00:36:30] INFO root fetch - processPackages [rapids-dependency-file-generator]: executing diffoscope
+[2024-04-23 00:36:30] INFO root fetch - processPackages [rapids-dependency-file-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapids-dependency-file-generator-1.8.0.tar.gz tmp/rapids-dependency-file-generator-1.9.0.tar.gz --markdown 20240423/r/rapids-dependency-file-generator/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-23 00:36:30] INFO root fetch - processPackages [linalgebralib]: Downloading https://files.pythonhosted.org/packages/95/af/c15f3e34d5bdd4dbe40a10585f057230b03b4d315af6eeec2cd698153c77/linalgebralib-0.0.3.tar.gz
+[2024-04-23 00:36:30] INFO root fetch - processPackages [pymatgen-analysis-defects]: Downloading https://files.pythonhosted.org/packages/27/16/eada3e41e18b0a947025272908a0fa94537f6fbfe259e196551cffaa424b/pymatgen_analysis_defects-2024.4.22.tar.gz
+[2024-04-23 00:36:31] INFO root fetch - processPackages [eule]: Downloading https://files.pythonhosted.org/packages/ea/e0/072a1c0e9bcc308f4f5de08d3600775a14e8f83f293e8e5585e74c15266a/eule-1.2.0.tar.gz
+[2024-04-23 00:36:31] INFO root fetch - processPackages [linalgebralib]: executing diffoscope
+[2024-04-23 00:36:31] INFO root fetch - processPackages [linalgebralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linalgebralib-0.0.2.tar.gz tmp/linalgebralib-0.0.3.tar.gz --markdown 20240423/l/linalgebralib/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 00:36:31] INFO root fetch - processPackages [pymatgen-analysis-defects]: executing diffoscope
+[2024-04-23 00:36:31] INFO root fetch - processPackages [pymatgen-analysis-defects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymatgen-analysis-defects-2024.2.9.tar.gz tmp/pymatgen_analysis_defects-2024.4.22.tar.gz --markdown 20240423/p/pymatgen-analysis-defects/2024.2.9-2024.4.22/README.md --exclude *.pyd
+[2024-04-23 00:36:31] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-04-23 00:36:31] INFO root fetch - processPackages [eule]: executing diffoscope
+[2024-04-23 00:36:31] INFO root fetch - processPackages [eule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eule-1.1.0.tar.gz tmp/eule-1.2.0.tar.gz --markdown 20240423/e/eule/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-23 00:36:31] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-04-23 00:36:31] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240423/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-23 00:36:31] INFO root fetch - processPackages [rapids-dependency-file-generator]: Remove: archive file [/home/abi/fetcher/tmp/rapids-dependency-file-generator-1.8.0.tar.gz]
+[2024-04-23 00:36:31] INFO root fetch - processPackages [rapids-dependency-file-generator]: Remove: archive file [/home/abi/fetcher/tmp/rapids-dependency-file-generator-1.9.0.tar.gz]
+[2024-04-23 00:36:31] INFO root fetch - main [MainThread]: End processing [rapids-dependency-file-generator]: success
+[2024-04-23 00:36:31] INFO root fetch - processPackages [linalgebralib]: Remove: archive file [/home/abi/fetcher/tmp/linalgebralib-0.0.2.tar.gz]
+[2024-04-23 00:36:31] INFO root fetch - processPackages [linalgebralib]: Remove: archive file [/home/abi/fetcher/tmp/linalgebralib-0.0.3.tar.gz]
+[2024-04-23 00:36:31] INFO root fetch - main [MainThread]: End processing [linalgebralib]: success
+[2024-04-23 00:36:31] INFO root fetch - processPackages [eule]: Remove: archive file [/home/abi/fetcher/tmp/eule-1.1.0.tar.gz]
+[2024-04-23 00:36:31] INFO root fetch - processPackages [eule]: Remove: archive file [/home/abi/fetcher/tmp/eule-1.2.0.tar.gz]
+[2024-04-23 00:36:31] INFO root fetch - main [MainThread]: End processing [eule]: success
+[2024-04-23 00:36:31] INFO root fetch - processPackages [pymatgen-analysis-defects]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-analysis-defects-2024.2.9.tar.gz]
+[2024-04-23 00:36:31] INFO root fetch - processPackages [pymatgen-analysis-defects]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen_analysis_defects-2024.4.22.tar.gz]
+[2024-04-23 00:36:31] INFO root fetch - main [MainThread]: End processing [pymatgen-analysis-defects]: success
+[2024-04-23 00:36:32] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-04-23 00:36:32] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-04-23 00:36:32] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-04-23 00:36:32] INFO root fetch - main [MainThread]: Store serial: [22885528]
