@@ -1914,3 +1914,20 @@
 [2024-04-23 01:43:58] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.1.tar.gz]
 [2024-04-23 01:43:58] INFO root fetch - main [MainThread]: End processing [metaphor-models]: success
 [2024-04-23 01:43:58] INFO root fetch - main [MainThread]: Store serial: [22886044]
+[2024-04-23 01:46:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886044]
+[2024-04-23 01:46:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 01:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: entity-recognition-service
+[2024-04-23 01:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: watergeo
+[2024-04-23 01:46:07] INFO root fetch - processPackages [entity-recognition-service]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 01:46:07] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/23/18/7145326a6ea0566c2c41ba0bf3822fffc6b4da314a426433179c4724bda3/entity_recognition_service-0.1.8.tar.gz
+[2024-04-23 01:46:07] INFO root fetch - processPackages [watergeo]: New version: [0.0.8] Old Version: [0.0.5]
+[2024-04-23 01:46:07] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/86/75/a994a9af22b16241a2b38cb3314e7d2457d9aaf73d35a5b70823d8c8ce18/entity_recognition_service-0.1.9.tar.gz
+[2024-04-23 01:46:07] INFO root fetch - processPackages [watergeo]: Downloading https://files.pythonhosted.org/packages/76/27/4cd2bbf5f166d2613892308536917a0a59b2abbf420e80d6a71e5102563e/watergeo-0.0.5.tar.gz
+[2024-04-23 01:46:07] INFO root fetch - processPackages [entity-recognition-service]: executing diffoscope
+[2024-04-23 01:46:07] INFO root fetch - processPackages [entity-recognition-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entity_recognition_service-0.1.8.tar.gz tmp/entity_recognition_service-0.1.9.tar.gz --markdown 20240423/e/entity-recognition-service/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 01:46:07] WARNING root fetch - processPackages [watergeo]: Skipping package: exceeds size limit 10823775>=10485760
+[2024-04-23 01:46:07] INFO root fetch - main [MainThread]: End processing [watergeo] error
+[2024-04-23 01:46:08] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.8.tar.gz]
+[2024-04-23 01:46:08] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.9.tar.gz]
+[2024-04-23 01:46:08] INFO root fetch - main [MainThread]: End processing [entity-recognition-service]: success
+[2024-04-23 01:46:08] INFO root fetch - main [MainThread]: Store serial: [22886050]
