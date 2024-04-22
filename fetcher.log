@@ -1187,3 +1187,14 @@
 [2024-04-23 01:02:53] INFO root fetch - processPackages [tkz]: Remove: archive file [/home/abi/fetcher/tmp/tkz-1.0.2.tar.gz]
 [2024-04-23 01:02:53] INFO root fetch - main [MainThread]: End processing [tkz]: success
 [2024-04-23 01:02:53] INFO root fetch - main [MainThread]: Store serial: [22885720]
+[2024-04-23 01:04:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885720]
+[2024-04-23 01:05:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 01:05:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-intel
+[2024-04-23 01:05:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SappyCSTR
+[2024-04-23 01:05:01] WARNING root fetch - processPackages [SappyCSTR]: Skipping, unable to determine old version
+[2024-04-23 01:05:01] INFO root fetch - main [MainThread]: End processing [SappyCSTR] error
+[2024-04-23 01:05:02] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240422] Old Version: [2.17.0.dev20240419]
+[2024-04-23 01:05:02] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/1a/19/e7c873486ec2fd10e06e40e7df54f8f62561b1e886201b285eb8294af278/tf_nightly_intel-2.17.0.dev20240419-cp39-cp39-win_amd64.whl
+[2024-04-23 01:05:02] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 213039616>=10485760
+[2024-04-23 01:05:02] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-04-23 01:05:02] INFO root fetch - main [MainThread]: Store serial: [22885728]
