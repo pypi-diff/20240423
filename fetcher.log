@@ -1656,3 +1656,69 @@
 [2024-04-23 01:30:20] INFO root fetch - processPackages [3lc]: Remove: archive file [/home/abi/fetcher/tmp/3lc-2.3.84-0-cp39-cp39-win_amd64.whl.zip]
 [2024-04-23 01:30:20] INFO root fetch - main [MainThread]: End processing [3lc]: success
 [2024-04-23 01:30:20] INFO root fetch - main [MainThread]: Store serial: [22885950]
+[2024-04-23 01:32:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885950]
+[2024-04-23 01:32:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 01:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-databricks
+[2024-04-23 01:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpl_bsic
+[2024-04-23 01:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsenum
+[2024-04-23 01:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monit-agd
+[2024-04-23 01:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: helpful-assistant
+[2024-04-23 01:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypipr
+[2024-04-23 01:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansi-string
+[2024-04-23 01:32:32] INFO root fetch - processPackages [ansi-string]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-23 01:32:32] INFO root fetch - processPackages [helpful-assistant]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-23 01:32:32] INFO root fetch - processPackages [monit-agd]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-23 01:32:32] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 01:32:32] INFO root fetch - processPackages [ansi-string]: Downloading https://files.pythonhosted.org/packages/b9/0e/cde7b5df1f4fa787891ad0746d6b0ad437a399f6c0d43e023e704abe6c3e/ansi-string-1.0.1.tar.gz
+[2024-04-23 01:32:32] INFO root fetch - processPackages [dsenum]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-23 01:32:32] INFO root fetch - processPackages [mpl_bsic]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-23 01:32:32] INFO root fetch - processPackages [helpful-assistant]: Downloading https://files.pythonhosted.org/packages/41/35/d983fea841eeb82eaf49c5778943461b60473c27cacbbbf85e5724303e06/helpful_assistant-0.0.6.tar.gz
+[2024-04-23 01:32:32] INFO root fetch - processPackages [monit-agd]: Downloading https://files.pythonhosted.org/packages/43/dc/c503f8e3417b0c374f460bcc178124ab8c89a286aa8bdc20c1c083a045c7/monit-agd-1.1.1.tar.gz
+[2024-04-23 01:32:32] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2024-04-23 01:32:32] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2024-04-23 01:32:32] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-23 01:32:32] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2024-04-23 01:32:32] INFO root fetch - processPackages [mpl_bsic]: Downloading https://files.pythonhosted.org/packages/7e/18/4b0eae857307af5e38d8af6ddeda84bfa3dddcd76af5b56e9f6b2c717200/mpl_bsic-1.3.0.tar.gz
+[2024-04-23 01:32:32] INFO root fetch - processPackages [dsenum]: Downloading https://files.pythonhosted.org/packages/71/ed/747d156f4005163354892a2cc312e978cd95bcea1d0c851cc262e28df0f9/dsenum-0.4.2.tar.gz
+[2024-04-23 01:32:32] INFO root fetch - processPackages [helpful-assistant]: Downloading https://files.pythonhosted.org/packages/7f/bf/e60560c548d8a5ae766ffe403e99f8b0d01871cdd9478d5fe20d030d5623/helpful_assistant-0.0.7.tar.gz
+[2024-04-23 01:32:32] INFO root fetch - processPackages [ansi-string]: Downloading https://files.pythonhosted.org/packages/4f/82/807057e1bc47835b6a6aa92cb8d11f806b7e41f90c7fae60e7c653fb0d25/ansi-string-1.0.2.tar.gz
+[2024-04-23 01:32:32] INFO root fetch - processPackages [monit-agd]: Downloading https://files.pythonhosted.org/packages/bd/a6/b5f88d454c0cb47f1b28153623f4a99c2d582c09e7c3aca559475d048496/monit-agd-1.1.2.tar.gz
+[2024-04-23 01:32:32] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-23 01:32:32] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240423/p/pypipr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 01:32:32] INFO root fetch - processPackages [ansi-string]: executing diffoscope
+[2024-04-23 01:32:32] INFO root fetch - processPackages [ansi-string]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansi-string-1.0.1.tar.gz tmp/ansi-string-1.0.2.tar.gz --markdown 20240423/a/ansi-string/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-23 01:32:32] INFO root fetch - processPackages [monit-agd]: executing diffoscope
+[2024-04-23 01:32:32] INFO root fetch - processPackages [monit-agd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monit-agd-1.1.1.tar.gz tmp/monit-agd-1.1.2.tar.gz --markdown 20240423/m/monit-agd/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-23 01:32:32] INFO root fetch - processPackages [helpful-assistant]: executing diffoscope
+[2024-04-23 01:32:32] INFO root fetch - processPackages [helpful-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helpful_assistant-0.0.6.tar.gz tmp/helpful_assistant-0.0.7.tar.gz --markdown 20240423/h/helpful-assistant/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-23 01:32:32] INFO root fetch - processPackages [dsenum]: Downloading https://files.pythonhosted.org/packages/7e/11/b5c77a1560a8f84932a237c8bcde956148b6da4f93755afa5d811649354e/dsenum-0.4.3.tar.gz
+[2024-04-23 01:32:32] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2024-04-23 01:32:33] INFO root fetch - processPackages [dsenum]: executing diffoscope
+[2024-04-23 01:32:33] INFO root fetch - processPackages [dsenum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsenum-0.4.2.tar.gz tmp/dsenum-0.4.3.tar.gz --markdown 20240423/d/dsenum/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-23 01:32:33] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2024-04-23 01:32:33] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20240423/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/README.md --exclude *.pyd
+[2024-04-23 01:32:33] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2024-04-23 01:32:33] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-23 01:32:33] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-23 01:32:33] INFO root fetch - processPackages [ansi-string]: Remove: archive file [/home/abi/fetcher/tmp/ansi-string-1.0.1.tar.gz]
+[2024-04-23 01:32:33] INFO root fetch - processPackages [ansi-string]: Remove: archive file [/home/abi/fetcher/tmp/ansi-string-1.0.2.tar.gz]
+[2024-04-23 01:32:33] INFO root fetch - main [MainThread]: End processing [ansi-string]: success
+[2024-04-23 01:32:33] INFO root fetch - processPackages [monit-agd]: Remove: archive file [/home/abi/fetcher/tmp/monit-agd-1.1.1.tar.gz]
+[2024-04-23 01:32:33] INFO root fetch - processPackages [monit-agd]: Remove: archive file [/home/abi/fetcher/tmp/monit-agd-1.1.2.tar.gz]
+[2024-04-23 01:32:33] INFO root fetch - main [MainThread]: End processing [monit-agd]: success
+[2024-04-23 01:32:33] INFO root fetch - processPackages [helpful-assistant]: Remove: archive file [/home/abi/fetcher/tmp/helpful_assistant-0.0.6.tar.gz]
+[2024-04-23 01:32:33] INFO root fetch - processPackages [helpful-assistant]: Remove: archive file [/home/abi/fetcher/tmp/helpful_assistant-0.0.7.tar.gz]
+[2024-04-23 01:32:33] INFO root fetch - main [MainThread]: End processing [helpful-assistant]: success
+[2024-04-23 01:32:33] INFO root fetch - processPackages [mpl_bsic]: Downloading https://files.pythonhosted.org/packages/45/7d/c44bb059383719a8d88873b3d10f1ad10654f6460d60b5322f18ed35ab79/mpl_bsic-1.3.1.tar.gz
+[2024-04-23 01:32:33] INFO root fetch - processPackages [dsenum]: Remove: archive file [/home/abi/fetcher/tmp/dsenum-0.4.2.tar.gz]
+[2024-04-23 01:32:33] INFO root fetch - processPackages [dsenum]: Remove: archive file [/home/abi/fetcher/tmp/dsenum-0.4.3.tar.gz]
+[2024-04-23 01:32:33] INFO root fetch - main [MainThread]: End processing [dsenum]: success
+[2024-04-23 01:32:34] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2024-04-23 01:32:34] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2024-04-23 01:32:34] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2024-04-23 01:32:35] INFO root fetch - processPackages [mpl_bsic]: executing diffoscope
+[2024-04-23 01:32:35] INFO root fetch - processPackages [mpl_bsic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpl_bsic-1.3.0.tar.gz tmp/mpl_bsic-1.3.1.tar.gz --markdown 20240423/m/mpl_bsic/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-23 01:32:36] INFO root fetch - processPackages [mpl_bsic]: Remove: archive file [/home/abi/fetcher/tmp/mpl_bsic-1.3.0.tar.gz]
+[2024-04-23 01:32:36] INFO root fetch - processPackages [mpl_bsic]: Remove: archive file [/home/abi/fetcher/tmp/mpl_bsic-1.3.1.tar.gz]
+[2024-04-23 01:32:36] INFO root fetch - main [MainThread]: End processing [mpl_bsic]: success
+[2024-04-23 01:32:36] INFO root fetch - main [MainThread]: Store serial: [22885970]
