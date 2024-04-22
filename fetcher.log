@@ -199,3 +199,42 @@
 [2024-04-23 00:12:20] INFO root fetch - processPackages [gpudb]: Remove: archive file [/home/abi/fetcher/tmp/gpudb-7.2.0.6-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-23 00:12:20] INFO root fetch - main [MainThread]: End processing [gpudb]: success
 [2024-04-23 00:12:20] INFO root fetch - main [MainThread]: Store serial: [22885327]
+[2024-04-23 00:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885327]
+[2024-04-23 00:14:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 00:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aider-chat
+[2024-04-23 00:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scAllele
+[2024-04-23 00:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyUnfoldedCircleRemote
+[2024-04-23 00:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyQuantimClient
+[2024-04-23 00:14:30] INFO root fetch - processPackages [aider-chat]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-23 00:14:30] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/97/6d/6e7b681204d0890d7a1d07928f1168e3e15b16856958c5b3934aa123f438/aider-chat-0.8.3.tar.gz
+[2024-04-23 00:14:30] INFO root fetch - processPackages [scAllele]: New version: [0.0.9.4] Old Version: [0.0.9.3]
+[2024-04-23 00:14:30] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-23 00:14:30] INFO root fetch - processPackages [PyQuantimClient]: New version: [1.0.9] Old Version: [1.0.86]
+[2024-04-23 00:14:30] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/27/f3/89e2047247691d2f850711b47e321bccb308fdcd459ee406fc6fd652d143/aider-chat-0.9.0.tar.gz
+[2024-04-23 00:14:30] INFO root fetch - processPackages [scAllele]: Downloading https://files.pythonhosted.org/packages/2a/b0/9478c6ec91821982dc22faa405980ac8d970e0494d19421e5d7f22801a37/scAllele-0.0.9.3.tar.gz
+[2024-04-23 00:14:30] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: Downloading https://files.pythonhosted.org/packages/10/7d/00860c67f15e38b1e43630f77859ac1cf7b54a52d350a4bdc080088032e6/pyunfoldedcircleremote-0.7.0.tar.gz
+[2024-04-23 00:14:30] INFO root fetch - processPackages [PyQuantimClient]: Downloading https://files.pythonhosted.org/packages/19/c7/8ccec4cacef5e68dc8051fc38e1b1cb36a9b02daa3e815ddada9baa804fe/pyquantimclient-1.0.86.tar.gz
+[2024-04-23 00:14:31] INFO root fetch - processPackages [aider-chat]: executing diffoscope
+[2024-04-23 00:14:31] INFO root fetch - processPackages [aider-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aider-chat-0.8.3.tar.gz tmp/aider-chat-0.9.0.tar.gz --markdown 20240423/a/aider-chat/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-23 00:14:31] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: Downloading https://files.pythonhosted.org/packages/84/c6/d2c8f00f0a8e0145254e64cc490a7fdb5aad2c529ce246df326e44d86f2f/pyunfoldedcircleremote-0.7.1.tar.gz
+[2024-04-23 00:14:31] INFO root fetch - processPackages [scAllele]: Downloading https://files.pythonhosted.org/packages/1a/a0/697ae10080ec24718e03e837c649f8dca629fb8036a13785e386944dd2bc/scallele-0.0.9.4.tar.gz
+[2024-04-23 00:14:31] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: executing diffoscope
+[2024-04-23 00:14:31] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunfoldedcircleremote-0.7.0.tar.gz tmp/pyunfoldedcircleremote-0.7.1.tar.gz --markdown 20240423/p/pyUnfoldedCircleRemote/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-23 00:14:31] INFO root fetch - processPackages [scAllele]: executing diffoscope
+[2024-04-23 00:14:31] INFO root fetch - processPackages [scAllele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scAllele-0.0.9.3.tar.gz tmp/scallele-0.0.9.4.tar.gz --markdown 20240423/s/scAllele/0.0.9.3-0.0.9.4/README.md --exclude *.pyd
+[2024-04-23 00:14:31] INFO root fetch - processPackages [PyQuantimClient]: Downloading https://files.pythonhosted.org/packages/12/4e/e55b5d82937e1306704467806d3a4daa4b5c4b6f73b5ade2c9e6fdcc08f5/PyQuantimClient-1.0.9.tar.gz
+[2024-04-23 00:14:31] INFO root fetch - processPackages [PyQuantimClient]: executing diffoscope
+[2024-04-23 00:14:31] INFO root fetch - processPackages [PyQuantimClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquantimclient-1.0.86.tar.gz tmp/PyQuantimClient-1.0.9.tar.gz --markdown 20240423/P/PyQuantimClient/1.0.86-1.0.9/README.md --exclude *.pyd
+[2024-04-23 00:14:31] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.8.3.tar.gz]
+[2024-04-23 00:14:31] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.9.0.tar.gz]
+[2024-04-23 00:14:31] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
+[2024-04-23 00:14:31] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: Remove: archive file [/home/abi/fetcher/tmp/pyunfoldedcircleremote-0.7.0.tar.gz]
+[2024-04-23 00:14:31] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: Remove: archive file [/home/abi/fetcher/tmp/pyunfoldedcircleremote-0.7.1.tar.gz]
+[2024-04-23 00:14:31] INFO root fetch - main [MainThread]: End processing [pyUnfoldedCircleRemote]: success
+[2024-04-23 00:14:32] INFO root fetch - processPackages [PyQuantimClient]: Remove: archive file [/home/abi/fetcher/tmp/pyquantimclient-1.0.86.tar.gz]
+[2024-04-23 00:14:32] INFO root fetch - processPackages [PyQuantimClient]: Remove: archive file [/home/abi/fetcher/tmp/PyQuantimClient-1.0.9.tar.gz]
+[2024-04-23 00:14:32] INFO root fetch - main [MainThread]: End processing [PyQuantimClient]: success
+[2024-04-23 00:14:32] INFO root fetch - processPackages [scAllele]: Remove: archive file [/home/abi/fetcher/tmp/scAllele-0.0.9.3.tar.gz]
+[2024-04-23 00:14:32] INFO root fetch - processPackages [scAllele]: Remove: archive file [/home/abi/fetcher/tmp/scallele-0.0.9.4.tar.gz]
+[2024-04-23 00:14:32] INFO root fetch - main [MainThread]: End processing [scAllele]: success
+[2024-04-23 00:14:32] INFO root fetch - main [MainThread]: Store serial: [22885357]
