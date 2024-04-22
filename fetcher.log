@@ -418,3 +418,60 @@
 [2024-04-23 00:21:03] INFO root fetch - processPackages [Django-Safe-EmailBackend]: Remove: archive file [/home/abi/fetcher/tmp/Django-Safe-EmailBackend-1.2.6.tar.gz]
 [2024-04-23 00:21:03] INFO root fetch - main [MainThread]: End processing [Django-Safe-EmailBackend]: success
 [2024-04-23 00:21:03] INFO root fetch - main [MainThread]: Store serial: [22885425]
+[2024-04-23 00:23:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885425]
+[2024-04-23 00:23:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 00:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: climush
+[2024-04-23 00:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafruit-circuitpython-wiznet5k
+[2024-04-23 00:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ramses_rf
+[2024-04-23 00:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dpack-py
+[2024-04-23 00:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qai-hub
+[2024-04-23 00:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: artd-shopify
+[2024-04-23 00:23:12] INFO root fetch - processPackages [dpack-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 00:23:12] INFO root fetch - processPackages [artd-shopify]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-23 00:23:12] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: New version: [5.1.1] Old Version: [5.1.0]
+[2024-04-23 00:23:12] INFO root fetch - processPackages [artd-shopify]: Downloading https://files.pythonhosted.org/packages/fb/e1/f9c9dbb1304db18eaeb7abbf1cbd99228bb8ba60ed16a2768cdf9a3a6421/artd-shopify-1.1.1.tar.gz
+[2024-04-23 00:23:12] INFO root fetch - processPackages [qai-hub]: New version: [0.9.0] Old Version: [0.11.0]
+[2024-04-23 00:23:12] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/9d/de/47af4c23369d36d4c0b673d0c4877c46adf43452786a9dbe4c4a20cd0462/adafruit_circuitpython_wiznet5k-5.1.0.tar.gz
+[2024-04-23 00:23:12] INFO root fetch - processPackages [climush]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-23 00:23:12] INFO root fetch - processPackages [ramses_rf]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-23 00:23:12] INFO root fetch - processPackages [dpack-py]: Downloading https://files.pythonhosted.org/packages/17/42/7f21227a8ea47ebd6b03a89a5cb45ba363275b611e299a2fcd706ee2533f/dpack_py-0.1.0.tar.gz
+[2024-04-23 00:23:12] INFO root fetch - processPackages [qai-hub]: Downloading https://files.pythonhosted.org/packages/ce/82/d3997f889a70a0695916c746d1f6bb7ffd9d83b6cfaef7c374a28c3928fd/qai_hub-0.11.0-py3-none-any.whl
+[2024-04-23 00:23:12] INFO root fetch - processPackages [artd-shopify]: Downloading https://files.pythonhosted.org/packages/23/82/a19087b23dd5aec06142e9d1514ceef478c9ad0130c96baaae5e4a27811e/artd-shopify-1.1.2.tar.gz
+[2024-04-23 00:23:12] INFO root fetch - processPackages [climush]: Downloading https://files.pythonhosted.org/packages/6c/28/9ecec363bd99466b40ad3a28560432b96bcf92ed3ce35c6353f8a24d1f5d/climush-0.0.6.tar.gz
+[2024-04-23 00:23:12] INFO root fetch - processPackages [ramses_rf]: Downloading https://files.pythonhosted.org/packages/31/69/c22156a5d460fa779cb0e99aca5bd971823598d9ac7f5b9870c8eafecd6c/ramses-rf-0.9.7.tar.gz
+[2024-04-23 00:23:13] INFO root fetch - processPackages [artd-shopify]: executing diffoscope
+[2024-04-23 00:23:13] INFO root fetch - processPackages [artd-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd-shopify-1.1.1.tar.gz tmp/artd-shopify-1.1.2.tar.gz --markdown 20240423/a/artd-shopify/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-23 00:23:13] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/ae/37/d993828a3c2fcde038b8f5f971409111ef8c1cac13ee0c656fb2b06782bb/adafruit_circuitpython_wiznet5k-5.1.1.tar.gz
+[2024-04-23 00:23:13] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: executing diffoscope
+[2024-04-23 00:23:13] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit_circuitpython_wiznet5k-5.1.0.tar.gz tmp/adafruit_circuitpython_wiznet5k-5.1.1.tar.gz --markdown 20240423/a/adafruit-circuitpython-wiznet5k/5.1.0-5.1.1/README.md --exclude *.pyd
+[2024-04-23 00:23:13] INFO root fetch - processPackages [dpack-py]: Downloading https://files.pythonhosted.org/packages/14/ca/5aa840aa4faa2d8522485e79e5d84f6bdb6ad79255f8b0c2bf7b28fee6f2/dpack_py-0.1.1.tar.gz
+[2024-04-23 00:23:13] INFO root fetch - processPackages [qai-hub]: Downloading https://files.pythonhosted.org/packages/8a/a1/155f9e472c58d46d0f594dee34bc89ea23e392591c53393ff46cfa0dbe97/qai_hub-0.9.0-py3-none-any.whl
+[2024-04-23 00:23:13] INFO root fetch - processPackages [dpack-py]: executing diffoscope
+[2024-04-23 00:23:13] INFO root fetch - processPackages [dpack-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpack_py-0.1.0.tar.gz tmp/dpack_py-0.1.1.tar.gz --markdown 20240423/d/dpack-py/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 00:23:13] INFO root fetch - processPackages [ramses_rf]: Downloading https://files.pythonhosted.org/packages/18/a0/43658a1a48c44814ae483b284e64e578be651b9ce5719baa7923bbc0be95/ramses-rf-0.9.8.tar.gz
+[2024-04-23 00:23:13] INFO root fetch - processPackages [climush]: Downloading https://files.pythonhosted.org/packages/eb/d3/9a3c90b8f4230d0a247ffd84c7b9c02f05bd394621fd2705a5f8beac25d6/climush-0.0.7.tar.gz
+[2024-04-23 00:23:13] INFO root fetch - processPackages [qai-hub]: executing diffoscope
+[2024-04-23 00:23:13] INFO root fetch - processPackages [qai-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_hub-0.11.0-py3-none-any.whl.zip tmp/qai_hub-0.9.0-py3-none-any.whl.zip --markdown 20240423/q/qai-hub/0.11.0-0.9.0/README.md --exclude *.pyd
+[2024-04-23 00:23:13] INFO root fetch - processPackages [climush]: executing diffoscope
+[2024-04-23 00:23:13] INFO root fetch - processPackages [climush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climush-0.0.6.tar.gz tmp/climush-0.0.7.tar.gz --markdown 20240423/c/climush/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-23 00:23:13] INFO root fetch - processPackages [ramses_rf]: executing diffoscope
+[2024-04-23 00:23:13] INFO root fetch - processPackages [ramses_rf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramses-rf-0.9.7.tar.gz tmp/ramses-rf-0.9.8.tar.gz --markdown 20240423/r/ramses_rf/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-23 00:23:13] INFO root fetch - processPackages [artd-shopify]: Remove: archive file [/home/abi/fetcher/tmp/artd-shopify-1.1.1.tar.gz]
+[2024-04-23 00:23:13] INFO root fetch - processPackages [artd-shopify]: Remove: archive file [/home/abi/fetcher/tmp/artd-shopify-1.1.2.tar.gz]
+[2024-04-23 00:23:13] INFO root fetch - main [MainThread]: End processing [artd-shopify]: success
+[2024-04-23 00:23:13] INFO root fetch - processPackages [dpack-py]: Remove: archive file [/home/abi/fetcher/tmp/dpack_py-0.1.0.tar.gz]
+[2024-04-23 00:23:13] INFO root fetch - processPackages [dpack-py]: Remove: archive file [/home/abi/fetcher/tmp/dpack_py-0.1.1.tar.gz]
+[2024-04-23 00:23:13] INFO root fetch - main [MainThread]: End processing [dpack-py]: success
+[2024-04-23 00:23:14] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_wiznet5k-5.1.0.tar.gz]
+[2024-04-23 00:23:14] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_wiznet5k-5.1.1.tar.gz]
+[2024-04-23 00:23:14] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-wiznet5k]: success
+[2024-04-23 00:23:14] INFO root fetch - processPackages [climush]: Remove: archive file [/home/abi/fetcher/tmp/climush-0.0.6.tar.gz]
+[2024-04-23 00:23:14] INFO root fetch - processPackages [climush]: Remove: archive file [/home/abi/fetcher/tmp/climush-0.0.7.tar.gz]
+[2024-04-23 00:23:14] INFO root fetch - main [MainThread]: End processing [climush]: success
+[2024-04-23 00:23:14] INFO root fetch - processPackages [ramses_rf]: Remove: archive file [/home/abi/fetcher/tmp/ramses-rf-0.9.7.tar.gz]
+[2024-04-23 00:23:14] INFO root fetch - processPackages [ramses_rf]: Remove: archive file [/home/abi/fetcher/tmp/ramses-rf-0.9.8.tar.gz]
+[2024-04-23 00:23:14] INFO root fetch - main [MainThread]: End processing [ramses_rf]: success
+[2024-04-23 00:23:14] INFO root fetch - processPackages [qai-hub]: Remove: archive file [/home/abi/fetcher/tmp/qai_hub-0.11.0-py3-none-any.whl.zip]
+[2024-04-23 00:23:14] INFO root fetch - processPackages [qai-hub]: Remove: archive file [/home/abi/fetcher/tmp/qai_hub-0.9.0-py3-none-any.whl.zip]
+[2024-04-23 00:23:14] INFO root fetch - main [MainThread]: End processing [qai-hub]: success
+[2024-04-23 00:23:14] INFO root fetch - main [MainThread]: Store serial: [22885442]
