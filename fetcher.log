@@ -1599,3 +1599,27 @@
 [2024-04-23 01:25:58] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento_wire_types-0.99.0.tar.gz]
 [2024-04-23 01:25:58] INFO root fetch - main [MainThread]: End processing [momento-wire-types]: success
 [2024-04-23 01:25:58] INFO root fetch - main [MainThread]: Store serial: [22885920]
+[2024-04-23 01:28:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885920]
+[2024-04-23 01:28:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 01:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lango-cli-beta
+[2024-04-23 01:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-23 01:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: citation-crawler
+[2024-04-23 01:28:07] WARNING root fetch - processPackages [lango-cli-beta]: Skipping, unable to determine old version
+[2024-04-23 01:28:07] INFO root fetch - main [MainThread]: End processing [lango-cli-beta] error
+[2024-04-23 01:28:07] INFO root fetch - processPackages [citation-crawler]: New version: [2.9.3.1] Old Version: [2.9.3]
+[2024-04-23 01:28:07] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/6c/94/609fa10d2f84a313d48dd0920b448a3823cbf2dd9b000d060b0157e44503/citation_crawler-2.9.3.tar.gz
+[2024-04-23 01:28:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1713826115] Old Version: [0.0.20a1713756038]
+[2024-04-23 01:28:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/be/88/d8dd23bad77598fd86b134b5edb0b78158d6cbfdaaab62ea8d25c5c2c777/pulumi_kubernetes_the_hard_way-0.0.20a1713756038.tar.gz
+[2024-04-23 01:28:07] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/ae/b8/5268307aebdd8c4c0e40073376083523796298c472b3daa259e5e162c2d8/citation_crawler-2.9.3.1.tar.gz
+[2024-04-23 01:28:07] INFO root fetch - processPackages [citation-crawler]: executing diffoscope
+[2024-04-23 01:28:07] INFO root fetch - processPackages [citation-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_crawler-2.9.3.tar.gz tmp/citation_crawler-2.9.3.1.tar.gz --markdown 20240423/c/citation-crawler/2.9.3-2.9.3.1/README.md --exclude *.pyd
+[2024-04-23 01:28:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/b3/86/9ebd52bb16b0480f23e9d14d1659a88c706b02395aff273c568eb40dd286/pulumi_kubernetes_the_hard_way-0.0.21a1713826115.tar.gz
+[2024-04-23 01:28:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-23 01:28:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.20a1713756038.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1713826115.tar.gz --markdown 20240423/p/pulumi-kubernetes-the-hard-way/0.0.20a1713756038-0.0.21a1713826115/README.md --exclude *.pyd
+[2024-04-23 01:28:08] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.3.tar.gz]
+[2024-04-23 01:28:08] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.3.1.tar.gz]
+[2024-04-23 01:28:08] INFO root fetch - main [MainThread]: End processing [citation-crawler]: success
+[2024-04-23 01:28:08] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.20a1713756038.tar.gz]
+[2024-04-23 01:28:08] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1713826115.tar.gz]
+[2024-04-23 01:28:08] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-23 01:28:08] INFO root fetch - main [MainThread]: Store serial: [22885928]
