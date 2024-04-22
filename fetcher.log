@@ -1449,3 +1449,42 @@
 [2024-04-23 01:19:22] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.62.tar.gz]
 [2024-04-23 01:19:22] INFO root fetch - main [MainThread]: End processing [affixapi]: success
 [2024-04-23 01:19:22] INFO root fetch - main [MainThread]: Store serial: [22885861]
+[2024-04-23 01:21:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885861]
+[2024-04-23 01:21:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 01:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: passwork
+[2024-04-23 01:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: G722
+[2024-04-23 01:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: helpful-assistant
+[2024-04-23 01:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-lidarr
+[2024-04-23 01:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np-aind-metadata
+[2024-04-23 01:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigframes
+[2024-04-23 01:21:30] WARNING root fetch - processPackages [passwork]: Skipping, unable to determine old version
+[2024-04-23 01:21:30] INFO root fetch - main [MainThread]: End processing [passwork] error
+[2024-04-23 01:21:30] INFO root fetch - processPackages [helpful-assistant]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-04-23 01:21:31] INFO root fetch - processPackages [helpful-assistant]: Downloading https://files.pythonhosted.org/packages/e7/65/7f9b151c89a6cab5581ed53943dce7482d2443ab25f461dc7763ce507cda/helpful-assistant-0.0.4.tar.gz
+[2024-04-23 01:21:31] WARNING root fetch - processPackages [pulumi-lidarr]: Skipping, unable to determine old version
+[2024-04-23 01:21:31] INFO root fetch - main [MainThread]: End processing [pulumi-lidarr] error
+[2024-04-23 01:21:31] WARNING root fetch - processPackages [G722]: Skipping, unable to determine old version
+[2024-04-23 01:21:31] INFO root fetch - main [MainThread]: End processing [G722] error
+[2024-04-23 01:21:31] INFO root fetch - processPackages [bigframes]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-23 01:21:31] INFO root fetch - processPackages [np-aind-metadata]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-23 01:21:31] INFO root fetch - processPackages [helpful-assistant]: Downloading https://files.pythonhosted.org/packages/41/35/d983fea841eeb82eaf49c5778943461b60473c27cacbbbf85e5724303e06/helpful_assistant-0.0.6.tar.gz
+[2024-04-23 01:21:31] INFO root fetch - processPackages [bigframes]: Downloading https://files.pythonhosted.org/packages/52/fc/4f932ffe2e226adb4a25bf7bc6201e7e2a326dfb03c17667479c69466181/bigframes-1.2.0.tar.gz
+[2024-04-23 01:21:31] INFO root fetch - processPackages [helpful-assistant]: executing diffoscope
+[2024-04-23 01:21:31] INFO root fetch - processPackages [helpful-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helpful-assistant-0.0.4.tar.gz tmp/helpful_assistant-0.0.6.tar.gz --markdown 20240423/h/helpful-assistant/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-04-23 01:21:31] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/6f/e3/a66f28c7af3749be4e6d390485477a2fb2f7173b3a578b406d44f1ecc22f/np_aind_metadata-0.1.3.tar.gz
+[2024-04-23 01:21:31] INFO root fetch - processPackages [bigframes]: Downloading https://files.pythonhosted.org/packages/4a/34/647864d182c4821c88ff69390a912c4786a3af9c45a5c376f463a4bd7419/bigframes-1.3.0.tar.gz
+[2024-04-23 01:21:31] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/4f/d5/b1c3c43d725b7a7688e4a91cf5f2ac0980f2b7e8fc846d40fdc2934e37fd/np_aind_metadata-0.1.4.tar.gz
+[2024-04-23 01:21:31] INFO root fetch - processPackages [helpful-assistant]: Remove: archive file [/home/abi/fetcher/tmp/helpful-assistant-0.0.4.tar.gz]
+[2024-04-23 01:21:31] INFO root fetch - processPackages [helpful-assistant]: Remove: archive file [/home/abi/fetcher/tmp/helpful_assistant-0.0.6.tar.gz]
+[2024-04-23 01:21:31] INFO root fetch - main [MainThread]: End processing [helpful-assistant]: success
+[2024-04-23 01:21:31] INFO root fetch - processPackages [bigframes]: executing diffoscope
+[2024-04-23 01:21:31] INFO root fetch - processPackages [bigframes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigframes-1.2.0.tar.gz tmp/bigframes-1.3.0.tar.gz --markdown 20240423/b/bigframes/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-23 01:21:31] INFO root fetch - processPackages [np-aind-metadata]: executing diffoscope
+[2024-04-23 01:21:31] INFO root fetch - processPackages [np-aind-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_aind_metadata-0.1.3.tar.gz tmp/np_aind_metadata-0.1.4.tar.gz --markdown 20240423/n/np-aind-metadata/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-23 01:21:32] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.3.tar.gz]
+[2024-04-23 01:21:32] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.4.tar.gz]
+[2024-04-23 01:21:32] INFO root fetch - main [MainThread]: End processing [np-aind-metadata]: success
+[2024-04-23 01:21:34] INFO root fetch - processPackages [bigframes]: Remove: archive file [/home/abi/fetcher/tmp/bigframes-1.2.0.tar.gz]
+[2024-04-23 01:21:34] INFO root fetch - processPackages [bigframes]: Remove: archive file [/home/abi/fetcher/tmp/bigframes-1.3.0.tar.gz]
+[2024-04-23 01:21:34] INFO root fetch - main [MainThread]: End processing [bigframes]: success
+[2024-04-23 01:21:34] INFO root fetch - main [MainThread]: Store serial: [22885879]
