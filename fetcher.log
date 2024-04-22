@@ -562,3 +562,39 @@
 [2024-04-23 00:30:01] INFO root fetch - processPackages [artd-order]: Remove: archive file [/home/abi/fetcher/tmp/artd-order-1.0.4.tar.gz]
 [2024-04-23 00:30:01] INFO root fetch - main [MainThread]: End processing [artd-order]: success
 [2024-04-23 00:30:01] INFO root fetch - main [MainThread]: Store serial: [22885475]
+[2024-04-23 00:32:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885475]
+[2024-04-23 00:32:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 00:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: issim
+[2024-04-23 00:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipecraft
+[2024-04-23 00:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cutseq
+[2024-04-23 00:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bookcache
+[2024-04-23 00:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spectrum-image
+[2024-04-23 00:32:09] INFO root fetch - processPackages [spectrum-image]: New version: [0.3] Old Version: [0.2.5]
+[2024-04-23 00:32:09] INFO root fetch - processPackages [cutseq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 00:32:10] INFO root fetch - processPackages [spectrum-image]: Downloading https://files.pythonhosted.org/packages/5b/5b/a4bd43da3b2dbab1e13e9ae752c7c8f4947f4a99295e6ee9786c8fd3de13/spectrum_image-0.2.5.tar.gz
+[2024-04-23 00:32:10] WARNING root fetch - processPackages [bookcache]: Skipping, unable to determine old version
+[2024-04-23 00:32:10] INFO root fetch - main [MainThread]: End processing [bookcache] error
+[2024-04-23 00:32:10] WARNING root fetch - processPackages [issim]: Skipping, unable to determine old version
+[2024-04-23 00:32:10] INFO root fetch - main [MainThread]: End processing [issim] error
+[2024-04-23 00:32:10] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/95/33/6984c0732c17eb925be43f23c0c27167392d2900fcd21ebf93d9b68f6c2a/cutseq-0.0.8.tar.gz
+[2024-04-23 00:32:10] INFO root fetch - processPackages [pipecraft]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-23 00:32:10] INFO root fetch - processPackages [pipecraft]: Downloading https://files.pythonhosted.org/packages/b6/e6/9dc8b1fffedbc32e1ddcf8a014770a40d7f6a02de45d2b357f9448b561eb/pipecraft-0.1.0.tar.gz
+[2024-04-23 00:32:10] INFO root fetch - processPackages [spectrum-image]: Downloading https://files.pythonhosted.org/packages/88/5d/673c36f7ccf5320728931866296df8f421567d7d48e814481838fa55ba62/spectrum_image-0.3.tar.gz
+[2024-04-23 00:32:10] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/e5/82/45b103e58b439dac0cf4c7f6ef6957633721ec0f4553abfabba5ed961a0f/cutseq-0.0.9.tar.gz
+[2024-04-23 00:32:10] INFO root fetch - processPackages [spectrum-image]: executing diffoscope
+[2024-04-23 00:32:10] INFO root fetch - processPackages [spectrum-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrum_image-0.2.5.tar.gz tmp/spectrum_image-0.3.tar.gz --markdown 20240423/s/spectrum-image/0.2.5-0.3/README.md --exclude *.pyd
+[2024-04-23 00:32:10] INFO root fetch - processPackages [cutseq]: executing diffoscope
+[2024-04-23 00:32:10] INFO root fetch - processPackages [cutseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutseq-0.0.8.tar.gz tmp/cutseq-0.0.9.tar.gz --markdown 20240423/c/cutseq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 00:32:10] INFO root fetch - processPackages [pipecraft]: Downloading https://files.pythonhosted.org/packages/6c/52/9952486dad3b0ae65c64ea2a164c89ca565ac5c2529b107bacb0313a6f5a/pipecraft-0.2.0.tar.gz
+[2024-04-23 00:32:10] INFO root fetch - processPackages [pipecraft]: executing diffoscope
+[2024-04-23 00:32:10] INFO root fetch - processPackages [pipecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipecraft-0.1.0.tar.gz tmp/pipecraft-0.2.0.tar.gz --markdown 20240423/p/pipecraft/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-23 00:32:11] INFO root fetch - processPackages [spectrum-image]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_image-0.2.5.tar.gz]
+[2024-04-23 00:32:11] INFO root fetch - processPackages [spectrum-image]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_image-0.3.tar.gz]
+[2024-04-23 00:32:11] INFO root fetch - main [MainThread]: End processing [spectrum-image]: success
+[2024-04-23 00:32:11] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.8.tar.gz]
+[2024-04-23 00:32:11] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.9.tar.gz]
+[2024-04-23 00:32:11] INFO root fetch - main [MainThread]: End processing [cutseq]: success
+[2024-04-23 00:32:11] INFO root fetch - processPackages [pipecraft]: Remove: archive file [/home/abi/fetcher/tmp/pipecraft-0.1.0.tar.gz]
+[2024-04-23 00:32:11] INFO root fetch - processPackages [pipecraft]: Remove: archive file [/home/abi/fetcher/tmp/pipecraft-0.2.0.tar.gz]
+[2024-04-23 00:32:11] INFO root fetch - main [MainThread]: End processing [pipecraft]: success
+[2024-04-23 00:32:11] INFO root fetch - main [MainThread]: Store serial: [22885494]
