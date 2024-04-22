@@ -1163,3 +1163,27 @@
 [2024-04-23 01:00:43] INFO root fetch - processPackages [octoflatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/octoflatbuffers-24.3.25.tar.gz]
 [2024-04-23 01:00:43] INFO root fetch - main [MainThread]: End processing [octoflatbuffers]: success
 [2024-04-23 01:00:43] INFO root fetch - main [MainThread]: Store serial: [22885709]
+[2024-04-23 01:02:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885709]
+[2024-04-23 01:02:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 01:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tkz
+[2024-04-23 01:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hj-proj-module
+[2024-04-23 01:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toolx-z
+[2024-04-23 01:02:52] INFO root fetch - processPackages [tkz]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-23 01:02:52] INFO root fetch - processPackages [hj-proj-module]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-23 01:02:52] WARNING root fetch - processPackages [toolx-z]: Skipping, unable to determine old version
+[2024-04-23 01:02:52] INFO root fetch - main [MainThread]: End processing [toolx-z] error
+[2024-04-23 01:02:52] INFO root fetch - processPackages [tkz]: Downloading https://files.pythonhosted.org/packages/04/b5/1ab8e646b68601c36d46f0b14e459a6269b257cf4e02488b209a2d4bcc36/tkz-1.0.1.tar.gz
+[2024-04-23 01:02:52] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/db/12/7bb0e640457f3bbbbc0b77439e6b03839642728f5b9676f3a6cdbf41672e/hj_proj_module-0.1.7.tar.gz
+[2024-04-23 01:02:52] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/94/49/69693d7a64f73d84255649b427048581401581af1b2733dd7b132cd4a620/hj_proj_module-0.1.9.tar.gz
+[2024-04-23 01:02:52] INFO root fetch - processPackages [tkz]: Downloading https://files.pythonhosted.org/packages/41/ca/02e56731346358c14d44bfdf79efb1896f55b70924606c3274a19f7247e1/tkz-1.0.2.tar.gz
+[2024-04-23 01:02:52] INFO root fetch - processPackages [hj-proj-module]: executing diffoscope
+[2024-04-23 01:02:52] INFO root fetch - processPackages [hj-proj-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj_proj_module-0.1.7.tar.gz tmp/hj_proj_module-0.1.9.tar.gz --markdown 20240423/h/hj-proj-module/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-23 01:02:52] INFO root fetch - processPackages [tkz]: executing diffoscope
+[2024-04-23 01:02:52] INFO root fetch - processPackages [tkz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkz-1.0.1.tar.gz tmp/tkz-1.0.2.tar.gz --markdown 20240423/t/tkz/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-23 01:02:53] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.7.tar.gz]
+[2024-04-23 01:02:53] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.9.tar.gz]
+[2024-04-23 01:02:53] INFO root fetch - main [MainThread]: End processing [hj-proj-module]: success
+[2024-04-23 01:02:53] INFO root fetch - processPackages [tkz]: Remove: archive file [/home/abi/fetcher/tmp/tkz-1.0.1.tar.gz]
+[2024-04-23 01:02:53] INFO root fetch - processPackages [tkz]: Remove: archive file [/home/abi/fetcher/tmp/tkz-1.0.2.tar.gz]
+[2024-04-23 01:02:53] INFO root fetch - main [MainThread]: End processing [tkz]: success
+[2024-04-23 01:02:53] INFO root fetch - main [MainThread]: Store serial: [22885720]
