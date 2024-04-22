@@ -73,3 +73,45 @@
 [2024-04-23 00:01:24] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.97.tar.gz]
 [2024-04-23 00:01:24] INFO root fetch - main [MainThread]: End processing [komodo-sdk]: success
 [2024-04-23 00:01:24] INFO root fetch - main [MainThread]: Store serial: [22885274]
+[2024-04-23 00:03:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885274]
+[2024-04-23 00:03:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 00:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapids-dependency-file-generator
+[2024-04-23 00:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plover-sound
+[2024-04-23 00:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: basicbedrock
+[2024-04-23 00:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oracle-guardian-ai
+[2024-04-23 00:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PKDevTools
+[2024-04-23 00:03:33] WARNING root fetch - processPackages [plover-sound]: Skipping, unable to determine old version
+[2024-04-23 00:03:33] INFO root fetch - main [MainThread]: End processing [plover-sound] error
+[2024-04-23 00:03:33] INFO root fetch - processPackages [PKDevTools]: New version: [0.13.20240422.102] Old Version: [0.13.20240421.99]
+[2024-04-23 00:03:33] INFO root fetch - processPackages [rapids-dependency-file-generator]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-23 00:03:33] INFO root fetch - processPackages [oracle-guardian-ai]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-23 00:03:33] INFO root fetch - processPackages [rapids-dependency-file-generator]: Downloading https://files.pythonhosted.org/packages/35/cc/fe0001af9e6b85bf03a3ced4911e4a78dfa8de7e254ca03dabe31164412c/rapids-dependency-file-generator-1.8.0.tar.gz
+[2024-04-23 00:03:34] INFO root fetch - processPackages [basicbedrock]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-23 00:03:34] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/1c/da/ed6a44ea84ec65677ce541ca04ecd2aba8b9971918f98d4a656a387aab4a/PKDevTools-0.13.20240421.99.tar.gz
+[2024-04-23 00:03:34] INFO root fetch - processPackages [rapids-dependency-file-generator]: Downloading https://files.pythonhosted.org/packages/1b/cc/edcd9e618969ad028bd2880c86f9e8984c9da491fcd730c7a81b46556a7d/rapids-dependency-file-generator-1.9.0.tar.gz
+[2024-04-23 00:03:34] INFO root fetch - processPackages [oracle-guardian-ai]: Downloading https://files.pythonhosted.org/packages/99/df/af93008d08a4994d4e5117f2c3cbff2a5bb8a433ae5f7317d29c2244006e/oracle_guardian_ai-1.0.1.tar.gz
+[2024-04-23 00:03:34] INFO root fetch - processPackages [basicbedrock]: Downloading https://files.pythonhosted.org/packages/6d/08/1fff5da6d7da7f0bbcebe5eba8feaef5595b2d60f4edebfc4602e1d2a358/basicbedrock-0.1.3.tar.gz
+[2024-04-23 00:03:34] INFO root fetch - processPackages [rapids-dependency-file-generator]: executing diffoscope
+[2024-04-23 00:03:34] INFO root fetch - processPackages [rapids-dependency-file-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapids-dependency-file-generator-1.8.0.tar.gz tmp/rapids-dependency-file-generator-1.9.0.tar.gz --markdown 20240423/r/rapids-dependency-file-generator/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-23 00:03:34] INFO root fetch - processPackages [oracle-guardian-ai]: Downloading https://files.pythonhosted.org/packages/4e/7d/e2c7bcf2bc55be759435a43674ebec7a1edac3a56d364813059faf940573/oracle_guardian_ai-1.1.0.tar.gz
+[2024-04-23 00:03:34] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/ec/10/16078805360d1d59ae2d17bdbbf097034ea76513624221aadb18725dafbb/PKDevTools-0.13.20240422.102.tar.gz
+[2024-04-23 00:03:34] INFO root fetch - processPackages [basicbedrock]: Downloading https://files.pythonhosted.org/packages/67/68/71f870d413ae6c1bca0fccd27d22380d79ca9cfb3ac4488b43cc3bb8a2c6/basicbedrock-0.1.4.tar.gz
+[2024-04-23 00:03:34] INFO root fetch - processPackages [oracle-guardian-ai]: executing diffoscope
+[2024-04-23 00:03:34] INFO root fetch - processPackages [oracle-guardian-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oracle_guardian_ai-1.0.1.tar.gz tmp/oracle_guardian_ai-1.1.0.tar.gz --markdown 20240423/o/oracle-guardian-ai/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-23 00:03:34] INFO root fetch - processPackages [PKDevTools]: executing diffoscope
+[2024-04-23 00:03:34] INFO root fetch - processPackages [PKDevTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKDevTools-0.13.20240421.99.tar.gz tmp/PKDevTools-0.13.20240422.102.tar.gz --markdown 20240423/P/PKDevTools/0.13.20240421.99-0.13.20240422.102/README.md --exclude *.pyd
+[2024-04-23 00:03:34] INFO root fetch - processPackages [basicbedrock]: executing diffoscope
+[2024-04-23 00:03:34] INFO root fetch - processPackages [basicbedrock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basicbedrock-0.1.3.tar.gz tmp/basicbedrock-0.1.4.tar.gz --markdown 20240423/b/basicbedrock/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-23 00:03:35] INFO root fetch - processPackages [rapids-dependency-file-generator]: Remove: archive file [/home/abi/fetcher/tmp/rapids-dependency-file-generator-1.8.0.tar.gz]
+[2024-04-23 00:03:35] INFO root fetch - processPackages [rapids-dependency-file-generator]: Remove: archive file [/home/abi/fetcher/tmp/rapids-dependency-file-generator-1.9.0.tar.gz]
+[2024-04-23 00:03:35] INFO root fetch - main [MainThread]: End processing [rapids-dependency-file-generator]: success
+[2024-04-23 00:03:35] INFO root fetch - processPackages [basicbedrock]: Remove: archive file [/home/abi/fetcher/tmp/basicbedrock-0.1.3.tar.gz]
+[2024-04-23 00:03:35] INFO root fetch - processPackages [basicbedrock]: Remove: archive file [/home/abi/fetcher/tmp/basicbedrock-0.1.4.tar.gz]
+[2024-04-23 00:03:35] INFO root fetch - main [MainThread]: End processing [basicbedrock]: success
+[2024-04-23 00:03:35] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240421.99.tar.gz]
+[2024-04-23 00:03:35] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240422.102.tar.gz]
+[2024-04-23 00:03:35] INFO root fetch - main [MainThread]: End processing [PKDevTools]: success
+[2024-04-23 00:03:35] INFO root fetch - processPackages [oracle-guardian-ai]: Remove: archive file [/home/abi/fetcher/tmp/oracle_guardian_ai-1.0.1.tar.gz]
+[2024-04-23 00:03:35] INFO root fetch - processPackages [oracle-guardian-ai]: Remove: archive file [/home/abi/fetcher/tmp/oracle_guardian_ai-1.1.0.tar.gz]
+[2024-04-23 00:03:35] INFO root fetch - main [MainThread]: End processing [oracle-guardian-ai]: success
+[2024-04-23 00:03:35] INFO root fetch - main [MainThread]: Store serial: [22885289]
