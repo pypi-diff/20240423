@@ -919,3 +919,54 @@
 [2024-04-23 00:47:35] INFO root fetch - processPackages [eule]: Remove: archive file [/home/abi/fetcher/tmp/eule-1.2.0.tar.gz]
 [2024-04-23 00:47:35] INFO root fetch - main [MainThread]: End processing [eule]: success
 [2024-04-23 00:47:35] INFO root fetch - main [MainThread]: Store serial: [22885616]
+[2024-04-23 00:49:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885616]
+[2024-04-23 00:49:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 00:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pySatlantic
+[2024-04-23 00:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: step-machine
+[2024-04-23 00:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: basana
+[2024-04-23 00:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-airflow-client
+[2024-04-23 00:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nuon
+[2024-04-23 00:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsenum
+[2024-04-23 00:49:43] INFO root fetch - processPackages [nuon]: New version: [0.19.99] Old Version: [0.19.98]
+[2024-04-23 00:49:43] WARNING root fetch - processPackages [step-machine]: Skipping, unable to determine old version
+[2024-04-23 00:49:43] INFO root fetch - main [MainThread]: End processing [step-machine] error
+[2024-04-23 00:49:43] INFO root fetch - processPackages [pySatlantic]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-23 00:49:43] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/8d/82/73a4a9564f53819f1d2ce0052786b8fbaac8797092a6e5b9ad8368807e5a/nuon-0.19.98.tar.gz
+[2024-04-23 00:49:43] INFO root fetch - processPackages [basana]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-23 00:49:43] INFO root fetch - processPackages [apache-airflow-client]: New version: [2.9.0rc1] Old Version: [2.8.0rc1]
+[2024-04-23 00:49:43] INFO root fetch - processPackages [dsenum]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-23 00:49:43] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/2e/32/73fde17d65f51538c324ffecb418e1d8709cd44e594ad86a351bb39fa67f/nuon-0.19.99.tar.gz
+[2024-04-23 00:49:43] INFO root fetch - processPackages [dsenum]: Downloading https://files.pythonhosted.org/packages/34/19/2d2b3e6641efa08dec98c7aef752d4392b34d0a86405724cc82b69610e12/dsenum-0.4.1.tar.gz
+[2024-04-23 00:49:43] INFO root fetch - processPackages [apache-airflow-client]: Downloading https://files.pythonhosted.org/packages/05/61/3827d08dc0ed0c94a7ba6d3ab692b06a389fac82aceeef371b1c85319228/apache-airflow-client-2.8.0rc1.tar.gz
+[2024-04-23 00:49:43] INFO root fetch - processPackages [basana]: Downloading https://files.pythonhosted.org/packages/87/99/0298718f817e6247a4363bb1da68c1b0dd43d51280ca42819398492198bb/basana-1.5.0.tar.gz
+[2024-04-23 00:49:43] INFO root fetch - processPackages [pySatlantic]: Downloading https://files.pythonhosted.org/packages/a5/83/168be3fc839b0956a62fa0a06ad1a4605af51c535a273b2ebb9265f05a42/pySatlantic-0.4.1.tar.gz
+[2024-04-23 00:49:43] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-04-23 00:49:43] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.98.tar.gz tmp/nuon-0.19.99.tar.gz --markdown 20240423/n/nuon/0.19.98-0.19.99/README.md --exclude *.pyd
+[2024-04-23 00:49:44] INFO root fetch - processPackages [apache-airflow-client]: Downloading https://files.pythonhosted.org/packages/12/a2/3dbd7c342c89d405a275f8272a626a932b20c34d1b2c31a5c7f92050bace/apache_airflow_client-2.9.0rc1.tar.gz
+[2024-04-23 00:49:44] INFO root fetch - processPackages [pySatlantic]: Downloading https://files.pythonhosted.org/packages/e4/db/6e5efa5180c15aa23990f2ef90f4309989c438749c1c190af6b619c0ef08/pysatlantic-0.4.2.tar.gz
+[2024-04-23 00:49:44] INFO root fetch - processPackages [basana]: Downloading https://files.pythonhosted.org/packages/22/b8/e5d38030a3af0ae093f01cfa238a783473e76b59c5f6493329d166504213/basana-1.5.1.tar.gz
+[2024-04-23 00:49:44] INFO root fetch - processPackages [dsenum]: Downloading https://files.pythonhosted.org/packages/38/f1/5607fb9d2fcd963adf9b8f759dce1a097793c96f02b6152c74324f50ee28/dsenum-0.4.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 00:49:44] INFO root fetch - processPackages [apache-airflow-client]: executing diffoscope
+[2024-04-23 00:49:44] INFO root fetch - processPackages [apache-airflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-client-2.8.0rc1.tar.gz tmp/apache_airflow_client-2.9.0rc1.tar.gz --markdown 20240423/a/apache-airflow-client/2.8.0rc1-2.9.0rc1/README.md --exclude *.pyd
+[2024-04-23 00:49:44] INFO root fetch - processPackages [basana]: executing diffoscope
+[2024-04-23 00:49:44] INFO root fetch - processPackages [basana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basana-1.5.0.tar.gz tmp/basana-1.5.1.tar.gz --markdown 20240423/b/basana/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-23 00:49:44] INFO root fetch - processPackages [pySatlantic]: executing diffoscope
+[2024-04-23 00:49:44] INFO root fetch - processPackages [pySatlantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pySatlantic-0.4.1.tar.gz tmp/pysatlantic-0.4.2.tar.gz --markdown 20240423/p/pySatlantic/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-23 00:49:45] INFO root fetch - processPackages [dsenum]: executing diffoscope
+[2024-04-23 00:49:45] INFO root fetch - processPackages [dsenum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsenum-0.4.1.tar.gz tmp/dsenum-0.4.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240423/d/dsenum/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-23 00:49:45] INFO root fetch - processPackages [pySatlantic]: Remove: archive file [/home/abi/fetcher/tmp/pySatlantic-0.4.1.tar.gz]
+[2024-04-23 00:49:45] INFO root fetch - processPackages [pySatlantic]: Remove: archive file [/home/abi/fetcher/tmp/pysatlantic-0.4.2.tar.gz]
+[2024-04-23 00:49:45] INFO root fetch - main [MainThread]: End processing [pySatlantic]: success
+[2024-04-23 00:49:45] INFO root fetch - processPackages [basana]: Remove: archive file [/home/abi/fetcher/tmp/basana-1.5.0.tar.gz]
+[2024-04-23 00:49:45] INFO root fetch - processPackages [basana]: Remove: archive file [/home/abi/fetcher/tmp/basana-1.5.1.tar.gz]
+[2024-04-23 00:49:45] INFO root fetch - main [MainThread]: End processing [basana]: success
+[2024-04-23 00:49:45] INFO root fetch - processPackages [dsenum]: Remove: archive file [/home/abi/fetcher/tmp/dsenum-0.4.1.tar.gz]
+[2024-04-23 00:49:45] INFO root fetch - processPackages [dsenum]: Remove: archive file [/home/abi/fetcher/tmp/dsenum-0.4.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 00:49:45] INFO root fetch - main [MainThread]: End processing [dsenum]: success
+[2024-04-23 00:49:46] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.98.tar.gz]
+[2024-04-23 00:49:46] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
+[2024-04-23 00:49:46] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-04-23 00:49:49] INFO root fetch - processPackages [apache-airflow-client]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-client-2.8.0rc1.tar.gz]
+[2024-04-23 00:49:49] INFO root fetch - processPackages [apache-airflow-client]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_client-2.9.0rc1.tar.gz]
+[2024-04-23 00:49:49] INFO root fetch - main [MainThread]: End processing [apache-airflow-client]: success
+[2024-04-23 00:49:49] INFO root fetch - main [MainThread]: Store serial: [22885637]
