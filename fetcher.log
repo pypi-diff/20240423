@@ -1047,3 +1047,41 @@
 [2024-04-23 00:54:13] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
 [2024-04-23 00:54:13] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
 [2024-04-23 00:54:13] INFO root fetch - main [MainThread]: Store serial: [22885667]
+[2024-04-23 00:56:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885667]
+[2024-04-23 00:56:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alluka
+[2024-04-23 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: example-pkg-pixelstudios
+[2024-04-23 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tkz
+[2024-04-23 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalk-harness
+[2024-04-23 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: music-assistant
+[2024-04-23 00:56:22] INFO root fetch - processPackages [tkz]: New version: [1.0.0] Old Version: [0.0.7]
+[2024-04-23 00:56:22] INFO root fetch - processPackages [alluka]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-23 00:56:22] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b140] Old Version: [2.0.0b139]
+[2024-04-23 00:56:22] WARNING root fetch - processPackages [example-pkg-pixelstudios]: Skipping, unable to determine old version
+[2024-04-23 00:56:22] INFO root fetch - main [MainThread]: End processing [example-pkg-pixelstudios] error
+[2024-04-23 00:56:22] INFO root fetch - processPackages [chalk-harness]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-23 00:56:22] INFO root fetch - processPackages [tkz]: Downloading https://files.pythonhosted.org/packages/b0/d3/0f6f6b94138ee2823eae1281e4891353e429499640e0795dcf6c9aee8811/tkz-0.0.7.tar.gz
+[2024-04-23 00:56:22] INFO root fetch - processPackages [alluka]: Downloading https://files.pythonhosted.org/packages/12/38/b81d2e44a612b6a85ecc031a0c48e1c8502f157aa8778be428e001dbd499/alluka-0.1.4.tar.gz
+[2024-04-23 00:56:22] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/26/19/30df702399f5c26f09aa0addb6d2c696b5e6f2094268e3acc6db1ac58797/music_assistant-2.0.0b139.tar.gz
+[2024-04-23 00:56:22] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 16933692>=10485760
+[2024-04-23 00:56:22] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2024-04-23 00:56:22] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/04/cf/7b5f46fcb7ff618c41cba126b21c03047ab357635bab1cb1fa76c6c31081/chalk-harness-1.9.8.tar.gz
+[2024-04-23 00:56:22] INFO root fetch - processPackages [tkz]: Downloading https://files.pythonhosted.org/packages/e1/f4/f43721fd29f64892f16531009be71fe721375dcda54a09d9e05127d4110a/tkz-1.0.0.tar.gz
+[2024-04-23 00:56:22] INFO root fetch - processPackages [alluka]: Downloading https://files.pythonhosted.org/packages/c6/69/b3293c847d72746468e36256e7fa08681ec588156f0762bbf98cba2f88ec/alluka-0.1.5.tar.gz
+[2024-04-23 00:56:22] INFO root fetch - processPackages [tkz]: executing diffoscope
+[2024-04-23 00:56:22] INFO root fetch - processPackages [tkz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkz-0.0.7.tar.gz tmp/tkz-1.0.0.tar.gz --markdown 20240423/t/tkz/0.0.7-1.0.0/README.md --exclude *.pyd
+[2024-04-23 00:56:22] INFO root fetch - processPackages [alluka]: executing diffoscope
+[2024-04-23 00:56:22] INFO root fetch - processPackages [alluka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alluka-0.1.4.tar.gz tmp/alluka-0.1.5.tar.gz --markdown 20240423/a/alluka/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-23 00:56:22] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/71/ea/d40dc649c4c8238582eeede1c8cfae5807f94913301efa0c34aff4e959f8/chalk-harness-1.9.9.tar.gz
+[2024-04-23 00:56:23] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2024-04-23 00:56:23] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-1.9.8.tar.gz tmp/chalk-harness-1.9.9.tar.gz --markdown 20240423/c/chalk-harness/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-23 00:56:23] INFO root fetch - processPackages [tkz]: Remove: archive file [/home/abi/fetcher/tmp/tkz-0.0.7.tar.gz]
+[2024-04-23 00:56:23] INFO root fetch - processPackages [tkz]: Remove: archive file [/home/abi/fetcher/tmp/tkz-1.0.0.tar.gz]
+[2024-04-23 00:56:23] INFO root fetch - main [MainThread]: End processing [tkz]: success
+[2024-04-23 00:56:23] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.8.tar.gz]
+[2024-04-23 00:56:23] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.9.tar.gz]
+[2024-04-23 00:56:23] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2024-04-23 00:56:24] INFO root fetch - processPackages [alluka]: Remove: archive file [/home/abi/fetcher/tmp/alluka-0.1.4.tar.gz]
+[2024-04-23 00:56:24] INFO root fetch - processPackages [alluka]: Remove: archive file [/home/abi/fetcher/tmp/alluka-0.1.5.tar.gz]
+[2024-04-23 00:56:24] INFO root fetch - main [MainThread]: End processing [alluka]: success
+[2024-04-23 00:56:24] INFO root fetch - main [MainThread]: Store serial: [22885683]
