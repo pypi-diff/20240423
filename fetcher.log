@@ -1623,3 +1623,36 @@
 [2024-04-23 01:28:08] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1713826115.tar.gz]
 [2024-04-23 01:28:08] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
 [2024-04-23 01:28:08] INFO root fetch - main [MainThread]: Store serial: [22885928]
+[2024-04-23 01:30:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22885928]
+[2024-04-23 01:30:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 01:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vantiqPythonExecConnector
+[2024-04-23 01:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-canada
+[2024-04-23 01:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: G722
+[2024-04-23 01:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: 3lc
+[2024-04-23 01:30:17] WARNING root fetch - processPackages [G722]: Skipping, unable to determine old version
+[2024-04-23 01:30:17] INFO root fetch - main [MainThread]: End processing [G722] error
+[2024-04-23 01:30:17] INFO root fetch - processPackages [vantiqPythonExecConnector]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-04-23 01:30:17] INFO root fetch - processPackages [3lc]: New version: [2.3.84] Old Version: [2.3.70]
+[2024-04-23 01:30:17] INFO root fetch - processPackages [policyengine-canada]: New version: [0.95.0] Old Version: [0.94.0]
+[2024-04-23 01:30:17] INFO root fetch - processPackages [vantiqPythonExecConnector]: Downloading https://files.pythonhosted.org/packages/ca/c8/14c3f2381be0729691ccff833fee16a32c215b6864b82de6b8b33983f1ee/vantiqpythonexecconnector-1.2.5.tar.gz
+[2024-04-23 01:30:17] INFO root fetch - processPackages [3lc]: Downloading https://files.pythonhosted.org/packages/61/e9/52208eaba96a139ea43698a65818effeea89e64f3da1ed32ec40d71edb16/3lc-2.3.70-0-cp39-cp39-win_amd64.whl
+[2024-04-23 01:30:17] INFO root fetch - processPackages [policyengine-canada]: Downloading https://files.pythonhosted.org/packages/49/29/bd1f21de710c9546b127bb956f12a5995c472e0187e5e8cbe40142214f6c/policyengine-canada-0.94.0.tar.gz
+[2024-04-23 01:30:17] INFO root fetch - processPackages [vantiqPythonExecConnector]: Downloading https://files.pythonhosted.org/packages/ba/31/5975d5908fb377b84bb56e9e153fd751d6ce08994a0e869337d6dc8d02ab/vantiqpythonexecconnector-1.2.6.tar.gz
+[2024-04-23 01:30:17] INFO root fetch - processPackages [vantiqPythonExecConnector]: executing diffoscope
+[2024-04-23 01:30:17] INFO root fetch - processPackages [vantiqPythonExecConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantiqpythonexecconnector-1.2.5.tar.gz tmp/vantiqpythonexecconnector-1.2.6.tar.gz --markdown 20240423/v/vantiqPythonExecConnector/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-04-23 01:30:17] INFO root fetch - processPackages [3lc]: Downloading https://files.pythonhosted.org/packages/78/c0/3a80c98f8317ddd2a9848544408371edb666ba4d5cd5d186d83ddb0aac5a/3lc-2.3.84-0-cp39-cp39-win_amd64.whl
+[2024-04-23 01:30:17] INFO root fetch - processPackages [policyengine-canada]: Downloading https://files.pythonhosted.org/packages/f3/13/a4c08fa9e2931930db2995cc1a2ed0bbefc4e5083f586843c4139aaa46f1/policyengine-canada-0.95.0.tar.gz
+[2024-04-23 01:30:18] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2024-04-23 01:30:18] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.94.0.tar.gz tmp/policyengine-canada-0.95.0.tar.gz --markdown 20240423/p/policyengine-canada/0.94.0-0.95.0/README.md --exclude *.pyd
+[2024-04-23 01:30:18] INFO root fetch - processPackages [vantiqPythonExecConnector]: Remove: archive file [/home/abi/fetcher/tmp/vantiqpythonexecconnector-1.2.5.tar.gz]
+[2024-04-23 01:30:18] INFO root fetch - processPackages [vantiqPythonExecConnector]: Remove: archive file [/home/abi/fetcher/tmp/vantiqpythonexecconnector-1.2.6.tar.gz]
+[2024-04-23 01:30:18] INFO root fetch - main [MainThread]: End processing [vantiqPythonExecConnector]: success
+[2024-04-23 01:30:18] INFO root fetch - processPackages [3lc]: executing diffoscope
+[2024-04-23 01:30:18] INFO root fetch - processPackages [3lc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/3lc-2.3.70-0-cp39-cp39-win_amd64.whl.zip tmp/3lc-2.3.84-0-cp39-cp39-win_amd64.whl.zip --markdown 20240423/3/3lc/2.3.70-2.3.84/README.md --exclude *.pyd
+[2024-04-23 01:30:20] INFO root fetch - processPackages [policyengine-canada]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-canada-0.94.0.tar.gz]
+[2024-04-23 01:30:20] INFO root fetch - processPackages [policyengine-canada]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-canada-0.95.0.tar.gz]
+[2024-04-23 01:30:20] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2024-04-23 01:30:20] INFO root fetch - processPackages [3lc]: Remove: archive file [/home/abi/fetcher/tmp/3lc-2.3.70-0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 01:30:20] INFO root fetch - processPackages [3lc]: Remove: archive file [/home/abi/fetcher/tmp/3lc-2.3.84-0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 01:30:20] INFO root fetch - main [MainThread]: End processing [3lc]: success
+[2024-04-23 01:30:20] INFO root fetch - main [MainThread]: Store serial: [22885950]
