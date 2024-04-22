@@ -1997,3 +1997,29 @@
 [2024-04-23 01:48:18] INFO root fetch - processPackages [FiberFusing]: Remove: archive file [/home/abi/fetcher/tmp/FiberFusing-1.1.2-py3-none-any.whl.zip]
 [2024-04-23 01:48:18] INFO root fetch - main [MainThread]: End processing [FiberFusing]: success
 [2024-04-23 01:48:18] INFO root fetch - main [MainThread]: Store serial: [22886070]
+[2024-04-23 01:50:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886070]
+[2024-04-23 01:50:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 01:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osm-fieldwork
+[2024-04-23 01:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agsconfig
+[2024-04-23 01:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Anchor-annotator
+[2024-04-23 01:50:27] INFO root fetch - processPackages [osm-fieldwork]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-23 01:50:27] INFO root fetch - processPackages [Anchor-annotator]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-04-23 01:50:27] INFO root fetch - processPackages [agsconfig]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-23 01:50:27] INFO root fetch - processPackages [osm-fieldwork]: Downloading https://files.pythonhosted.org/packages/23/92/fa128e079f25ab8f1a4d5bf6e62afa922d64f0df8875517b7c7dfed45b54/osm-fieldwork-0.8.2.tar.gz
+[2024-04-23 01:50:27] INFO root fetch - processPackages [Anchor-annotator]: Downloading https://files.pythonhosted.org/packages/38/bc/f0eaa4748bb21918b47d78b3e7a5f4bf487ba05856eab9651c759d383bc6/anchor_annotator-0.3.3.tar.gz
+[2024-04-23 01:50:27] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/b4/fa/204efbe36bc9c33422c624b8d47efaca6b011c1bb96eb29755ecdcc7721a/agsconfig-0.3.2-py2.py3-none-any.whl
+[2024-04-23 01:50:28] WARNING root fetch - processPackages [Anchor-annotator]: Skipping package: exceeds size limit 14885199>=10485760
+[2024-04-23 01:50:28] INFO root fetch - main [MainThread]: End processing [Anchor-annotator] error
+[2024-04-23 01:50:28] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/3e/a6/483ed71404110740091f872349817cb108beef712526ac56354db675470e/agsconfig-0.3.3-py2.py3-none-any.whl
+[2024-04-23 01:50:28] INFO root fetch - processPackages [osm-fieldwork]: Downloading https://files.pythonhosted.org/packages/dd/8a/4145534e30d792c3f046e9c40129d6b44c3dde993d9125541ee91339b5dd/osm-fieldwork-0.9.0.tar.gz
+[2024-04-23 01:50:28] INFO root fetch - processPackages [agsconfig]: executing diffoscope
+[2024-04-23 01:50:28] INFO root fetch - processPackages [agsconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsconfig-0.3.2-py2.py3-none-any.whl.zip tmp/agsconfig-0.3.3-py2.py3-none-any.whl.zip --markdown 20240423/a/agsconfig/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-23 01:50:28] INFO root fetch - processPackages [osm-fieldwork]: executing diffoscope
+[2024-04-23 01:50:28] INFO root fetch - processPackages [osm-fieldwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osm-fieldwork-0.8.2.tar.gz tmp/osm-fieldwork-0.9.0.tar.gz --markdown 20240423/o/osm-fieldwork/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-23 01:50:29] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.3.2-py2.py3-none-any.whl.zip]
+[2024-04-23 01:50:29] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.3.3-py2.py3-none-any.whl.zip]
+[2024-04-23 01:50:29] INFO root fetch - main [MainThread]: End processing [agsconfig]: success
+[2024-04-23 01:50:29] INFO root fetch - processPackages [osm-fieldwork]: Remove: archive file [/home/abi/fetcher/tmp/osm-fieldwork-0.8.2.tar.gz]
+[2024-04-23 01:50:29] INFO root fetch - processPackages [osm-fieldwork]: Remove: archive file [/home/abi/fetcher/tmp/osm-fieldwork-0.9.0.tar.gz]
+[2024-04-23 01:50:29] INFO root fetch - main [MainThread]: End processing [osm-fieldwork]: success
+[2024-04-23 01:50:29] INFO root fetch - main [MainThread]: Store serial: [22886078]
