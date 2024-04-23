@@ -18333,3 +18333,33 @@
 [2024-04-23 12:41:13] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-23 12:41:13] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-23 12:41:13] INFO root fetch - main [MainThread]: Store serial: [22892478]
+[2024-04-23 12:43:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892478]
+[2024-04-23 12:43:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 12:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: able-recipe
+[2024-04-23 12:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frequenz-api-dispatch
+[2024-04-23 12:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stow
+[2024-04-23 12:43:22] INFO root fetch - processPackages [frequenz-api-dispatch]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-23 12:43:22] INFO root fetch - processPackages [able-recipe]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 12:43:22] INFO root fetch - processPackages [stow]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-23 12:43:22] INFO root fetch - processPackages [able-recipe]: Downloading https://files.pythonhosted.org/packages/4a/98/6bfafe815b01af4570ceac3d22e226f4135c3f28bf76917afad5b17a2378/able_recipe-1.0.8.tar.gz
+[2024-04-23 12:43:22] INFO root fetch - processPackages [frequenz-api-dispatch]: Downloading https://files.pythonhosted.org/packages/08/3f/aca57d7422823edfaabfc00285fd862624b85123f35caa1d8cef5a73b25e/frequenz-api-dispatch-0.8.2.tar.gz
+[2024-04-23 12:43:22] INFO root fetch - processPackages [stow]: Downloading https://files.pythonhosted.org/packages/69/c1/4ab9c184201096c365ad6d12fa76e0394e53514500f830e13f56b835515c/stow-1.3.1.tar.gz
+[2024-04-23 12:43:22] INFO root fetch - processPackages [able-recipe]: Downloading https://files.pythonhosted.org/packages/c6/a2/89fecb575fa9f87f080d1070437fb8570a3acb72faca18cd828c7967b06f/able_recipe-1.0.9.tar.gz
+[2024-04-23 12:43:22] INFO root fetch - processPackages [frequenz-api-dispatch]: Downloading https://files.pythonhosted.org/packages/33/c1/e860d478dc8932f1c87ea623e6d5b1a9b2788d7f9229dd3adc141e915c08/frequenz-api-dispatch-0.9.0.tar.gz
+[2024-04-23 12:43:22] INFO root fetch - processPackages [able-recipe]: executing diffoscope
+[2024-04-23 12:43:22] INFO root fetch - processPackages [able-recipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/able_recipe-1.0.8.tar.gz tmp/able_recipe-1.0.9.tar.gz --markdown 20240423/a/able-recipe/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 12:43:22] INFO root fetch - processPackages [stow]: Downloading https://files.pythonhosted.org/packages/c2/3f/d17bdf5542ae90e4ed22522e0dcad4dda65e789eec6913900c6683d86836/stow-1.4.0.tar.gz
+[2024-04-23 12:43:22] INFO root fetch - processPackages [frequenz-api-dispatch]: executing diffoscope
+[2024-04-23 12:43:22] INFO root fetch - processPackages [frequenz-api-dispatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-api-dispatch-0.8.2.tar.gz tmp/frequenz-api-dispatch-0.9.0.tar.gz --markdown 20240423/f/frequenz-api-dispatch/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-23 12:43:23] INFO root fetch - processPackages [stow]: executing diffoscope
+[2024-04-23 12:43:23] INFO root fetch - processPackages [stow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stow-1.3.1.tar.gz tmp/stow-1.4.0.tar.gz --markdown 20240423/s/stow/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-23 12:43:23] INFO root fetch - processPackages [able-recipe]: Remove: archive file [/home/abi/fetcher/tmp/able_recipe-1.0.8.tar.gz]
+[2024-04-23 12:43:23] INFO root fetch - processPackages [able-recipe]: Remove: archive file [/home/abi/fetcher/tmp/able_recipe-1.0.9.tar.gz]
+[2024-04-23 12:43:23] INFO root fetch - main [MainThread]: End processing [able-recipe]: success
+[2024-04-23 12:43:23] INFO root fetch - processPackages [frequenz-api-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-dispatch-0.8.2.tar.gz]
+[2024-04-23 12:43:23] INFO root fetch - processPackages [frequenz-api-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-dispatch-0.9.0.tar.gz]
+[2024-04-23 12:43:23] INFO root fetch - main [MainThread]: End processing [frequenz-api-dispatch]: success
+[2024-04-23 12:43:23] INFO root fetch - processPackages [stow]: Remove: archive file [/home/abi/fetcher/tmp/stow-1.3.1.tar.gz]
+[2024-04-23 12:43:23] INFO root fetch - processPackages [stow]: Remove: archive file [/home/abi/fetcher/tmp/stow-1.4.0.tar.gz]
+[2024-04-23 12:43:23] INFO root fetch - main [MainThread]: End processing [stow]: success
+[2024-04-23 12:43:23] INFO root fetch - main [MainThread]: Store serial: [22892486]
