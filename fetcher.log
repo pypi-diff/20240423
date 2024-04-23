@@ -8168,3 +8168,78 @@
 [2024-04-23 04:27:50] INFO root fetch - processPackages [fprime-fpp-to-dict]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_to_dict-2.1.0a9-py3-none-manylinux_2_28_aarch64.whl.zip]
 [2024-04-23 04:27:50] INFO root fetch - main [MainThread]: End processing [fprime-fpp-to-dict]: success
 [2024-04-23 04:27:50] INFO root fetch - main [MainThread]: Store serial: [22888176]
+[2024-04-23 04:30:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888176]
+[2024-04-23 04:30:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 04:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: http-content-parser
+[2024-04-23 04:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nlpknife
+[2024-04-23 04:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embtechx
+[2024-04-23 04:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: afeng-py-tools
+[2024-04-23 04:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: speechless
+[2024-04-23 04:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onetable
+[2024-04-23 04:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reasoner-validator
+[2024-04-23 04:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llm-parse
+[2024-04-23 04:30:37] INFO root fetch - processPackages [nlpknife]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 04:30:37] INFO root fetch - processPackages [llm-parse]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 04:30:37] INFO root fetch - processPackages [embtechx]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-23 04:30:37] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 04:30:37] INFO root fetch - processPackages [speechless]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-23 04:30:37] INFO root fetch - processPackages [onetable]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-23 04:30:37] INFO root fetch - processPackages [http-content-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 04:30:37] INFO root fetch - processPackages [reasoner-validator]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-04-23 04:30:37] INFO root fetch - processPackages [llm-parse]: Downloading https://files.pythonhosted.org/packages/b7/38/c2ea107f4ed29b80a575109aff6cfa40066e1135980a13371e40bc5234c4/llm_parse-0.1.0.tar.gz
+[2024-04-23 04:30:37] INFO root fetch - processPackages [nlpknife]: Downloading https://files.pythonhosted.org/packages/fa/5f/2e2ae410372d2f1b53295e0214411dd3f1fd63cffb3afd9b29fe810e9be2/nlpknife-0.0.2.tar.gz
+[2024-04-23 04:30:37] INFO root fetch - processPackages [embtechx]: Downloading https://files.pythonhosted.org/packages/e8/03/276b865cf356f275fa9b7b3dacb2c8d52595b39452c061e647c0bdabe989/embtechx-1.0.2.tar.gz
+[2024-04-23 04:30:37] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-23 04:30:37] INFO root fetch - processPackages [speechless]: Downloading https://files.pythonhosted.org/packages/6c/63/f4a2a168a3be4c6ec525cc96367c107b8f957ffb7af5a9e77d98702e46ad/speechless-0.8.0.tar.gz
+[2024-04-23 04:30:37] INFO root fetch - processPackages [onetable]: Downloading https://files.pythonhosted.org/packages/24/04/826ba1a4c45bfbe93855f3360d0c6715584e60f0990548d7de13771408e7/onetable-0.0.4.tar.gz
+[2024-04-23 04:30:37] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/d7/a8/e87ea7c5d19b8e5ec8f54f867093c2b2026844ab61a4facf2d3a8bc0f945/reasoner_validator-4.0.1.tar.gz
+[2024-04-23 04:30:37] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/a2/cc/885103e89814521e1bcc3d5dafaa06f644ea86e2280970cfdb33025b7a16/http_content_parser-0.0.8.tar.gz
+[2024-04-23 04:30:37] INFO root fetch - processPackages [nlpknife]: Downloading https://files.pythonhosted.org/packages/17/13/c5f832374d54b0cd87a4167bcd0ad89d30536f928cea558769c2a2c90331/nlpknife-0.0.3.tar.gz
+[2024-04-23 04:30:37] INFO root fetch - processPackages [llm-parse]: Downloading https://files.pythonhosted.org/packages/12/f2/c6237b94bcc7dab5fdbacaf70bc22f8d578d7bc81fb1fa68aaa9620dd791/llm_parse-0.1.1.tar.gz
+[2024-04-23 04:30:37] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-23 04:30:37] INFO root fetch - processPackages [embtechx]: Downloading https://files.pythonhosted.org/packages/b7/a2/ce624962abea1eca277bf91fa7f1e589467b1d5082670b053fca0ea56ae3/embtechx-1.0.3.tar.gz
+[2024-04-23 04:30:37] INFO root fetch - processPackages [llm-parse]: executing diffoscope
+[2024-04-23 04:30:37] INFO root fetch - processPackages [llm-parse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_parse-0.1.0.tar.gz tmp/llm_parse-0.1.1.tar.gz --markdown 20240423/l/llm-parse/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 04:30:37] INFO root fetch - processPackages [nlpknife]: executing diffoscope
+[2024-04-23 04:30:37] INFO root fetch - processPackages [nlpknife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpknife-0.0.2.tar.gz tmp/nlpknife-0.0.3.tar.gz --markdown 20240423/n/nlpknife/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 04:30:37] INFO root fetch - processPackages [embtechx]: executing diffoscope
+[2024-04-23 04:30:37] INFO root fetch - processPackages [embtechx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embtechx-1.0.2.tar.gz tmp/embtechx-1.0.3.tar.gz --markdown 20240423/e/embtechx/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-23 04:30:38] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-23 04:30:38] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240423/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 04:30:38] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/93/f1/ff3cc57c7b828864894c6866ea5324f2d6683688f8a5a27a79fb472862f9/http_content_parser-0.0.9.tar.gz
+[2024-04-23 04:30:38] INFO root fetch - processPackages [onetable]: Downloading https://files.pythonhosted.org/packages/05/d8/fc9e670c7bcc6aece43b7f9b61d619381ec7dff4b1f4ea330ae5392d96cf/onetable-0.0.5.tar.gz
+[2024-04-23 04:30:38] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/40/38/909d90ef8152bb5ab1df3eb1e2ece8821cc9756632560c17d10b03444e55/reasoner_validator-4.0.2.tar.gz
+[2024-04-23 04:30:38] INFO root fetch - processPackages [speechless]: Downloading https://files.pythonhosted.org/packages/c1/7b/0762dec00ad7d0f4cedcc42ada048db7e3ae1422976c1a9c23be63d1b7a0/speechless-0.9.0.tar.gz
+[2024-04-23 04:30:38] INFO root fetch - processPackages [http-content-parser]: executing diffoscope
+[2024-04-23 04:30:38] INFO root fetch - processPackages [http-content-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http_content_parser-0.0.8.tar.gz tmp/http_content_parser-0.0.9.tar.gz --markdown 20240423/h/http-content-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 04:30:38] INFO root fetch - processPackages [onetable]: executing diffoscope
+[2024-04-23 04:30:38] INFO root fetch - processPackages [onetable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onetable-0.0.4.tar.gz tmp/onetable-0.0.5.tar.gz --markdown 20240423/o/onetable/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-23 04:30:38] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2024-04-23 04:30:38] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-4.0.1.tar.gz tmp/reasoner_validator-4.0.2.tar.gz --markdown 20240423/r/reasoner-validator/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-04-23 04:30:38] INFO root fetch - processPackages [speechless]: executing diffoscope
+[2024-04-23 04:30:38] INFO root fetch - processPackages [speechless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speechless-0.8.0.tar.gz tmp/speechless-0.9.0.tar.gz --markdown 20240423/s/speechless/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-23 04:30:38] INFO root fetch - processPackages [nlpknife]: Remove: archive file [/home/abi/fetcher/tmp/nlpknife-0.0.2.tar.gz]
+[2024-04-23 04:30:38] INFO root fetch - processPackages [nlpknife]: Remove: archive file [/home/abi/fetcher/tmp/nlpknife-0.0.3.tar.gz]
+[2024-04-23 04:30:38] INFO root fetch - main [MainThread]: End processing [nlpknife]: success
+[2024-04-23 04:30:38] INFO root fetch - processPackages [embtechx]: Remove: archive file [/home/abi/fetcher/tmp/embtechx-1.0.2.tar.gz]
+[2024-04-23 04:30:38] INFO root fetch - processPackages [embtechx]: Remove: archive file [/home/abi/fetcher/tmp/embtechx-1.0.3.tar.gz]
+[2024-04-23 04:30:38] INFO root fetch - main [MainThread]: End processing [embtechx]: success
+[2024-04-23 04:30:38] INFO root fetch - processPackages [llm-parse]: Remove: archive file [/home/abi/fetcher/tmp/llm_parse-0.1.0.tar.gz]
+[2024-04-23 04:30:38] INFO root fetch - processPackages [llm-parse]: Remove: archive file [/home/abi/fetcher/tmp/llm_parse-0.1.1.tar.gz]
+[2024-04-23 04:30:38] INFO root fetch - main [MainThread]: End processing [llm-parse]: success
+[2024-04-23 04:30:38] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.8.tar.gz]
+[2024-04-23 04:30:38] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.9.tar.gz]
+[2024-04-23 04:30:38] INFO root fetch - main [MainThread]: End processing [http-content-parser]: success
+[2024-04-23 04:30:39] INFO root fetch - processPackages [onetable]: Remove: archive file [/home/abi/fetcher/tmp/onetable-0.0.4.tar.gz]
+[2024-04-23 04:30:39] INFO root fetch - processPackages [onetable]: Remove: archive file [/home/abi/fetcher/tmp/onetable-0.0.5.tar.gz]
+[2024-04-23 04:30:39] INFO root fetch - main [MainThread]: End processing [onetable]: success
+[2024-04-23 04:30:39] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.0.1.tar.gz]
+[2024-04-23 04:30:39] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.0.2.tar.gz]
+[2024-04-23 04:30:39] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2024-04-23 04:30:39] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-23 04:30:39] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-23 04:30:39] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-23 04:30:39] INFO root fetch - processPackages [speechless]: Remove: archive file [/home/abi/fetcher/tmp/speechless-0.8.0.tar.gz]
+[2024-04-23 04:30:39] INFO root fetch - processPackages [speechless]: Remove: archive file [/home/abi/fetcher/tmp/speechless-0.9.0.tar.gz]
+[2024-04-23 04:30:39] INFO root fetch - main [MainThread]: End processing [speechless]: success
+[2024-04-23 04:30:39] INFO root fetch - main [MainThread]: Store serial: [22888198]
