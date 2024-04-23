@@ -7225,3 +7225,15 @@
 [2024-04-23 03:26:46] INFO root fetch - processPackages [gtsystem]: Remove: archive file [/home/abi/fetcher/tmp/gtsystem-0.2.1.tar.gz]
 [2024-04-23 03:26:46] INFO root fetch - main [MainThread]: End processing [gtsystem]: success
 [2024-04-23 03:26:46] INFO root fetch - main [MainThread]: Store serial: [22887672]
+[2024-04-23 03:28:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887672]
+[2024-04-23 03:28:54] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-23 03:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onediffx
+[2024-04-23 03:28:54] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202404230126] Old Version: [1.0.0.dev202404220127]
+[2024-04-23 03:28:54] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/89/b5/a32904aed5e7098d45fbc129bd82d3988263f6e2af54d065dd004bd970df/onediffx-1.0.0.dev202404220127.tar.gz
+[2024-04-23 03:28:55] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/22/fe/96470e272665613944f4c600736fea37b1c06f746003e8a4e60183855863/onediffx-1.0.0.dev202404230126.tar.gz
+[2024-04-23 03:28:55] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-23 03:28:55] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202404220127.tar.gz tmp/onediffx-1.0.0.dev202404230126.tar.gz --markdown 20240423/o/onediffx/1.0.0.dev202404220127-1.0.0.dev202404230126/README.md --exclude *.pyd
+[2024-04-23 03:28:55] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404220127.tar.gz]
+[2024-04-23 03:28:55] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404230126.tar.gz]
+[2024-04-23 03:28:55] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-23 03:28:55] INFO root fetch - main [MainThread]: Store serial: [22887744]
