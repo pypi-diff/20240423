@@ -9837,3 +9837,33 @@
 [2024-04-23 05:57:23] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.4.3.tar.gz]
 [2024-04-23 05:57:23] INFO root fetch - main [MainThread]: End processing [ehdg-pupil-detector]: success
 [2024-04-23 05:57:23] INFO root fetch - main [MainThread]: Store serial: [22888777]
+[2024-04-23 05:59:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888777]
+[2024-04-23 05:59:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 05:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: afeng-py-tools
+[2024-04-23 05:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-tests-web
+[2024-04-23 05:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pykegg
+[2024-04-23 05:59:32] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 05:59:32] INFO root fetch - processPackages [pykegg]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-23 05:59:32] INFO root fetch - processPackages [python-tests-web]: New version: [0.3] Old Version: [0.2]
+[2024-04-23 05:59:32] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-23 05:59:32] INFO root fetch - processPackages [python-tests-web]: Downloading https://files.pythonhosted.org/packages/e8/41/df7b75a8f0f74527f9ffacf3d852db4a7c35ff9e8008b6bea838ad10360a/python_tests_web-0.2.tar.gz
+[2024-04-23 05:59:32] INFO root fetch - processPackages [pykegg]: Downloading https://files.pythonhosted.org/packages/6d/7a/dbbc797ef7d143189a02c2bb4dd81c2338b5f507c137d21029db34dd450e/pykegg-0.1.5.tar.gz
+[2024-04-23 05:59:32] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-23 05:59:32] INFO root fetch - processPackages [python-tests-web]: Downloading https://files.pythonhosted.org/packages/5a/a0/34765e13b95fa829b82201711063965209b97ea6dad496a0c3275c7e590e/python_tests_web-0.3.tar.gz
+[2024-04-23 05:59:32] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-23 05:59:32] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240423/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 05:59:32] INFO root fetch - processPackages [python-tests-web]: executing diffoscope
+[2024-04-23 05:59:32] INFO root fetch - processPackages [python-tests-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_tests_web-0.2.tar.gz tmp/python_tests_web-0.3.tar.gz --markdown 20240423/p/python-tests-web/0.2-0.3/README.md --exclude *.pyd
+[2024-04-23 05:59:32] INFO root fetch - processPackages [pykegg]: Downloading https://files.pythonhosted.org/packages/ec/77/4c47e39eb85d03a49d2d04f68230304fc56d483747029cd4d1d088a08a81/pykegg-0.1.6.tar.gz
+[2024-04-23 05:59:33] INFO root fetch - processPackages [pykegg]: executing diffoscope
+[2024-04-23 05:59:33] INFO root fetch - processPackages [pykegg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykegg-0.1.5.tar.gz tmp/pykegg-0.1.6.tar.gz --markdown 20240423/p/pykegg/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-23 05:59:33] INFO root fetch - processPackages [python-tests-web]: Remove: archive file [/home/abi/fetcher/tmp/python_tests_web-0.2.tar.gz]
+[2024-04-23 05:59:33] INFO root fetch - processPackages [python-tests-web]: Remove: archive file [/home/abi/fetcher/tmp/python_tests_web-0.3.tar.gz]
+[2024-04-23 05:59:33] INFO root fetch - main [MainThread]: End processing [python-tests-web]: success
+[2024-04-23 05:59:33] INFO root fetch - processPackages [pykegg]: Remove: archive file [/home/abi/fetcher/tmp/pykegg-0.1.5.tar.gz]
+[2024-04-23 05:59:33] INFO root fetch - processPackages [pykegg]: Remove: archive file [/home/abi/fetcher/tmp/pykegg-0.1.6.tar.gz]
+[2024-04-23 05:59:33] INFO root fetch - main [MainThread]: End processing [pykegg]: success
+[2024-04-23 05:59:33] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-23 05:59:33] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-23 05:59:33] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-23 05:59:33] INFO root fetch - main [MainThread]: Store serial: [22888793]
