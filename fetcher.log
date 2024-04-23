@@ -15859,3 +15859,104 @@
 [2024-04-23 11:08:58] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev9.tar.gz]
 [2024-04-23 11:08:58] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-23 11:08:58] INFO root fetch - main [MainThread]: Store serial: [22891489]
+[2024-04-23 11:11:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891489]
+[2024-04-23 11:11:07] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-23 11:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jy_lib
+[2024-04-23 11:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: energyml-utils
+[2024-04-23 11:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streply-sdk
+[2024-04-23 11:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CAD-to-OpenMC
+[2024-04-23 11:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morphdb-utils
+[2024-04-23 11:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gd_excelexporter
+[2024-04-23 11:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plone.app.locales
+[2024-04-23 11:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spider-client
+[2024-04-23 11:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mecord-cli
+[2024-04-23 11:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python_dev_utils
+[2024-04-23 11:11:07] INFO root fetch - processPackages [gd_excelexporter]: New version: [3.0.1a0] Old Version: [3.0.0a1]
+[2024-04-23 11:11:07] INFO root fetch - processPackages [energyml-utils]: New version: [1.0.1.dev4] Old Version: [1.0.0]
+[2024-04-23 11:11:07] INFO root fetch - processPackages [spider-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 11:11:07] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-23 11:11:07] INFO root fetch - processPackages [jy_lib]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-23 11:11:07] INFO root fetch - processPackages [CAD-to-OpenMC]: New version: [0.3.3a0] Old Version: [0.3.3]
+[2024-04-23 11:11:07] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 11:11:07] INFO root fetch - processPackages [plone.app.locales]: New version: [6.0.9] Old Version: [6.0.8]
+[2024-04-23 11:11:07] WARNING root fetch - processPackages [streply-sdk]: Skipping, unable to determine old version
+[2024-04-23 11:11:07] INFO root fetch - processPackages [streply-sdk]: Start processing: llm-guard
+[2024-04-23 11:11:07] INFO root fetch - main [MainThread]: End processing [streply-sdk] error
+[2024-04-23 11:11:07] INFO root fetch - processPackages [python_dev_utils]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-23 11:11:07] INFO root fetch - processPackages [gd_excelexporter]: Downloading https://files.pythonhosted.org/packages/8a/5d/443233a5346cceab5d224a48c0437021dcd1ca321fb0996d4bb72f745235/gd_excelexporter-3.0.0a1.tar.gz
+[2024-04-23 11:11:07] INFO root fetch - processPackages [spider-client]: Downloading https://files.pythonhosted.org/packages/e1/31/2d52fbfc0b561953523b75cf43eec1ddc8c87c4f3c0e5f78f11b01145373/spider-client-0.0.2.tar.gz
+[2024-04-23 11:11:07] INFO root fetch - processPackages [energyml-utils]: Downloading https://files.pythonhosted.org/packages/fa/d3/0d005a60e9ddf45f3294392f195b32f18d642f718d34c6bc74571d44d3a4/energyml_utils-1.0.0.tar.gz
+[2024-04-23 11:11:07] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/72/10/66b4a38cb59ad2f9fc7be20088f6225f4383c1d1217040aea6deba496dbd/jy_lib-0.6.3.tar.gz
+[2024-04-23 11:11:07] INFO root fetch - processPackages [llm-guard]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-04-23 11:11:07] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-04-23 11:11:07] INFO root fetch - processPackages [CAD-to-OpenMC]: Downloading https://files.pythonhosted.org/packages/16/7f/986999512b462a948a3c2fe479f9ddfeb749db0a83843536413f8fe4a065/cad_to_openmc-0.3.3.tar.gz
+[2024-04-23 11:11:07] INFO root fetch - processPackages [plone.app.locales]: Downloading https://files.pythonhosted.org/packages/07/57/7616573ed7e1e4246344ae71d2964888db7ce02be744df3f588daa4f8ba5/plone.app.locales-6.0.8.tar.gz
+[2024-04-23 11:11:07] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/0f/57/2f7e8a45a7e04d194bef8159c4699a162d3c4919e7416aca0574eaf091fe/python_dev_utils-1.3.1.tar.gz
+[2024-04-23 11:11:07] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-04-23 11:11:07] INFO root fetch - processPackages [energyml-utils]: Downloading https://files.pythonhosted.org/packages/fc/27/3c06d3ba691b9167e3f40e22a0b2df8bd14d8509b895042451b9f0491de8/energyml_utils-1.0.1.dev4.tar.gz
+[2024-04-23 11:11:07] INFO root fetch - processPackages [gd_excelexporter]: Downloading https://files.pythonhosted.org/packages/7f/e5/e30e9202b8f738848ac46e5800c11e8044578958e85d23da4c1ff97565be/gd_excelexporter-3.0.1a0.tar.gz
+[2024-04-23 11:11:08] INFO root fetch - processPackages [llm-guard]: Downloading https://files.pythonhosted.org/packages/1a/fc/fc3f7fa771b1b7ce81ab2915f72bd99a77269d8369c47afa3364d11001e2/llm-guard-0.3.7.tar.gz
+[2024-04-23 11:11:08] WARNING root fetch - processPackages [plone.app.locales]: Skipping package: exceeds size limit 10880771>=10485760
+[2024-04-23 11:11:08] INFO root fetch - processPackages [plone.app.locales]: Start processing: WebAppDIRAC
+[2024-04-23 11:11:08] INFO root fetch - main [MainThread]: End processing [plone.app.locales] error
+[2024-04-23 11:11:08] INFO root fetch - processPackages [energyml-utils]: executing diffoscope
+[2024-04-23 11:11:08] INFO root fetch - processPackages [energyml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energyml_utils-1.0.0.tar.gz tmp/energyml_utils-1.0.1.dev4.tar.gz --markdown 20240423/e/energyml-utils/1.0.0-1.0.1.dev4/README.md --exclude *.pyd
+[2024-04-23 11:11:08] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-04-23 11:11:08] INFO root fetch - processPackages [gd_excelexporter]: executing diffoscope
+[2024-04-23 11:11:08] INFO root fetch - processPackages [gd_excelexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gd_excelexporter-3.0.0a1.tar.gz tmp/gd_excelexporter-3.0.1a0.tar.gz --markdown 20240423/g/gd_excelexporter/3.0.0a1-3.0.1a0/README.md --exclude *.pyd
+[2024-04-23 11:11:08] INFO root fetch - processPackages [spider-client]: Downloading https://files.pythonhosted.org/packages/ea/61/da310e5015316e6c653f50349b8988d02701b6b689a531f82065f89ba79c/spider-client-0.0.3.tar.gz
+[2024-04-23 11:11:08] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/67/b0/976c8bb037e76d356c8cf723abb0159207032fe694700a459319eb1cb818/jy_lib-0.6.4.tar.gz
+[2024-04-23 11:11:08] INFO root fetch - processPackages [WebAppDIRAC]: New version: [6.0.0a7] Old Version: [6.0.0a6]
+[2024-04-23 11:11:08] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-04-23 11:11:08] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240423/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-23 11:11:08] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/e1/fa/4febf635d05dc2723e388651ccbd41de71fce54a72370c65aad8f0ca42c8/python_dev_utils-1.4.0.tar.gz
+[2024-04-23 11:11:08] INFO root fetch - processPackages [spider-client]: executing diffoscope
+[2024-04-23 11:11:08] INFO root fetch - processPackages [spider-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-client-0.0.2.tar.gz tmp/spider-client-0.0.3.tar.gz --markdown 20240423/s/spider-client/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 11:11:08] INFO root fetch - processPackages [CAD-to-OpenMC]: Downloading https://files.pythonhosted.org/packages/cf/de/053df22ed662ba1af05ee64357b3458a9cac879e13f9b7e6e7ab1fc099fe/CAD_to_OpenMC-0.3.3a0.tar.gz
+[2024-04-23 11:11:08] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-04-23 11:11:08] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-04-23 11:11:08] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.3.1.tar.gz tmp/python_dev_utils-1.4.0.tar.gz --markdown 20240423/p/python_dev_utils/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-23 11:11:08] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-04-23 11:11:08] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.6.3.tar.gz tmp/jy_lib-0.6.4.tar.gz --markdown 20240423/j/jy_lib/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-23 11:11:08] INFO root fetch - processPackages [CAD-to-OpenMC]: executing diffoscope
+[2024-04-23 11:11:08] INFO root fetch - processPackages [CAD-to-OpenMC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cad_to_openmc-0.3.3.tar.gz tmp/CAD_to_OpenMC-0.3.3a0.tar.gz --markdown 20240423/C/CAD-to-OpenMC/0.3.3-0.3.3a0/README.md --exclude *.pyd
+[2024-04-23 11:11:08] INFO root fetch - processPackages [WebAppDIRAC]: Downloading https://files.pythonhosted.org/packages/cf/47/58d15e45501c2da3384e74cb48fd7b541a2b121de4562e569b8318d432ba/WebAppDIRAC-6.0.0a6.tar.gz
+[2024-04-23 11:11:08] INFO root fetch - processPackages [llm-guard]: Downloading https://files.pythonhosted.org/packages/79/24/9a8e3a60b109310eba3b2ac0ede16831cf1a510a2be69cd807483422817d/llm-guard-0.3.9.tar.gz
+[2024-04-23 11:11:08] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-04-23 11:11:08] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240423/m/morphdb-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 11:11:08] INFO root fetch - processPackages [llm-guard]: executing diffoscope
+[2024-04-23 11:11:08] INFO root fetch - processPackages [llm-guard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-guard-0.3.7.tar.gz tmp/llm-guard-0.3.9.tar.gz --markdown 20240423/l/llm-guard/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-04-23 11:11:09] INFO root fetch - processPackages [energyml-utils]: Remove: archive file [/home/abi/fetcher/tmp/energyml_utils-1.0.0.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - processPackages [energyml-utils]: Remove: archive file [/home/abi/fetcher/tmp/energyml_utils-1.0.1.dev4.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - main [MainThread]: End processing [energyml-utils]: success
+[2024-04-23 11:11:09] INFO root fetch - processPackages [gd_excelexporter]: Remove: archive file [/home/abi/fetcher/tmp/gd_excelexporter-3.0.0a1.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - processPackages [gd_excelexporter]: Remove: archive file [/home/abi/fetcher/tmp/gd_excelexporter-3.0.1a0.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - main [MainThread]: End processing [gd_excelexporter]: success
+[2024-04-23 11:11:09] INFO root fetch - processPackages [spider-client]: Remove: archive file [/home/abi/fetcher/tmp/spider-client-0.0.2.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - processPackages [spider-client]: Remove: archive file [/home/abi/fetcher/tmp/spider-client-0.0.3.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - main [MainThread]: End processing [spider-client]: success
+[2024-04-23 11:11:09] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.3.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.4.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-04-23 11:11:09] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-04-23 11:11:09] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-04-23 11:11:09] INFO root fetch - processPackages [WebAppDIRAC]: Downloading https://files.pythonhosted.org/packages/3a/db/35407c7bdd284c867331661b139d6e8341d841cd16d5a4872aa17e3f37d3/webappdirac-6.0.0a7.tar.gz
+[2024-04-23 11:11:09] INFO root fetch - processPackages [CAD-to-OpenMC]: Remove: archive file [/home/abi/fetcher/tmp/cad_to_openmc-0.3.3.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - processPackages [CAD-to-OpenMC]: Remove: archive file [/home/abi/fetcher/tmp/CAD_to_OpenMC-0.3.3a0.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - main [MainThread]: End processing [CAD-to-OpenMC]: success
+[2024-04-23 11:11:09] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.3.1.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.4.0.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-04-23 11:11:09] INFO root fetch - processPackages [WebAppDIRAC]: executing diffoscope
+[2024-04-23 11:11:09] INFO root fetch - processPackages [WebAppDIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebAppDIRAC-6.0.0a6.tar.gz tmp/webappdirac-6.0.0a7.tar.gz --markdown 20240423/W/WebAppDIRAC/6.0.0a6-6.0.0a7/README.md --exclude *.pyd
+[2024-04-23 11:11:09] INFO root fetch - processPackages [llm-guard]: Remove: archive file [/home/abi/fetcher/tmp/llm-guard-0.3.7.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - processPackages [llm-guard]: Remove: archive file [/home/abi/fetcher/tmp/llm-guard-0.3.9.tar.gz]
+[2024-04-23 11:11:09] INFO root fetch - main [MainThread]: End processing [llm-guard]: success
+[2024-04-23 11:11:11] INFO root fetch - processPackages [WebAppDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/WebAppDIRAC-6.0.0a6.tar.gz]
+[2024-04-23 11:11:11] INFO root fetch - processPackages [WebAppDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/webappdirac-6.0.0a7.tar.gz]
+[2024-04-23 11:11:11] INFO root fetch - main [MainThread]: End processing [WebAppDIRAC]: success
+[2024-04-23 11:11:11] INFO root fetch - main [MainThread]: Store serial: [22891532]
