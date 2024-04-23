@@ -10371,3 +10371,23 @@
 [2024-04-23 06:47:51] INFO root fetch - processPackages [colorfullog]: Remove: archive file [/home/abi/fetcher/tmp/colorfullog-0.0.5.tar.gz]
 [2024-04-23 06:47:51] INFO root fetch - main [MainThread]: End processing [colorfullog]: success
 [2024-04-23 06:47:51] INFO root fetch - main [MainThread]: Store serial: [22889075]
+[2024-04-23 06:49:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889075]
+[2024-04-23 06:50:00] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-23 06:52:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889075]
+[2024-04-23 06:52:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 06:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seatable-api
+[2024-04-23 06:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-easy-images
+[2024-04-23 06:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SMILESTracer
+[2024-04-23 06:52:05] INFO root fetch - processPackages [seatable-api]: New version: [2.7.2] Old Version: [2.7.1]
+[2024-04-23 06:52:05] WARNING root fetch - processPackages [SMILESTracer]: Skipping, unable to determine old version
+[2024-04-23 06:52:05] INFO root fetch - main [MainThread]: End processing [SMILESTracer] error
+[2024-04-23 06:52:05] WARNING root fetch - processPackages [django-easy-images]: Skipping, unable to determine old version
+[2024-04-23 06:52:05] INFO root fetch - main [MainThread]: End processing [django-easy-images] error
+[2024-04-23 06:52:05] INFO root fetch - processPackages [seatable-api]: Downloading https://files.pythonhosted.org/packages/f2/ed/11ade174d82ba7de1a25809d023e078d1b0d57bbf77282fa2ce260d67fd5/seatable-api-2.7.1.tar.gz
+[2024-04-23 06:52:06] INFO root fetch - processPackages [seatable-api]: Downloading https://files.pythonhosted.org/packages/52/84/2c512b9ffc78482ced045d981e371edb3032b4c8c3eed17cdc530284eef9/seatable-api-2.7.2.tar.gz
+[2024-04-23 06:52:06] INFO root fetch - processPackages [seatable-api]: executing diffoscope
+[2024-04-23 06:52:06] INFO root fetch - processPackages [seatable-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seatable-api-2.7.1.tar.gz tmp/seatable-api-2.7.2.tar.gz --markdown 20240423/s/seatable-api/2.7.1-2.7.2/README.md --exclude *.pyd
+[2024-04-23 06:52:06] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.7.1.tar.gz]
+[2024-04-23 06:52:06] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.7.2.tar.gz]
+[2024-04-23 06:52:06] INFO root fetch - main [MainThread]: End processing [seatable-api]: success
+[2024-04-23 06:52:06] INFO root fetch - main [MainThread]: Store serial: [22889091]
