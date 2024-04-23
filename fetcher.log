@@ -7727,3 +7727,27 @@
 [2024-04-23 04:11:46] INFO root fetch - processPackages [sportswrangler]: Remove: archive file [/home/abi/fetcher/tmp/sportswrangler-0.1.0.tar.gz]
 [2024-04-23 04:11:46] INFO root fetch - main [MainThread]: End processing [sportswrangler]: success
 [2024-04-23 04:11:46] INFO root fetch - main [MainThread]: Store serial: [22888004]
+[2024-04-23 04:13:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888004]
+[2024-04-23 04:13:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 04:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatfilediff
+[2024-04-23 04:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: replit-river
+[2024-04-23 04:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-move-name-sequence
+[2024-04-23 04:13:54] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: New version: [17.0.1.0.5] Old Version: [17.0.1.0.4]
+[2024-04-23 04:13:54] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/5f/29/8120145704f42ba8b526a40c93786ebb4ebe492314d674dad01b4d2211c8/odoo_addon_account_move_name_sequence-17.0.1.0.4-py3-none-any.whl
+[2024-04-23 04:13:54] WARNING root fetch - processPackages [flatfilediff]: Skipping, unable to determine old version
+[2024-04-23 04:13:54] INFO root fetch - main [MainThread]: End processing [flatfilediff] error
+[2024-04-23 04:13:54] INFO root fetch - processPackages [replit-river]: New version: [0.1.7b2] Old Version: [0.1.7b1]
+[2024-04-23 04:13:54] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/fd/b0/714c81fc755400bdd3958d9edbc822ddc017d4d7b3466dc0cca63a7c7e41/replit_river-0.1.7b1.tar.gz
+[2024-04-23 04:13:55] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/f8/2a/9ee29fc57f118daa155fefe9937c3db9ca63ab9b8f0864242b6c1e4c7a71/odoo_addon_account_move_name_sequence-17.0.1.0.5-py3-none-any.whl
+[2024-04-23 04:13:55] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: executing diffoscope
+[2024-04-23 04:13:55] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_name_sequence-17.0.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_move_name_sequence-17.0.1.0.5-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-move-name-sequence/17.0.1.0.4-17.0.1.0.5/README.md --exclude *.pyd
+[2024-04-23 04:13:55] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/ee/ca/c11958ccc37f337355897770466a3ade844ae57af731bcfbc844418482f9/replit_river-0.1.7b2.tar.gz
+[2024-04-23 04:13:55] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-04-23 04:13:55] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.7b1.tar.gz tmp/replit_river-0.1.7b2.tar.gz --markdown 20240423/r/replit-river/0.1.7b1-0.1.7b2/README.md --exclude *.pyd
+[2024-04-23 04:13:55] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_name_sequence-17.0.1.0.4-py3-none-any.whl.zip]
+[2024-04-23 04:13:55] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_name_sequence-17.0.1.0.5-py3-none-any.whl.zip]
+[2024-04-23 04:13:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-name-sequence]: success
+[2024-04-23 04:13:56] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b1.tar.gz]
+[2024-04-23 04:13:56] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b2.tar.gz]
+[2024-04-23 04:13:56] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-04-23 04:13:56] INFO root fetch - main [MainThread]: Store serial: [22888014]
