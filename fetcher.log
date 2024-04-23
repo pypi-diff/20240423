@@ -20777,3 +20777,163 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 14:12:57] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.0.1.tar.gz]
 [2024-04-23 14:12:57] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2024-04-23 14:12:57] INFO root fetch - main [MainThread]: Store serial: [22893523]
+[2024-04-23 14:15:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893523]
+[2024-04-23 14:15:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-23 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-04-23 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyastroweatherio
+[2024-04-23 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: la-coding-theory
+[2024-04-23 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opytimal
+[2024-04-23 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agilicus
+[2024-04-23 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wingechr-datatools
+[2024-04-23 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ScholarCodeCollective
+[2024-04-23 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: getai
+[2024-04-23 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odp-sdk
+[2024-04-23 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cs2-battle-bot-api-client
+[2024-04-23 14:15:06] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-23 14:15:06] INFO root fetch - processPackages [ScholarCodeCollective]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-23 14:15:06] INFO root fetch - processPackages [opytimal]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-23 14:15:06] INFO root fetch - processPackages [getai]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 14:15:06] INFO root fetch - processPackages [cs2-battle-bot-api-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:15:06] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.43.1.dev9] Old Version: [0.43.1.dev8]
+[2024-04-23 14:15:06] INFO root fetch - processPackages [agilicus]: New version: [1.99.0] Old Version: [1.98.9]
+[2024-04-23 14:15:06] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-23 14:15:06] INFO root fetch - processPackages [la-coding-theory]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-23 14:15:06] INFO root fetch - processPackages [wingechr-datatools]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-23 14:15:06] INFO root fetch - processPackages [odp-sdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-23 14:15:06] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Downloading https://files.pythonhosted.org/packages/03/df/b7441418a2c92e54f467823096a59228bd44b86e3d3cabbf00bf422e840b/cs2_battle_bot_api_client-0.0.8.tar.gz
+[2024-04-23 14:15:06] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/52/24/2c570e0e19bb51a136edaf868d693f0156fca6c66aca91674ec5e7973a2c/pyastroweatherio-0.43.1.dev8.tar.gz
+[2024-04-23 14:15:06] INFO root fetch - processPackages [ScholarCodeCollective]: Downloading https://files.pythonhosted.org/packages/9a/e0/8f017dc7943373d93a19bb1f0bc9a5c60a71f76199056f4ca20b0a7dd2f3/ScholarCodeCollective-0.1.2.tar.gz
+[2024-04-23 14:15:06] INFO root fetch - processPackages [getai]: Downloading https://files.pythonhosted.org/packages/16/b0/ba5570b03d0dd14dac9c12ba23565eb247f2d44888b9db66f8ab61732415/getai-0.0.1.tar.gz
+[2024-04-23 14:15:06] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/f3/29/4db9a272be140d418079505a618f8b3e96fd7a1b24a2885d84491408afb4/opytimal-0.5.2.tar.gz
+[2024-04-23 14:15:06] INFO root fetch - processPackages [agilicus]: executing diffoscope
+[2024-04-23 14:15:06] INFO root fetch - processPackages [agilicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilicus-1.98.9.tar.gz tmp/agilicus-1.99.0.tar.gz --markdown 20240423/a/agilicus/1.98.9-1.99.0/README.md --exclude *.pyd
+[2024-04-23 14:15:06] INFO root fetch - processPackages [la-coding-theory]: Downloading https://files.pythonhosted.org/packages/93/5f/68067d0f069bb178df2bb9b91ddffd66ea7c2a802c8e750c86d5e3279bb6/la_coding_theory-0.0.3.tar.gz
+[2024-04-23 14:15:06] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/0c/d7/6786eab810e93a55929b9db3e01f60e5730ec2afe2830751c9bc30a33eb7/odp_sdk-0.4.8.tar.gz
+[2024-04-23 14:15:06] INFO root fetch - processPackages [wingechr-datatools]: Downloading https://files.pythonhosted.org/packages/f4/e9/6d065fd6c38b37690541663c8f93b23b0a6b2bd170f6d8daf42e58d2d2de/wingechr-datatools-0.8.0.tar.gz
+[2024-04-23 14:15:06] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/75/07/e7eb1179d1b5db7e5e45ea03766c9c39fee7686fa1e316830827643977ac/pyastroweatherio-0.43.1.dev9.tar.gz
+[2024-04-23 14:15:06] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-04-23 14:15:06] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.43.1.dev8.tar.gz tmp/pyastroweatherio-0.43.1.dev9.tar.gz --markdown 20240423/p/pyastroweatherio/0.43.1.dev8-0.43.1.dev9/README.md --exclude *.pyd
+[2024-04-23 14:15:06] INFO root fetch - processPackages [getai]: Downloading https://files.pythonhosted.org/packages/d8/84/5bfb84c83ef11078e0704043fb0dcf86947d46d109b644117f04d274c7ec/getai-0.0.2.tar.gz
+[2024-04-23 14:15:06] INFO root fetch - processPackages [ScholarCodeCollective]: Downloading https://files.pythonhosted.org/packages/4c/20/014c1c1f3fa4b44abc3689c5e9773c19c03104258b0eda620c30914d97e2/ScholarCodeCollective-0.1.3.tar.gz
+[2024-04-23 14:15:06] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Downloading https://files.pythonhosted.org/packages/77/08/3e7b110a5c7ca73d5a2f0ae6b0262f4ffff4556c60ed50870a60f5aad63e/cs2_battle_bot_api_client-0.0.9.tar.gz
+[2024-04-23 14:15:06] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/ad/5c/d2f1e843bd0b9635b55dede01c113dd29c8dd1047587efc91091bacf39b8/opytimal-0.5.3.tar.gz
+[2024-04-23 14:15:06] INFO root fetch - processPackages [la-coding-theory]: Downloading https://files.pythonhosted.org/packages/e3/07/b0c5c025a4510605929d121336f0d9993131328773c10ab6bd9fd6bd8308/la_coding_theory-0.0.4.tar.gz
+[2024-04-23 14:15:07] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-23 14:15:07] INFO root fetch - processPackages [ScholarCodeCollective]: executing diffoscope
+[2024-04-23 14:15:07] INFO root fetch - processPackages [ScholarCodeCollective]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScholarCodeCollective-0.1.2.tar.gz tmp/ScholarCodeCollective-0.1.3.tar.gz --markdown 20240423/S/ScholarCodeCollective/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-23 14:15:07] INFO root fetch - processPackages [getai]: executing diffoscope
+[2024-04-23 14:15:07] INFO root fetch - processPackages [getai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getai-0.0.1.tar.gz tmp/getai-0.0.2.tar.gz --markdown 20240423/g/getai/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 14:15:07] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/2d/a3/afccdb1099b3b43252f67f4255e00d2fe91582b91933dc6065455fd43ec8/odp_sdk-0.4.9.tar.gz
+[2024-04-23 14:15:07] INFO root fetch - processPackages [cs2-battle-bot-api-client]: executing diffoscope
+[2024-04-23 14:15:07] INFO root fetch - processPackages [cs2-battle-bot-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2_battle_bot_api_client-0.0.8.tar.gz tmp/cs2_battle_bot_api_client-0.0.9.tar.gz --markdown 20240423/c/cs2-battle-bot-api-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:15:07] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 14:15:07] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.5.2.tar.gz tmp/opytimal-0.5.3.tar.gz --markdown 20240423/o/opytimal/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-23 14:15:07] INFO root fetch - processPackages [la-coding-theory]: executing diffoscope
+[2024-04-23 14:15:07] INFO root fetch - processPackages [la-coding-theory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/la_coding_theory-0.0.3.tar.gz tmp/la_coding_theory-0.0.4.tar.gz --markdown 20240423/l/la-coding-theory/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-23 14:15:07] INFO root fetch - processPackages [wingechr-datatools]: Downloading https://files.pythonhosted.org/packages/f6/73/6ffa72aef2824d38fef519cd9be2253234c1215ddf00fd18f9b0b22f85aa/wingechr-datatools-0.9.0.tar.gz
+[2024-04-23 14:15:07] INFO root fetch - processPackages [odp-sdk]: executing diffoscope
+[2024-04-23 14:15:07] INFO root fetch - processPackages [odp-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odp_sdk-0.4.8.tar.gz tmp/odp_sdk-0.4.9.tar.gz --markdown 20240423/o/odp-sdk/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-23 14:15:07] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-23 14:15:07] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240423/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-23 14:15:07] INFO root fetch - processPackages [wingechr-datatools]: executing diffoscope
+[2024-04-23 14:15:07] INFO root fetch - processPackages [wingechr-datatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wingechr-datatools-0.8.0.tar.gz tmp/wingechr-datatools-0.9.0.tar.gz --markdown 20240423/w/wingechr-datatools/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-23 14:15:07] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev8.tar.gz]
+[2024-04-23 14:15:07] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev9.tar.gz]
+[2024-04-23 14:15:07] INFO root fetch - processPackages [pyastroweatherio]: Start processing: opytimal
+[2024-04-23 14:15:07] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-04-23 14:15:07] INFO root fetch - processPackages [opytimal]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-23 14:15:08] INFO root fetch - processPackages [ScholarCodeCollective]: Remove: archive file [/home/abi/fetcher/tmp/ScholarCodeCollective-0.1.2.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - processPackages [ScholarCodeCollective]: Remove: archive file [/home/abi/fetcher/tmp/ScholarCodeCollective-0.1.3.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - processPackages [ScholarCodeCollective]: Start processing: cid-cmd
+[2024-04-23 14:15:08] INFO root fetch - main [MainThread]: End processing [ScholarCodeCollective]: success
+[2024-04-23 14:15:08] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/41/0d/da75fe0909038d9b6ec13b0735360ebc4bd67e576bd74c7a5b1a27989896/opytimal-0.5.4.tar.gz
+[2024-04-23 14:15:08] INFO root fetch - processPackages [getai]: Remove: archive file [/home/abi/fetcher/tmp/getai-0.0.1.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - processPackages [getai]: Remove: archive file [/home/abi/fetcher/tmp/getai-0.0.2.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - main [MainThread]: End processing [getai]: success
+[2024-04-23 14:15:08] INFO root fetch - processPackages [la-coding-theory]: Remove: archive file [/home/abi/fetcher/tmp/la_coding_theory-0.0.3.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - processPackages [la-coding-theory]: Remove: archive file [/home/abi/fetcher/tmp/la_coding_theory-0.0.4.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - main [MainThread]: End processing [la-coding-theory]: success
+[2024-04-23 14:15:08] INFO root fetch - processPackages [cid-cmd]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-23 14:15:08] INFO root fetch - processPackages [wingechr-datatools]: Remove: archive file [/home/abi/fetcher/tmp/wingechr-datatools-0.8.0.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - processPackages [wingechr-datatools]: Remove: archive file [/home/abi/fetcher/tmp/wingechr-datatools-0.9.0.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - main [MainThread]: End processing [wingechr-datatools]: success
+[2024-04-23 14:15:08] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.5.2.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.5.3.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 14:15:08] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.8.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.9.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - main [MainThread]: End processing [odp-sdk]: success
+[2024-04-23 14:15:08] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/f1/12/97283e7a7c1ba943cb78c2f6808ca95b20076a4cdd70d4910b31b8f0391c/opytimal-0.5.5.tar.gz
+[2024-04-23 14:15:08] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cs2_battle_bot_api_client-0.0.8.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cs2_battle_bot_api_client-0.0.9.tar.gz]
+[2024-04-23 14:15:08] INFO root fetch - main [MainThread]: End processing [cs2-battle-bot-api-client]: success
+[2024-04-23 14:15:08] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-23 14:15:08] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-23 14:15:08] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-23 14:15:08] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 14:15:08] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.5.4.tar.gz tmp/opytimal-0.5.5.tar.gz --markdown 20240423/o/opytimal/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-04-23 14:15:08] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/48/ea/a44d904fe5b9d23bbff6f58ab336db76f8cab7d540a1eeab9a7fe1227a9c/cid_cmd-0.3.1.tar.gz
+[2024-04-23 14:15:08] ERROR root fetch - processPackages [agilicus]: Diffoscope failed: time="2024-04-23T14:15:06+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-04-23 14:15:08] INFO root fetch - main [MainThread]: End processing [agilicus] error
+[2024-04-23 14:15:09] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/73/3d/b4e885c9b468bb7cb8c822ee7b113838c3c70641a72f7d935602755088e4/cid_cmd-0.3.2.tar.gz
+[2024-04-23 14:15:09] INFO root fetch - processPackages [cid-cmd]: executing diffoscope
+[2024-04-23 14:15:09] INFO root fetch - processPackages [cid-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cid_cmd-0.3.1.tar.gz tmp/cid_cmd-0.3.2.tar.gz --markdown 20240423/c/cid-cmd/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-23 14:15:09] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.5.4.tar.gz]
+[2024-04-23 14:15:09] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.5.5.tar.gz]
+[2024-04-23 14:15:09] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 14:15:10] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid_cmd-0.3.1.tar.gz]
+[2024-04-23 14:15:10] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid_cmd-0.3.2.tar.gz]
+[2024-04-23 14:15:10] INFO root fetch - main [MainThread]: End processing [cid-cmd]: success
+[2024-04-23 14:15:10] INFO root fetch - main [MainThread]: Store serial: [22893553]
