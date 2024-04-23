@@ -2803,3 +2803,60 @@
 [2024-04-23 02:24:36] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
 [2024-04-23 02:24:36] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
 [2024-04-23 02:24:36] INFO root fetch - main [MainThread]: Store serial: [22886361]
+[2024-04-23 02:26:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886361]
+[2024-04-23 02:26:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-certbot-dns-route53
+[2024-04-23 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socassess
+[2024-04-23 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-serverless-clamscan
+[2024-04-23 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-23 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feagi-connector
+[2024-04-23 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flarejax
+[2024-04-23 02:26:45] INFO root fetch - processPackages [socassess]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-23 02:26:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-04-23 02:26:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-23 02:26:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-23 02:26:45] INFO root fetch - processPackages [feagi-connector]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 02:26:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-04-23 02:26:45] INFO root fetch - processPackages [flarejax]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-23 02:26:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-23 02:26:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-23 02:26:45] INFO root fetch - processPackages [socassess]: Downloading https://files.pythonhosted.org/packages/d4/86/43181fee2d61f3182edea7a5a6c764ef416bd8cab3feb831f34bb5c146f6/socassess-0.2.1.tar.gz
+[2024-04-23 02:26:46] INFO root fetch - processPackages [feagi-connector]: Downloading https://files.pythonhosted.org/packages/63/74/2c0df6bb531b74f981f101b0688a80197290f225cc6c05de98c694c4b751/feagi_connector-0.0.8.tar.gz
+[2024-04-23 02:26:46] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-04-23 02:26:46] INFO root fetch - processPackages [flarejax]: Downloading https://files.pythonhosted.org/packages/d8/e8/aba54a46058b600cfc77935040902c75c7a6b45beea2808ea34e046a11dc/flarejax-0.1.0.tar.gz
+[2024-04-23 02:26:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-23 02:26:46] INFO root fetch - processPackages [socassess]: Downloading https://files.pythonhosted.org/packages/95/1a/1629f9e18a721432a957080ca21dbf7814bc6af37010e79a2d975dcf7ec5/socassess-0.2.2.tar.gz
+[2024-04-23 02:26:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-23 02:26:46] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-04-23 02:26:46] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240423/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-04-23 02:26:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-23 02:26:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240423/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-23 02:26:46] INFO root fetch - processPackages [socassess]: executing diffoscope
+[2024-04-23 02:26:46] INFO root fetch - processPackages [socassess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socassess-0.2.1.tar.gz tmp/socassess-0.2.2.tar.gz --markdown 20240423/s/socassess/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-23 02:26:46] INFO root fetch - processPackages [feagi-connector]: Downloading https://files.pythonhosted.org/packages/74/6d/582b56494bad8e35043677d29c2f2474bf5b1d122b81a59c2bdeb28929bf/feagi_connector-0.0.9.tar.gz
+[2024-04-23 02:26:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-23 02:26:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240423/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-23 02:26:46] INFO root fetch - processPackages [flarejax]: Downloading https://files.pythonhosted.org/packages/61/b4/9d04a605caee5088a5aa285b798d2ff3b883e4992b91d58694803b9b8bcc/flarejax-0.2.0.tar.gz
+[2024-04-23 02:26:46] INFO root fetch - processPackages [feagi-connector]: executing diffoscope
+[2024-04-23 02:26:46] INFO root fetch - processPackages [feagi-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feagi_connector-0.0.8.tar.gz tmp/feagi_connector-0.0.9.tar.gz --markdown 20240423/f/feagi-connector/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 02:26:46] INFO root fetch - processPackages [flarejax]: executing diffoscope
+[2024-04-23 02:26:46] INFO root fetch - processPackages [flarejax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarejax-0.1.0.tar.gz tmp/flarejax-0.2.0.tar.gz --markdown 20240423/f/flarejax/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-23 02:26:46] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-04-23 02:26:46] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-04-23 02:26:46] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-04-23 02:26:47] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-23 02:26:47] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-23 02:26:47] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-23 02:26:47] INFO root fetch - processPackages [socassess]: Remove: archive file [/home/abi/fetcher/tmp/socassess-0.2.1.tar.gz]
+[2024-04-23 02:26:47] INFO root fetch - processPackages [socassess]: Remove: archive file [/home/abi/fetcher/tmp/socassess-0.2.2.tar.gz]
+[2024-04-23 02:26:47] INFO root fetch - main [MainThread]: End processing [socassess]: success
+[2024-04-23 02:26:47] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-23 02:26:47] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-23 02:26:47] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-23 02:26:47] INFO root fetch - processPackages [feagi-connector]: Remove: archive file [/home/abi/fetcher/tmp/feagi_connector-0.0.8.tar.gz]
+[2024-04-23 02:26:47] INFO root fetch - processPackages [feagi-connector]: Remove: archive file [/home/abi/fetcher/tmp/feagi_connector-0.0.9.tar.gz]
+[2024-04-23 02:26:47] INFO root fetch - main [MainThread]: End processing [feagi-connector]: success
+[2024-04-23 02:26:47] INFO root fetch - processPackages [flarejax]: Remove: archive file [/home/abi/fetcher/tmp/flarejax-0.1.0.tar.gz]
+[2024-04-23 02:26:47] INFO root fetch - processPackages [flarejax]: Remove: archive file [/home/abi/fetcher/tmp/flarejax-0.2.0.tar.gz]
+[2024-04-23 02:26:47] INFO root fetch - main [MainThread]: End processing [flarejax]: success
+[2024-04-23 02:26:47] INFO root fetch - main [MainThread]: Store serial: [22886381]
