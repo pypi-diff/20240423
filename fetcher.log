@@ -2287,3 +2287,54 @@
 [2024-04-23 02:04:15] INFO root fetch - processPackages [mentat]: Remove: archive file [/home/abi/fetcher/tmp/mentat-1.0.9.tar.gz]
 [2024-04-23 02:04:15] INFO root fetch - main [MainThread]: End processing [mentat]: success
 [2024-04-23 02:04:15] INFO root fetch - main [MainThread]: Store serial: [22886160]
+[2024-04-23 02:06:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886160]
+[2024-04-23 02:06:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2024-04-23 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2024-04-23 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aadharverify
+[2024-04-23 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: entity-recognition-service
+[2024-04-23 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cutseq
+[2024-04-23 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coremltools
+[2024-04-23 02:06:24] INFO root fetch - processPackages [cutseq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 02:06:24] INFO root fetch - processPackages [entity-recognition-service]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 02:06:24] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-04-23 02:06:24] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240422.447] Old Version: [2.0.0.20240421.444]
+[2024-04-23 02:06:24] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/95/33/6984c0732c17eb925be43f23c0c27167392d2900fcd21ebf93d9b68f6c2a/cutseq-0.0.8.tar.gz
+[2024-04-23 02:06:24] WARNING root fetch - processPackages [aadharverify]: Skipping, unable to determine old version
+[2024-04-23 02:06:24] INFO root fetch - main [MainThread]: End processing [aadharverify] error
+[2024-04-23 02:06:24] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/23/18/7145326a6ea0566c2c41ba0bf3822fffc6b4da314a426433179c4724bda3/entity_recognition_service-0.1.8.tar.gz
+[2024-04-23 02:06:24] INFO root fetch - processPackages [coremltools]: New version: [7.2] Old Version: [7.1]
+[2024-04-23 02:06:24] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-04-23 02:06:24] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/10/89/96716129209753f5e66179d31d1dcf2b0c2286dfb1e08efd46f808207b51/mct-nightly-2.0.0.20240421.444.tar.gz
+[2024-04-23 02:06:24] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/86/75/a994a9af22b16241a2b38cb3314e7d2457d9aaf73d35a5b70823d8c8ce18/entity_recognition_service-0.1.9.tar.gz
+[2024-04-23 02:06:24] INFO root fetch - processPackages [coremltools]: Downloading https://files.pythonhosted.org/packages/4a/22/c3202d8525dfda057e533969c62f70008942829807106e3ec685c7d7c0a9/coremltools-7.1.tar.gz
+[2024-04-23 02:06:24] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-04-23 02:06:24] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/e5/82/45b103e58b439dac0cf4c7f6ef6957633721ec0f4553abfabba5ed961a0f/cutseq-0.0.9.tar.gz
+[2024-04-23 02:06:25] INFO root fetch - processPackages [entity-recognition-service]: executing diffoscope
+[2024-04-23 02:06:25] INFO root fetch - processPackages [entity-recognition-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entity_recognition_service-0.1.8.tar.gz tmp/entity_recognition_service-0.1.9.tar.gz --markdown 20240423/e/entity-recognition-service/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 02:06:25] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-04-23 02:06:25] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240423/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-04-23 02:06:25] INFO root fetch - processPackages [cutseq]: executing diffoscope
+[2024-04-23 02:06:25] INFO root fetch - processPackages [cutseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutseq-0.0.8.tar.gz tmp/cutseq-0.0.9.tar.gz --markdown 20240423/c/cutseq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 02:06:25] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/a8/eb/eb7cfea581c128f6e1e2b5429b0356ba4ba2461b1e48a9e215ecdabecdb9/mct-nightly-2.0.0.20240422.447.tar.gz
+[2024-04-23 02:06:25] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-04-23 02:06:25] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240421.444.tar.gz tmp/mct-nightly-2.0.0.20240422.447.tar.gz --markdown 20240423/m/mct-nightly/2.0.0.20240421.444-2.0.0.20240422.447/README.md --exclude *.pyd
+[2024-04-23 02:06:25] INFO root fetch - processPackages [coremltools]: Downloading https://files.pythonhosted.org/packages/d6/2d/8c53c15d0839e94bdb6358565ea2e695ef3d09325c5e2b7e66b6126d4dfa/coremltools-7.2-cp310-none-manylinux1_x86_64.whl
+[2024-04-23 02:06:25] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.8.tar.gz]
+[2024-04-23 02:06:25] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.9.tar.gz]
+[2024-04-23 02:06:25] INFO root fetch - main [MainThread]: End processing [cutseq]: success
+[2024-04-23 02:06:25] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-04-23 02:06:25] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-04-23 02:06:25] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-04-23 02:06:25] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.8.tar.gz]
+[2024-04-23 02:06:25] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.9.tar.gz]
+[2024-04-23 02:06:25] INFO root fetch - main [MainThread]: End processing [entity-recognition-service]: success
+[2024-04-23 02:06:25] INFO root fetch - processPackages [coremltools]: executing diffoscope
+[2024-04-23 02:06:25] INFO root fetch - processPackages [coremltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coremltools-7.1.tar.gz tmp/coremltools-7.2-cp310-none-manylinux1_x86_64.whl.zip --markdown 20240423/c/coremltools/7.1-7.2/README.md --exclude *.pyd
+[2024-04-23 02:06:26] INFO root fetch - processPackages [coremltools]: Remove: archive file [/home/abi/fetcher/tmp/coremltools-7.1.tar.gz]
+[2024-04-23 02:06:26] INFO root fetch - processPackages [coremltools]: Remove: archive file [/home/abi/fetcher/tmp/coremltools-7.2-cp310-none-manylinux1_x86_64.whl.zip]
+[2024-04-23 02:06:26] INFO root fetch - main [MainThread]: End processing [coremltools]: success
+[2024-04-23 02:06:27] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240421.444.tar.gz]
+[2024-04-23 02:06:27] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240422.447.tar.gz]
+[2024-04-23 02:06:27] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-04-23 02:06:27] INFO root fetch - main [MainThread]: Store serial: [22886182]
