@@ -9238,3 +9238,72 @@
 [2024-04-23 05:26:25] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.0a1.tar.gz]
 [2024-04-23 05:26:25] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2024-04-23 05:26:25] INFO root fetch - main [MainThread]: Store serial: [22888551]
+[2024-04-23 05:28:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888551]
+[2024-04-23 05:28:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 05:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tga-data-analysis
+[2024-04-23 05:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-dms-field
+[2024-04-23 05:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-dms-field
+[2024-04-23 05:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-dms
+[2024-04-23 05:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metrics_layer
+[2024-04-23 05:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-dms-auto-classification
+[2024-04-23 05:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-dms
+[2024-04-23 05:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-dms-auto-classification
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo-addon-dms-field]: New version: [15.0.1.3.0] Old Version: [15.0.1.2.2.2]
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo-addon-dms-field]: Downloading https://files.pythonhosted.org/packages/26/ad/f7547730db967d59dd24cfec225c427714cab97343499f71d57a855dd4a1/odoo_addon_dms_field-15.0.1.2.2.2-py3-none-any.whl
+[2024-04-23 05:28:34] INFO root fetch - processPackages [tga-data-analysis]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo14-addons-oca-dms]: New version: [14.0.20240422.0] Old Version: [14.0.20230103.0]
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo14-addon-dms-field]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev2]
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo-addon-dms]: New version: [16.0.1.4.0.23] Old Version: [16.0.1.4.0.17]
+[2024-04-23 05:28:34] INFO root fetch - processPackages [metrics_layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/f4/fc/0654730a6eee7968d511f8371c87ddc4b531eba148192f8a79bffd2724c7/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/f4/fc/0654730a6eee7968d511f8371c87ddc4b531eba148192f8a79bffd2724c7/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-23 05:28:34] INFO root fetch - processPackages [tga-data-analysis]: Downloading https://files.pythonhosted.org/packages/b5/24/5adc6e406fdb420fb7578e94cdf9a6705b9ef848045f0f40c700e3745902/tga_data_analysis-2.0.6.tar.gz
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo14-addons-oca-dms]: Downloading https://files.pythonhosted.org/packages/5b/8e/08196d7d1765b2779030a1c0327990342a02df3343cad0c7fd5b3e9000dc/odoo14_addons_oca_dms-14.0.20230103.0-py3-none-any.whl
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo14-addon-dms-field]: Downloading https://files.pythonhosted.org/packages/b0/1e/78845e59704ec00135af184982430857dc772a183a19f319d529f43ee146/odoo14_addon_dms_field-14.0.1.0.2.dev2-py3-none-any.whl
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo-addon-dms-field]: Downloading https://files.pythonhosted.org/packages/3b/33/a3fd01770e6d6c7fa0dca9e9bdab01c56053e72959a01ec924fc7a6e811a/odoo_addon_dms_field-15.0.1.3.0-py3-none-any.whl
+[2024-04-23 05:28:34] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/d5/1d/1569d3bc4c92e56ee160892451527a13d93f4182efd841454fec72e8685a/odoo_addon_dms-16.0.1.4.0.17-py3-none-any.whl
+[2024-04-23 05:28:34] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15658525>=10485760
+[2024-04-23 05:28:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo-addon-dms-field]: executing diffoscope
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo-addon-dms-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_field-15.0.1.2.2.2-py3-none-any.whl.zip tmp/odoo_addon_dms_field-15.0.1.3.0-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-dms-field/15.0.1.2.2.2-15.0.1.3.0/README.md --exclude *.pyd
+[2024-04-23 05:28:34] INFO root fetch - processPackages [tga-data-analysis]: Downloading https://files.pythonhosted.org/packages/c1/3a/ce1c2382eeecbb26a7cad014375094545c93bb38fe54f6784f58619f6de4/tga_data_analysis-2.0.7.tar.gz
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/ff/33/41aa2ba53260f6c7f75ef94700fbf8baacba9cd8d6b9cfb4aa2bb1ea8921/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/ff/33/41aa2ba53260f6c7f75ef94700fbf8baacba9cd8d6b9cfb4aa2bb1ea8921/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo14-addon-dms-field]: Downloading https://files.pythonhosted.org/packages/1b/52/8edb22aef1dc623cae758acf9fbb4d1479d596941cc3ad62c0bd1e5c07d0/odoo14_addon_dms_field-14.0.1.0.2.dev4-py3-none-any.whl
+[2024-04-23 05:28:34] INFO root fetch - processPackages [odoo14-addons-oca-dms]: Downloading https://files.pythonhosted.org/packages/29/aa/2eb27b4c0532595daa1b71ae155ec07d70e24decda065b5fd28f12766f14/odoo14_addons_oca_dms-14.0.20240422.0-py3-none-any.whl
+[2024-04-23 05:28:34] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2024-04-23 05:28:34] INFO root fetch - processPackages [tga-data-analysis]: executing diffoscope
+[2024-04-23 05:28:34] INFO root fetch - processPackages [tga-data-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tga_data_analysis-2.0.6.tar.gz tmp/tga_data_analysis-2.0.7.tar.gz --markdown 20240423/t/tga-data-analysis/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: executing diffoscope
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-dms-auto-classification/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: executing diffoscope
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-dms-auto-classification/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-23 05:28:35] INFO root fetch - processPackages [metrics_layer]: executing diffoscope
+[2024-04-23 05:28:35] INFO root fetch - processPackages [metrics_layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20240423/m/metrics_layer/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo14-addon-dms-field]: executing diffoscope
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo14-addon-dms-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_dms_field-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_dms_field-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-dms-field/14.0.1.0.2.dev2-14.0.1.0.2.dev4/README.md --exclude *.pyd
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo14-addons-oca-dms]: executing diffoscope
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo14-addons-oca-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_dms-14.0.20230103.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_dms-14.0.20240422.0-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addons-oca-dms/14.0.20230103.0-14.0.20240422.0/README.md --exclude *.pyd
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo-addon-dms-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_field-15.0.1.2.2.2-py3-none-any.whl.zip]
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo-addon-dms-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_field-15.0.1.3.0-py3-none-any.whl.zip]
+[2024-04-23 05:28:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-field]: success
+[2024-04-23 05:28:35] INFO root fetch - processPackages [tga-data-analysis]: Remove: archive file [/home/abi/fetcher/tmp/tga_data_analysis-2.0.6.tar.gz]
+[2024-04-23 05:28:35] INFO root fetch - processPackages [tga-data-analysis]: Remove: archive file [/home/abi/fetcher/tmp/tga_data_analysis-2.0.7.tar.gz]
+[2024-04-23 05:28:35] INFO root fetch - main [MainThread]: End processing [tga-data-analysis]: success
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo14-addons-oca-dms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_dms-14.0.20230103.0-py3-none-any.whl.zip]
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo14-addons-oca-dms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_dms-14.0.20240422.0-py3-none-any.whl.zip]
+[2024-04-23 05:28:35] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-dms]: success
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-23 05:28:35] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-23 05:28:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-auto-classification]: success
+[2024-04-23 05:28:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-auto-classification]: success
+[2024-04-23 05:28:35] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2024-04-23 05:28:35] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2024-04-23 05:28:35] INFO root fetch - main [MainThread]: End processing [metrics_layer]: success
+[2024-04-23 05:28:36] INFO root fetch - processPackages [odoo14-addon-dms-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_dms_field-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2024-04-23 05:28:36] INFO root fetch - processPackages [odoo14-addon-dms-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_dms_field-14.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2024-04-23 05:28:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-dms-field]: success
+[2024-04-23 05:28:36] INFO root fetch - main [MainThread]: Store serial: [22888572]
