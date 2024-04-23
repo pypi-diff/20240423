@@ -16402,3 +16402,99 @@
 [2024-04-23 11:26:41] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404230635.tar.gz]
 [2024-04-23 11:26:41] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-04-23 11:26:41] INFO root fetch - main [MainThread]: Store serial: [22891690]
+[2024-04-23 11:28:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891690]
+[2024-04-23 11:28:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-23 11:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-stock-picking-putinpack-restriction
+[2024-04-23 11:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rats-pipelines
+[2024-04-23 11:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-apps
+[2024-04-23 11:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rats-processors
+[2024-04-23 11:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2024-04-23 11:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qstd-core
+[2024-04-23 11:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crlfi
+[2024-04-23 11:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-trandsforms
+[2024-04-23 11:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autotrain-advanced
+[2024-04-23 11:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiopenid
+[2024-04-23 11:28:50] INFO root fetch - processPackages [crlfi]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 11:28:50] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 11:28:50] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-23 11:28:50] INFO root fetch - processPackages [kfish]: New version: [99.0.202404230638] Old Version: [99.0.202404230634]
+[2024-04-23 11:28:50] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 11:28:50] INFO root fetch - processPackages [odoo14-addon-stock-picking-putinpack-restriction]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev2]
+[2024-04-23 11:28:50] INFO root fetch - processPackages [qstd-core]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-23 11:28:50] WARNING root fetch - processPackages [aiopenid]: Skipping, unable to determine old version
+[2024-04-23 11:28:50] INFO root fetch - processPackages [aiopenid]: Start processing: prominence-delineator
+[2024-04-23 11:28:50] INFO root fetch - main [MainThread]: End processing [aiopenid] error
+[2024-04-23 11:28:50] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 11:28:50] INFO root fetch - processPackages [torch-trandsforms]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-23 11:28:50] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-04-23 11:28:50] INFO root fetch - processPackages [prominence-delineator]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-23 11:28:50] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/28/db/b05c2f4c55ddff8f0fc2e204c6bcb55abf09c20d38e21e3d2814b4dd5653/kfish-99.0.202404230634-py3-none-any.whl
+[2024-04-23 11:28:51] INFO root fetch - processPackages [crlfi]: Downloading https://files.pythonhosted.org/packages/24/2e/9c8eab97fab8b688599b1c5e04c1db57e177492b23ff25d681982c32b538/crlfi-0.0.1.tar.gz
+[2024-04-23 11:28:51] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 11:28:51] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 11:28:51] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 11:28:51] INFO root fetch - processPackages [prominence-delineator]: Downloading https://files.pythonhosted.org/packages/ee/ce/a87941455b544ce792168d906ac336d4e28b4ca22180ebc851d3f4f33087/prominence_delineator-0.0.6.tar.gz
+[2024-04-23 11:28:51] INFO root fetch - processPackages [odoo14-addon-stock-picking-putinpack-restriction]: Downloading https://files.pythonhosted.org/packages/73/8b/8e6ba03fdede753fd51c049a5154bd8bd65357ea0edb6ec17c38f37d21d1/odoo14_addon_stock_picking_putinpack_restriction-14.0.1.0.1.dev2-py3-none-any.whl
+[2024-04-23 11:28:51] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/3b/f9/8e51604ae2a709f1c272b8ea8a29222b66dcbbb27767ca3c3a64705d2cd0/qstd_core-0.2.0.tar.gz
+[2024-04-23 11:28:51] INFO root fetch - processPackages [torch-trandsforms]: Downloading https://files.pythonhosted.org/packages/ee/0e/5f6ad0fe3eaf3daf490c6e85580d6467804cf35089321db771dae54042a3/torch_trandsforms-0.3.5.tar.gz
+[2024-04-23 11:28:51] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-04-23 11:28:51] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 11:28:51] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a0/d4/027bee259b0e199870086f094eb713b6d836073effe615e182cffa61fcdc/kfish-99.0.202404230638-py3-none-any.whl
+[2024-04-23 11:28:51] INFO root fetch - processPackages [crlfi]: Downloading https://files.pythonhosted.org/packages/55/e6/d625b93657e5ee417f207f5d3e64878401268dc0af296d34203842476fdb/crlfi-0.0.2.tar.gz
+[2024-04-23 11:28:51] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 11:28:51] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-04-23 11:28:51] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240423/a/autotrain-advanced/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-23 11:28:51] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-23 11:28:51] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 11:28:51] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 11:28:51] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-23 11:28:51] INFO root fetch - processPackages [crlfi]: executing diffoscope
+[2024-04-23 11:28:51] INFO root fetch - processPackages [crlfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crlfi-0.0.1.tar.gz tmp/crlfi-0.0.2.tar.gz --markdown 20240423/c/crlfi/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 11:28:51] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404230634-py3-none-any.whl.zip tmp/kfish-99.0.202404230638-py3-none-any.whl.zip --markdown 20240423/k/kfish/99.0.202404230634-99.0.202404230638/README.md --exclude *.pyd
+[2024-04-23 11:28:51] INFO root fetch - processPackages [torch-trandsforms]: Downloading https://files.pythonhosted.org/packages/31/e8/31f71857e12371e80f3f961931c533cba39b1f0f38f1b2a2b07138d5b080/torch_trandsforms-0.3.6.tar.gz
+[2024-04-23 11:28:51] INFO root fetch - processPackages [odoo14-addon-stock-picking-putinpack-restriction]: Downloading https://files.pythonhosted.org/packages/ea/70/516e036b04b3e3a7cdd9f4614813412d35136c78e8bc07d62fb469a330a2/odoo14_addon_stock_picking_putinpack_restriction-14.0.1.0.1.dev4-py3-none-any.whl
+[2024-04-23 11:28:51] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/df/e6/ea51692cd2eed666217785daaff86942ce6f4295abd800f2a4c80dee05e1/qstd_core-0.2.1.tar.gz
+[2024-04-23 11:28:51] INFO root fetch - processPackages [prominence-delineator]: Downloading https://files.pythonhosted.org/packages/44/ac/1c9eb706d5b21b04000ea46c6b5cbee062cfea71455f1555a49800bbfd8a/prominence_delineator-0.0.7.tar.gz
+[2024-04-23 11:28:51] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-23 11:28:51] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 11:28:51] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-23 11:28:51] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 11:28:51] INFO root fetch - processPackages [qstd-core]: executing diffoscope
+[2024-04-23 11:28:51] INFO root fetch - processPackages [qstd-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qstd_core-0.2.0.tar.gz tmp/qstd_core-0.2.1.tar.gz --markdown 20240423/q/qstd-core/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-23 11:28:51] INFO root fetch - processPackages [prominence-delineator]: executing diffoscope
+[2024-04-23 11:28:51] INFO root fetch - processPackages [prominence-delineator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prominence_delineator-0.0.6.tar.gz tmp/prominence_delineator-0.0.7.tar.gz --markdown 20240423/p/prominence-delineator/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-23 11:28:51] INFO root fetch - processPackages [torch-trandsforms]: executing diffoscope
+[2024-04-23 11:28:51] INFO root fetch - processPackages [torch-trandsforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_trandsforms-0.3.5.tar.gz tmp/torch_trandsforms-0.3.6.tar.gz --markdown 20240423/t/torch-trandsforms/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-23 11:28:51] INFO root fetch - processPackages [odoo14-addon-stock-picking-putinpack-restriction]: executing diffoscope
+[2024-04-23 11:28:51] INFO root fetch - processPackages [odoo14-addon-stock-picking-putinpack-restriction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_picking_putinpack_restriction-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_stock_picking_putinpack_restriction-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-stock-picking-putinpack-restriction/14.0.1.0.1.dev2-14.0.1.0.1.dev4/README.md --exclude *.pyd
+[2024-04-23 11:28:52] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404230634-py3-none-any.whl.zip]
+[2024-04-23 11:28:52] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404230638-py3-none-any.whl.zip]
+[2024-04-23 11:28:52] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-23 11:28:52] INFO root fetch - processPackages [crlfi]: Remove: archive file [/home/abi/fetcher/tmp/crlfi-0.0.1.tar.gz]
+[2024-04-23 11:28:52] INFO root fetch - processPackages [crlfi]: Remove: archive file [/home/abi/fetcher/tmp/crlfi-0.0.2.tar.gz]
+[2024-04-23 11:28:52] INFO root fetch - main [MainThread]: End processing [crlfi]: success
+[2024-04-23 11:28:52] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 11:28:52] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 11:28:52] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-23 11:28:52] INFO root fetch - processPackages [torch-trandsforms]: Remove: archive file [/home/abi/fetcher/tmp/torch_trandsforms-0.3.5.tar.gz]
+[2024-04-23 11:28:52] INFO root fetch - processPackages [torch-trandsforms]: Remove: archive file [/home/abi/fetcher/tmp/torch_trandsforms-0.3.6.tar.gz]
+[2024-04-23 11:28:52] INFO root fetch - main [MainThread]: End processing [torch-trandsforms]: success
+[2024-04-23 11:28:52] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.0.tar.gz]
+[2024-04-23 11:28:52] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.1.tar.gz]
+[2024-04-23 11:28:52] INFO root fetch - main [MainThread]: End processing [qstd-core]: success
+[2024-04-23 11:28:52] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-04-23 11:28:52] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-04-23 11:28:52] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-04-23 11:28:52] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 11:28:52] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 11:28:52] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-23 11:28:52] INFO root fetch - processPackages [odoo14-addon-stock-picking-putinpack-restriction]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_putinpack_restriction-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2024-04-23 11:28:52] INFO root fetch - processPackages [odoo14-addon-stock-picking-putinpack-restriction]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_putinpack_restriction-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2024-04-23 11:28:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-putinpack-restriction]: success
+[2024-04-23 11:28:52] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 11:28:52] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 11:28:52] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-23 11:28:53] INFO root fetch - processPackages [prominence-delineator]: Remove: archive file [/home/abi/fetcher/tmp/prominence_delineator-0.0.6.tar.gz]
+[2024-04-23 11:28:53] INFO root fetch - processPackages [prominence-delineator]: Remove: archive file [/home/abi/fetcher/tmp/prominence_delineator-0.0.7.tar.gz]
+[2024-04-23 11:28:53] INFO root fetch - main [MainThread]: End processing [prominence-delineator]: success
+[2024-04-23 11:28:53] INFO root fetch - main [MainThread]: Store serial: [22891724]
