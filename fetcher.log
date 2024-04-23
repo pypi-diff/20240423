@@ -7417,3 +7417,33 @@
 [2024-04-23 03:42:33] INFO root fetch - processPackages [xeberus-restful-api-server-library]: Remove: archive file [/home/abi/fetcher/tmp/xeberus_restful_api_server_library-1.6.7.tar.gz]
 [2024-04-23 03:42:33] INFO root fetch - main [MainThread]: End processing [xeberus-restful-api-server-library]: success
 [2024-04-23 03:42:33] INFO root fetch - main [MainThread]: Store serial: [22887912]
+[2024-04-23 03:44:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887912]
+[2024-04-23 03:44:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 03:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambkid
+[2024-04-23 03:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-aggrid
+[2024-04-23 03:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2024-04-23 03:44:42] INFO root fetch - processPackages [lambkid]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 03:44:42] INFO root fetch - processPackages [streamlit-aggrid]: New version: [1.0.4] Old Version: [1.0.3.post2]
+[2024-04-23 03:44:42] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.23.8.55.55]
+[2024-04-23 03:44:42] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/6a/38/f38847da57bd91482716f8004b4d19347ec9f4743ccba412cf7eef888c49/lambkid-0.1.8.tar.gz
+[2024-04-23 03:44:42] INFO root fetch - processPackages [streamlit-aggrid]: Downloading https://files.pythonhosted.org/packages/a7/4c/c714a04ee1c8166d2a0ad85846fba388b7a737049258d2f734e5b3764245/streamlit_aggrid-1.0.3.post2.tar.gz
+[2024-04-23 03:44:42] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c3/59/851f2197b8f55d4857f92c5b1b5ea7a68b5984dac6aba845fbb7eb1c4b64/chatllm-2024.4.23.8.55.55.tar.gz
+[2024-04-23 03:44:42] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/2a/05/3ffb7974db064cbcc79af161bf87417bc66b99e257e16f9f35bc2dfaf41e/lambkid-0.1.9.tar.gz
+[2024-04-23 03:44:42] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-23 03:44:42] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.1.8.tar.gz tmp/lambkid-0.1.9.tar.gz --markdown 20240423/l/lambkid/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 03:44:42] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-23 03:44:42] INFO root fetch - processPackages [streamlit-aggrid]: Downloading https://files.pythonhosted.org/packages/8c/4f/be2287892f3c41b16c80e38eda3967dc95a75e1c6950591f536e35613111/streamlit_aggrid-1.0.4.tar.gz
+[2024-04-23 03:44:42] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-23 03:44:42] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.23.8.55.55.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240423/c/chatllm/2024.4.23.8.55.55-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-23 03:44:43] INFO root fetch - processPackages [streamlit-aggrid]: executing diffoscope
+[2024-04-23 03:44:43] INFO root fetch - processPackages [streamlit-aggrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_aggrid-1.0.3.post2.tar.gz tmp/streamlit_aggrid-1.0.4.tar.gz --markdown 20240423/s/streamlit-aggrid/1.0.3.post2-1.0.4/README.md --exclude *.pyd
+[2024-04-23 03:44:43] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.8.tar.gz]
+[2024-04-23 03:44:43] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.9.tar.gz]
+[2024-04-23 03:44:43] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-23 03:44:44] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.23.8.55.55.tar.gz]
+[2024-04-23 03:44:44] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-23 03:44:44] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-23 03:45:13] INFO root fetch - processPackages [streamlit-aggrid]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_aggrid-1.0.3.post2.tar.gz]
+[2024-04-23 03:45:13] INFO root fetch - processPackages [streamlit-aggrid]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_aggrid-1.0.4.tar.gz]
+[2024-04-23 03:45:13] INFO root fetch - main [MainThread]: End processing [streamlit-aggrid]: success
+[2024-04-23 03:45:13] INFO root fetch - main [MainThread]: Store serial: [22887920]
