@@ -11218,3 +11218,9 @@
 [2024-04-23 07:40:04] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
 [2024-04-23 07:40:04] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
 [2024-04-23 07:40:04] INFO root fetch - main [MainThread]: Store serial: [22889455]
+[2024-04-23 07:42:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889455]
+[2024-04-23 07:42:12] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-23 07:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unimernet
+[2024-04-23 07:42:12] WARNING root fetch - processPackages [unimernet]: Skipping, unable to determine old version
+[2024-04-23 07:42:12] INFO root fetch - main [MainThread]: End processing [unimernet] error
+[2024-04-23 07:42:12] INFO root fetch - main [MainThread]: Store serial: [22889459]
