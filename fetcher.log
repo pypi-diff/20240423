@@ -17708,3 +17708,38 @@
 [2024-04-23 12:14:53] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.97.tar.gz]
 [2024-04-23 12:14:53] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-23 12:14:53] INFO root fetch - main [MainThread]: Store serial: [22892212]
+[2024-04-23 12:16:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892212]
+[2024-04-23 12:17:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 12:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tromero-tailor
+[2024-04-23 12:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybunch
+[2024-04-23 12:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voila-sepal-ui
+[2024-04-23 12:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: druida
+[2024-04-23 12:17:02] INFO root fetch - processPackages [pybunch]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-23 12:17:02] INFO root fetch - processPackages [druida]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 12:17:02] INFO root fetch - processPackages [voila-sepal-ui]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-23 12:17:02] INFO root fetch - processPackages [tromero-tailor]: New version: [0.0.9] Old Version: [0.0.10]
+[2024-04-23 12:17:02] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/2c/3f/4305e2d9f5ec1526836e1beb12297a725f01867aaa9a51899ce2d9f8ce9e/pybunch-1.0.6.tar.gz
+[2024-04-23 12:17:02] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/54/4a/598451ade8bde7f369deba69feb62cde24693585acb81aed1eb62547c114/druida-0.0.8.tar.gz
+[2024-04-23 12:17:02] INFO root fetch - processPackages [voila-sepal-ui]: Downloading https://files.pythonhosted.org/packages/02/1a/6cf8a7aa9a3059d0993cc6b98bdde9259c4e9cc3b011a92c30a2a0be6349/voila-sepal-ui-0.3.0.tar.gz
+[2024-04-23 12:17:02] INFO root fetch - processPackages [tromero-tailor]: Downloading https://files.pythonhosted.org/packages/35/9b/3dbb8486200dd017cc78392cd16cfd5d69b6260a633b8bdfd9a054de1170/tromero_tailor-0.0.10.tar.gz
+[2024-04-23 12:17:03] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/c2/fc/04f7092cb544ce2c35e3be2dd5ff20bee19fcc5ba5378898e0f03e15b8a9/druida-0.0.9.tar.gz
+[2024-04-23 12:17:03] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/9c/a3/8f0816262c6af59e4d1c1b2a0812dc78c9fcc0c02563ceaad95e35e7d287/pybunch-1.0.7.tar.gz
+[2024-04-23 12:17:03] INFO root fetch - processPackages [druida]: executing diffoscope
+[2024-04-23 12:17:03] INFO root fetch - processPackages [druida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/druida-0.0.8.tar.gz tmp/druida-0.0.9.tar.gz --markdown 20240423/d/druida/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 12:17:03] INFO root fetch - processPackages [pybunch]: executing diffoscope
+[2024-04-23 12:17:03] INFO root fetch - processPackages [pybunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybunch-1.0.6.tar.gz tmp/pybunch-1.0.7.tar.gz --markdown 20240423/p/pybunch/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-23 12:17:03] INFO root fetch - processPackages [tromero-tailor]: Downloading https://files.pythonhosted.org/packages/33/6f/7c44bdeb103d43247b3904658b7ebada8ee85b34af2668d399e35b6a438f/tromero_tailor-0.0.9.tar.gz
+[2024-04-23 12:17:03] INFO root fetch - processPackages [tromero-tailor]: executing diffoscope
+[2024-04-23 12:17:03] INFO root fetch - processPackages [tromero-tailor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tromero_tailor-0.0.10.tar.gz tmp/tromero_tailor-0.0.9.tar.gz --markdown 20240423/t/tromero-tailor/0.0.10-0.0.9/README.md --exclude *.pyd
+[2024-04-23 12:17:03] ERROR root fetch - processPackages [voila-sepal-ui]: Unable to fetch info: No such project/version 'voila-sepal-ui' 0.3.1
+[2024-04-23 12:17:03] INFO root fetch - main [MainThread]: End processing [voila-sepal-ui] error
+[2024-04-23 12:17:03] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.6.tar.gz]
+[2024-04-23 12:17:03] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.7.tar.gz]
+[2024-04-23 12:17:03] INFO root fetch - main [MainThread]: End processing [pybunch]: success
+[2024-04-23 12:17:03] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.8.tar.gz]
+[2024-04-23 12:17:03] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.9.tar.gz]
+[2024-04-23 12:17:03] INFO root fetch - main [MainThread]: End processing [druida]: success
+[2024-04-23 12:17:03] INFO root fetch - processPackages [tromero-tailor]: Remove: archive file [/home/abi/fetcher/tmp/tromero_tailor-0.0.10.tar.gz]
+[2024-04-23 12:17:03] INFO root fetch - processPackages [tromero-tailor]: Remove: archive file [/home/abi/fetcher/tmp/tromero_tailor-0.0.9.tar.gz]
+[2024-04-23 12:17:03] INFO root fetch - main [MainThread]: End processing [tromero-tailor]: success
+[2024-04-23 12:17:03] INFO root fetch - main [MainThread]: Store serial: [22892223]
