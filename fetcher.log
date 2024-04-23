@@ -22366,3 +22366,110 @@ EOFError: EOF read where object expected
 [2024-04-23 15:02:26] INFO root fetch - processPackages [netius]: Remove: archive file [/home/abi/fetcher/tmp/netius-1.9.9.tar.gz]
 [2024-04-23 15:02:26] INFO root fetch - main [MainThread]: End processing [netius]: success
 [2024-04-23 15:02:26] INFO root fetch - main [MainThread]: Store serial: [22894213]
+[2024-04-23 15:04:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894213]
+[2024-04-23 15:04:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-23 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: algokit-utils
+[2024-04-23 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sunholo
+[2024-04-23 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsml-eval
+[2024-04-23 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uitk
+[2024-04-23 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogaita
+[2024-04-23 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-google-spanner
+[2024-04-23 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-energy-communities-api
+[2024-04-23 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pudu
+[2024-04-23 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jack-connection-manager
+[2024-04-23 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zou
+[2024-04-23 15:04:34] INFO root fetch - processPackages [algokit-utils]: New version: [2.2.2b4] Old Version: [2.2.2b3]
+[2024-04-23 15:04:34] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-23 15:04:35] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/f0/a7/42b48df70544182c8ba4f14dfb0deb9f9c512f5a18ae16e8a489524ea36a/algokit_utils-2.2.2b3-py3-none-any.whl
+[2024-04-23 15:04:35] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: New version: [14.0.1.0.3] Old Version: [14.0.1.0.2]
+[2024-04-23 15:04:35] INFO root fetch - processPackages [pudu]: New version: [0.3.4] Old Version: [0.3.2]
+[2024-04-23 15:04:35] INFO root fetch - processPackages [autogaita]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-23 15:04:35] INFO root fetch - processPackages [tsml-eval]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-23 15:04:35] INFO root fetch - processPackages [django-google-spanner]: New version: [3.1.0] Old Version: [3.0.2]
+[2024-04-23 15:04:35] INFO root fetch - processPackages [jack-connection-manager]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-23 15:04:35] INFO root fetch - processPackages [uitk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 15:04:35] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 15:04:35] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-23 15:04:35] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: Downloading https://files.pythonhosted.org/packages/1e/24/4d1560aef2992dc1977c7f61e6d1f2a041ff737b251734b5bc6cb54367f5/odoo14_addon_energy_communities_api-14.0.1.0.2-py3-none-any.whl
+[2024-04-23 15:04:35] INFO root fetch - processPackages [autogaita]: Downloading https://files.pythonhosted.org/packages/5f/fc/b6d1a003535c0235487037728729495f6b14799f71a59162d48a53f1e958/autogaita-0.0.5.tar.gz
+[2024-04-23 15:04:35] INFO root fetch - processPackages [tsml-eval]: Downloading https://files.pythonhosted.org/packages/5c/48/98964104892657fcededb85b6bb7205867235c2fba0fc1436363a3350b12/tsml-eval-0.2.0.tar.gz
+[2024-04-23 15:04:35] INFO root fetch - processPackages [django-google-spanner]: Downloading https://files.pythonhosted.org/packages/fb/68/d805e179e3bb0f733d1882aff9cc8f9849e94e215ac2482a0cf82a70ee19/django-google-spanner-3.0.2.tar.gz
+[2024-04-23 15:04:35] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/2e/b7/e403f03839ce2a4f9347cec31817bfa791deaff38a1eafe14373abe1403b/algokit_utils-2.2.2b4-py3-none-any.whl
+[2024-04-23 15:04:35] INFO root fetch - processPackages [jack-connection-manager]: Downloading https://files.pythonhosted.org/packages/2c/6c/73a2cf89eeba4ea4e71f27bc486c55152debf56c368ed69591e0f3225805/jack_connection_manager-0.0.7.tar.gz
+[2024-04-23 15:04:35] INFO root fetch - processPackages [pudu]: Downloading https://files.pythonhosted.org/packages/9b/f9/257938e740b14ddc1e5b6c01ad6f85c64340843bdd6d585094079207cb1f/pudu-0.3.2.tar.gz
+[2024-04-23 15:04:35] INFO root fetch - processPackages [uitk]: Downloading https://files.pythonhosted.org/packages/7f/ca/62fe79abd098b096a78bd491d2cc1a508d7e3a87e55b8651ab4dae98b11f/uitk-1.0.8.tar.gz
+[2024-04-23 15:04:35] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/3d/26/8a5c822e737ac50a4f66516c5b80f6cb5a2ce0b5258e3c904aa5abae876c/zou-0.9.8-py2.py3-none-any.whl
+[2024-04-23 15:04:35] WARNING root fetch - processPackages [tsml-eval]: Skipping package: exceeds size limit 31747336>=10485760
+[2024-04-23 15:04:35] INFO root fetch - processPackages [tsml-eval]: Start processing: matter-observability
+[2024-04-23 15:04:35] INFO root fetch - main [MainThread]: End processing [tsml-eval] error
+[2024-04-23 15:04:35] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2024-04-23 15:04:35] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-2.2.2b3-py3-none-any.whl.zip tmp/algokit_utils-2.2.2b4-py3-none-any.whl.zip --markdown 20240423/a/algokit-utils/2.2.2b3-2.2.2b4/README.md --exclude *.pyd
+[2024-04-23 15:04:35] INFO root fetch - processPackages [matter-observability]: New version: [2.0.0] Old Version: [1.6.0]
+[2024-04-23 15:04:35] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-23 15:04:35] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: Downloading https://files.pythonhosted.org/packages/e6/15/5305888efb2868907bdc85e915405097756100121da0a6fa0dfd00393d0f/odoo14_addon_energy_communities_api-14.0.1.0.3-py3-none-any.whl
+[2024-04-23 15:04:35] INFO root fetch - processPackages [django-google-spanner]: Downloading https://files.pythonhosted.org/packages/37/06/ec5bc3dc3c437cc72d1de4d4335600c3b06c5fdd702f8db9a67f278a3191/django-google-spanner-3.1.0.tar.gz
+[2024-04-23 15:04:35] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-23 15:04:35] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240423/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-23 15:04:35] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: executing diffoscope
+[2024-04-23 15:04:35] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_energy_communities_api-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_energy_communities_api-14.0.1.0.3-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-energy-communities-api/14.0.1.0.2-14.0.1.0.3/README.md --exclude *.pyd
+[2024-04-23 15:04:35] INFO root fetch - processPackages [pudu]: Downloading https://files.pythonhosted.org/packages/ee/0a/3eaf9b31891b7599b90f8b00369746b357373cc68d92af3a221e843c776e/pudu-0.3.4.tar.gz
+[2024-04-23 15:04:35] INFO root fetch - processPackages [jack-connection-manager]: Downloading https://files.pythonhosted.org/packages/8f/d9/05b367829b2e24fb516ecbf0aaa27d8f34244546ec5f5ac2dd9aa0de6756/jack_connection_manager-0.0.8.tar.gz
+[2024-04-23 15:04:35] INFO root fetch - processPackages [autogaita]: Downloading https://files.pythonhosted.org/packages/79/a5/052414d50af8e2bbd5647c8f21b1a879831578e74fc7563f9675aea19c81/autogaita-0.0.6.tar.gz
+[2024-04-23 15:04:35] INFO root fetch - processPackages [matter-observability]: Downloading https://files.pythonhosted.org/packages/de/cf/31ec2eeb793f47b82f9035b9592262833b299093bd1503ffa56119581f47/matter_observability-1.6.0-py3-none-any.whl
+[2024-04-23 15:04:35] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/b4/cb/e536d9ca1d2e8c1820b5431cb69768c10b0f438a73bf846d3e2d008f896a/zou-0.9.9-py2.py3-none-any.whl
+[2024-04-23 15:04:35] INFO root fetch - processPackages [django-google-spanner]: executing diffoscope
+[2024-04-23 15:04:35] INFO root fetch - processPackages [django-google-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-google-spanner-3.0.2.tar.gz tmp/django-google-spanner-3.1.0.tar.gz --markdown 20240423/d/django-google-spanner/3.0.2-3.1.0/README.md --exclude *.pyd
+[2024-04-23 15:04:35] INFO root fetch - processPackages [uitk]: Downloading https://files.pythonhosted.org/packages/9a/a7/1efa47940c1498f4f9463ab8150b858ed5ebdda43162c108093c628fb864/uitk-1.0.9.tar.gz
+[2024-04-23 15:04:36] INFO root fetch - processPackages [pudu]: executing diffoscope
+[2024-04-23 15:04:36] INFO root fetch - processPackages [pudu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pudu-0.3.2.tar.gz tmp/pudu-0.3.4.tar.gz --markdown 20240423/p/pudu/0.3.2-0.3.4/README.md --exclude *.pyd
+[2024-04-23 15:04:36] INFO root fetch - processPackages [jack-connection-manager]: executing diffoscope
+[2024-04-23 15:04:36] INFO root fetch - processPackages [jack-connection-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jack_connection_manager-0.0.7.tar.gz tmp/jack_connection_manager-0.0.8.tar.gz --markdown 20240423/j/jack-connection-manager/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-23 15:04:36] INFO root fetch - processPackages [zou]: executing diffoscope
+[2024-04-23 15:04:36] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20240423/z/zou/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-23 15:04:36] INFO root fetch - processPackages [autogaita]: executing diffoscope
+[2024-04-23 15:04:36] INFO root fetch - processPackages [autogaita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogaita-0.0.5.tar.gz tmp/autogaita-0.0.6.tar.gz --markdown 20240423/a/autogaita/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-23 15:04:36] INFO root fetch - processPackages [uitk]: executing diffoscope
+[2024-04-23 15:04:36] INFO root fetch - processPackages [uitk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uitk-1.0.8.tar.gz tmp/uitk-1.0.9.tar.gz --markdown 20240423/u/uitk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 15:04:36] INFO root fetch - processPackages [matter-observability]: Downloading https://files.pythonhosted.org/packages/5f/3e/0bf06765fbd39c52d61dfdcde4aaaea5b578c11d8cec53b93b78367d4f39/matter_observability-2.0.0-py3-none-any.whl
+[2024-04-23 15:04:36] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.2.2b3-py3-none-any.whl.zip]
+[2024-04-23 15:04:36] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.2.2b4-py3-none-any.whl.zip]
+[2024-04-23 15:04:36] INFO root fetch - processPackages [algokit-utils]: Start processing: rats-apps
+[2024-04-23 15:04:36] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2024-04-23 15:04:36] INFO root fetch - processPackages [matter-observability]: executing diffoscope
+[2024-04-23 15:04:36] INFO root fetch - processPackages [matter-observability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matter_observability-1.6.0-py3-none-any.whl.zip tmp/matter_observability-2.0.0-py3-none-any.whl.zip --markdown 20240423/m/matter-observability/1.6.0-2.0.0/README.md --exclude *.pyd
+[2024-04-23 15:04:36] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 15:04:36] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 15:04:36] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_communities_api-14.0.1.0.2-py3-none-any.whl.zip]
+[2024-04-23 15:04:36] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_communities_api-14.0.1.0.3-py3-none-any.whl.zip]
+[2024-04-23 15:04:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities-api]: success
+[2024-04-23 15:04:36] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 15:04:36] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-23 15:04:36] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 15:04:37] INFO root fetch - processPackages [django-google-spanner]: Remove: archive file [/home/abi/fetcher/tmp/django-google-spanner-3.0.2.tar.gz]
+[2024-04-23 15:04:37] INFO root fetch - processPackages [django-google-spanner]: Remove: archive file [/home/abi/fetcher/tmp/django-google-spanner-3.1.0.tar.gz]
+[2024-04-23 15:04:37] INFO root fetch - main [MainThread]: End processing [django-google-spanner]: success
+[2024-04-23 15:04:37] INFO root fetch - processPackages [jack-connection-manager]: Remove: archive file [/home/abi/fetcher/tmp/jack_connection_manager-0.0.7.tar.gz]
+[2024-04-23 15:04:37] INFO root fetch - processPackages [jack-connection-manager]: Remove: archive file [/home/abi/fetcher/tmp/jack_connection_manager-0.0.8.tar.gz]
+[2024-04-23 15:04:37] INFO root fetch - main [MainThread]: End processing [jack-connection-manager]: success
+[2024-04-23 15:04:37] INFO root fetch - processPackages [pudu]: Remove: archive file [/home/abi/fetcher/tmp/pudu-0.3.2.tar.gz]
+[2024-04-23 15:04:37] INFO root fetch - processPackages [pudu]: Remove: archive file [/home/abi/fetcher/tmp/pudu-0.3.4.tar.gz]
+[2024-04-23 15:04:37] INFO root fetch - main [MainThread]: End processing [pudu]: success
+[2024-04-23 15:04:37] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-23 15:04:37] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-23 15:04:37] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-23 15:04:37] INFO root fetch - processPackages [uitk]: Remove: archive file [/home/abi/fetcher/tmp/uitk-1.0.8.tar.gz]
+[2024-04-23 15:04:37] INFO root fetch - processPackages [uitk]: Remove: archive file [/home/abi/fetcher/tmp/uitk-1.0.9.tar.gz]
+[2024-04-23 15:04:37] INFO root fetch - main [MainThread]: End processing [uitk]: success
+[2024-04-23 15:04:37] INFO root fetch - processPackages [matter-observability]: Remove: archive file [/home/abi/fetcher/tmp/matter_observability-1.6.0-py3-none-any.whl.zip]
+[2024-04-23 15:04:37] INFO root fetch - processPackages [matter-observability]: Remove: archive file [/home/abi/fetcher/tmp/matter_observability-2.0.0-py3-none-any.whl.zip]
+[2024-04-23 15:04:37] INFO root fetch - main [MainThread]: End processing [matter-observability]: success
+[2024-04-23 15:04:37] INFO root fetch - processPackages [autogaita]: Remove: archive file [/home/abi/fetcher/tmp/autogaita-0.0.5.tar.gz]
+[2024-04-23 15:04:37] INFO root fetch - processPackages [autogaita]: Remove: archive file [/home/abi/fetcher/tmp/autogaita-0.0.6.tar.gz]
+[2024-04-23 15:04:37] INFO root fetch - main [MainThread]: End processing [autogaita]: success
+[2024-04-23 15:04:37] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.8-py2.py3-none-any.whl.zip]
+[2024-04-23 15:04:37] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
+[2024-04-23 15:04:37] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2024-04-23 15:04:37] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 15:04:37] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 15:04:37] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-23 15:04:37] INFO root fetch - main [MainThread]: Store serial: [22894245]
