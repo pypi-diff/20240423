@@ -14843,3 +14843,30 @@
 [2024-04-23 10:34:40] INFO root fetch - processPackages [maxframe]: Remove: archive file [/home/abi/fetcher/tmp/maxframe-0.1.0b4.tar.gz]
 [2024-04-23 10:34:40] INFO root fetch - main [MainThread]: End processing [maxframe]: success
 [2024-04-23 10:34:40] INFO root fetch - main [MainThread]: Store serial: [22891019]
+[2024-04-23 10:36:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891019]
+[2024-04-23 10:36:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 10:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Geode-Simplex
+[2024-04-23 10:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-lebelo
+[2024-04-23 10:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: viewser
+[2024-04-23 10:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Flask-PikaRMQ
+[2024-04-23 10:36:49] WARNING root fetch - processPackages [django-lebelo]: Skipping, unable to determine old version
+[2024-04-23 10:36:49] INFO root fetch - main [MainThread]: End processing [django-lebelo] error
+[2024-04-23 10:36:49] INFO root fetch - processPackages [viewser]: New version: [6.4.0] Old Version: [6.3.2]
+[2024-04-23 10:36:49] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.7.4rc1] Old Version: [6.7.3rc1]
+[2024-04-23 10:36:49] WARNING root fetch - processPackages [Flask-PikaRMQ]: Skipping, unable to determine old version
+[2024-04-23 10:36:49] INFO root fetch - main [MainThread]: End processing [Flask-PikaRMQ] error
+[2024-04-23 10:36:49] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/ca/2f/aa45f3d8763e22073d3fe5256294b98db167f78d20a81734d401709a6422/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl
+[2024-04-23 10:36:49] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/02/81/fd2ee16f7e56571c2f8255084399919ceb123a08ba6fda668d15d425da89/viewser-6.3.2.tar.gz
+[2024-04-23 10:36:50] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/76/89/d02fe4f3109e1e1d4450700ef65cf9086595441defb83168d02c26a5c206/viewser-6.4.0.tar.gz
+[2024-04-23 10:36:50] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/d8/08/7b5aadae0f6923dfb08f8f55976149fadc364462faf75e435fe4dc1ce11c/Geode_Simplex-6.7.4rc1-cp39-cp39-win_amd64.whl
+[2024-04-23 10:36:50] INFO root fetch - processPackages [viewser]: executing diffoscope
+[2024-04-23 10:36:50] INFO root fetch - processPackages [viewser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viewser-6.3.2.tar.gz tmp/viewser-6.4.0.tar.gz --markdown 20240423/v/viewser/6.3.2-6.4.0/README.md --exclude *.pyd
+[2024-04-23 10:36:51] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.3.2.tar.gz]
+[2024-04-23 10:36:51] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.4.0.tar.gz]
+[2024-04-23 10:36:51] INFO root fetch - main [MainThread]: End processing [viewser]: success
+[2024-04-23 10:36:53] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-04-23 10:36:53] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.7.4rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240423/G/Geode-Simplex/6.7.3rc1-6.7.4rc1/README.md --exclude *.pyd
+[2024-04-23 10:37:20] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 10:37:20] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 10:37:20] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-04-23 10:37:20] INFO root fetch - main [MainThread]: Store serial: [22891047]
