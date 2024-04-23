@@ -18931,3 +18931,60 @@
 [2024-04-23 13:05:15] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.0.0.tar.gz]
 [2024-04-23 13:05:15] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2024-04-23 13:05:15] INFO root fetch - main [MainThread]: Store serial: [22892742]
+[2024-04-23 13:07:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892742]
+[2024-04-23 13:07:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 13:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: motion-lake-client
+[2024-04-23 13:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NeuronsMemoryTestPipeline
+[2024-04-23 13:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorneko
+[2024-04-23 13:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-ezglossary-plugin
+[2024-04-23 13:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tromero-tailor
+[2024-04-23 13:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorneko-util
+[2024-04-23 13:07:24] INFO root fetch - processPackages [tensorneko]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 13:07:24] INFO root fetch - processPackages [tensorneko-util]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 13:07:24] INFO root fetch - processPackages [tromero-tailor]: New version: [0.0.9] Old Version: [0.0.10]
+[2024-04-23 13:07:24] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-23 13:07:24] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/05/a1/337b7f3145cc0e8d6e495d974fd66dbef2b9998d03157de226fe5f78a6b4/tensorneko-0.3.8.tar.gz
+[2024-04-23 13:07:24] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 13:07:24] INFO root fetch - processPackages [motion-lake-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 13:07:24] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/6c/30/d301927021a6b908e481c4096c9bd4b6f354dc4f7b5ac834126fef61cc37/tensorneko_util-0.3.8.tar.gz
+[2024-04-23 13:07:24] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: Downloading https://files.pythonhosted.org/packages/09/45/60b0a91158511a289230d968d73d287273bf70d6740b2340d40e81747cd6/mkdocs_ezglossary_plugin-1.6.2.tar.gz
+[2024-04-23 13:07:24] INFO root fetch - processPackages [tromero-tailor]: Downloading https://files.pythonhosted.org/packages/35/9b/3dbb8486200dd017cc78392cd16cfd5d69b6260a633b8bdfd9a054de1170/tromero_tailor-0.0.10.tar.gz
+[2024-04-23 13:07:24] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: Downloading https://files.pythonhosted.org/packages/79/6e/a7cb9c6df418fa4cdd0acdb026dd6d522ac052e5980eaea03b0c97af7975/neuronsmemorytestpipeline-0.0.8.tar.gz
+[2024-04-23 13:07:24] INFO root fetch - processPackages [motion-lake-client]: Downloading https://files.pythonhosted.org/packages/4d/d9/24c2c9e9c6ac71ddb981bd6a39d81ae61575802aa856369f916a5af31ae4/motion_lake_client-0.0.8.tar.gz
+[2024-04-23 13:07:25] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/2f/15/74760826105ec8ad24dee75a9910cff8a2bf12fe3ba737a19330c158b2d5/tensorneko-0.3.9.tar.gz
+[2024-04-23 13:07:25] INFO root fetch - processPackages [tromero-tailor]: Downloading https://files.pythonhosted.org/packages/33/6f/7c44bdeb103d43247b3904658b7ebada8ee85b34af2668d399e35b6a438f/tromero_tailor-0.0.9.tar.gz
+[2024-04-23 13:07:25] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/44/6e/a3d6aaf90349d556781694cb9e147d2267e187f267835e0bfdb74a3c5d6d/tensorneko_util-0.3.9.tar.gz
+[2024-04-23 13:07:25] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: Downloading https://files.pythonhosted.org/packages/c0/fb/d22fa62e441ea8a944c0583ae245bd5a72bcb589f0fbf80ae67ba85ab92a/mkdocs_ezglossary_plugin-1.6.3.tar.gz
+[2024-04-23 13:07:25] INFO root fetch - processPackages [tensorneko]: executing diffoscope
+[2024-04-23 13:07:25] INFO root fetch - processPackages [tensorneko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko-0.3.8.tar.gz tmp/tensorneko-0.3.9.tar.gz --markdown 20240423/t/tensorneko/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 13:07:25] INFO root fetch - processPackages [tromero-tailor]: executing diffoscope
+[2024-04-23 13:07:25] INFO root fetch - processPackages [tromero-tailor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tromero_tailor-0.0.10.tar.gz tmp/tromero_tailor-0.0.9.tar.gz --markdown 20240423/t/tromero-tailor/0.0.10-0.0.9/README.md --exclude *.pyd
+[2024-04-23 13:07:25] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: executing diffoscope
+[2024-04-23 13:07:25] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_ezglossary_plugin-1.6.2.tar.gz tmp/mkdocs_ezglossary_plugin-1.6.3.tar.gz --markdown 20240423/m/mkdocs-ezglossary-plugin/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-04-23 13:07:25] INFO root fetch - processPackages [tensorneko-util]: executing diffoscope
+[2024-04-23 13:07:25] INFO root fetch - processPackages [tensorneko-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko_util-0.3.8.tar.gz tmp/tensorneko_util-0.3.9.tar.gz --markdown 20240423/t/tensorneko-util/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 13:07:25] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: Downloading https://files.pythonhosted.org/packages/da/15/e2eefdda710a0f82a38a2718829ce979068150b82894381c432f178bad34/neuronsmemorytestpipeline-0.0.9.tar.gz
+[2024-04-23 13:07:25] INFO root fetch - processPackages [motion-lake-client]: Downloading https://files.pythonhosted.org/packages/db/37/c3938b8bdd7cffe1294234cdb0761a2196953f294fd94d87ee4f308a8272/motion_lake_client-0.0.9.tar.gz
+[2024-04-23 13:07:25] INFO root fetch - processPackages [motion-lake-client]: executing diffoscope
+[2024-04-23 13:07:25] INFO root fetch - processPackages [motion-lake-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_lake_client-0.0.8.tar.gz tmp/motion_lake_client-0.0.9.tar.gz --markdown 20240423/m/motion-lake-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 13:07:25] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: executing diffoscope
+[2024-04-23 13:07:25] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuronsmemorytestpipeline-0.0.8.tar.gz tmp/neuronsmemorytestpipeline-0.0.9.tar.gz --markdown 20240423/N/NeuronsMemoryTestPipeline/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 13:07:26] INFO root fetch - processPackages [motion-lake-client]: Remove: archive file [/home/abi/fetcher/tmp/motion_lake_client-0.0.8.tar.gz]
+[2024-04-23 13:07:26] INFO root fetch - processPackages [motion-lake-client]: Remove: archive file [/home/abi/fetcher/tmp/motion_lake_client-0.0.9.tar.gz]
+[2024-04-23 13:07:26] INFO root fetch - main [MainThread]: End processing [motion-lake-client]: success
+[2024-04-23 13:07:26] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: Remove: archive file [/home/abi/fetcher/tmp/neuronsmemorytestpipeline-0.0.8.tar.gz]
+[2024-04-23 13:07:26] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: Remove: archive file [/home/abi/fetcher/tmp/neuronsmemorytestpipeline-0.0.9.tar.gz]
+[2024-04-23 13:07:26] INFO root fetch - main [MainThread]: End processing [NeuronsMemoryTestPipeline]: success
+[2024-04-23 13:07:26] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ezglossary_plugin-1.6.2.tar.gz]
+[2024-04-23 13:07:26] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ezglossary_plugin-1.6.3.tar.gz]
+[2024-04-23 13:07:26] INFO root fetch - processPackages [tromero-tailor]: Remove: archive file [/home/abi/fetcher/tmp/tromero_tailor-0.0.10.tar.gz]
+[2024-04-23 13:07:26] INFO root fetch - main [MainThread]: End processing [mkdocs-ezglossary-plugin]: success
+[2024-04-23 13:07:26] INFO root fetch - processPackages [tromero-tailor]: Remove: archive file [/home/abi/fetcher/tmp/tromero_tailor-0.0.9.tar.gz]
+[2024-04-23 13:07:26] INFO root fetch - main [MainThread]: End processing [tromero-tailor]: success
+[2024-04-23 13:07:26] INFO root fetch - processPackages [tensorneko]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko-0.3.8.tar.gz]
+[2024-04-23 13:07:26] INFO root fetch - processPackages [tensorneko]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko-0.3.9.tar.gz]
+[2024-04-23 13:07:26] INFO root fetch - main [MainThread]: End processing [tensorneko]: success
+[2024-04-23 13:07:34] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.8.tar.gz]
+[2024-04-23 13:07:34] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.9.tar.gz]
+[2024-04-23 13:07:34] INFO root fetch - main [MainThread]: End processing [tensorneko-util]: success
+[2024-04-23 13:07:34] INFO root fetch - main [MainThread]: Store serial: [22892764]
