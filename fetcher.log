@@ -15960,3 +15960,60 @@
 [2024-04-23 11:11:11] INFO root fetch - processPackages [WebAppDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/webappdirac-6.0.0a7.tar.gz]
 [2024-04-23 11:11:11] INFO root fetch - main [MainThread]: End processing [WebAppDIRAC]: success
 [2024-04-23 11:11:11] INFO root fetch - main [MainThread]: Store serial: [22891532]
+[2024-04-23 11:13:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891532]
+[2024-04-23 11:13:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zetamarkets_py
+[2024-04-23 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqqq
+[2024-04-23 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DXR-BJ
+[2024-04-23 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dimples
+[2024-04-23 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prominence-delineator
+[2024-04-23 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secretvalidator
+[2024-04-23 11:13:20] INFO root fetch - processPackages [prominence-delineator]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-23 11:13:20] INFO root fetch - processPackages [DXR-BJ]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-23 11:13:20] INFO root fetch - processPackages [secretvalidator]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 11:13:20] INFO root fetch - processPackages [zetamarkets_py]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-04-23 11:13:20] INFO root fetch - processPackages [prominence-delineator]: Downloading https://files.pythonhosted.org/packages/4e/21/8692af27cd20b0354c2d30f7b091de2b00a893045eb3269cc0f9f29b5f1a/prominence_delineator-0.0.4.tar.gz
+[2024-04-23 11:13:20] INFO root fetch - processPackages [DXR-BJ]: Downloading https://files.pythonhosted.org/packages/29/c1/882079f3977ae960dcdd15cbe2477e5cea3b91fba1d610a955446230aa71/DXR_BJ-1.0.3.tar.gz
+[2024-04-23 11:13:20] INFO root fetch - processPackages [pyqqq]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-04-23 11:13:20] INFO root fetch - processPackages [dimples]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-04-23 11:13:20] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/c1/0c/7d243a551f3f325c65b4e9abf41e6af739f60deb881c244ad6cc3b82038b/secretvalidator-0.1.8.tar.gz
+[2024-04-23 11:13:20] INFO root fetch - processPackages [zetamarkets_py]: Downloading https://files.pythonhosted.org/packages/cd/af/f7f964f2260bfe51acc8dac83276d41a8222a44d8408ea92789cb6e54cdb/zetamarkets_py-0.2.7.tar.gz
+[2024-04-23 11:13:20] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/d8/c0/5f61dd37fdc8d601b65a7da37bf78beaf8df967a412606c73ed49584fdea/dimples-0.5.3.tar.gz
+[2024-04-23 11:13:20] INFO root fetch - processPackages [prominence-delineator]: Downloading https://files.pythonhosted.org/packages/53/c7/123e58075c8197883b55b745d10cbc4c84cdf7b21e27ab3aaf947c0b6c77/prominence_delineator-0.0.5.tar.gz
+[2024-04-23 11:13:20] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/42/c5/6f0b4ec53ceb4d9df7facf377b469ebbfb82a30d9ac145580a85de8478ce/pyqqq-0.8.5.tar.gz
+[2024-04-23 11:13:20] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/46/26/23b3d02792f2d2eb00039a38f72a84b876b2802557f72d8618e43a8b145d/secretvalidator-0.1.9.tar.gz
+[2024-04-23 11:13:20] INFO root fetch - processPackages [zetamarkets_py]: Downloading https://files.pythonhosted.org/packages/b2/a0/077585838f672a1d19c11fddd9265f944635323847353a76dcbc0bc8f2ed/zetamarkets_py-0.2.9.tar.gz
+[2024-04-23 11:13:21] INFO root fetch - processPackages [prominence-delineator]: executing diffoscope
+[2024-04-23 11:13:21] INFO root fetch - processPackages [prominence-delineator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prominence_delineator-0.0.4.tar.gz tmp/prominence_delineator-0.0.5.tar.gz --markdown 20240423/p/prominence-delineator/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-23 11:13:21] INFO root fetch - processPackages [secretvalidator]: executing diffoscope
+[2024-04-23 11:13:21] INFO root fetch - processPackages [secretvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidator-0.1.8.tar.gz tmp/secretvalidator-0.1.9.tar.gz --markdown 20240423/s/secretvalidator/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 11:13:21] INFO root fetch - processPackages [zetamarkets_py]: executing diffoscope
+[2024-04-23 11:13:21] INFO root fetch - processPackages [zetamarkets_py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetamarkets_py-0.2.7.tar.gz tmp/zetamarkets_py-0.2.9.tar.gz --markdown 20240423/z/zetamarkets_py/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-04-23 11:13:21] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/cc/0c/6937553f31e7a20a7397c9e7e241d610870700016a8b441e6c3089b916fe/dimples-0.5.5.tar.gz
+[2024-04-23 11:13:21] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/41/f5/df96b3d2c35838e98beac3317c2323215dee6664efaf4582ee270df7154f/pyqqq-0.8.6.tar.gz
+[2024-04-23 11:13:21] INFO root fetch - processPackages [DXR-BJ]: Downloading https://files.pythonhosted.org/packages/bd/ce/7363bcda65c164c56789c047a08cbfd170c601e9fa8f0f63c6150717d736/DXR_BJ-1.0.4.tar.gz
+[2024-04-23 11:13:21] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-23 11:13:21] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.8.5.tar.gz tmp/pyqqq-0.8.6.tar.gz --markdown 20240423/p/pyqqq/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-04-23 11:13:21] INFO root fetch - processPackages [dimples]: executing diffoscope
+[2024-04-23 11:13:21] INFO root fetch - processPackages [dimples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimples-0.5.3.tar.gz tmp/dimples-0.5.5.tar.gz --markdown 20240423/d/dimples/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-04-23 11:13:21] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.8.tar.gz]
+[2024-04-23 11:13:21] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.9.tar.gz]
+[2024-04-23 11:13:21] INFO root fetch - main [MainThread]: End processing [secretvalidator]: success
+[2024-04-23 11:13:21] INFO root fetch - processPackages [prominence-delineator]: Remove: archive file [/home/abi/fetcher/tmp/prominence_delineator-0.0.4.tar.gz]
+[2024-04-23 11:13:21] INFO root fetch - processPackages [prominence-delineator]: Remove: archive file [/home/abi/fetcher/tmp/prominence_delineator-0.0.5.tar.gz]
+[2024-04-23 11:13:21] INFO root fetch - main [MainThread]: End processing [prominence-delineator]: success
+[2024-04-23 11:13:22] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.8.5.tar.gz]
+[2024-04-23 11:13:22] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.8.6.tar.gz]
+[2024-04-23 11:13:22] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-23 11:13:22] INFO root fetch - processPackages [DXR-BJ]: executing diffoscope
+[2024-04-23 11:13:22] INFO root fetch - processPackages [DXR-BJ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR_BJ-1.0.3.tar.gz tmp/DXR_BJ-1.0.4.tar.gz --markdown 20240423/D/DXR-BJ/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-23 11:13:22] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.5.3.tar.gz]
+[2024-04-23 11:13:22] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.5.5.tar.gz]
+[2024-04-23 11:13:22] INFO root fetch - main [MainThread]: End processing [dimples]: success
+[2024-04-23 11:13:23] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-1.0.3.tar.gz]
+[2024-04-23 11:13:23] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-1.0.4.tar.gz]
+[2024-04-23 11:13:23] INFO root fetch - main [MainThread]: End processing [DXR-BJ]: success
+[2024-04-23 11:13:26] INFO root fetch - processPackages [zetamarkets_py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.7.tar.gz]
+[2024-04-23 11:13:26] INFO root fetch - processPackages [zetamarkets_py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
+[2024-04-23 11:13:26] INFO root fetch - main [MainThread]: End processing [zetamarkets_py]: success
+[2024-04-23 11:13:26] INFO root fetch - main [MainThread]: Store serial: [22891554]
