@@ -8928,3 +8928,47 @@
 [2024-04-23 05:12:44] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-dns-8.0.1.tar.gz]
 [2024-04-23 05:12:44] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-dns]: success
 [2024-04-23 05:12:44] INFO root fetch - main [MainThread]: Store serial: [22888452]
+[2024-04-23 05:14:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888452]
+[2024-04-23 05:14:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 05:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-newrelic
+[2024-04-23 05:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: artd-shopify
+[2024-04-23 05:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypreql-nlp
+[2024-04-23 05:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-cloudinit
+[2024-04-23 05:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medor
+[2024-04-23 05:14:53] INFO root fetch - processPackages [pypreql-nlp]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 05:14:53] INFO root fetch - processPackages [pypreql-nlp]: Downloading https://files.pythonhosted.org/packages/59/c6/a8a53247e6f49aa856d7321d493f36d7c0b06634db06f2687d6d3a2a6c78/pypreql-nlp-0.0.8.tar.gz
+[2024-04-23 05:14:53] INFO root fetch - processPackages [artd-shopify]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-23 05:14:53] INFO root fetch - processPackages [medor]: New version: [0.0.1b8] Old Version: [0.0.1b7]
+[2024-04-23 05:14:53] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudinit]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-04-23 05:14:53] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-23 05:14:53] INFO root fetch - processPackages [artd-shopify]: Downloading https://files.pythonhosted.org/packages/60/9a/067f9701b2f5351321aeaf7536934300f36e8b27980b308ead881ce5e665/artd-shopify-1.1.3.tar.gz
+[2024-04-23 05:14:53] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudinit]: Downloading https://files.pythonhosted.org/packages/73/4f/1b8a5bcb7031ea8b0fb2a4450f0f1686a5a7d633006a1ec62f5f92118269/cdktf-cdktf-provider-cloudinit-9.0.0.tar.gz
+[2024-04-23 05:14:53] INFO root fetch - processPackages [medor]: Downloading https://files.pythonhosted.org/packages/a2/f7/1ed145becfb77efdb178d956a27e0a04b5687650375a639052da3a8e3c79/medor-0.0.1b7.tar.gz
+[2024-04-23 05:14:53] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/55/6c/13147eb9dc112527bf0b1655b4fe6d422b316473a9b1bba53a578fefe783/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz
+[2024-04-23 05:14:53] INFO root fetch - processPackages [pypreql-nlp]: Downloading https://files.pythonhosted.org/packages/75/31/b75d3a74248ae21827dccb016fe9addad4a1807980784b2d8e6bfebf0f78/pypreql-nlp-0.0.9.tar.gz
+[2024-04-23 05:14:53] INFO root fetch - processPackages [pypreql-nlp]: executing diffoscope
+[2024-04-23 05:14:53] INFO root fetch - processPackages [pypreql-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypreql-nlp-0.0.8.tar.gz tmp/pypreql-nlp-0.0.9.tar.gz --markdown 20240423/p/pypreql-nlp/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 05:14:54] INFO root fetch - processPackages [artd-shopify]: Downloading https://files.pythonhosted.org/packages/87/c8/8bae6f52e46b394d4a6b71a3aed2dc005a7d59ba8908d0d2304ab77effb7/artd-shopify-1.1.4.tar.gz
+[2024-04-23 05:14:54] WARNING root fetch - processPackages [medor]: Skipping package: exceeds size limit 16016533>=10485760
+[2024-04-23 05:14:54] INFO root fetch - main [MainThread]: End processing [medor] error
+[2024-04-23 05:14:54] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudinit]: Downloading https://files.pythonhosted.org/packages/81/33/7757c66c4faeb5f2d061096eebda39717ec993c634f3a6012872fc60c588/cdktf-cdktf-provider-cloudinit-9.0.1.tar.gz
+[2024-04-23 05:14:54] INFO root fetch - processPackages [artd-shopify]: executing diffoscope
+[2024-04-23 05:14:54] INFO root fetch - processPackages [artd-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd-shopify-1.1.3.tar.gz tmp/artd-shopify-1.1.4.tar.gz --markdown 20240423/a/artd-shopify/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-23 05:14:54] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudinit]: executing diffoscope
+[2024-04-23 05:14:54] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-cloudinit-9.0.0.tar.gz tmp/cdktf-cdktf-provider-cloudinit-9.0.1.tar.gz --markdown 20240423/c/cdktf-cdktf-provider-cloudinit/9.0.0-9.0.1/README.md --exclude *.pyd
+[2024-04-23 05:14:54] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/88/f8/83dfce55259c0d4cd856368434e57e65d27ab17a9f11f751221db52666a7/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz
+[2024-04-23 05:14:54] INFO root fetch - processPackages [pypreql-nlp]: Remove: archive file [/home/abi/fetcher/tmp/pypreql-nlp-0.0.8.tar.gz]
+[2024-04-23 05:14:54] INFO root fetch - processPackages [pypreql-nlp]: Remove: archive file [/home/abi/fetcher/tmp/pypreql-nlp-0.0.9.tar.gz]
+[2024-04-23 05:14:54] INFO root fetch - main [MainThread]: End processing [pypreql-nlp]: success
+[2024-04-23 05:14:54] INFO root fetch - processPackages [artd-shopify]: Remove: archive file [/home/abi/fetcher/tmp/artd-shopify-1.1.3.tar.gz]
+[2024-04-23 05:14:54] INFO root fetch - processPackages [artd-shopify]: Remove: archive file [/home/abi/fetcher/tmp/artd-shopify-1.1.4.tar.gz]
+[2024-04-23 05:14:54] INFO root fetch - main [MainThread]: End processing [artd-shopify]: success
+[2024-04-23 05:14:54] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: executing diffoscope
+[2024-04-23 05:14:54] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz --markdown 20240423/c/cdktf-cdktf-provider-newrelic/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-04-23 05:14:55] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudinit-9.0.0.tar.gz]
+[2024-04-23 05:14:55] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudinit-9.0.1.tar.gz]
+[2024-04-23 05:14:55] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudinit]: success
+[2024-04-23 05:14:57] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz]
+[2024-04-23 05:14:57] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz]
+[2024-04-23 05:14:57] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
+[2024-04-23 05:14:57] INFO root fetch - main [MainThread]: Store serial: [22888467]
