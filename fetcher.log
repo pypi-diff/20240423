@@ -10024,3 +10024,62 @@
 [2024-04-23 06:10:35] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.3.4-cp39-none-win_amd64.whl.zip]
 [2024-04-23 06:10:35] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2024-04-23 06:10:35] INFO root fetch - main [MainThread]: Store serial: [22888918]
+[2024-04-23 06:12:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888918]
+[2024-04-23 06:12:44] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-23 06:14:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888918]
+[2024-04-23 06:14:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 06:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hermesbaby
+[2024-04-23 06:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apstools
+[2024-04-23 06:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minium
+[2024-04-23 06:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-flux
+[2024-04-23 06:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snowflake-connector-python-nightly
+[2024-04-23 06:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: itkdb
+[2024-04-23 06:14:49] INFO root fetch - processPackages [hermesbaby]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 06:14:49] INFO root fetch - processPackages [python-flux]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 06:14:49] INFO root fetch - processPackages [apstools]: New version: [1.6.9rc1] Old Version: [1.6.9]
+[2024-04-23 06:14:49] INFO root fetch - processPackages [minium]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-04-23 06:14:50] INFO root fetch - processPackages [itkdb]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-23 06:14:50] INFO root fetch - processPackages [apstools]: Downloading https://files.pythonhosted.org/packages/bb/e8/af2920d3a7fedda68a11081779a3935b639643858f29f2c5af211c0c8f6f/apstools-1.6.9.tar.gz
+[2024-04-23 06:14:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2024.4.9] Old Version: [2024.4.4]
+[2024-04-23 06:14:50] INFO root fetch - processPackages [hermesbaby]: Downloading https://files.pythonhosted.org/packages/99/c9/b05799f08e4f6005255a4f780146e47af2881a6ad728371a3dec3016a8ec/hermesbaby-0.1.0.tar.gz
+[2024-04-23 06:14:50] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/61/f1/b7ed8ba858a07ad9db5f0d6949388602ea5d2e76af4277a78af19556a264/python_flux-1.0.8.tar.gz
+[2024-04-23 06:14:50] INFO root fetch - processPackages [minium]: Downloading https://files.pythonhosted.org/packages/6f/84/0ec46a8142d6b70a42312c49bfcb721bc71b9bef28c98cc2e7b0af45ee14/minium-1.5.3.tar.gz
+[2024-04-23 06:14:50] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/8c/3f/b3e4a6d188ad51de61d243dd029231d019d9df20e9df154c54511aa39308/itkdb-0.6.3.tar.gz
+[2024-04-23 06:14:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/12/c3/4f218d7aee744ff4a81b162500c54788da9c3b3370b16f12d83c186af581/snowflake-connector-python-nightly-2024.4.4.tar.gz
+[2024-04-23 06:14:50] INFO root fetch - processPackages [apstools]: Downloading https://files.pythonhosted.org/packages/d4/ce/7740563ebafc7c2c86fb4241495a359ea6bc1dfda4e7084e39092b35f8ce/apstools-1.6.9rc1.tar.gz
+[2024-04-23 06:14:50] INFO root fetch - processPackages [hermesbaby]: Downloading https://files.pythonhosted.org/packages/8d/40/2dc3c63d2b663c816ad3889a0b258e35b912e88b7bbdbb8a546c20ded90a/hermesbaby-0.1.1.tar.gz
+[2024-04-23 06:14:50] INFO root fetch - processPackages [apstools]: executing diffoscope
+[2024-04-23 06:14:50] INFO root fetch - processPackages [apstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apstools-1.6.9.tar.gz tmp/apstools-1.6.9rc1.tar.gz --markdown 20240423/a/apstools/1.6.9-1.6.9rc1/README.md --exclude *.pyd
+[2024-04-23 06:14:50] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/d9/fc/4b1a1326d0f20d79284a8f8b929746d8826d7500982ef66836cb36e7326c/python_flux-1.0.9.tar.gz
+[2024-04-23 06:14:50] INFO root fetch - processPackages [hermesbaby]: executing diffoscope
+[2024-04-23 06:14:50] INFO root fetch - processPackages [hermesbaby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermesbaby-0.1.0.tar.gz tmp/hermesbaby-0.1.1.tar.gz --markdown 20240423/h/hermesbaby/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 06:14:50] INFO root fetch - processPackages [python-flux]: executing diffoscope
+[2024-04-23 06:14:50] INFO root fetch - processPackages [python-flux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_flux-1.0.8.tar.gz tmp/python_flux-1.0.9.tar.gz --markdown 20240423/p/python-flux/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 06:14:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/2b/1f/ba851f8a5f400cf41366dc7216d298165e7c4fe21d731943caebce0a7907/snowflake-connector-python-nightly-2024.4.9.tar.gz
+[2024-04-23 06:14:50] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/ea/7c/0e35299c90f77aa1b4618877610eba7bbc9172ef7a5be53656d5f9721186/itkdb-0.6.4.tar.gz
+[2024-04-23 06:14:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2024-04-23 06:14:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2024.4.4.tar.gz tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz --markdown 20240423/s/snowflake-connector-python-nightly/2024.4.4-2024.4.9/README.md --exclude *.pyd
+[2024-04-23 06:14:51] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-1.0.8.tar.gz]
+[2024-04-23 06:14:51] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-1.0.9.tar.gz]
+[2024-04-23 06:14:51] INFO root fetch - main [MainThread]: End processing [python-flux]: success
+[2024-04-23 06:14:51] INFO root fetch - processPackages [hermesbaby]: Remove: archive file [/home/abi/fetcher/tmp/hermesbaby-0.1.0.tar.gz]
+[2024-04-23 06:14:51] INFO root fetch - processPackages [hermesbaby]: Remove: archive file [/home/abi/fetcher/tmp/hermesbaby-0.1.1.tar.gz]
+[2024-04-23 06:14:51] INFO root fetch - main [MainThread]: End processing [hermesbaby]: success
+[2024-04-23 06:14:51] INFO root fetch - processPackages [minium]: Downloading https://files.pythonhosted.org/packages/35/ef/48f14f631d4efd14c26abf7d7e80d4b6de2115cf60e3692f8d42b499c434/minium-1.5.4.tar.gz
+[2024-04-23 06:14:51] INFO root fetch - processPackages [itkdb]: executing diffoscope
+[2024-04-23 06:14:51] INFO root fetch - processPackages [itkdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb-0.6.3.tar.gz tmp/itkdb-0.6.4.tar.gz --markdown 20240423/i/itkdb/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-23 06:14:51] INFO root fetch - processPackages [minium]: executing diffoscope
+[2024-04-23 06:14:51] INFO root fetch - processPackages [minium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minium-1.5.3.tar.gz tmp/minium-1.5.4.tar.gz --markdown 20240423/m/minium/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-04-23 06:14:51] INFO root fetch - processPackages [apstools]: Remove: archive file [/home/abi/fetcher/tmp/apstools-1.6.9.tar.gz]
+[2024-04-23 06:14:51] INFO root fetch - processPackages [apstools]: Remove: archive file [/home/abi/fetcher/tmp/apstools-1.6.9rc1.tar.gz]
+[2024-04-23 06:14:51] INFO root fetch - main [MainThread]: End processing [apstools]: success
+[2024-04-23 06:14:52] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.4.tar.gz]
+[2024-04-23 06:14:52] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz]
+[2024-04-23 06:14:52] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2024-04-23 06:14:52] INFO root fetch - processPackages [itkdb]: Remove: archive file [/home/abi/fetcher/tmp/itkdb-0.6.3.tar.gz]
+[2024-04-23 06:14:52] INFO root fetch - processPackages [itkdb]: Remove: archive file [/home/abi/fetcher/tmp/itkdb-0.6.4.tar.gz]
+[2024-04-23 06:14:52] INFO root fetch - main [MainThread]: End processing [itkdb]: success
+[2024-04-23 06:14:54] INFO root fetch - processPackages [minium]: Remove: archive file [/home/abi/fetcher/tmp/minium-1.5.3.tar.gz]
+[2024-04-23 06:14:54] INFO root fetch - processPackages [minium]: Remove: archive file [/home/abi/fetcher/tmp/minium-1.5.4.tar.gz]
+[2024-04-23 06:14:54] INFO root fetch - main [MainThread]: End processing [minium]: success
+[2024-04-23 06:14:54] INFO root fetch - main [MainThread]: Store serial: [22888959]
