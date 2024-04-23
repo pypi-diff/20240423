@@ -17877,3 +17877,63 @@
 [2024-04-23 12:21:25] INFO root fetch - processPackages [nornir-salt]: Remove: archive file [/home/abi/fetcher/tmp/nornir_salt-0.9.0.tar.gz]
 [2024-04-23 12:21:25] INFO root fetch - main [MainThread]: End processing [nornir-salt]: success
 [2024-04-23 12:21:25] INFO root fetch - main [MainThread]: Store serial: [22892260]
+[2024-04-23 12:23:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892260]
+[2024-04-23 12:23:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nornir-salt
+[2024-04-23 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flatpack
+[2024-04-23 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mixdq-extension
+[2024-04-23 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tabviz
+[2024-04-23 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lense
+[2024-04-23 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astarte-message-hub-proto
+[2024-04-23 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ibm-watson-openscale
+[2024-04-23 12:23:34] INFO root fetch - processPackages [tabviz]: New version: [1.1.0.6] Old Version: [1.1.0.5]
+[2024-04-23 12:23:34] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 12:23:34] INFO root fetch - processPackages [nornir-salt]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-23 12:23:34] WARNING root fetch - processPackages [mixdq-extension]: Skipping, unable to determine old version
+[2024-04-23 12:23:34] INFO root fetch - main [MainThread]: End processing [mixdq-extension] error
+[2024-04-23 12:23:34] INFO root fetch - processPackages [tabviz]: Downloading https://files.pythonhosted.org/packages/83/a4/51d9b003dcc43531e15a3fb9e5c5ff57ab0eacd1cb25a14e7198217f764f/tabviz-1.1.0.5.tar.gz
+[2024-04-23 12:23:34] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-23 12:23:34] INFO root fetch - processPackages [astarte-message-hub-proto]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-23 12:23:34] INFO root fetch - processPackages [nornir-salt]: Downloading https://files.pythonhosted.org/packages/b6/6c/9bcdf9c90a13a9dfe709f1d6923307726f660368b3ae049b5a8b37ca56c3/nornir_salt-0.8.0.tar.gz
+[2024-04-23 12:23:34] INFO root fetch - processPackages [flatpack]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-23 12:23:35] INFO root fetch - processPackages [ibm-watson-openscale]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-23 12:23:35] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/42/48/84e949164975b341645163f536ee4ca8329c4e3dfa6d143c2806a0849a54/flatpack-3.3.8.tar.gz
+[2024-04-23 12:23:35] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-23 12:23:35] INFO root fetch - processPackages [astarte-message-hub-proto]: Downloading https://files.pythonhosted.org/packages/c0/b1/81381846cb9b33416b4f454cfd75ff078cc0a9d8d10e35de0213686c0ef0/astarte_message_hub_proto-0.6.1.tar.gz
+[2024-04-23 12:23:35] INFO root fetch - processPackages [nornir-salt]: Downloading https://files.pythonhosted.org/packages/98/11/15783d53a2ffd95d91290b0b75d760f193f777b4400e28e5b11b2dc1a5ef/nornir_salt-0.9.0.tar.gz
+[2024-04-23 12:23:35] INFO root fetch - processPackages [ibm-watson-openscale]: Downloading https://files.pythonhosted.org/packages/ff/8a/a4e714ad4a5b578378a89893becf5d175e82d2787794712186e72711c809/ibm_watson_openscale-3.0.8-py3-none-any.whl
+[2024-04-23 12:23:35] INFO root fetch - processPackages [tabviz]: Downloading https://files.pythonhosted.org/packages/a3/cd/1f34b68b0c6a3f569f6d67d26343a85a3ed8f04c86aaa61c9e07c51a0087/tabviz-1.1.0.6.tar.gz
+[2024-04-23 12:23:35] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 12:23:35] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 12:23:35] INFO root fetch - processPackages [nornir-salt]: executing diffoscope
+[2024-04-23 12:23:35] INFO root fetch - processPackages [nornir-salt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nornir_salt-0.8.0.tar.gz tmp/nornir_salt-0.9.0.tar.gz --markdown 20240423/n/nornir-salt/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-23 12:23:35] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/11/54/065825e8640b062c83c07c97d8dea514db8a5c0ea3c272834b88c568d82e/flatpack-3.3.9.tar.gz
+[2024-04-23 12:23:35] INFO root fetch - processPackages [tabviz]: executing diffoscope
+[2024-04-23 12:23:35] INFO root fetch - processPackages [tabviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabviz-1.1.0.5.tar.gz tmp/tabviz-1.1.0.6.tar.gz --markdown 20240423/t/tabviz/1.1.0.5-1.1.0.6/README.md --exclude *.pyd
+[2024-04-23 12:23:35] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-04-23 12:23:35] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.3.8.tar.gz tmp/flatpack-3.3.9.tar.gz --markdown 20240423/f/flatpack/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-23 12:23:35] INFO root fetch - processPackages [astarte-message-hub-proto]: Downloading https://files.pythonhosted.org/packages/07/0d/3d034cfa3c1919224e6054b1cdf79721188f58346c2d832b049e1d9c2bca/astarte_message_hub_proto-0.6.2.tar.gz
+[2024-04-23 12:23:35] INFO root fetch - processPackages [ibm-watson-openscale]: Downloading https://files.pythonhosted.org/packages/b0/33/1dc28a5725a301c519fe0d47d81218c12e19c1155621813f73d268dbfc9b/ibm_watson_openscale-3.0.9-py3-none-any.whl
+[2024-04-23 12:23:36] INFO root fetch - processPackages [ibm-watson-openscale]: executing diffoscope
+[2024-04-23 12:23:36] INFO root fetch - processPackages [ibm-watson-openscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_openscale-3.0.8-py3-none-any.whl.zip tmp/ibm_watson_openscale-3.0.9-py3-none-any.whl.zip --markdown 20240423/i/ibm-watson-openscale/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-04-23 12:23:36] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 12:23:36] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 12:23:36] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 12:23:36] INFO root fetch - processPackages [tabviz]: Remove: archive file [/home/abi/fetcher/tmp/tabviz-1.1.0.5.tar.gz]
+[2024-04-23 12:23:36] INFO root fetch - processPackages [tabviz]: Remove: archive file [/home/abi/fetcher/tmp/tabviz-1.1.0.6.tar.gz]
+[2024-04-23 12:23:36] INFO root fetch - main [MainThread]: End processing [tabviz]: success
+[2024-04-23 12:23:36] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.8.tar.gz]
+[2024-04-23 12:23:36] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.9.tar.gz]
+[2024-04-23 12:23:36] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-04-23 12:23:36] INFO root fetch - processPackages [nornir-salt]: Remove: archive file [/home/abi/fetcher/tmp/nornir_salt-0.8.0.tar.gz]
+[2024-04-23 12:23:36] INFO root fetch - processPackages [nornir-salt]: Remove: archive file [/home/abi/fetcher/tmp/nornir_salt-0.9.0.tar.gz]
+[2024-04-23 12:23:36] INFO root fetch - main [MainThread]: End processing [nornir-salt]: success
+[2024-04-23 12:23:36] INFO root fetch - processPackages [ibm-watson-openscale]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_openscale-3.0.8-py3-none-any.whl.zip]
+[2024-04-23 12:23:36] INFO root fetch - processPackages [ibm-watson-openscale]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_openscale-3.0.9-py3-none-any.whl.zip]
+[2024-04-23 12:23:36] INFO root fetch - main [MainThread]: End processing [ibm-watson-openscale]: success
+[2024-04-23 12:23:37] INFO root fetch - processPackages [astarte-message-hub-proto]: executing diffoscope
+[2024-04-23 12:23:37] INFO root fetch - processPackages [astarte-message-hub-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astarte_message_hub_proto-0.6.1.tar.gz tmp/astarte_message_hub_proto-0.6.2.tar.gz --markdown 20240423/a/astarte-message-hub-proto/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-23 12:23:38] INFO root fetch - processPackages [astarte-message-hub-proto]: Remove: archive file [/home/abi/fetcher/tmp/astarte_message_hub_proto-0.6.1.tar.gz]
+[2024-04-23 12:23:38] INFO root fetch - processPackages [astarte-message-hub-proto]: Remove: archive file [/home/abi/fetcher/tmp/astarte_message_hub_proto-0.6.2.tar.gz]
+[2024-04-23 12:23:38] INFO root fetch - main [MainThread]: End processing [astarte-message-hub-proto]: success
+[2024-04-23 12:23:38] INFO root fetch - main [MainThread]: Store serial: [22892277]
