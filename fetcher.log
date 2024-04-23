@@ -20663,3 +20663,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 14:08:33] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240423092324.tar.gz]
 [2024-04-23 14:08:33] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-23 14:08:33] INFO root fetch - main [MainThread]: Store serial: [22893480]
+[2024-04-23 14:10:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893480]
+[2024-04-23 14:10:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 14:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torcheval-nightly
+[2024-04-23 14:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spacepackets
+[2024-04-23 14:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getai
+[2024-04-23 14:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: probe-design
+[2024-04-23 14:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: revpref
+[2024-04-23 14:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emotions-analysis-c
+[2024-04-23 14:10:42] INFO root fetch - processPackages [spacepackets]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-23 14:10:42] WARNING root fetch - processPackages [getai]: Skipping, unable to determine old version
+[2024-04-23 14:10:42] INFO root fetch - main [MainThread]: End processing [getai] error
+[2024-04-23 14:10:42] INFO root fetch - processPackages [probe-design]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 14:10:42] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-23 14:10:42] INFO root fetch - processPackages [revpref]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-23 14:10:42] WARNING root fetch - processPackages [emotions-analysis-c]: Skipping, unable to determine old version
+[2024-04-23 14:10:42] INFO root fetch - main [MainThread]: End processing [emotions-analysis-c] error
+[2024-04-23 14:10:42] INFO root fetch - processPackages [spacepackets]: Downloading https://files.pythonhosted.org/packages/67/78/384a5ffad7eac5f8e6f7842bd2d4e81eb8f8bfefae020ec3b6d8403d5e32/spacepackets-0.8.1.tar.gz
+[2024-04-23 14:10:42] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/a3/6d/794af2087c6d670c1d6bd148a897d3a59b68e8d4b82c381b57d3e20ab544/torcheval-nightly-2024.4.8.tar.gz
+[2024-04-23 14:10:42] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/e4/de/217073b59e430d72d25a28f92c27d4dcfed602224c5db64977da9995539e/probe_design-0.2.8.tar.gz
+[2024-04-23 14:10:42] INFO root fetch - processPackages [revpref]: Downloading https://files.pythonhosted.org/packages/9c/94/fff2fe1e6be7e1657daa127575a25ede688c1ade4c3f0c1e86f5298e3bfe/revpref-1.0.0.tar.gz
+[2024-04-23 14:10:42] INFO root fetch - processPackages [spacepackets]: Downloading https://files.pythonhosted.org/packages/5a/3a/0c57835afff418d02db88f9c0ee240e220431a0dffb7d13a3fad468fdafa/spacepackets-0.9.0.tar.gz
+[2024-04-23 14:10:42] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/01/5f/5d3ae8fee972a25478395600694aa6da7aecdf0fdc15b5bb79b52a372737/torcheval-nightly-2024.4.9.tar.gz
+[2024-04-23 14:10:42] INFO root fetch - processPackages [spacepackets]: executing diffoscope
+[2024-04-23 14:10:42] INFO root fetch - processPackages [spacepackets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacepackets-0.8.1.tar.gz tmp/spacepackets-0.9.0.tar.gz --markdown 20240423/s/spacepackets/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-23 14:10:42] INFO root fetch - processPackages [revpref]: Downloading https://files.pythonhosted.org/packages/31/04/14e888c8120ceeec3a9581d769313b27645743bb15e72896cea92e6ea8f2/revpref-1.0.1.tar.gz
+[2024-04-23 14:10:42] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/56/10/4d2bc3f41506a6a5373b6d321509f939ebc56944086733654075c23adbba/probe_design-0.2.9.tar.gz
+[2024-04-23 14:10:42] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-23 14:10:42] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.4.8.tar.gz tmp/torcheval-nightly-2024.4.9.tar.gz --markdown 20240423/t/torcheval-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-23 14:10:42] INFO root fetch - processPackages [revpref]: executing diffoscope
+[2024-04-23 14:10:42] INFO root fetch - processPackages [revpref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revpref-1.0.0.tar.gz tmp/revpref-1.0.1.tar.gz --markdown 20240423/r/revpref/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-23 14:10:43] INFO root fetch - processPackages [probe-design]: executing diffoscope
+[2024-04-23 14:10:43] INFO root fetch - processPackages [probe-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probe_design-0.2.8.tar.gz tmp/probe_design-0.2.9.tar.gz --markdown 20240423/p/probe-design/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 14:10:43] INFO root fetch - processPackages [spacepackets]: Remove: archive file [/home/abi/fetcher/tmp/spacepackets-0.8.1.tar.gz]
+[2024-04-23 14:10:43] INFO root fetch - processPackages [spacepackets]: Remove: archive file [/home/abi/fetcher/tmp/spacepackets-0.9.0.tar.gz]
+[2024-04-23 14:10:43] INFO root fetch - main [MainThread]: End processing [spacepackets]: success
+[2024-04-23 14:10:43] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.8.tar.gz]
+[2024-04-23 14:10:43] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.9.tar.gz]
+[2024-04-23 14:10:43] INFO root fetch - main [MainThread]: End processing [probe-design]: success
+[2024-04-23 14:10:43] INFO root fetch - processPackages [revpref]: Remove: archive file [/home/abi/fetcher/tmp/revpref-1.0.0.tar.gz]
+[2024-04-23 14:10:43] INFO root fetch - processPackages [revpref]: Remove: archive file [/home/abi/fetcher/tmp/revpref-1.0.1.tar.gz]
+[2024-04-23 14:10:43] INFO root fetch - main [MainThread]: End processing [revpref]: success
+[2024-04-23 14:10:43] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.8.tar.gz]
+[2024-04-23 14:10:43] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.9.tar.gz]
+[2024-04-23 14:10:43] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-23 14:10:43] INFO root fetch - main [MainThread]: Store serial: [22893497]
