@@ -11727,3 +11727,80 @@
 [2024-04-23 08:17:42] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240422.tar.gz]
 [2024-04-23 08:17:42] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
 [2024-04-23 08:17:42] INFO root fetch - main [MainThread]: Store serial: [22889652]
+[2024-04-23 08:19:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889652]
+[2024-04-23 08:20:00] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-23 08:22:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889652]
+[2024-04-23 08:22:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs2solutions
+[2024-04-23 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-fs-base-multi-image
+[2024-04-23 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: md2weasypdf
+[2024-04-23 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: general-calculator-zsd
+[2024-04-23 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thanosql
+[2024-04-23 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-fc20230330-py2
+[2024-04-23 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dekdjtools
+[2024-04-23 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-fc20230330
+[2024-04-23 08:22:06] INFO root fetch - processPackages [cs2solutions]: New version: [0.7.0] Old Version: [0.6.5]
+[2024-04-23 08:22:06] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/dd/3f/54737abc08b913100f14a9a913d3936c15ba7121d19e75ed27cdc403c496/cs2solutions-0.6.5.tar.gz
+[2024-04-23 08:22:06] INFO root fetch - processPackages [thanosql]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-23 08:22:06] INFO root fetch - processPackages [alibabacloud-fc20230330]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-23 08:22:06] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: New version: [16.0.1.1.0.9] Old Version: [16.0.1.1.0.8]
+[2024-04-23 08:22:06] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-23 08:22:06] INFO root fetch - processPackages [md2weasypdf]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-23 08:22:06] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-23 08:22:06] INFO root fetch - processPackages [general-calculator-zsd]: New version: [1.4.8.9] Old Version: [1.4.8.8]
+[2024-04-23 08:22:06] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: Downloading https://files.pythonhosted.org/packages/af/04/8075aa5bb62207879259464c5e6fe139d326211ed573e3ce4ebec399e656/alibabacloud_fc20230330_py2-4.0.0.tar.gz
+[2024-04-23 08:22:06] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: Downloading https://files.pythonhosted.org/packages/c9/ca/bf978166da22dc046ba11663d73bb1cbf6216c773fa7d16c8faf3f33b58e/odoo_addon_fs_base_multi_image-16.0.1.1.0.8-py3-none-any.whl
+[2024-04-23 08:22:06] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/46/d1/6c0514a3c55ce8c313d19b8d692c464834955a3cce9dca202eb42ac236d9/dekdjtools-0.1.7.tar.gz
+[2024-04-23 08:22:06] INFO root fetch - processPackages [thanosql]: Downloading https://files.pythonhosted.org/packages/0e/82/8c533530944a759fcdb50830a228ad8d729a9b91621d139088f8a792731f/thanosql-0.2.1.tar.gz
+[2024-04-23 08:22:06] INFO root fetch - processPackages [general-calculator-zsd]: Downloading https://files.pythonhosted.org/packages/f8/e8/1c6aa3fc0d666045a61d9269ea5c470a265ace39b4ef90fdfdade095bf44/general_calculator_zsd-1.4.8.8.tar.gz
+[2024-04-23 08:22:06] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/0f/58/83a2c57b47d978eec5fde39a0f6cef8346702978821b32bb66b98de65191/md2weasypdf-0.0.4.tar.gz
+[2024-04-23 08:22:06] INFO root fetch - processPackages [alibabacloud-fc20230330]: Downloading https://files.pythonhosted.org/packages/20/61/d841f20c282e84137ae1b19fbcf7b889cd6e6501935aeae64b37afff4c41/alibabacloud_fc20230330-4.0.0.tar.gz
+[2024-04-23 08:22:06] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/a3/2b/7842b5d4c1f24009ecae47d7c5cea8344b1a248f6c7b3dccb743fb40b41c/cs2solutions-0.7.0.tar.gz
+[2024-04-23 08:22:06] INFO root fetch - processPackages [cs2solutions]: executing diffoscope
+[2024-04-23 08:22:06] INFO root fetch - processPackages [cs2solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2solutions-0.6.5.tar.gz tmp/cs2solutions-0.7.0.tar.gz --markdown 20240423/c/cs2solutions/0.6.5-0.7.0/README.md --exclude *.pyd
+[2024-04-23 08:22:06] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: Downloading https://files.pythonhosted.org/packages/ad/84/d7dc4fd2d1716194241c6bd64f8c703c665817c172c81b35948091c967be/alibabacloud_fc20230330_py2-4.1.0.tar.gz
+[2024-04-23 08:22:07] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: Downloading https://files.pythonhosted.org/packages/0f/c4/3fd7c8c9273d81435e2e9b48ffec1aa728954f3d144335b3c74337313e80/odoo_addon_fs_base_multi_image-16.0.1.1.0.9-py3-none-any.whl
+[2024-04-23 08:22:07] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-04-23 08:22:07] INFO root fetch - processPackages [thanosql]: Downloading https://files.pythonhosted.org/packages/36/14/1f377d48147100fd415e2f074047230e0013eeef478cb3bbb6c750f07b1c/thanosql-0.2.2.tar.gz
+[2024-04-23 08:22:07] INFO root fetch - processPackages [general-calculator-zsd]: Downloading https://files.pythonhosted.org/packages/94/c1/2f2f03de4cf155491cef473872bacbae0754f9d6ef886395e61987f0acac/general_calculator_zsd-1.4.8.9.tar.gz
+[2024-04-23 08:22:07] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: executing diffoscope
+[2024-04-23 08:22:07] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_fc20230330_py2-4.0.0.tar.gz tmp/alibabacloud_fc20230330_py2-4.1.0.tar.gz --markdown 20240423/a/alibabacloud-fc20230330-py2/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-04-23 08:22:07] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/6b/0d/71397d672fb3ee673aafca10104de2cfb4aede17cc7be6495b9c40cccad2/md2weasypdf-0.0.5.tar.gz
+[2024-04-23 08:22:07] INFO root fetch - processPackages [alibabacloud-fc20230330]: Downloading https://files.pythonhosted.org/packages/0f/21/ef4e237e22931a5804ad7c97e93ebc1b2721bc7f3b40dfc17781fbf1c4dc/alibabacloud_fc20230330-4.1.0.tar.gz
+[2024-04-23 08:22:07] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: executing diffoscope
+[2024-04-23 08:22:07] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_base_multi_image-16.0.1.1.0.8-py3-none-any.whl.zip tmp/odoo_addon_fs_base_multi_image-16.0.1.1.0.9-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-fs-base-multi-image/16.0.1.1.0.8-16.0.1.1.0.9/README.md --exclude *.pyd
+[2024-04-23 08:22:07] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-04-23 08:22:07] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.7.tar.gz tmp/dekdjtools-0.1.8.tar.gz --markdown 20240423/d/dekdjtools/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-23 08:22:07] INFO root fetch - processPackages [thanosql]: executing diffoscope
+[2024-04-23 08:22:07] INFO root fetch - processPackages [thanosql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thanosql-0.2.1.tar.gz tmp/thanosql-0.2.2.tar.gz --markdown 20240423/t/thanosql/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-23 08:22:07] INFO root fetch - processPackages [general-calculator-zsd]: executing diffoscope
+[2024-04-23 08:22:07] INFO root fetch - processPackages [general-calculator-zsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_calculator_zsd-1.4.8.8.tar.gz tmp/general_calculator_zsd-1.4.8.9.tar.gz --markdown 20240423/g/general-calculator-zsd/1.4.8.8-1.4.8.9/README.md --exclude *.pyd
+[2024-04-23 08:22:07] INFO root fetch - processPackages [md2weasypdf]: executing diffoscope
+[2024-04-23 08:22:07] INFO root fetch - processPackages [md2weasypdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2weasypdf-0.0.4.tar.gz tmp/md2weasypdf-0.0.5.tar.gz --markdown 20240423/m/md2weasypdf/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-23 08:22:07] INFO root fetch - processPackages [alibabacloud-fc20230330]: executing diffoscope
+[2024-04-23 08:22:07] INFO root fetch - processPackages [alibabacloud-fc20230330]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_fc20230330-4.0.0.tar.gz tmp/alibabacloud_fc20230330-4.1.0.tar.gz --markdown 20240423/a/alibabacloud-fc20230330/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-04-23 08:22:07] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.6.5.tar.gz]
+[2024-04-23 08:22:07] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.7.0.tar.gz]
+[2024-04-23 08:22:07] INFO root fetch - main [MainThread]: End processing [cs2solutions]: success
+[2024-04-23 08:22:08] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.7.tar.gz]
+[2024-04-23 08:22:08] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-04-23 08:22:08] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-04-23 08:22:08] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_base_multi_image-16.0.1.1.0.8-py3-none-any.whl.zip]
+[2024-04-23 08:22:08] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_base_multi_image-16.0.1.1.0.9-py3-none-any.whl.zip]
+[2024-04-23 08:22:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-base-multi-image]: success
+[2024-04-23 08:22:08] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_fc20230330_py2-4.0.0.tar.gz]
+[2024-04-23 08:22:08] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_fc20230330_py2-4.1.0.tar.gz]
+[2024-04-23 08:22:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-fc20230330-py2]: success
+[2024-04-23 08:22:08] INFO root fetch - processPackages [thanosql]: Remove: archive file [/home/abi/fetcher/tmp/thanosql-0.2.1.tar.gz]
+[2024-04-23 08:22:08] INFO root fetch - processPackages [thanosql]: Remove: archive file [/home/abi/fetcher/tmp/thanosql-0.2.2.tar.gz]
+[2024-04-23 08:22:08] INFO root fetch - main [MainThread]: End processing [thanosql]: success
+[2024-04-23 08:22:08] INFO root fetch - processPackages [general-calculator-zsd]: Remove: archive file [/home/abi/fetcher/tmp/general_calculator_zsd-1.4.8.8.tar.gz]
+[2024-04-23 08:22:08] INFO root fetch - processPackages [general-calculator-zsd]: Remove: archive file [/home/abi/fetcher/tmp/general_calculator_zsd-1.4.8.9.tar.gz]
+[2024-04-23 08:22:08] INFO root fetch - main [MainThread]: End processing [general-calculator-zsd]: success
+[2024-04-23 08:22:08] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.4.tar.gz]
+[2024-04-23 08:22:08] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.5.tar.gz]
+[2024-04-23 08:22:08] INFO root fetch - main [MainThread]: End processing [md2weasypdf]: success
+[2024-04-23 08:22:08] INFO root fetch - processPackages [alibabacloud-fc20230330]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_fc20230330-4.0.0.tar.gz]
+[2024-04-23 08:22:08] INFO root fetch - processPackages [alibabacloud-fc20230330]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_fc20230330-4.1.0.tar.gz]
+[2024-04-23 08:22:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-fc20230330]: success
+[2024-04-23 08:22:08] INFO root fetch - main [MainThread]: Store serial: [22889674]
