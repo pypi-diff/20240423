@@ -11804,3 +11804,24 @@
 [2024-04-23 08:22:08] INFO root fetch - processPackages [alibabacloud-fc20230330]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_fc20230330-4.1.0.tar.gz]
 [2024-04-23 08:22:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-fc20230330]: success
 [2024-04-23 08:22:08] INFO root fetch - main [MainThread]: Store serial: [22889674]
+[2024-04-23 08:24:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889674]
+[2024-04-23 08:24:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 08:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tjax
+[2024-04-23 08:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crowdstrike-falconpy
+[2024-04-23 08:24:18] INFO root fetch - processPackages [crowdstrike-falconpy]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-23 08:24:18] INFO root fetch - processPackages [tjax]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-23 08:24:18] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/4f/99/5a300a11849524c9d4ccf321c6ff1dc4624375cc2ec9a6578acd2fa1c3c9/crowdstrike-falconpy-1.4.2.tar.gz
+[2024-04-23 08:24:18] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/0a/6a/2363c88006dd7f98956bcd37716a18eff3b3138599af4e6dbde76d22d085/tjax-0.8.4.tar.gz
+[2024-04-23 08:24:18] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/be/f1/ce1970f050f673ae52c304257120a380736f531fee4d81b57ab0f24b506f/tjax-0.9.0.tar.gz
+[2024-04-23 08:24:19] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/92/9b/3f597c772b5daaa578cffbc9efd6bb2c3bf62fbe37d76bc3b9ca6f57d87f/crowdstrike_falconpy-1.4.3.tar.gz
+[2024-04-23 08:24:19] INFO root fetch - processPackages [tjax]: executing diffoscope
+[2024-04-23 08:24:19] INFO root fetch - processPackages [tjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tjax-0.8.4.tar.gz tmp/tjax-0.9.0.tar.gz --markdown 20240423/t/tjax/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-23 08:24:19] INFO root fetch - processPackages [crowdstrike-falconpy]: executing diffoscope
+[2024-04-23 08:24:19] INFO root fetch - processPackages [crowdstrike-falconpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-1.4.2.tar.gz tmp/crowdstrike_falconpy-1.4.3.tar.gz --markdown 20240423/c/crowdstrike-falconpy/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-04-23 08:24:19] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.8.4.tar.gz]
+[2024-04-23 08:24:19] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.9.0.tar.gz]
+[2024-04-23 08:24:19] INFO root fetch - main [MainThread]: End processing [tjax]: success
+[2024-04-23 08:24:21] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.4.2.tar.gz]
+[2024-04-23 08:24:21] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike_falconpy-1.4.3.tar.gz]
+[2024-04-23 08:24:21] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy]: success
+[2024-04-23 08:24:21] INFO root fetch - main [MainThread]: Store serial: [22889680]
