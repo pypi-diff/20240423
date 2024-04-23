@@ -10098,3 +10098,36 @@
 [2024-04-23 06:17:05] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.27.0.tar.gz]
 [2024-04-23 06:17:05] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
 [2024-04-23 06:17:05] INFO root fetch - main [MainThread]: Store serial: [22888967]
+[2024-04-23 06:19:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888967]
+[2024-04-23 06:19:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 06:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paketoi
+[2024-04-23 06:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-dbchat
+[2024-04-23 06:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycommons
+[2024-04-23 06:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wrapper-bar
+[2024-04-23 06:19:14] WARNING root fetch - processPackages [wrapper-bar]: Skipping, unable to determine old version
+[2024-04-23 06:19:14] INFO root fetch - main [MainThread]: End processing [wrapper-bar] error
+[2024-04-23 06:19:14] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc92.post1] Old Version: [0.0.2rc91.post1]
+[2024-04-23 06:19:14] INFO root fetch - processPackages [pycommons]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-23 06:19:14] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/d6/78/3752817a64545428a0abc377f0a8234668404b9d19ce54d925a8f95aa304/py_dbchat-0.0.2rc91.post1.tar.gz
+[2024-04-23 06:19:14] INFO root fetch - processPackages [paketoi]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 06:19:14] INFO root fetch - processPackages [paketoi]: Downloading https://files.pythonhosted.org/packages/0b/f2/8e24adacfc281753390f7a24632eeee87b361725ee206f77cd364bd521ab/paketoi-0.1.0.tar.gz
+[2024-04-23 06:19:14] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/f5/b7/e2307174b50d3416008197b30b2fd81919d123479629cd660c1128d5abec/pycommons-0.8.8.tar.gz
+[2024-04-23 06:19:14] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/14/30/a17939a8c7ab70872ec77b29ebd4a01326a056bf63ae7fe640d7dfd0f382/py_dbchat-0.0.2rc92.post1.tar.gz
+[2024-04-23 06:19:14] INFO root fetch - processPackages [paketoi]: Downloading https://files.pythonhosted.org/packages/9d/e9/c8d7f1c0610b3e4c877c08d3cf09696157279894cb55ac9cc2b22ea902e4/paketoi-0.1.1.tar.gz
+[2024-04-23 06:19:14] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-04-23 06:19:14] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc91.post1.tar.gz tmp/py_dbchat-0.0.2rc92.post1.tar.gz --markdown 20240423/p/py-dbchat/0.0.2rc91.post1-0.0.2rc92.post1/README.md --exclude *.pyd
+[2024-04-23 06:19:14] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/b6/ca/acae5b6b302dfdf392c815106b020283d0238189cbe02716e4a0c042a8df/pycommons-0.8.9.tar.gz
+[2024-04-23 06:19:14] INFO root fetch - processPackages [paketoi]: executing diffoscope
+[2024-04-23 06:19:14] INFO root fetch - processPackages [paketoi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paketoi-0.1.0.tar.gz tmp/paketoi-0.1.1.tar.gz --markdown 20240423/p/paketoi/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 06:19:14] INFO root fetch - processPackages [pycommons]: executing diffoscope
+[2024-04-23 06:19:14] INFO root fetch - processPackages [pycommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons-0.8.8.tar.gz tmp/pycommons-0.8.9.tar.gz --markdown 20240423/p/pycommons/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-23 06:19:15] INFO root fetch - processPackages [paketoi]: Remove: archive file [/home/abi/fetcher/tmp/paketoi-0.1.0.tar.gz]
+[2024-04-23 06:19:15] INFO root fetch - processPackages [paketoi]: Remove: archive file [/home/abi/fetcher/tmp/paketoi-0.1.1.tar.gz]
+[2024-04-23 06:19:15] INFO root fetch - main [MainThread]: End processing [paketoi]: success
+[2024-04-23 06:19:15] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.8.tar.gz]
+[2024-04-23 06:19:15] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.9.tar.gz]
+[2024-04-23 06:19:15] INFO root fetch - main [MainThread]: End processing [pycommons]: success
+[2024-04-23 06:19:15] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc91.post1.tar.gz]
+[2024-04-23 06:19:15] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc92.post1.tar.gz]
+[2024-04-23 06:19:15] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-04-23 06:19:15] INFO root fetch - main [MainThread]: Store serial: [22888979]
