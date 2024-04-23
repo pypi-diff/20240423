@@ -2394,3 +2394,60 @@
 [2024-04-23 02:08:37] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo_collections-5.598.24114.tar.gz]
 [2024-04-23 02:08:37] INFO root fetch - main [MainThread]: End processing [mo-collections]: success
 [2024-04-23 02:08:37] INFO root fetch - main [MainThread]: Store serial: [22886217]
+[2024-04-23 02:10:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886217]
+[2024-04-23 02:10:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 02:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-04-23 02:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: expyvalidations
+[2024-04-23 02:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optymus
+[2024-04-23 02:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-times
+[2024-04-23 02:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openbb-nightly
+[2024-04-23 02:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ez-a-sync
+[2024-04-23 02:10:45] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202404220010] Old Version: [4.1.7.dev202404210010]
+[2024-04-23 02:10:45] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-23 02:10:45] INFO root fetch - processPackages [expyvalidations]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-04-23 02:10:45] INFO root fetch - processPackages [optymus]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 02:10:45] INFO root fetch - processPackages [mo-times]: New version: [5.598.24114] Old Version: [5.589.24111]
+[2024-04-23 02:10:45] INFO root fetch - processPackages [ez-a-sync]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-23 02:10:45] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/56/dc/ccc6ddd4c4bfc608885d04e691d94a5ddd940a6028175539a20313ab64cb/openbb_nightly-4.1.7.dev202404210010.tar.gz
+[2024-04-23 02:10:45] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-23 02:10:46] INFO root fetch - processPackages [expyvalidations]: Downloading https://files.pythonhosted.org/packages/3d/ed/2937b861287242a70c162a7d135b1cd9900e5f0bd7964eaf04256d2f46e3/expyvalidations-0.0.2.tar.gz
+[2024-04-23 02:10:46] INFO root fetch - processPackages [optymus]: Downloading https://files.pythonhosted.org/packages/7e/27/c07b3c08aaa32c867cf4fcd872ee2dead836d74da1d23661d693695e2660/optymus-0.1.1.tar.gz
+[2024-04-23 02:10:46] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/79/96/435db21d769b668a77c8c5d9f4cc5e215ebeeffd9d5daa274e7f0e166e92/ez-a-sync-0.9.2.tar.gz
+[2024-04-23 02:10:46] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/2e/ac/b4f0f8c673e3e7d0c4937bc28758824c27f2554b7e5c3854054e58cd49e9/mo_times-5.589.24111.tar.gz
+[2024-04-23 02:10:46] INFO root fetch - processPackages [optymus]: Downloading https://files.pythonhosted.org/packages/2a/88/3b809c366d05bca58de1b670b2e8066ff0f0ac5f36296a670eee13859d54/optymus-0.1.2.tar.gz
+[2024-04-23 02:10:46] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/3d/34/664aebb396009914b06a58815781eaebe8c7f82efc067d2c2276febe373d/mo_times-5.598.24114.tar.gz
+[2024-04-23 02:10:46] INFO root fetch - processPackages [expyvalidations]: Downloading https://files.pythonhosted.org/packages/f4/01/7c28f5d8933b6e425dc169f6ab54060a3ab28e9527f7f19e38350853b623/expyvalidations-0.0.4.tar.gz
+[2024-04-23 02:10:46] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/48/b1/a55a0b906a32312bd80dbc755f3b2fd6c892adeb01b89d05af7894f7305f/openbb_nightly-4.1.7.dev202404220010.tar.gz
+[2024-04-23 02:10:46] INFO root fetch - processPackages [optymus]: executing diffoscope
+[2024-04-23 02:10:46] INFO root fetch - processPackages [optymus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optymus-0.1.1.tar.gz tmp/optymus-0.1.2.tar.gz --markdown 20240423/o/optymus/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 02:10:46] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/f4/19/7b1bac3b3ef8f548fcfcd916ecaf6c392d75ff5997e785d688f5270478f1/ez-a-sync-0.9.3.tar.gz
+[2024-04-23 02:10:46] INFO root fetch - processPackages [mo-times]: executing diffoscope
+[2024-04-23 02:10:46] INFO root fetch - processPackages [mo-times]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_times-5.589.24111.tar.gz tmp/mo_times-5.598.24114.tar.gz --markdown 20240423/m/mo-times/5.589.24111-5.598.24114/README.md --exclude *.pyd
+[2024-04-23 02:10:46] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-23 02:10:46] INFO root fetch - processPackages [expyvalidations]: executing diffoscope
+[2024-04-23 02:10:46] INFO root fetch - processPackages [expyvalidations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expyvalidations-0.0.2.tar.gz tmp/expyvalidations-0.0.4.tar.gz --markdown 20240423/e/expyvalidations/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-04-23 02:10:46] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2024-04-23 02:10:46] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.9.2.tar.gz tmp/ez-a-sync-0.9.3.tar.gz --markdown 20240423/e/ez-a-sync/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-23 02:10:46] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-23 02:10:46] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202404210010.tar.gz tmp/openbb_nightly-4.1.7.dev202404220010.tar.gz --markdown 20240423/o/openbb-nightly/4.1.7.dev202404210010-4.1.7.dev202404220010/README.md --exclude *.pyd
+[2024-04-23 02:10:46] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-23 02:10:46] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240423/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-23 02:10:47] INFO root fetch - processPackages [optymus]: Remove: archive file [/home/abi/fetcher/tmp/optymus-0.1.1.tar.gz]
+[2024-04-23 02:10:47] INFO root fetch - processPackages [optymus]: Remove: archive file [/home/abi/fetcher/tmp/optymus-0.1.2.tar.gz]
+[2024-04-23 02:10:47] INFO root fetch - main [MainThread]: End processing [optymus]: success
+[2024-04-23 02:10:47] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo_times-5.589.24111.tar.gz]
+[2024-04-23 02:10:47] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo_times-5.598.24114.tar.gz]
+[2024-04-23 02:10:47] INFO root fetch - main [MainThread]: End processing [mo-times]: success
+[2024-04-23 02:10:47] INFO root fetch - processPackages [expyvalidations]: Remove: archive file [/home/abi/fetcher/tmp/expyvalidations-0.0.2.tar.gz]
+[2024-04-23 02:10:47] INFO root fetch - processPackages [expyvalidations]: Remove: archive file [/home/abi/fetcher/tmp/expyvalidations-0.0.4.tar.gz]
+[2024-04-23 02:10:47] INFO root fetch - main [MainThread]: End processing [expyvalidations]: success
+[2024-04-23 02:10:47] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.9.2.tar.gz]
+[2024-04-23 02:10:47] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.9.3.tar.gz]
+[2024-04-23 02:10:47] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2024-04-23 02:10:47] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-23 02:10:47] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-23 02:10:47] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-23 02:10:50] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404210010.tar.gz]
+[2024-04-23 02:10:50] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404220010.tar.gz]
+[2024-04-23 02:10:50] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-23 02:10:50] INFO root fetch - main [MainThread]: Store serial: [22886236]
