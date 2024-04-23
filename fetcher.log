@@ -19958,3 +19958,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 13:40:36] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2024-04-23 13:40:36] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2024-04-23 13:40:36] INFO root fetch - main [MainThread]: Store serial: [22893155]
+[2024-04-23 13:42:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893155]
+[2024-04-23 13:42:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 13:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: env-star
+[2024-04-23 13:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SOMcreator
+[2024-04-23 13:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyallel
+[2024-04-23 13:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: olas-operate-middleware
+[2024-04-23 13:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bogrod
+[2024-04-23 13:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coolML
+[2024-04-23 13:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mediaflowimage
+[2024-04-23 13:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pandaz
+[2024-04-23 13:42:45] INFO root fetch - processPackages [env-star]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-23 13:42:45] INFO root fetch - processPackages [SOMcreator]: New version: [1.7.0] Old Version: [1.6.9]
+[2024-04-23 13:42:45] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-04-23 13:42:45] INFO root fetch - processPackages [pyallel]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-23 13:42:45] INFO root fetch - processPackages [env-star]: Downloading https://files.pythonhosted.org/packages/d2/fb/a9d2c9ec1bd89b44deadcad7a887efe054abc5011983736e87a5450ef0f3/env_star-2.4.0.tar.gz
+[2024-04-23 13:42:45] INFO root fetch - processPackages [mediaflowimage]: New version: [1.0.6] Old Version: [1.0.4]
+[2024-04-23 13:42:45] INFO root fetch - processPackages [SOMcreator]: Downloading https://files.pythonhosted.org/packages/3c/c5/4c4ea9687f9d1921d6fac103da871d21e919c2fc298e10cc3e6a4f4b5786/SOMcreator-1.6.9.tar.gz
+[2024-04-23 13:42:45] INFO root fetch - processPackages [coolML]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-23 13:42:45] INFO root fetch - processPackages [bogrod]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-23 13:42:45] WARNING root fetch - processPackages [pandaz]: Skipping, unable to determine old version
+[2024-04-23 13:42:45] INFO root fetch - main [MainThread]: End processing [pandaz] error
+[2024-04-23 13:42:45] INFO root fetch - processPackages [pyallel]: Downloading https://files.pythonhosted.org/packages/bb/ad/5fb12478a5c06cd63c101ffedb45c7804826b3e38caaea279ced9b656f0b/pyallel-1.2.0.tar.gz
+[2024-04-23 13:42:45] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-04-23 13:42:45] INFO root fetch - processPackages [mediaflowimage]: Downloading https://files.pythonhosted.org/packages/79/be/c0ab94615c56ad55651de6d1a8063850602e0f2ad6c0f866eb8fed81d83e/mediaflowimage-1.0.4.tar.gz
+[2024-04-23 13:42:45] INFO root fetch - processPackages [env-star]: Downloading https://files.pythonhosted.org/packages/01/61/e375f548cef9b55b044dfa3cd50c75b270f60cde805c38443a3fbf0de98d/env_star-2.4.1.tar.gz
+[2024-04-23 13:42:45] INFO root fetch - processPackages [coolML]: Downloading https://files.pythonhosted.org/packages/ba/22/c17d7bed9563d190af5510947d612f288eb7060f03d676849b43e5c24fe1/coolML-0.0.7.tar.gz
+[2024-04-23 13:42:45] INFO root fetch - processPackages [bogrod]: Downloading https://files.pythonhosted.org/packages/ab/f0/d2c033cc38c90a9a75fdbad38128cfafd1803a82af73aa44568f256b9871/bogrod-0.3.0.tar.gz
+[2024-04-23 13:42:45] INFO root fetch - processPackages [SOMcreator]: Downloading https://files.pythonhosted.org/packages/d1/af/7469fd319a7e744ef2cbbde3467b7d85e901b7bcebe3cc9748e833c11844/somcreator-1.7.0.tar.gz
+[2024-04-23 13:42:46] INFO root fetch - processPackages [env-star]: executing diffoscope
+[2024-04-23 13:42:46] INFO root fetch - processPackages [env-star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/env_star-2.4.0.tar.gz tmp/env_star-2.4.1.tar.gz --markdown 20240423/e/env-star/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-04-23 13:42:46] INFO root fetch - processPackages [SOMcreator]: executing diffoscope
+[2024-04-23 13:42:46] INFO root fetch - processPackages [SOMcreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SOMcreator-1.6.9.tar.gz tmp/somcreator-1.7.0.tar.gz --markdown 20240423/S/SOMcreator/1.6.9-1.7.0/README.md --exclude *.pyd
+[2024-04-23 13:42:46] INFO root fetch - processPackages [pyallel]: Downloading https://files.pythonhosted.org/packages/f7/af/5b47e69b1d409e81a909bf529b419d80ccc48fd46eb1f41ca595165723c0/pyallel-1.2.1.tar.gz
+[2024-04-23 13:42:46] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-04-23 13:42:46] INFO root fetch - processPackages [mediaflowimage]: Downloading https://files.pythonhosted.org/packages/1f/32/3a8f31cd80e403763d90621aa8844e99abc43764b48c274c65ea886cc4b5/mediaflowimage-1.0.6.tar.gz
+[2024-04-23 13:42:46] INFO root fetch - processPackages [coolML]: Downloading https://files.pythonhosted.org/packages/b6/7d/8151b07f0f9357514a7b4f4f35317144720c64e962ed5153a1f7a4527526/coolML-0.0.8.tar.gz
+[2024-04-23 13:42:46] INFO root fetch - processPackages [bogrod]: Downloading https://files.pythonhosted.org/packages/51/21/1592761f0680d9b70d54b0c88b1737f3a3ae57c774096d8477aaf3399763/bogrod-0.4.0.tar.gz
+[2024-04-23 13:42:46] INFO root fetch - processPackages [pyallel]: executing diffoscope
+[2024-04-23 13:42:46] INFO root fetch - processPackages [pyallel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyallel-1.2.0.tar.gz tmp/pyallel-1.2.1.tar.gz --markdown 20240423/p/pyallel/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-23 13:42:46] INFO root fetch - processPackages [mediaflowimage]: executing diffoscope
+[2024-04-23 13:42:46] INFO root fetch - processPackages [mediaflowimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediaflowimage-1.0.4.tar.gz tmp/mediaflowimage-1.0.6.tar.gz --markdown 20240423/m/mediaflowimage/1.0.4-1.0.6/README.md --exclude *.pyd
+[2024-04-23 13:42:46] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-04-23 13:42:46] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240423/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-04-23 13:42:46] INFO root fetch - processPackages [coolML]: executing diffoscope
+[2024-04-23 13:42:46] INFO root fetch - processPackages [coolML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolML-0.0.7.tar.gz tmp/coolML-0.0.8.tar.gz --markdown 20240423/c/coolML/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-23 13:42:46] INFO root fetch - processPackages [bogrod]: executing diffoscope
+[2024-04-23 13:42:46] INFO root fetch - processPackages [bogrod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bogrod-0.3.0.tar.gz tmp/bogrod-0.4.0.tar.gz --markdown 20240423/b/bogrod/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-23 13:42:46] INFO root fetch - processPackages [env-star]: Remove: archive file [/home/abi/fetcher/tmp/env_star-2.4.0.tar.gz]
+[2024-04-23 13:42:46] INFO root fetch - processPackages [env-star]: Remove: archive file [/home/abi/fetcher/tmp/env_star-2.4.1.tar.gz]
+[2024-04-23 13:42:46] INFO root fetch - main [MainThread]: End processing [env-star]: success
+[2024-04-23 13:42:47] INFO root fetch - processPackages [pyallel]: Remove: archive file [/home/abi/fetcher/tmp/pyallel-1.2.0.tar.gz]
+[2024-04-23 13:42:47] INFO root fetch - processPackages [pyallel]: Remove: archive file [/home/abi/fetcher/tmp/pyallel-1.2.1.tar.gz]
+[2024-04-23 13:42:47] INFO root fetch - main [MainThread]: End processing [pyallel]: success
+[2024-04-23 13:42:47] INFO root fetch - processPackages [coolML]: Remove: archive file [/home/abi/fetcher/tmp/coolML-0.0.7.tar.gz]
+[2024-04-23 13:42:47] INFO root fetch - processPackages [coolML]: Remove: archive file [/home/abi/fetcher/tmp/coolML-0.0.8.tar.gz]
+[2024-04-23 13:42:47] INFO root fetch - main [MainThread]: End processing [coolML]: success
+[2024-04-23 13:42:47] INFO root fetch - processPackages [SOMcreator]: Remove: archive file [/home/abi/fetcher/tmp/SOMcreator-1.6.9.tar.gz]
+[2024-04-23 13:42:47] INFO root fetch - processPackages [SOMcreator]: Remove: archive file [/home/abi/fetcher/tmp/somcreator-1.7.0.tar.gz]
+[2024-04-23 13:42:47] INFO root fetch - main [MainThread]: End processing [SOMcreator]: success
+[2024-04-23 13:42:47] INFO root fetch - processPackages [bogrod]: Remove: archive file [/home/abi/fetcher/tmp/bogrod-0.3.0.tar.gz]
+[2024-04-23 13:42:47] INFO root fetch - processPackages [bogrod]: Remove: archive file [/home/abi/fetcher/tmp/bogrod-0.4.0.tar.gz]
+[2024-04-23 13:42:47] INFO root fetch - main [MainThread]: End processing [bogrod]: success
+[2024-04-23 13:42:47] INFO root fetch - processPackages [mediaflowimage]: Remove: archive file [/home/abi/fetcher/tmp/mediaflowimage-1.0.4.tar.gz]
+[2024-04-23 13:42:47] INFO root fetch - processPackages [mediaflowimage]: Remove: archive file [/home/abi/fetcher/tmp/mediaflowimage-1.0.6.tar.gz]
+[2024-04-23 13:42:47] INFO root fetch - main [MainThread]: End processing [mediaflowimage]: success
+[2024-04-23 13:42:47] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-04-23 13:42:47] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-04-23 13:42:47] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-04-23 13:42:47] INFO root fetch - main [MainThread]: Store serial: [22893181]
