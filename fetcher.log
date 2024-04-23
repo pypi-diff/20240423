@@ -12767,3 +12767,33 @@
 [2024-04-23 09:07:38] INFO root fetch - processPackages [mycttestsdk]: Remove: archive file [/home/abi/fetcher/tmp/mycttestsdk-0.1.1.tar.gz]
 [2024-04-23 09:07:38] INFO root fetch - main [MainThread]: End processing [mycttestsdk]: success
 [2024-04-23 09:07:38] INFO root fetch - main [MainThread]: Store serial: [22890041]
+[2024-04-23 09:09:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890041]
+[2024-04-23 09:09:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 09:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napalm-s350
+[2024-04-23 09:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-hub-nightly
+[2024-04-23 09:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crewai
+[2024-04-23 09:09:46] INFO root fetch - processPackages [napalm-s350]: New version: [0.5.0] Old Version: [0.4.1.1]
+[2024-04-23 09:09:46] INFO root fetch - processPackages [crewai]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-04-23 09:09:46] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-04-23 09:09:47] INFO root fetch - processPackages [napalm-s350]: Downloading https://files.pythonhosted.org/packages/08/c9/609023290cdcd42adba28ab154c8309441a672d8e27b84934d15a4bde0fe/napalm-s350-0.4.1.1.tar.gz
+[2024-04-23 09:09:47] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/e9/e3/15cbe7ed14b2b805613edd70fe8d16de0f00ad49e45f0496db0d34c3274c/crewai-0.5.3.tar.gz
+[2024-04-23 09:09:47] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-04-23 09:09:47] INFO root fetch - processPackages [napalm-s350]: Downloading https://files.pythonhosted.org/packages/e3/98/efcf4a6e35c9a3be7daab55d680e5c48a79ab22c08905f7e9a2481d35093/napalm_s350-0.5.0.tar.gz
+[2024-04-23 09:09:47] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/4e/2d/131d296cf0495637bfea59b11af0767de8fa11466880e3d702ab43a360d0/crewai-0.5.5.tar.gz
+[2024-04-23 09:09:47] INFO root fetch - processPackages [napalm-s350]: executing diffoscope
+[2024-04-23 09:09:47] INFO root fetch - processPackages [napalm-s350]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm-s350-0.4.1.1.tar.gz tmp/napalm_s350-0.5.0.tar.gz --markdown 20240423/n/napalm-s350/0.4.1.1-0.5.0/README.md --exclude *.pyd
+[2024-04-23 09:09:47] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-04-23 09:09:47] INFO root fetch - processPackages [crewai]: executing diffoscope
+[2024-04-23 09:09:47] INFO root fetch - processPackages [crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai-0.5.3.tar.gz tmp/crewai-0.5.5.tar.gz --markdown 20240423/c/crewai/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-04-23 09:09:47] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-04-23 09:09:47] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240423/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-04-23 09:09:48] INFO root fetch - processPackages [napalm-s350]: Remove: archive file [/home/abi/fetcher/tmp/napalm-s350-0.4.1.1.tar.gz]
+[2024-04-23 09:09:48] INFO root fetch - processPackages [napalm-s350]: Remove: archive file [/home/abi/fetcher/tmp/napalm_s350-0.5.0.tar.gz]
+[2024-04-23 09:09:48] INFO root fetch - main [MainThread]: End processing [napalm-s350]: success
+[2024-04-23 09:09:48] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.3.tar.gz]
+[2024-04-23 09:09:48] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.5.tar.gz]
+[2024-04-23 09:09:48] INFO root fetch - main [MainThread]: End processing [crewai]: success
+[2024-04-23 09:09:48] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-04-23 09:09:48] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-04-23 09:09:48] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-04-23 09:09:48] INFO root fetch - main [MainThread]: Store serial: [22890055]
