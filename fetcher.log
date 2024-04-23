@@ -2747,3 +2747,47 @@
 [2024-04-23 02:20:17] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-3.6.0.tar.gz]
 [2024-04-23 02:20:17] INFO root fetch - main [MainThread]: End processing [mapdata]: success
 [2024-04-23 02:20:17] INFO root fetch - main [MainThread]: Store serial: [22886342]
+[2024-04-23 02:22:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886342]
+[2024-04-23 02:22:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 02:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-aurora-globaldatabase
+[2024-04-23 02:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NEURON-nightly
+[2024-04-23 02:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mms-client
+[2024-04-23 02:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paraview-trame-components
+[2024-04-23 02:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: entity-recognition-service
+[2024-04-23 02:22:25] INFO root fetch - processPackages [entity-recognition-service]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 02:22:25] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-23 02:22:25] INFO root fetch - processPackages [mms-client]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-04-23 02:22:25] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0a1.dev221] Old Version: [9.0a1.dev217]
+[2024-04-23 02:22:25] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/23/18/7145326a6ea0566c2c41ba0bf3822fffc6b4da314a426433179c4724bda3/entity_recognition_service-0.1.8.tar.gz
+[2024-04-23 02:22:25] INFO root fetch - processPackages [paraview-trame-components]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-23 02:22:25] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-23 02:22:26] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-23 02:22:26] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/86/75/a994a9af22b16241a2b38cb3314e7d2457d9aaf73d35a5b70823d8c8ce18/entity_recognition_service-0.1.9.tar.gz
+[2024-04-23 02:22:26] INFO root fetch - processPackages [paraview-trame-components]: Downloading https://files.pythonhosted.org/packages/95/3c/472cef74e82b0163076d6bed5488816382d8af3cc33e2bfa0a422d4787f6/paraview_trame_components-0.5.0.tar.gz
+[2024-04-23 02:22:26] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/56/65/08eefa2fcc747bd38a866e1db7a91ec85456f70bff5f5c89eb38ef6cb67c/mms_client-1.4.1.tar.gz
+[2024-04-23 02:22:26] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/50/a4/fe93e299cd17e901fc93f660531a56417d45f44cd6b967ccd784c5121e46/NEURON_nightly-9.0a1.dev217-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 02:22:26] INFO root fetch - processPackages [entity-recognition-service]: executing diffoscope
+[2024-04-23 02:22:26] INFO root fetch - processPackages [entity-recognition-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entity_recognition_service-0.1.8.tar.gz tmp/entity_recognition_service-0.1.9.tar.gz --markdown 20240423/e/entity-recognition-service/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 02:22:26] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 17368365>=10485760
+[2024-04-23 02:22:26] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2024-04-23 02:22:26] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-23 02:22:26] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240423/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-23 02:22:26] INFO root fetch - processPackages [paraview-trame-components]: Downloading https://files.pythonhosted.org/packages/94/8a/25cf23eb5e25afc9311406340a26b848c9ad83927445ead4e133707e505a/paraview_trame_components-0.6.0.tar.gz
+[2024-04-23 02:22:26] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/1a/56/3c6b312f924cee4741a76af828bfb88c363c827110070f2785df7f371df5/mms_client-1.5.0.tar.gz
+[2024-04-23 02:22:26] INFO root fetch - processPackages [paraview-trame-components]: executing diffoscope
+[2024-04-23 02:22:26] INFO root fetch - processPackages [paraview-trame-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paraview_trame_components-0.5.0.tar.gz tmp/paraview_trame_components-0.6.0.tar.gz --markdown 20240423/p/paraview-trame-components/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-23 02:22:26] INFO root fetch - processPackages [mms-client]: executing diffoscope
+[2024-04-23 02:22:26] INFO root fetch - processPackages [mms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mms_client-1.4.1.tar.gz tmp/mms_client-1.5.0.tar.gz --markdown 20240423/m/mms-client/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-04-23 02:22:26] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.8.tar.gz]
+[2024-04-23 02:22:26] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.9.tar.gz]
+[2024-04-23 02:22:26] INFO root fetch - main [MainThread]: End processing [entity-recognition-service]: success
+[2024-04-23 02:22:26] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-23 02:22:26] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-23 02:22:26] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-23 02:22:27] INFO root fetch - processPackages [paraview-trame-components]: Remove: archive file [/home/abi/fetcher/tmp/paraview_trame_components-0.5.0.tar.gz]
+[2024-04-23 02:22:27] INFO root fetch - processPackages [paraview-trame-components]: Remove: archive file [/home/abi/fetcher/tmp/paraview_trame_components-0.6.0.tar.gz]
+[2024-04-23 02:22:27] INFO root fetch - main [MainThread]: End processing [paraview-trame-components]: success
+[2024-04-23 02:22:27] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.4.1.tar.gz]
+[2024-04-23 02:22:27] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.5.0.tar.gz]
+[2024-04-23 02:22:27] INFO root fetch - main [MainThread]: End processing [mms-client]: success
+[2024-04-23 02:22:27] INFO root fetch - main [MainThread]: Store serial: [22886357]
