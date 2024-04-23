@@ -10544,3 +10544,59 @@
 [2024-04-23 07:05:11] INFO root fetch - processPackages [ALLM]: Remove: archive file [/home/abi/fetcher/tmp/ALLM-1.0.1-py3-none-any.whl.zip]
 [2024-04-23 07:05:11] INFO root fetch - main [MainThread]: End processing [ALLM]: success
 [2024-04-23 07:05:11] INFO root fetch - main [MainThread]: Store serial: [22889145]
+[2024-04-23 07:07:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889145]
+[2024-04-23 07:07:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 07:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgserver
+[2024-04-23 07:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-partner-multi-relation
+[2024-04-23 07:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-pe
+[2024-04-23 07:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asktable
+[2024-04-23 07:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grpc-requests
+[2024-04-23 07:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reflex-antd
+[2024-04-23 07:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datasette-secrets
+[2024-04-23 07:07:19] INFO root fetch - processPackages [odoo-addon-partner-multi-relation]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1]
+[2024-04-23 07:07:19] INFO root fetch - processPackages [reflex-antd]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 07:07:20] INFO root fetch - processPackages [odoo-addon-partner-multi-relation]: Downloading https://files.pythonhosted.org/packages/31/a0/c6600088aded29b78b80f571d79437b804076e52635f1aec12b17a9999b6/odoo_addon_partner_multi_relation-16.0.1.0.1-py3-none-any.whl
+[2024-04-23 07:07:20] INFO root fetch - processPackages [pgserver]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 07:07:20] INFO root fetch - processPackages [asktable]: New version: [0.14.0] Old Version: [0.13.9]
+[2024-04-23 07:07:20] WARNING root fetch - processPackages [datasette-secrets]: Skipping, unable to determine old version
+[2024-04-23 07:07:20] INFO root fetch - main [MainThread]: End processing [datasette-secrets] error
+[2024-04-23 07:07:20] INFO root fetch - processPackages [grpc-requests]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-23 07:07:20] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240423] Old Version: [0.1.2.dev20240422]
+[2024-04-23 07:07:20] INFO root fetch - processPackages [reflex-antd]: Downloading https://files.pythonhosted.org/packages/76/c8/9cfbe4ede40856ebe2fa7d017ead5fdad9be32a90c79916af2582cbab170/reflex_antd-0.0.2.tar.gz
+[2024-04-23 07:07:20] INFO root fetch - processPackages [pgserver]: Downloading https://files.pythonhosted.org/packages/46/5d/d0cdd7d01b32be214047e96d54863bb44433a9dd5f923a79b881c597907f/pgserver-0.1.0-cp39-cp39-win_amd64.whl
+[2024-04-23 07:07:20] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/bc/07/a62e0f67efd81bc484f6807c0be8c9787ba2da0207a165d459349918914c/asktable-0.13.9-py3-none-any.whl
+[2024-04-23 07:07:20] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/98/9f/a4c368035216f94cc777a5ec5dea2f70b0621adf60e758324e4e829d9c73/rapid_pe-0.1.2.dev20240422.tar.gz
+[2024-04-23 07:07:20] INFO root fetch - processPackages [grpc-requests]: Downloading https://files.pythonhosted.org/packages/8e/94/c551cdc86dbba2e07e5361dd889a007c91e52640d17ded4fb23c7a16d5d0/grpc_requests-0.1.7.tar.gz
+[2024-04-23 07:07:20] INFO root fetch - processPackages [reflex-antd]: Downloading https://files.pythonhosted.org/packages/99/7c/77aae5d158d0dcbde154e6ed6f2d201953ba6e386e8351249e3ea8e64ee3/reflex_antd-0.0.3.tar.gz
+[2024-04-23 07:07:20] WARNING root fetch - processPackages [pgserver]: Skipping package: exceeds size limit 12795088>=10485760
+[2024-04-23 07:07:20] INFO root fetch - main [MainThread]: End processing [pgserver] error
+[2024-04-23 07:07:20] INFO root fetch - processPackages [odoo-addon-partner-multi-relation]: Downloading https://files.pythonhosted.org/packages/82/04/85e240800dfab3b2f72494ceef26fb4574078e3e95d496ee67080ec27d82/odoo_addon_partner_multi_relation-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-23 07:07:20] INFO root fetch - processPackages [reflex-antd]: executing diffoscope
+[2024-04-23 07:07:20] INFO root fetch - processPackages [reflex-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex_antd-0.0.2.tar.gz tmp/reflex_antd-0.0.3.tar.gz --markdown 20240423/r/reflex-antd/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 07:07:20] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/06/0f/01035305a4725df34f532517701a1431c087d67131513da5185bd5741901/asktable-0.14.0-py3-none-any.whl
+[2024-04-23 07:07:20] INFO root fetch - processPackages [grpc-requests]: Downloading https://files.pythonhosted.org/packages/4f/b3/f1e7646bd9b45995eb1e7ec953e73b9c05451e0b337f9f4ea4f92713e8a4/grpc_requests-0.1.8.tar.gz
+[2024-04-23 07:07:20] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/13/b5/1b17363c312f8ced938e2c2980f807e500f2885087f1703850865479d8bf/rapid_pe-0.1.2.dev20240423.tar.gz
+[2024-04-23 07:07:20] INFO root fetch - processPackages [odoo-addon-partner-multi-relation]: executing diffoscope
+[2024-04-23 07:07:20] INFO root fetch - processPackages [odoo-addon-partner-multi-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_multi_relation-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_partner_multi_relation-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-partner-multi-relation/16.0.1.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-23 07:07:20] INFO root fetch - processPackages [asktable]: executing diffoscope
+[2024-04-23 07:07:20] INFO root fetch - processPackages [asktable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asktable-0.13.9-py3-none-any.whl.zip tmp/asktable-0.14.0-py3-none-any.whl.zip --markdown 20240423/a/asktable/0.13.9-0.14.0/README.md --exclude *.pyd
+[2024-04-23 07:07:20] INFO root fetch - processPackages [grpc-requests]: executing diffoscope
+[2024-04-23 07:07:20] INFO root fetch - processPackages [grpc-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpc_requests-0.1.7.tar.gz tmp/grpc_requests-0.1.8.tar.gz --markdown 20240423/g/grpc-requests/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-23 07:07:21] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-04-23 07:07:21] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240422.tar.gz tmp/rapid_pe-0.1.2.dev20240423.tar.gz --markdown 20240423/r/rapid-pe/0.1.2.dev20240422-0.1.2.dev20240423/README.md --exclude *.pyd
+[2024-04-23 07:07:21] INFO root fetch - processPackages [grpc-requests]: Remove: archive file [/home/abi/fetcher/tmp/grpc_requests-0.1.7.tar.gz]
+[2024-04-23 07:07:21] INFO root fetch - processPackages [grpc-requests]: Remove: archive file [/home/abi/fetcher/tmp/grpc_requests-0.1.8.tar.gz]
+[2024-04-23 07:07:21] INFO root fetch - main [MainThread]: End processing [grpc-requests]: success
+[2024-04-23 07:07:21] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.13.9-py3-none-any.whl.zip]
+[2024-04-23 07:07:21] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.14.0-py3-none-any.whl.zip]
+[2024-04-23 07:07:21] INFO root fetch - main [MainThread]: End processing [asktable]: success
+[2024-04-23 07:07:21] INFO root fetch - processPackages [reflex-antd]: Remove: archive file [/home/abi/fetcher/tmp/reflex_antd-0.0.2.tar.gz]
+[2024-04-23 07:07:21] INFO root fetch - processPackages [reflex-antd]: Remove: archive file [/home/abi/fetcher/tmp/reflex_antd-0.0.3.tar.gz]
+[2024-04-23 07:07:21] INFO root fetch - main [MainThread]: End processing [reflex-antd]: success
+[2024-04-23 07:07:21] INFO root fetch - processPackages [odoo-addon-partner-multi-relation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_multi_relation-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-23 07:07:21] INFO root fetch - processPackages [odoo-addon-partner-multi-relation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_multi_relation-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-23 07:07:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-multi-relation]: success
+[2024-04-23 07:07:21] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240422.tar.gz]
+[2024-04-23 07:07:21] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240423.tar.gz]
+[2024-04-23 07:07:21] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-04-23 07:07:21] INFO root fetch - main [MainThread]: Store serial: [22889181]
