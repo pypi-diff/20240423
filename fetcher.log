@@ -18021,3 +18021,51 @@
 [2024-04-23 12:28:03] INFO root fetch - processPackages [river]: Remove: archive file [/home/abi/fetcher/tmp/river-0.9.0.tar.gz]
 [2024-04-23 12:28:03] INFO root fetch - main [MainThread]: End processing [river]: success
 [2024-04-23 12:28:03] INFO root fetch - main [MainThread]: Store serial: [22892345]
+[2024-04-23 12:30:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892345]
+[2024-04-23 12:30:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 12:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: everai
+[2024-04-23 12:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yellowdog-python-examples
+[2024-04-23 12:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clovers
+[2024-04-23 12:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tabviz
+[2024-04-23 12:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kk
+[2024-04-23 12:30:12] INFO root fetch - processPackages [tabviz]: New version: [1.1.0.7] Old Version: [1.1.0.6]
+[2024-04-23 12:30:12] INFO root fetch - processPackages [everai]: New version: [0.1.26] Old Version: [0.1.25]
+[2024-04-23 12:30:13] INFO root fetch - processPackages [clovers]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-23 12:30:13] INFO root fetch - processPackages [kk]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 12:30:13] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [7.8.8] Old Version: [7.8.7]
+[2024-04-23 12:30:13] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/96/9f/80928d87ccbfa13aa06c1901391d9af421879ab2229edc42d8fa3899512d/everai-0.1.25-py3-none-any.whl
+[2024-04-23 12:30:13] INFO root fetch - processPackages [tabviz]: Downloading https://files.pythonhosted.org/packages/a3/cd/1f34b68b0c6a3f569f6d67d26343a85a3ed8f04c86aaa61c9e07c51a0087/tabviz-1.1.0.6.tar.gz
+[2024-04-23 12:30:13] INFO root fetch - processPackages [clovers]: Downloading https://files.pythonhosted.org/packages/cc/2d/38e49d4a6c3afe7269e8e956386d68897acef0ec9d496ae7c7881e77c3f2/clovers-0.1.2.tar.gz
+[2024-04-23 12:30:13] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/d8/3e/cf861b633495357c731ed5ffe41d478eab027219b6377995a276d25841b5/yellowdog_python_examples-7.8.7.tar.gz
+[2024-04-23 12:30:13] INFO root fetch - processPackages [kk]: Downloading https://files.pythonhosted.org/packages/05/15/00d00feb936644a628003dc588723320bf0fd0f2db401d72398fe349a7b0/kk-0.9.8.tar.gz
+[2024-04-23 12:30:13] INFO root fetch - processPackages [tabviz]: Downloading https://files.pythonhosted.org/packages/13/4b/f142e592809af97a7c82325ca106dff42f5ea36d5aceff2ce4f575e391a7/tabviz-1.1.0.7.tar.gz
+[2024-04-23 12:30:13] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/6c/a1/1c3072a86549f9f312b7f555e81d1878fee6cd41e439938fa0a3a12a0d69/everai-0.1.26-py3-none-any.whl
+[2024-04-23 12:30:13] INFO root fetch - processPackages [clovers]: Downloading https://files.pythonhosted.org/packages/16/b8/94548ea9647b4559754b108c52ab0122cf2d1aeb6eb52329ca642a69e5f2/clovers-0.1.3.tar.gz
+[2024-04-23 12:30:13] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/af/88/1ea1aa339535d41d76272dec6c55b6043eda480cff381c1d8f406328cc2f/yellowdog_python_examples-7.8.8.tar.gz
+[2024-04-23 12:30:13] INFO root fetch - processPackages [tabviz]: executing diffoscope
+[2024-04-23 12:30:13] INFO root fetch - processPackages [tabviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabviz-1.1.0.6.tar.gz tmp/tabviz-1.1.0.7.tar.gz --markdown 20240423/t/tabviz/1.1.0.6-1.1.0.7/README.md --exclude *.pyd
+[2024-04-23 12:30:13] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-04-23 12:30:13] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.25-py3-none-any.whl.zip tmp/everai-0.1.26-py3-none-any.whl.zip --markdown 20240423/e/everai/0.1.25-0.1.26/README.md --exclude *.pyd
+[2024-04-23 12:30:13] INFO root fetch - processPackages [clovers]: executing diffoscope
+[2024-04-23 12:30:13] INFO root fetch - processPackages [clovers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clovers-0.1.2.tar.gz tmp/clovers-0.1.3.tar.gz --markdown 20240423/c/clovers/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-23 12:30:13] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2024-04-23 12:30:13] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog_python_examples-7.8.7.tar.gz tmp/yellowdog_python_examples-7.8.8.tar.gz --markdown 20240423/y/yellowdog-python-examples/7.8.7-7.8.8/README.md --exclude *.pyd
+[2024-04-23 12:30:13] INFO root fetch - processPackages [kk]: Downloading https://files.pythonhosted.org/packages/b5/15/9ccac3bdafd51ddc754a054e53e326e224e2cbf6422268644d40c8d42779/kk-0.9.9.tar.gz
+[2024-04-23 12:30:14] INFO root fetch - processPackages [kk]: executing diffoscope
+[2024-04-23 12:30:14] INFO root fetch - processPackages [kk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kk-0.9.8.tar.gz tmp/kk-0.9.9.tar.gz --markdown 20240423/k/kk/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-23 12:30:14] INFO root fetch - processPackages [clovers]: Remove: archive file [/home/abi/fetcher/tmp/clovers-0.1.2.tar.gz]
+[2024-04-23 12:30:14] INFO root fetch - processPackages [clovers]: Remove: archive file [/home/abi/fetcher/tmp/clovers-0.1.3.tar.gz]
+[2024-04-23 12:30:14] INFO root fetch - main [MainThread]: End processing [clovers]: success
+[2024-04-23 12:30:14] INFO root fetch - processPackages [tabviz]: Remove: archive file [/home/abi/fetcher/tmp/tabviz-1.1.0.6.tar.gz]
+[2024-04-23 12:30:14] INFO root fetch - processPackages [tabviz]: Remove: archive file [/home/abi/fetcher/tmp/tabviz-1.1.0.7.tar.gz]
+[2024-04-23 12:30:14] INFO root fetch - main [MainThread]: End processing [tabviz]: success
+[2024-04-23 12:30:14] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_python_examples-7.8.7.tar.gz]
+[2024-04-23 12:30:14] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_python_examples-7.8.8.tar.gz]
+[2024-04-23 12:30:14] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2024-04-23 12:30:15] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.25-py3-none-any.whl.zip]
+[2024-04-23 12:30:15] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.26-py3-none-any.whl.zip]
+[2024-04-23 12:30:15] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-04-23 12:30:15] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.8.tar.gz]
+[2024-04-23 12:30:15] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.9.tar.gz]
+[2024-04-23 12:30:15] INFO root fetch - main [MainThread]: End processing [kk]: success
+[2024-04-23 12:30:15] INFO root fetch - main [MainThread]: Store serial: [22892372]
