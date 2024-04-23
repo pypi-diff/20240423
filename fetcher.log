@@ -15316,3 +15316,15 @@
 [2024-04-23 10:48:43] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.9.tar.gz]
 [2024-04-23 10:48:43] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
 [2024-04-23 10:48:43] INFO root fetch - main [MainThread]: Store serial: [22891284]
+[2024-04-23 10:50:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891284]
+[2024-04-23 10:50:51] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-23 10:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudcix
+[2024-04-23 10:50:52] INFO root fetch - processPackages [cloudcix]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-23 10:50:52] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/cc/cc/13d28a5efdd4e496bafa1fd6d1a99c8d16600cc337a964e77d0a23ecac9d/cloudcix-0.9.6.tar.gz
+[2024-04-23 10:50:52] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/23/91/e2a19ba7fccf414f054cc4ff387b792fe6a964e617de11b0af3707683850/cloudcix-0.9.7.tar.gz
+[2024-04-23 10:50:52] INFO root fetch - processPackages [cloudcix]: executing diffoscope
+[2024-04-23 10:50:52] INFO root fetch - processPackages [cloudcix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudcix-0.9.6.tar.gz tmp/cloudcix-0.9.7.tar.gz --markdown 20240423/c/cloudcix/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-04-23 10:50:53] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.6.tar.gz]
+[2024-04-23 10:50:53] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.7.tar.gz]
+[2024-04-23 10:50:53] INFO root fetch - main [MainThread]: End processing [cloudcix]: success
+[2024-04-23 10:50:53] INFO root fetch - main [MainThread]: Store serial: [22891287]
