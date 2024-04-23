@@ -7336,3 +7336,33 @@
 [2024-04-23 03:35:29] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.5.4.zip]
 [2024-04-23 03:35:29] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
 [2024-04-23 03:35:29] INFO root fetch - main [MainThread]: Store serial: [22887888]
+[2024-04-23 03:37:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887888]
+[2024-04-23 03:37:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 03:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: artd-product
+[2024-04-23 03:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gdsfactory
+[2024-04-23 03:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kmt
+[2024-04-23 03:37:37] INFO root fetch - processPackages [artd-product]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 03:37:38] INFO root fetch - processPackages [artd-product]: Downloading https://files.pythonhosted.org/packages/12/61/284146d0bdd1d5a3f2e4672473efc50ed498dbf6c1eb4f78905f390da978/artd-product-1.0.8.tar.gz
+[2024-04-23 03:37:38] INFO root fetch - processPackages [kmt]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-23 03:37:38] INFO root fetch - processPackages [gdsfactory]: New version: [7.9.4] Old Version: [7.9.3]
+[2024-04-23 03:37:38] INFO root fetch - processPackages [artd-product]: Downloading https://files.pythonhosted.org/packages/6c/38/642959a21f3cec2bfb572b7895fd53aa74950997cf09da6d059defad2794/artd-product-1.0.9.tar.gz
+[2024-04-23 03:37:38] INFO root fetch - processPackages [kmt]: Downloading https://files.pythonhosted.org/packages/5a/c1/54115ff8e5a6de12f93e8f11e298b009629943105340e897a13111a01f9f/kmt-0.2.0.tar.gz
+[2024-04-23 03:37:38] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/1c/96/7a29503ca823dbf6601482ccaa06c4ed69751cfe757c588af2d42d0144a1/gdsfactory-7.9.3.tar.gz
+[2024-04-23 03:37:38] INFO root fetch - processPackages [artd-product]: executing diffoscope
+[2024-04-23 03:37:38] INFO root fetch - processPackages [artd-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd-product-1.0.8.tar.gz tmp/artd-product-1.0.9.tar.gz --markdown 20240423/a/artd-product/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 03:37:38] INFO root fetch - processPackages [kmt]: Downloading https://files.pythonhosted.org/packages/9d/81/ccd042567a65d13b8483acac6e0350bac5f371eab78aff195939195c7166/kmt-0.3.0.tar.gz
+[2024-04-23 03:37:38] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/9f/1a/628268e13c9a7b40bfd62de355f5bf3a597a44e601c8a59044e8b419bfe9/gdsfactory-7.9.4.tar.gz
+[2024-04-23 03:37:38] INFO root fetch - processPackages [artd-product]: Remove: archive file [/home/abi/fetcher/tmp/artd-product-1.0.8.tar.gz]
+[2024-04-23 03:37:38] INFO root fetch - processPackages [artd-product]: Remove: archive file [/home/abi/fetcher/tmp/artd-product-1.0.9.tar.gz]
+[2024-04-23 03:37:38] INFO root fetch - main [MainThread]: End processing [artd-product]: success
+[2024-04-23 03:37:38] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2024-04-23 03:37:38] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-7.9.3.tar.gz tmp/gdsfactory-7.9.4.tar.gz --markdown 20240423/g/gdsfactory/7.9.3-7.9.4/README.md --exclude *.pyd
+[2024-04-23 03:37:38] INFO root fetch - processPackages [kmt]: executing diffoscope
+[2024-04-23 03:37:38] INFO root fetch - processPackages [kmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmt-0.2.0.tar.gz tmp/kmt-0.3.0.tar.gz --markdown 20240423/k/kmt/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-23 03:37:39] INFO root fetch - processPackages [kmt]: Remove: archive file [/home/abi/fetcher/tmp/kmt-0.2.0.tar.gz]
+[2024-04-23 03:37:39] INFO root fetch - processPackages [kmt]: Remove: archive file [/home/abi/fetcher/tmp/kmt-0.3.0.tar.gz]
+[2024-04-23 03:37:39] INFO root fetch - main [MainThread]: End processing [kmt]: success
+[2024-04-23 03:37:41] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.3.tar.gz]
+[2024-04-23 03:37:41] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.4.tar.gz]
+[2024-04-23 03:37:41] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2024-04-23 03:37:41] INFO root fetch - main [MainThread]: Store serial: [22887897]
