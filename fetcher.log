@@ -10833,3 +10833,24 @@
 [2024-04-23 07:20:22] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.4b1.tar.gz]
 [2024-04-23 07:20:22] INFO root fetch - main [MainThread]: End processing [YaraForge]: success
 [2024-04-23 07:20:22] INFO root fetch - main [MainThread]: Store serial: [22889284]
+[2024-04-23 07:22:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889284]
+[2024-04-23 07:22:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpymad
+[2024-04-23 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-dbchat
+[2024-04-23 07:22:31] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc93.post1] Old Version: [0.0.2rc92.post1]
+[2024-04-23 07:22:31] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/14/30/a17939a8c7ab70872ec77b29ebd4a01326a056bf63ae7fe640d7dfd0f382/py_dbchat-0.0.2rc92.post1.tar.gz
+[2024-04-23 07:22:31] INFO root fetch - processPackages [cpymad]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-04-23 07:22:31] INFO root fetch - processPackages [cpymad]: Downloading https://files.pythonhosted.org/packages/30/bb/2b5fa1b0c1d0b8e15157e2c957f089bfc4ce7c7e4c8b8f3695f88d91a8b1/cpymad-1.9.2.tar.gz
+[2024-04-23 07:22:31] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/84/37/8a3212397a0d355d2e918b4eecc4c20139b12617dbc68f91834b7367923c/py_dbchat-0.0.2rc93.post1.tar.gz
+[2024-04-23 07:22:31] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-04-23 07:22:31] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc92.post1.tar.gz tmp/py_dbchat-0.0.2rc93.post1.tar.gz --markdown 20240423/p/py-dbchat/0.0.2rc92.post1-0.0.2rc93.post1/README.md --exclude *.pyd
+[2024-04-23 07:22:31] INFO root fetch - processPackages [cpymad]: Downloading https://files.pythonhosted.org/packages/cc/6a/42ff69a446e6f0be417f116479a86c36046758bf3edccedee833925ca1dd/cpymad-1.9.3.tar.gz
+[2024-04-23 07:22:32] INFO root fetch - processPackages [cpymad]: executing diffoscope
+[2024-04-23 07:22:32] INFO root fetch - processPackages [cpymad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpymad-1.9.2.tar.gz tmp/cpymad-1.9.3.tar.gz --markdown 20240423/c/cpymad/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-04-23 07:22:32] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc92.post1.tar.gz]
+[2024-04-23 07:22:32] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc93.post1.tar.gz]
+[2024-04-23 07:22:32] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-04-23 07:22:33] INFO root fetch - processPackages [cpymad]: Remove: archive file [/home/abi/fetcher/tmp/cpymad-1.9.2.tar.gz]
+[2024-04-23 07:22:33] INFO root fetch - processPackages [cpymad]: Remove: archive file [/home/abi/fetcher/tmp/cpymad-1.9.3.tar.gz]
+[2024-04-23 07:22:33] INFO root fetch - main [MainThread]: End processing [cpymad]: success
+[2024-04-23 07:22:33] INFO root fetch - main [MainThread]: Store serial: [22889330]
