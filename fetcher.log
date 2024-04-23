@@ -9325,3 +9325,76 @@
 [2024-04-23 05:30:45] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-bucket-1.3.1.tar.gz]
 [2024-04-23 05:30:45] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-bucket]: success
 [2024-04-23 05:30:45] INFO root fetch - main [MainThread]: Store serial: [22888588]
+[2024-04-23 05:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888588]
+[2024-04-23 05:32:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 05:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymycobot
+[2024-04-23 05:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mmengine-lite
+[2024-04-23 05:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mmengine
+[2024-04-23 05:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ghostwindow
+[2024-04-23 05:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ghostwindow
+[2024-04-23 05:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-bard
+[2024-04-23 05:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gobnb
+[2024-04-23 05:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agt-server
+[2024-04-23 05:32:54] INFO root fetch - processPackages [agt-server]: New version: [1.3.0] Old Version: [1.2.9]
+[2024-04-23 05:32:54] INFO root fetch - processPackages [ghostwindow]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-23 05:32:54] INFO root fetch - processPackages [ghostwindow]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-23 05:32:54] INFO root fetch - processPackages [mmengine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-23 05:32:54] INFO root fetch - processPackages [mmengine-lite]: New version: [0.10.4] Old Version: [0.10.3]
+[2024-04-23 05:32:54] INFO root fetch - processPackages [nonebot-plugin-bard]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-23 05:32:54] INFO root fetch - processPackages [gobnb]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-23 05:32:54] INFO root fetch - processPackages [pymycobot]: New version: [3.4.6b1] Old Version: [3.4.6]
+[2024-04-23 05:32:54] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/35/f7/291ed498714891b733e79ea12cb87b8e56760f5dee7cef35e85ab05f26b1/agt_server-1.2.9.tar.gz
+[2024-04-23 05:32:54] INFO root fetch - processPackages [ghostwindow]: Downloading https://files.pythonhosted.org/packages/54/a1/8bdf7340b4fb3c0727018fa035bb51c7310a9bc734261667b0c157a7aa83/ghostwindow-1.0.1.tar.gz
+[2024-04-23 05:32:54] INFO root fetch - processPackages [ghostwindow]: Downloading https://files.pythonhosted.org/packages/54/a1/8bdf7340b4fb3c0727018fa035bb51c7310a9bc734261667b0c157a7aa83/ghostwindow-1.0.1.tar.gz
+[2024-04-23 05:32:54] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/cf/83/ede7cbdd88df9a117f183d55fda01c144e9351fd5b915ae90d7fdcc8c548/pymycobot-3.4.6.tar.gz
+[2024-04-23 05:32:54] INFO root fetch - processPackages [nonebot-plugin-bard]: Downloading https://files.pythonhosted.org/packages/24/1a/d631f196f1309070a977f659e36a84bb875ffba367a2d0cf9800a65a4d48/nonebot_plugin_bard-0.4.0.tar.gz
+[2024-04-23 05:32:54] INFO root fetch - processPackages [mmengine-lite]: Downloading https://files.pythonhosted.org/packages/77/96/6febc5ffa90ccf57b267eb8df0d91620f6e037cea2ad49a01fb93e3e4b12/mmengine-lite-0.10.3.tar.gz
+[2024-04-23 05:32:54] INFO root fetch - processPackages [gobnb]: Downloading https://files.pythonhosted.org/packages/3a/fd/51f62619062e7bde39814fa2d047289d9b2851adaef9f7e40a735de9b9a0/gobnb-0.0.6.tar.gz
+[2024-04-23 05:32:54] INFO root fetch - processPackages [mmengine]: Downloading https://files.pythonhosted.org/packages/87/98/3203086fa5a3b04b9916f698608ae6de914035981119a9fb6967cbba6bca/mmengine-0.9.0.tar.gz
+[2024-04-23 05:32:55] INFO root fetch - processPackages [ghostwindow]: Downloading https://files.pythonhosted.org/packages/37/2d/003dbfa2d650c53d36042f45747aace41df267cbcdfaae7a2865684d060a/ghostwindow-1.1.0.tar.gz
+[2024-04-23 05:32:55] INFO root fetch - processPackages [ghostwindow]: Downloading https://files.pythonhosted.org/packages/37/2d/003dbfa2d650c53d36042f45747aace41df267cbcdfaae7a2865684d060a/ghostwindow-1.1.0.tar.gz
+[2024-04-23 05:32:55] INFO root fetch - processPackages [gobnb]: Downloading https://files.pythonhosted.org/packages/63/ae/68017eed14eb6db105af37fdac266a3d01d1149fb6cc0f76efdc4d33300f/gobnb-0.0.7.tar.gz
+[2024-04-23 05:32:55] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/1f/98/518e483430990a9eb05f562aff95665608378f85ea67f8acb2bf93c200b1/agt_server-1.3.0.tar.gz
+[2024-04-23 05:32:55] INFO root fetch - processPackages [ghostwindow]: executing diffoscope
+[2024-04-23 05:32:55] INFO root fetch - processPackages [ghostwindow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghostwindow-1.0.1.tar.gz tmp/ghostwindow-1.1.0.tar.gz --markdown 20240423/g/ghostwindow/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-23 05:32:55] INFO root fetch - processPackages [ghostwindow]: executing diffoscope
+[2024-04-23 05:32:55] INFO root fetch - processPackages [ghostwindow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghostwindow-1.0.1.tar.gz tmp/ghostwindow-1.1.0.tar.gz --markdown 20240423/g/ghostwindow/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-23 05:32:55] INFO root fetch - processPackages [nonebot-plugin-bard]: Downloading https://files.pythonhosted.org/packages/aa/5a/4dc12e4af362daec874a99e7b1c28c2b402c384b0f5202f6faeb90ba0a80/nonebot_plugin_bard-0.5.0.tar.gz
+[2024-04-23 05:32:55] INFO root fetch - processPackages [mmengine-lite]: Downloading https://files.pythonhosted.org/packages/ff/37/84d31b186dfa765e588998838e5e1f5f59653133c816390fab535e8ad96d/mmengine-lite-0.10.4.tar.gz
+[2024-04-23 05:32:55] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/05/44/0c303b725d47e5582bc5678bba06d364109c7a3307c82e6c4d676db180e9/pymycobot-3.4.6b1.tar.gz
+[2024-04-23 05:32:55] INFO root fetch - processPackages [gobnb]: executing diffoscope
+[2024-04-23 05:32:55] INFO root fetch - processPackages [gobnb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gobnb-0.0.6.tar.gz tmp/gobnb-0.0.7.tar.gz --markdown 20240423/g/gobnb/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-23 05:32:55] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-04-23 05:32:55] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.2.9.tar.gz tmp/agt_server-1.3.0.tar.gz --markdown 20240423/a/agt-server/1.2.9-1.3.0/README.md --exclude *.pyd
+[2024-04-23 05:32:55] INFO root fetch - processPackages [mmengine]: Downloading https://files.pythonhosted.org/packages/f4/85/5825876d58e19be0b8abe27829bf75e8da3ec4a0674237a6eaaf28d8e5fe/mmengine-0.9.1.tar.gz
+[2024-04-23 05:32:55] INFO root fetch - processPackages [nonebot-plugin-bard]: executing diffoscope
+[2024-04-23 05:32:55] INFO root fetch - processPackages [nonebot-plugin-bard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bard-0.4.0.tar.gz tmp/nonebot_plugin_bard-0.5.0.tar.gz --markdown 20240423/n/nonebot-plugin-bard/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-23 05:32:55] INFO root fetch - processPackages [mmengine-lite]: executing diffoscope
+[2024-04-23 05:32:55] INFO root fetch - processPackages [mmengine-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmengine-lite-0.10.3.tar.gz tmp/mmengine-lite-0.10.4.tar.gz --markdown 20240423/m/mmengine-lite/0.10.3-0.10.4/README.md --exclude *.pyd
+[2024-04-23 05:32:55] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2024-04-23 05:32:55] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.4.6.tar.gz tmp/pymycobot-3.4.6b1.tar.gz --markdown 20240423/p/pymycobot/3.4.6-3.4.6b1/README.md --exclude *.pyd
+[2024-04-23 05:32:55] INFO root fetch - processPackages [mmengine]: executing diffoscope
+[2024-04-23 05:32:55] INFO root fetch - processPackages [mmengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmengine-0.9.0.tar.gz tmp/mmengine-0.9.1.tar.gz --markdown 20240423/m/mmengine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-23 05:32:55] INFO root fetch - processPackages [ghostwindow]: Remove: archive file [/home/abi/fetcher/tmp/ghostwindow-1.0.1.tar.gz]
+[2024-04-23 05:32:55] INFO root fetch - processPackages [ghostwindow]: Remove: archive file [/home/abi/fetcher/tmp/ghostwindow-1.1.0.tar.gz]
+[2024-04-23 05:32:55] INFO root fetch - main [MainThread]: End processing [ghostwindow]: success
+[2024-04-23 05:32:55] INFO root fetch - main [MainThread]: End processing [ghostwindow]: success
+[2024-04-23 05:32:56] INFO root fetch - processPackages [gobnb]: Remove: archive file [/home/abi/fetcher/tmp/gobnb-0.0.6.tar.gz]
+[2024-04-23 05:32:56] INFO root fetch - processPackages [gobnb]: Remove: archive file [/home/abi/fetcher/tmp/gobnb-0.0.7.tar.gz]
+[2024-04-23 05:32:56] INFO root fetch - main [MainThread]: End processing [gobnb]: success
+[2024-04-23 05:32:56] INFO root fetch - processPackages [nonebot-plugin-bard]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bard-0.4.0.tar.gz]
+[2024-04-23 05:32:56] INFO root fetch - processPackages [nonebot-plugin-bard]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bard-0.5.0.tar.gz]
+[2024-04-23 05:32:56] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bard]: success
+[2024-04-23 05:32:56] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.4.6.tar.gz]
+[2024-04-23 05:32:56] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.4.6b1.tar.gz]
+[2024-04-23 05:32:56] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2024-04-23 05:32:56] INFO root fetch - processPackages [mmengine-lite]: Remove: archive file [/home/abi/fetcher/tmp/mmengine-lite-0.10.3.tar.gz]
+[2024-04-23 05:32:56] INFO root fetch - processPackages [mmengine-lite]: Remove: archive file [/home/abi/fetcher/tmp/mmengine-lite-0.10.4.tar.gz]
+[2024-04-23 05:32:56] INFO root fetch - main [MainThread]: End processing [mmengine-lite]: success
+[2024-04-23 05:32:56] INFO root fetch - processPackages [mmengine]: Remove: archive file [/home/abi/fetcher/tmp/mmengine-0.9.0.tar.gz]
+[2024-04-23 05:32:56] INFO root fetch - processPackages [mmengine]: Remove: archive file [/home/abi/fetcher/tmp/mmengine-0.9.1.tar.gz]
+[2024-04-23 05:32:56] INFO root fetch - main [MainThread]: End processing [mmengine]: success
+[2024-04-23 05:32:56] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.9.tar.gz]
+[2024-04-23 05:32:56] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.0.tar.gz]
+[2024-04-23 05:32:56] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-04-23 05:32:56] INFO root fetch - main [MainThread]: Store serial: [22888612]
