@@ -10600,3 +10600,66 @@
 [2024-04-23 07:07:21] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240423.tar.gz]
 [2024-04-23 07:07:21] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
 [2024-04-23 07:07:21] INFO root fetch - main [MainThread]: Store serial: [22889181]
+[2024-04-23 07:09:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889181]
+[2024-04-23 07:09:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 07:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jeutil
+[2024-04-23 07:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doctran_openai
+[2024-04-23 07:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-pms
+[2024-04-23 07:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-pms-l10n-es
+[2024-04-23 07:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aq-geometric
+[2024-04-23 07:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nova-python-sdk
+[2024-04-23 07:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-pos-receipt-replace-user-by-trigram-hr
+[2024-04-23 07:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-pos-receipt-replace-user-by-trigram
+[2024-04-23 07:09:30] INFO root fetch - processPackages [jeutil]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-23 07:09:30] WARNING root fetch - processPackages [nova-python-sdk]: Skipping, unable to determine old version
+[2024-04-23 07:09:30] INFO root fetch - main [MainThread]: End processing [nova-python-sdk] error
+[2024-04-23 07:09:30] WARNING root fetch - processPackages [doctran_openai]: Skipping, unable to determine old version
+[2024-04-23 07:09:30] INFO root fetch - main [MainThread]: End processing [doctran_openai] error
+[2024-04-23 07:09:30] INFO root fetch - processPackages [aq-geometric]: New version: [2024.4.7.2] Old Version: [2024.4.6.1]
+[2024-04-23 07:09:30] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram-hr]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-23 07:09:30] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: New version: [14.0.2.6.8.dev9] Old Version: [14.0.2.6.8.dev8]
+[2024-04-23 07:09:30] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2024-04-23 07:09:30] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-23 07:09:31] INFO root fetch - processPackages [jeutil]: Downloading https://files.pythonhosted.org/packages/de/f1/9c9bdab53f269635a4e2453f87b6724e866b8a8f29c11368df07ddcc6538/jeutil-1.1.4-py3-none-any.whl
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Downloading https://files.pythonhosted.org/packages/fc/ed/525349fd2a15ad0a00e765e046e196b42732fa88715451518fb87a6f635d/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl
+[2024-04-23 07:09:31] INFO root fetch - processPackages [aq-geometric]: Downloading https://files.pythonhosted.org/packages/e8/3a/361e91ac5e9c6f7d6d1f4fae3f93e8654e9e151e1853cbd03ee234b30c96/aq_geometric-2024.4.6.1.tar.gz
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram-hr]: Downloading https://files.pythonhosted.org/packages/0d/2b/55e0386fc34695ddbfa38e8367a73b7b87d11cfc1cd00aa168d9a8eedcb7/odoo_addon_pos_receipt_replace_user_by_trigram_hr-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: Downloading https://files.pythonhosted.org/packages/80/e5/d71eb19a75e29fcc4998eab059594d769a193a8c34e5a9f2cb1e868fa4a2/odoo_addon_pos_receipt_replace_user_by_trigram-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-23 07:09:31] INFO root fetch - processPackages [jeutil]: Downloading https://files.pythonhosted.org/packages/1a/4e/20c31a1dc5b33aacf460592fa3ba8571a48d769cfb2344cbf5db79dc86b1/jeutil-1.1.5.tar.gz
+[2024-04-23 07:09:31] INFO root fetch - processPackages [jeutil]: executing diffoscope
+[2024-04-23 07:09:31] INFO root fetch - processPackages [jeutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeutil-1.1.4-py3-none-any.whl.zip tmp/jeutil-1.1.5.tar.gz --markdown 20240423/j/jeutil/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Downloading https://files.pythonhosted.org/packages/f9/46/01f03598bf302f5e6faa906abf772582d6fcfb66609c83995ac64259bd11/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram-hr]: Downloading https://files.pythonhosted.org/packages/d3/fc/15b123fde1727930b95caadad2141b5b2ecab216df33126534db7d48e2d6/odoo_addon_pos_receipt_replace_user_by_trigram_hr-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-23 07:09:31] INFO root fetch - processPackages [aq-geometric]: Downloading https://files.pythonhosted.org/packages/0e/08/70b34eb8103823c658557aaaf636d19969e7d9c7e2f66f140ce371644f59/aq_geometric-2024.4.7.2.tar.gz
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: Downloading https://files.pythonhosted.org/packages/5d/93/19b00db994f85fbdbcbb2e60f9a497d4c009a6a72a0f770537de26ed462c/odoo_addon_pos_receipt_replace_user_by_trigram-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-23 07:09:31] INFO root fetch - processPackages [aq-geometric]: executing diffoscope
+[2024-04-23 07:09:31] INFO root fetch - processPackages [aq-geometric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aq_geometric-2024.4.6.1.tar.gz tmp/aq_geometric-2024.4.7.2.tar.gz --markdown 20240423/a/aq-geometric/2024.4.6.1-2024.4.7.2/README.md --exclude *.pyd
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/README.md --exclude *.pyd
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: executing diffoscope
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl.zip tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-pms-l10n-es/14.0.2.6.8.dev8-14.0.2.6.8.dev9/README.md --exclude *.pyd
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: executing diffoscope
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_receipt_replace_user_by_trigram-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_pos_receipt_replace_user_by_trigram-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-pos-receipt-replace-user-by-trigram/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram-hr]: executing diffoscope
+[2024-04-23 07:09:31] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram-hr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_receipt_replace_user_by_trigram_hr-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_pos_receipt_replace_user_by_trigram_hr-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-pos-receipt-replace-user-by-trigram-hr/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-23 07:09:32] INFO root fetch - processPackages [jeutil]: Remove: archive file [/home/abi/fetcher/tmp/jeutil-1.1.4-py3-none-any.whl.zip]
+[2024-04-23 07:09:32] INFO root fetch - processPackages [jeutil]: Remove: archive file [/home/abi/fetcher/tmp/jeutil-1.1.5.tar.gz]
+[2024-04-23 07:09:32] INFO root fetch - main [MainThread]: End processing [jeutil]: success
+[2024-04-23 07:09:32] INFO root fetch - processPackages [aq-geometric]: Remove: archive file [/home/abi/fetcher/tmp/aq_geometric-2024.4.6.1.tar.gz]
+[2024-04-23 07:09:32] INFO root fetch - processPackages [aq-geometric]: Remove: archive file [/home/abi/fetcher/tmp/aq_geometric-2024.4.7.2.tar.gz]
+[2024-04-23 07:09:32] INFO root fetch - main [MainThread]: End processing [aq-geometric]: success
+[2024-04-23 07:09:32] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_receipt_replace_user_by_trigram-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-23 07:09:32] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_receipt_replace_user_by_trigram-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-23 07:09:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-receipt-replace-user-by-trigram]: success
+[2024-04-23 07:09:32] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl.zip]
+[2024-04-23 07:09:32] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl.zip]
+[2024-04-23 07:09:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms-l10n-es]: success
+[2024-04-23 07:09:32] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram-hr]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_receipt_replace_user_by_trigram_hr-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-23 07:09:32] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram-hr]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_receipt_replace_user_by_trigram_hr-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-23 07:09:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-receipt-replace-user-by-trigram-hr]: success
+[2024-04-23 07:09:32] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2024-04-23 07:09:32] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2024-04-23 07:09:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2024-04-23 07:09:32] INFO root fetch - main [MainThread]: Store serial: [22889199]
