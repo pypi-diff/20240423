@@ -15199,3 +15199,51 @@
 [2024-04-23 10:44:19] INFO root fetch - processPackages [pulumi-ovh]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ovh-0.43.0.tar.gz]
 [2024-04-23 10:44:19] INFO root fetch - main [MainThread]: End processing [pulumi-ovh]: success
 [2024-04-23 10:44:19] INFO root fetch - main [MainThread]: Store serial: [22891237]
+[2024-04-23 10:46:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891237]
+[2024-04-23 10:46:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfp-nightly
+[2024-04-23 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyverless
+[2024-04-23 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu
+[2024-04-23 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: safe-eth-py
+[2024-04-23 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mumichaspy
+[2024-04-23 10:46:28] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-04-23 10:46:28] INFO root fetch - processPackages [mumichaspy]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-23 10:46:28] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240423] Old Version: [2.17.0.dev20240422]
+[2024-04-23 10:46:28] INFO root fetch - processPackages [pyverless]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 10:46:28] INFO root fetch - processPackages [safe-eth-py]: New version: [6.0.0b9] Old Version: [6.0.0b8]
+[2024-04-23 10:46:28] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-04-23 10:46:28] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/7a/99/3732401e706a12da74f6d276e44197e3293b0ef5563f8a8d0307992a5683/tf_nightly_cpu-2.17.0.dev20240422-cp39-cp39-win_amd64.whl
+[2024-04-23 10:46:28] INFO root fetch - processPackages [pyverless]: Downloading https://files.pythonhosted.org/packages/ea/ec/7531c98c42bfde846ed50200ace57e19faf42deae7376e580e18576ab094/pyverless-0.0.8.tar.gz
+[2024-04-23 10:46:28] INFO root fetch - processPackages [mumichaspy]: Downloading https://files.pythonhosted.org/packages/33/d9/a51f12654a955829db759062634361a3400a94306b2ec2ea24262402e51f/mumichaspy-1.0.7.tar.gz
+[2024-04-23 10:46:28] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/0c/ed/23b1f27f14c642c3ed091692af8e7c8a75ab7436c5121a270b14e89f1acf/safe-eth-py-6.0.0b8.tar.gz
+[2024-04-23 10:46:29] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-04-23 10:46:29] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/4f/24/bad8be1d061903691abf1bec072f7f19949ba84bb295a48ca9741df8d2b6/tf_nightly_cpu-2.17.0.dev20240423-cp39-cp39-win_amd64.whl
+[2024-04-23 10:46:29] INFO root fetch - processPackages [mumichaspy]: Downloading https://files.pythonhosted.org/packages/6a/5f/0cf3b9847c5d94fd730cdd8f1c4a377ba17334808b04cbfaca72f2e8d125/mumichaspy-1.0.8.tar.gz
+[2024-04-23 10:46:29] INFO root fetch - processPackages [pyverless]: Downloading https://files.pythonhosted.org/packages/b7/a5/897da940c3a03fef68350f53b686273a1693f5207ed8de3ffca9010bd729/pyverless-0.0.9.tar.gz
+[2024-04-23 10:46:29] INFO root fetch - processPackages [mumichaspy]: executing diffoscope
+[2024-04-23 10:46:29] INFO root fetch - processPackages [mumichaspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mumichaspy-1.0.7.tar.gz tmp/mumichaspy-1.0.8.tar.gz --markdown 20240423/m/mumichaspy/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-23 10:46:29] INFO root fetch - processPackages [pyverless]: executing diffoscope
+[2024-04-23 10:46:29] INFO root fetch - processPackages [pyverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyverless-0.0.8.tar.gz tmp/pyverless-0.0.9.tar.gz --markdown 20240423/p/pyverless/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 10:46:29] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/42/24/aefb4dee33f8794acc43acb93d196f0aa3ab97cd49040c45a40a20d1782c/safe-eth-py-6.0.0b9.tar.gz
+[2024-04-23 10:46:29] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-04-23 10:46:29] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240423/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-04-23 10:46:29] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-23 10:46:29] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240422-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240423-cp39-cp39-win_amd64.whl.zip --markdown 20240423/t/tf-nightly-cpu/2.17.0.dev20240422-2.17.0.dev20240423/README.md --exclude *.pyd
+[2024-04-23 10:46:29] INFO root fetch - processPackages [safe-eth-py]: executing diffoscope
+[2024-04-23 10:46:29] INFO root fetch - processPackages [safe-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-eth-py-6.0.0b8.tar.gz tmp/safe-eth-py-6.0.0b9.tar.gz --markdown 20240423/s/safe-eth-py/6.0.0b8-6.0.0b9/README.md --exclude *.pyd
+[2024-04-23 10:46:29] INFO root fetch - processPackages [mumichaspy]: Remove: archive file [/home/abi/fetcher/tmp/mumichaspy-1.0.7.tar.gz]
+[2024-04-23 10:46:29] INFO root fetch - processPackages [mumichaspy]: Remove: archive file [/home/abi/fetcher/tmp/mumichaspy-1.0.8.tar.gz]
+[2024-04-23 10:46:29] INFO root fetch - main [MainThread]: End processing [mumichaspy]: success
+[2024-04-23 10:46:29] INFO root fetch - processPackages [pyverless]: Remove: archive file [/home/abi/fetcher/tmp/pyverless-0.0.8.tar.gz]
+[2024-04-23 10:46:29] INFO root fetch - processPackages [pyverless]: Remove: archive file [/home/abi/fetcher/tmp/pyverless-0.0.9.tar.gz]
+[2024-04-23 10:46:29] INFO root fetch - main [MainThread]: End processing [pyverless]: success
+[2024-04-23 10:46:29] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240422-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 10:46:29] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240423-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 10:46:29] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-23 10:46:31] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b8.tar.gz]
+[2024-04-23 10:46:31] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b9.tar.gz]
+[2024-04-23 10:46:31] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
+[2024-04-23 10:46:32] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-04-23 10:46:32] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-04-23 10:46:32] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-04-23 10:46:32] INFO root fetch - main [MainThread]: Store serial: [22891259]
