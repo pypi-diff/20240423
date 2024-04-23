@@ -19340,3 +19340,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 13:18:37] INFO root fetch - processPackages [osdatahub]: Remove: archive file [/home/abi/fetcher/tmp/osdatahub-1.2.9.tar.gz]
 [2024-04-23 13:18:37] INFO root fetch - main [MainThread]: End processing [osdatahub]: success
 [2024-04-23 13:18:37] INFO root fetch - main [MainThread]: Store serial: [22892902]
+[2024-04-23 13:20:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892902]
+[2024-04-23 13:20:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 13:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lense
+[2024-04-23 13:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zonesmart-utils-fork
+[2024-04-23 13:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spox
+[2024-04-23 13:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-xe
+[2024-04-23 13:20:46] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 13:20:46] INFO root fetch - processPackages [zonesmart-utils-fork]: New version: [0.5.9.9] Old Version: [0.5.9.8]
+[2024-04-23 13:20:46] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/1f/3c/039c94473127564e1d61c86469dc142a7a89988f07bba21541fea00682d5/zonesmart-utils-fork-0.5.9.8.tar.gz
+[2024-04-23 13:20:46] INFO root fetch - processPackages [spox]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-23 13:20:46] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-23 13:20:46] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240423] Old Version: [2.5.0b20240422]
+[2024-04-23 13:20:46] INFO root fetch - processPackages [spox]: Downloading https://files.pythonhosted.org/packages/e4/12/1307929d389befdc9dae6ac4e8b217c85b4ced4f7c094208c61de8edb221/spox-0.9.2.tar.gz
+[2024-04-23 13:20:47] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-23 13:20:47] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/01/fc/787b6258c99abfb1135040b2ff7cc732a1f5375d6907d18a2242ed4218dd/bigdl_core_xe-2.5.0b20240422-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-23 13:20:47] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/c7/9f/2ff32de4eacc484eb5a9007534d13156a1b1a1a9c62233775741db20c020/zonesmart-utils-fork-0.5.9.9.tar.gz
+[2024-04-23 13:20:47] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 13:20:47] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 13:20:47] INFO root fetch - processPackages [zonesmart-utils-fork]: executing diffoscope
+[2024-04-23 13:20:47] INFO root fetch - processPackages [zonesmart-utils-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-fork-0.5.9.8.tar.gz tmp/zonesmart-utils-fork-0.5.9.9.tar.gz --markdown 20240423/z/zonesmart-utils-fork/0.5.9.8-0.5.9.9/README.md --exclude *.pyd
+[2024-04-23 13:20:47] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105392072>=10485760
+[2024-04-23 13:20:47] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-23 13:20:47] INFO root fetch - processPackages [spox]: Downloading https://files.pythonhosted.org/packages/fc/01/5c4d61d25767a14ed1fb79d915c3c7d6c8efc4f3afbc3a0cafddbc66da4d/spox-0.9.3.tar.gz
+[2024-04-23 13:20:47] INFO root fetch - processPackages [spox]: executing diffoscope
+[2024-04-23 13:20:47] INFO root fetch - processPackages [spox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spox-0.9.2.tar.gz tmp/spox-0.9.3.tar.gz --markdown 20240423/s/spox/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-23 13:20:47] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 13:20:47] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 13:20:47] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 13:20:48] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.8.tar.gz]
+[2024-04-23 13:20:48] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.9.tar.gz]
+[2024-04-23 13:20:48] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
+[2024-04-23 13:20:48] INFO root fetch - processPackages [spox]: Remove: archive file [/home/abi/fetcher/tmp/spox-0.9.2.tar.gz]
+[2024-04-23 13:20:48] INFO root fetch - processPackages [spox]: Remove: archive file [/home/abi/fetcher/tmp/spox-0.9.3.tar.gz]
+[2024-04-23 13:20:48] INFO root fetch - main [MainThread]: End processing [spox]: success
+[2024-04-23 13:20:48] INFO root fetch - main [MainThread]: Store serial: [22892915]
