@@ -21559,3 +21559,69 @@ EOFError: EOF read where object expected
 [2024-04-23 14:37:03] INFO root fetch - processPackages [waylay-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_core-0.2.1.tar.gz]
 [2024-04-23 14:37:03] INFO root fetch - main [MainThread]: End processing [waylay-sdk-core]: success
 [2024-04-23 14:37:03] INFO root fetch - main [MainThread]: Store serial: [22893820]
+[2024-04-23 14:39:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893820]
+[2024-04-23 14:39:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 14:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-neat
+[2024-04-23 14:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bce-python-sdk
+[2024-04-23 14:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dmlcloud
+[2024-04-23 14:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udata-front
+[2024-04-23 14:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opytimal
+[2024-04-23 14:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyastroweatherio
+[2024-04-23 14:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: saucelabs-visual
+[2024-04-23 14:39:12] INFO root fetch - processPackages [opytimal]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-23 14:39:12] INFO root fetch - processPackages [cognite-neat]: New version: [0.74.0] Old Version: [0.73.4]
+[2024-04-23 14:39:12] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.43.1.dev9] Old Version: [0.43.1.dev8]
+[2024-04-23 14:39:12] INFO root fetch - processPackages [udata-front]: New version: [3.5.6.dev19119] Old Version: [3.5.6.dev19088]
+[2024-04-23 14:39:12] INFO root fetch - processPackages [dmlcloud]: New version: [0.3.3] Old Version: [0.3.1]
+[2024-04-23 14:39:12] INFO root fetch - processPackages [bce-python-sdk]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-23 14:39:13] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/47/8d/fc60ce00da90701bfef68cbcc656399c258c878e91b877ab302322ee9f86/cognite_neat-0.73.4.tar.gz
+[2024-04-23 14:39:13] INFO root fetch - processPackages [saucelabs-visual]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-23 14:39:13] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/f1/12/97283e7a7c1ba943cb78c2f6808ca95b20076a4cdd70d4910b31b8f0391c/opytimal-0.5.5.tar.gz
+[2024-04-23 14:39:13] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/52/24/2c570e0e19bb51a136edaf868d693f0156fca6c66aca91674ec5e7973a2c/pyastroweatherio-0.43.1.dev8.tar.gz
+[2024-04-23 14:39:13] INFO root fetch - processPackages [saucelabs-visual]: Downloading https://files.pythonhosted.org/packages/34/1f/c3e0c96fd5ae5d211e04b251b27078b7c43d1c8b2595746915fdb9198190/saucelabs_visual-0.0.7.tar.gz
+[2024-04-23 14:39:13] INFO root fetch - processPackages [dmlcloud]: Downloading https://files.pythonhosted.org/packages/6e/11/a60fe6cbde7d7acc734300b31fd1924a6df76b0a31d35d688a83fc4df32a/dmlcloud-0.3.1-py3-none-any.whl
+[2024-04-23 14:39:13] INFO root fetch - processPackages [bce-python-sdk]: Downloading https://files.pythonhosted.org/packages/7c/d5/f06331b096b589ae9eba0cb6a6bfeb18dca1ba2dc4d9e0c43f0d07910d24/bce-python-sdk-0.9.6.tar.gz
+[2024-04-23 14:39:13] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/52/db/44521b5ef29690be856cc56690e6f2a073ef0342fa5f695ccc89dc9522f4/udata_front-3.5.6.dev19088-py2.py3-none-any.whl
+[2024-04-23 14:39:13] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/75/07/e7eb1179d1b5db7e5e45ea03766c9c39fee7686fa1e316830827643977ac/pyastroweatherio-0.43.1.dev9.tar.gz
+[2024-04-23 14:39:13] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-04-23 14:39:13] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.43.1.dev8.tar.gz tmp/pyastroweatherio-0.43.1.dev9.tar.gz --markdown 20240423/p/pyastroweatherio/0.43.1.dev8-0.43.1.dev9/README.md --exclude *.pyd
+[2024-04-23 14:39:13] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/a3/dd/e406fd5ba6d1f9921eed49b178d0c9fe8e458f7f47dcd45344a64606ae1d/opytimal-0.5.6.tar.gz
+[2024-04-23 14:39:13] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/f5/4f/c1aac1dd5ed4a2d8447f6217053bcb8aa57732bf5800f6ae087063b1d138/cognite_neat-0.74.0.tar.gz
+[2024-04-23 14:39:13] INFO root fetch - processPackages [bce-python-sdk]: Downloading https://files.pythonhosted.org/packages/61/a7/d38439b7e6c7abf2ad281060a124122158b26c7d6d40a5194fc8822be8b1/bce_python_sdk-0.9.7.tar.gz
+[2024-04-23 14:39:13] INFO root fetch - processPackages [dmlcloud]: Downloading https://files.pythonhosted.org/packages/55/20/236fb65fb92d4204062710e6f393f68300ed130da58ff9f5239bab82e91f/dmlcloud-0.3.3-py3-none-any.whl
+[2024-04-23 14:39:13] INFO root fetch - processPackages [saucelabs-visual]: Downloading https://files.pythonhosted.org/packages/e8/a7/50cfff25baf7cdef796542b09fb5cc224ec6438734936cd1ef9793a4a692/saucelabs_visual-0.0.8.tar.gz
+[2024-04-23 14:39:13] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 14:39:13] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.5.5.tar.gz tmp/opytimal-0.5.6.tar.gz --markdown 20240423/o/opytimal/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-04-23 14:39:13] INFO root fetch - processPackages [dmlcloud]: executing diffoscope
+[2024-04-23 14:39:13] INFO root fetch - processPackages [dmlcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmlcloud-0.3.1-py3-none-any.whl.zip tmp/dmlcloud-0.3.3-py3-none-any.whl.zip --markdown 20240423/d/dmlcloud/0.3.1-0.3.3/README.md --exclude *.pyd
+[2024-04-23 14:39:13] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-04-23 14:39:13] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.73.4.tar.gz tmp/cognite_neat-0.74.0.tar.gz --markdown 20240423/c/cognite-neat/0.73.4-0.74.0/README.md --exclude *.pyd
+[2024-04-23 14:39:13] INFO root fetch - processPackages [saucelabs-visual]: executing diffoscope
+[2024-04-23 14:39:13] INFO root fetch - processPackages [saucelabs-visual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saucelabs_visual-0.0.7.tar.gz tmp/saucelabs_visual-0.0.8.tar.gz --markdown 20240423/s/saucelabs-visual/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-23 14:39:14] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/1b/a8/57ea46ddfa24d13bdfa7d2bab43af94f279e8eeb2571d193d0b2b4330960/udata_front-3.5.6.dev19119-py2.py3-none-any.whl
+[2024-04-23 14:39:14] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev8.tar.gz]
+[2024-04-23 14:39:14] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev9.tar.gz]
+[2024-04-23 14:39:14] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-04-23 14:39:14] INFO root fetch - processPackages [saucelabs-visual]: Remove: archive file [/home/abi/fetcher/tmp/saucelabs_visual-0.0.7.tar.gz]
+[2024-04-23 14:39:14] INFO root fetch - processPackages [saucelabs-visual]: Remove: archive file [/home/abi/fetcher/tmp/saucelabs_visual-0.0.8.tar.gz]
+[2024-04-23 14:39:14] INFO root fetch - main [MainThread]: End processing [saucelabs-visual]: success
+[2024-04-23 14:39:14] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.5.5.tar.gz]
+[2024-04-23 14:39:14] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.5.6.tar.gz]
+[2024-04-23 14:39:14] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 14:39:14] INFO root fetch - processPackages [dmlcloud]: Remove: archive file [/home/abi/fetcher/tmp/dmlcloud-0.3.1-py3-none-any.whl.zip]
+[2024-04-23 14:39:14] INFO root fetch - processPackages [dmlcloud]: Remove: archive file [/home/abi/fetcher/tmp/dmlcloud-0.3.3-py3-none-any.whl.zip]
+[2024-04-23 14:39:14] INFO root fetch - main [MainThread]: End processing [dmlcloud]: success
+[2024-04-23 14:39:14] INFO root fetch - processPackages [bce-python-sdk]: executing diffoscope
+[2024-04-23 14:39:14] INFO root fetch - processPackages [bce-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bce-python-sdk-0.9.6.tar.gz tmp/bce_python_sdk-0.9.7.tar.gz --markdown 20240423/b/bce-python-sdk/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-04-23 14:39:16] INFO root fetch - processPackages [bce-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bce-python-sdk-0.9.6.tar.gz]
+[2024-04-23 14:39:16] INFO root fetch - processPackages [bce-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bce_python_sdk-0.9.7.tar.gz]
+[2024-04-23 14:39:16] INFO root fetch - main [MainThread]: End processing [bce-python-sdk]: success
+[2024-04-23 14:39:17] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-23 14:39:17] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.6.dev19088-py2.py3-none-any.whl.zip tmp/udata_front-3.5.6.dev19119-py2.py3-none-any.whl.zip --markdown 20240423/u/udata-front/3.5.6.dev19088-3.5.6.dev19119/README.md --exclude *.pyd
+[2024-04-23 14:40:51] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.6.dev19088-py2.py3-none-any.whl.zip]
+[2024-04-23 14:40:51] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.6.dev19119-py2.py3-none-any.whl.zip]
+[2024-04-23 14:40:51] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-23 14:41:29] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.73.4.tar.gz]
+[2024-04-23 14:41:29] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.74.0.tar.gz]
+[2024-04-23 14:41:29] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-04-23 14:41:29] INFO root fetch - main [MainThread]: Store serial: [22893841]
