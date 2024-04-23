@@ -20597,3 +20597,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 14:06:18] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a6.tar.gz]
 [2024-04-23 14:06:18] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
 [2024-04-23 14:06:18] INFO root fetch - main [MainThread]: Store serial: [22893454]
+[2024-04-23 14:08:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893454]
+[2024-04-23 14:08:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: themachinethatgoesping
+[2024-04-23 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: outplan
+[2024-04-23 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2024-04-23 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: views-tensor-utilities
+[2024-04-23 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sbmp
+[2024-04-23 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ScholarCodeCollective
+[2024-04-23 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: goalEDP
+[2024-04-23 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: melobot
+[2024-04-23 14:08:27] INFO root fetch - processPackages [sbmp]: New version: [4.0.0] Old Version: [3.1.2]
+[2024-04-23 14:08:27] INFO root fetch - processPackages [ScholarCodeCollective]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 14:08:27] INFO root fetch - processPackages [outplan]: New version: [3.0.0] Old Version: [2.2.0]
+[2024-04-23 14:08:27] INFO root fetch - processPackages [views-tensor-utilities]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-23 14:08:27] INFO root fetch - processPackages [sbmp]: Downloading https://files.pythonhosted.org/packages/90/ae/a9cf70e1d930fae3b0bef591607a74ae0527a74f76991e1f2aec0adaf609/sbmp-3.1.2.tar.gz
+[2024-04-23 14:08:27] INFO root fetch - processPackages [ScholarCodeCollective]: Downloading https://files.pythonhosted.org/packages/28/bb/ef61da7ae6cd39d79ee15c8ceb4f3b24436976966a616a883923cb0d4afc/ScholarCodeCollective-0.1.1.tar.gz
+[2024-04-23 14:08:27] INFO root fetch - processPackages [melobot]: New version: [2.6.1] Old Version: [2.5.9]
+[2024-04-23 14:08:27] WARNING root fetch - processPackages [goalEDP]: Skipping, unable to determine old version
+[2024-04-23 14:08:27] INFO root fetch - main [MainThread]: End processing [goalEDP] error
+[2024-04-23 14:08:27] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240423092324] Old Version: [3.3.1.dev20240423083725]
+[2024-04-23 14:08:27] INFO root fetch - processPackages [themachinethatgoesping]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-23 14:08:27] INFO root fetch - processPackages [outplan]: Downloading https://files.pythonhosted.org/packages/e6/b9/9b9effc25e4818c8ea4478ad7256e46a4454887721ac3992e4ce76ef94a4/outplan-2.2.0.tar.gz
+[2024-04-23 14:08:27] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/21/50/60e35f9b84c4703780ce84237fa733f447bc23617772ab21ef4559507ee7/localstack_core-3.3.1.dev20240423083725.tar.gz
+[2024-04-23 14:08:27] INFO root fetch - processPackages [views-tensor-utilities]: Downloading https://files.pythonhosted.org/packages/37/75/311fcaf825812566bfb5c249ceb69da83c4d7f079fe0e0cd15da8e0c8e90/views_tensor_utilities-0.8.1.tar.gz
+[2024-04-23 14:08:27] INFO root fetch - processPackages [melobot]: Downloading https://files.pythonhosted.org/packages/7a/22/a5b2baa3b113da213865a10258449637123d7e6b0667e58e193f56193a04/melobot-2.5.9.tar.gz
+[2024-04-23 14:08:27] INFO root fetch - processPackages [themachinethatgoesping]: Downloading https://files.pythonhosted.org/packages/86/dc/1012bfeb0794623108e545bef368229fa40edba3acc7e1a7c8de5907d00d/themachinethatgoesping-0.8.3-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-04-23 14:08:27] INFO root fetch - processPackages [sbmp]: Downloading https://files.pythonhosted.org/packages/46/24/01805aad4b4d1f36854336aca27f7d97d26a512462b5251423723a946017/sbmp-4.0.0.tar.gz
+[2024-04-23 14:08:27] INFO root fetch - processPackages [ScholarCodeCollective]: Downloading https://files.pythonhosted.org/packages/9a/e0/8f017dc7943373d93a19bb1f0bc9a5c60a71f76199056f4ca20b0a7dd2f3/ScholarCodeCollective-0.1.2.tar.gz
+[2024-04-23 14:08:28] INFO root fetch - processPackages [sbmp]: executing diffoscope
+[2024-04-23 14:08:28] INFO root fetch - processPackages [sbmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbmp-3.1.2.tar.gz tmp/sbmp-4.0.0.tar.gz --markdown 20240423/s/sbmp/3.1.2-4.0.0/README.md --exclude *.pyd
+[2024-04-23 14:08:28] INFO root fetch - processPackages [views-tensor-utilities]: Downloading https://files.pythonhosted.org/packages/84/ee/66b27742540a8e547fde5e5855c1f7443720ba6b05777a5de8abe394bafa/views_tensor_utilities-0.8.2.tar.gz
+[2024-04-23 14:08:28] INFO root fetch - processPackages [ScholarCodeCollective]: executing diffoscope
+[2024-04-23 14:08:28] INFO root fetch - processPackages [ScholarCodeCollective]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScholarCodeCollective-0.1.1.tar.gz tmp/ScholarCodeCollective-0.1.2.tar.gz --markdown 20240423/S/ScholarCodeCollective/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 14:08:28] INFO root fetch - processPackages [outplan]: Downloading https://files.pythonhosted.org/packages/6b/2b/139f5a34f8d2bfe39e42f9f51487683c1dfb1196ba9c66a604df6928150c/outplan-3.0.0.tar.gz
+[2024-04-23 14:08:28] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/5c/93/15c8a26c408e31d679ef3bfd61bf7c5164901f6563cc5b2199781116d6ec/localstack_core-3.3.1.dev20240423092324.tar.gz
+[2024-04-23 14:08:28] INFO root fetch - processPackages [views-tensor-utilities]: executing diffoscope
+[2024-04-23 14:08:28] INFO root fetch - processPackages [views-tensor-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/views_tensor_utilities-0.8.1.tar.gz tmp/views_tensor_utilities-0.8.2.tar.gz --markdown 20240423/v/views-tensor-utilities/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-04-23 14:08:28] INFO root fetch - processPackages [melobot]: Downloading https://files.pythonhosted.org/packages/78/a2/6a16de11131c9e11dc3f063100e7c13254106f5c6ba9949b35c88de8d30b/melobot-2.6.1-py3-none-any.whl
+[2024-04-23 14:08:28] INFO root fetch - processPackages [outplan]: executing diffoscope
+[2024-04-23 14:08:28] INFO root fetch - processPackages [outplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outplan-2.2.0.tar.gz tmp/outplan-3.0.0.tar.gz --markdown 20240423/o/outplan/2.2.0-3.0.0/README.md --exclude *.pyd
+[2024-04-23 14:08:28] INFO root fetch - processPackages [melobot]: executing diffoscope
+[2024-04-23 14:08:28] INFO root fetch - processPackages [melobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melobot-2.5.9.tar.gz tmp/melobot-2.6.1-py3-none-any.whl.zip --markdown 20240423/m/melobot/2.5.9-2.6.1/README.md --exclude *.pyd
+[2024-04-23 14:08:28] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-23 14:08:28] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.3.1.dev20240423083725.tar.gz tmp/localstack_core-3.3.1.dev20240423092324.tar.gz --markdown 20240423/l/localstack-core/3.3.1.dev20240423083725-3.3.1.dev20240423092324/README.md --exclude *.pyd
+[2024-04-23 14:08:29] INFO root fetch - processPackages [outplan]: Remove: archive file [/home/abi/fetcher/tmp/outplan-2.2.0.tar.gz]
+[2024-04-23 14:08:29] INFO root fetch - processPackages [outplan]: Remove: archive file [/home/abi/fetcher/tmp/outplan-3.0.0.tar.gz]
+[2024-04-23 14:08:29] INFO root fetch - main [MainThread]: End processing [outplan]: success
+[2024-04-23 14:08:29] INFO root fetch - processPackages [sbmp]: Remove: archive file [/home/abi/fetcher/tmp/sbmp-3.1.2.tar.gz]
+[2024-04-23 14:08:29] INFO root fetch - processPackages [sbmp]: Remove: archive file [/home/abi/fetcher/tmp/sbmp-4.0.0.tar.gz]
+[2024-04-23 14:08:29] INFO root fetch - main [MainThread]: End processing [sbmp]: success
+[2024-04-23 14:08:29] INFO root fetch - processPackages [ScholarCodeCollective]: Remove: archive file [/home/abi/fetcher/tmp/ScholarCodeCollective-0.1.1.tar.gz]
+[2024-04-23 14:08:29] INFO root fetch - processPackages [ScholarCodeCollective]: Remove: archive file [/home/abi/fetcher/tmp/ScholarCodeCollective-0.1.2.tar.gz]
+[2024-04-23 14:08:29] INFO root fetch - main [MainThread]: End processing [ScholarCodeCollective]: success
+[2024-04-23 14:08:29] INFO root fetch - processPackages [melobot]: Remove: archive file [/home/abi/fetcher/tmp/melobot-2.5.9.tar.gz]
+[2024-04-23 14:08:29] INFO root fetch - processPackages [melobot]: Remove: archive file [/home/abi/fetcher/tmp/melobot-2.6.1-py3-none-any.whl.zip]
+[2024-04-23 14:08:29] INFO root fetch - main [MainThread]: End processing [melobot]: success
+[2024-04-23 14:08:29] INFO root fetch - processPackages [views-tensor-utilities]: Remove: archive file [/home/abi/fetcher/tmp/views_tensor_utilities-0.8.1.tar.gz]
+[2024-04-23 14:08:29] INFO root fetch - processPackages [views-tensor-utilities]: Remove: archive file [/home/abi/fetcher/tmp/views_tensor_utilities-0.8.2.tar.gz]
+[2024-04-23 14:08:29] INFO root fetch - main [MainThread]: End processing [views-tensor-utilities]: success
+[2024-04-23 14:08:30] INFO root fetch - processPackages [themachinethatgoesping]: Downloading https://files.pythonhosted.org/packages/4d/44/6f6ab06e4b1e7ad7e5d41454bb470d12cc64ed362904a4dba2fd3d6a1f44/themachinethatgoesping-0.9.0-cp39-cp39-win_amd64.whl
+[2024-04-23 14:08:32] WARNING root fetch - processPackages [themachinethatgoesping]: Skipping package: exceeds size limit 16251129>=10485760
+[2024-04-23 14:08:32] INFO root fetch - main [MainThread]: End processing [themachinethatgoesping] error
+[2024-04-23 14:08:33] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240423083725.tar.gz]
+[2024-04-23 14:08:33] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240423092324.tar.gz]
+[2024-04-23 14:08:33] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-23 14:08:33] INFO root fetch - main [MainThread]: Store serial: [22893480]
