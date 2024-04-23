@@ -13996,3 +13996,63 @@
 [2024-04-23 10:01:15] INFO root fetch - processPackages [voici-core]: Remove: archive file [/home/abi/fetcher/tmp/voici_core-0.6.1.tar.gz]
 [2024-04-23 10:01:15] INFO root fetch - main [MainThread]: End processing [voici-core]: success
 [2024-04-23 10:01:15] INFO root fetch - main [MainThread]: Store serial: [22890598]
+[2024-04-23 10:03:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890598]
+[2024-04-23 10:03:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 10:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dune-client
+[2024-04-23 10:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PKDevTools
+[2024-04-23 10:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: internal
+[2024-04-23 10:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lense
+[2024-04-23 10:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wcglib
+[2024-04-23 10:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zetamarkets_py
+[2024-04-23 10:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dforge
+[2024-04-23 10:03:25] INFO root fetch - processPackages [PKDevTools]: New version: [0.13.20240422.103] Old Version: [0.13.20240422.102]
+[2024-04-23 10:03:25] INFO root fetch - processPackages [lense]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-23 10:03:25] INFO root fetch - processPackages [dforge]: New version: [2.1.1] Old Version: [1.0.0]
+[2024-04-23 10:03:25] INFO root fetch - processPackages [dune-client]: New version: [1.7.3] Old Version: [1.7.2]
+[2024-04-23 10:03:26] WARNING root fetch - processPackages [wcglib]: Skipping, unable to determine old version
+[2024-04-23 10:03:26] INFO root fetch - main [MainThread]: End processing [wcglib] error
+[2024-04-23 10:03:26] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/07/13/8129ad6893b6c4cd22d80986cbceb459a568391abf911c8ea369bc78f0f5/lense-0.0.4-py3-none-any.whl
+[2024-04-23 10:03:26] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/ec/10/16078805360d1d59ae2d17bdbbf097034ea76513624221aadb18725dafbb/PKDevTools-0.13.20240422.102.tar.gz
+[2024-04-23 10:03:26] INFO root fetch - processPackages [zetamarkets_py]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-04-23 10:03:26] INFO root fetch - processPackages [internal]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-23 10:03:26] INFO root fetch - processPackages [dforge]: Downloading https://files.pythonhosted.org/packages/93/75/44fbfff06b6b10ef976b71a40294f91b8d9dda335e3a870004db6e250e90/dforge-1.0.0.tar.gz
+[2024-04-23 10:03:26] INFO root fetch - processPackages [dune-client]: Downloading https://files.pythonhosted.org/packages/99/b3/7805be9e715861cc6d96452b0bae617a67d90cb9ff6e194023a30dfe10f6/dune_client-1.7.2.tar.gz
+[2024-04-23 10:03:26] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/7f/04/dae9661b6addadfc89a97dc07f41361792a651e022341f82e5cb7c4283e8/lense-0.0.5-py3-none-any.whl
+[2024-04-23 10:03:26] INFO root fetch - processPackages [zetamarkets_py]: Downloading https://files.pythonhosted.org/packages/cd/af/f7f964f2260bfe51acc8dac83276d41a8222a44d8408ea92789cb6e54cdb/zetamarkets_py-0.2.7.tar.gz
+[2024-04-23 10:03:26] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/15/55/c047030da1f0bfcaa7e41402aaf435fecea5db342c7f3c9c76cf5f78963e/internal-0.1.98.tar.gz
+[2024-04-23 10:03:26] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/8e/53/2cf04f7d8033816de31c87042543adb1004cea2cd91c5558d36569d6573b/PKDevTools-0.13.20240422.103.tar.gz
+[2024-04-23 10:03:26] INFO root fetch - processPackages [dforge]: Downloading https://files.pythonhosted.org/packages/83/fe/1d57736425766d6e3c50a731a2f7fb7409333cecb957307c67b8a77432b4/dforge-2.1.1.tar.gz
+[2024-04-23 10:03:26] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 10:03:26] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.4-py3-none-any.whl.zip tmp/lense-0.0.5-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-23 10:03:26] INFO root fetch - processPackages [PKDevTools]: executing diffoscope
+[2024-04-23 10:03:26] INFO root fetch - processPackages [PKDevTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKDevTools-0.13.20240422.102.tar.gz tmp/PKDevTools-0.13.20240422.103.tar.gz --markdown 20240423/P/PKDevTools/0.13.20240422.102-0.13.20240422.103/README.md --exclude *.pyd
+[2024-04-23 10:03:26] INFO root fetch - processPackages [dforge]: executing diffoscope
+[2024-04-23 10:03:26] INFO root fetch - processPackages [dforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dforge-1.0.0.tar.gz tmp/dforge-2.1.1.tar.gz --markdown 20240423/d/dforge/1.0.0-2.1.1/README.md --exclude *.pyd
+[2024-04-23 10:03:26] INFO root fetch - processPackages [dune-client]: Downloading https://files.pythonhosted.org/packages/b0/8a/eff3a64fdfac8bcd78619af05f8bc7275f00676f272988877b238f0484f1/dune_client-1.7.3.tar.gz
+[2024-04-23 10:03:26] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/83/0e/6b90d16c18351fc8fbb7314a9d842080e630b70a81a38ae91df78c413c48/internal-0.1.99.tar.gz
+[2024-04-23 10:03:26] INFO root fetch - processPackages [zetamarkets_py]: Downloading https://files.pythonhosted.org/packages/b2/a0/077585838f672a1d19c11fddd9265f944635323847353a76dcbc0bc8f2ed/zetamarkets_py-0.2.9.tar.gz
+[2024-04-23 10:03:26] INFO root fetch - processPackages [internal]: executing diffoscope
+[2024-04-23 10:03:26] INFO root fetch - processPackages [internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal-0.1.98.tar.gz tmp/internal-0.1.99.tar.gz --markdown 20240423/i/internal/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-23 10:03:26] INFO root fetch - processPackages [dune-client]: executing diffoscope
+[2024-04-23 10:03:26] INFO root fetch - processPackages [dune-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_client-1.7.2.tar.gz tmp/dune_client-1.7.3.tar.gz --markdown 20240423/d/dune-client/1.7.2-1.7.3/README.md --exclude *.pyd
+[2024-04-23 10:03:26] INFO root fetch - processPackages [zetamarkets_py]: executing diffoscope
+[2024-04-23 10:03:26] INFO root fetch - processPackages [zetamarkets_py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetamarkets_py-0.2.7.tar.gz tmp/zetamarkets_py-0.2.9.tar.gz --markdown 20240423/z/zetamarkets_py/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-04-23 10:03:27] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.4-py3-none-any.whl.zip]
+[2024-04-23 10:03:27] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.5-py3-none-any.whl.zip]
+[2024-04-23 10:03:27] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 10:03:27] INFO root fetch - processPackages [dforge]: Remove: archive file [/home/abi/fetcher/tmp/dforge-1.0.0.tar.gz]
+[2024-04-23 10:03:27] INFO root fetch - processPackages [dforge]: Remove: archive file [/home/abi/fetcher/tmp/dforge-2.1.1.tar.gz]
+[2024-04-23 10:03:27] INFO root fetch - main [MainThread]: End processing [dforge]: success
+[2024-04-23 10:03:27] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240422.102.tar.gz]
+[2024-04-23 10:03:27] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240422.103.tar.gz]
+[2024-04-23 10:03:27] INFO root fetch - main [MainThread]: End processing [PKDevTools]: success
+[2024-04-23 10:03:27] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.98.tar.gz]
+[2024-04-23 10:03:27] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.99.tar.gz]
+[2024-04-23 10:03:27] INFO root fetch - main [MainThread]: End processing [internal]: success
+[2024-04-23 10:03:27] INFO root fetch - processPackages [dune-client]: Remove: archive file [/home/abi/fetcher/tmp/dune_client-1.7.2.tar.gz]
+[2024-04-23 10:03:27] INFO root fetch - processPackages [dune-client]: Remove: archive file [/home/abi/fetcher/tmp/dune_client-1.7.3.tar.gz]
+[2024-04-23 10:03:27] INFO root fetch - main [MainThread]: End processing [dune-client]: success
+[2024-04-23 10:03:32] INFO root fetch - processPackages [zetamarkets_py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.7.tar.gz]
+[2024-04-23 10:03:32] INFO root fetch - processPackages [zetamarkets_py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
+[2024-04-23 10:03:32] INFO root fetch - main [MainThread]: End processing [zetamarkets_py]: success
+[2024-04-23 10:03:32] INFO root fetch - main [MainThread]: Store serial: [22890623]
