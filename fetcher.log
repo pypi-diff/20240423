@@ -10131,3 +10131,18 @@
 [2024-04-23 06:19:15] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc92.post1.tar.gz]
 [2024-04-23 06:19:15] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
 [2024-04-23 06:19:15] INFO root fetch - main [MainThread]: Store serial: [22888979]
+[2024-04-23 06:21:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888979]
+[2024-04-23 06:21:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 06:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: piapia
+[2024-04-23 06:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: conversations
+[2024-04-23 06:21:24] WARNING root fetch - processPackages [piapia]: Skipping, unable to determine old version
+[2024-04-23 06:21:24] INFO root fetch - main [MainThread]: End processing [piapia] error
+[2024-04-23 06:21:24] INFO root fetch - processPackages [conversations]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-23 06:21:24] INFO root fetch - processPackages [conversations]: Downloading https://files.pythonhosted.org/packages/91/46/f0e132fe12d9fb65f07ff29047e3b2c4bdc18812b901a9538e0290238315/conversations-0.8.0.tar.gz
+[2024-04-23 06:21:25] INFO root fetch - processPackages [conversations]: Downloading https://files.pythonhosted.org/packages/eb/d8/a424b11c746c8a33dbbae6e012675ec1add7b6a2bbbf9f15df6249d4d127/conversations-0.9.0.tar.gz
+[2024-04-23 06:21:25] INFO root fetch - processPackages [conversations]: executing diffoscope
+[2024-04-23 06:21:25] INFO root fetch - processPackages [conversations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conversations-0.8.0.tar.gz tmp/conversations-0.9.0.tar.gz --markdown 20240423/c/conversations/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-23 06:21:25] INFO root fetch - processPackages [conversations]: Remove: archive file [/home/abi/fetcher/tmp/conversations-0.8.0.tar.gz]
+[2024-04-23 06:21:25] INFO root fetch - processPackages [conversations]: Remove: archive file [/home/abi/fetcher/tmp/conversations-0.9.0.tar.gz]
+[2024-04-23 06:21:25] INFO root fetch - main [MainThread]: End processing [conversations]: success
+[2024-04-23 06:21:25] INFO root fetch - main [MainThread]: Store serial: [22888986]
