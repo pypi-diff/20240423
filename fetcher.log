@@ -2239,3 +2239,51 @@
 [2024-04-23 02:02:04] INFO root fetch - processPackages [rms-pdsfile]: Remove: archive file [/home/abi/fetcher/tmp/rms_pdsfile-0.0.4.tar.gz]
 [2024-04-23 02:02:04] INFO root fetch - main [MainThread]: End processing [rms-pdsfile]: success
 [2024-04-23 02:02:04] INFO root fetch - main [MainThread]: Store serial: [22886144]
+[2024-04-23 02:04:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886144]
+[2024-04-23 02:04:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 02:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rms-pdsfile
+[2024-04-23 02:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mentat
+[2024-04-23 02:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytonapi
+[2024-04-23 02:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: detail
+[2024-04-23 02:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnxscript
+[2024-04-23 02:04:13] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240422] Old Version: [0.1.0.dev20240421]
+[2024-04-23 02:04:13] INFO root fetch - processPackages [rms-pdsfile]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-23 02:04:13] INFO root fetch - processPackages [mentat]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 02:04:13] INFO root fetch - processPackages [detail]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-23 02:04:13] INFO root fetch - processPackages [pytonapi]: New version: [0.2.5] Old Version: [0.2.4b2]
+[2024-04-23 02:04:13] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/34/43/4ed500cde12f095a7c241dd936d0cbdd7a1bfad316660879daf76365dd92/onnxscript-0.1.0.dev20240421.tar.gz
+[2024-04-23 02:04:13] INFO root fetch - processPackages [rms-pdsfile]: Downloading https://files.pythonhosted.org/packages/ba/59/814b8f2b4ee5a8bf7e682e77417862e76b8b20389d7d4810d2fe09aeeb4b/rms_pdsfile-0.0.3.tar.gz
+[2024-04-23 02:04:13] INFO root fetch - processPackages [detail]: Downloading https://files.pythonhosted.org/packages/08/57/6535e767deab9f95e7101e8dac4343fb4398eea0501b71dcf6a496ffe4e4/detail-0.2.3.tar.gz
+[2024-04-23 02:04:13] INFO root fetch - processPackages [mentat]: Downloading https://files.pythonhosted.org/packages/e0/8b/a808d6663065e3b446d3be521d7836f774f3b39bdd30f786d093aca383b6/mentat-1.0.8.tar.gz
+[2024-04-23 02:04:13] INFO root fetch - processPackages [pytonapi]: Downloading https://files.pythonhosted.org/packages/cd/08/7d964339fc2bbff79c68ea34fef7abd7ad16d46c879ff9b5dcf974b24134/pytonapi-0.2.4b2.tar.gz
+[2024-04-23 02:04:13] INFO root fetch - processPackages [rms-pdsfile]: Downloading https://files.pythonhosted.org/packages/25/1d/00196040f463ee8b7be35f54a7978af06cdebe16c800b32884791b34ccb5/rms_pdsfile-0.0.4.tar.gz
+[2024-04-23 02:04:14] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/e9/f3/20ae3666922990fa9742a296219a56247fa1893e308360e11befd4d00a92/onnxscript-0.1.0.dev20240422.tar.gz
+[2024-04-23 02:04:14] INFO root fetch - processPackages [rms-pdsfile]: executing diffoscope
+[2024-04-23 02:04:14] INFO root fetch - processPackages [rms-pdsfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rms_pdsfile-0.0.3.tar.gz tmp/rms_pdsfile-0.0.4.tar.gz --markdown 20240423/r/rms-pdsfile/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-23 02:04:14] INFO root fetch - processPackages [detail]: Downloading https://files.pythonhosted.org/packages/eb/50/fcfebd0f6221aba6e61791426cec79c4e37758f386c664b78fba8d6cd5a4/detail-0.2.4.tar.gz
+[2024-04-23 02:04:14] INFO root fetch - processPackages [pytonapi]: Downloading https://files.pythonhosted.org/packages/0c/13/b7fb414d18cb5e14a003c28de0d5d57e605da66639a41ea133e279594d45/pytonapi-0.2.5.tar.gz
+[2024-04-23 02:04:14] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-23 02:04:14] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240421.tar.gz tmp/onnxscript-0.1.0.dev20240422.tar.gz --markdown 20240423/o/onnxscript/0.1.0.dev20240421-0.1.0.dev20240422/README.md --exclude *.pyd
+[2024-04-23 02:04:14] INFO root fetch - processPackages [mentat]: Downloading https://files.pythonhosted.org/packages/27/fb/38b9cdb26fe7d5d68e36154cf74090bbf066361eac91cb19d58d22b7e001/mentat-1.0.9.tar.gz
+[2024-04-23 02:04:14] INFO root fetch - processPackages [detail]: executing diffoscope
+[2024-04-23 02:04:14] INFO root fetch - processPackages [detail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detail-0.2.3.tar.gz tmp/detail-0.2.4.tar.gz --markdown 20240423/d/detail/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-23 02:04:14] INFO root fetch - processPackages [pytonapi]: executing diffoscope
+[2024-04-23 02:04:14] INFO root fetch - processPackages [pytonapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytonapi-0.2.4b2.tar.gz tmp/pytonapi-0.2.5.tar.gz --markdown 20240423/p/pytonapi/0.2.4b2-0.2.5/README.md --exclude *.pyd
+[2024-04-23 02:04:14] INFO root fetch - processPackages [mentat]: executing diffoscope
+[2024-04-23 02:04:14] INFO root fetch - processPackages [mentat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentat-1.0.8.tar.gz tmp/mentat-1.0.9.tar.gz --markdown 20240423/m/mentat/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 02:04:15] INFO root fetch - processPackages [detail]: Remove: archive file [/home/abi/fetcher/tmp/detail-0.2.3.tar.gz]
+[2024-04-23 02:04:15] INFO root fetch - processPackages [detail]: Remove: archive file [/home/abi/fetcher/tmp/detail-0.2.4.tar.gz]
+[2024-04-23 02:04:15] INFO root fetch - main [MainThread]: End processing [detail]: success
+[2024-04-23 02:04:15] INFO root fetch - processPackages [pytonapi]: Remove: archive file [/home/abi/fetcher/tmp/pytonapi-0.2.4b2.tar.gz]
+[2024-04-23 02:04:15] INFO root fetch - processPackages [pytonapi]: Remove: archive file [/home/abi/fetcher/tmp/pytonapi-0.2.5.tar.gz]
+[2024-04-23 02:04:15] INFO root fetch - main [MainThread]: End processing [pytonapi]: success
+[2024-04-23 02:04:15] INFO root fetch - processPackages [rms-pdsfile]: Remove: archive file [/home/abi/fetcher/tmp/rms_pdsfile-0.0.3.tar.gz]
+[2024-04-23 02:04:15] INFO root fetch - processPackages [rms-pdsfile]: Remove: archive file [/home/abi/fetcher/tmp/rms_pdsfile-0.0.4.tar.gz]
+[2024-04-23 02:04:15] INFO root fetch - main [MainThread]: End processing [rms-pdsfile]: success
+[2024-04-23 02:04:15] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240421.tar.gz]
+[2024-04-23 02:04:15] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240422.tar.gz]
+[2024-04-23 02:04:15] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-23 02:04:15] INFO root fetch - processPackages [mentat]: Remove: archive file [/home/abi/fetcher/tmp/mentat-1.0.8.tar.gz]
+[2024-04-23 02:04:15] INFO root fetch - processPackages [mentat]: Remove: archive file [/home/abi/fetcher/tmp/mentat-1.0.9.tar.gz]
+[2024-04-23 02:04:15] INFO root fetch - main [MainThread]: End processing [mentat]: success
+[2024-04-23 02:04:15] INFO root fetch - main [MainThread]: Store serial: [22886160]
