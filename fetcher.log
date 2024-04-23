@@ -12190,3 +12190,83 @@
 [2024-04-23 08:43:59] INFO root fetch - processPackages [fixcloudutils]: Remove: archive file [/home/abi/fetcher/tmp/fixcloudutils-1.9.0.tar.gz]
 [2024-04-23 08:43:59] INFO root fetch - main [MainThread]: End processing [fixcloudutils]: success
 [2024-04-23 08:43:59] INFO root fetch - main [MainThread]: Store serial: [22889798]
+[2024-04-23 08:46:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889798]
+[2024-04-23 08:46:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 08:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: video-images-creator
+[2024-04-23 08:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localcosmos-app-kit
+[2024-04-23 08:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-xlsx
+[2024-04-23 08:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-yaml-sanmu
+[2024-04-23 08:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sanmu
+[2024-04-23 08:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nebula3-python
+[2024-04-23 08:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snitun
+[2024-04-23 08:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-sale-order-global-stock-route
+[2024-04-23 08:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keploy
+[2024-04-23 08:46:08] INFO root fetch - processPackages [keploy]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2024-04-23 08:46:08] INFO root fetch - processPackages [odoo-addon-sale-order-global-stock-route]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.5]
+[2024-04-23 08:46:08] INFO root fetch - processPackages [video-images-creator]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 08:46:08] INFO root fetch - processPackages [localcosmos-app-kit]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-23 08:46:08] INFO root fetch - processPackages [keploy]: Downloading https://files.pythonhosted.org/packages/db/d9/3c3f9a0cdebd0c29bb320e14db5661f8fc97493345b25720ad1dbc98d592/keploy-2.0.0a8.tar.gz
+[2024-04-23 08:46:08] INFO root fetch - processPackages [pytest-yaml-sanmu]: New version: [0.3.0.dev1] Old Version: [0.3.0.dev0]
+[2024-04-23 08:46:08] INFO root fetch - processPackages [snitun]: New version: [0.9] Old Version: [0.8]
+[2024-04-23 08:46:08] INFO root fetch - processPackages [sanmu]: New version: [0.5.2.dev0] Old Version: [0.5.0]
+[2024-04-23 08:46:08] INFO root fetch - processPackages [nebula3-python]: New version: [3.5.1] Old Version: [3.5.0]
+[2024-04-23 08:46:08] INFO root fetch - processPackages [pytest-xlsx]: New version: [1.1.1.dev0] Old Version: [1.0.36.0]
+[2024-04-23 08:46:08] INFO root fetch - processPackages [odoo-addon-sale-order-global-stock-route]: Downloading https://files.pythonhosted.org/packages/93/ff/21216e98676c05e68e48414d8cf0f978e99a181a9bd9823798495ad9a96b/odoo_addon_sale_order_global_stock_route-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-23 08:46:08] INFO root fetch - processPackages [pytest-yaml-sanmu]: Downloading https://files.pythonhosted.org/packages/52/52/04911b3266dba7c0b12384a570b2e1598331d10c5a0781a45e4adca7fd8d/pytest_yaml_sanmu-0.3.0.dev0-cp312-cp312-win_amd64.whl
+[2024-04-23 08:46:08] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/f8/f2/eab0da3e76b34b9105df3034dbfc2ee8b4eec71db93526b3238860abcc7a/video_images_creator-0.3.8.tar.gz
+[2024-04-23 08:46:08] INFO root fetch - processPackages [localcosmos-app-kit]: Downloading https://files.pythonhosted.org/packages/59/19/054e2d8ec62e992b1dfc87c39ad7c0dd1cda6c1d59efdf329f6bea53385d/localcosmos_app_kit-0.2.2.tar.gz
+[2024-04-23 08:46:08] INFO root fetch - processPackages [snitun]: Downloading https://files.pythonhosted.org/packages/1c/b3/7660aa5a0c140a50da7f8642bd0532724b1c744eb47288879159c0e895bc/snitun-0.8.tar.gz
+[2024-04-23 08:46:08] WARNING root fetch - processPackages [video-images-creator]: Skipping package: exceeds size limit 46958238>=10485760
+[2024-04-23 08:46:08] INFO root fetch - main [MainThread]: End processing [video-images-creator] error
+[2024-04-23 08:46:08] INFO root fetch - processPackages [sanmu]: Downloading https://files.pythonhosted.org/packages/33/f9/99230c88dd9a04bf791b04fa1d4f15ec9703cc76808be5245a21ddf2ff91/sanmu-0.5.0-cp312-cp312-win_amd64.whl
+[2024-04-23 08:46:08] INFO root fetch - processPackages [pytest-xlsx]: Downloading https://files.pythonhosted.org/packages/28/bf/ce643ca7d4d784d34371668a8c60434a7f419b970a6cf90b832921f705c8/pytest_xlsx-1.0.36.0-py3-none-any.whl
+[2024-04-23 08:46:08] INFO root fetch - processPackages [nebula3-python]: Downloading https://files.pythonhosted.org/packages/7f/18/2d06285f2e63fb2eae59fa421db8f96bfc6f229829b12e120a70e9998dd3/nebula3_python-3.5.0.tar.gz
+[2024-04-23 08:46:08] INFO root fetch - processPackages [keploy]: Downloading https://files.pythonhosted.org/packages/c2/25/425db6399501116adae136fd103c42878cbb3551efbc4773219852565a05/keploy-2.0.0a9.tar.gz
+[2024-04-23 08:46:08] INFO root fetch - processPackages [odoo-addon-sale-order-global-stock-route]: Downloading https://files.pythonhosted.org/packages/80/3a/cb717289df9594ceb5dd3332ffa509b2aa79d951c64809f5a327b1c5979a/odoo_addon_sale_order_global_stock_route-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-23 08:46:09] INFO root fetch - processPackages [keploy]: executing diffoscope
+[2024-04-23 08:46:09] INFO root fetch - processPackages [keploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keploy-2.0.0a8.tar.gz tmp/keploy-2.0.0a9.tar.gz --markdown 20240423/k/keploy/2.0.0a8-2.0.0a9/README.md --exclude *.pyd
+[2024-04-23 08:46:09] INFO root fetch - processPackages [pytest-yaml-sanmu]: Downloading https://files.pythonhosted.org/packages/fa/61/d46f59c7dacd7622cbee398d105c2ffe4ee3c4a8b5021ba62fab46328711/pytest_yaml_sanmu-0.3.0.dev1-cp312-cp312-win_amd64.whl
+[2024-04-23 08:46:09] INFO root fetch - processPackages [snitun]: Downloading https://files.pythonhosted.org/packages/09/c3/24b6446a1d56396c202728182016e40fb80b4964b620a1463b8e1dadb5ac/snitun-0.9.tar.gz
+[2024-04-23 08:46:09] INFO root fetch - processPackages [pytest-xlsx]: Downloading https://files.pythonhosted.org/packages/4e/19/99cbaac8b7444511002db019801b35d48f441f2bf2f32d743e70e2ab040d/pytest_xlsx-1.1.1.dev0-cp312-cp312-win_amd64.whl
+[2024-04-23 08:46:09] INFO root fetch - processPackages [odoo-addon-sale-order-global-stock-route]: executing diffoscope
+[2024-04-23 08:46:09] INFO root fetch - processPackages [odoo-addon-sale-order-global-stock-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_global_stock_route-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_sale_order_global_stock_route-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-sale-order-global-stock-route/16.0.1.0.0.5-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-23 08:46:09] INFO root fetch - processPackages [pytest-yaml-sanmu]: executing diffoscope
+[2024-04-23 08:46:09] INFO root fetch - processPackages [pytest-yaml-sanmu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_yaml_sanmu-0.3.0.dev0-cp312-cp312-win_amd64.whl.zip tmp/pytest_yaml_sanmu-0.3.0.dev1-cp312-cp312-win_amd64.whl.zip --markdown 20240423/p/pytest-yaml-sanmu/0.3.0.dev0-0.3.0.dev1/README.md --exclude *.pyd
+[2024-04-23 08:46:09] INFO root fetch - processPackages [snitun]: executing diffoscope
+[2024-04-23 08:46:09] INFO root fetch - processPackages [snitun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snitun-0.8.tar.gz tmp/snitun-0.9.tar.gz --markdown 20240423/s/snitun/0.8-0.9/README.md --exclude *.pyd
+[2024-04-23 08:46:09] INFO root fetch - processPackages [sanmu]: Downloading https://files.pythonhosted.org/packages/c1/15/f0841eff3e4737ecec14bd029f68c025de70adf40d3541ef1197f68b6d51/sanmu-0.5.2.dev0-cp312-cp312-win_amd64.whl
+[2024-04-23 08:46:09] INFO root fetch - processPackages [pytest-xlsx]: executing diffoscope
+[2024-04-23 08:46:09] INFO root fetch - processPackages [pytest-xlsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_xlsx-1.0.36.0-py3-none-any.whl.zip tmp/pytest_xlsx-1.1.1.dev0-cp312-cp312-win_amd64.whl.zip --markdown 20240423/p/pytest-xlsx/1.0.36.0-1.1.1.dev0/README.md --exclude *.pyd
+[2024-04-23 08:46:09] INFO root fetch - processPackages [localcosmos-app-kit]: Downloading https://files.pythonhosted.org/packages/ac/77/eb2756d96ef3476befa02432ba091b15e1ebd3551e809066735cab0dcc85/localcosmos_app_kit-0.2.3.tar.gz
+[2024-04-23 08:46:09] INFO root fetch - processPackages [sanmu]: executing diffoscope
+[2024-04-23 08:46:09] INFO root fetch - processPackages [sanmu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanmu-0.5.0-cp312-cp312-win_amd64.whl.zip tmp/sanmu-0.5.2.dev0-cp312-cp312-win_amd64.whl.zip --markdown 20240423/s/sanmu/0.5.0-0.5.2.dev0/README.md --exclude *.pyd
+[2024-04-23 08:46:09] INFO root fetch - processPackages [nebula3-python]: Downloading https://files.pythonhosted.org/packages/12/59/089665362cb569b0335013be3745edabbf720e86d8e513579b688fd92b6a/nebula3_python-3.5.1.tar.gz
+[2024-04-23 08:46:09] INFO root fetch - processPackages [keploy]: Remove: archive file [/home/abi/fetcher/tmp/keploy-2.0.0a8.tar.gz]
+[2024-04-23 08:46:09] INFO root fetch - processPackages [keploy]: Remove: archive file [/home/abi/fetcher/tmp/keploy-2.0.0a9.tar.gz]
+[2024-04-23 08:46:09] INFO root fetch - main [MainThread]: End processing [keploy]: success
+[2024-04-23 08:46:09] INFO root fetch - processPackages [odoo-addon-sale-order-global-stock-route]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_global_stock_route-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-23 08:46:09] INFO root fetch - processPackages [odoo-addon-sale-order-global-stock-route]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_global_stock_route-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-23 08:46:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-global-stock-route]: success
+[2024-04-23 08:46:09] INFO root fetch - processPackages [pytest-yaml-sanmu]: Remove: archive file [/home/abi/fetcher/tmp/pytest_yaml_sanmu-0.3.0.dev0-cp312-cp312-win_amd64.whl.zip]
+[2024-04-23 08:46:09] INFO root fetch - processPackages [pytest-yaml-sanmu]: Remove: archive file [/home/abi/fetcher/tmp/pytest_yaml_sanmu-0.3.0.dev1-cp312-cp312-win_amd64.whl.zip]
+[2024-04-23 08:46:09] INFO root fetch - main [MainThread]: End processing [pytest-yaml-sanmu]: success
+[2024-04-23 08:46:09] INFO root fetch - processPackages [snitun]: Remove: archive file [/home/abi/fetcher/tmp/snitun-0.8.tar.gz]
+[2024-04-23 08:46:09] INFO root fetch - processPackages [snitun]: Remove: archive file [/home/abi/fetcher/tmp/snitun-0.9.tar.gz]
+[2024-04-23 08:46:09] INFO root fetch - main [MainThread]: End processing [snitun]: success
+[2024-04-23 08:46:09] INFO root fetch - processPackages [nebula3-python]: executing diffoscope
+[2024-04-23 08:46:09] INFO root fetch - processPackages [nebula3-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebula3_python-3.5.0.tar.gz tmp/nebula3_python-3.5.1.tar.gz --markdown 20240423/n/nebula3-python/3.5.0-3.5.1/README.md --exclude *.pyd
+[2024-04-23 08:46:10] INFO root fetch - processPackages [pytest-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_xlsx-1.0.36.0-py3-none-any.whl.zip]
+[2024-04-23 08:46:10] INFO root fetch - processPackages [pytest-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_xlsx-1.1.1.dev0-cp312-cp312-win_amd64.whl.zip]
+[2024-04-23 08:46:10] INFO root fetch - main [MainThread]: End processing [pytest-xlsx]: success
+[2024-04-23 08:46:10] INFO root fetch - processPackages [sanmu]: Remove: archive file [/home/abi/fetcher/tmp/sanmu-0.5.0-cp312-cp312-win_amd64.whl.zip]
+[2024-04-23 08:46:10] INFO root fetch - processPackages [sanmu]: Remove: archive file [/home/abi/fetcher/tmp/sanmu-0.5.2.dev0-cp312-cp312-win_amd64.whl.zip]
+[2024-04-23 08:46:10] INFO root fetch - main [MainThread]: End processing [sanmu]: success
+[2024-04-23 08:46:10] INFO root fetch - processPackages [localcosmos-app-kit]: executing diffoscope
+[2024-04-23 08:46:10] INFO root fetch - processPackages [localcosmos-app-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_app_kit-0.2.2.tar.gz tmp/localcosmos_app_kit-0.2.3.tar.gz --markdown 20240423/l/localcosmos-app-kit/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-23 08:46:16] INFO root fetch - processPackages [localcosmos-app-kit]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_app_kit-0.2.2.tar.gz]
+[2024-04-23 08:46:16] INFO root fetch - processPackages [localcosmos-app-kit]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_app_kit-0.2.3.tar.gz]
+[2024-04-23 08:46:16] INFO root fetch - main [MainThread]: End processing [localcosmos-app-kit]: success
+[2024-04-23 08:46:28] INFO root fetch - processPackages [nebula3-python]: Remove: archive file [/home/abi/fetcher/tmp/nebula3_python-3.5.0.tar.gz]
+[2024-04-23 08:46:28] INFO root fetch - processPackages [nebula3-python]: Remove: archive file [/home/abi/fetcher/tmp/nebula3_python-3.5.1.tar.gz]
+[2024-04-23 08:46:28] INFO root fetch - main [MainThread]: End processing [nebula3-python]: success
+[2024-04-23 08:46:28] INFO root fetch - main [MainThread]: Store serial: [22889820]
