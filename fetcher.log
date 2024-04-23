@@ -11499,3 +11499,116 @@
 [2024-04-23 08:08:58] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
 [2024-04-23 08:08:58] INFO root fetch - main [MainThread]: End processing [oci-cli] error
 [2024-04-23 08:08:58] INFO root fetch - main [MainThread]: Store serial: [22889564]
+[2024-04-23 08:11:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889564]
+[2024-04-23 08:11:07] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-23 08:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-ak-245215eadadd4dc9bba177d6ba6d593d
+[2024-04-23 08:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SushantQrscanner
+[2024-04-23 08:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fireducks
+[2024-04-23 08:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: austrakka
+[2024-04-23 08:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: firefw
+[2024-04-23 08:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyvan
+[2024-04-23 08:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qdx-py
+[2024-04-23 08:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: echo-endpoints-JHEAminoff
+[2024-04-23 08:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bec-ipython-client
+[2024-04-23 08:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bec-lib
+[2024-04-23 08:11:07] WARNING root fetch - processPackages [SushantQrscanner]: Skipping, unable to determine old version
+[2024-04-23 08:11:07] INFO root fetch - processPackages [SushantQrscanner]: Start processing: bec-server
+[2024-04-23 08:11:07] INFO root fetch - main [MainThread]: End processing [SushantQrscanner] error
+[2024-04-23 08:11:07] INFO root fetch - processPackages [qdx-py]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-23 08:11:07] INFO root fetch - processPackages [antchain-ak-245215eadadd4dc9bba177d6ba6d593d]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-23 08:11:07] INFO root fetch - processPackages [firefw]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-23 08:11:07] INFO root fetch - processPackages [pyvan]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-23 08:11:07] WARNING root fetch - processPackages [echo-endpoints-JHEAminoff]: Skipping, unable to determine old version
+[2024-04-23 08:11:07] INFO root fetch - processPackages [echo-endpoints-JHEAminoff]: Start processing: pytest-bec-e2e
+[2024-04-23 08:11:07] INFO root fetch - main [MainThread]: End processing [echo-endpoints-JHEAminoff] error
+[2024-04-23 08:11:07] INFO root fetch - processPackages [fireducks]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-23 08:11:07] INFO root fetch - processPackages [austrakka]: New version: [0.52.3] Old Version: [0.52.2]
+[2024-04-23 08:11:07] INFO root fetch - processPackages [bec-lib]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-04-23 08:11:07] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-04-23 08:11:07] INFO root fetch - processPackages [bec-server]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-04-23 08:11:07] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/74/e7/b31bbd027ac87240a434eed58472bf1611dd219a325e8888e140c4bab83f/qdx_py-0.9.1.tar.gz
+[2024-04-23 08:11:07] INFO root fetch - processPackages [pytest-bec-e2e]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-04-23 08:11:07] INFO root fetch - processPackages [antchain-ak-245215eadadd4dc9bba177d6ba6d593d]: Downloading https://files.pythonhosted.org/packages/7a/3d/69bc25d686bbac49d82f32262edbabb2c67e3bc9d790fd80cc225a9021e3/antchain_ak_245215eadadd4dc9bba177d6ba6d593d-1.0.2.tar.gz
+[2024-04-23 08:11:07] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/f9/48/d01a2249d8e2c6f24d4bfcc92d3d861c0612b9cd68284190260c62212aca/firefw-0.9.7-py3-none-any.whl
+[2024-04-23 08:11:07] INFO root fetch - processPackages [pyvan]: Downloading https://files.pythonhosted.org/packages/ab/d3/f53b36552613c87f6c0e6f64e34b6e1f13b1166e321efa6e77d90e374a59/pyvan-1.2.2.tar.gz
+[2024-04-23 08:11:07] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/78/0f/a290b2d62d096a4ab73149c01539d5df72bfbc19489f06fb7b655ca43850/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-04-23 08:11:07] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/be/cf/bb0e50ff8c46e6588c8e4f38670b069e620bf591cd376143b0355f2fdebf/austrakka-0.52.2-py3-none-any.whl
+[2024-04-23 08:11:07] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/40/85/a19179f715914b8ce2ba87ed23fa9d5834b4d2b5770a6661a5401d5dd698/bec_ipython_client-2.7.0.tar.gz
+[2024-04-23 08:11:07] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/08/c3/72c2dbc0a68b12f670ea5f18752e47e92db149daddc4a65796c829f14513/bec_lib-2.7.0.tar.gz
+[2024-04-23 08:11:07] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/95/ac/001ac5b56f4a5cae1ea9401e46de118538a5270cecae4d6095bb81d05631/bec_server-2.7.0.tar.gz
+[2024-04-23 08:11:07] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/9c/d5/178238988a4efd3d0a6c08fb6ea7d219d3228f9a10df2e34412675ebf5fd/pytest_bec_e2e-2.7.0.tar.gz
+[2024-04-23 08:11:08] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/a9/65/bc5b8284e54113185d3f8acd5230dea47ee8861aa104a99e06341cf61fd5/qdx_py-0.9.2.tar.gz
+[2024-04-23 08:11:08] INFO root fetch - processPackages [antchain-ak-245215eadadd4dc9bba177d6ba6d593d]: Downloading https://files.pythonhosted.org/packages/70/ba/8d03f3ec1cb304031455d200fc4e2a389c74ac29c75eccfe9c94ea4201c9/antchain_ak_245215eadadd4dc9bba177d6ba6d593d-1.0.3.tar.gz
+[2024-04-23 08:11:08] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/00/25/db8bd3c578ec6621a079f24b4b88efc3bc29f92bed8453db00cb5ea05799/firefw-0.9.8-py3-none-any.whl
+[2024-04-23 08:11:08] INFO root fetch - processPackages [pyvan]: Downloading https://files.pythonhosted.org/packages/d6/5c/f15468595ea43f2f586a287ed31f583167dedc420f9071bf0edf7b6b7bb4/pyvan-1.2.3.tar.gz
+[2024-04-23 08:11:08] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/2c/12/65794c70f29b64e846a9481ccb3a34cf4305e2a99818118a58eac3f1bb65/austrakka-0.52.3-py3-none-any.whl
+[2024-04-23 08:11:08] INFO root fetch - processPackages [qdx-py]: executing diffoscope
+[2024-04-23 08:11:08] INFO root fetch - processPackages [qdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdx_py-0.9.1.tar.gz tmp/qdx_py-0.9.2.tar.gz --markdown 20240423/q/qdx-py/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-23 08:11:08] INFO root fetch - processPackages [antchain-ak-245215eadadd4dc9bba177d6ba6d593d]: executing diffoscope
+[2024-04-23 08:11:08] INFO root fetch - processPackages [antchain-ak-245215eadadd4dc9bba177d6ba6d593d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_245215eadadd4dc9bba177d6ba6d593d-1.0.2.tar.gz tmp/antchain_ak_245215eadadd4dc9bba177d6ba6d593d-1.0.3.tar.gz --markdown 20240423/a/antchain-ak-245215eadadd4dc9bba177d6ba6d593d/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-23 08:11:08] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/09/59/25defd4f4969056dd3bde70fb8fdf76ff99aee52c203aa4847cd8d376948/bec_ipython_client-2.7.1.tar.gz
+[2024-04-23 08:11:08] INFO root fetch - processPackages [firefw]: executing diffoscope
+[2024-04-23 08:11:08] INFO root fetch - processPackages [firefw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefw-0.9.7-py3-none-any.whl.zip tmp/firefw-0.9.8-py3-none-any.whl.zip --markdown 20240423/f/firefw/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-23 08:11:08] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/29/30/a1758fd7196661d20d1d781bd78f7051fb48b0b572975430d4112546fb2c/bec_server-2.7.1.tar.gz
+[2024-04-23 08:11:08] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/6a/1b/d025861fd463c8807e6454eb00b90d4829285f97009100e4b12c9f92aa89/bec_lib-2.7.1.tar.gz
+[2024-04-23 08:11:08] INFO root fetch - processPackages [pyvan]: executing diffoscope
+[2024-04-23 08:11:08] INFO root fetch - processPackages [pyvan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvan-1.2.2.tar.gz tmp/pyvan-1.2.3.tar.gz --markdown 20240423/p/pyvan/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-23 08:11:08] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/72/8d/a8050d617f9d1627b1573973e320e59493ea0f49c79f977c38376c4d816d/pytest_bec_e2e-2.7.1.tar.gz
+[2024-04-23 08:11:08] INFO root fetch - processPackages [austrakka]: executing diffoscope
+[2024-04-23 08:11:08] INFO root fetch - processPackages [austrakka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/austrakka-0.52.2-py3-none-any.whl.zip tmp/austrakka-0.52.3-py3-none-any.whl.zip --markdown 20240423/a/austrakka/0.52.2-0.52.3/README.md --exclude *.pyd
+[2024-04-23 08:11:08] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-04-23 08:11:08] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-2.7.0.tar.gz tmp/bec_ipython_client-2.7.1.tar.gz --markdown 20240423/b/bec-ipython-client/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-04-23 08:11:08] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-04-23 08:11:08] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_server-2.7.0.tar.gz tmp/bec_server-2.7.1.tar.gz --markdown 20240423/b/bec-server/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-04-23 08:11:08] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-04-23 08:11:08] INFO root fetch - processPackages [pytest-bec-e2e]: executing diffoscope
+[2024-04-23 08:11:08] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.7.0.tar.gz tmp/bec_lib-2.7.1.tar.gz --markdown 20240423/b/bec-lib/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-04-23 08:11:08] INFO root fetch - processPackages [pytest-bec-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_bec_e2e-2.7.0.tar.gz tmp/pytest_bec_e2e-2.7.1.tar.gz --markdown 20240423/p/pytest-bec-e2e/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-04-23 08:11:09] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.9.1.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.9.2.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - processPackages [qdx-py]: Start processing: liblnk-python
+[2024-04-23 08:11:09] INFO root fetch - main [MainThread]: End processing [qdx-py]: success
+[2024-04-23 08:11:09] INFO root fetch - processPackages [antchain-ak-245215eadadd4dc9bba177d6ba6d593d]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_245215eadadd4dc9bba177d6ba6d593d-1.0.2.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - processPackages [antchain-ak-245215eadadd4dc9bba177d6ba6d593d]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_245215eadadd4dc9bba177d6ba6d593d-1.0.3.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - processPackages [antchain-ak-245215eadadd4dc9bba177d6ba6d593d]: Start processing: illuminatapp
+[2024-04-23 08:11:09] INFO root fetch - main [MainThread]: End processing [antchain-ak-245215eadadd4dc9bba177d6ba6d593d]: success
+[2024-04-23 08:11:09] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.7-py3-none-any.whl.zip]
+[2024-04-23 08:11:09] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.8-py3-none-any.whl.zip]
+[2024-04-23 08:11:09] INFO root fetch - main [MainThread]: End processing [firefw]: success
+[2024-04-23 08:11:09] INFO root fetch - processPackages [pyvan]: Remove: archive file [/home/abi/fetcher/tmp/pyvan-1.2.2.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - processPackages [pyvan]: Remove: archive file [/home/abi/fetcher/tmp/pyvan-1.2.3.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - main [MainThread]: End processing [pyvan]: success
+[2024-04-23 08:11:09] INFO root fetch - processPackages [liblnk-python]: New version: [20240423] Old Version: [20240120]
+[2024-04-23 08:11:09] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.7.0.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.7.1.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - main [MainThread]: End processing [pytest-bec-e2e]: success
+[2024-04-23 08:11:09] INFO root fetch - processPackages [illuminatapp]: New version: [1.5.0] Old Version: [1.3.9]
+[2024-04-23 08:11:09] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.7.0.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.7.1.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-04-23 08:11:09] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.52.2-py3-none-any.whl.zip]
+[2024-04-23 08:11:09] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.52.3-py3-none-any.whl.zip]
+[2024-04-23 08:11:09] INFO root fetch - main [MainThread]: End processing [austrakka]: success
+[2024-04-23 08:11:09] INFO root fetch - processPackages [liblnk-python]: Downloading https://files.pythonhosted.org/packages/de/ef/9a5c5465ca561c214d8af1dcfca4f1e3dfcc2da4116a74d8d5686775cea5/liblnk-python-20240120.tar.gz
+[2024-04-23 08:11:09] INFO root fetch - processPackages [illuminatapp]: Downloading https://files.pythonhosted.org/packages/e2/1b/9ad7aea325758f60f54d337f49c5455d460f5a0803a13b1ae31373454486/illuminatapp-1.3.9.tar.gz
+[2024-04-23 08:11:09] WARNING root fetch - processPackages [illuminatapp]: Skipping package: exceeds size limit 34401530>=10485760
+[2024-04-23 08:11:09] INFO root fetch - main [MainThread]: End processing [illuminatapp] error
+[2024-04-23 08:11:09] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.7.0.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.7.1.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-04-23 08:11:09] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.7.0.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.7.1.tar.gz]
+[2024-04-23 08:11:09] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-04-23 08:11:09] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/4e/b6/63f73d339120931c81ab9c435df1d08feaef965848223c3d32c513accc54/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-04-23 08:11:09] INFO root fetch - processPackages [liblnk-python]: Downloading https://files.pythonhosted.org/packages/93/5c/1a22ca313cc3099a22307dd86cc52fbc658e34851827e43791f97fe4e8a7/liblnk-python-20240423.tar.gz
+[2024-04-23 08:11:10] INFO root fetch - processPackages [liblnk-python]: executing diffoscope
+[2024-04-23 08:11:10] INFO root fetch - processPackages [liblnk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblnk-python-20240120.tar.gz tmp/liblnk-python-20240423.tar.gz --markdown 20240423/l/liblnk-python/20240120-20240423/README.md --exclude *.pyd
+[2024-04-23 08:11:11] INFO root fetch - processPackages [fireducks]: executing diffoscope
+[2024-04-23 08:11:11] INFO root fetch - processPackages [fireducks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20240423/f/fireducks/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-23 08:11:17] INFO root fetch - processPackages [liblnk-python]: Remove: archive file [/home/abi/fetcher/tmp/liblnk-python-20240120.tar.gz]
+[2024-04-23 08:11:17] INFO root fetch - processPackages [liblnk-python]: Remove: archive file [/home/abi/fetcher/tmp/liblnk-python-20240423.tar.gz]
+[2024-04-23 08:11:17] INFO root fetch - main [MainThread]: End processing [liblnk-python]: success
+[2024-04-23 08:12:52] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-04-23 08:12:52] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-04-23 08:12:52] INFO root fetch - main [MainThread]: End processing [fireducks]: success
+[2024-04-23 08:12:52] INFO root fetch - main [MainThread]: Store serial: [22889609]
