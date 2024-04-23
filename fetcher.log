@@ -18455,3 +18455,78 @@
 [2024-04-23 12:47:44] INFO root fetch - processPackages [gti-scnu]: Remove: archive file [/home/abi/fetcher/tmp/gti_scnu-0.0.9-py3-none-any.whl.zip]
 [2024-04-23 12:47:44] INFO root fetch - main [MainThread]: End processing [gti-scnu]: success
 [2024-04-23 12:47:44] INFO root fetch - main [MainThread]: Store serial: [22892510]
+[2024-04-23 12:49:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892510]
+[2024-04-23 12:49:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SilverStreamingApplicationPoC
+[2024-04-23 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logprep
+[2024-04-23 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flatpack
+[2024-04-23 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-tgpt
+[2024-04-23 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qoqo-qiskit
+[2024-04-23 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple-rule34
+[2024-04-23 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: everai
+[2024-04-23 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: able-recipe
+[2024-04-23 12:49:53] INFO root fetch - processPackages [qoqo-qiskit]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-23 12:49:53] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 12:49:53] INFO root fetch - processPackages [able-recipe]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 12:49:53] INFO root fetch - processPackages [everai]: New version: [0.1.27] Old Version: [0.1.26]
+[2024-04-23 12:49:53] INFO root fetch - processPackages [flatpack]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-23 12:49:53] INFO root fetch - processPackages [simple-rule34]: New version: [0.1.5.4] Old Version: [0.1.5.3]
+[2024-04-23 12:49:53] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-23 12:49:53] INFO root fetch - processPackages [logprep]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-23 12:49:53] INFO root fetch - processPackages [python-tgpt]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-23 12:49:53] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/6c/a1/1c3072a86549f9f312b7f555e81d1878fee6cd41e439938fa0a3a12a0d69/everai-0.1.26-py3-none-any.whl
+[2024-04-23 12:49:53] INFO root fetch - processPackages [able-recipe]: Downloading https://files.pythonhosted.org/packages/4a/98/6bfafe815b01af4570ceac3d22e226f4135c3f28bf76917afad5b17a2378/able_recipe-1.0.8.tar.gz
+[2024-04-23 12:49:53] INFO root fetch - processPackages [qoqo-qiskit]: Downloading https://files.pythonhosted.org/packages/09/bd/7c6622432ebdb59e8c450c6f823f97195e5098817fccb934ea6563c84df3/qoqo_qiskit-0.4.0.tar.gz
+[2024-04-23 12:49:53] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/42/48/84e949164975b341645163f536ee4ca8329c4e3dfa6d143c2806a0849a54/flatpack-3.3.8.tar.gz
+[2024-04-23 12:49:53] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/b7/dd/b6e64a3f20c4983b74dc9863c3153f386d95293807969ea2c0d705c29d06/logprep-9.0.2.tar.gz
+[2024-04-23 12:49:53] INFO root fetch - processPackages [simple-rule34]: Downloading https://files.pythonhosted.org/packages/e6/12/dda3c9a8114eaf3d7bcc366e1693c069e61c8f20f96dc9a9523555d7bced/simple_rule34-0.1.5.3.tar.gz
+[2024-04-23 12:49:53] INFO root fetch - processPackages [python-tgpt]: Downloading https://files.pythonhosted.org/packages/30/11/2e93369f76983519a5977c075eba5aeab31a026d8e8b42a307725b603066/python_tgpt-0.6.3.tar.gz
+[2024-04-23 12:49:53] INFO root fetch - processPackages [able-recipe]: Downloading https://files.pythonhosted.org/packages/c6/a2/89fecb575fa9f87f080d1070437fb8570a3acb72faca18cd828c7967b06f/able_recipe-1.0.9.tar.gz
+[2024-04-23 12:49:54] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-23 12:49:54] INFO root fetch - processPackages [qoqo-qiskit]: Downloading https://files.pythonhosted.org/packages/19/85/d437182bbb8c5af037298e5d79131e1614358287008f902fee0ebe30838d/qoqo_qiskit-0.4.1.tar.gz
+[2024-04-23 12:49:54] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/15/58/e4c36ad95dfd292b5874a9a7fb286fbd388fb6044c15a936d0cf55f4add2/everai-0.1.27-py3-none-any.whl
+[2024-04-23 12:49:54] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-23 12:49:54] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240423/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-23 12:49:54] INFO root fetch - processPackages [able-recipe]: executing diffoscope
+[2024-04-23 12:49:54] INFO root fetch - processPackages [able-recipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/able_recipe-1.0.8.tar.gz tmp/able_recipe-1.0.9.tar.gz --markdown 20240423/a/able-recipe/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 12:49:54] INFO root fetch - processPackages [qoqo-qiskit]: executing diffoscope
+[2024-04-23 12:49:54] INFO root fetch - processPackages [qoqo-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qiskit-0.4.0.tar.gz tmp/qoqo_qiskit-0.4.1.tar.gz --markdown 20240423/q/qoqo-qiskit/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-23 12:49:54] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/11/54/065825e8640b062c83c07c97d8dea514db8a5c0ea3c272834b88c568d82e/flatpack-3.3.9.tar.gz
+[2024-04-23 12:49:54] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-04-23 12:49:54] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.26-py3-none-any.whl.zip tmp/everai-0.1.27-py3-none-any.whl.zip --markdown 20240423/e/everai/0.1.26-0.1.27/README.md --exclude *.pyd
+[2024-04-23 12:49:54] INFO root fetch - processPackages [simple-rule34]: Downloading https://files.pythonhosted.org/packages/c3/b0/08718f6d56d75615f44706b1e0b82ad651267ac297cc5277c9b8b752327e/simple_rule34-0.1.5.4.tar.gz
+[2024-04-23 12:49:54] INFO root fetch - processPackages [python-tgpt]: Downloading https://files.pythonhosted.org/packages/77/f7/de73b45c728d541ba543b11b6e5cc6f9f6ad97088973d914e8e67f33524f/python_tgpt-0.6.4.tar.gz
+[2024-04-23 12:49:54] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/94/cd/e89069de4cb8f48c0cad5adb1b7f61c8b9a3230aa17787ad56945151ff83/logprep-9.0.3.tar.gz
+[2024-04-23 12:49:54] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-04-23 12:49:54] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.3.8.tar.gz tmp/flatpack-3.3.9.tar.gz --markdown 20240423/f/flatpack/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-23 12:49:54] INFO root fetch - processPackages [python-tgpt]: executing diffoscope
+[2024-04-23 12:49:54] INFO root fetch - processPackages [python-tgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_tgpt-0.6.3.tar.gz tmp/python_tgpt-0.6.4.tar.gz --markdown 20240423/p/python-tgpt/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-23 12:49:54] INFO root fetch - processPackages [simple-rule34]: executing diffoscope
+[2024-04-23 12:49:54] INFO root fetch - processPackages [simple-rule34]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_rule34-0.1.5.3.tar.gz tmp/simple_rule34-0.1.5.4.tar.gz --markdown 20240423/s/simple-rule34/0.1.5.3-0.1.5.4/README.md --exclude *.pyd
+[2024-04-23 12:49:54] INFO root fetch - processPackages [logprep]: executing diffoscope
+[2024-04-23 12:49:54] INFO root fetch - processPackages [logprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logprep-9.0.2.tar.gz tmp/logprep-9.0.3.tar.gz --markdown 20240423/l/logprep/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-04-23 12:49:55] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-23 12:49:55] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-23 12:49:55] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-23 12:49:55] INFO root fetch - processPackages [able-recipe]: Remove: archive file [/home/abi/fetcher/tmp/able_recipe-1.0.8.tar.gz]
+[2024-04-23 12:49:55] INFO root fetch - processPackages [able-recipe]: Remove: archive file [/home/abi/fetcher/tmp/able_recipe-1.0.9.tar.gz]
+[2024-04-23 12:49:55] INFO root fetch - main [MainThread]: End processing [able-recipe]: success
+[2024-04-23 12:49:55] INFO root fetch - processPackages [qoqo-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qiskit-0.4.0.tar.gz]
+[2024-04-23 12:49:55] INFO root fetch - processPackages [qoqo-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qiskit-0.4.1.tar.gz]
+[2024-04-23 12:49:55] INFO root fetch - main [MainThread]: End processing [qoqo-qiskit]: success
+[2024-04-23 12:49:55] INFO root fetch - processPackages [simple-rule34]: Remove: archive file [/home/abi/fetcher/tmp/simple_rule34-0.1.5.3.tar.gz]
+[2024-04-23 12:49:55] INFO root fetch - processPackages [simple-rule34]: Remove: archive file [/home/abi/fetcher/tmp/simple_rule34-0.1.5.4.tar.gz]
+[2024-04-23 12:49:55] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.8.tar.gz]
+[2024-04-23 12:49:55] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.9.tar.gz]
+[2024-04-23 12:49:55] INFO root fetch - main [MainThread]: End processing [simple-rule34]: success
+[2024-04-23 12:49:55] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-04-23 12:49:55] INFO root fetch - processPackages [python-tgpt]: Remove: archive file [/home/abi/fetcher/tmp/python_tgpt-0.6.3.tar.gz]
+[2024-04-23 12:49:55] INFO root fetch - processPackages [python-tgpt]: Remove: archive file [/home/abi/fetcher/tmp/python_tgpt-0.6.4.tar.gz]
+[2024-04-23 12:49:55] INFO root fetch - main [MainThread]: End processing [python-tgpt]: success
+[2024-04-23 12:49:56] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.26-py3-none-any.whl.zip]
+[2024-04-23 12:49:56] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.27-py3-none-any.whl.zip]
+[2024-04-23 12:49:56] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-04-23 12:49:56] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-9.0.2.tar.gz]
+[2024-04-23 12:49:56] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-9.0.3.tar.gz]
+[2024-04-23 12:49:56] INFO root fetch - main [MainThread]: End processing [logprep]: success
+[2024-04-23 12:49:56] INFO root fetch - main [MainThread]: Store serial: [22892532]
