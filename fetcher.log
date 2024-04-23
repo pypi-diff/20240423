@@ -8805,3 +8805,33 @@
 [2024-04-23 05:06:10] INFO root fetch - processPackages [PyAxe]: Remove: archive file [/home/abi/fetcher/tmp/PyAxe-1.0.9-py3-none-any.whl.zip]
 [2024-04-23 05:06:10] INFO root fetch - main [MainThread]: End processing [PyAxe]: success
 [2024-04-23 05:06:10] INFO root fetch - main [MainThread]: Store serial: [22888408]
+[2024-04-23 05:08:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888408]
+[2024-04-23 05:08:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 05:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-text-translator
+[2024-04-23 05:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eirStru
+[2024-04-23 05:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: developergpt
+[2024-04-23 05:08:19] INFO root fetch - processPackages [django-text-translator]: New version: [2024.4.22] Old Version: [2024.4.20]
+[2024-04-23 05:08:19] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 05:08:19] INFO root fetch - processPackages [developergpt]: New version: [0.7.0] Old Version: [0.6.7]
+[2024-04-23 05:08:19] INFO root fetch - processPackages [django-text-translator]: Downloading https://files.pythonhosted.org/packages/31/28/d30eda1da925fed10139bf63643936677346ff2b6b80d83cb0d6605cd09c/django_text_translator-2024.4.20.tar.gz
+[2024-04-23 05:08:19] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-23 05:08:20] INFO root fetch - processPackages [developergpt]: Downloading https://files.pythonhosted.org/packages/7b/1a/19c386c547c167e754719b0a8b0336a16cda3e6bfee5d1537a32d44c79b1/developergpt-0.6.7.tar.gz
+[2024-04-23 05:08:20] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-23 05:08:20] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-23 05:08:20] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240423/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 05:08:20] INFO root fetch - processPackages [developergpt]: Downloading https://files.pythonhosted.org/packages/0b/76/e71fb4cda93bdf5a469415907c28cedc85764a144a08385e25743485a530/developergpt-0.7.0.tar.gz
+[2024-04-23 05:08:20] INFO root fetch - processPackages [django-text-translator]: Downloading https://files.pythonhosted.org/packages/df/52/2b6770b20d98e036d620ed35f5111c27bc1b2ec37835c5238ddef13c5633/django_text_translator-2024.4.22.tar.gz
+[2024-04-23 05:08:20] INFO root fetch - processPackages [django-text-translator]: executing diffoscope
+[2024-04-23 05:08:20] INFO root fetch - processPackages [django-text-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_text_translator-2024.4.20.tar.gz tmp/django_text_translator-2024.4.22.tar.gz --markdown 20240423/d/django-text-translator/2024.4.20-2024.4.22/README.md --exclude *.pyd
+[2024-04-23 05:08:20] INFO root fetch - processPackages [developergpt]: executing diffoscope
+[2024-04-23 05:08:20] INFO root fetch - processPackages [developergpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/developergpt-0.6.7.tar.gz tmp/developergpt-0.7.0.tar.gz --markdown 20240423/d/developergpt/0.6.7-0.7.0/README.md --exclude *.pyd
+[2024-04-23 05:08:20] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-23 05:08:20] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-23 05:08:20] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-23 05:08:21] INFO root fetch - processPackages [developergpt]: Remove: archive file [/home/abi/fetcher/tmp/developergpt-0.6.7.tar.gz]
+[2024-04-23 05:08:21] INFO root fetch - processPackages [developergpt]: Remove: archive file [/home/abi/fetcher/tmp/developergpt-0.7.0.tar.gz]
+[2024-04-23 05:08:21] INFO root fetch - main [MainThread]: End processing [developergpt]: success
+[2024-04-23 05:08:21] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_text_translator-2024.4.20.tar.gz]
+[2024-04-23 05:08:21] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_text_translator-2024.4.22.tar.gz]
+[2024-04-23 05:08:21] INFO root fetch - main [MainThread]: End processing [django-text-translator]: success
+[2024-04-23 05:08:21] INFO root fetch - main [MainThread]: Store serial: [22888416]
