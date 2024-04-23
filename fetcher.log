@@ -7590,3 +7590,33 @@
 [2024-04-23 03:56:41] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.58.0-py3-none-any.whl.zip]
 [2024-04-23 03:56:41] INFO root fetch - main [MainThread]: End processing [pysui]: success
 [2024-04-23 03:56:41] INFO root fetch - main [MainThread]: Store serial: [22887966]
+[2024-04-23 03:58:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887966]
+[2024-04-23 03:58:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 03:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dt-extensions-sdk
+[2024-04-23 03:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qctrl-release-noter
+[2024-04-23 03:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-streams
+[2024-04-23 03:58:50] INFO root fetch - processPackages [qctrl-release-noter]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-23 03:58:50] INFO root fetch - processPackages [dt-extensions-sdk]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-23 03:58:50] INFO root fetch - processPackages [mo-streams]: New version: [1.600.24114] Old Version: [1.589.24111]
+[2024-04-23 03:58:50] INFO root fetch - processPackages [qctrl-release-noter]: Downloading https://files.pythonhosted.org/packages/8d/b0/33aa5498292afed6db201c1982ffa4c4417d05a6224f9d8ba7a9f09d45ac/qctrl_release_noter-0.8.0.tar.gz
+[2024-04-23 03:58:50] INFO root fetch - processPackages [dt-extensions-sdk]: Downloading https://files.pythonhosted.org/packages/0e/10/88f712fb8d939e102905206d922adc64d215445dc102c3d5d30f1193f00f/dt_extensions_sdk-1.1.8.tar.gz
+[2024-04-23 03:58:50] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/a4/c9/7d6fba31b2caa36bff8e56cce6810b22b3f597cab2ea28acf2bb0da4b806/mo_streams-1.589.24111.tar.gz
+[2024-04-23 03:58:50] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/85/1b/fb6514d7b19b1108e978b647f7d2e0c7522a3226036836b498898622f687/mo_streams-1.600.24114.tar.gz
+[2024-04-23 03:58:50] INFO root fetch - processPackages [dt-extensions-sdk]: Downloading https://files.pythonhosted.org/packages/07/5f/1daa7695f0fbf0df9cd8703b66137d3cab861632d5449627125f40296700/dt_extensions_sdk-1.1.9.tar.gz
+[2024-04-23 03:58:50] INFO root fetch - processPackages [qctrl-release-noter]: Downloading https://files.pythonhosted.org/packages/af/eb/5647b92e5f16900f4f3e6e02009600972ca6c82cd63a42c8808d28402b55/qctrl_release_noter-0.9.0.tar.gz
+[2024-04-23 03:58:50] INFO root fetch - processPackages [mo-streams]: executing diffoscope
+[2024-04-23 03:58:50] INFO root fetch - processPackages [mo-streams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_streams-1.589.24111.tar.gz tmp/mo_streams-1.600.24114.tar.gz --markdown 20240423/m/mo-streams/1.589.24111-1.600.24114/README.md --exclude *.pyd
+[2024-04-23 03:58:50] INFO root fetch - processPackages [qctrl-release-noter]: executing diffoscope
+[2024-04-23 03:58:50] INFO root fetch - processPackages [qctrl-release-noter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_release_noter-0.8.0.tar.gz tmp/qctrl_release_noter-0.9.0.tar.gz --markdown 20240423/q/qctrl-release-noter/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-23 03:58:50] INFO root fetch - processPackages [dt-extensions-sdk]: executing diffoscope
+[2024-04-23 03:58:50] INFO root fetch - processPackages [dt-extensions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt_extensions_sdk-1.1.8.tar.gz tmp/dt_extensions_sdk-1.1.9.tar.gz --markdown 20240423/d/dt-extensions-sdk/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-23 03:58:51] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.589.24111.tar.gz]
+[2024-04-23 03:58:51] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.600.24114.tar.gz]
+[2024-04-23 03:58:51] INFO root fetch - main [MainThread]: End processing [mo-streams]: success
+[2024-04-23 03:58:51] INFO root fetch - processPackages [qctrl-release-noter]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_release_noter-0.8.0.tar.gz]
+[2024-04-23 03:58:51] INFO root fetch - processPackages [qctrl-release-noter]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_release_noter-0.9.0.tar.gz]
+[2024-04-23 03:58:51] INFO root fetch - main [MainThread]: End processing [qctrl-release-noter]: success
+[2024-04-23 03:58:51] INFO root fetch - processPackages [dt-extensions-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_sdk-1.1.8.tar.gz]
+[2024-04-23 03:58:51] INFO root fetch - processPackages [dt-extensions-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_sdk-1.1.9.tar.gz]
+[2024-04-23 03:58:51] INFO root fetch - main [MainThread]: End processing [dt-extensions-sdk]: success
+[2024-04-23 03:58:51] INFO root fetch - main [MainThread]: Store serial: [22887976]
