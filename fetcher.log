@@ -13467,3 +13467,42 @@
 [2024-04-23 09:38:50] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-4.1.1.tar.gz]
 [2024-04-23 09:38:50] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2024-04-23 09:38:50] INFO root fetch - main [MainThread]: Store serial: [22890334]
+[2024-04-23 09:40:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890334]
+[2024-04-23 09:40:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 09:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansys-pre-commit-hooks
+[2024-04-23 09:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytsa-ais
+[2024-04-23 09:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JayttleProcess
+[2024-04-23 09:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: global-hotkeys
+[2024-04-23 09:40:59] INFO root fetch - processPackages [ansys-pre-commit-hooks]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-23 09:40:59] INFO root fetch - processPackages [JayttleProcess]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-23 09:40:59] INFO root fetch - processPackages [global-hotkeys]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-23 09:40:59] INFO root fetch - processPackages [ansys-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/ee/4a/af9852c7f446cf4e8d3b9d60f031f2ec80f2ca919d11c4bcd149747ec91e/ansys_pre_commit_hooks-0.3.0.tar.gz
+[2024-04-23 09:40:59] INFO root fetch - processPackages [pytsa-ais]: New version: [2.3.2] Old Version: [2.3.0]
+[2024-04-23 09:40:59] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/24/90/249513885fde6830a9ef397e1a9fc021648bdfb9370e91c75e0e033b7d4b/JayttleProcess-0.2.0-py3-none-any.whl
+[2024-04-23 09:40:59] INFO root fetch - processPackages [global-hotkeys]: Downloading https://files.pythonhosted.org/packages/4b/af/ee9a51508cb74e37d08478f5639fa187d1cf614b6422435eb01683cf3e80/global_hotkeys-0.1.6.tar.gz
+[2024-04-23 09:40:59] INFO root fetch - processPackages [pytsa-ais]: Downloading https://files.pythonhosted.org/packages/41/eb/9185a44333cdf921a0022d3ccd42f11909b44aa83c493007706fe692fb28/pytsa_ais-2.3.0.tar.gz
+[2024-04-23 09:40:59] INFO root fetch - processPackages [ansys-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/84/d2/c88218d3f2198b82b143be44e589d67a173d1e3982efb92fe8b126aa4876/ansys_pre_commit_hooks-0.3.1.tar.gz
+[2024-04-23 09:41:00] INFO root fetch - processPackages [ansys-pre-commit-hooks]: executing diffoscope
+[2024-04-23 09:41:00] INFO root fetch - processPackages [ansys-pre-commit-hooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_pre_commit_hooks-0.3.0.tar.gz tmp/ansys_pre_commit_hooks-0.3.1.tar.gz --markdown 20240423/a/ansys-pre-commit-hooks/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-23 09:41:00] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/99/bf/423782fae5b9d384fb03a3063707473d78436b0a1782dd332a8411179a50/JayttleProcess-0.2.1-py3-none-any.whl
+[2024-04-23 09:41:00] INFO root fetch - processPackages [global-hotkeys]: Downloading https://files.pythonhosted.org/packages/d3/de/8c07714cd55c72e57a44059aaba43bd1b347e989b18a19012ad4764978a8/global_hotkeys-0.1.7.tar.gz
+[2024-04-23 09:41:00] INFO root fetch - processPackages [JayttleProcess]: executing diffoscope
+[2024-04-23 09:41:00] INFO root fetch - processPackages [JayttleProcess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JayttleProcess-0.2.0-py3-none-any.whl.zip tmp/JayttleProcess-0.2.1-py3-none-any.whl.zip --markdown 20240423/J/JayttleProcess/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-23 09:41:00] INFO root fetch - processPackages [global-hotkeys]: executing diffoscope
+[2024-04-23 09:41:00] INFO root fetch - processPackages [global-hotkeys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/global_hotkeys-0.1.6.tar.gz tmp/global_hotkeys-0.1.7.tar.gz --markdown 20240423/g/global-hotkeys/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-23 09:41:00] INFO root fetch - processPackages [pytsa-ais]: Downloading https://files.pythonhosted.org/packages/29/4b/371f5599ed3a2ecf5e3ae9011afc70487e014ac3ded614998ad049ab9043/pytsa_ais-2.3.2.tar.gz
+[2024-04-23 09:41:00] INFO root fetch - processPackages [pytsa-ais]: executing diffoscope
+[2024-04-23 09:41:00] INFO root fetch - processPackages [pytsa-ais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytsa_ais-2.3.0.tar.gz tmp/pytsa_ais-2.3.2.tar.gz --markdown 20240423/p/pytsa-ais/2.3.0-2.3.2/README.md --exclude *.pyd
+[2024-04-23 09:41:00] INFO root fetch - processPackages [ansys-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/ansys_pre_commit_hooks-0.3.0.tar.gz]
+[2024-04-23 09:41:00] INFO root fetch - processPackages [ansys-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/ansys_pre_commit_hooks-0.3.1.tar.gz]
+[2024-04-23 09:41:00] INFO root fetch - main [MainThread]: End processing [ansys-pre-commit-hooks]: success
+[2024-04-23 09:41:00] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.2.0-py3-none-any.whl.zip]
+[2024-04-23 09:41:00] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.2.1-py3-none-any.whl.zip]
+[2024-04-23 09:41:00] INFO root fetch - main [MainThread]: End processing [JayttleProcess]: success
+[2024-04-23 09:41:00] INFO root fetch - processPackages [global-hotkeys]: Remove: archive file [/home/abi/fetcher/tmp/global_hotkeys-0.1.6.tar.gz]
+[2024-04-23 09:41:00] INFO root fetch - processPackages [global-hotkeys]: Remove: archive file [/home/abi/fetcher/tmp/global_hotkeys-0.1.7.tar.gz]
+[2024-04-23 09:41:00] INFO root fetch - main [MainThread]: End processing [global-hotkeys]: success
+[2024-04-23 09:41:01] INFO root fetch - processPackages [pytsa-ais]: Remove: archive file [/home/abi/fetcher/tmp/pytsa_ais-2.3.0.tar.gz]
+[2024-04-23 09:41:01] INFO root fetch - processPackages [pytsa-ais]: Remove: archive file [/home/abi/fetcher/tmp/pytsa_ais-2.3.2.tar.gz]
+[2024-04-23 09:41:01] INFO root fetch - main [MainThread]: End processing [pytsa-ais]: success
+[2024-04-23 09:41:01] INFO root fetch - main [MainThread]: Store serial: [22890345]
