@@ -23117,3 +23117,124 @@ EOFError: EOF read where object expected
 [2024-04-23 15:19:37] INFO root fetch - processPackages [streamsync]: Remove: archive file [/home/abi/fetcher/tmp/streamsync-0.4.0rc4.tar.gz]
 [2024-04-23 15:19:37] INFO root fetch - main [MainThread]: End processing [streamsync]: success
 [2024-04-23 15:19:37] INFO root fetch - main [MainThread]: Store serial: [22894512]
+[2024-04-23 15:21:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894512]
+[2024-04-23 15:21:47] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-23 15:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opytimal
+[2024-04-23 15:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlops-api-gemstack
+[2024-04-23 15:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BrightnessBooster
+[2024-04-23 15:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napari-toothfairy-annotator
+[2024-04-23 15:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crawlnet
+[2024-04-23 15:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cht-tiling
+[2024-04-23 15:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: akd-py
+[2024-04-23 15:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snipit
+[2024-04-23 15:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opytimal
+[2024-04-23 15:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kodexa-cli
+[2024-04-23 15:21:47] INFO root fetch - processPackages [opytimal]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-23 15:21:47] INFO root fetch - processPackages [kodexa-cli]: New version: [7.0.8800850149] Old Version: [7.0.8649253175]
+[2024-04-23 15:21:47] INFO root fetch - processPackages [opytimal]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-23 15:21:47] INFO root fetch - processPackages [crawlnet]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 15:21:47] INFO root fetch - processPackages [BrightnessBooster]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-23 15:21:47] WARNING root fetch - processPackages [akd-py]: Skipping, unable to determine old version
+[2024-04-23 15:21:47] INFO root fetch - processPackages [akd-py]: Start processing: swiss-army-man
+[2024-04-23 15:21:47] INFO root fetch - main [MainThread]: End processing [akd-py] error
+[2024-04-23 15:21:47] INFO root fetch - processPackages [napari-toothfairy-annotator]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 15:21:47] INFO root fetch - processPackages [snipit]: New version: [1.4] Old Version: [1.2]
+[2024-04-23 15:21:47] INFO root fetch - processPackages [mlops-api-gemstack]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-23 15:21:47] INFO root fetch - processPackages [cht-tiling]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 15:21:47] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/94/cb/77c95a81674cf75703b268dff1fce77051c2ce4eb22c2fded68292832ecb/kodexa_cli-7.0.8649253175.tar.gz
+[2024-04-23 15:21:47] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/59/b3/c36f6205146cb7f11d828b5614a32d17d0da578e40f31112869cfdb412f1/opytimal-0.6.0.tar.gz
+[2024-04-23 15:21:47] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/59/b3/c36f6205146cb7f11d828b5614a32d17d0da578e40f31112869cfdb412f1/opytimal-0.6.0.tar.gz
+[2024-04-23 15:21:47] INFO root fetch - processPackages [swiss-army-man]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-23 15:21:47] INFO root fetch - processPackages [crawlnet]: Downloading https://files.pythonhosted.org/packages/13/49/8435441121aa649f1d985dd85fc4abf48b2f6368aba1dbf54ce3949b5da9/crawlnet-0.0.1.tar.gz
+[2024-04-23 15:21:47] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/f7/cb/17259a113f9d9938f55e013bf6f160d8468f7fd9af2d89791df7b74af3b4/napari-toothfairy-annotator-0.0.8.tar.gz
+[2024-04-23 15:21:47] INFO root fetch - processPackages [BrightnessBooster]: Downloading https://files.pythonhosted.org/packages/12/92/abbcdc42398e63c4db0235033eeccbbdead7397094261424e755ab60387c/BrightnessBooster-1.0.9.tar.gz
+[2024-04-23 15:21:47] INFO root fetch - processPackages [cht-tiling]: Downloading https://files.pythonhosted.org/packages/e0/eb/3ead0937d9eff67fe2ddcd3bbfbbf0dd15d79d04ecafb3a872eb454c96fc/cht_tiling-0.0.1.tar.gz
+[2024-04-23 15:21:47] INFO root fetch - processPackages [snipit]: Downloading https://files.pythonhosted.org/packages/06/af/4759d92394ba32235ad775546658863d25578e9427ab7e2da497ecf77ad9/snipit-1.2.tar.gz
+[2024-04-23 15:21:47] INFO root fetch - processPackages [mlops-api-gemstack]: Downloading https://files.pythonhosted.org/packages/b4/a2/41cab2ad46e68f9d4ffd8fea18e74b42d80f5e00513e06dcc78c4855f1be/mlops_api_gemstack-0.3.3.tar.gz
+[2024-04-23 15:21:47] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/2e/dc/4652abe8bbf7e1322d6a4154b821fa9de0488165d57469618dd6fe213ce0/kodexa_cli-7.0.8800850149.tar.gz
+[2024-04-23 15:21:47] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/59/80/14b98af5e3e23f05583426adb1f6cfae6c1f7fc953d5a24874e77c367496/swiss_army_man-0.1.4.tar.gz
+[2024-04-23 15:21:47] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/5d/44/34653b7e7919a0063a6efb332b83c0b5a9127b904414fd7ef02060b0e008/opytimal-0.6.1.tar.gz
+[2024-04-23 15:21:47] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/5d/44/34653b7e7919a0063a6efb332b83c0b5a9127b904414fd7ef02060b0e008/opytimal-0.6.1.tar.gz
+[2024-04-23 15:21:47] INFO root fetch - processPackages [crawlnet]: Downloading https://files.pythonhosted.org/packages/55/e4/ae471a6194b402ab89681323a2f198020416dd36590a43a7bb2b851ec3e2/crawlnet-0.0.2.tar.gz
+[2024-04-23 15:21:48] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/f5/8a/8bd11194691603ce2bfead148fbf0a4bdcfeb82e49d90cf27de34b12ac21/napari-toothfairy-annotator-0.0.9.tar.gz
+[2024-04-23 15:21:48] INFO root fetch - processPackages [BrightnessBooster]: Downloading https://files.pythonhosted.org/packages/53/2e/a175e5716f2a8c627445f387b15eb62dba6c922a55ee5583e89d0ecdaf42/BrightnessBooster-1.1.0.tar.gz
+[2024-04-23 15:21:48] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 15:21:48] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.6.0.tar.gz tmp/opytimal-0.6.1.tar.gz --markdown 20240423/o/opytimal/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-23 15:21:48] INFO root fetch - processPackages [cht-tiling]: Downloading https://files.pythonhosted.org/packages/92/4d/c8a5033e5044b68024244d240d2a849a1c83236883b434221faff28dfdfa/cht_tiling-0.0.2.tar.gz
+[2024-04-23 15:21:48] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 15:21:48] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.6.0.tar.gz tmp/opytimal-0.6.1.tar.gz --markdown 20240423/o/opytimal/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-23 15:21:48] INFO root fetch - processPackages [snipit]: Downloading https://files.pythonhosted.org/packages/b0/93/0d65a24cb62a4b45dab856ad32f877c8aeaa4541e770758fc61851d74426/snipit-1.4-py3-none-any.whl
+[2024-04-23 15:21:48] INFO root fetch - processPackages [mlops-api-gemstack]: Downloading https://files.pythonhosted.org/packages/d2/a6/24e2a8cf4edf559d69086d91d97bb5f9684b85e464dc4c715c3efc150443/mlops_api_gemstack-0.3.4.tar.gz
+[2024-04-23 15:21:48] INFO root fetch - processPackages [crawlnet]: executing diffoscope
+[2024-04-23 15:21:48] INFO root fetch - processPackages [crawlnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlnet-0.0.1.tar.gz tmp/crawlnet-0.0.2.tar.gz --markdown 20240423/c/crawlnet/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 15:21:48] INFO root fetch - processPackages [BrightnessBooster]: executing diffoscope
+[2024-04-23 15:21:48] INFO root fetch - processPackages [BrightnessBooster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BrightnessBooster-1.0.9.tar.gz tmp/BrightnessBooster-1.1.0.tar.gz --markdown 20240423/B/BrightnessBooster/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-04-23 15:21:48] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/3d/10/bf6a63072ce36e1f442d33aa2cfad4e95a226520094935cb79500d7ef698/swiss_army_man-0.1.5.tar.gz
+[2024-04-23 15:21:48] INFO root fetch - processPackages [cht-tiling]: executing diffoscope
+[2024-04-23 15:21:48] INFO root fetch - processPackages [cht-tiling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cht_tiling-0.0.1.tar.gz tmp/cht_tiling-0.0.2.tar.gz --markdown 20240423/c/cht-tiling/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 15:21:48] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2024-04-23 15:21:48] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-7.0.8649253175.tar.gz tmp/kodexa_cli-7.0.8800850149.tar.gz --markdown 20240423/k/kodexa-cli/7.0.8649253175-7.0.8800850149/README.md --exclude *.pyd
+[2024-04-23 15:21:48] INFO root fetch - processPackages [mlops-api-gemstack]: executing diffoscope
+[2024-04-23 15:21:48] INFO root fetch - processPackages [snipit]: executing diffoscope
+[2024-04-23 15:21:48] INFO root fetch - processPackages [mlops-api-gemstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlops_api_gemstack-0.3.3.tar.gz tmp/mlops_api_gemstack-0.3.4.tar.gz --markdown 20240423/m/mlops-api-gemstack/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-23 15:21:48] INFO root fetch - processPackages [snipit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snipit-1.2.tar.gz tmp/snipit-1.4-py3-none-any.whl.zip --markdown 20240423/s/snipit/1.2-1.4/README.md --exclude *.pyd
+[2024-04-23 15:21:48] INFO root fetch - processPackages [napari-toothfairy-annotator]: executing diffoscope
+[2024-04-23 15:21:48] INFO root fetch - processPackages [napari-toothfairy-annotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-toothfairy-annotator-0.0.8.tar.gz tmp/napari-toothfairy-annotator-0.0.9.tar.gz --markdown 20240423/n/napari-toothfairy-annotator/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 15:21:48] INFO root fetch - processPackages [swiss-army-man]: executing diffoscope
+[2024-04-23 15:21:48] INFO root fetch - processPackages [swiss-army-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiss_army_man-0.1.4.tar.gz tmp/swiss_army_man-0.1.5.tar.gz --markdown 20240423/s/swiss-army-man/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-23 15:21:49] INFO root fetch - processPackages [crawlnet]: Remove: archive file [/home/abi/fetcher/tmp/crawlnet-0.0.1.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [crawlnet]: Remove: archive file [/home/abi/fetcher/tmp/crawlnet-0.0.2.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [crawlnet]: Start processing: finbourne-access-sdk
+[2024-04-23 15:21:49] INFO root fetch - main [MainThread]: End processing [crawlnet]: success
+[2024-04-23 15:21:49] INFO root fetch - processPackages [BrightnessBooster]: Remove: archive file [/home/abi/fetcher/tmp/BrightnessBooster-1.0.9.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [BrightnessBooster]: Remove: archive file [/home/abi/fetcher/tmp/BrightnessBooster-1.1.0.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [BrightnessBooster]: Start processing: precommend
+[2024-04-23 15:21:49] INFO root fetch - main [MainThread]: End processing [BrightnessBooster]: success
+[2024-04-23 15:21:49] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [cht-tiling]: Remove: archive file [/home/abi/fetcher/tmp/cht_tiling-0.0.1.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [cht-tiling]: Remove: archive file [/home/abi/fetcher/tmp/cht_tiling-0.0.2.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [cht-tiling]: Start processing: Geode-Implicit
+[2024-04-23 15:21:49] INFO root fetch - main [MainThread]: End processing [cht-tiling]: success
+[2024-04-23 15:21:49] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.6.0.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.6.1.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 15:21:49] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 15:21:49] INFO root fetch - processPackages [precommend]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-23 15:21:49] INFO root fetch - processPackages [snipit]: Remove: archive file [/home/abi/fetcher/tmp/snipit-1.2.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [snipit]: Remove: archive file [/home/abi/fetcher/tmp/snipit-1.4-py3-none-any.whl.zip]
+[2024-04-23 15:21:49] INFO root fetch - main [MainThread]: End processing [snipit]: success
+[2024-04-23 15:21:49] INFO root fetch - processPackages [mlops-api-gemstack]: Remove: archive file [/home/abi/fetcher/tmp/mlops_api_gemstack-0.3.3.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [mlops-api-gemstack]: Remove: archive file [/home/abi/fetcher/tmp/mlops_api_gemstack-0.3.4.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - main [MainThread]: End processing [mlops-api-gemstack]: success
+[2024-04-23 15:21:49] INFO root fetch - processPackages [Geode-Implicit]: New version: [2.8.6rc1] Old Version: [2.8.5rc1]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.8.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.9.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - main [MainThread]: End processing [napari-toothfairy-annotator]: success
+[2024-04-23 15:21:49] INFO root fetch - processPackages [precommend]: Downloading https://files.pythonhosted.org/packages/53/20/8dcfcec3a941107ffd3d6d4dd0b1e3172d0aa4612ea0d07e46d2fcf278b4/precommend-0.2.2.tar.gz
+[2024-04-23 15:21:49] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-7.0.8649253175.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-7.0.8800850149.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2024-04-23 15:21:49] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.4.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.5.tar.gz]
+[2024-04-23 15:21:49] INFO root fetch - main [MainThread]: End processing [swiss-army-man]: success
+[2024-04-23 15:21:49] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-23 15:21:49] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/f7/fa/28e4e33b06c3dcad81846ffa072282d735f5172774daa8be50922809c3b7/Geode_Implicit-2.8.5rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-23 15:21:49] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-23 15:21:49] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240423/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-23 15:21:50] INFO root fetch - processPackages [precommend]: Downloading https://files.pythonhosted.org/packages/e2/31/a418444da201a01c24e361eb17a21d79395cc34b4de74912ac215b2d1fe1/precommend-0.3.0.tar.gz
+[2024-04-23 15:21:50] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/60/ae/498bc71d5ba7a25f4aa534b9c3a6599d2c34a6135dd962ed9e2967d3184a/Geode_Implicit-2.8.6rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-23 15:21:50] INFO root fetch - processPackages [precommend]: executing diffoscope
+[2024-04-23 15:21:50] INFO root fetch - processPackages [precommend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/precommend-0.2.2.tar.gz tmp/precommend-0.3.0.tar.gz --markdown 20240423/p/precommend/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-23 15:21:50] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-23 15:21:50] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-23 15:21:50] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-23 15:21:50] INFO root fetch - processPackages [Geode-Implicit]: executing diffoscope
+[2024-04-23 15:21:50] INFO root fetch - processPackages [Geode-Implicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Implicit-2.8.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Implicit-2.8.6rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240423/G/Geode-Implicit/2.8.5rc1-2.8.6rc1/README.md --exclude *.pyd
+[2024-04-23 15:21:51] INFO root fetch - processPackages [precommend]: Remove: archive file [/home/abi/fetcher/tmp/precommend-0.2.2.tar.gz]
+[2024-04-23 15:21:51] INFO root fetch - processPackages [precommend]: Remove: archive file [/home/abi/fetcher/tmp/precommend-0.3.0.tar.gz]
+[2024-04-23 15:21:51] INFO root fetch - main [MainThread]: End processing [precommend]: success
+[2024-04-23 15:22:37] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-23 15:22:37] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.6rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-23 15:22:37] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
+[2024-04-23 15:22:37] INFO root fetch - main [MainThread]: Store serial: [22894555]
