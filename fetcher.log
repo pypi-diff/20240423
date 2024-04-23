@@ -3224,3 +3224,63 @@
 [2024-04-23 02:47:23] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
 [2024-04-23 02:47:23] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2024-04-23 02:47:23] INFO root fetch - main [MainThread]: Store serial: [22886504]
+[2024-04-23 02:49:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886504]
+[2024-04-23 02:49:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 02:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: server-monitor-agent
+[2024-04-23 02:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioversions
+[2024-04-23 02:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlx-vlm
+[2024-04-23 02:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-readability-metrics-small
+[2024-04-23 02:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apstools
+[2024-04-23 02:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-sns-notify
+[2024-04-23 02:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finisterra
+[2024-04-23 02:49:32] INFO root fetch - processPackages [py-readability-metrics-small]: New version: [1.5] Old Version: [1.4.4]
+[2024-04-23 02:49:32] WARNING root fetch - processPackages [mlx-vlm]: Skipping, unable to determine old version
+[2024-04-23 02:49:32] INFO root fetch - main [MainThread]: End processing [mlx-vlm] error
+[2024-04-23 02:49:32] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-23 02:49:32] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 02:49:32] INFO root fetch - processPackages [server-monitor-agent]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-23 02:49:32] INFO root fetch - processPackages [finisterra]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 02:49:32] INFO root fetch - processPackages [apstools]: New version: [1.6.9rc1] Old Version: [1.6.9]
+[2024-04-23 02:49:32] INFO root fetch - processPackages [py-readability-metrics-small]: Downloading https://files.pythonhosted.org/packages/1c/e4/2c18455014a79195388685fac711d53deb8c9706e33cc9128f121ed6509a/py-readability-metrics-small-1.4.4.tar.gz
+[2024-04-23 02:49:32] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-04-23 02:49:32] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-04-23 02:49:32] INFO root fetch - processPackages [server-monitor-agent]: Downloading https://files.pythonhosted.org/packages/e3/0f/a231e920e1860aea95bf57f85378d6da4133c6f2086f62ec8198cf78c0cb/server-monitor-agent-0.4.0.tar.gz
+[2024-04-23 02:49:32] INFO root fetch - processPackages [finisterra]: Downloading https://files.pythonhosted.org/packages/b6/bf/195a1850e81169f476d3d3ca9ef8c21c89088d98c5739b2e6b3e241d7ac4/finisterra-1.0.8.tar.gz
+[2024-04-23 02:49:32] INFO root fetch - processPackages [apstools]: Downloading https://files.pythonhosted.org/packages/bb/e8/af2920d3a7fedda68a11081779a3935b639643858f29f2c5af211c0c8f6f/apstools-1.6.9.tar.gz
+[2024-04-23 02:49:32] INFO root fetch - processPackages [py-readability-metrics-small]: Downloading https://files.pythonhosted.org/packages/96/98/8123505b77f8416b9ca110eeda94476c2183bbca2376300e4c6a1e682139/py_readability_metrics_small-1.5.tar.gz
+[2024-04-23 02:49:32] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-04-23 02:49:32] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-04-23 02:49:33] INFO root fetch - processPackages [py-readability-metrics-small]: executing diffoscope
+[2024-04-23 02:49:33] INFO root fetch - processPackages [py-readability-metrics-small]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-readability-metrics-small-1.4.4.tar.gz tmp/py_readability_metrics_small-1.5.tar.gz --markdown 20240423/p/py-readability-metrics-small/1.4.4-1.5/README.md --exclude *.pyd
+[2024-04-23 02:49:33] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-04-23 02:49:33] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240423/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 02:49:33] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-04-23 02:49:33] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240423/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-04-23 02:49:33] INFO root fetch - processPackages [server-monitor-agent]: Downloading https://files.pythonhosted.org/packages/fb/4b/a45e2d2a852b5a8e242beb62d0134ef2deb216afdd4c9142cf4e561ef4da/server_monitor_agent-0.5.0.tar.gz
+[2024-04-23 02:49:33] INFO root fetch - processPackages [finisterra]: Downloading https://files.pythonhosted.org/packages/68/8a/02f80cdb16a2f8155583c78bc947832a816e1d8d728091c4ac97d9225473/finisterra-1.0.9.tar.gz
+[2024-04-23 02:49:33] INFO root fetch - processPackages [server-monitor-agent]: executing diffoscope
+[2024-04-23 02:49:33] INFO root fetch - processPackages [server-monitor-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/server-monitor-agent-0.4.0.tar.gz tmp/server_monitor_agent-0.5.0.tar.gz --markdown 20240423/s/server-monitor-agent/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-23 02:49:33] INFO root fetch - processPackages [finisterra]: executing diffoscope
+[2024-04-23 02:49:33] INFO root fetch - processPackages [finisterra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finisterra-1.0.8.tar.gz tmp/finisterra-1.0.9.tar.gz --markdown 20240423/f/finisterra/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 02:49:33] INFO root fetch - processPackages [apstools]: Downloading https://files.pythonhosted.org/packages/d4/ce/7740563ebafc7c2c86fb4241495a359ea6bc1dfda4e7084e39092b35f8ce/apstools-1.6.9rc1.tar.gz
+[2024-04-23 02:49:33] INFO root fetch - processPackages [apstools]: executing diffoscope
+[2024-04-23 02:49:33] INFO root fetch - processPackages [apstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apstools-1.6.9.tar.gz tmp/apstools-1.6.9rc1.tar.gz --markdown 20240423/a/apstools/1.6.9-1.6.9rc1/README.md --exclude *.pyd
+[2024-04-23 02:49:33] INFO root fetch - processPackages [py-readability-metrics-small]: Remove: archive file [/home/abi/fetcher/tmp/py-readability-metrics-small-1.4.4.tar.gz]
+[2024-04-23 02:49:33] INFO root fetch - processPackages [py-readability-metrics-small]: Remove: archive file [/home/abi/fetcher/tmp/py_readability_metrics_small-1.5.tar.gz]
+[2024-04-23 02:49:33] INFO root fetch - main [MainThread]: End processing [py-readability-metrics-small]: success
+[2024-04-23 02:49:33] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-04-23 02:49:33] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-04-23 02:49:33] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-04-23 02:49:34] INFO root fetch - processPackages [server-monitor-agent]: Remove: archive file [/home/abi/fetcher/tmp/server-monitor-agent-0.4.0.tar.gz]
+[2024-04-23 02:49:34] INFO root fetch - processPackages [server-monitor-agent]: Remove: archive file [/home/abi/fetcher/tmp/server_monitor_agent-0.5.0.tar.gz]
+[2024-04-23 02:49:34] INFO root fetch - main [MainThread]: End processing [server-monitor-agent]: success
+[2024-04-23 02:49:34] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.8.tar.gz]
+[2024-04-23 02:49:34] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.9.tar.gz]
+[2024-04-23 02:49:34] INFO root fetch - main [MainThread]: End processing [finisterra]: success
+[2024-04-23 02:49:34] INFO root fetch - processPackages [apstools]: Remove: archive file [/home/abi/fetcher/tmp/apstools-1.6.9.tar.gz]
+[2024-04-23 02:49:34] INFO root fetch - processPackages [apstools]: Remove: archive file [/home/abi/fetcher/tmp/apstools-1.6.9rc1.tar.gz]
+[2024-04-23 02:49:34] INFO root fetch - main [MainThread]: End processing [apstools]: success
+[2024-04-23 02:49:52] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-04-23 02:49:52] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-04-23 02:49:52] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-04-23 02:49:52] INFO root fetch - main [MainThread]: Store serial: [22886524]
