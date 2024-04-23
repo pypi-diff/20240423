@@ -2451,3 +2451,63 @@
 [2024-04-23 02:10:50] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404220010.tar.gz]
 [2024-04-23 02:10:50] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-04-23 02:10:50] INFO root fetch - main [MainThread]: Store serial: [22886236]
+[2024-04-23 02:12:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886236]
+[2024-04-23 02:12:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 02:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers-nightly
+[2024-04-23 02:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psrpcore
+[2024-04-23 02:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Arganic
+[2024-04-23 02:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: freedownload
+[2024-04-23 02:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: momento-wire-types
+[2024-04-23 02:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-events-notify
+[2024-04-23 02:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: speakeasy-client-sdk-python
+[2024-04-23 02:12:59] INFO root fetch - processPackages [momento-wire-types]: New version: [0.99.0] Old Version: [0.98.1]
+[2024-04-23 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-23 02:12:59] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240422.post1119] Old Version: [1.5.0.20240421.post1134]
+[2024-04-23 02:12:59] ERROR root fetch - processPackages [Arganic]: Unable to get metadata: No such project 'Arganic'
+[2024-04-23 02:12:59] INFO root fetch - main [MainThread]: End processing [Arganic] error
+[2024-04-23 02:12:59] INFO root fetch - processPackages [freedownload]: New version: [2.0.0] Old Version: [1.0.6]
+[2024-04-23 02:12:59] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/e4/46/0239df82cb6e9ffef5ee59019564c4485802b085aa41a571faefc8ebd223/momento_wire_types-0.98.1.tar.gz
+[2024-04-23 02:12:59] INFO root fetch - processPackages [psrpcore]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-23 02:12:59] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [5.6.9] Old Version: [5.6.8]
+[2024-04-23 02:12:59] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/21/a9/7ce4815f50ce0ba5a2ba290c2418973fa44e097404ae7e4042c511d8337c/mct-quantizers-nightly-1.5.0.20240421.post1134.tar.gz
+[2024-04-23 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-04-23 02:12:59] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/8e/77/73692d8207b35beda1e5b274d897b938a7de956cc301fe86b478cfeb5c26/momento_wire_types-0.99.0.tar.gz
+[2024-04-23 02:12:59] INFO root fetch - processPackages [freedownload]: Downloading https://files.pythonhosted.org/packages/70/c7/98e41967ef13557f29e600fa3ef9bb508fcc852ee226e7b4de530a3b743f/freedownload-1.0.6.tar.gz
+[2024-04-23 02:12:59] INFO root fetch - processPackages [psrpcore]: Downloading https://files.pythonhosted.org/packages/d9/b3/946edf7aa8e24773b4c5e5ab5d48d2713ace219b09ae41f7073ec3aca14c/psrpcore-0.2.2.tar.gz
+[2024-04-23 02:12:59] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/6b/fc/db7da2da5aaebabd4d73533167c8dae4462072e522cf8c8934c4d4489891/speakeasy-client-sdk-python-5.6.8.tar.gz
+[2024-04-23 02:12:59] INFO root fetch - processPackages [momento-wire-types]: executing diffoscope
+[2024-04-23 02:12:59] INFO root fetch - processPackages [momento-wire-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento_wire_types-0.98.1.tar.gz tmp/momento_wire_types-0.99.0.tar.gz --markdown 20240423/m/momento-wire-types/0.98.1-0.99.0/README.md --exclude *.pyd
+[2024-04-23 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-04-23 02:12:59] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/79/b4/6b4b413a08968a0e72e08a0847abdbd408ec40c75db5de4a4aabc27c805d/mct-quantizers-nightly-1.5.0.20240422.post1119.tar.gz
+[2024-04-23 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-23 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240423/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-23 02:12:59] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-04-23 02:12:59] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240421.post1134.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240422.post1119.tar.gz --markdown 20240423/m/mct-quantizers-nightly/1.5.0.20240421.post1134-1.5.0.20240422.post1119/README.md --exclude *.pyd
+[2024-04-23 02:12:59] INFO root fetch - processPackages [psrpcore]: Downloading https://files.pythonhosted.org/packages/48/16/bfde96e3f1f9938650827677523dcf19371e77b59259ab6b89f89916520c/psrpcore-0.3.0.tar.gz
+[2024-04-23 02:12:59] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/01/54/7938caffd4c9a58fb606d95fba8ff4e66dd8b38724588964f4fa2d838dd6/speakeasy-client-sdk-python-5.6.9.tar.gz
+[2024-04-23 02:12:59] INFO root fetch - processPackages [psrpcore]: executing diffoscope
+[2024-04-23 02:12:59] INFO root fetch - processPackages [psrpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psrpcore-0.2.2.tar.gz tmp/psrpcore-0.3.0.tar.gz --markdown 20240423/p/psrpcore/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-23 02:12:59] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2024-04-23 02:12:59] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-5.6.8.tar.gz tmp/speakeasy-client-sdk-python-5.6.9.tar.gz --markdown 20240423/s/speakeasy-client-sdk-python/5.6.8-5.6.9/README.md --exclude *.pyd
+[2024-04-23 02:12:59] INFO root fetch - processPackages [freedownload]: Downloading https://files.pythonhosted.org/packages/d4/c2/f394a2f009f4bda4b72a7a57ee8d7b8f137611d7f3a4bb230dbcfc498647/freedownload-2.0.0.tar.gz
+[2024-04-23 02:13:00] INFO root fetch - processPackages [freedownload]: executing diffoscope
+[2024-04-23 02:13:00] INFO root fetch - processPackages [freedownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freedownload-1.0.6.tar.gz tmp/freedownload-2.0.0.tar.gz --markdown 20240423/f/freedownload/1.0.6-2.0.0/README.md --exclude *.pyd
+[2024-04-23 02:13:00] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento_wire_types-0.98.1.tar.gz]
+[2024-04-23 02:13:00] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento_wire_types-0.99.0.tar.gz]
+[2024-04-23 02:13:00] INFO root fetch - main [MainThread]: End processing [momento-wire-types]: success
+[2024-04-23 02:13:00] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-04-23 02:13:00] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-04-23 02:13:00] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-23 02:13:00] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240421.post1134.tar.gz]
+[2024-04-23 02:13:00] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240422.post1119.tar.gz]
+[2024-04-23 02:13:00] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-04-23 02:13:00] INFO root fetch - processPackages [freedownload]: Remove: archive file [/home/abi/fetcher/tmp/freedownload-1.0.6.tar.gz]
+[2024-04-23 02:13:00] INFO root fetch - processPackages [freedownload]: Remove: archive file [/home/abi/fetcher/tmp/freedownload-2.0.0.tar.gz]
+[2024-04-23 02:13:00] INFO root fetch - main [MainThread]: End processing [freedownload]: success
+[2024-04-23 02:13:00] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.6.8.tar.gz]
+[2024-04-23 02:13:00] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.6.9.tar.gz]
+[2024-04-23 02:13:00] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2024-04-23 02:13:01] INFO root fetch - processPackages [psrpcore]: Remove: archive file [/home/abi/fetcher/tmp/psrpcore-0.2.2.tar.gz]
+[2024-04-23 02:13:01] INFO root fetch - processPackages [psrpcore]: Remove: archive file [/home/abi/fetcher/tmp/psrpcore-0.3.0.tar.gz]
+[2024-04-23 02:13:01] INFO root fetch - main [MainThread]: End processing [psrpcore]: success
+[2024-04-23 02:13:01] INFO root fetch - main [MainThread]: Store serial: [22886260]
