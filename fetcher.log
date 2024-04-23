@@ -8325,3 +8325,63 @@
 [2024-04-23 04:37:15] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-23 04:37:15] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-23 04:37:15] INFO root fetch - main [MainThread]: Store serial: [22888224]
+[2024-04-23 04:39:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888224]
+[2024-04-23 04:39:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: druida
+[2024-04-23 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypothesis-torch
+[2024-04-23 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPtt
+[2024-04-23 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-sql-explorer
+[2024-04-23 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: behavysis_core
+[2024-04-23 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meteoswiss-async
+[2024-04-23 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-semantic-release
+[2024-04-23 04:39:24] INFO root fetch - processPackages [meteoswiss-async]: New version: [0.1.0rc9.post1] Old Version: [0.1.0rc13.post1]
+[2024-04-23 04:39:24] INFO root fetch - processPackages [hypothesis-torch]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 04:39:24] INFO root fetch - processPackages [django-sql-explorer]: New version: [4.1b6] Old Version: [4.1b5]
+[2024-04-23 04:39:24] WARNING root fetch - processPackages [behavysis_core]: Skipping, unable to determine old version
+[2024-04-23 04:39:24] INFO root fetch - main [MainThread]: End processing [behavysis_core] error
+[2024-04-23 04:39:24] INFO root fetch - processPackages [druida]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 04:39:24] INFO root fetch - processPackages [PyPtt]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-04-23 04:39:24] INFO root fetch - processPackages [python-semantic-release]: New version: [9.5.0] Old Version: [9.4.2]
+[2024-04-23 04:39:24] INFO root fetch - processPackages [meteoswiss-async]: Downloading https://files.pythonhosted.org/packages/fc/5f/239486d99fb706046ba42e80d57fb9f5cfef9c208be66f266130ef359e08/meteoswiss_async-0.1.0rc13.post1.tar.gz
+[2024-04-23 04:39:24] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/24/99/ea45bf546b5bef67c12bc4edc81ced81f92e6efe6ec338a3cb96b30caf59/hypothesis_torch-0.1.8.tar.gz
+[2024-04-23 04:39:24] INFO root fetch - processPackages [django-sql-explorer]: Downloading https://files.pythonhosted.org/packages/1f/47/d68f30707d74f517fae58c0241456790e2c55793a0c9c2e0aa4e858e792b/django_sql_explorer-4.1b5.tar.gz
+[2024-04-23 04:39:24] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/54/4a/598451ade8bde7f369deba69feb62cde24693585acb81aed1eb62547c114/druida-0.0.8.tar.gz
+[2024-04-23 04:39:24] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/bf/6b/78ef8da014f55ed000e5e92e45ae36537377c5285cf8c7b12ed38ae3a637/pyptt-1.2.7.tar.gz
+[2024-04-23 04:39:24] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/15/85/6b5c070e53ebc9b79a6e0c00211238ed5143afa6c3d508ec4a2c0751df94/python_semantic_release-9.4.2.tar.gz
+[2024-04-23 04:39:25] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/18/88/3a6b016d45711aa0e63c4663d31ca24aed56e65783e3d6ab2d075269585c/hypothesis_torch-0.1.9.tar.gz
+[2024-04-23 04:39:25] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/73/f6/ed98db080991833aea23b06a4f2495fc48bbdcae27575fd084c7a9fd1110/pyptt-1.2.8.tar.gz
+[2024-04-23 04:39:25] INFO root fetch - processPackages [meteoswiss-async]: Downloading https://files.pythonhosted.org/packages/05/f2/0eccd113533f6eabd4d7000e5e913b293170e394b13657aadd7be0ee0eaa/meteoswiss_async-0.1.0rc9.post1.tar.gz
+[2024-04-23 04:39:25] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/bc/5d/e5f7964e68efe723c4e572c4f9520701013e989c79a187f7adde451e1302/python_semantic_release-9.5.0.tar.gz
+[2024-04-23 04:39:25] INFO root fetch - processPackages [hypothesis-torch]: executing diffoscope
+[2024-04-23 04:39:25] INFO root fetch - processPackages [hypothesis-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis_torch-0.1.8.tar.gz tmp/hypothesis_torch-0.1.9.tar.gz --markdown 20240423/h/hypothesis-torch/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 04:39:25] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/c2/fc/04f7092cb544ce2c35e3be2dd5ff20bee19fcc5ba5378898e0f03e15b8a9/druida-0.0.9.tar.gz
+[2024-04-23 04:39:25] INFO root fetch - processPackages [PyPtt]: executing diffoscope
+[2024-04-23 04:39:25] INFO root fetch - processPackages [PyPtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyptt-1.2.7.tar.gz tmp/pyptt-1.2.8.tar.gz --markdown 20240423/P/PyPtt/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-04-23 04:39:25] INFO root fetch - processPackages [django-sql-explorer]: Downloading https://files.pythonhosted.org/packages/c9/9e/51feac8f0b41ebca729cb04d51c9be5a8fb98ba0fee021eed5c24c5c2733/django_sql_explorer-4.1b6.tar.gz
+[2024-04-23 04:39:25] INFO root fetch - processPackages [meteoswiss-async]: executing diffoscope
+[2024-04-23 04:39:25] INFO root fetch - processPackages [meteoswiss-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meteoswiss_async-0.1.0rc13.post1.tar.gz tmp/meteoswiss_async-0.1.0rc9.post1.tar.gz --markdown 20240423/m/meteoswiss-async/0.1.0rc13.post1-0.1.0rc9.post1/README.md --exclude *.pyd
+[2024-04-23 04:39:25] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2024-04-23 04:39:25] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_semantic_release-9.4.2.tar.gz tmp/python_semantic_release-9.5.0.tar.gz --markdown 20240423/p/python-semantic-release/9.4.2-9.5.0/README.md --exclude *.pyd
+[2024-04-23 04:39:25] INFO root fetch - processPackages [druida]: executing diffoscope
+[2024-04-23 04:39:25] INFO root fetch - processPackages [druida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/druida-0.0.8.tar.gz tmp/druida-0.0.9.tar.gz --markdown 20240423/d/druida/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 04:39:25] INFO root fetch - processPackages [django-sql-explorer]: executing diffoscope
+[2024-04-23 04:39:25] INFO root fetch - processPackages [django-sql-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sql_explorer-4.1b5.tar.gz tmp/django_sql_explorer-4.1b6.tar.gz --markdown 20240423/d/django-sql-explorer/4.1b5-4.1b6/README.md --exclude *.pyd
+[2024-04-23 04:39:25] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.1.8.tar.gz]
+[2024-04-23 04:39:25] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.1.9.tar.gz]
+[2024-04-23 04:39:25] INFO root fetch - main [MainThread]: End processing [hypothesis-torch]: success
+[2024-04-23 04:39:25] INFO root fetch - processPackages [meteoswiss-async]: Remove: archive file [/home/abi/fetcher/tmp/meteoswiss_async-0.1.0rc13.post1.tar.gz]
+[2024-04-23 04:39:25] INFO root fetch - processPackages [meteoswiss-async]: Remove: archive file [/home/abi/fetcher/tmp/meteoswiss_async-0.1.0rc9.post1.tar.gz]
+[2024-04-23 04:39:25] INFO root fetch - main [MainThread]: End processing [meteoswiss-async]: success
+[2024-04-23 04:39:26] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/pyptt-1.2.7.tar.gz]
+[2024-04-23 04:39:26] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/pyptt-1.2.8.tar.gz]
+[2024-04-23 04:39:26] INFO root fetch - main [MainThread]: End processing [PyPtt]: success
+[2024-04-23 04:39:26] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.8.tar.gz]
+[2024-04-23 04:39:26] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.9.tar.gz]
+[2024-04-23 04:39:26] INFO root fetch - main [MainThread]: End processing [druida]: success
+[2024-04-23 04:39:26] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python_semantic_release-9.4.2.tar.gz]
+[2024-04-23 04:39:26] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python_semantic_release-9.5.0.tar.gz]
+[2024-04-23 04:39:26] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2024-04-23 04:39:31] INFO root fetch - processPackages [django-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer-4.1b5.tar.gz]
+[2024-04-23 04:39:31] INFO root fetch - processPackages [django-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer-4.1b6.tar.gz]
+[2024-04-23 04:39:31] INFO root fetch - main [MainThread]: End processing [django-sql-explorer]: success
+[2024-04-23 04:39:31] INFO root fetch - main [MainThread]: Store serial: [22888247]
