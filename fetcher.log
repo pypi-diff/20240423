@@ -19074,3 +19074,32 @@
 [2024-04-23 13:11:59] INFO root fetch - processPackages [scPANTHEON]: Remove: archive file [/home/abi/fetcher/tmp/scPANTHEON-0.5.5.3.tar.gz]
 [2024-04-23 13:11:59] INFO root fetch - main [MainThread]: End processing [scPANTHEON]: success
 [2024-04-23 13:11:59] INFO root fetch - main [MainThread]: Store serial: [22892818]
+[2024-04-23 13:14:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892818]
+[2024-04-23 13:14:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 13:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gldpmclient
+[2024-04-23 13:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tidb-vector
+[2024-04-23 13:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2024-04-23 13:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-cpp
+[2024-04-23 13:14:08] WARNING root fetch - processPackages [gldpmclient]: Skipping, unable to determine old version
+[2024-04-23 13:14:08] INFO root fetch - main [MainThread]: End processing [gldpmclient] error
+[2024-04-23 13:14:08] INFO root fetch - processPackages [tidb-vector]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-23 13:14:08] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240423] Old Version: [2.5.0b20240422]
+[2024-04-23 13:14:08] INFO root fetch - processPackages [tidb-vector]: Downloading https://files.pythonhosted.org/packages/cb/5c/f746c5e04b2085611e35267dc8157e6f3a462f4d6ba38ff64ae5efd54ecc/tidb_vector-0.0.7.tar.gz
+[2024-04-23 13:14:08] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-04-23 13:14:08] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/60/ba/634930d4cd9f79ac1d670582c21c931fb513bdbed45b9d34b069943ba45a/bigdl_core_cpp-2.5.0b20240422-py3-none-win_amd64.whl
+[2024-04-23 13:14:08] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 56526798>=10485760
+[2024-04-23 13:14:08] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-23 13:14:09] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-04-23 13:14:09] INFO root fetch - processPackages [tidb-vector]: Downloading https://files.pythonhosted.org/packages/d7/b1/313bb4736046c004492d01464c8209be5a3f5215d955e06aa4f825b81ff6/tidb_vector-0.0.8.tar.gz
+[2024-04-23 13:14:09] INFO root fetch - processPackages [tidb-vector]: executing diffoscope
+[2024-04-23 13:14:09] INFO root fetch - processPackages [tidb-vector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidb_vector-0.0.7.tar.gz tmp/tidb_vector-0.0.8.tar.gz --markdown 20240423/t/tidb-vector/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-23 13:14:09] INFO root fetch - processPackages [tidb-vector]: Remove: archive file [/home/abi/fetcher/tmp/tidb_vector-0.0.7.tar.gz]
+[2024-04-23 13:14:09] INFO root fetch - processPackages [tidb-vector]: Remove: archive file [/home/abi/fetcher/tmp/tidb_vector-0.0.8.tar.gz]
+[2024-04-23 13:14:09] INFO root fetch - main [MainThread]: End processing [tidb-vector]: success
+[2024-04-23 13:14:10] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-04-23 13:14:11] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-04-23 13:14:11] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240423/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-04-23 13:14:12] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-04-23 13:14:12] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-04-23 13:14:12] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-04-23 13:14:12] INFO root fetch - main [MainThread]: Store serial: [22892833]
