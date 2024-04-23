@@ -21284,3 +21284,82 @@ EOFError: EOF read where object expected
 [2024-04-23 14:26:09] INFO root fetch - processPackages [ocrd-froc]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_froc-0.6.1.tar.gz]
 [2024-04-23 14:26:09] INFO root fetch - main [MainThread]: End processing [ocrd-froc]: success
 [2024-04-23 14:26:09] INFO root fetch - main [MainThread]: Store serial: [22893702]
+[2024-04-23 14:28:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893702]
+[2024-04-23 14:28:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bedrock-bot
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boario
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pubtools-content-gateway
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ediff
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pinjected
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecv-python-development
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pinjected
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kili
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: t8dev
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: utility-pack
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:28:18] INFO root fetch - processPackages [bedrock-bot]: New version: [1.1.0] Old Version: [1.0.7]
+[2024-04-23 14:28:18] INFO root fetch - processPackages [pinjected]: New version: [0.2.40] Old Version: [0.2.39]
+[2024-04-23 14:28:18] INFO root fetch - processPackages [pinjected]: New version: [0.2.40] Old Version: [0.2.39]
+[2024-04-23 14:28:18] INFO root fetch - processPackages [pubtools-content-gateway]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-23 14:28:18] INFO root fetch - processPackages [boario]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-23 14:28:18] WARNING root fetch - processPackages [utility-pack]: Skipping, unable to determine old version
+[2024-04-23 14:28:18] INFO root fetch - main [MainThread]: End processing [utility-pack] error
+[2024-04-23 14:28:18] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2024-04-23 14:28:18] WARNING root fetch - processPackages [t8dev]: Skipping, unable to determine old version
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/1a/0b/57f1b4e7808f0e68005e3460c3b2e28d121224116313e32caff0da5d477c/ecv-python-development-0.0.8.tar.gz
+[2024-04-23 14:28:18] INFO root fetch - main [MainThread]: End processing [t8dev] error
+[2024-04-23 14:28:18] INFO root fetch - processPackages [bedrock-bot]: Downloading https://files.pythonhosted.org/packages/b8/1d/5323cc2ca26103e10adb617ad7a25cf06a663a906519a9f7f0ebaadd56ed/bedrock_bot-1.0.7.tar.gz
+[2024-04-23 14:28:18] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/3d/31/8d4bf19816092b586ea0bb6e621ef3b8a18f1ca0b99e1ba8be7378f10500/pinjected-0.2.39.tar.gz
+[2024-04-23 14:28:18] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/3d/31/8d4bf19816092b586ea0bb6e621ef3b8a18f1ca0b99e1ba8be7378f10500/pinjected-0.2.39.tar.gz
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ediff]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-23 14:28:18] INFO root fetch - processPackages [pubtools-content-gateway]: Downloading https://files.pythonhosted.org/packages/f8/dd/b4d7fec308b8575351f7aaee74d45dcdecea4a7930a9d19aa4e5af42d681/pubtools-content-gateway-0.5.1.tar.gz
+[2024-04-23 14:28:18] INFO root fetch - processPackages [boario]: Downloading https://files.pythonhosted.org/packages/86/7b/4eeedbcb99c5a01f529334e11c1d932daad0c3ecb5c8b292e7fbbeabfaeb/boario-0.5.8.tar.gz
+[2024-04-23 14:28:18] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2024-04-23 14:28:18] INFO root fetch - processPackages [ediff]: Downloading https://files.pythonhosted.org/packages/de/be/3fcde56a9f8a31f549436510c34e65436b378fee8da96203f54cb6c7e0fa/ediff-0.2.2.tar.gz
+[2024-04-23 14:28:18] INFO root fetch - processPackages [bedrock-bot]: Downloading https://files.pythonhosted.org/packages/ef/6f/8e393619ef639893052d03241504bf2516a817a4a40764f8926f4f0a0de7/bedrock_bot-1.1.0.tar.gz
+[2024-04-23 14:28:19] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/1e/40/7f623022bae0ebc2f5beb167e8175b1dad049a8b27764e6859798786fdb2/ecv-python-development-0.0.9.tar.gz
+[2024-04-23 14:28:19] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/f0/fa/30969ab306641033f2a7c56856ca6366a8d1cd113cfaffb57fe2ff3347fb/pinjected-0.2.40.tar.gz
+[2024-04-23 14:28:19] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/f0/fa/30969ab306641033f2a7c56856ca6366a8d1cd113cfaffb57fe2ff3347fb/pinjected-0.2.40.tar.gz
+[2024-04-23 14:28:19] INFO root fetch - processPackages [bedrock-bot]: executing diffoscope
+[2024-04-23 14:28:19] INFO root fetch - processPackages [bedrock-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bedrock_bot-1.0.7.tar.gz tmp/bedrock_bot-1.1.0.tar.gz --markdown 20240423/b/bedrock-bot/1.0.7-1.1.0/README.md --exclude *.pyd
+[2024-04-23 14:28:19] INFO root fetch - processPackages [pubtools-content-gateway]: Downloading https://files.pythonhosted.org/packages/71/ad/fba08bb3918838fd26775874a147ffffea57752edfa138d43121fed0acb0/pubtools_content_gateway-0.5.2.tar.gz
+[2024-04-23 14:28:19] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-23 14:28:19] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.8.tar.gz tmp/ecv-python-development-0.0.9.tar.gz --markdown 20240423/e/ecv-python-development/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:28:19] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-23 14:28:19] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.39.tar.gz tmp/pinjected-0.2.40.tar.gz --markdown 20240423/p/pinjected/0.2.39-0.2.40/README.md --exclude *.pyd
+[2024-04-23 14:28:19] INFO root fetch - processPackages [boario]: Downloading https://files.pythonhosted.org/packages/26/27/1d507737a7435b1df26e4598a162381a9d2c1a2388bb54f38a31dde62f2d/boario-0.5.9.tar.gz
+[2024-04-23 14:28:19] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-23 14:28:19] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.39.tar.gz tmp/pinjected-0.2.40.tar.gz --markdown 20240423/p/pinjected/0.2.39-0.2.40/README.md --exclude *.pyd
+[2024-04-23 14:28:19] INFO root fetch - processPackages [ediff]: Downloading https://files.pythonhosted.org/packages/fc/96/f518a468959c46ad9b93462d3c7e4de3daa839d4a709409d2079b3099904/ediff-0.2.3.tar.gz
+[2024-04-23 14:28:19] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2024-04-23 14:28:19] INFO root fetch - processPackages [pubtools-content-gateway]: executing diffoscope
+[2024-04-23 14:28:19] INFO root fetch - processPackages [pubtools-content-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubtools-content-gateway-0.5.1.tar.gz tmp/pubtools_content_gateway-0.5.2.tar.gz --markdown 20240423/p/pubtools-content-gateway/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-23 14:28:19] INFO root fetch - processPackages [boario]: executing diffoscope
+[2024-04-23 14:28:19] INFO root fetch - processPackages [boario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boario-0.5.8.tar.gz tmp/boario-0.5.9.tar.gz --markdown 20240423/b/boario/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-23 14:28:19] INFO root fetch - processPackages [ediff]: executing diffoscope
+[2024-04-23 14:28:19] INFO root fetch - processPackages [ediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ediff-0.2.2.tar.gz tmp/ediff-0.2.3.tar.gz --markdown 20240423/e/ediff/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-23 14:28:19] INFO root fetch - processPackages [kili]: executing diffoscope
+[2024-04-23 14:28:19] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20240423/k/kili/2.98.0-2.99.0/README.md --exclude *.pyd
+[2024-04-23 14:28:20] INFO root fetch - processPackages [bedrock-bot]: Remove: archive file [/home/abi/fetcher/tmp/bedrock_bot-1.0.7.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - processPackages [bedrock-bot]: Remove: archive file [/home/abi/fetcher/tmp/bedrock_bot-1.1.0.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - main [MainThread]: End processing [bedrock-bot]: success
+[2024-04-23 14:28:20] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.8.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.9.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-23 14:28:20] INFO root fetch - processPackages [pubtools-content-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-content-gateway-0.5.1.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - processPackages [pubtools-content-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pubtools_content_gateway-0.5.2.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - main [MainThread]: End processing [pubtools-content-gateway]: success
+[2024-04-23 14:28:20] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.39.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.40.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-23 14:28:20] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-23 14:28:20] INFO root fetch - processPackages [ediff]: Remove: archive file [/home/abi/fetcher/tmp/ediff-0.2.2.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - processPackages [ediff]: Remove: archive file [/home/abi/fetcher/tmp/ediff-0.2.3.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - main [MainThread]: End processing [ediff]: success
+[2024-04-23 14:28:20] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.98.0.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - processPackages [boario]: Remove: archive file [/home/abi/fetcher/tmp/boario-0.5.8.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - processPackages [boario]: Remove: archive file [/home/abi/fetcher/tmp/boario-0.5.9.tar.gz]
+[2024-04-23 14:28:20] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2024-04-23 14:28:20] INFO root fetch - main [MainThread]: End processing [boario]: success
+[2024-04-23 14:28:20] INFO root fetch - main [MainThread]: Store serial: [22893740]
