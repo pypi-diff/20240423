@@ -8892,3 +8892,39 @@
 [2024-04-23 05:10:34] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.23.11.9.43.tar.gz]
 [2024-04-23 05:10:34] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2024-04-23 05:10:34] INFO root fetch - main [MainThread]: Store serial: [22888433]
+[2024-04-23 05:12:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888433]
+[2024-04-23 05:12:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 05:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qualesim-quantumsim
+[2024-04-23 05:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: welford-remove
+[2024-04-23 05:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: colorfullog
+[2024-04-23 05:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gammarers.aws-secure-bucket
+[2024-04-23 05:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-dns
+[2024-04-23 05:12:43] INFO root fetch - processPackages [qualesim-quantumsim]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-23 05:12:43] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: New version: [8.0.1] Old Version: [8.0.0]
+[2024-04-23 05:12:43] INFO root fetch - processPackages [colorfullog]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-23 05:12:43] ERROR root fetch - processPackages [gammarers.aws-secure-bucket]: Unable to get metadata: No such project 'gammarers.aws-secure-bucket'
+[2024-04-23 05:12:43] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-bucket] error
+[2024-04-23 05:12:43] WARNING root fetch - processPackages [welford-remove]: Skipping, unable to determine old version
+[2024-04-23 05:12:43] INFO root fetch - main [MainThread]: End processing [welford-remove] error
+[2024-04-23 05:12:43] INFO root fetch - processPackages [qualesim-quantumsim]: Downloading https://files.pythonhosted.org/packages/d5/8e/e9a23c1cdcf5653fe89b0ece7730a67426a12c33dc7040b7ef7dbd542be9/qualesim-quantumsim-1.0.2.tar.gz
+[2024-04-23 05:12:43] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: Downloading https://files.pythonhosted.org/packages/2f/bf/ed7bfff4ee8e9a593181304c8b9c088fa34bb836a3f8fbf65c8ed40e9f71/cdktf-cdktf-provider-dns-8.0.0.tar.gz
+[2024-04-23 05:12:43] INFO root fetch - processPackages [colorfullog]: Downloading https://files.pythonhosted.org/packages/d5/c5/7a2ca4e00de2ab1a14b5c323321c194b50f7a624a2bb717f7e10091cae08/colorfullog-0.0.3.tar.gz
+[2024-04-23 05:12:43] INFO root fetch - processPackages [qualesim-quantumsim]: Downloading https://files.pythonhosted.org/packages/f9/70/4e42a22952ed21870dab3562cd66179cc6c50829d00bb73982b2d0d398e2/qualesim-quantumsim-1.0.3.tar.gz
+[2024-04-23 05:12:43] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: Downloading https://files.pythonhosted.org/packages/95/75/f6d5117c20c64c1cef23a193291fecedb03819825e2fc237ac3be3dd80bd/cdktf-cdktf-provider-dns-8.0.1.tar.gz
+[2024-04-23 05:12:43] INFO root fetch - processPackages [colorfullog]: Downloading https://files.pythonhosted.org/packages/6d/a8/ba89c891a261099ad08c57397a3fa1a8c190749b53d1e4ee14777ffc26a7/colorfullog-0.0.4.tar.gz
+[2024-04-23 05:12:43] INFO root fetch - processPackages [qualesim-quantumsim]: executing diffoscope
+[2024-04-23 05:12:43] INFO root fetch - processPackages [qualesim-quantumsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualesim-quantumsim-1.0.2.tar.gz tmp/qualesim-quantumsim-1.0.3.tar.gz --markdown 20240423/q/qualesim-quantumsim/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-23 05:12:44] INFO root fetch - processPackages [colorfullog]: executing diffoscope
+[2024-04-23 05:12:44] INFO root fetch - processPackages [colorfullog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorfullog-0.0.3.tar.gz tmp/colorfullog-0.0.4.tar.gz --markdown 20240423/c/colorfullog/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-23 05:12:44] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: executing diffoscope
+[2024-04-23 05:12:44] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-dns-8.0.0.tar.gz tmp/cdktf-cdktf-provider-dns-8.0.1.tar.gz --markdown 20240423/c/cdktf-cdktf-provider-dns/8.0.0-8.0.1/README.md --exclude *.pyd
+[2024-04-23 05:12:44] INFO root fetch - processPackages [qualesim-quantumsim]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quantumsim-1.0.2.tar.gz]
+[2024-04-23 05:12:44] INFO root fetch - processPackages [qualesim-quantumsim]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quantumsim-1.0.3.tar.gz]
+[2024-04-23 05:12:44] INFO root fetch - main [MainThread]: End processing [qualesim-quantumsim]: success
+[2024-04-23 05:12:44] INFO root fetch - processPackages [colorfullog]: Remove: archive file [/home/abi/fetcher/tmp/colorfullog-0.0.3.tar.gz]
+[2024-04-23 05:12:44] INFO root fetch - processPackages [colorfullog]: Remove: archive file [/home/abi/fetcher/tmp/colorfullog-0.0.4.tar.gz]
+[2024-04-23 05:12:44] INFO root fetch - main [MainThread]: End processing [colorfullog]: success
+[2024-04-23 05:12:44] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-dns-8.0.0.tar.gz]
+[2024-04-23 05:12:44] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-dns-8.0.1.tar.gz]
+[2024-04-23 05:12:44] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-dns]: success
+[2024-04-23 05:12:44] INFO root fetch - main [MainThread]: Store serial: [22888452]
