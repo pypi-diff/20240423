@@ -17367,3 +17367,54 @@
 [2024-04-23 12:01:46] INFO root fetch - processPackages [kubemarine]: Remove: archive file [/home/abi/fetcher/tmp/kubemarine-0.29.0.tar.gz]
 [2024-04-23 12:01:46] INFO root fetch - main [MainThread]: End processing [kubemarine]: success
 [2024-04-23 12:01:46] INFO root fetch - main [MainThread]: Store serial: [22892096]
+[2024-04-23 12:03:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892096]
+[2024-04-23 12:03:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 12:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-customvueadmin
+[2024-04-23 12:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rats-pipelines
+[2024-04-23 12:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-apps
+[2024-04-23 12:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rats-processors
+[2024-04-23 12:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PYield
+[2024-04-23 12:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyhula
+[2024-04-23 12:03:55] INFO root fetch - processPackages [PYield]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-23 12:03:55] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 12:03:55] ERROR root fetch - processPackages [pyhula]: Unable to get metadata: No such project 'pyhula'
+[2024-04-23 12:03:55] INFO root fetch - main [MainThread]: End processing [pyhula] error
+[2024-04-23 12:03:55] INFO root fetch - processPackages [PYield]: Downloading https://files.pythonhosted.org/packages/53/37/be93f0fc02143f49d802fc5a417b6eeb844d8b086493a0080a0ed7694551/pyield-0.7.4.tar.gz
+[2024-04-23 12:03:55] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/c5/4d/0d59effed1262f17c1fa142676a62a053cf3bcafbece7f3fdf47d7cb29f3/django-customvueadmin-0.1.8.tar.gz
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 12:03:55] INFO root fetch - processPackages [PYield]: Downloading https://files.pythonhosted.org/packages/40/71/4a8034bf7625129dc2f83e51e691a77865733160fc39c94eca08178125d9/pyield-0.7.5.tar.gz
+[2024-04-23 12:03:55] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/d8/b4/d8ed66d757c0e6f03e7cd5ee5b378818027ed3bcff5118e94ea6612ccdae/django-customvueadmin-0.1.9.tar.gz
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 12:03:55] INFO root fetch - processPackages [PYield]: executing diffoscope
+[2024-04-23 12:03:55] INFO root fetch - processPackages [PYield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyield-0.7.4.tar.gz tmp/pyield-0.7.5.tar.gz --markdown 20240423/P/PYield/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 12:03:55] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 12:03:55] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-04-23 12:03:55] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-customvueadmin-0.1.8.tar.gz tmp/django-customvueadmin-0.1.9.tar.gz --markdown 20240423/d/django-customvueadmin/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 12:03:56] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 12:03:56] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 12:03:56] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-23 12:03:56] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.7.4.tar.gz]
+[2024-04-23 12:03:56] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.7.5.tar.gz]
+[2024-04-23 12:03:56] INFO root fetch - main [MainThread]: End processing [PYield]: success
+[2024-04-23 12:03:56] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 12:03:56] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 12:03:56] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-23 12:03:56] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 12:03:56] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 12:03:56] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-23 12:03:56] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.8.tar.gz]
+[2024-04-23 12:03:56] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.9.tar.gz]
+[2024-04-23 12:03:56] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-04-23 12:03:56] INFO root fetch - main [MainThread]: Store serial: [22892112]
