@@ -14870,3 +14870,80 @@
 [2024-04-23 10:37:20] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.4rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-23 10:37:20] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2024-04-23 10:37:20] INFO root fetch - main [MainThread]: Store serial: [22891047]
+[2024-04-23 10:39:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891047]
+[2024-04-23 10:39:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-23 10:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Flask-PikaRMQ
+[2024-04-23 10:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synch2jira
+[2024-04-23 10:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eirStru
+[2024-04-23 10:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lstchain
+[2024-04-23 10:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rbase24
+[2024-04-23 10:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2024-04-23 10:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lense
+[2024-04-23 10:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: raga-testing-platform
+[2024-04-23 10:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deebot-client
+[2024-04-23 10:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pinjected
+[2024-04-23 10:39:38] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240423071625] Old Version: [3.3.1.dev20240422215446]
+[2024-04-23 10:39:38] WARNING root fetch - processPackages [Flask-PikaRMQ]: Skipping, unable to determine old version
+[2024-04-23 10:39:38] INFO root fetch - main [MainThread]: End processing [Flask-PikaRMQ] error
+[2024-04-23 10:39:38] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 10:39:38] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 10:39:38] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-23 10:39:38] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/35/e5/feedc4fbd55451f5f16acdd07e59daaea53e060937d2b36b591d57b1be5c/localstack_core-3.3.1.dev20240422215446.tar.gz
+[2024-04-23 10:39:38] WARNING root fetch - processPackages [rbase24]: Skipping, unable to determine old version
+[2024-04-23 10:39:38] INFO root fetch - main [MainThread]: End processing [rbase24] error
+[2024-04-23 10:39:38] INFO root fetch - processPackages [deebot-client]: New version: [7.0.0] Old Version: [6.0.2]
+[2024-04-23 10:39:38] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-23 10:39:38] INFO root fetch - processPackages [lstchain]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 10:39:38] INFO root fetch - processPackages [pinjected]: New version: [0.2.40] Old Version: [0.2.39]
+[2024-04-23 10:39:38] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-23 10:39:38] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-23 10:39:38] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-23 10:39:38] INFO root fetch - processPackages [lstchain]: Downloading https://files.pythonhosted.org/packages/da/51/c4a6b851d78d7583637daeb88ed096f41e9ffa6d56ab8618c22ad05ec83d/lstchain-0.9.8.tar.gz
+[2024-04-23 10:39:38] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/9e/96/7d3df28f50cc4d409b3729c541cb56bfd959e667a76ebc41e27a2d33774e/raga-testing-platform-1.1.7.tar.gz
+[2024-04-23 10:39:38] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-23 10:39:38] INFO root fetch - processPackages [deebot-client]: Downloading https://files.pythonhosted.org/packages/f6/a1/0bdfd6eec185fb1f14749185efb43e05854cdb9f46d15b9d741a5e15f41e/deebot-client-6.0.2.tar.gz
+[2024-04-23 10:39:38] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/3d/31/8d4bf19816092b586ea0bb6e621ef3b8a18f1ca0b99e1ba8be7378f10500/pinjected-0.2.39.tar.gz
+[2024-04-23 10:39:38] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-23 10:39:38] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-23 10:39:38] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d4/eb/5662f9c14e4d16a27336c879c52f4c87a1de3baee9b627d898827b54a7c3/localstack_core-3.3.1.dev20240423071625.tar.gz
+[2024-04-23 10:39:39] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-23 10:39:39] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240423/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 10:39:39] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-23 10:39:39] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240423/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-23 10:39:39] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 10:39:39] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 10:39:39] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-23 10:39:39] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.3.1.dev20240422215446.tar.gz tmp/localstack_core-3.3.1.dev20240423071625.tar.gz --markdown 20240423/l/localstack-core/3.3.1.dev20240422215446-3.3.1.dev20240423071625/README.md --exclude *.pyd
+[2024-04-23 10:39:39] INFO root fetch - processPackages [deebot-client]: Downloading https://files.pythonhosted.org/packages/d8/8b/1e44fff82dba4bd84024827e8fff07cd24f9c908cc6196c97ead256a985e/deebot_client-7.0.0.tar.gz
+[2024-04-23 10:39:39] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/f3/0c/cf8081496c50df535dc7d62d57017bb420067952060b63e9833e6d7e35ae/raga-testing-platform-1.1.8.tar.gz
+[2024-04-23 10:39:39] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/f0/fa/30969ab306641033f2a7c56856ca6366a8d1cd113cfaffb57fe2ff3347fb/pinjected-0.2.40.tar.gz
+[2024-04-23 10:39:39] WARNING root fetch - processPackages [lstchain]: Skipping package: exceeds size limit 22876427>=10485760
+[2024-04-23 10:39:39] INFO root fetch - main [MainThread]: End processing [lstchain] error
+[2024-04-23 10:39:39] INFO root fetch - processPackages [deebot-client]: executing diffoscope
+[2024-04-23 10:39:39] INFO root fetch - processPackages [deebot-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deebot-client-6.0.2.tar.gz tmp/deebot_client-7.0.0.tar.gz --markdown 20240423/d/deebot-client/6.0.2-7.0.0/README.md --exclude *.pyd
+[2024-04-23 10:39:39] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2024-04-23 10:39:39] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.1.7.tar.gz tmp/raga-testing-platform-1.1.8.tar.gz --markdown 20240423/r/raga-testing-platform/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-23 10:39:39] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-23 10:39:39] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.39.tar.gz tmp/pinjected-0.2.40.tar.gz --markdown 20240423/p/pinjected/0.2.39-0.2.40/README.md --exclude *.pyd
+[2024-04-23 10:39:39] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-23 10:39:39] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-23 10:39:39] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-23 10:39:39] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-23 10:39:39] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-23 10:39:39] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-23 10:39:39] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 10:39:39] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 10:39:39] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 10:39:40] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.39.tar.gz]
+[2024-04-23 10:39:40] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.40.tar.gz]
+[2024-04-23 10:39:40] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-23 10:39:40] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.7.tar.gz]
+[2024-04-23 10:39:40] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.8.tar.gz]
+[2024-04-23 10:39:40] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2024-04-23 10:39:40] INFO root fetch - processPackages [deebot-client]: Remove: archive file [/home/abi/fetcher/tmp/deebot-client-6.0.2.tar.gz]
+[2024-04-23 10:39:40] INFO root fetch - processPackages [deebot-client]: Remove: archive file [/home/abi/fetcher/tmp/deebot_client-7.0.0.tar.gz]
+[2024-04-23 10:39:40] INFO root fetch - main [MainThread]: End processing [deebot-client]: success
+[2024-04-23 10:39:42] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240422215446.tar.gz]
+[2024-04-23 10:39:42] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240423071625.tar.gz]
+[2024-04-23 10:39:42] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-23 10:39:42] INFO root fetch - main [MainThread]: Store serial: [22891101]
