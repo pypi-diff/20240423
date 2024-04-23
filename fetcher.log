@@ -15076,3 +15076,126 @@
 [2024-04-23 10:42:06] INFO root fetch - processPackages [uhelp]: Remove: archive file [/home/abi/fetcher/tmp/uhelp-0.6.2.tar.gz]
 [2024-04-23 10:42:06] INFO root fetch - main [MainThread]: End processing [uhelp]: success
 [2024-04-23 10:42:06] INFO root fetch - main [MainThread]: Store serial: [22891156]
+[2024-04-23 10:44:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891156]
+[2024-04-23 10:44:15] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-23 10:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frontengine-dev
+[2024-04-23 10:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chess-notation
+[2024-04-23 10:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rel
+[2024-04-23 10:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpflib
+[2024-04-23 10:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hume
+[2024-04-23 10:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kuzu
+[2024-04-23 10:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moonblade
+[2024-04-23 10:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xklb
+[2024-04-23 10:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HBA-Fusion
+[2024-04-23 10:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cfdp-py
+[2024-04-23 10:44:16] INFO root fetch - processPackages [chess-notation]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-23 10:44:16] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 10:44:16] INFO root fetch - processPackages [hume]: New version: [0.5.0rc3] Old Version: [0.5.0rc2]
+[2024-04-23 10:44:16] WARNING root fetch - processPackages [HBA-Fusion]: Skipping, unable to determine old version
+[2024-04-23 10:44:16] INFO root fetch - processPackages [HBA-Fusion]: Start processing: dez
+[2024-04-23 10:44:16] INFO root fetch - main [MainThread]: End processing [HBA-Fusion] error
+[2024-04-23 10:44:16] INFO root fetch - processPackages [chess-notation]: Downloading https://files.pythonhosted.org/packages/99/65/12e122fb964c976bc931e3cfe02b419eb817e34e3eb695425d43b5fedc1b/chess-notation-0.1.7.tar.gz
+[2024-04-23 10:44:16] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2024-04-23 10:44:16] WARNING root fetch - processPackages [moonblade]: Skipping, unable to determine old version
+[2024-04-23 10:44:16] INFO root fetch - processPackages [moonblade]: Start processing: pulumi-ovh
+[2024-04-23 10:44:16] INFO root fetch - main [MainThread]: End processing [moonblade] error
+[2024-04-23 10:44:16] INFO root fetch - processPackages [rel]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2024-04-23 10:44:16] INFO root fetch - processPackages [cfdp-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 10:44:16] INFO root fetch - processPackages [gpflib]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-23 10:44:16] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev44] Old Version: [0.3.3.dev43]
+[2024-04-23 10:44:16] INFO root fetch - processPackages [xklb]: New version: [2.6.9] Old Version: [2.6.7]
+[2024-04-23 10:44:16] INFO root fetch - processPackages [dez]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-23 10:44:16] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/93/0a/ca3ba07bec420029cf32ebc0b5d10289fcf855cc4c169ac18b7e2ac6d9e1/hume-0.5.0rc2.tar.gz
+[2024-04-23 10:44:16] INFO root fetch - processPackages [pulumi-ovh]: New version: [0.43.0] Old Version: [0.42.0]
+[2024-04-23 10:44:16] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/c0/69/2094cbc3ea1d5a61a495e8303da8cddfa7571c720b175d62baf286a00111/xklb-2.6.7.tar.gz
+[2024-04-23 10:44:16] INFO root fetch - processPackages [rel]: Downloading https://files.pythonhosted.org/packages/e4/e3/10318da1c90cf22ae6b178342946d3e614a0f467dce98225a6ca78f84c39/rel-0.4.9.8-py3-none-any.whl
+[2024-04-23 10:44:16] INFO root fetch - processPackages [gpflib]: Downloading https://files.pythonhosted.org/packages/4b/d5/38b1c9277b1ebea3f7c7e9094d59b043b805859223c9731c55db6135dce8/gpflib-1.1.7.tar.gz
+[2024-04-23 10:44:16] INFO root fetch - processPackages [cfdp-py]: Downloading https://files.pythonhosted.org/packages/c9/e5/55f56e98144bf0cd484e718e5dc75e1b8004139d950fe5ba34e477296716/cfdp-py-0.1.0.tar.gz
+[2024-04-23 10:44:16] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/7e/22/f7cc9c4a12f3697a155e2efd73e8031266eac01ce8c16babdd15b8023420/kuzu-0.3.3.dev43.tar.gz
+[2024-04-23 10:44:16] INFO root fetch - processPackages [chess-notation]: Downloading https://files.pythonhosted.org/packages/32/5b/321aa148837de99a6e8c33c737a8184b9c471a64de7ec63e8881680817ce/chess_notation-0.1.8.tar.gz
+[2024-04-23 10:44:16] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2024-04-23 10:44:16] INFO root fetch - processPackages [dez]: Downloading https://files.pythonhosted.org/packages/1e/81/48d71e93c2525619543513ac060532d30fe665f6a30041b7dd4486dbc43f/dez-0.9.4-py2.7.egg
+[2024-04-23 10:44:16] INFO root fetch - processPackages [pulumi-ovh]: Downloading https://files.pythonhosted.org/packages/88/bb/6fe6f8e9e7463721c6da508e2bbd335876f914fc6b4fb52badc6a1def833/pulumi_ovh-0.42.0.tar.gz
+[2024-04-23 10:44:16] WARNING root fetch - processPackages [kuzu]: Skipping package: exceeds size limit 15432690>=10485760
+[2024-04-23 10:44:16] INFO root fetch - processPackages [kuzu]: Start processing: pybunch
+[2024-04-23 10:44:16] INFO root fetch - main [MainThread]: End processing [kuzu] error
+[2024-04-23 10:44:16] INFO root fetch - processPackages [chess-notation]: executing diffoscope
+[2024-04-23 10:44:16] INFO root fetch - processPackages [chess-notation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess-notation-0.1.7.tar.gz tmp/chess_notation-0.1.8.tar.gz --markdown 20240423/c/chess-notation/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-23 10:44:16] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2024-04-23 10:44:16] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20240423/f/frontengine-dev/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 10:44:16] INFO root fetch - processPackages [pybunch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-23 10:44:16] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/b0/68/cd5c3e2846a710bee9ca38ad57611e33f0fd0295106cbd4943ab961035da/hume-0.5.0rc3.tar.gz
+[2024-04-23 10:44:16] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/38/2a/2958f5a1fedda07c3aa6cb197a1270734f34698793fb935ae5debd5e8c0c/xklb-2.6.9.tar.gz
+[2024-04-23 10:44:16] INFO root fetch - processPackages [cfdp-py]: Downloading https://files.pythonhosted.org/packages/8f/8a/a5ca29f637e4dd7c1cc6805f0e3de1c1c6de4fee9896dbec4a88cb8ce373/cfdp_py-0.1.1.tar.gz
+[2024-04-23 10:44:16] INFO root fetch - processPackages [rel]: Downloading https://files.pythonhosted.org/packages/9e/20/2e43dfac115c1784bfbb18a0f141215d27e937046a4115b2d3988d889c19/rel-0.4.9.9-py3-none-any.whl
+[2024-04-23 10:44:16] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/e4/bc/472042833778317e65f438a29985298f9666e8dab573f199e8c2fb2a3252/pybunch-1.0.4.tar.gz
+[2024-04-23 10:44:17] INFO root fetch - processPackages [hume]: executing diffoscope
+[2024-04-23 10:44:17] INFO root fetch - processPackages [hume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hume-0.5.0rc2.tar.gz tmp/hume-0.5.0rc3.tar.gz --markdown 20240423/h/hume/0.5.0rc2-0.5.0rc3/README.md --exclude *.pyd
+[2024-04-23 10:44:17] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-04-23 10:44:17] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.6.7.tar.gz tmp/xklb-2.6.9.tar.gz --markdown 20240423/x/xklb/2.6.7-2.6.9/README.md --exclude *.pyd
+[2024-04-23 10:44:17] INFO root fetch - processPackages [rel]: executing diffoscope
+[2024-04-23 10:44:17] INFO root fetch - processPackages [rel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rel-0.4.9.8-py3-none-any.whl.zip tmp/rel-0.4.9.9-py3-none-any.whl.zip --markdown 20240423/r/rel/0.4.9.8-0.4.9.9/README.md --exclude *.pyd
+[2024-04-23 10:44:17] INFO root fetch - processPackages [cfdp-py]: executing diffoscope
+[2024-04-23 10:44:17] INFO root fetch - processPackages [cfdp-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfdp-py-0.1.0.tar.gz tmp/cfdp_py-0.1.1.tar.gz --markdown 20240423/c/cfdp-py/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 10:44:17] INFO root fetch - processPackages [dez]: Downloading https://files.pythonhosted.org/packages/76/85/f4c826ed86b69c7e8f3ebc368a4d9737f219fbaf86efdb7156c8a99503ce/dez-0.9.5-py2.7.egg
+[2024-04-23 10:44:17] INFO root fetch - processPackages [pulumi-ovh]: Downloading https://files.pythonhosted.org/packages/ec/93/e5d738a2dcbabf7c32b01c07532f6ae0dbcbd7b1c5036c0bb959d707880c/pulumi_ovh-0.43.0.tar.gz
+[2024-04-23 10:44:17] INFO root fetch - processPackages [dez]: executing diffoscope
+[2024-04-23 10:44:17] INFO root fetch - processPackages [dez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dez-0.9.4-py2.7.egg tmp/dez-0.9.5-py2.7.egg --markdown 20240423/d/dez/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-23 10:44:17] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/43/c8/6dc07deda6793946472ec7e16d84ab0724bba593c62fb4f7e6d4e3567f6e/pybunch-1.0.5.tar.gz
+[2024-04-23 10:44:17] INFO root fetch - processPackages [pulumi-ovh]: executing diffoscope
+[2024-04-23 10:44:17] INFO root fetch - processPackages [pulumi-ovh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ovh-0.42.0.tar.gz tmp/pulumi_ovh-0.43.0.tar.gz --markdown 20240423/p/pulumi-ovh/0.42.0-0.43.0/README.md --exclude *.pyd
+[2024-04-23 10:44:17] WARNING root fetch - processPackages [gpflib]: Skipping package: exceeds size limit 25115236>=10485760
+[2024-04-23 10:44:17] INFO root fetch - processPackages [gpflib]: Start processing: MolScore
+[2024-04-23 10:44:17] INFO root fetch - main [MainThread]: End processing [gpflib] error
+[2024-04-23 10:44:17] INFO root fetch - processPackages [pybunch]: executing diffoscope
+[2024-04-23 10:44:17] INFO root fetch - processPackages [pybunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybunch-1.0.4.tar.gz tmp/pybunch-1.0.5.tar.gz --markdown 20240423/p/pybunch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-23 10:44:17] INFO root fetch - processPackages [MolScore]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-23 10:44:17] INFO root fetch - processPackages [chess-notation]: Remove: archive file [/home/abi/fetcher/tmp/chess-notation-0.1.7.tar.gz]
+[2024-04-23 10:44:17] INFO root fetch - processPackages [chess-notation]: Remove: archive file [/home/abi/fetcher/tmp/chess_notation-0.1.8.tar.gz]
+[2024-04-23 10:44:17] INFO root fetch - processPackages [chess-notation]: Start processing: pdf4llm
+[2024-04-23 10:44:17] INFO root fetch - main [MainThread]: End processing [chess-notation]: success
+[2024-04-23 10:44:17] INFO root fetch - processPackages [pdf4llm]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 10:44:17] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2024-04-23 10:44:17] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2024-04-23 10:44:17] INFO root fetch - processPackages [frontengine-dev]: Start processing: chess-notation
+[2024-04-23 10:44:17] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2024-04-23 10:44:17] INFO root fetch - processPackages [chess-notation]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 10:44:17] INFO root fetch - processPackages [pdf4llm]: Downloading https://files.pythonhosted.org/packages/01/0d/53b777b6be5623e82ea9fa62ed6f28517a2c798fce4766910d5b7a67e4c1/pdf4llm-0.0.1.tar.gz
+[2024-04-23 10:44:17] INFO root fetch - processPackages [MolScore]: Downloading https://files.pythonhosted.org/packages/52/64/a5baf978b33ecc4ce4ab25133d0735b9cc2f07c1e8b55dea89992669bb50/MolScore-1.5.1.tar.gz
+[2024-04-23 10:44:17] WARNING root fetch - processPackages [MolScore]: Skipping package: exceeds size limit 53258454>=10485760
+[2024-04-23 10:44:17] INFO root fetch - main [MainThread]: End processing [MolScore] error
+[2024-04-23 10:44:17] INFO root fetch - processPackages [chess-notation]: Downloading https://files.pythonhosted.org/packages/32/5b/321aa148837de99a6e8c33c737a8184b9c471a64de7ec63e8881680817ce/chess_notation-0.1.8.tar.gz
+[2024-04-23 10:44:18] INFO root fetch - processPackages [rel]: Remove: archive file [/home/abi/fetcher/tmp/rel-0.4.9.8-py3-none-any.whl.zip]
+[2024-04-23 10:44:18] INFO root fetch - processPackages [rel]: Remove: archive file [/home/abi/fetcher/tmp/rel-0.4.9.9-py3-none-any.whl.zip]
+[2024-04-23 10:44:18] INFO root fetch - main [MainThread]: End processing [rel]: success
+[2024-04-23 10:44:18] INFO root fetch - processPackages [pdf4llm]: Downloading https://files.pythonhosted.org/packages/3d/a0/29ea825b8a503328debec5372a80a5e6c25ee1a983db769ab3deea11dc4f/pdf4llm-0.0.2.tar.gz
+[2024-04-23 10:44:18] INFO root fetch - processPackages [hume]: Remove: archive file [/home/abi/fetcher/tmp/hume-0.5.0rc2.tar.gz]
+[2024-04-23 10:44:18] INFO root fetch - processPackages [hume]: Remove: archive file [/home/abi/fetcher/tmp/hume-0.5.0rc3.tar.gz]
+[2024-04-23 10:44:18] INFO root fetch - main [MainThread]: End processing [hume]: success
+[2024-04-23 10:44:18] INFO root fetch - processPackages [cfdp-py]: Remove: archive file [/home/abi/fetcher/tmp/cfdp-py-0.1.0.tar.gz]
+[2024-04-23 10:44:18] INFO root fetch - processPackages [cfdp-py]: Remove: archive file [/home/abi/fetcher/tmp/cfdp_py-0.1.1.tar.gz]
+[2024-04-23 10:44:18] INFO root fetch - main [MainThread]: End processing [cfdp-py]: success
+[2024-04-23 10:44:18] INFO root fetch - processPackages [pdf4llm]: executing diffoscope
+[2024-04-23 10:44:18] INFO root fetch - processPackages [pdf4llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf4llm-0.0.1.tar.gz tmp/pdf4llm-0.0.2.tar.gz --markdown 20240423/p/pdf4llm/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 10:44:18] INFO root fetch - processPackages [chess-notation]: Downloading https://files.pythonhosted.org/packages/e6/ec/1281095fa95f2033d2f36787c9714dd3449d8ab54104c0b842fe3ab0c72f/chess_notation-0.1.9.tar.gz
+[2024-04-23 10:44:18] INFO root fetch - processPackages [chess-notation]: executing diffoscope
+[2024-04-23 10:44:18] INFO root fetch - processPackages [chess-notation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_notation-0.1.8.tar.gz tmp/chess_notation-0.1.9.tar.gz --markdown 20240423/c/chess-notation/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 10:44:18] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.4.tar.gz]
+[2024-04-23 10:44:18] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.5.tar.gz]
+[2024-04-23 10:44:18] INFO root fetch - main [MainThread]: End processing [pybunch]: success
+[2024-04-23 10:44:18] INFO root fetch - processPackages [dez]: Remove: archive file [/home/abi/fetcher/tmp/dez-0.9.4-py2.7.egg]
+[2024-04-23 10:44:18] INFO root fetch - processPackages [dez]: Remove: archive file [/home/abi/fetcher/tmp/dez-0.9.5-py2.7.egg]
+[2024-04-23 10:44:18] INFO root fetch - main [MainThread]: End processing [dez]: success
+[2024-04-23 10:44:18] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.6.7.tar.gz]
+[2024-04-23 10:44:18] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.6.9.tar.gz]
+[2024-04-23 10:44:18] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-04-23 10:44:18] INFO root fetch - processPackages [pdf4llm]: Remove: archive file [/home/abi/fetcher/tmp/pdf4llm-0.0.1.tar.gz]
+[2024-04-23 10:44:18] INFO root fetch - processPackages [pdf4llm]: Remove: archive file [/home/abi/fetcher/tmp/pdf4llm-0.0.2.tar.gz]
+[2024-04-23 10:44:18] INFO root fetch - main [MainThread]: End processing [pdf4llm]: success
+[2024-04-23 10:44:19] INFO root fetch - processPackages [chess-notation]: Remove: archive file [/home/abi/fetcher/tmp/chess_notation-0.1.8.tar.gz]
+[2024-04-23 10:44:19] INFO root fetch - processPackages [chess-notation]: Remove: archive file [/home/abi/fetcher/tmp/chess_notation-0.1.9.tar.gz]
+[2024-04-23 10:44:19] INFO root fetch - main [MainThread]: End processing [chess-notation]: success
+[2024-04-23 10:44:19] INFO root fetch - processPackages [pulumi-ovh]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ovh-0.42.0.tar.gz]
+[2024-04-23 10:44:19] INFO root fetch - processPackages [pulumi-ovh]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ovh-0.43.0.tar.gz]
+[2024-04-23 10:44:19] INFO root fetch - main [MainThread]: End processing [pulumi-ovh]: success
+[2024-04-23 10:44:19] INFO root fetch - main [MainThread]: Store serial: [22891237]
