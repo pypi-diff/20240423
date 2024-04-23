@@ -15415,3 +15415,51 @@
 [2024-04-23 10:55:15] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.5.4.tar.gz]
 [2024-04-23 10:55:15] INFO root fetch - main [MainThread]: End processing [mns-common]: success
 [2024-04-23 10:55:15] INFO root fetch - main [MainThread]: Store serial: [22891313]
+[2024-04-23 10:57:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891313]
+[2024-04-23 10:57:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 10:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gov-uk-dashboards
+[2024-04-23 10:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eirStru
+[2024-04-23 10:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylproxy
+[2024-04-23 10:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Flask-PikaRMQ
+[2024-04-23 10:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viewser
+[2024-04-23 10:57:24] INFO root fetch - processPackages [Flask-PikaRMQ]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-23 10:57:24] INFO root fetch - processPackages [pylproxy]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-23 10:57:24] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 10:57:24] INFO root fetch - processPackages [viewser]: New version: [6.4.0] Old Version: [6.3.2]
+[2024-04-23 10:57:24] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-04-23 10:57:24] INFO root fetch - processPackages [pylproxy]: Downloading https://files.pythonhosted.org/packages/0a/1a/62e4b4c9a8d87618eb036fe9ae56d7ca04a2733bc3ff80ec89efeab326f5/pylproxy-0.2.1.tar.gz
+[2024-04-23 10:57:24] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/02/81/fd2ee16f7e56571c2f8255084399919ceb123a08ba6fda668d15d425da89/viewser-6.3.2.tar.gz
+[2024-04-23 10:57:24] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-23 10:57:24] INFO root fetch - processPackages [Flask-PikaRMQ]: Downloading https://files.pythonhosted.org/packages/49/bb/d262888fe6764c12d4546fdf5e2f332340acddc3bb13481c7c627f228547/flask_pikarmq-1.0.tar.gz
+[2024-04-23 10:57:24] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2024-04-23 10:57:24] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/76/89/d02fe4f3109e1e1d4450700ef65cf9086595441defb83168d02c26a5c206/viewser-6.4.0.tar.gz
+[2024-04-23 10:57:24] INFO root fetch - processPackages [pylproxy]: Downloading https://files.pythonhosted.org/packages/d5/37/c3da490947fdff70563b3c17147b91f2ce5c3e03ca449e7f516e8dba3b58/pylproxy-0.2.2.tar.gz
+[2024-04-23 10:57:24] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-23 10:57:24] INFO root fetch - processPackages [viewser]: executing diffoscope
+[2024-04-23 10:57:24] INFO root fetch - processPackages [viewser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viewser-6.3.2.tar.gz tmp/viewser-6.4.0.tar.gz --markdown 20240423/v/viewser/6.3.2-6.4.0/README.md --exclude *.pyd
+[2024-04-23 10:57:24] INFO root fetch - processPackages [pylproxy]: executing diffoscope
+[2024-04-23 10:57:24] INFO root fetch - processPackages [pylproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylproxy-0.2.1.tar.gz tmp/pylproxy-0.2.2.tar.gz --markdown 20240423/p/pylproxy/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-23 10:57:24] INFO root fetch - processPackages [Flask-PikaRMQ]: Downloading https://files.pythonhosted.org/packages/5c/fa/c03052e8d1185eb770d708f8d4ae5848a76b53b2d066bd45903b7375fc26/flask_pikarmq-1.0.1.tar.gz
+[2024-04-23 10:57:24] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-23 10:57:24] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240423/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 10:57:24] INFO root fetch - processPackages [Flask-PikaRMQ]: executing diffoscope
+[2024-04-23 10:57:24] INFO root fetch - processPackages [Flask-PikaRMQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_pikarmq-1.0.tar.gz tmp/flask_pikarmq-1.0.1.tar.gz --markdown 20240423/F/Flask-PikaRMQ/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-23 10:57:24] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2024-04-23 10:57:25] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2024-04-23 10:57:25] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20240423/g/gov-uk-dashboards/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-04-23 10:57:25] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.3.2.tar.gz]
+[2024-04-23 10:57:25] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.4.0.tar.gz]
+[2024-04-23 10:57:25] INFO root fetch - main [MainThread]: End processing [viewser]: success
+[2024-04-23 10:57:25] INFO root fetch - processPackages [Flask-PikaRMQ]: Remove: archive file [/home/abi/fetcher/tmp/flask_pikarmq-1.0.tar.gz]
+[2024-04-23 10:57:25] INFO root fetch - processPackages [Flask-PikaRMQ]: Remove: archive file [/home/abi/fetcher/tmp/flask_pikarmq-1.0.1.tar.gz]
+[2024-04-23 10:57:25] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-23 10:57:25] INFO root fetch - main [MainThread]: End processing [Flask-PikaRMQ]: success
+[2024-04-23 10:57:25] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-23 10:57:25] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-23 10:57:25] INFO root fetch - processPackages [pylproxy]: Remove: archive file [/home/abi/fetcher/tmp/pylproxy-0.2.1.tar.gz]
+[2024-04-23 10:57:25] INFO root fetch - processPackages [pylproxy]: Remove: archive file [/home/abi/fetcher/tmp/pylproxy-0.2.2.tar.gz]
+[2024-04-23 10:57:25] INFO root fetch - main [MainThread]: End processing [pylproxy]: success
+[2024-04-23 10:57:26] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2024-04-23 10:57:26] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2024-04-23 10:57:26] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2024-04-23 10:57:26] INFO root fetch - main [MainThread]: Store serial: [22891327]
