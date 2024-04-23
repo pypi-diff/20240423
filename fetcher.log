@@ -22842,3 +22842,278 @@ EOFError: EOF read where object expected
 [2024-04-23 15:15:51] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.6.dev19119-py2.py3-none-any.whl.zip]
 [2024-04-23 15:15:51] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-23 15:15:51] INFO root fetch - main [MainThread]: Store serial: [22894402]
+[2024-04-23 15:18:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894402]
+[2024-04-23 15:18:07] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2024-04-23 15:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-table-of-figures
+[2024-04-23 15:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaphor-connectors
+[2024-04-23 15:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinx_tippy
+[2024-04-23 15:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: doppy
+[2024-04-23 15:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu118
+[2024-04-23 15:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxsim
+[2024-04-23 15:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamsync
+[2024-04-23 15:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eodc-faas-openeo
+[2024-04-23 15:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: f4
+[2024-04-23 15:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-04-23 15:18:07] INFO root fetch - processPackages [mkdocs-table-of-figures]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-04-23 15:18:07] INFO root fetch - processPackages [sphinx_tippy]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-23 15:18:07] INFO root fetch - processPackages [streamsync]: New version: [0.4.0rc4] Old Version: [0.4.0rc3]
+[2024-04-23 15:18:07] INFO root fetch - processPackages [f4]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-23 15:18:07] INFO root fetch - processPackages [jaxsim]: New version: [0.2.dev92] Old Version: [0.2.dev87]
+[2024-04-23 15:18:07] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-23 15:18:07] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-23 15:18:07] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.4.23] Old Version: [2024.4.22]
+[2024-04-23 15:18:07] INFO root fetch - processPackages [doppy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-23 15:18:07] INFO root fetch - processPackages [mkdocs-table-of-figures]: Downloading https://files.pythonhosted.org/packages/2e/24/fd71b93a0cb5f4a2b31546199a362e49f2809974dec4948b86551961373b/mkdocs-table-of-figures-0.2.0.tar.gz
+[2024-04-23 15:18:07] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.2.dev20240423] Old Version: [0.2.2.dev20240422]
+[2024-04-23 15:18:07] INFO root fetch - processPackages [sphinx_tippy]: Downloading https://files.pythonhosted.org/packages/44/56/84fb8de1254c8b6a52b65daee4f81f31c9c9f3cad4a8fa93fdafc2e16e64/sphinx_tippy-0.4.1.tar.gz
+[2024-04-23 15:18:07] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/b5/25/4a27bb25679ce17fef64a522f1af1c8722d2ec06d59735f1ddf7d16201d9/jaxsim-0.2.dev87.tar.gz
+[2024-04-23 15:18:07] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/95/0d/3bbe76bf2dc16ab52e2891e0a5befbe87f597cd15fe4d4853644e5bfefc0/eodc_faas_openeo-2024.4.8.tar.gz
+[2024-04-23 15:18:07] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2024-04-23 15:18:07] INFO root fetch - processPackages [streamsync]: Downloading https://files.pythonhosted.org/packages/a7/77/636eed79deec36042d8e22a1257dcb2bc861170ab1300584be80237b06f2/streamsync-0.4.0rc3.tar.gz
+[2024-04-23 15:18:07] INFO root fetch - processPackages [f4]: Downloading https://files.pythonhosted.org/packages/03/58/70df0b07634756c3751d5fe2052f882e609cdb1ed8ea4866a9a222f9cce9/f4-0.9.2.tar.gz
+[2024-04-23 15:18:07] INFO root fetch - processPackages [doppy]: Downloading https://files.pythonhosted.org/packages/b3/22/bbb9d7761aaff0158fc67e48f19da5763c95129f8d122e269f5356cad47b/doppy-0.1.3.tar.gz
+[2024-04-23 15:18:07] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/41/4b/79a34abbdb27cce011a49cbdf715407cd65600617742e783f0a0d1e1ed6f/nvfuser_cu118-0.2.2.dev20240422.tar.gz
+[2024-04-23 15:18:07] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f7/2e/488b1d5fbbe4451630776ec5cb3dd1a647c0039c9bd7a13e68b14a45e4f6/fbgemm_gpu_nightly_cpu-2024.4.22-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-23 15:18:07] INFO root fetch - processPackages [mkdocs-table-of-figures]: Downloading https://files.pythonhosted.org/packages/ec/c2/c20e5246f9b76e5eef260dbe7db57a814c79b8ef7e458767c5f23206e8d5/mkdocs-table-of-figures-0.2.2.tar.gz
+[2024-04-23 15:18:07] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/5e/60/0df26077da816d4440ca6002beb2eb117e5fc28afecbc0fc984839e59b0e/eodc_faas_openeo-2024.4.9.tar.gz
+[2024-04-23 15:18:07] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/5f/f3/d7774afb77c6832c188a48524d674234d264ab4e593515aac50ba544ea66/jaxsim-0.2.dev92.tar.gz
+[2024-04-23 15:18:08] INFO root fetch - processPackages [sphinx_tippy]: Downloading https://files.pythonhosted.org/packages/81/5f/6e318118b20cae131a0a782c6a352b156ac1903df620ab70fe75b62e0911/sphinx_tippy-0.4.2.tar.gz
+[2024-04-23 15:18:08] INFO root fetch - processPackages [mkdocs-table-of-figures]: executing diffoscope
+[2024-04-23 15:18:08] INFO root fetch - processPackages [mkdocs-table-of-figures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-table-of-figures-0.2.0.tar.gz tmp/mkdocs-table-of-figures-0.2.2.tar.gz --markdown 20240423/m/mkdocs-table-of-figures/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-04-23 15:18:08] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2024-04-23 15:18:08] INFO root fetch - processPackages [f4]: Downloading https://files.pythonhosted.org/packages/15/c5/4c1515ab48ba7c4bc23bd5e83491997e73005480039d56e22ef3ba288997/f4-0.9.3.tar.gz
+[2024-04-23 15:18:08] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-04-23 15:18:08] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.4.8.tar.gz tmp/eodc_faas_openeo-2024.4.9.tar.gz --markdown 20240423/e/eodc-faas-openeo/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-23 15:18:08] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2024-04-23 15:18:08] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.2.dev87.tar.gz tmp/jaxsim-0.2.dev92.tar.gz --markdown 20240423/j/jaxsim/0.2.dev87-0.2.dev92/README.md --exclude *.pyd
+[2024-04-23 15:18:08] INFO root fetch - processPackages [doppy]: Downloading https://files.pythonhosted.org/packages/db/9e/560fbebd30aadda38487d2b7d4f8485a4a2193b05afab79deac18f08ae32/doppy-0.1.4.tar.gz
+[2024-04-23 15:18:08] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/53/16/18700084c5c5ae8506fbd505205a6bf14d5359c77b4291cf834cac33c5d7/nvfuser_cu118-0.2.2.dev20240423.tar.gz
+[2024-04-23 15:18:08] INFO root fetch - processPackages [sphinx_tippy]: executing diffoscope
+[2024-04-23 15:18:08] INFO root fetch - processPackages [sphinx_tippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_tippy-0.4.1.tar.gz tmp/sphinx_tippy-0.4.2.tar.gz --markdown 20240423/s/sphinx_tippy/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-23 15:18:08] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2024-04-23 15:18:08] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20240423/m/metaphor-connectors/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-23 15:18:08] INFO root fetch - processPackages [f4]: executing diffoscope
+[2024-04-23 15:18:08] INFO root fetch - processPackages [f4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f4-0.9.2.tar.gz tmp/f4-0.9.3.tar.gz --markdown 20240423/f/f4/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-23 15:18:08] INFO root fetch - processPackages [doppy]: executing diffoscope
+[2024-04-23 15:18:08] INFO root fetch - processPackages [doppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doppy-0.1.3.tar.gz tmp/doppy-0.1.4.tar.gz --markdown 20240423/d/doppy/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-23 15:18:08] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-04-23 15:18:08] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.2.dev20240422.tar.gz tmp/nvfuser_cu118-0.2.2.dev20240423.tar.gz --markdown 20240423/n/nvfuser-cu118/0.2.2.dev20240422-0.2.2.dev20240423/README.md --exclude *.pyd
+[2024-04-23 15:18:08] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/9e/4a/4e9803ffe311a0ac3a37753f1822a95b8ab3eec8c5e4b4f98992a66d8be4/fbgemm_gpu_nightly_cpu-2024.4.23-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-23 15:18:09] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.8.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.9.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [eodc-faas-openeo]: Start processing: zonesmart-utils-fork
+[2024-04-23 15:18:09] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-04-23 15:18:09] INFO root fetch - processPackages [mkdocs-table-of-figures]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-table-of-figures-0.2.0.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [mkdocs-table-of-figures]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-table-of-figures-0.2.2.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [mkdocs-table-of-figures]: Start processing: dbis-tm
+[2024-04-23 15:18:09] INFO root fetch - main [MainThread]: End processing [mkdocs-table-of-figures]: success
+[2024-04-23 15:18:09] INFO root fetch - processPackages [zonesmart-utils-fork]: New version: [0.5.9.9] Old Version: [0.5.9.8]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.2.dev20240422.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.2.dev20240423.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [nvfuser-cu118]: Start processing: eelbrain
+[2024-04-23 15:18:09] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-04-23 15:18:09] INFO root fetch - processPackages [f4]: Remove: archive file [/home/abi/fetcher/tmp/f4-0.9.2.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [f4]: Remove: archive file [/home/abi/fetcher/tmp/f4-0.9.3.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [f4]: Start processing: nvfuser-cu121
+[2024-04-23 15:18:09] INFO root fetch - main [MainThread]: End processing [f4]: success
+[2024-04-23 15:18:09] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/1f/3c/039c94473127564e1d61c86469dc142a7a89988f07bba21541fea00682d5/zonesmart-utils-fork-0.5.9.8.tar.gz
+[2024-04-23 15:18:09] INFO root fetch - processPackages [dbis-tm]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-04-23 15:18:09] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.4.22-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.4.23-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240423/f/fbgemm-gpu-nightly-cpu/2024.4.22-2024.4.23/README.md --exclude *.pyd
+[2024-04-23 15:18:09] INFO root fetch - processPackages [sphinx_tippy]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_tippy-0.4.1.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [sphinx_tippy]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_tippy-0.4.2.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [sphinx_tippy]: Start processing: fsleyes
+[2024-04-23 15:18:09] INFO root fetch - main [MainThread]: End processing [sphinx_tippy]: success
+[2024-04-23 15:18:09] INFO root fetch - processPackages [eelbrain]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [doppy]: Remove: archive file [/home/abi/fetcher/tmp/doppy-0.1.3.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [doppy]: Remove: archive file [/home/abi/fetcher/tmp/doppy-0.1.4.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [doppy]: Start processing: gmalglib
+[2024-04-23 15:18:09] INFO root fetch - main [MainThread]: End processing [doppy]: success
+[2024-04-23 15:18:09] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.2.dev20240423] Old Version: [0.2.2.dev20240422]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [metaphor-connectors]: Start processing: finbourne-access-sdk
+[2024-04-23 15:18:09] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2024-04-23 15:18:09] INFO root fetch - processPackages [fsleyes]: New version: [1.9.0] Old Version: [1.8.3]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [dbis-tm]: Downloading https://files.pythonhosted.org/packages/6e/07/c08164c6e041a71e439ff99a276997721696013bc49c16ace3b8680800b5/dbis_tm-1.0.0.tar.gz
+[2024-04-23 15:18:09] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/c7/9f/2ff32de4eacc484eb5a9007534d13156a1b1a1a9c62233775741db20c020/zonesmart-utils-fork-0.5.9.9.tar.gz
+[2024-04-23 15:18:09] INFO root fetch - processPackages [gmalglib]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [eelbrain]: Downloading https://files.pythonhosted.org/packages/55/65/12c49ce124a960c72e73427d8a698dd75a8dd2ccbcf0a532f36a65c993e0/eelbrain-0.9.1.tar.gz
+[2024-04-23 15:18:09] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-23 15:18:09] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/9d/6d/598800987e079ee9ced52ec20b073aaef52da15ae6cc9b3d5523a14bff73/nvfuser_cu121-0.2.2.dev20240422.tar.gz
+[2024-04-23 15:18:09] INFO root fetch - processPackages [zonesmart-utils-fork]: executing diffoscope
+[2024-04-23 15:18:09] INFO root fetch - processPackages [zonesmart-utils-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-fork-0.5.9.8.tar.gz tmp/zonesmart-utils-fork-0.5.9.9.tar.gz --markdown 20240423/z/zonesmart-utils-fork/0.5.9.8-0.5.9.9/README.md --exclude *.pyd
+[2024-04-23 15:18:09] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev87.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [jaxsim]: Start processing: makit
+[2024-04-23 15:18:09] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2024-04-23 15:18:09] WARNING root fetch - processPackages [makit]: Skipping, unable to determine old version
+[2024-04-23 15:18:09] INFO root fetch - processPackages [makit]: Start processing: dpack-py
+[2024-04-23 15:18:09] INFO root fetch - main [MainThread]: End processing [makit] error
+[2024-04-23 15:18:09] INFO root fetch - processPackages [fsleyes]: Downloading https://files.pythonhosted.org/packages/9f/f8/55ef52fec670c852575edff56d0d4dd7f08075ccc8c5c2fad7d112e5699e/fsleyes-1.8.3.tar.gz
+[2024-04-23 15:18:09] INFO root fetch - processPackages [gmalglib]: Downloading https://files.pythonhosted.org/packages/d1/ef/1d05aa2ab1509a269abf8ef905293076666fd19509931cb21d6137adaa59/gmalglib-0.5.2.tar.gz
+[2024-04-23 15:18:09] INFO root fetch - processPackages [dbis-tm]: Downloading https://files.pythonhosted.org/packages/3d/63/2f752048a18255cc640ac18902073663ea91f0cad6eec353a008a64dced5/dbis_tm-1.0.1.tar.gz
+[2024-04-23 15:18:09] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-23 15:18:09] INFO root fetch - processPackages [dpack-py]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-23 15:18:09] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/e4/8b/513b24f5af80c7f10ce331049056eddc52839a835554f6c1905a76251425/nvfuser_cu121-0.2.2.dev20240423.tar.gz
+[2024-04-23 15:18:09] INFO root fetch - processPackages [dbis-tm]: executing diffoscope
+[2024-04-23 15:18:09] INFO root fetch - processPackages [dbis-tm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbis_tm-1.0.0.tar.gz tmp/dbis_tm-1.0.1.tar.gz --markdown 20240423/d/dbis-tm/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-23 15:18:09] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-23 15:18:09] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240423/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-23 15:18:10] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-04-23 15:18:10] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.2.dev20240422.tar.gz tmp/nvfuser_cu121-0.2.2.dev20240423.tar.gz --markdown 20240423/n/nvfuser-cu121/0.2.2.dev20240422-0.2.2.dev20240423/README.md --exclude *.pyd
+[2024-04-23 15:18:10] INFO root fetch - processPackages [gmalglib]: Downloading https://files.pythonhosted.org/packages/95/0a/40bac4f3ec547798377ca6618eb3c79ce4725588855c3e3642edd0142074/gmalglib-0.5.3.tar.gz
+[2024-04-23 15:18:10] INFO root fetch - processPackages [dpack-py]: Downloading https://files.pythonhosted.org/packages/e8/d2/592a840df2f0051faef7d76f6994a868c5ff0df1ad8b398db7902d5bf24e/dpack_py-0.2.0.tar.gz
+[2024-04-23 15:18:10] INFO root fetch - processPackages [eelbrain]: Downloading https://files.pythonhosted.org/packages/6d/d3/01980a2901902f09514f26ccbaf7bb6810ba90dbead89fc1b03125ce66f2/eelbrain-0.9.2.tar.gz
+[2024-04-23 15:18:10] INFO root fetch - processPackages [gmalglib]: executing diffoscope
+[2024-04-23 15:18:10] INFO root fetch - processPackages [gmalglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmalglib-0.5.2.tar.gz tmp/gmalglib-0.5.3.tar.gz --markdown 20240423/g/gmalglib/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-23 15:18:10] WARNING root fetch - processPackages [fsleyes]: Skipping package: exceeds size limit 39289365>=10485760
+[2024-04-23 15:18:10] INFO root fetch - processPackages [fsleyes]: Start processing: nxtomomill
+[2024-04-23 15:18:10] INFO root fetch - main [MainThread]: End processing [fsleyes] error
+[2024-04-23 15:18:10] INFO root fetch - processPackages [dpack-py]: Downloading https://files.pythonhosted.org/packages/d6/fb/e85c5316550b26048268a100dc5b28bcb309550ff7fe33e6a9c7959927e0/dpack_py-0.2.1.tar.gz
+[2024-04-23 15:18:10] INFO root fetch - processPackages [nxtomomill]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-23 15:18:10] INFO root fetch - processPackages [dpack-py]: executing diffoscope
+[2024-04-23 15:18:10] INFO root fetch - processPackages [dpack-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpack_py-0.2.0.tar.gz tmp/dpack_py-0.2.1.tar.gz --markdown 20240423/d/dpack-py/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-23 15:18:10] INFO root fetch - processPackages [eelbrain]: executing diffoscope
+[2024-04-23 15:18:10] INFO root fetch - processPackages [eelbrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eelbrain-0.9.1.tar.gz tmp/eelbrain-0.9.2.tar.gz --markdown 20240423/e/eelbrain/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-23 15:18:10] INFO root fetch - processPackages [nxtomomill]: Downloading https://files.pythonhosted.org/packages/cc/70/2e8af9fa46d910e4cd9505610ef7c509abb147f729994e21d39f4a2e1546/nxtomomill-1.0.5.tar.gz
+[2024-04-23 15:18:10] INFO root fetch - processPackages [dbis-tm]: Remove: archive file [/home/abi/fetcher/tmp/dbis_tm-1.0.0.tar.gz]
+[2024-04-23 15:18:10] INFO root fetch - processPackages [dbis-tm]: Remove: archive file [/home/abi/fetcher/tmp/dbis_tm-1.0.1.tar.gz]
+[2024-04-23 15:18:10] INFO root fetch - processPackages [dbis-tm]: Start processing: ramodels
+[2024-04-23 15:18:10] INFO root fetch - main [MainThread]: End processing [dbis-tm]: success
+[2024-04-23 15:18:10] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.2.dev20240422.tar.gz]
+[2024-04-23 15:18:10] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.2.dev20240423.tar.gz]
+[2024-04-23 15:18:10] INFO root fetch - processPackages [nvfuser-cu121]: Start processing: screwdriver-cd-python-sdk
+[2024-04-23 15:18:10] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-04-23 15:18:10] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-04-23 15:18:10] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: New version: [1.0.2] Old Version: [1.0.11]
+[2024-04-23 15:18:11] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: Downloading https://files.pythonhosted.org/packages/1f/e1/6089d45cbe681186dc35def5129a361a484f3869a57817d51de25b011990/screwdriver-cd-python-sdk-1.0.11.tar.gz
+[2024-04-23 15:18:11] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-04-23 15:18:11] INFO root fetch - processPackages [nxtomomill]: Downloading https://files.pythonhosted.org/packages/f6/62/0940feb273cef95abd334613f1a60a7f5e04ee4ab867f711cc8e3221d45f/nxtomomill-1.0.6.tar.gz
+[2024-04-23 15:18:11] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.8.tar.gz]
+[2024-04-23 15:18:11] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.9.tar.gz]
+[2024-04-23 15:18:11] INFO root fetch - processPackages [zonesmart-utils-fork]: Start processing: airflow-yeedu-operator
+[2024-04-23 15:18:11] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
+[2024-04-23 15:18:11] INFO root fetch - processPackages [streamsync]: Downloading https://files.pythonhosted.org/packages/11/b8/f19b2372750d0c2b7a5caa63a187c108bbc475f0b365e2da79fff98ea4db/streamsync-0.4.0rc4.tar.gz
+[2024-04-23 15:18:11] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: Downloading https://files.pythonhosted.org/packages/e1/b6/2c762d32639c1779b38f0bda287a1432ee8e23773e74b286d99b2b1a0a27/screwdriver-cd-python-sdk-1.0.2.tar.gz
+[2024-04-23 15:18:11] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-23 15:18:11] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-23 15:18:11] INFO root fetch - processPackages [finbourne-access-sdk]: Start processing: psyke
+[2024-04-23 15:18:11] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-23 15:18:11] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-04-23 15:18:11] INFO root fetch - processPackages [nxtomomill]: executing diffoscope
+[2024-04-23 15:18:11] INFO root fetch - processPackages [nxtomomill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxtomomill-1.0.5.tar.gz tmp/nxtomomill-1.0.6.tar.gz --markdown 20240423/n/nxtomomill/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-23 15:18:11] INFO root fetch - processPackages [gmalglib]: Remove: archive file [/home/abi/fetcher/tmp/gmalglib-0.5.2.tar.gz]
+[2024-04-23 15:18:11] INFO root fetch - processPackages [gmalglib]: Remove: archive file [/home/abi/fetcher/tmp/gmalglib-0.5.3.tar.gz]
+[2024-04-23 15:18:11] INFO root fetch - processPackages [gmalglib]: Start processing: strangeworks-braket
+[2024-04-23 15:18:11] INFO root fetch - main [MainThread]: End processing [gmalglib]: success
+[2024-04-23 15:18:11] INFO root fetch - processPackages [psyke]: New version: [0.8.2.dev9] Old Version: [0.8.2.dev8]
+[2024-04-23 15:18:11] INFO root fetch - processPackages [airflow-yeedu-operator]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-23 15:18:11] INFO root fetch - processPackages [dpack-py]: Remove: archive file [/home/abi/fetcher/tmp/dpack_py-0.2.0.tar.gz]
+[2024-04-23 15:18:11] INFO root fetch - processPackages [dpack-py]: Remove: archive file [/home/abi/fetcher/tmp/dpack_py-0.2.1.tar.gz]
+[2024-04-23 15:18:11] INFO root fetch - processPackages [dpack-py]: Start processing: mapdata
+[2024-04-23 15:18:11] INFO root fetch - main [MainThread]: End processing [dpack-py]: success
+[2024-04-23 15:18:11] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: executing diffoscope
+[2024-04-23 15:18:11] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screwdriver-cd-python-sdk-1.0.11.tar.gz tmp/screwdriver-cd-python-sdk-1.0.2.tar.gz --markdown 20240423/s/screwdriver-cd-python-sdk/1.0.11-1.0.2/README.md --exclude *.pyd
+[2024-04-23 15:18:11] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-04-23 15:18:11] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240423/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-04-23 15:18:11] INFO root fetch - processPackages [mapdata]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-04-23 15:18:11] INFO root fetch - processPackages [strangeworks-braket]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 15:18:11] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/4c/87/d0daf125b499e7076b921acf89cc606746e5e1f3a77d1ade86f88680589c/psyke-0.8.2.dev8.tar.gz
+[2024-04-23 15:18:11] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/15/cd/6dcead27a84125c052d2b2467737f3f53b8502134d03f7eb0ed69d8b1783/mapdata-3.5.0.tar.gz
+[2024-04-23 15:18:11] INFO root fetch - processPackages [airflow-yeedu-operator]: Downloading https://files.pythonhosted.org/packages/f9/74/3657b252d1f8642c2ba2fee8f9ef97bd8a07f643b06a30fbeda3509247d8/airflow-yeedu-operator-1.0.6.tar.gz
+[2024-04-23 15:18:11] INFO root fetch - processPackages [strangeworks-braket]: Downloading https://files.pythonhosted.org/packages/c0/91/4784006729e77771ecbe98846624c1a6af2acb56dbdb52602cc177d05c8d/strangeworks_braket-1.0.8.tar.gz
+[2024-04-23 15:18:11] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/4d/10/38c1d77a7ecc2283b9776552e9357b48c218e56be545b001f617c2ccd262/psyke-0.8.2.dev9.tar.gz
+[2024-04-23 15:18:11] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2024-04-23 15:18:11] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.8.2.dev8.tar.gz tmp/psyke-0.8.2.dev9.tar.gz --markdown 20240423/p/psyke/0.8.2.dev8-0.8.2.dev9/README.md --exclude *.pyd
+[2024-04-23 15:18:11] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/b1/ca/d596d74832abd7f56cbdd48c32d4f8577340dae00aca51c2f02d24c978cf/mapdata-3.6.0.tar.gz
+[2024-04-23 15:18:11] INFO root fetch - processPackages [airflow-yeedu-operator]: Downloading https://files.pythonhosted.org/packages/46/b4/03f22c113b981393af83f118a44e2a0fcfba003fde1d3386d24d5f91dfd2/airflow-yeedu-operator-1.0.7.tar.gz
+[2024-04-23 15:18:12] INFO root fetch - processPackages [airflow-yeedu-operator]: executing diffoscope
+[2024-04-23 15:18:12] INFO root fetch - processPackages [airflow-yeedu-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-yeedu-operator-1.0.6.tar.gz tmp/airflow-yeedu-operator-1.0.7.tar.gz --markdown 20240423/a/airflow-yeedu-operator/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-23 15:18:12] INFO root fetch - processPackages [mapdata]: executing diffoscope
+[2024-04-23 15:18:12] INFO root fetch - processPackages [mapdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapdata-3.5.0.tar.gz tmp/mapdata-3.6.0.tar.gz --markdown 20240423/m/mapdata/3.5.0-3.6.0/README.md --exclude *.pyd
+[2024-04-23 15:18:12] INFO root fetch - processPackages [eelbrain]: Remove: archive file [/home/abi/fetcher/tmp/eelbrain-0.9.1.tar.gz]
+[2024-04-23 15:18:12] INFO root fetch - processPackages [eelbrain]: Remove: archive file [/home/abi/fetcher/tmp/eelbrain-0.9.2.tar.gz]
+[2024-04-23 15:18:12] INFO root fetch - processPackages [eelbrain]: Start processing: clovers-groupmate-waifu
+[2024-04-23 15:18:12] INFO root fetch - main [MainThread]: End processing [eelbrain]: success
+[2024-04-23 15:18:12] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/screwdriver-cd-python-sdk-1.0.11.tar.gz]
+[2024-04-23 15:18:12] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/screwdriver-cd-python-sdk-1.0.2.tar.gz]
+[2024-04-23 15:18:12] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: Start processing: opytimal
+[2024-04-23 15:18:12] INFO root fetch - main [MainThread]: End processing [screwdriver-cd-python-sdk]: success
+[2024-04-23 15:18:12] INFO root fetch - processPackages [strangeworks-braket]: Downloading https://files.pythonhosted.org/packages/a2/7a/62f123428d680022bd9481953b0a47bab6f5613aaeae32a62534ced1f192/strangeworks_braket-1.0.9.tar.gz
+[2024-04-23 15:18:12] INFO root fetch - processPackages [opytimal]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-04-23 15:18:12] WARNING root fetch - processPackages [clovers-groupmate-waifu]: Skipping, unable to determine old version
+[2024-04-23 15:18:12] INFO root fetch - processPackages [clovers-groupmate-waifu]: Start processing: kodexa
+[2024-04-23 15:18:12] INFO root fetch - main [MainThread]: End processing [clovers-groupmate-waifu] error
+[2024-04-23 15:18:12] INFO root fetch - processPackages [strangeworks-braket]: executing diffoscope
+[2024-04-23 15:18:12] INFO root fetch - processPackages [strangeworks-braket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_braket-1.0.8.tar.gz tmp/strangeworks_braket-1.0.9.tar.gz --markdown 20240423/s/strangeworks-braket/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 15:18:12] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/7b/08/8d64c5a781a8dadc9dfa60ccef39849f75f4e577f33ddc6cd1cf947466b7/opytimal-0.5.9.tar.gz
+[2024-04-23 15:18:12] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-04-23 15:18:12] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-04-23 15:18:12] INFO root fetch - processPackages [ramodels]: Start processing: maphash
+[2024-04-23 15:18:12] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-04-23 15:18:12] INFO root fetch - processPackages [kodexa]: New version: [7.0.8790901211] Old Version: [7.0.8709636589]
+[2024-04-23 15:18:12] INFO root fetch - processPackages [maphash]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 15:18:12] INFO root fetch - processPackages [nxtomomill]: Remove: archive file [/home/abi/fetcher/tmp/nxtomomill-1.0.5.tar.gz]
+[2024-04-23 15:18:12] INFO root fetch - processPackages [nxtomomill]: Remove: archive file [/home/abi/fetcher/tmp/nxtomomill-1.0.6.tar.gz]
+[2024-04-23 15:18:12] INFO root fetch - processPackages [nxtomomill]: Start processing: limexhub
+[2024-04-23 15:18:12] INFO root fetch - main [MainThread]: End processing [nxtomomill]: success
+[2024-04-23 15:18:12] INFO root fetch - processPackages [limexhub]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 15:18:12] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/1a/ec/28a64c3248607c9a090f3c185187da471ad424cfb83b318b161c23af0967/kodexa-7.0.8709636589.tar.gz
+[2024-04-23 15:18:12] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/59/b3/c36f6205146cb7f11d828b5614a32d17d0da578e40f31112869cfdb412f1/opytimal-0.6.0.tar.gz
+[2024-04-23 15:18:12] INFO root fetch - processPackages [limexhub]: Downloading https://files.pythonhosted.org/packages/47/4a/cd1c8cc3ddd55d40f93beca272686ca0f40d322a450119a5287e9fb86f98/limexhub-0.1.8.tar.gz
+[2024-04-23 15:18:12] INFO root fetch - processPackages [maphash]: Downloading https://files.pythonhosted.org/packages/90/a9/f44b4eba67ca388108329051fab20e17424b78ef7ad33ce12beb27e86c38/maphash-0.1.1.tar.gz
+[2024-04-23 15:18:12] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.2.dev8.tar.gz]
+[2024-04-23 15:18:12] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.2.dev9.tar.gz]
+[2024-04-23 15:18:12] INFO root fetch - processPackages [psyke]: Start processing: bluepyefe
+[2024-04-23 15:18:12] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2024-04-23 15:18:12] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 15:18:12] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.5.9.tar.gz tmp/opytimal-0.6.0.tar.gz --markdown 20240423/o/opytimal/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-04-23 15:18:12] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/db/4d/1c419ee31f65ebb9c91672366b927fb653320852eb72b3d138ef97b7d835/kodexa-7.0.8790901211.tar.gz
+[2024-04-23 15:18:13] INFO root fetch - processPackages [bluepyefe]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-23 15:18:13] INFO root fetch - processPackages [airflow-yeedu-operator]: Remove: archive file [/home/abi/fetcher/tmp/airflow-yeedu-operator-1.0.6.tar.gz]
+[2024-04-23 15:18:13] INFO root fetch - processPackages [limexhub]: Downloading https://files.pythonhosted.org/packages/34/b1/087f4c17f3cd9425c33cd27043ff8f79129b61098fa9edf0db7b0df343d9/limexhub-0.1.9.tar.gz
+[2024-04-23 15:18:13] INFO root fetch - processPackages [airflow-yeedu-operator]: Remove: archive file [/home/abi/fetcher/tmp/airflow-yeedu-operator-1.0.7.tar.gz]
+[2024-04-23 15:18:13] INFO root fetch - main [MainThread]: End processing [airflow-yeedu-operator]: success
+[2024-04-23 15:18:13] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2024-04-23 15:18:13] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-7.0.8709636589.tar.gz tmp/kodexa-7.0.8790901211.tar.gz --markdown 20240423/k/kodexa/7.0.8709636589-7.0.8790901211/README.md --exclude *.pyd
+[2024-04-23 15:18:13] INFO root fetch - processPackages [strangeworks-braket]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks_braket-1.0.8.tar.gz]
+[2024-04-23 15:18:13] INFO root fetch - processPackages [strangeworks-braket]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks_braket-1.0.9.tar.gz]
+[2024-04-23 15:18:13] INFO root fetch - main [MainThread]: End processing [strangeworks-braket]: success
+[2024-04-23 15:18:13] INFO root fetch - processPackages [maphash]: Downloading https://files.pythonhosted.org/packages/88/c1/206a358adf3fb7a2fb7ae0fcd4b83ea291caaefe8c4965b5ffec49a0dc9a/maphash-0.1.2.tar.gz
+[2024-04-23 15:18:13] INFO root fetch - processPackages [limexhub]: executing diffoscope
+[2024-04-23 15:18:13] INFO root fetch - processPackages [limexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limexhub-0.1.8.tar.gz tmp/limexhub-0.1.9.tar.gz --markdown 20240423/l/limexhub/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 15:18:13] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/9e/0d/3bd7040c54b44293a4cf36529fa4e8c9c06b73f72bef5416d3c6df1c607a/bluepyefe-2.3.8.tar.gz
+[2024-04-23 15:18:13] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-3.5.0.tar.gz]
+[2024-04-23 15:18:13] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-3.6.0.tar.gz]
+[2024-04-23 15:18:13] INFO root fetch - main [MainThread]: End processing [mapdata]: success
+[2024-04-23 15:18:13] INFO root fetch - processPackages [maphash]: executing diffoscope
+[2024-04-23 15:18:13] INFO root fetch - processPackages [maphash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maphash-0.1.1.tar.gz tmp/maphash-0.1.2.tar.gz --markdown 20240423/m/maphash/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 15:18:13] INFO root fetch - processPackages [streamsync]: executing diffoscope
+[2024-04-23 15:18:13] INFO root fetch - processPackages [streamsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamsync-0.4.0rc3.tar.gz tmp/streamsync-0.4.0rc4.tar.gz --markdown 20240423/s/streamsync/0.4.0rc3-0.4.0rc4/README.md --exclude *.pyd
+[2024-04-23 15:18:13] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/31/11/0a3d4bfd0ec4abcf9868b8d8a6c2e8a7d71c3851bd1edb4d6f6f27e8a78a/bluepyefe-2.3.9.tar.gz
+[2024-04-23 15:18:13] INFO root fetch - processPackages [limexhub]: Remove: archive file [/home/abi/fetcher/tmp/limexhub-0.1.8.tar.gz]
+[2024-04-23 15:18:13] INFO root fetch - processPackages [limexhub]: Remove: archive file [/home/abi/fetcher/tmp/limexhub-0.1.9.tar.gz]
+[2024-04-23 15:18:13] INFO root fetch - main [MainThread]: End processing [limexhub]: success
+[2024-04-23 15:18:13] INFO root fetch - processPackages [bluepyefe]: executing diffoscope
+[2024-04-23 15:18:13] INFO root fetch - processPackages [bluepyefe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyefe-2.3.8.tar.gz tmp/bluepyefe-2.3.9.tar.gz --markdown 20240423/b/bluepyefe/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-23 15:18:14] INFO root fetch - processPackages [maphash]: Remove: archive file [/home/abi/fetcher/tmp/maphash-0.1.1.tar.gz]
+[2024-04-23 15:18:14] INFO root fetch - processPackages [maphash]: Remove: archive file [/home/abi/fetcher/tmp/maphash-0.1.2.tar.gz]
+[2024-04-23 15:18:14] INFO root fetch - main [MainThread]: End processing [maphash]: success
+[2024-04-23 15:18:14] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-7.0.8709636589.tar.gz]
+[2024-04-23 15:18:14] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-7.0.8790901211.tar.gz]
+[2024-04-23 15:18:14] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2024-04-23 15:18:14] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.5.9.tar.gz]
+[2024-04-23 15:18:14] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.6.0.tar.gz]
+[2024-04-23 15:18:14] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 15:18:14] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.3.8.tar.gz]
+[2024-04-23 15:18:14] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.3.9.tar.gz]
+[2024-04-23 15:18:14] INFO root fetch - main [MainThread]: End processing [bluepyefe]: success
+[2024-04-23 15:18:46] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.22-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-23 15:18:46] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.23-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-23 15:18:46] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-04-23 15:19:37] INFO root fetch - processPackages [streamsync]: Remove: archive file [/home/abi/fetcher/tmp/streamsync-0.4.0rc3.tar.gz]
+[2024-04-23 15:19:37] INFO root fetch - processPackages [streamsync]: Remove: archive file [/home/abi/fetcher/tmp/streamsync-0.4.0rc4.tar.gz]
+[2024-04-23 15:19:37] INFO root fetch - main [MainThread]: End processing [streamsync]: success
+[2024-04-23 15:19:37] INFO root fetch - main [MainThread]: Store serial: [22894512]
