@@ -3331,3 +3331,57 @@
 [2024-04-23 02:54:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-04-23 02:54:13] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-04-23 02:54:13] INFO root fetch - main [MainThread]: Store serial: [22886539]
+[2024-04-23 02:56:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886539]
+[2024-04-23 02:56:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 02:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarms
+[2024-04-23 02:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycde
+[2024-04-23 02:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eidolon_ai_client
+[2024-04-23 02:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-readability-metrics-small
+[2024-04-23 02:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonffi
+[2024-04-23 02:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatllm
+[2024-04-23 02:56:21] INFO root fetch - processPackages [jsonffi]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-23 02:56:21] INFO root fetch - processPackages [py-readability-metrics-small]: New version: [1.7] Old Version: [1.6]
+[2024-04-23 02:56:21] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.22.21.10.4]
+[2024-04-23 02:56:21] INFO root fetch - processPackages [jsonffi]: Downloading https://files.pythonhosted.org/packages/ba/47/127713103993e228ecf95c755178a55e3a586fd4006b7e81a8b4d637668d/jsonffi-1.0.3-py3-none-any.whl
+[2024-04-23 02:56:21] INFO root fetch - processPackages [py-readability-metrics-small]: Downloading https://files.pythonhosted.org/packages/a1/20/d10b1f19fa2d3bec3716de0b7012953c505c983b5e1d0411114142afbd7e/py_readability_metrics_small-1.6.tar.gz
+[2024-04-23 02:56:21] INFO root fetch - processPackages [eidolon_ai_client]: New version: [0.1.7a0] Old Version: [0.1.6]
+[2024-04-23 02:56:21] INFO root fetch - processPackages [swarms]: New version: [4.8.7] Old Version: [4.8.2]
+[2024-04-23 02:56:21] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev892] Old Version: [0.3.1.dev885]
+[2024-04-23 02:56:21] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/4a/0d/9e10149afead2fa52d3cd3003177bdb1db578924adaf2430eabb6a1f6c46/chatllm-2024.4.22.21.10.4.tar.gz
+[2024-04-23 02:56:21] INFO root fetch - processPackages [jsonffi]: Downloading https://files.pythonhosted.org/packages/27/bd/cb3d16da2d98e70d128247bc37430584b6c4b19a8a07251fe5dd05640585/jsonffi-1.0.4-py3-none-any.whl
+[2024-04-23 02:56:21] INFO root fetch - processPackages [eidolon_ai_client]: Downloading https://files.pythonhosted.org/packages/3e/77/172b4aa11c13172af3658b4c3fca91993a858b2349646d6cf3c1dbdb986a/eidolon_ai_client-0.1.6.tar.gz
+[2024-04-23 02:56:21] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-23 02:56:21] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/ab/e0/c8bd285a02972251b62715216a227b92fa2e690e3de24e9063b625843a53/swarms-4.8.2.tar.gz
+[2024-04-23 02:56:22] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/1b/f0/c56d3d4746043e8101f54cb8d20ff32786b3224c596e976454b805f52225/pycde-0.3.1.dev885-cp39-cp39-win_amd64.whl
+[2024-04-23 02:56:22] INFO root fetch - processPackages [py-readability-metrics-small]: Downloading https://files.pythonhosted.org/packages/f8/d5/4fd3a3088c7ebc682244d3858ce3bc0849a6b8b8ef254ceeacf156409787/py_readability_metrics_small-1.7.tar.gz
+[2024-04-23 02:56:22] INFO root fetch - processPackages [jsonffi]: executing diffoscope
+[2024-04-23 02:56:22] INFO root fetch - processPackages [jsonffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonffi-1.0.3-py3-none-any.whl.zip tmp/jsonffi-1.0.4-py3-none-any.whl.zip --markdown 20240423/j/jsonffi/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-23 02:56:22] INFO root fetch - processPackages [py-readability-metrics-small]: executing diffoscope
+[2024-04-23 02:56:22] INFO root fetch - processPackages [py-readability-metrics-small]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_readability_metrics_small-1.6.tar.gz tmp/py_readability_metrics_small-1.7.tar.gz --markdown 20240423/p/py-readability-metrics-small/1.6-1.7/README.md --exclude *.pyd
+[2024-04-23 02:56:22] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-23 02:56:22] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.22.21.10.4.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240423/c/chatllm/2024.4.22.21.10.4-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-23 02:56:22] INFO root fetch - processPackages [eidolon_ai_client]: Downloading https://files.pythonhosted.org/packages/c5/15/726fedae8688a60af513ed20d756e707789b71d77ce4c89fbed37ec3240e/eidolon_ai_client-0.1.7a0.tar.gz
+[2024-04-23 02:56:22] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/f3/7d/470f5923fa1bd101e367d9705e4378b590ff22c4b1f96a87aad5b55ed35c/swarms-4.8.7.tar.gz
+[2024-04-23 02:56:22] INFO root fetch - processPackages [eidolon_ai_client]: executing diffoscope
+[2024-04-23 02:56:22] INFO root fetch - processPackages [eidolon_ai_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_client-0.1.6.tar.gz tmp/eidolon_ai_client-0.1.7a0.tar.gz --markdown 20240423/e/eidolon_ai_client/0.1.6-0.1.7a0/README.md --exclude *.pyd
+[2024-04-23 02:56:22] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-04-23 02:56:22] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-4.8.2.tar.gz tmp/swarms-4.8.7.tar.gz --markdown 20240423/s/swarms/4.8.2-4.8.7/README.md --exclude *.pyd
+[2024-04-23 02:56:22] INFO root fetch - processPackages [jsonffi]: Remove: archive file [/home/abi/fetcher/tmp/jsonffi-1.0.3-py3-none-any.whl.zip]
+[2024-04-23 02:56:22] INFO root fetch - processPackages [jsonffi]: Remove: archive file [/home/abi/fetcher/tmp/jsonffi-1.0.4-py3-none-any.whl.zip]
+[2024-04-23 02:56:22] INFO root fetch - main [MainThread]: End processing [jsonffi]: success
+[2024-04-23 02:56:22] INFO root fetch - processPackages [py-readability-metrics-small]: Remove: archive file [/home/abi/fetcher/tmp/py_readability_metrics_small-1.6.tar.gz]
+[2024-04-23 02:56:22] INFO root fetch - processPackages [py-readability-metrics-small]: Remove: archive file [/home/abi/fetcher/tmp/py_readability_metrics_small-1.7.tar.gz]
+[2024-04-23 02:56:22] INFO root fetch - main [MainThread]: End processing [py-readability-metrics-small]: success
+[2024-04-23 02:56:23] INFO root fetch - processPackages [eidolon_ai_client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.6.tar.gz]
+[2024-04-23 02:56:23] INFO root fetch - processPackages [eidolon_ai_client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.7a0.tar.gz]
+[2024-04-23 02:56:23] INFO root fetch - main [MainThread]: End processing [eidolon_ai_client]: success
+[2024-04-23 02:56:23] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.22.21.10.4.tar.gz]
+[2024-04-23 02:56:23] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-23 02:56:23] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-23 02:56:24] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/ac/f0/fe830245f160506f54bf64785a1422d165e23bd9ebffe6647de4cf5a1b4b/pycde-0.3.1.dev892-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 02:56:24] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21384160>=10485760
+[2024-04-23 02:56:24] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-04-23 02:56:24] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.8.2.tar.gz]
+[2024-04-23 02:56:24] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.8.7.tar.gz]
+[2024-04-23 02:56:24] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-04-23 02:56:24] INFO root fetch - main [MainThread]: Store serial: [22886556]
