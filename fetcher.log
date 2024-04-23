@@ -18184,3 +18184,69 @@
 [2024-04-23 12:36:48] WARNING root fetch - processPackages [hance]: Skipping package: exceeds size limit 22091075>=10485760
 [2024-04-23 12:36:48] INFO root fetch - main [MainThread]: End processing [hance] error
 [2024-04-23 12:36:48] INFO root fetch - main [MainThread]: Store serial: [22892428]
+[2024-04-23 12:38:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892428]
+[2024-04-23 12:38:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 12:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-04-23 12:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dav-tools
+[2024-04-23 12:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SilverStreamingApplicationPoC
+[2024-04-23 12:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-alconna
+[2024-04-23 12:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skypilot-nightly
+[2024-04-23 12:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiokeitaro
+[2024-04-23 12:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: algokit-utils
+[2024-04-23 12:38:57] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 12:38:57] INFO root fetch - processPackages [aiokeitaro]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 12:38:57] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.23.9.47.34]
+[2024-04-23 12:38:57] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.9.3] Old Version: [0.9.0]
+[2024-04-23 12:38:57] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-23 12:38:57] INFO root fetch - processPackages [dav-tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 12:38:57] INFO root fetch - processPackages [algokit-utils]: New version: [2.2.2b4] Old Version: [2.2.2b3]
+[2024-04-23 12:38:57] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240423] Old Version: [1.0.0.dev20240422]
+[2024-04-23 12:38:57] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/97/6d/dc66a8f48453cfaa486b94d6cbee1872a1cddfe8854c71262644fc951a5b/chatllm-2024.4.23.9.47.34.tar.gz
+[2024-04-23 12:38:57] INFO root fetch - processPackages [aiokeitaro]: Downloading https://files.pythonhosted.org/packages/34/78/4079cf6eb1a141e2970a1e2bcc97cf7bfe05f8b58814136f18ddb3ea5422/aiokeitaro-0.0.1.tar.gz
+[2024-04-23 12:38:57] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/c8/67/1065373af14f845f6112a3d2cb8d6187d838b4c0d90d89282ccef9f5133d/nonebot-plugin-alconna-0.9.0.tar.gz
+[2024-04-23 12:38:57] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-23 12:38:57] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/f1/2b/7b20348d8f842065dc6be551cec0f2722dee0377339412ceb5d74d8f287f/dav_tools-0.1.1.tar.gz
+[2024-04-23 12:38:57] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/f0/a7/42b48df70544182c8ba4f14dfb0deb9f9c512f5a18ae16e8a489524ea36a/algokit_utils-2.2.2b3-py3-none-any.whl
+[2024-04-23 12:38:58] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/e7/c9/913b14ae18ecb32736ebde0a8f5129adf5bf1f39d3d620dc3f6f7f1f230b/skypilot_nightly-1.0.0.dev20240422.tar.gz
+[2024-04-23 12:38:58] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-23 12:38:58] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-23 12:38:58] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240423/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-23 12:38:58] INFO root fetch - processPackages [aiokeitaro]: Downloading https://files.pythonhosted.org/packages/52/3e/8c710ac9f0fa45afa07af77ffb4590bc81d1036947d9a944b9526232ab38/aiokeitaro-0.0.2.tar.gz
+[2024-04-23 12:38:58] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/f4/fd/830dd6604cd5dc44a467d959ff595e8da0a087d9b75368acaecfc83c3417/nonebot_plugin_alconna-0.9.3.tar.gz
+[2024-04-23 12:38:58] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/ff/16/c7714169c70078aec3058c93dbdcef4158398b78319873d9a0c6b87c0ee3/dav_tools-0.1.2.tar.gz
+[2024-04-23 12:38:58] INFO root fetch - processPackages [aiokeitaro]: executing diffoscope
+[2024-04-23 12:38:58] INFO root fetch - processPackages [aiokeitaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokeitaro-0.0.1.tar.gz tmp/aiokeitaro-0.0.2.tar.gz --markdown 20240423/a/aiokeitaro/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 12:38:58] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/2e/b7/e403f03839ce2a4f9347cec31817bfa791deaff38a1eafe14373abe1403b/algokit_utils-2.2.2b4-py3-none-any.whl
+[2024-04-23 12:38:58] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2024-04-23 12:38:58] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.9.0.tar.gz tmp/nonebot_plugin_alconna-0.9.3.tar.gz --markdown 20240423/n/nonebot-plugin-alconna/0.9.0-0.9.3/README.md --exclude *.pyd
+[2024-04-23 12:38:58] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/7e/e4/ca8dc39baefddebaf5e9d79a88b9fe41563c2914d35a90541ecd2c2cb5bc/skypilot_nightly-1.0.0.dev20240423.tar.gz
+[2024-04-23 12:38:58] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-23 12:38:58] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.23.9.47.34.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240423/c/chatllm/2024.4.23.9.47.34-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-23 12:38:58] INFO root fetch - processPackages [dav-tools]: executing diffoscope
+[2024-04-23 12:38:58] INFO root fetch - processPackages [dav-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dav_tools-0.1.1.tar.gz tmp/dav_tools-0.1.2.tar.gz --markdown 20240423/d/dav-tools/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 12:38:58] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2024-04-23 12:38:58] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-2.2.2b3-py3-none-any.whl.zip tmp/algokit_utils-2.2.2b4-py3-none-any.whl.zip --markdown 20240423/a/algokit-utils/2.2.2b3-2.2.2b4/README.md --exclude *.pyd
+[2024-04-23 12:38:58] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-23 12:38:58] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240422.tar.gz tmp/skypilot_nightly-1.0.0.dev20240423.tar.gz --markdown 20240423/s/skypilot-nightly/1.0.0.dev20240422-1.0.0.dev20240423/README.md --exclude *.pyd
+[2024-04-23 12:38:59] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-23 12:38:59] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-23 12:38:59] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-23 12:38:59] INFO root fetch - processPackages [aiokeitaro]: Remove: archive file [/home/abi/fetcher/tmp/aiokeitaro-0.0.1.tar.gz]
+[2024-04-23 12:38:59] INFO root fetch - processPackages [aiokeitaro]: Remove: archive file [/home/abi/fetcher/tmp/aiokeitaro-0.0.2.tar.gz]
+[2024-04-23 12:38:59] INFO root fetch - main [MainThread]: End processing [aiokeitaro]: success
+[2024-04-23 12:38:59] INFO root fetch - processPackages [dav-tools]: Remove: archive file [/home/abi/fetcher/tmp/dav_tools-0.1.1.tar.gz]
+[2024-04-23 12:38:59] INFO root fetch - processPackages [dav-tools]: Remove: archive file [/home/abi/fetcher/tmp/dav_tools-0.1.2.tar.gz]
+[2024-04-23 12:38:59] INFO root fetch - main [MainThread]: End processing [dav-tools]: success
+[2024-04-23 12:38:59] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.2.2b3-py3-none-any.whl.zip]
+[2024-04-23 12:38:59] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.2.2b4-py3-none-any.whl.zip]
+[2024-04-23 12:38:59] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2024-04-23 12:38:59] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.9.0.tar.gz]
+[2024-04-23 12:38:59] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_alconna-0.9.3.tar.gz]
+[2024-04-23 12:38:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2024-04-23 12:38:59] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.23.9.47.34.tar.gz]
+[2024-04-23 12:38:59] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-23 12:38:59] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-23 12:39:00] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240422.tar.gz]
+[2024-04-23 12:39:00] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240423.tar.gz]
+[2024-04-23 12:39:00] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-23 12:39:00] INFO root fetch - main [MainThread]: Store serial: [22892450]
