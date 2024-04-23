@@ -13326,3 +13326,92 @@
 [2024-04-23 09:34:25] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-4.1.1.tar.gz]
 [2024-04-23 09:34:25] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2024-04-23 09:34:25] INFO root fetch - main [MainThread]: Store serial: [22890264]
+[2024-04-23 09:36:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890264]
+[2024-04-23 09:36:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-23 09:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: github-custom-actions
+[2024-04-23 09:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aau-label
+[2024-04-23 09:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: video-images-creator
+[2024-04-23 09:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anthropic-tools
+[2024-04-23 09:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thriftify
+[2024-04-23 09:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: model-providers
+[2024-04-23 09:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polars-qt
+[2024-04-23 09:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tiledb-cloud
+[2024-04-23 09:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dm-aiomqtt
+[2024-04-23 09:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-material-you
+[2024-04-23 09:36:34] WARNING root fetch - processPackages [anthropic-tools]: Skipping, unable to determine old version
+[2024-04-23 09:36:34] INFO root fetch - processPackages [anthropic-tools]: Start processing: lk-utils
+[2024-04-23 09:36:34] INFO root fetch - main [MainThread]: End processing [anthropic-tools] error
+[2024-04-23 09:36:34] INFO root fetch - processPackages [thriftify]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 09:36:34] WARNING root fetch - processPackages [django-material-you]: Skipping, unable to determine old version
+[2024-04-23 09:36:34] INFO root fetch - processPackages [django-material-you]: Start processing: aiida-quantumespresso
+[2024-04-23 09:36:34] INFO root fetch - main [MainThread]: End processing [django-material-you] error
+[2024-04-23 09:36:34] INFO root fetch - processPackages [video-images-creator]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 09:36:34] WARNING root fetch - processPackages [model-providers]: Skipping, unable to determine old version
+[2024-04-23 09:36:34] INFO root fetch - main [MainThread]: End processing [model-providers] error
+[2024-04-23 09:36:34] INFO root fetch - processPackages [polars-qt]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-23 09:36:34] INFO root fetch - processPackages [github-custom-actions]: New version: [2.0.0] Old Version: [1.3.0]
+[2024-04-23 09:36:34] INFO root fetch - processPackages [aau-label]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-23 09:36:34] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-23 09:36:34] INFO root fetch - processPackages [dm-aiomqtt]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-04-23 09:36:34] INFO root fetch - processPackages [thriftify]: Downloading https://files.pythonhosted.org/packages/20/bc/1791cb7f567b70908a27aa0383efeb3dd85e16f8a7494315392216f1bbeb/thriftify-0.1.1.tar.gz
+[2024-04-23 09:36:34] INFO root fetch - processPackages [lk-utils]: New version: [2.9.5] Old Version: [2.9.4]
+[2024-04-23 09:36:34] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/f8/f2/eab0da3e76b34b9105df3034dbfc2ee8b4eec71db93526b3238860abcc7a/video_images_creator-0.3.8.tar.gz
+[2024-04-23 09:36:34] INFO root fetch - processPackages [aiida-quantumespresso]: New version: [4.6.0] Old Version: [4.5.1]
+[2024-04-23 09:36:34] WARNING root fetch - processPackages [video-images-creator]: Skipping package: exceeds size limit 46958238>=10485760
+[2024-04-23 09:36:34] INFO root fetch - main [MainThread]: End processing [video-images-creator] error
+[2024-04-23 09:36:34] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/33/43/450220390ea6f8586f9c178bc66f7372999013a60708134cfe6acf5db821/polars_qt-0.1.7.tar.gz
+[2024-04-23 09:36:34] INFO root fetch - processPackages [github-custom-actions]: Downloading https://files.pythonhosted.org/packages/b5/40/3b3c5b63d0b13a6e030490c6c4e9088a651e00b1540abe2e90d0d148962a/github_custom_actions-1.3.0.tar.gz
+[2024-04-23 09:36:34] INFO root fetch - processPackages [aau-label]: Downloading https://files.pythonhosted.org/packages/71/8c/f07d74609f726f1df322e2963c08f9845ae2c1ed46ec99bac986bfd20ffd/aau_label-0.1.0.tar.gz
+[2024-04-23 09:36:34] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/4d/e2/38ce15b3fcb2200474c3f28f12ab07f8fedb6d754ec30860278cc1b550fd/tiledb_cloud-0.9.4-py3-none-any.whl
+[2024-04-23 09:36:34] INFO root fetch - processPackages [dm-aiomqtt]: Downloading https://files.pythonhosted.org/packages/55/bf/bdfa05ef4a1f5e8eb460b9e6ebc8e8bf41a82e86639fd2708086c7355909/dm_aiomqtt-0.4.6.tar.gz
+[2024-04-23 09:36:34] INFO root fetch - processPackages [thriftify]: Downloading https://files.pythonhosted.org/packages/4a/ae/bc11fa767a205b43445ec61f2e9bf23ef4f505bf20f5f56de8e32e2600a2/thriftify-0.1.2.tar.gz
+[2024-04-23 09:36:34] INFO root fetch - processPackages [lk-utils]: Downloading https://files.pythonhosted.org/packages/cb/f7/c4b9be2e0d2e13589b444492578943979b82f000d436c31db3edf6d3ac51/lk_utils-2.9.4-py3-none-any.whl
+[2024-04-23 09:36:34] INFO root fetch - processPackages [aiida-quantumespresso]: Downloading https://files.pythonhosted.org/packages/e6/0a/7072a4f183f47949a5fcebcbc6b37cce2844276199a877b5c293d0685f5e/aiida_quantumespresso-4.5.1.tar.gz
+[2024-04-23 09:36:35] INFO root fetch - processPackages [thriftify]: executing diffoscope
+[2024-04-23 09:36:35] INFO root fetch - processPackages [thriftify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thriftify-0.1.1.tar.gz tmp/thriftify-0.1.2.tar.gz --markdown 20240423/t/thriftify/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 09:36:35] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/ee/bc/4973f1e5557e28230eab9637758c3c632dc8c3510d8715540c6e927b7f81/polars_qt-0.1.8.tar.gz
+[2024-04-23 09:36:35] INFO root fetch - processPackages [aau-label]: Downloading https://files.pythonhosted.org/packages/a1/f7/7414ad70955b8532c588dc40d336abb2cec89786d8edd34529fa85c70d8d/aau_label-0.2.0.tar.gz
+[2024-04-23 09:36:35] INFO root fetch - processPackages [github-custom-actions]: Downloading https://files.pythonhosted.org/packages/66/44/767dc645b42879ec5741a7782d611749e07a072c924debc55c67982d18de/github_custom_actions-2.0.0.tar.gz
+[2024-04-23 09:36:35] INFO root fetch - processPackages [dm-aiomqtt]: Downloading https://files.pythonhosted.org/packages/68/7b/0b4017a9bd3e309d7b18634cf3c89f97de9020862ccff3d3f9e684ce9550/dm_aiomqtt-0.4.7.tar.gz
+[2024-04-23 09:36:35] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/aa/55/f0fcd5db15793f389dfd3c37e59718e290812cc782a170f0e8e71ed01c95/tiledb_cloud-0.9.5-py3-none-any.whl
+[2024-04-23 09:36:35] INFO root fetch - processPackages [lk-utils]: Downloading https://files.pythonhosted.org/packages/c7/63/9023448692862a9032e16dfd5b896240f2cdcf94f51b4f1898a763c48218/lk_utils-2.9.5-py3-none-any.whl
+[2024-04-23 09:36:35] INFO root fetch - processPackages [polars-qt]: executing diffoscope
+[2024-04-23 09:36:35] INFO root fetch - processPackages [polars-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_qt-0.1.7.tar.gz tmp/polars_qt-0.1.8.tar.gz --markdown 20240423/p/polars-qt/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-23 09:36:35] INFO root fetch - processPackages [aau-label]: executing diffoscope
+[2024-04-23 09:36:35] INFO root fetch - processPackages [aau-label]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aau_label-0.1.0.tar.gz tmp/aau_label-0.2.0.tar.gz --markdown 20240423/a/aau-label/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-23 09:36:35] INFO root fetch - processPackages [dm-aiomqtt]: executing diffoscope
+[2024-04-23 09:36:35] INFO root fetch - processPackages [dm-aiomqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_aiomqtt-0.4.6.tar.gz tmp/dm_aiomqtt-0.4.7.tar.gz --markdown 20240423/d/dm-aiomqtt/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-04-23 09:36:35] INFO root fetch - processPackages [aiida-quantumespresso]: Downloading https://files.pythonhosted.org/packages/eb/64/ffe8eac6a0a0e3b4675ad45d1409c5bfad86ca7b01d53199e1e138b67580/aiida_quantumespresso-4.6.0.tar.gz
+[2024-04-23 09:36:35] INFO root fetch - processPackages [lk-utils]: executing diffoscope
+[2024-04-23 09:36:35] INFO root fetch - processPackages [lk-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lk_utils-2.9.4-py3-none-any.whl.zip tmp/lk_utils-2.9.5-py3-none-any.whl.zip --markdown 20240423/l/lk-utils/2.9.4-2.9.5/README.md --exclude *.pyd
+[2024-04-23 09:36:35] INFO root fetch - processPackages [github-custom-actions]: executing diffoscope
+[2024-04-23 09:36:35] INFO root fetch - processPackages [github-custom-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_custom_actions-1.3.0.tar.gz tmp/github_custom_actions-2.0.0.tar.gz --markdown 20240423/g/github-custom-actions/1.3.0-2.0.0/README.md --exclude *.pyd
+[2024-04-23 09:36:35] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2024-04-23 09:36:35] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20240423/t/tiledb-cloud/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-23 09:36:35] INFO root fetch - processPackages [aiida-quantumespresso]: executing diffoscope
+[2024-04-23 09:36:35] INFO root fetch - processPackages [aiida-quantumespresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida_quantumespresso-4.5.1.tar.gz tmp/aiida_quantumespresso-4.6.0.tar.gz --markdown 20240423/a/aiida-quantumespresso/4.5.1-4.6.0/README.md --exclude *.pyd
+[2024-04-23 09:36:35] INFO root fetch - processPackages [thriftify]: Remove: archive file [/home/abi/fetcher/tmp/thriftify-0.1.1.tar.gz]
+[2024-04-23 09:36:35] INFO root fetch - processPackages [thriftify]: Remove: archive file [/home/abi/fetcher/tmp/thriftify-0.1.2.tar.gz]
+[2024-04-23 09:36:35] INFO root fetch - main [MainThread]: End processing [thriftify]: success
+[2024-04-23 09:36:36] INFO root fetch - processPackages [dm-aiomqtt]: Remove: archive file [/home/abi/fetcher/tmp/dm_aiomqtt-0.4.6.tar.gz]
+[2024-04-23 09:36:36] INFO root fetch - processPackages [dm-aiomqtt]: Remove: archive file [/home/abi/fetcher/tmp/dm_aiomqtt-0.4.7.tar.gz]
+[2024-04-23 09:36:36] INFO root fetch - main [MainThread]: End processing [dm-aiomqtt]: success
+[2024-04-23 09:36:36] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.7.tar.gz]
+[2024-04-23 09:36:36] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.8.tar.gz]
+[2024-04-23 09:36:36] INFO root fetch - main [MainThread]: End processing [polars-qt]: success
+[2024-04-23 09:36:36] INFO root fetch - processPackages [aau-label]: Remove: archive file [/home/abi/fetcher/tmp/aau_label-0.1.0.tar.gz]
+[2024-04-23 09:36:36] INFO root fetch - processPackages [aau-label]: Remove: archive file [/home/abi/fetcher/tmp/aau_label-0.2.0.tar.gz]
+[2024-04-23 09:36:36] INFO root fetch - main [MainThread]: End processing [aau-label]: success
+[2024-04-23 09:36:36] INFO root fetch - processPackages [lk-utils]: Remove: archive file [/home/abi/fetcher/tmp/lk_utils-2.9.4-py3-none-any.whl.zip]
+[2024-04-23 09:36:36] INFO root fetch - processPackages [lk-utils]: Remove: archive file [/home/abi/fetcher/tmp/lk_utils-2.9.5-py3-none-any.whl.zip]
+[2024-04-23 09:36:36] INFO root fetch - main [MainThread]: End processing [lk-utils]: success
+[2024-04-23 09:36:36] INFO root fetch - processPackages [github-custom-actions]: Remove: archive file [/home/abi/fetcher/tmp/github_custom_actions-1.3.0.tar.gz]
+[2024-04-23 09:36:36] INFO root fetch - processPackages [github-custom-actions]: Remove: archive file [/home/abi/fetcher/tmp/github_custom_actions-2.0.0.tar.gz]
+[2024-04-23 09:36:36] INFO root fetch - main [MainThread]: End processing [github-custom-actions]: success
+[2024-04-23 09:36:37] INFO root fetch - processPackages [aiida-quantumespresso]: Remove: archive file [/home/abi/fetcher/tmp/aiida_quantumespresso-4.5.1.tar.gz]
+[2024-04-23 09:36:37] INFO root fetch - processPackages [aiida-quantumespresso]: Remove: archive file [/home/abi/fetcher/tmp/aiida_quantumespresso-4.6.0.tar.gz]
+[2024-04-23 09:36:37] INFO root fetch - main [MainThread]: End processing [aiida-quantumespresso]: success
+[2024-04-23 09:36:37] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip]
+[2024-04-23 09:36:37] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip]
+[2024-04-23 09:36:37] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2024-04-23 09:36:37] INFO root fetch - main [MainThread]: Store serial: [22890302]
