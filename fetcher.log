@@ -11266,3 +11266,36 @@
 [2024-04-23 07:44:23] INFO root fetch - processPackages [ynab-transaction-adjuster]: Remove: archive file [/home/abi/fetcher/tmp/ynab_transaction_adjuster-1.0.0.tar.gz]
 [2024-04-23 07:44:23] INFO root fetch - main [MainThread]: End processing [ynab-transaction-adjuster]: success
 [2024-04-23 07:44:23] INFO root fetch - main [MainThread]: Store serial: [22889475]
+[2024-04-23 07:46:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889475]
+[2024-04-23 07:46:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 07:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2024-04-23 07:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kungfupanda
+[2024-04-23 07:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vvm-lib
+[2024-04-23 07:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flake8-deep-calls
+[2024-04-23 07:46:31] INFO root fetch - processPackages [kungfupanda]: New version: [0.8] Old Version: [0.7]
+[2024-04-23 07:46:32] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.82]
+[2024-04-23 07:46:32] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/11/fb/fd59ec0d032da628a6fcc52ced808c72f4d541f577922bdfc358c982aaec/kungfupanda-0.7.tar.gz
+[2024-04-23 07:46:32] WARNING root fetch - processPackages [flake8-deep-calls]: Skipping, unable to determine old version
+[2024-04-23 07:46:32] INFO root fetch - main [MainThread]: End processing [flake8-deep-calls] error
+[2024-04-23 07:46:32] INFO root fetch - processPackages [vvm-lib]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-23 07:46:32] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/2e/4f/e887e91cf6783f44ce30b4b10376712ce9cdb069e3064513feac62b8076c/pypipr-1.0.82.tar.gz
+[2024-04-23 07:46:32] INFO root fetch - processPackages [vvm-lib]: Downloading https://files.pythonhosted.org/packages/c1/7b/027c29d3151f81bc79687781a42d4b0751ff7c398a9754a1036787c20c10/vvm_lib-1.0.0.tar.gz
+[2024-04-23 07:46:32] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/02/cb/b9219e37ade9ea6f620e1945533ff6c73489069eb538d791044b5f612eb4/kungfupanda-0.8.tar.gz
+[2024-04-23 07:46:32] INFO root fetch - processPackages [kungfupanda]: executing diffoscope
+[2024-04-23 07:46:32] INFO root fetch - processPackages [kungfupanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kungfupanda-0.7.tar.gz tmp/kungfupanda-0.8.tar.gz --markdown 20240423/k/kungfupanda/0.7-0.8/README.md --exclude *.pyd
+[2024-04-23 07:46:32] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-23 07:46:32] INFO root fetch - processPackages [vvm-lib]: Downloading https://files.pythonhosted.org/packages/1b/1c/43b6b614b818b71cbb224e156677ea3babc78388418aa0a62cb38d96042e/vvm_lib-1.0.1.tar.gz
+[2024-04-23 07:46:32] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-23 07:46:32] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.82.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240423/p/pypipr/1.0.82-1.0.9/README.md --exclude *.pyd
+[2024-04-23 07:46:32] INFO root fetch - processPackages [vvm-lib]: executing diffoscope
+[2024-04-23 07:46:32] INFO root fetch - processPackages [vvm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vvm_lib-1.0.0.tar.gz tmp/vvm_lib-1.0.1.tar.gz --markdown 20240423/v/vvm-lib/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-23 07:46:33] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.7.tar.gz]
+[2024-04-23 07:46:33] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.8.tar.gz]
+[2024-04-23 07:46:33] INFO root fetch - main [MainThread]: End processing [kungfupanda]: success
+[2024-04-23 07:46:33] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.82.tar.gz]
+[2024-04-23 07:46:33] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-23 07:46:33] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-23 07:46:33] INFO root fetch - processPackages [vvm-lib]: Remove: archive file [/home/abi/fetcher/tmp/vvm_lib-1.0.0.tar.gz]
+[2024-04-23 07:46:33] INFO root fetch - processPackages [vvm-lib]: Remove: archive file [/home/abi/fetcher/tmp/vvm_lib-1.0.1.tar.gz]
+[2024-04-23 07:46:33] INFO root fetch - main [MainThread]: End processing [vvm-lib]: success
+[2024-04-23 07:46:33] INFO root fetch - main [MainThread]: Store serial: [22889488]
