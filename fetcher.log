@@ -21363,3 +21363,48 @@ EOFError: EOF read where object expected
 [2024-04-23 14:28:20] INFO root fetch - main [MainThread]: End processing [kili]: success
 [2024-04-23 14:28:20] INFO root fetch - main [MainThread]: End processing [boario]: success
 [2024-04-23 14:28:20] INFO root fetch - main [MainThread]: Store serial: [22893740]
+[2024-04-23 14:30:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893740]
+[2024-04-23 14:30:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 14:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doctran_openai
+[2024-04-23 14:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RsWaveform
+[2024-04-23 14:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: able-recipe-test
+[2024-04-23 14:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: communication-services
+[2024-04-23 14:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tifftools
+[2024-04-23 14:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecv-python-development
+[2024-04-23 14:30:29] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:30:29] WARNING root fetch - processPackages [able-recipe-test]: Skipping, unable to determine old version
+[2024-04-23 14:30:29] INFO root fetch - main [MainThread]: End processing [able-recipe-test] error
+[2024-04-23 14:30:29] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:30:29] INFO root fetch - processPackages [tifftools]: New version: [1.4.2.dev5] Old Version: [1.4.2.dev4]
+[2024-04-23 14:30:29] WARNING root fetch - processPackages [communication-services]: Skipping, unable to determine old version
+[2024-04-23 14:30:29] INFO root fetch - main [MainThread]: End processing [communication-services] error
+[2024-04-23 14:30:29] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/cf/ee/05034545d75a841e008b92e49c2b144b94ab265f8b8878a39626222b7677/doctran_openai-0.0.8.tar.gz
+[2024-04-23 14:30:29] INFO root fetch - processPackages [RsWaveform]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-23 14:30:29] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/1a/0b/57f1b4e7808f0e68005e3460c3b2e28d121224116313e32caff0da5d477c/ecv-python-development-0.0.8.tar.gz
+[2024-04-23 14:30:29] INFO root fetch - processPackages [tifftools]: Downloading https://files.pythonhosted.org/packages/bf/cd/633a11aed95c40f01d99c9211f5fb313965c93103e062e5efe74b64dc774/tifftools-1.4.2.dev4.tar.gz
+[2024-04-23 14:30:30] INFO root fetch - processPackages [RsWaveform]: Downloading https://files.pythonhosted.org/packages/7b/70/980830a553954134eb846d2c7bbc58bc26baa90579e4eebe0ef837f2109a/RsWaveform-0.2.0.tar.gz
+[2024-04-23 14:30:30] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/1e/40/7f623022bae0ebc2f5beb167e8175b1dad049a8b27764e6859798786fdb2/ecv-python-development-0.0.9.tar.gz
+[2024-04-23 14:30:30] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/bf/57/6123b8227a48d42aa4dc92614deefd2fb96be6aa7d4e4d9a03e12fbde0cb/doctran_openai-0.0.9.tar.gz
+[2024-04-23 14:30:30] INFO root fetch - processPackages [tifftools]: Downloading https://files.pythonhosted.org/packages/65/0a/4d1741a14e077eb9d372c55c0cbdf67e9985e512a328880e466787d23064/tifftools-1.4.2.dev5.tar.gz
+[2024-04-23 14:30:30] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-23 14:30:30] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.8.tar.gz tmp/ecv-python-development-0.0.9.tar.gz --markdown 20240423/e/ecv-python-development/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:30:30] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-23 14:30:30] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.8.tar.gz tmp/doctran_openai-0.0.9.tar.gz --markdown 20240423/d/doctran_openai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:30:30] INFO root fetch - processPackages [RsWaveform]: Downloading https://files.pythonhosted.org/packages/58/49/c270bc0292ae7ea75c3fd3a5a634ba1543664a98eb3407c4b816ebcb13e1/rswaveform-0.3.0.tar.gz
+[2024-04-23 14:30:30] INFO root fetch - processPackages [tifftools]: executing diffoscope
+[2024-04-23 14:30:30] INFO root fetch - processPackages [tifftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tifftools-1.4.2.dev4.tar.gz tmp/tifftools-1.4.2.dev5.tar.gz --markdown 20240423/t/tifftools/1.4.2.dev4-1.4.2.dev5/README.md --exclude *.pyd
+[2024-04-23 14:30:30] INFO root fetch - processPackages [RsWaveform]: executing diffoscope
+[2024-04-23 14:30:30] INFO root fetch - processPackages [RsWaveform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsWaveform-0.2.0.tar.gz tmp/rswaveform-0.3.0.tar.gz --markdown 20240423/R/RsWaveform/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-23 14:30:30] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.8.tar.gz]
+[2024-04-23 14:30:30] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.9.tar.gz]
+[2024-04-23 14:30:30] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-23 14:30:31] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.8.tar.gz]
+[2024-04-23 14:30:31] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.9.tar.gz]
+[2024-04-23 14:30:31] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-23 14:30:31] INFO root fetch - processPackages [tifftools]: Remove: archive file [/home/abi/fetcher/tmp/tifftools-1.4.2.dev4.tar.gz]
+[2024-04-23 14:30:31] INFO root fetch - processPackages [tifftools]: Remove: archive file [/home/abi/fetcher/tmp/tifftools-1.4.2.dev5.tar.gz]
+[2024-04-23 14:30:31] INFO root fetch - main [MainThread]: End processing [tifftools]: success
+[2024-04-23 14:30:31] INFO root fetch - processPackages [RsWaveform]: Remove: archive file [/home/abi/fetcher/tmp/RsWaveform-0.2.0.tar.gz]
+[2024-04-23 14:30:31] INFO root fetch - processPackages [RsWaveform]: Remove: archive file [/home/abi/fetcher/tmp/rswaveform-0.3.0.tar.gz]
+[2024-04-23 14:30:31] INFO root fetch - main [MainThread]: End processing [RsWaveform]: success
+[2024-04-23 14:30:31] INFO root fetch - main [MainThread]: Store serial: [22893755]
