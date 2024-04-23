@@ -10469,3 +10469,36 @@
 [2024-04-23 06:58:39] INFO root fetch - processPackages [sweecrypt]: Remove: archive file [/home/abi/fetcher/tmp/sweecrypt-1.0.3.tar.gz]
 [2024-04-23 06:58:39] INFO root fetch - main [MainThread]: End processing [sweecrypt]: success
 [2024-04-23 06:58:39] INFO root fetch - main [MainThread]: Store serial: [22889119]
+[2024-04-23 07:00:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889119]
+[2024-04-23 07:00:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 07:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doctran_openai
+[2024-04-23 07:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rtmilk
+[2024-04-23 07:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-openupgrade-scripts
+[2024-04-23 07:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flaskwebgui
+[2024-04-23 07:00:48] INFO root fetch - processPackages [rtmilk]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-23 07:00:48] INFO root fetch - processPackages [flaskwebgui]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-23 07:00:48] WARNING root fetch - processPackages [doctran_openai]: Skipping, unable to determine old version
+[2024-04-23 07:00:48] INFO root fetch - main [MainThread]: End processing [doctran_openai] error
+[2024-04-23 07:00:48] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1.1]
+[2024-04-23 07:00:48] INFO root fetch - processPackages [rtmilk]: Downloading https://files.pythonhosted.org/packages/f1/51/bae5cec61dc22285ee55202c1893d1d75cb360f853d6d2170e1bf0a771cc/rtmilk-1.0.3.tar.gz
+[2024-04-23 07:00:48] INFO root fetch - processPackages [flaskwebgui]: Downloading https://files.pythonhosted.org/packages/99/c5/241b1b52b5533a99a317a2c6187e15b2d2ba09c10a35d2f37c2acf4da56e/flaskwebgui-1.1.0.tar.gz
+[2024-04-23 07:00:48] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/db/05/04688d4f82370e4bae4a14ef6020e82e09ade6c98c3acef20837d8590431/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl
+[2024-04-23 07:00:48] INFO root fetch - processPackages [flaskwebgui]: Downloading https://files.pythonhosted.org/packages/55/3c/96192152a767d2c0837d51eba387fbbfdb1afba353127c42346a2b671f21/flaskwebgui-1.1.1.tar.gz
+[2024-04-23 07:00:48] INFO root fetch - processPackages [rtmilk]: Downloading https://files.pythonhosted.org/packages/c2/45/300a9faf95f0c8e8b8e078113223ccddbbb2896cff4b7d09081135b623b3/rtmilk-1.0.4.tar.gz
+[2024-04-23 07:00:48] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/2e/07/cd2a4ed7796c54648aaa9877e518fbf9fbf32efb82f079e0a29a9bc2c6a8/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl
+[2024-04-23 07:00:49] INFO root fetch - processPackages [flaskwebgui]: executing diffoscope
+[2024-04-23 07:00:49] INFO root fetch - processPackages [flaskwebgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaskwebgui-1.1.0.tar.gz tmp/flaskwebgui-1.1.1.tar.gz --markdown 20240423/f/flaskwebgui/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-23 07:00:49] INFO root fetch - processPackages [rtmilk]: executing diffoscope
+[2024-04-23 07:00:49] INFO root fetch - processPackages [rtmilk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtmilk-1.0.3.tar.gz tmp/rtmilk-1.0.4.tar.gz --markdown 20240423/r/rtmilk/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-23 07:00:49] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2024-04-23 07:00:49] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-openupgrade-scripts/17.0.1.0.1.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-04-23 07:00:49] INFO root fetch - processPackages [flaskwebgui]: Remove: archive file [/home/abi/fetcher/tmp/flaskwebgui-1.1.0.tar.gz]
+[2024-04-23 07:00:49] INFO root fetch - processPackages [flaskwebgui]: Remove: archive file [/home/abi/fetcher/tmp/flaskwebgui-1.1.1.tar.gz]
+[2024-04-23 07:00:49] INFO root fetch - main [MainThread]: End processing [flaskwebgui]: success
+[2024-04-23 07:00:49] INFO root fetch - processPackages [rtmilk]: Remove: archive file [/home/abi/fetcher/tmp/rtmilk-1.0.3.tar.gz]
+[2024-04-23 07:00:49] INFO root fetch - processPackages [rtmilk]: Remove: archive file [/home/abi/fetcher/tmp/rtmilk-1.0.4.tar.gz]
+[2024-04-23 07:00:49] INFO root fetch - main [MainThread]: End processing [rtmilk]: success
+[2024-04-23 07:00:51] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-23 07:00:51] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-04-23 07:00:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2024-04-23 07:00:51] INFO root fetch - main [MainThread]: Store serial: [22889133]
