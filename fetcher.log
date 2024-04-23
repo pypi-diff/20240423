@@ -16557,3 +16557,51 @@
 [2024-04-23 11:31:06] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-23 11:31:06] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
 [2024-04-23 11:31:06] INFO root fetch - main [MainThread]: Store serial: [22891761]
+[2024-04-23 11:33:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891761]
+[2024-04-23 11:33:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composabl-train-dev
+[2024-04-23 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composabl-api-dev
+[2024-04-23 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: async-VKsher
+[2024-04-23 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LHCbWebDIRAC
+[2024-04-23 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trio-binance
+[2024-04-23 11:33:18] INFO root fetch - processPackages [trio-binance]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-23 11:33:18] INFO root fetch - processPackages [async-VKsher]: New version: [2.0.0] Old Version: [1.7.2]
+[2024-04-23 11:33:18] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-23 11:33:18] INFO root fetch - processPackages [composabl-api-dev]: New version: [0.8.0.dev39] Old Version: [0.8.0.dev38]
+[2024-04-23 11:33:18] INFO root fetch - processPackages [LHCbWebDIRAC]: New version: [7.0.0a5] Old Version: [7.0.0a4]
+[2024-04-23 11:33:18] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/fe/5d/61f5d32c4c734a6ddf1c899409de967d3ff62b3b499a6563101fb9ec5335/trio_binance-0.3.0.tar.gz
+[2024-04-23 11:33:18] INFO root fetch - processPackages [async-VKsher]: Downloading https://files.pythonhosted.org/packages/7e/a3/dd61af7b804ed86cd292b8b7a3ec0ef77224fb623a2bb508e0b3db81cbdb/async_VKsher-1.7.2.tar.gz
+[2024-04-23 11:33:18] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/19/92/d2cc81d1932bc78afddf0cf92c75659eee58d38d34d9e8471d60b63233f7/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 11:33:18] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/d5/d9/8789450ecf03900048a5f6e70d37c90d4323e7bf95dfdff7a659dfcef9a8/composabl_api_dev-0.8.0.dev38-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 11:33:18] INFO root fetch - processPackages [LHCbWebDIRAC]: Downloading https://files.pythonhosted.org/packages/22/52/58b0c618371f29b5a463862481331cc66b596f41200cb2ca027e6388288f/LHCbWebDIRAC-7.0.0a4.tar.gz
+[2024-04-23 11:33:18] INFO root fetch - processPackages [async-VKsher]: Downloading https://files.pythonhosted.org/packages/c2/ee/2ebe035fd53e5f171e37d0999967df6a54271c1d556a097b1da0ab745512/async_VKsher-2.0.0.tar.gz
+[2024-04-23 11:33:18] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/23/5f/33af08218d0817a3815b64102c72435379340a63a4480f459cf2be829f4f/trio_binance-0.3.1.tar.gz
+[2024-04-23 11:33:18] INFO root fetch - processPackages [async-VKsher]: executing diffoscope
+[2024-04-23 11:33:18] INFO root fetch - processPackages [async-VKsher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_VKsher-1.7.2.tar.gz tmp/async_VKsher-2.0.0.tar.gz --markdown 20240423/a/async-VKsher/1.7.2-2.0.0/README.md --exclude *.pyd
+[2024-04-23 11:33:18] INFO root fetch - processPackages [trio-binance]: executing diffoscope
+[2024-04-23 11:33:18] INFO root fetch - processPackages [trio-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_binance-0.3.0.tar.gz tmp/trio_binance-0.3.1.tar.gz --markdown 20240423/t/trio-binance/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-23 11:33:18] INFO root fetch - processPackages [LHCbWebDIRAC]: Downloading https://files.pythonhosted.org/packages/32/27/368ab3711462e59fb20580bc816f8c626c026f8a9e92a6f0687402d60506/LHCbWebDIRAC-7.0.0a5.tar.gz
+[2024-04-23 11:33:18] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/95/20/8e2aca4bfa5f684869b85085faa073c8a53504bf7d60833952d33bbdf05a/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 11:33:19] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/e6/e9/7479b4c704de68e0c98a162bfed6530ff87d8215c31c9d572249b862af01/composabl_api_dev-0.8.0.dev39-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 11:33:19] INFO root fetch - processPackages [LHCbWebDIRAC]: executing diffoscope
+[2024-04-23 11:33:19] INFO root fetch - processPackages [LHCbWebDIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LHCbWebDIRAC-7.0.0a4.tar.gz tmp/LHCbWebDIRAC-7.0.0a5.tar.gz --markdown 20240423/L/LHCbWebDIRAC/7.0.0a4-7.0.0a5/README.md --exclude *.pyd
+[2024-04-23 11:33:19] INFO root fetch - processPackages [composabl-api-dev]: executing diffoscope
+[2024-04-23 11:33:19] INFO root fetch - processPackages [composabl-api-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_api_dev-0.8.0.dev38-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_api_dev-0.8.0.dev39-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240423/c/composabl-api-dev/0.8.0.dev38-0.8.0.dev39/README.md --exclude *.pyd
+[2024-04-23 11:33:19] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-04-23 11:33:19] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240423/c/composabl-train-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-23 11:33:19] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio_binance-0.3.0.tar.gz]
+[2024-04-23 11:33:19] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio_binance-0.3.1.tar.gz]
+[2024-04-23 11:33:19] INFO root fetch - main [MainThread]: End processing [trio-binance]: success
+[2024-04-23 11:33:19] INFO root fetch - processPackages [async-VKsher]: Remove: archive file [/home/abi/fetcher/tmp/async_VKsher-1.7.2.tar.gz]
+[2024-04-23 11:33:19] INFO root fetch - processPackages [async-VKsher]: Remove: archive file [/home/abi/fetcher/tmp/async_VKsher-2.0.0.tar.gz]
+[2024-04-23 11:33:19] INFO root fetch - main [MainThread]: End processing [async-VKsher]: success
+[2024-04-23 11:33:20] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev38-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 11:33:20] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev39-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 11:33:20] INFO root fetch - main [MainThread]: End processing [composabl-api-dev]: success
+[2024-04-23 11:33:20] INFO root fetch - processPackages [LHCbWebDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/LHCbWebDIRAC-7.0.0a4.tar.gz]
+[2024-04-23 11:33:20] INFO root fetch - processPackages [LHCbWebDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/LHCbWebDIRAC-7.0.0a5.tar.gz]
+[2024-04-23 11:33:20] INFO root fetch - main [MainThread]: End processing [LHCbWebDIRAC]: success
+[2024-04-23 11:33:20] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 11:33:20] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 11:33:20] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-04-23 11:33:20] INFO root fetch - main [MainThread]: Store serial: [22891810]
