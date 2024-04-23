@@ -8781,3 +8781,27 @@
 [2024-04-23 05:04:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission]: success
 [2024-04-23 05:04:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission]: success
 [2024-04-23 05:04:00] INFO root fetch - main [MainThread]: Store serial: [22888401]
+[2024-04-23 05:06:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888401]
+[2024-04-23 05:06:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 05:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-eu-nace
+[2024-04-23 05:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-community-data-files
+[2024-04-23 05:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyAxe
+[2024-04-23 05:06:09] WARNING root fetch - processPackages [odoo-addon-l10n-eu-nace]: Skipping, unable to determine old version
+[2024-04-23 05:06:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-eu-nace] error
+[2024-04-23 05:06:09] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: New version: [16.0.20240422.0] Old Version: [16.0.20230829.0]
+[2024-04-23 05:06:09] INFO root fetch - processPackages [PyAxe]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 05:06:09] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Downloading https://files.pythonhosted.org/packages/bb/4f/31e775bef28e676da2d06e39469554d36d203e82ec652d206a21677b22bd/odoo_addons_oca_community_data_files-16.0.20230829.0-py3-none-any.whl
+[2024-04-23 05:06:09] INFO root fetch - processPackages [PyAxe]: Downloading https://files.pythonhosted.org/packages/b2/71/8dd91f82bf5abfccb3b0fac7c0b8b25a4f57d500e6cf2a51428ab742f144/PyAxe-1.0.8-py3-none-any.whl
+[2024-04-23 05:06:09] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Downloading https://files.pythonhosted.org/packages/7e/44/474ef45a33ddfd44e106434f86e4e8d89c307367933ba915f8b185188e31/odoo_addons_oca_community_data_files-16.0.20240422.0-py3-none-any.whl
+[2024-04-23 05:06:10] INFO root fetch - processPackages [PyAxe]: Downloading https://files.pythonhosted.org/packages/63/45/75ee3a899b4d36d892badfc65ce9573b8ce5b22ae94aabfea3ae45ec351f/PyAxe-1.0.9-py3-none-any.whl
+[2024-04-23 05:06:10] INFO root fetch - processPackages [PyAxe]: executing diffoscope
+[2024-04-23 05:06:10] INFO root fetch - processPackages [PyAxe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAxe-1.0.8-py3-none-any.whl.zip tmp/PyAxe-1.0.9-py3-none-any.whl.zip --markdown 20240423/P/PyAxe/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 05:06:10] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: executing diffoscope
+[2024-04-23 05:06:10] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_community_data_files-16.0.20230829.0-py3-none-any.whl.zip tmp/odoo_addons_oca_community_data_files-16.0.20240422.0-py3-none-any.whl.zip --markdown 20240423/o/odoo-addons-oca-community-data-files/16.0.20230829.0-16.0.20240422.0/README.md --exclude *.pyd
+[2024-04-23 05:06:10] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_community_data_files-16.0.20230829.0-py3-none-any.whl.zip]
+[2024-04-23 05:06:10] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_community_data_files-16.0.20240422.0-py3-none-any.whl.zip]
+[2024-04-23 05:06:10] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-community-data-files]: success
+[2024-04-23 05:06:10] INFO root fetch - processPackages [PyAxe]: Remove: archive file [/home/abi/fetcher/tmp/PyAxe-1.0.8-py3-none-any.whl.zip]
+[2024-04-23 05:06:10] INFO root fetch - processPackages [PyAxe]: Remove: archive file [/home/abi/fetcher/tmp/PyAxe-1.0.9-py3-none-any.whl.zip]
+[2024-04-23 05:06:10] INFO root fetch - main [MainThread]: End processing [PyAxe]: success
+[2024-04-23 05:06:10] INFO root fetch - main [MainThread]: Store serial: [22888408]
