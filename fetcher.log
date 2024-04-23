@@ -23238,3 +23238,139 @@ EOFError: EOF read where object expected
 [2024-04-23 15:22:37] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.6rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-04-23 15:22:37] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
 [2024-04-23 15:22:37] INFO root fetch - main [MainThread]: Store serial: [22894555]
+[2024-04-23 15:24:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894555]
+[2024-04-23 15:24:47] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-23 15:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emkonfig
+[2024-04-23 15:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opytimal
+[2024-04-23 15:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bus-user
+[2024-04-23 15:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tradedangerous
+[2024-04-23 15:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opytimal
+[2024-04-23 15:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hellozt
+[2024-04-23 15:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: doctran_openai
+[2024-04-23 15:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mteb
+[2024-04-23 15:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opytimal
+[2024-04-23 15:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dataset-tools
+[2024-04-23 15:24:47] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-23 15:24:47] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 15:24:47] INFO root fetch - processPackages [opytimal]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-23 15:24:47] INFO root fetch - processPackages [opytimal]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-23 15:24:47] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 15:24:47] INFO root fetch - processPackages [opytimal]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-23 15:24:47] INFO root fetch - processPackages [tradedangerous]: New version: [10.9.8] Old Version: [10.9.7]
+[2024-04-23 15:24:47] WARNING root fetch - processPackages [emkonfig]: Skipping, unable to determine old version
+[2024-04-23 15:24:47] INFO root fetch - processPackages [emkonfig]: Start processing: plonetheme.barceloneta
+[2024-04-23 15:24:47] INFO root fetch - main [MainThread]: End processing [emkonfig] error
+[2024-04-23 15:24:47] INFO root fetch - processPackages [bus-user]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 15:24:47] WARNING root fetch - processPackages [hellozt]: Skipping, unable to determine old version
+[2024-04-23 15:24:47] INFO root fetch - processPackages [hellozt]: Start processing: rats-apps
+[2024-04-23 15:24:47] INFO root fetch - main [MainThread]: End processing [hellozt] error
+[2024-04-23 15:24:47] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-23 15:24:47] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/f0/71/5c26485ec7d39c61db0e0eff321b9fcd6656ad98bae9dd80db18336dc73d/tradedangerous-10.9.7.tar.gz
+[2024-04-23 15:24:47] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2024-04-23 15:24:47] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 15:24:47] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/40/76/3ed3f50b4595e83ec6a7f92390a4ce3e10a6e8c0fe087bdf1cf6dc6ed2a2/opytimal-0.6.2.tar.gz
+[2024-04-23 15:24:47] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/40/76/3ed3f50b4595e83ec6a7f92390a4ce3e10a6e8c0fe087bdf1cf6dc6ed2a2/opytimal-0.6.2.tar.gz
+[2024-04-23 15:24:47] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/40/76/3ed3f50b4595e83ec6a7f92390a4ce3e10a6e8c0fe087bdf1cf6dc6ed2a2/opytimal-0.6.2.tar.gz
+[2024-04-23 15:24:48] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/cf/ee/05034545d75a841e008b92e49c2b144b94ab265f8b8878a39626222b7677/doctran_openai-0.0.8.tar.gz
+[2024-04-23 15:24:48] INFO root fetch - processPackages [plonetheme.barceloneta]: New version: [3.2.0a3] Old Version: [3.2.0a2]
+[2024-04-23 15:24:48] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/12/c9/6ebe078c59f630ea4548fde18b89e1b8ec05aad546132d7a65d612555a2c/bus_user-0.2.8.tar.gz
+[2024-04-23 15:24:48] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 15:24:48] INFO root fetch - processPackages [plonetheme.barceloneta]: Downloading https://files.pythonhosted.org/packages/e3/3a/0d319f74cab778eb7d56891899fed2b95b6c07f4bb18e100b13067bd1b78/plonetheme.barceloneta-3.2.0a2.tar.gz
+[2024-04-23 15:24:48] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-23 15:24:48] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-04-23 15:24:48] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/bf/57/6123b8227a48d42aa4dc92614deefd2fb96be6aa7d4e4d9a03e12fbde0cb/doctran_openai-0.0.9.tar.gz
+[2024-04-23 15:24:48] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/d9/11/d9ffad5dfc88cd5ec054cd2e82b8477ba81df779f293f62a341c1dbd90cd/tradedangerous-10.9.8.tar.gz
+[2024-04-23 15:24:48] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/ef/77/8a7e9531479be2c16842db1db845ca4e0b4b5c70a0055a287e01aaba8cb9/opytimal-0.6.3.tar.gz
+[2024-04-23 15:24:48] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/ef/77/8a7e9531479be2c16842db1db845ca4e0b4b5c70a0055a287e01aaba8cb9/opytimal-0.6.3.tar.gz
+[2024-04-23 15:24:48] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/ef/77/8a7e9531479be2c16842db1db845ca4e0b4b5c70a0055a287e01aaba8cb9/opytimal-0.6.3.tar.gz
+[2024-04-23 15:24:48] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 15:24:48] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-23 15:24:48] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240423/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-23 15:24:48] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-23 15:24:48] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.8.tar.gz tmp/doctran_openai-0.0.9.tar.gz --markdown 20240423/d/doctran_openai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 15:24:48] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-04-23 15:24:48] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240423/d/dataset-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 15:24:48] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 15:24:48] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.6.2.tar.gz tmp/opytimal-0.6.3.tar.gz --markdown 20240423/o/opytimal/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-23 15:24:48] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-23 15:24:48] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 15:24:48] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/a6/26/ff8307b4b7506dd979c15253fc3dff9cc01826c3f9f32a859b6437baa699/bus_user-0.2.9.tar.gz
+[2024-04-23 15:24:48] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 15:24:48] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.6.2.tar.gz tmp/opytimal-0.6.3.tar.gz --markdown 20240423/o/opytimal/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-23 15:24:48] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 15:24:48] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.6.2.tar.gz tmp/opytimal-0.6.3.tar.gz --markdown 20240423/o/opytimal/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-23 15:24:48] INFO root fetch - processPackages [tradedangerous]: executing diffoscope
+[2024-04-23 15:24:48] INFO root fetch - processPackages [tradedangerous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradedangerous-10.9.7.tar.gz tmp/tradedangerous-10.9.8.tar.gz --markdown 20240423/t/tradedangerous/10.9.7-10.9.8/README.md --exclude *.pyd
+[2024-04-23 15:24:48] INFO root fetch - processPackages [bus-user]: executing diffoscope
+[2024-04-23 15:24:48] INFO root fetch - processPackages [bus-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_user-0.2.8.tar.gz tmp/bus_user-0.2.9.tar.gz --markdown 20240423/b/bus-user/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 15:24:49] INFO root fetch - processPackages [plonetheme.barceloneta]: Downloading https://files.pythonhosted.org/packages/5a/c0/758e32ffb78cdfe9ad733b16600cda8e310154102344a61c67544f4d87b9/plonetheme.barceloneta-3.2.0a3.tar.gz
+[2024-04-23 15:24:49] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2024-04-23 15:24:49] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-04-23 15:24:49] INFO root fetch - processPackages [dataset-tools]: Start processing: resourcepack
+[2024-04-23 15:24:49] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-04-23 15:24:49] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.8.tar.gz]
+[2024-04-23 15:24:49] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.9.tar.gz]
+[2024-04-23 15:24:49] INFO root fetch - processPackages [doctran_openai]: Start processing: hddm-s
+[2024-04-23 15:24:49] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-23 15:24:49] INFO root fetch - processPackages [hddm-s]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-23 15:24:49] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.6.2.tar.gz]
+[2024-04-23 15:24:49] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.6.2.tar.gz]
+[2024-04-23 15:24:49] WARNING root fetch - processPackages [opytimal]: Unable to remove archive file: [[Errno 2] No such file or directory: '/home/abi/fetcher/tmp/opytimal-0.6.2.tar.gz']
+[2024-04-23 15:24:49] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.6.3.tar.gz]
+[2024-04-23 15:24:49] INFO root fetch - processPackages [opytimal]: Start processing: rats-processors
+[2024-04-23 15:24:49] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 15:24:49] WARNING root fetch - processPackages [resourcepack]: Skipping, unable to determine old version
+[2024-04-23 15:24:49] INFO root fetch - processPackages [opytimal]: Start processing: rats-pipelines
+[2024-04-23 15:24:49] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 15:24:49] INFO root fetch - processPackages [resourcepack]: Start processing: aopp-deconv-tool
+[2024-04-23 15:24:49] INFO root fetch - main [MainThread]: End processing [resourcepack] error
+[2024-04-23 15:24:49] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 15:24:49] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.2.8.tar.gz]
+[2024-04-23 15:24:49] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.2.9.tar.gz]
+[2024-04-23 15:24:49] INFO root fetch - main [MainThread]: End processing [bus-user]: success
+[2024-04-23 15:24:49] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 15:24:49] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 15:24:50] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/64/f3/a64d68f0b0e2303173334c5d0d783cb3890382b8909e381370610ae4408d/hddm_s-1.0.tar.gz
+[2024-04-23 15:24:50] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 15:24:50] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 15:24:50] INFO root fetch - processPackages [aopp-deconv-tool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 15:24:50] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 15:24:50] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 15:24:50] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-23 15:24:50] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/98/1a/f8d85f5fd7f655d4409955ec0475690dd94dbed7fba8689530c5adb14e5b/hddm_s-1.0.1.tar.gz
+[2024-04-23 15:24:50] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 15:24:50] INFO root fetch - processPackages [plonetheme.barceloneta]: executing diffoscope
+[2024-04-23 15:24:50] INFO root fetch - processPackages [plonetheme.barceloneta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plonetheme.barceloneta-3.2.0a2.tar.gz tmp/plonetheme.barceloneta-3.2.0a3.tar.gz --markdown 20240423/p/plonetheme.barceloneta/3.2.0a2-3.2.0a3/README.md --exclude *.pyd
+[2024-04-23 15:24:50] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 15:24:50] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/50/55/3294e03a3df4e27304d8d45cb34755d7e04ba04fcd5353b065112d29d412/aopp_deconv_tool-0.1.8.tar.gz
+[2024-04-23 15:24:50] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-04-23 15:24:50] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.0.tar.gz tmp/hddm_s-1.0.1.tar.gz --markdown 20240423/h/hddm-s/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-23 15:24:50] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-23 15:24:50] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 15:24:50] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-23 15:24:50] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 15:24:50] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.7.tar.gz]
+[2024-04-23 15:24:50] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.8.tar.gz]
+[2024-04-23 15:24:50] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
+[2024-04-23 15:24:50] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/9b/1a/bbfe6985d8c21cce84317f26ad1ad7b438e4eee7b28eff4bd7fb6e8a78c3/aopp_deconv_tool-0.1.9.tar.gz
+[2024-04-23 15:24:51] INFO root fetch - processPackages [aopp-deconv-tool]: executing diffoscope
+[2024-04-23 15:24:51] INFO root fetch - processPackages [aopp-deconv-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aopp_deconv_tool-0.1.8.tar.gz tmp/aopp_deconv_tool-0.1.9.tar.gz --markdown 20240423/a/aopp-deconv-tool/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 15:24:51] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.tar.gz]
+[2024-04-23 15:24:51] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.1.tar.gz]
+[2024-04-23 15:24:51] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-04-23 15:24:51] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-23 15:24:51] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-23 15:24:51] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-23 15:24:51] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 15:24:51] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 15:24:51] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-23 15:24:51] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 15:24:51] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 15:24:51] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-23 15:24:51] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.8.tar.gz]
+[2024-04-23 15:24:51] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.9.tar.gz]
+[2024-04-23 15:24:51] INFO root fetch - main [MainThread]: End processing [aopp-deconv-tool]: success
+[2024-04-23 15:24:53] INFO root fetch - processPackages [plonetheme.barceloneta]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.barceloneta-3.2.0a2.tar.gz]
+[2024-04-23 15:24:53] INFO root fetch - processPackages [plonetheme.barceloneta]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.barceloneta-3.2.0a3.tar.gz]
+[2024-04-23 15:24:53] INFO root fetch - main [MainThread]: End processing [plonetheme.barceloneta]: success
+[2024-04-23 15:24:53] INFO root fetch - main [MainThread]: Store serial: [22894616]
