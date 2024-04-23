@@ -14687,3 +14687,66 @@
 [2024-04-23 10:28:03] INFO root fetch - processPackages [pytsa-ais]: Remove: archive file [/home/abi/fetcher/tmp/pytsa_ais-2.3.3.tar.gz]
 [2024-04-23 10:28:03] INFO root fetch - main [MainThread]: End processing [pytsa-ais]: success
 [2024-04-23 10:28:03] INFO root fetch - main [MainThread]: Store serial: [22890931]
+[2024-04-23 10:30:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890931]
+[2024-04-23 10:30:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lense
+[2024-04-23 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sts-lib
+[2024-04-23 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gxr-py-pkg-temp
+[2024-04-23 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vite-transporter
+[2024-04-23 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DAJIN2
+[2024-04-23 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Flask-PikaMQ
+[2024-04-23 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: benimang
+[2024-04-23 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inni
+[2024-04-23 10:30:11] INFO root fetch - processPackages [sts-lib]: New version: [0.27.0] Old Version: [0.26.0]
+[2024-04-23 10:30:11] WARNING root fetch - processPackages [gxr-py-pkg-temp]: Skipping, unable to determine old version
+[2024-04-23 10:30:11] INFO root fetch - main [MainThread]: End processing [gxr-py-pkg-temp] error
+[2024-04-23 10:30:11] INFO root fetch - processPackages [benimang]: New version: [0.5.24] Old Version: [0.5.23]
+[2024-04-23 10:30:11] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 10:30:11] INFO root fetch - processPackages [vite-transporter]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-23 10:30:11] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/33/4c/d9cc8e4ae2f65d9ac6679b8698a973af6b5b760c77e16b36016a1ce5bc6d/sts_lib-0.26.0.tar.gz
+[2024-04-23 10:30:11] INFO root fetch - processPackages [DAJIN2]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-23 10:30:11] WARNING root fetch - processPackages [Flask-PikaMQ]: Skipping, unable to determine old version
+[2024-04-23 10:30:11] INFO root fetch - main [MainThread]: End processing [Flask-PikaMQ] error
+[2024-04-23 10:30:11] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/33/2f/a34e4ba0efe93e5ca316df9f1e53a9363f537f9a57036cce6b840bda7128/benimang-0.5.23.tar.gz
+[2024-04-23 10:30:11] INFO root fetch - processPackages [inni]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-23 10:30:11] INFO root fetch - processPackages [vite-transporter]: Downloading https://files.pythonhosted.org/packages/3e/ed/019d7749727cb00e5918d0e584e3d704b2a732f428bde94efd85056d76d6/vite_transporter-0.2.0.tar.gz
+[2024-04-23 10:30:11] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-23 10:30:12] INFO root fetch - processPackages [DAJIN2]: Downloading https://files.pythonhosted.org/packages/e8/50/e112ac9a289522e1469d51d5cd6b492f5d209aba4d4a06367b2fb305bfbd/DAJIN2-0.4.3.zip
+[2024-04-23 10:30:12] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/a6/f5/396d851bd988debc9778a569099b198e6cb2ed9a36ec1f7be48c1d3335ff/benimang-0.5.24.tar.gz
+[2024-04-23 10:30:12] INFO root fetch - processPackages [inni]: Downloading https://files.pythonhosted.org/packages/cb/f3/fe359b8a8134e06247c0361963a2c405b8a9ea76fb5298d0ebada6a173e0/inni-0.2.1.tar.gz
+[2024-04-23 10:30:12] INFO root fetch - processPackages [vite-transporter]: Downloading https://files.pythonhosted.org/packages/e6/59/f44aca1a19516362d3d3715a74168f63c1a6614da8e3097869d688c3dd3a/vite_transporter-0.3.0.tar.gz
+[2024-04-23 10:30:12] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/32/44/ec641232f71700ffe57f6b1dd8b21efc57310576062b1abf5353bf24eb08/sts_lib-0.27.0.tar.gz
+[2024-04-23 10:30:12] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-23 10:30:12] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2024-04-23 10:30:12] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.5.23.tar.gz tmp/benimang-0.5.24.tar.gz --markdown 20240423/b/benimang/0.5.23-0.5.24/README.md --exclude *.pyd
+[2024-04-23 10:30:12] INFO root fetch - processPackages [vite-transporter]: executing diffoscope
+[2024-04-23 10:30:12] INFO root fetch - processPackages [vite-transporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vite_transporter-0.2.0.tar.gz tmp/vite_transporter-0.3.0.tar.gz --markdown 20240423/v/vite-transporter/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-23 10:30:12] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 10:30:12] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 10:30:12] INFO root fetch - processPackages [sts-lib]: executing diffoscope
+[2024-04-23 10:30:12] INFO root fetch - processPackages [sts-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_lib-0.26.0.tar.gz tmp/sts_lib-0.27.0.tar.gz --markdown 20240423/s/sts-lib/0.26.0-0.27.0/README.md --exclude *.pyd
+[2024-04-23 10:30:12] INFO root fetch - processPackages [DAJIN2]: Downloading https://files.pythonhosted.org/packages/7a/0e/925ce56c17d3bedac91c9511d339373e0eab9ee103d08b0f60cadabe73d7/dajin2-0.4.4.zip
+[2024-04-23 10:30:12] INFO root fetch - processPackages [inni]: Downloading https://files.pythonhosted.org/packages/89/a4/72548ae333c147b9ad97858cdd41d6a19382b5cf62c3d215eda8bda602f3/inni-0.3.0.tar.gz
+[2024-04-23 10:30:12] INFO root fetch - processPackages [DAJIN2]: executing diffoscope
+[2024-04-23 10:30:12] INFO root fetch - processPackages [DAJIN2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DAJIN2-0.4.3.zip tmp/dajin2-0.4.4.zip --markdown 20240423/D/DAJIN2/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-23 10:30:12] INFO root fetch - processPackages [inni]: executing diffoscope
+[2024-04-23 10:30:12] INFO root fetch - processPackages [inni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inni-0.2.1.tar.gz tmp/inni-0.3.0.tar.gz --markdown 20240423/i/inni/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-23 10:30:13] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 10:30:13] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 10:30:13] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 10:30:13] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.5.23.tar.gz]
+[2024-04-23 10:30:13] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.5.24.tar.gz]
+[2024-04-23 10:30:13] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2024-04-23 10:30:13] INFO root fetch - processPackages [vite-transporter]: Remove: archive file [/home/abi/fetcher/tmp/vite_transporter-0.2.0.tar.gz]
+[2024-04-23 10:30:13] INFO root fetch - processPackages [vite-transporter]: Remove: archive file [/home/abi/fetcher/tmp/vite_transporter-0.3.0.tar.gz]
+[2024-04-23 10:30:13] INFO root fetch - main [MainThread]: End processing [vite-transporter]: success
+[2024-04-23 10:30:13] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.26.0.tar.gz]
+[2024-04-23 10:30:13] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.27.0.tar.gz]
+[2024-04-23 10:30:13] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
+[2024-04-23 10:30:13] INFO root fetch - processPackages [inni]: Remove: archive file [/home/abi/fetcher/tmp/inni-0.2.1.tar.gz]
+[2024-04-23 10:30:13] INFO root fetch - processPackages [inni]: Remove: archive file [/home/abi/fetcher/tmp/inni-0.3.0.tar.gz]
+[2024-04-23 10:30:13] INFO root fetch - main [MainThread]: End processing [inni]: success
+[2024-04-23 10:30:13] INFO root fetch - processPackages [DAJIN2]: Remove: archive file [/home/abi/fetcher/tmp/DAJIN2-0.4.3.zip]
+[2024-04-23 10:30:13] INFO root fetch - processPackages [DAJIN2]: Remove: archive file [/home/abi/fetcher/tmp/dajin2-0.4.4.zip]
+[2024-04-23 10:30:13] INFO root fetch - main [MainThread]: End processing [DAJIN2]: success
+[2024-04-23 10:30:13] INFO root fetch - main [MainThread]: Store serial: [22890963]
