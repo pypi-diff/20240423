@@ -16498,3 +16498,62 @@
 [2024-04-23 11:28:53] INFO root fetch - processPackages [prominence-delineator]: Remove: archive file [/home/abi/fetcher/tmp/prominence_delineator-0.0.7.tar.gz]
 [2024-04-23 11:28:53] INFO root fetch - main [MainThread]: End processing [prominence-delineator]: success
 [2024-04-23 11:28:53] INFO root fetch - main [MainThread]: Store serial: [22891724]
+[2024-04-23 11:30:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891724]
+[2024-04-23 11:31:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 11:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: r8format
+[2024-04-23 11:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yolonnx
+[2024-04-23 11:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs.taskqueue
+[2024-04-23 11:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tui-dsmt
+[2024-04-23 11:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chargespot
+[2024-04-23 11:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-cli-dev
+[2024-04-23 11:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composabl-core-dev
+[2024-04-23 11:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-dev
+[2024-04-23 11:31:02] INFO root fetch - processPackages [chargespot]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 11:31:02] WARNING root fetch - processPackages [yolonnx]: Skipping, unable to determine old version
+[2024-04-23 11:31:02] INFO root fetch - main [MainThread]: End processing [yolonnx] error
+[2024-04-23 11:31:02] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-23 11:31:02] INFO root fetch - processPackages [tui-dsmt]: New version: [202404230921] Old Version: [202404181339]
+[2024-04-23 11:31:02] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-23 11:31:02] INFO root fetch - processPackages [cs.taskqueue]: New version: [20240423] Old Version: [20230401]
+[2024-04-23 11:31:02] WARNING root fetch - processPackages [r8format]: Skipping, unable to determine old version
+[2024-04-23 11:31:02] INFO root fetch - main [MainThread]: End processing [r8format] error
+[2024-04-23 11:31:02] INFO root fetch - processPackages [chargespot]: Downloading https://files.pythonhosted.org/packages/26/ac/aa1b13d7584add89dc1a608ae8a977826b4a1b535d48bf5fe5b5d8cd02d4/chargespot-0.0.2.tar.gz
+[2024-04-23 11:31:02] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-23 11:31:02] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/d5/b9/11fd9112091b8548d9b8fcbf58f48a6d09c00d9bd49b1c25636873971c2b/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 11:31:02] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/4a/a0/fae4202dc7e27017437fbafdfdb9257b93f97fc3d65b2bca67f173871cab/composabl_core_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 11:31:02] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/3f/87/aeed0c05640a655a9f7a9651405c023e800537ac5400c580f59a119cd1bf/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 11:31:02] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 21365442>=10485760
+[2024-04-23 11:31:02] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-04-23 11:31:02] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/d9/19/1ec8ca6a47f17b72492bf3175dc22c29c9356300bcd2cb9cec65d137bfdb/tui_dsmt-202404181339.tar.gz
+[2024-04-23 11:31:02] INFO root fetch - processPackages [cs.taskqueue]: Downloading https://files.pythonhosted.org/packages/50/8a/ae0c1a0f0a39aef9d729b8ea2051f7b5c5d8be96254c44b8e47ca7e05730/cs.taskqueue-20230401.tar.gz
+[2024-04-23 11:31:02] INFO root fetch - processPackages [chargespot]: Downloading https://files.pythonhosted.org/packages/89/7a/23a2c0001f740b6a7d56dba7543b225814f3fef912e501eb0caa8da8088b/chargespot-0.0.3.tar.gz
+[2024-04-23 11:31:02] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/a1/f2/4e1924d1039233c3b0c2448b4add74067504cd2e888b319ad5a03135216f/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 11:31:02] INFO root fetch - processPackages [chargespot]: executing diffoscope
+[2024-04-23 11:31:02] INFO root fetch - processPackages [chargespot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chargespot-0.0.2.tar.gz tmp/chargespot-0.0.3.tar.gz --markdown 20240423/c/chargespot/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 11:31:02] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-04-23 11:31:02] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240423/c/composabl-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-23 11:31:02] INFO root fetch - processPackages [cs.taskqueue]: Downloading https://files.pythonhosted.org/packages/f1/5d/92a0bba4861b023fd90ccb13349791cd5b56588320ab3a67d8db5f2978e9/cs.taskqueue-20240423.tar.gz
+[2024-04-23 11:31:02] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/7a/63/cb2a64c643c2bf337f7f624895969ab1444fad77d056db19bebd8ab5a022/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 11:31:02] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/fc/70/463d408e0f0dae733c07c420d7c157c845a95fec5d25c1510f6f5523b945/tui_dsmt-202404230921.tar.gz
+[2024-04-23 11:31:02] INFO root fetch - processPackages [cs.taskqueue]: executing diffoscope
+[2024-04-23 11:31:02] INFO root fetch - processPackages [cs.taskqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.taskqueue-20230401.tar.gz tmp/cs.taskqueue-20240423.tar.gz --markdown 20240423/c/cs.taskqueue/20230401-20240423/README.md --exclude *.pyd
+[2024-04-23 11:31:03] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-23 11:31:03] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404181339.tar.gz tmp/tui_dsmt-202404230921.tar.gz --markdown 20240423/t/tui-dsmt/202404181339-202404230921/README.md --exclude *.pyd
+[2024-04-23 11:31:03] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-04-23 11:31:03] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240423/c/composabl-cli-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-23 11:31:03] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 11:31:03] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 11:31:03] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-04-23 11:31:03] INFO root fetch - processPackages [cs.taskqueue]: Remove: archive file [/home/abi/fetcher/tmp/cs.taskqueue-20230401.tar.gz]
+[2024-04-23 11:31:03] INFO root fetch - processPackages [cs.taskqueue]: Remove: archive file [/home/abi/fetcher/tmp/cs.taskqueue-20240423.tar.gz]
+[2024-04-23 11:31:03] INFO root fetch - main [MainThread]: End processing [cs.taskqueue]: success
+[2024-04-23 11:31:03] INFO root fetch - processPackages [chargespot]: Remove: archive file [/home/abi/fetcher/tmp/chargespot-0.0.2.tar.gz]
+[2024-04-23 11:31:03] INFO root fetch - processPackages [chargespot]: Remove: archive file [/home/abi/fetcher/tmp/chargespot-0.0.3.tar.gz]
+[2024-04-23 11:31:03] INFO root fetch - main [MainThread]: End processing [chargespot]: success
+[2024-04-23 11:31:03] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404181339.tar.gz]
+[2024-04-23 11:31:03] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404230921.tar.gz]
+[2024-04-23 11:31:03] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-23 11:31:06] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 11:31:06] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 11:31:06] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-04-23 11:31:06] INFO root fetch - main [MainThread]: Store serial: [22891761]
