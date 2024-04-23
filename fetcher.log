@@ -13876,3 +13876,51 @@
 [2024-04-23 09:55:39] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.9.tar.gz]
 [2024-04-23 09:55:39] INFO root fetch - main [MainThread]: End processing [tensorneko-util]: success
 [2024-04-23 09:55:39] INFO root fetch - main [MainThread]: Store serial: [22890546]
+[2024-04-23 09:57:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890546]
+[2024-04-23 09:57:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fremu
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdo-sdk-python
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ie-eval
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ul-db-utils
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ul-db-utils]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-04-23 09:57:48] INFO root fetch - processPackages [fremu]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-23 09:57:48] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.95] Old Version: [1.0.94]
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ul-db-utils]: Downloading https://files.pythonhosted.org/packages/f5/20/7a6dd6c57c16125f7e0249dc8e4df09771ccc5a30ea7c19408276fe25907/ul-db-utils-3.3.0.tar.gz
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ie-eval]: New version: [0.2.0a1] Old Version: [0.1.0]
+[2024-04-23 09:57:48] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/8d/90/1f71b5f0c56b1b0acc059a4db0538855fb6e5a45be7f153748a30210007c/cdo-sdk-python-1.0.94.tar.gz
+[2024-04-23 09:57:48] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240423] Old Version: [2.17.0.dev20240422]
+[2024-04-23 09:57:48] INFO root fetch - processPackages [fremu]: Downloading https://files.pythonhosted.org/packages/7a/a0/48e0fb9ae9c39f62c2e04935517beacd358c5f381926fda019a3809441a9/fremu-0.0.3.tar.gz
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ie-eval]: Downloading https://files.pythonhosted.org/packages/ed/b5/26acf0aec28e2da718108ed9de69dad9ef678dc072df63f5452bd7698882/ie-eval-0.1.0.tar.gz
+[2024-04-23 09:57:48] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/1c/a7/eff337888fc753e72c12ed0ee58918b563ab85cd82ed0f07a223c5686da6/tf_nightly-2.17.0.dev20240422-cp39-cp39-win_amd64.whl
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ul-db-utils]: Downloading https://files.pythonhosted.org/packages/13/fa/e8b349114e71d6c471063a7ded360bd426d08a4b9b7c5f5d7805b4776d14/ul-db-utils-3.3.1.tar.gz
+[2024-04-23 09:57:48] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/de/90/18ae6ab5616b4f442014bf4c9824b1b8870cc7aa66986e5737e7f02ce57e/cdo-sdk-python-1.0.95.tar.gz
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ul-db-utils]: executing diffoscope
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ul-db-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-db-utils-3.3.0.tar.gz tmp/ul-db-utils-3.3.1.tar.gz --markdown 20240423/u/ul-db-utils/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-04-23 09:57:48] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-23 09:57:48] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.94.tar.gz tmp/cdo-sdk-python-1.0.95.tar.gz --markdown 20240423/c/cdo-sdk-python/1.0.94-1.0.95/README.md --exclude *.pyd
+[2024-04-23 09:57:48] INFO root fetch - processPackages [fremu]: Downloading https://files.pythonhosted.org/packages/ef/77/61328b0751ca7bc5502fdfccd8a89d16db11440030bdc73b797ee8436d85/fremu-0.0.4.tar.gz
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ie-eval]: Downloading https://files.pythonhosted.org/packages/f3/30/2a4841883a1856a733197ec0f517934fc94b88445bf09d02bc7336b55ac1/ie-eval-0.2.0a1.tar.gz
+[2024-04-23 09:57:48] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/fb/9b/dccc9fbf92bc2c9c280ac4d90372f9d5594370b5389234fff64990e78493/tf_nightly-2.17.0.dev20240423-cp39-cp39-win_amd64.whl
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ie-eval]: executing diffoscope
+[2024-04-23 09:57:48] INFO root fetch - processPackages [ie-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ie-eval-0.1.0.tar.gz tmp/ie-eval-0.2.0a1.tar.gz --markdown 20240423/i/ie-eval/0.1.0-0.2.0a1/README.md --exclude *.pyd
+[2024-04-23 09:57:48] INFO root fetch - processPackages [fremu]: executing diffoscope
+[2024-04-23 09:57:48] INFO root fetch - processPackages [fremu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fremu-0.0.3.tar.gz tmp/fremu-0.0.4.tar.gz --markdown 20240423/f/fremu/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-23 09:57:49] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-23 09:57:49] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240422-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240423-cp39-cp39-win_amd64.whl.zip --markdown 20240423/t/tf-nightly/2.17.0.dev20240422-2.17.0.dev20240423/README.md --exclude *.pyd
+[2024-04-23 09:57:49] INFO root fetch - processPackages [ul-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-db-utils-3.3.0.tar.gz]
+[2024-04-23 09:57:49] INFO root fetch - processPackages [ul-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-db-utils-3.3.1.tar.gz]
+[2024-04-23 09:57:49] INFO root fetch - main [MainThread]: End processing [ul-db-utils]: success
+[2024-04-23 09:57:49] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240422-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 09:57:49] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240423-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 09:57:49] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-23 09:57:49] INFO root fetch - processPackages [ie-eval]: Remove: archive file [/home/abi/fetcher/tmp/ie-eval-0.1.0.tar.gz]
+[2024-04-23 09:57:49] INFO root fetch - processPackages [ie-eval]: Remove: archive file [/home/abi/fetcher/tmp/ie-eval-0.2.0a1.tar.gz]
+[2024-04-23 09:57:49] INFO root fetch - main [MainThread]: End processing [ie-eval]: success
+[2024-04-23 09:57:49] INFO root fetch - processPackages [fremu]: Remove: archive file [/home/abi/fetcher/tmp/fremu-0.0.3.tar.gz]
+[2024-04-23 09:57:49] INFO root fetch - processPackages [fremu]: Remove: archive file [/home/abi/fetcher/tmp/fremu-0.0.4.tar.gz]
+[2024-04-23 09:57:49] INFO root fetch - main [MainThread]: End processing [fremu]: success
+[2024-04-23 09:57:49] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.94.tar.gz]
+[2024-04-23 09:57:49] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.95.tar.gz]
+[2024-04-23 09:57:49] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-23 09:57:49] INFO root fetch - main [MainThread]: Store serial: [22890563]
