@@ -13103,3 +13103,77 @@
 [2024-04-23 09:25:37] INFO root fetch - processPackages [django-nvd3]: Remove: archive file [/home/abi/fetcher/tmp/django-nvd3-0.9.7.tar.gz]
 [2024-04-23 09:25:37] INFO root fetch - main [MainThread]: End processing [django-nvd3]: success
 [2024-04-23 09:25:37] INFO root fetch - main [MainThread]: Store serial: [22890170]
+[2024-04-23 09:27:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890170]
+[2024-04-23 09:27:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 09:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opsramp-analytics-utils
+[2024-04-23 09:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tendril-interests
+[2024-04-23 09:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ailia-tflite
+[2024-04-23 09:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rmx-hello
+[2024-04-23 09:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: intervalpylib
+[2024-04-23 09:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cs2solutions
+[2024-04-23 09:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: communex
+[2024-04-23 09:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eirStru
+[2024-04-23 09:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rcquant-sdk
+[2024-04-23 09:27:46] INFO root fetch - processPackages [communex]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 09:27:46] INFO root fetch - processPackages [tendril-interests]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-23 09:27:46] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 09:27:46] INFO root fetch - processPackages [cs2solutions]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-23 09:27:46] INFO root fetch - processPackages [communex]: Downloading https://files.pythonhosted.org/packages/77/67/00051570e40b098c12038ef6aed5be120d14bfafef5d08885df5a9714f91/communex-0.1.8.tar.gz
+[2024-04-23 09:27:46] INFO root fetch - processPackages [ailia-tflite]: New version: [1.1.13.2] Old Version: [1.1.13.1]
+[2024-04-23 09:27:46] ERROR root fetch - processPackages [rmx-hello]: Unable to get metadata: No such project 'rmx-hello'
+[2024-04-23 09:27:46] INFO root fetch - main [MainThread]: End processing [rmx-hello] error
+[2024-04-23 09:27:46] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/fd/e1/c4bd57ba46bce26a3da7159dd7f64a24eca60f3fd927502e6638c032a49c/tendril_interests-0.6.0.tar.gz
+[2024-04-23 09:27:46] INFO root fetch - processPackages [intervalpylib]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 09:27:46] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 09:27:46] INFO root fetch - processPackages [opsramp-analytics-utils]: New version: [3.5.0] Old Version: [3.4.9]
+[2024-04-23 09:27:46] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/c9/6b/3defa495fc90a6482c7fb49e254060a1cd753def1a0612c324e98309e96e/cs2solutions-0.7.3.tar.gz
+[2024-04-23 09:27:46] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-23 09:27:47] INFO root fetch - processPackages [ailia-tflite]: Downloading https://files.pythonhosted.org/packages/41/b1/fc8138a81f6dddef143ab5342c2e054436df887d49440fe56b9fef365035/ailia_tflite-1.1.13.1-py3-none-any.whl
+[2024-04-23 09:27:47] INFO root fetch - processPackages [intervalpylib]: Downloading https://files.pythonhosted.org/packages/5f/34/a388ac4c8c2469bf96498c2f8af8e45bdbd2c20f74020e5a8dd01f81ffc5/intervalpylib-0.1.1.tar.gz
+[2024-04-23 09:27:47] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-04-23 09:27:47] INFO root fetch - processPackages [communex]: Downloading https://files.pythonhosted.org/packages/51/79/c7d8079cf08c4dcf6ea1f984e64a67fe00acfd76303d2f7f6159f574d5da/communex-0.1.9.tar.gz
+[2024-04-23 09:27:47] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/b8/20/196dc31eb9b659c8214667535e6f289622d797dadb9fd42af654c5013257/opsramp-analytics-utils-3.4.9.tar.gz
+[2024-04-23 09:27:47] WARNING root fetch - processPackages [ailia-tflite]: Skipping package: exceeds size limit 11953848>=10485760
+[2024-04-23 09:27:47] INFO root fetch - main [MainThread]: End processing [ailia-tflite] error
+[2024-04-23 09:27:47] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/81/cc/45f9cf1f6df337f82e09cc168a2fea24b792bdc903b5ff01e5a13ae3a280/tendril_interests-0.6.1.tar.gz
+[2024-04-23 09:27:47] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-23 09:27:47] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/3e/7f/c664976e9904b4bed1dac0b0a69dd5ea11b2caa9f1ca32ba44f9ff4a3a86/cs2solutions-0.7.4.tar.gz
+[2024-04-23 09:27:47] INFO root fetch - processPackages [communex]: executing diffoscope
+[2024-04-23 09:27:47] INFO root fetch - processPackages [communex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/communex-0.1.8.tar.gz tmp/communex-0.1.9.tar.gz --markdown 20240423/c/communex/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 09:27:47] INFO root fetch - processPackages [tendril-interests]: executing diffoscope
+[2024-04-23 09:27:47] INFO root fetch - processPackages [tendril-interests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril_interests-0.6.0.tar.gz tmp/tendril_interests-0.6.1.tar.gz --markdown 20240423/t/tendril-interests/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-23 09:27:47] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-23 09:27:47] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240423/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 09:27:47] INFO root fetch - processPackages [cs2solutions]: executing diffoscope
+[2024-04-23 09:27:47] INFO root fetch - processPackages [cs2solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2solutions-0.7.3.tar.gz tmp/cs2solutions-0.7.4.tar.gz --markdown 20240423/c/cs2solutions/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-04-23 09:27:47] INFO root fetch - processPackages [intervalpylib]: Downloading https://files.pythonhosted.org/packages/24/52/4f6c69ff68b5fa031262d916d491adc18a5f986edaf1eb3ab8667e9a5d04/intervalpylib-0.1.2.tar.gz
+[2024-04-23 09:27:47] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-04-23 09:27:47] INFO root fetch - processPackages [intervalpylib]: executing diffoscope
+[2024-04-23 09:27:47] INFO root fetch - processPackages [intervalpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intervalpylib-0.1.1.tar.gz tmp/intervalpylib-0.1.2.tar.gz --markdown 20240423/i/intervalpylib/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 09:27:47] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-04-23 09:27:47] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240423/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 09:27:47] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/a7/df/11e3c778bb90fd5a2544ffa1bc0b55bf74ef11780914afcbadae46c471bc/opsramp-analytics-utils-3.5.0.tar.gz
+[2024-04-23 09:27:47] INFO root fetch - processPackages [opsramp-analytics-utils]: executing diffoscope
+[2024-04-23 09:27:47] INFO root fetch - processPackages [opsramp-analytics-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsramp-analytics-utils-3.4.9.tar.gz tmp/opsramp-analytics-utils-3.5.0.tar.gz --markdown 20240423/o/opsramp-analytics-utils/3.4.9-3.5.0/README.md --exclude *.pyd
+[2024-04-23 09:27:48] INFO root fetch - processPackages [communex]: Remove: archive file [/home/abi/fetcher/tmp/communex-0.1.8.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - processPackages [communex]: Remove: archive file [/home/abi/fetcher/tmp/communex-0.1.9.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - main [MainThread]: End processing [communex]: success
+[2024-04-23 09:27:48] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-23 09:27:48] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril_interests-0.6.0.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril_interests-0.6.1.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
+[2024-04-23 09:27:48] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.7.3.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.7.4.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - main [MainThread]: End processing [cs2solutions]: success
+[2024-04-23 09:27:48] INFO root fetch - processPackages [intervalpylib]: Remove: archive file [/home/abi/fetcher/tmp/intervalpylib-0.1.1.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - processPackages [intervalpylib]: Remove: archive file [/home/abi/fetcher/tmp/intervalpylib-0.1.2.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - main [MainThread]: End processing [intervalpylib]: success
+[2024-04-23 09:27:48] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-04-23 09:27:48] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.4.9.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.5.0.tar.gz]
+[2024-04-23 09:27:48] INFO root fetch - main [MainThread]: End processing [opsramp-analytics-utils]: success
+[2024-04-23 09:27:48] INFO root fetch - main [MainThread]: Store serial: [22890196]
