@@ -14558,3 +14558,66 @@
 [2024-04-23 10:23:35] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.4rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-23 10:23:35] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
 [2024-04-23 10:23:35] INFO root fetch - main [MainThread]: Store serial: [22890855]
+[2024-04-23 10:25:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890855]
+[2024-04-23 10:25:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 10:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stackql-deploy
+[2024-04-23 10:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moonblade
+[2024-04-23 10:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsenum
+[2024-04-23 10:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ert
+[2024-04-23 10:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seqprocessor
+[2024-04-23 10:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lense
+[2024-04-23 10:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proxygen-cli
+[2024-04-23 10:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codeargument-python-version3
+[2024-04-23 10:25:45] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 10:25:45] INFO root fetch - processPackages [proxygen-cli]: New version: [2.1.7] Old Version: [2.1.6]
+[2024-04-23 10:25:45] INFO root fetch - processPackages [seqprocessor]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-23 10:25:45] INFO root fetch - processPackages [stackql-deploy]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-23 10:25:45] INFO root fetch - processPackages [dsenum]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-23 10:25:45] WARNING root fetch - processPackages [moonblade]: Skipping, unable to determine old version
+[2024-04-23 10:25:45] INFO root fetch - main [MainThread]: End processing [moonblade] error
+[2024-04-23 10:25:45] INFO root fetch - processPackages [proxygen-cli]: Downloading https://files.pythonhosted.org/packages/3a/88/a1d3929144f205520a442506316808785b6d98b8ed0ae01c85e4a69c22cc/proxygen_cli-2.1.6.tar.gz
+[2024-04-23 10:25:45] WARNING root fetch - processPackages [codeargument-python-version3]: Skipping, unable to determine old version
+[2024-04-23 10:25:45] INFO root fetch - main [MainThread]: End processing [codeargument-python-version3] error
+[2024-04-23 10:25:45] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-23 10:25:45] INFO root fetch - processPackages [ert]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-04-23 10:25:46] INFO root fetch - processPackages [dsenum]: Downloading https://files.pythonhosted.org/packages/7e/11/b5c77a1560a8f84932a237c8bcde956148b6da4f93755afa5d811649354e/dsenum-0.4.3.tar.gz
+[2024-04-23 10:25:46] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/d6/61/4a25e7f001bc8217f42fa5c7b567637916c92c23d0aa671299f04a7560cd/stackql_deploy-1.1.1.tar.gz
+[2024-04-23 10:25:46] INFO root fetch - processPackages [seqprocessor]: Downloading https://files.pythonhosted.org/packages/ac/65/0bf961001dcbd030202ad4844bf7550f0e3e197bc227b05b7fae9b805e1a/seqprocessor-0.1.2.tar.gz
+[2024-04-23 10:25:46] INFO root fetch - processPackages [proxygen-cli]: Downloading https://files.pythonhosted.org/packages/26/eb/65ea5c075cbc68478c24fbbb5aad4e5fc048a15ff39149d662995369f047/proxygen_cli-2.1.7.tar.gz
+[2024-04-23 10:25:46] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 10:25:46] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-23 10:25:46] INFO root fetch - processPackages [proxygen-cli]: executing diffoscope
+[2024-04-23 10:25:46] INFO root fetch - processPackages [proxygen-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxygen_cli-2.1.6.tar.gz tmp/proxygen_cli-2.1.7.tar.gz --markdown 20240423/p/proxygen-cli/2.1.6-2.1.7/README.md --exclude *.pyd
+[2024-04-23 10:25:46] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 10:25:46] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 10:25:46] INFO root fetch - processPackages [dsenum]: Downloading https://files.pythonhosted.org/packages/32/5c/5007e993b00b61b0ea07655dbc10836470df27c8b8c55de77df8fefccb85/dsenum-0.4.4.tar.gz
+[2024-04-23 10:25:46] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/aa/58/e1e2bb1c36fe9f80f25ba427671651f74ded1937dbd22c945b4ece82156a/stackql_deploy-1.2.0.tar.gz
+[2024-04-23 10:25:46] INFO root fetch - processPackages [seqprocessor]: Downloading https://files.pythonhosted.org/packages/9d/31/8415e9c6508dfbc3828bcc62ce79416187a24f76979acdae0b471034c1da/seqprocessor-0.1.3.tar.gz
+[2024-04-23 10:25:46] INFO root fetch - processPackages [dsenum]: executing diffoscope
+[2024-04-23 10:25:46] INFO root fetch - processPackages [dsenum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsenum-0.4.3.tar.gz tmp/dsenum-0.4.4.tar.gz --markdown 20240423/d/dsenum/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-23 10:25:46] INFO root fetch - processPackages [seqprocessor]: executing diffoscope
+[2024-04-23 10:25:46] INFO root fetch - processPackages [seqprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqprocessor-0.1.2.tar.gz tmp/seqprocessor-0.1.3.tar.gz --markdown 20240423/s/seqprocessor/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-23 10:25:46] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-23 10:25:46] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.1.1.tar.gz tmp/stackql_deploy-1.2.0.tar.gz --markdown 20240423/s/stackql-deploy/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-23 10:25:46] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8d/4f/a098d5c93dec8fbf941d7d4f60fb3b86707ea5c9f599479549a3d84e246b/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 10:25:47] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-04-23 10:25:47] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240423/e/ert/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-04-23 10:25:47] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 10:25:47] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 10:25:47] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 10:25:47] INFO root fetch - processPackages [proxygen-cli]: Remove: archive file [/home/abi/fetcher/tmp/proxygen_cli-2.1.6.tar.gz]
+[2024-04-23 10:25:47] INFO root fetch - processPackages [proxygen-cli]: Remove: archive file [/home/abi/fetcher/tmp/proxygen_cli-2.1.7.tar.gz]
+[2024-04-23 10:25:47] INFO root fetch - main [MainThread]: End processing [proxygen-cli]: success
+[2024-04-23 10:25:47] INFO root fetch - processPackages [seqprocessor]: Remove: archive file [/home/abi/fetcher/tmp/seqprocessor-0.1.2.tar.gz]
+[2024-04-23 10:25:47] INFO root fetch - processPackages [seqprocessor]: Remove: archive file [/home/abi/fetcher/tmp/seqprocessor-0.1.3.tar.gz]
+[2024-04-23 10:25:47] INFO root fetch - main [MainThread]: End processing [seqprocessor]: success
+[2024-04-23 10:25:47] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.1.1.tar.gz]
+[2024-04-23 10:25:47] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.2.0.tar.gz]
+[2024-04-23 10:25:47] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-23 10:25:47] INFO root fetch - processPackages [dsenum]: Remove: archive file [/home/abi/fetcher/tmp/dsenum-0.4.3.tar.gz]
+[2024-04-23 10:25:47] INFO root fetch - processPackages [dsenum]: Remove: archive file [/home/abi/fetcher/tmp/dsenum-0.4.4.tar.gz]
+[2024-04-23 10:25:47] INFO root fetch - main [MainThread]: End processing [dsenum]: success
+[2024-04-23 10:25:51] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 10:25:51] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 10:25:51] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-04-23 10:25:51] INFO root fetch - main [MainThread]: Store serial: [22890904]
