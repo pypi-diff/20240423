@@ -12920,3 +12920,60 @@
 [2024-04-23 09:19:00] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240423071625.tar.gz]
 [2024-04-23 09:19:00] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-23 09:19:00] INFO root fetch - main [MainThread]: Store serial: [22890111]
+[2024-04-23 09:21:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890111]
+[2024-04-23 09:21:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 09:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ozonetel-ai
+[2024-04-23 09:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebug-saa
+[2024-04-23 09:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataminer
+[2024-04-23 09:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mteb
+[2024-04-23 09:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: truefoundry
+[2024-04-23 09:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: byzerllm
+[2024-04-23 09:21:09] INFO root fetch - processPackages [mteb]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-04-23 09:21:09] INFO root fetch - processPackages [nonebug-saa]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-23 09:21:09] INFO root fetch - processPackages [dataminer]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-23 09:21:09] INFO root fetch - processPackages [truefoundry]: New version: [0.2.0rc6] Old Version: [0.2.0rc5]
+[2024-04-23 09:21:09] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 09:21:09] INFO root fetch - processPackages [ozonetel-ai]: New version: [0.0.0b0] Old Version: [0.0.0a0]
+[2024-04-23 09:21:09] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/71/49/8cffd667df707175c695afbae6a16b32bdc3c933b581d619bac806f9348c/mteb-1.7.6.tar.gz
+[2024-04-23 09:21:09] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-23 09:21:09] INFO root fetch - processPackages [nonebug-saa]: Downloading https://files.pythonhosted.org/packages/b6/12/e7d76d4d17888771ac0d3c481944070d3015b59ee2c20e912f09a336aebc/nonebug_saa-0.4.0.tar.gz
+[2024-04-23 09:21:09] INFO root fetch - processPackages [dataminer]: Downloading https://files.pythonhosted.org/packages/eb/be/8286917639ae2efa10caa2e2b2ad5a03abfb89b3dc2a297b4d0deb69073f/dataminer-0.1.4.tar.gz
+[2024-04-23 09:21:09] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/b4/3b/bea3d8a762b749a9824a99869855188355cf98f8777133d7e863cf9084f9/ozonetel-ai-0.0.0a0.tar.gz
+[2024-04-23 09:21:09] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/51/57/1e9981a3da23f5bd2b8f102b7681b829ee74000792dca66ddad082b8d65a/truefoundry-0.2.0rc5.tar.gz
+[2024-04-23 09:21:10] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/49/d9/4ac77c1d51124cd315549a55b84ca33d5b9256f1ecb3d8945cf370e1dd14/mteb-1.7.7.tar.gz
+[2024-04-23 09:21:10] INFO root fetch - processPackages [dataminer]: Downloading https://files.pythonhosted.org/packages/60/c5/40f666e92dec59b59481bfc6c6bdee090bf70eaf77ab7341bfd659073090/dataminer-0.1.5.tar.gz
+[2024-04-23 09:21:10] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/a4/20/3265ce09ce553b246eafbe3022fe4236698aec7ea647ac3be9189348a182/ozonetel-ai-0.0.0b0.tar.gz
+[2024-04-23 09:21:10] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/84/f1/5e5cf4f9d6ad27643fa86a4a47865e9aca1ae011fe636a39306be8b64146/truefoundry-0.2.0rc6.tar.gz
+[2024-04-23 09:21:10] INFO root fetch - processPackages [nonebug-saa]: Downloading https://files.pythonhosted.org/packages/51/8b/3a1e3870bfc2227bb7ec625848f3aeff90f89698d46c9406be8aceec51bb/nonebug_saa-0.4.1.tar.gz
+[2024-04-23 09:21:10] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-23 09:21:10] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.6.tar.gz tmp/mteb-1.7.7.tar.gz --markdown 20240423/m/mteb/1.7.6-1.7.7/README.md --exclude *.pyd
+[2024-04-23 09:21:10] INFO root fetch - processPackages [truefoundry]: executing diffoscope
+[2024-04-23 09:21:10] INFO root fetch - processPackages [truefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truefoundry-0.2.0rc5.tar.gz tmp/truefoundry-0.2.0rc6.tar.gz --markdown 20240423/t/truefoundry/0.2.0rc5-0.2.0rc6/README.md --exclude *.pyd
+[2024-04-23 09:21:10] INFO root fetch - processPackages [ozonetel-ai]: executing diffoscope
+[2024-04-23 09:21:10] INFO root fetch - processPackages [ozonetel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozonetel-ai-0.0.0a0.tar.gz tmp/ozonetel-ai-0.0.0b0.tar.gz --markdown 20240423/o/ozonetel-ai/0.0.0a0-0.0.0b0/README.md --exclude *.pyd
+[2024-04-23 09:21:10] INFO root fetch - processPackages [dataminer]: executing diffoscope
+[2024-04-23 09:21:10] INFO root fetch - processPackages [dataminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataminer-0.1.4.tar.gz tmp/dataminer-0.1.5.tar.gz --markdown 20240423/d/dataminer/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-23 09:21:10] INFO root fetch - processPackages [nonebug-saa]: executing diffoscope
+[2024-04-23 09:21:10] INFO root fetch - processPackages [nonebug-saa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebug_saa-0.4.0.tar.gz tmp/nonebug_saa-0.4.1.tar.gz --markdown 20240423/n/nonebug-saa/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-23 09:21:10] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-23 09:21:11] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-23 09:21:11] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240423/b/byzerllm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 09:21:11] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.0a0.tar.gz]
+[2024-04-23 09:21:11] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.0b0.tar.gz]
+[2024-04-23 09:21:11] INFO root fetch - main [MainThread]: End processing [ozonetel-ai]: success
+[2024-04-23 09:21:11] INFO root fetch - processPackages [dataminer]: Remove: archive file [/home/abi/fetcher/tmp/dataminer-0.1.4.tar.gz]
+[2024-04-23 09:21:11] INFO root fetch - processPackages [dataminer]: Remove: archive file [/home/abi/fetcher/tmp/dataminer-0.1.5.tar.gz]
+[2024-04-23 09:21:11] INFO root fetch - main [MainThread]: End processing [dataminer]: success
+[2024-04-23 09:21:11] INFO root fetch - processPackages [nonebug-saa]: Remove: archive file [/home/abi/fetcher/tmp/nonebug_saa-0.4.0.tar.gz]
+[2024-04-23 09:21:11] INFO root fetch - processPackages [nonebug-saa]: Remove: archive file [/home/abi/fetcher/tmp/nonebug_saa-0.4.1.tar.gz]
+[2024-04-23 09:21:11] INFO root fetch - main [MainThread]: End processing [nonebug-saa]: success
+[2024-04-23 09:21:11] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.0rc5.tar.gz]
+[2024-04-23 09:21:11] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.0rc6.tar.gz]
+[2024-04-23 09:21:11] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
+[2024-04-23 09:21:12] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.6.tar.gz]
+[2024-04-23 09:21:12] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.7.tar.gz]
+[2024-04-23 09:21:12] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-23 09:21:13] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-23 09:21:13] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-23 09:21:13] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-23 09:21:13] INFO root fetch - main [MainThread]: Store serial: [22890128]
