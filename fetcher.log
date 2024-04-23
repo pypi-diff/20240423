@@ -16698,3 +16698,48 @@
 [2024-04-23 11:37:43] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.25-py3-none-any.whl.zip]
 [2024-04-23 11:37:43] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-04-23 11:37:43] INFO root fetch - main [MainThread]: Store serial: [22891849]
+[2024-04-23 11:39:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891849]
+[2024-04-23 11:39:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chittorgarh-client
+[2024-04-23 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hellotes
+[2024-04-23 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pldag
+[2024-04-23 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-energy-communities
+[2024-04-23 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thriftify
+[2024-04-23 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: npo
+[2024-04-23 11:39:52] INFO root fetch - processPackages [pldag]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-23 11:39:52] INFO root fetch - processPackages [chittorgarh-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 11:39:52] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/0b/a0/5eb9e9c2b2bd356cf38f6f3c0cc598a939939ab40b151af38250adecf7c7/pldag-0.6.8.tar.gz
+[2024-04-23 11:39:52] WARNING root fetch - processPackages [npo]: Skipping, unable to determine old version
+[2024-04-23 11:39:52] INFO root fetch - main [MainThread]: End processing [npo] error
+[2024-04-23 11:39:52] WARNING root fetch - processPackages [hellotes]: Skipping, unable to determine old version
+[2024-04-23 11:39:52] INFO root fetch - main [MainThread]: End processing [hellotes] error
+[2024-04-23 11:39:52] INFO root fetch - processPackages [chittorgarh-client]: Downloading https://files.pythonhosted.org/packages/7a/a5/763311ef5b7671d7d7d796aa5c7cde0ebac51eb76ea86c48fdbaead3cb6c/chittorgarh_client-1.0.8.tar.gz
+[2024-04-23 11:39:52] INFO root fetch - processPackages [thriftify]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-23 11:39:52] INFO root fetch - processPackages [odoo14-addon-energy-communities]: New version: [14.0.8.3.0] Old Version: [14.0.8.2.1]
+[2024-04-23 11:39:52] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/30/70/02c057b7bcf0a9f9becd023ad24b888243dee05e17f7f1916a137ae742f6/odoo14_addon_energy_communities-14.0.8.2.1-py3-none-any.whl
+[2024-04-23 11:39:52] INFO root fetch - processPackages [chittorgarh-client]: Downloading https://files.pythonhosted.org/packages/56/3e/fc317ea00053937e692f624fe70a95f6d6c6f22d64c13d62f0ac7fe66b7d/chittorgarh_client-1.0.9.tar.gz
+[2024-04-23 11:39:53] INFO root fetch - processPackages [thriftify]: Downloading https://files.pythonhosted.org/packages/a9/f4/cea21f2a3a7e4420daed2c030ba006353e3db435026e3e33abe5fab59683/thriftify-0.1.4.tar.gz
+[2024-04-23 11:39:53] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/3b/c9/08b1e944ffc4083139ace07396e298c23c56438a0b2630696aebe6229f62/pldag-0.6.9.tar.gz
+[2024-04-23 11:39:53] INFO root fetch - processPackages [chittorgarh-client]: executing diffoscope
+[2024-04-23 11:39:53] INFO root fetch - processPackages [chittorgarh-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chittorgarh_client-1.0.8.tar.gz tmp/chittorgarh_client-1.0.9.tar.gz --markdown 20240423/c/chittorgarh-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 11:39:53] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-04-23 11:39:53] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.6.8.tar.gz tmp/pldag-0.6.9.tar.gz --markdown 20240423/p/pldag/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-23 11:39:53] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/aa/b5/a35883fca1fa7aa742c4d3f50e0da354808ba7364690490d8529e958d202/odoo14_addon_energy_communities-14.0.8.3.0-py3-none-any.whl
+[2024-04-23 11:39:53] INFO root fetch - processPackages [thriftify]: Downloading https://files.pythonhosted.org/packages/60/76/43277fa361fb8caad5452a18aa58de99493d38d46459f25d10e1dd65e196/thriftify-0.1.5.tar.gz
+[2024-04-23 11:39:53] INFO root fetch - processPackages [thriftify]: executing diffoscope
+[2024-04-23 11:39:53] INFO root fetch - processPackages [thriftify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thriftify-0.1.4.tar.gz tmp/thriftify-0.1.5.tar.gz --markdown 20240423/t/thriftify/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-23 11:39:53] INFO root fetch - processPackages [odoo14-addon-energy-communities]: executing diffoscope
+[2024-04-23 11:39:53] INFO root fetch - processPackages [odoo14-addon-energy-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_energy_communities-14.0.8.2.1-py3-none-any.whl.zip tmp/odoo14_addon_energy_communities-14.0.8.3.0-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-energy-communities/14.0.8.2.1-14.0.8.3.0/README.md --exclude *.pyd
+[2024-04-23 11:39:53] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.6.8.tar.gz]
+[2024-04-23 11:39:53] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.6.9.tar.gz]
+[2024-04-23 11:39:53] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-04-23 11:39:53] INFO root fetch - processPackages [chittorgarh-client]: Remove: archive file [/home/abi/fetcher/tmp/chittorgarh_client-1.0.8.tar.gz]
+[2024-04-23 11:39:53] INFO root fetch - processPackages [chittorgarh-client]: Remove: archive file [/home/abi/fetcher/tmp/chittorgarh_client-1.0.9.tar.gz]
+[2024-04-23 11:39:53] INFO root fetch - main [MainThread]: End processing [chittorgarh-client]: success
+[2024-04-23 11:39:53] INFO root fetch - processPackages [thriftify]: Remove: archive file [/home/abi/fetcher/tmp/thriftify-0.1.4.tar.gz]
+[2024-04-23 11:39:53] INFO root fetch - processPackages [thriftify]: Remove: archive file [/home/abi/fetcher/tmp/thriftify-0.1.5.tar.gz]
+[2024-04-23 11:39:53] INFO root fetch - main [MainThread]: End processing [thriftify]: success
+[2024-04-23 11:39:54] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_communities-14.0.8.2.1-py3-none-any.whl.zip]
+[2024-04-23 11:39:54] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_communities-14.0.8.3.0-py3-none-any.whl.zip]
+[2024-04-23 11:39:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities]: success
+[2024-04-23 11:39:54] INFO root fetch - main [MainThread]: Store serial: [22891869]
