@@ -16307,3 +16307,98 @@
 [2024-04-23 11:24:29] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240423083725.tar.gz]
 [2024-04-23 11:24:29] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-23 11:24:29] INFO root fetch - main [MainThread]: Store serial: [22891652]
+[2024-04-23 11:26:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891652]
+[2024-04-23 11:26:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-23 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-04-23 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bark-detection
+[2024-04-23 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: game-prediction2
+[2024-04-23 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipedream-utils
+[2024-04-23 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinyrv
+[2024-04-23 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: detectools
+[2024-04-23 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agential
+[2024-04-23 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cs.resources
+[2024-04-23 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prominence-delineator
+[2024-04-23 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi
+[2024-04-23 11:26:38] INFO root fetch - processPackages [game-prediction2]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-23 11:26:38] INFO root fetch - processPackages [prominence-delineator]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-23 11:26:38] INFO root fetch - processPackages [kcli]: New version: [99.0.202404230635] Old Version: [99.0.202404230631]
+[2024-04-23 11:26:38] WARNING root fetch - processPackages [agential]: Skipping, unable to determine old version
+[2024-04-23 11:26:38] INFO root fetch - processPackages [agential]: Start processing: hscloud
+[2024-04-23 11:26:38] INFO root fetch - main [MainThread]: End processing [agential] error
+[2024-04-23 11:26:38] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-04-23 11:26:38] WARNING root fetch - processPackages [tinyrv]: Skipping, unable to determine old version
+[2024-04-23 11:26:38] INFO root fetch - processPackages [tinyrv]: Start processing: trading-strategy
+[2024-04-23 11:26:38] INFO root fetch - main [MainThread]: End processing [tinyrv] error
+[2024-04-23 11:26:38] INFO root fetch - processPackages [bark-detection]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 11:26:38] INFO root fetch - processPackages [detectools]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 11:26:38] INFO root fetch - processPackages [pipedream-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 11:26:38] INFO root fetch - processPackages [cs.resources]: New version: [20240423] Old Version: [20240422]
+[2024-04-23 11:26:38] INFO root fetch - processPackages [game-prediction2]: Downloading https://files.pythonhosted.org/packages/a1/5e/a92ea7d93d672c8259152b2e8b59b65b351080b49d36f3bdd5c717fa6134/game_prediction2-0.1.9.tar.gz
+[2024-04-23 11:26:38] INFO root fetch - processPackages [hscloud]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-23 11:26:38] INFO root fetch - processPackages [prominence-delineator]: Downloading https://files.pythonhosted.org/packages/53/c7/123e58075c8197883b55b745d10cbc4c84cdf7b21e27ab3aaf947c0b6c77/prominence_delineator-0.0.5.tar.gz
+[2024-04-23 11:26:38] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a1/f1/e8e2c0d387dbeacacba17ec223bb36f2751acf7b1443ba216b1e35a5a0d6/kcli-99.0.202404230631.tar.gz
+[2024-04-23 11:26:38] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-04-23 11:26:38] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/b5/34/b0db2255f2199fd07b0786d37e5b12df90b8e3160de6ae4856d825fdd6cd/hscloud-0.0.6.tar.gz
+[2024-04-23 11:26:38] INFO root fetch - processPackages [pipedream-utils]: Downloading https://files.pythonhosted.org/packages/71/57/de522689229a5c82465b75249b9865d6930324fbf69bc9b486ed7c26332d/pipedream-utils-0.0.8.tar.gz
+[2024-04-23 11:26:38] INFO root fetch - processPackages [trading-strategy]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-23 11:26:38] INFO root fetch - processPackages [bark-detection]: Downloading https://files.pythonhosted.org/packages/1f/a0/797e2d85e7e76aa996672667328ec8823527cd286f8848793a86d266dcce/bark_detection-0.1.1.tar.gz
+[2024-04-23 11:26:38] INFO root fetch - processPackages [detectools]: Downloading https://files.pythonhosted.org/packages/13/2a/85f4376939e6dfe26f21471ae86ea753574dd399f1d948e568626c00ff7d/detectools-0.1.1.tar.gz
+[2024-04-23 11:26:38] INFO root fetch - processPackages [cs.resources]: Downloading https://files.pythonhosted.org/packages/20/19/602eb3773941f6791032ee612b802b39073fa233293b898867771757641a/cs.resources-20240422.tar.gz
+[2024-04-23 11:26:38] WARNING root fetch - processPackages [bark-detection]: Skipping package: exceeds size limit 58752736>=10485760
+[2024-04-23 11:26:38] INFO root fetch - main [MainThread]: End processing [bark-detection] error
+[2024-04-23 11:26:39] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-04-23 11:26:39] INFO root fetch - processPackages [game-prediction2]: Downloading https://files.pythonhosted.org/packages/3b/7d/efdcd70519fd2b882d157c8d1c67781c6b399cc73f1152ba1a30922c8c4d/game_prediction2-0.2.0.tar.gz
+[2024-04-23 11:26:39] INFO root fetch - processPackages [prominence-delineator]: Downloading https://files.pythonhosted.org/packages/ee/ce/a87941455b544ce792168d906ac336d4e28b4ca22180ebc851d3f4f33087/prominence_delineator-0.0.6.tar.gz
+[2024-04-23 11:26:39] INFO root fetch - processPackages [trading-strategy]: Downloading https://files.pythonhosted.org/packages/ef/db/cd3ff8efe6cae935b76889796fae0e73dbff0e09b269d049406dd64339c6/trading_strategy-0.9.0.tar.gz
+[2024-04-23 11:26:39] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/5f/00/bbe9b684153c6610555d7054ee1170c1d279189be26dfe0c611fd207d80d/hscloud-0.0.7.tar.gz
+[2024-04-23 11:26:39] INFO root fetch - processPackages [game-prediction2]: executing diffoscope
+[2024-04-23 11:26:39] INFO root fetch - processPackages [game-prediction2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/game_prediction2-0.1.9.tar.gz tmp/game_prediction2-0.2.0.tar.gz --markdown 20240423/g/game-prediction2/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-23 11:26:39] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/73/de/a7b1f174f90a54eb6815a4b7d8667ca19e15407f0a64baafb33db60e598c/kcli-99.0.202404230635.tar.gz
+[2024-04-23 11:26:39] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-04-23 11:26:39] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240423/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-04-23 11:26:39] INFO root fetch - processPackages [prominence-delineator]: executing diffoscope
+[2024-04-23 11:26:39] INFO root fetch - processPackages [prominence-delineator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prominence_delineator-0.0.5.tar.gz tmp/prominence_delineator-0.0.6.tar.gz --markdown 20240423/p/prominence-delineator/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-23 11:26:39] INFO root fetch - processPackages [detectools]: Downloading https://files.pythonhosted.org/packages/39/76/f2e600f0ebf453b9c51f642e58a2f2e24e9a2f6b896061f7003f0c946819/detectools-0.1.2.tar.gz
+[2024-04-23 11:26:39] INFO root fetch - processPackages [hscloud]: executing diffoscope
+[2024-04-23 11:26:39] INFO root fetch - processPackages [hscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscloud-0.0.6.tar.gz tmp/hscloud-0.0.7.tar.gz --markdown 20240423/h/hscloud/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-23 11:26:39] INFO root fetch - processPackages [cs.resources]: Downloading https://files.pythonhosted.org/packages/07/3e/f6f0826e305c95caa8e8ae5e33b0de10a814bfeb73a39ac2351b88b3c5a8/cs.resources-20240423.tar.gz
+[2024-04-23 11:26:39] INFO root fetch - processPackages [pipedream-utils]: Downloading https://files.pythonhosted.org/packages/c0/67/54e0d7715f6645bb97ffead63ab639f5a64faf7bb2a21c9eaf20c6f12e5e/pipedream-utils-0.0.9.tar.gz
+[2024-04-23 11:26:39] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-23 11:26:39] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404230631.tar.gz tmp/kcli-99.0.202404230635.tar.gz --markdown 20240423/k/kcli/99.0.202404230631-99.0.202404230635/README.md --exclude *.pyd
+[2024-04-23 11:26:39] INFO root fetch - processPackages [detectools]: executing diffoscope
+[2024-04-23 11:26:39] INFO root fetch - processPackages [detectools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detectools-0.1.1.tar.gz tmp/detectools-0.1.2.tar.gz --markdown 20240423/d/detectools/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 11:26:39] INFO root fetch - processPackages [cs.resources]: executing diffoscope
+[2024-04-23 11:26:39] INFO root fetch - processPackages [cs.resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.resources-20240422.tar.gz tmp/cs.resources-20240423.tar.gz --markdown 20240423/c/cs.resources/20240422-20240423/README.md --exclude *.pyd
+[2024-04-23 11:26:39] INFO root fetch - processPackages [trading-strategy]: Downloading https://files.pythonhosted.org/packages/5c/56/6a3bae759cb2d96b94978afb98541c2d384070652678881d1ec20043940b/trading_strategy-0.9.1.tar.gz
+[2024-04-23 11:26:39] INFO root fetch - processPackages [pipedream-utils]: executing diffoscope
+[2024-04-23 11:26:39] INFO root fetch - processPackages [pipedream-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipedream-utils-0.0.8.tar.gz tmp/pipedream-utils-0.0.9.tar.gz --markdown 20240423/p/pipedream-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 11:26:39] INFO root fetch - processPackages [trading-strategy]: executing diffoscope
+[2024-04-23 11:26:39] INFO root fetch - processPackages [trading-strategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading_strategy-0.9.0.tar.gz tmp/trading_strategy-0.9.1.tar.gz --markdown 20240423/t/trading-strategy/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-23 11:26:39] INFO root fetch - processPackages [game-prediction2]: Remove: archive file [/home/abi/fetcher/tmp/game_prediction2-0.1.9.tar.gz]
+[2024-04-23 11:26:39] INFO root fetch - processPackages [game-prediction2]: Remove: archive file [/home/abi/fetcher/tmp/game_prediction2-0.2.0.tar.gz]
+[2024-04-23 11:26:39] INFO root fetch - main [MainThread]: End processing [game-prediction2]: success
+[2024-04-23 11:26:40] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.6.tar.gz]
+[2024-04-23 11:26:40] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.7.tar.gz]
+[2024-04-23 11:26:40] INFO root fetch - main [MainThread]: End processing [hscloud]: success
+[2024-04-23 11:26:40] INFO root fetch - processPackages [prominence-delineator]: Remove: archive file [/home/abi/fetcher/tmp/prominence_delineator-0.0.5.tar.gz]
+[2024-04-23 11:26:40] INFO root fetch - processPackages [prominence-delineator]: Remove: archive file [/home/abi/fetcher/tmp/prominence_delineator-0.0.6.tar.gz]
+[2024-04-23 11:26:40] INFO root fetch - main [MainThread]: End processing [prominence-delineator]: success
+[2024-04-23 11:26:40] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-04-23 11:26:40] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-04-23 11:26:40] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-04-23 11:26:40] INFO root fetch - processPackages [cs.resources]: Remove: archive file [/home/abi/fetcher/tmp/cs.resources-20240422.tar.gz]
+[2024-04-23 11:26:40] INFO root fetch - processPackages [cs.resources]: Remove: archive file [/home/abi/fetcher/tmp/cs.resources-20240423.tar.gz]
+[2024-04-23 11:26:40] INFO root fetch - main [MainThread]: End processing [cs.resources]: success
+[2024-04-23 11:26:40] INFO root fetch - processPackages [detectools]: Remove: archive file [/home/abi/fetcher/tmp/detectools-0.1.1.tar.gz]
+[2024-04-23 11:26:40] INFO root fetch - processPackages [detectools]: Remove: archive file [/home/abi/fetcher/tmp/detectools-0.1.2.tar.gz]
+[2024-04-23 11:26:40] INFO root fetch - main [MainThread]: End processing [detectools]: success
+[2024-04-23 11:26:40] INFO root fetch - processPackages [pipedream-utils]: Remove: archive file [/home/abi/fetcher/tmp/pipedream-utils-0.0.8.tar.gz]
+[2024-04-23 11:26:40] INFO root fetch - processPackages [pipedream-utils]: Remove: archive file [/home/abi/fetcher/tmp/pipedream-utils-0.0.9.tar.gz]
+[2024-04-23 11:26:40] INFO root fetch - main [MainThread]: End processing [pipedream-utils]: success
+[2024-04-23 11:26:40] INFO root fetch - processPackages [trading-strategy]: Remove: archive file [/home/abi/fetcher/tmp/trading_strategy-0.9.0.tar.gz]
+[2024-04-23 11:26:40] INFO root fetch - processPackages [trading-strategy]: Remove: archive file [/home/abi/fetcher/tmp/trading_strategy-0.9.1.tar.gz]
+[2024-04-23 11:26:40] INFO root fetch - main [MainThread]: End processing [trading-strategy]: success
+[2024-04-23 11:26:41] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404230631.tar.gz]
+[2024-04-23 11:26:41] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404230635.tar.gz]
+[2024-04-23 11:26:41] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-23 11:26:41] INFO root fetch - main [MainThread]: Store serial: [22891690]
