@@ -16656,3 +16656,45 @@
 [2024-04-23 11:35:31] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.8.0.tar.gz]
 [2024-04-23 11:35:31] INFO root fetch - main [MainThread]: End processing [syngen]: success
 [2024-04-23 11:35:31] INFO root fetch - main [MainThread]: Store serial: [22891833]
+[2024-04-23 11:37:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891833]
+[2024-04-23 11:37:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 11:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: everai
+[2024-04-23 11:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: saltext.vault
+[2024-04-23 11:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testsolar-testtool-sdk-py2
+[2024-04-23 11:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polartoolkit
+[2024-04-23 11:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcoraid
+[2024-04-23 11:37:41] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-23 11:37:41] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Downloading https://files.pythonhosted.org/packages/c3/05/60ecb29730a6f211eb92151b6fc0607670c5586e996e1cfc4a502d763933/testsolar-testtool-sdk-py2-0.1.6.tar.gz
+[2024-04-23 11:37:41] INFO root fetch - processPackages [polartoolkit]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-23 11:37:41] WARNING root fetch - processPackages [saltext.vault]: Skipping, unable to determine old version
+[2024-04-23 11:37:41] INFO root fetch - main [MainThread]: End processing [saltext.vault] error
+[2024-04-23 11:37:41] INFO root fetch - processPackages [everai]: New version: [0.1.25] Old Version: [0.1.23]
+[2024-04-23 11:37:41] INFO root fetch - processPackages [dcoraid]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-23 11:37:41] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/fd/ca/da2fcd2caa68a8a83f1455ba046e2500cd5bc2147603f872486e65f1cfc5/everai-0.1.23-py3-none-any.whl
+[2024-04-23 11:37:41] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Downloading https://files.pythonhosted.org/packages/64/56/d44684bd1d61aaf3e42f70496bc6d7276a05a116ccfb5a9fdb60c78a1a1b/testsolar-testtool-sdk-py2-0.1.7.tar.gz
+[2024-04-23 11:37:41] INFO root fetch - processPackages [polartoolkit]: Downloading https://files.pythonhosted.org/packages/22/19/39c8aa166a7815ee84f6682478f7e294dd5491b300f2d5e953a6597ed78d/polartoolkit-0.3.1.tar.gz
+[2024-04-23 11:37:41] INFO root fetch - processPackages [dcoraid]: Downloading https://files.pythonhosted.org/packages/4b/4b/086d768fe30a3aa11e3687a9d6b9784cd9be555442c490dbda65cd0dd0da/dcoraid-0.9.0.tar.gz
+[2024-04-23 11:37:41] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: executing diffoscope
+[2024-04-23 11:37:41] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-testtool-sdk-py2-0.1.6.tar.gz tmp/testsolar-testtool-sdk-py2-0.1.7.tar.gz --markdown 20240423/t/testsolar-testtool-sdk-py2/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-23 11:37:41] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/96/9f/80928d87ccbfa13aa06c1901391d9af421879ab2229edc42d8fa3899512d/everai-0.1.25-py3-none-any.whl
+[2024-04-23 11:37:41] INFO root fetch - processPackages [polartoolkit]: Downloading https://files.pythonhosted.org/packages/f8/f9/b9748faf5a857d91ac08d4ba05bf6ed0d87ff6bad686fcc52597c43996da/polartoolkit-0.3.2.tar.gz
+[2024-04-23 11:37:42] INFO root fetch - processPackages [dcoraid]: Downloading https://files.pythonhosted.org/packages/c0/f5/368bfc2d71af3f9137b5423efe942bf8fcf37edc18fe8d9ba77e00e6241c/dcoraid-0.9.1.tar.gz
+[2024-04-23 11:37:42] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-04-23 11:37:42] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.23-py3-none-any.whl.zip tmp/everai-0.1.25-py3-none-any.whl.zip --markdown 20240423/e/everai/0.1.23-0.1.25/README.md --exclude *.pyd
+[2024-04-23 11:37:42] INFO root fetch - processPackages [polartoolkit]: executing diffoscope
+[2024-04-23 11:37:42] INFO root fetch - processPackages [polartoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polartoolkit-0.3.1.tar.gz tmp/polartoolkit-0.3.2.tar.gz --markdown 20240423/p/polartoolkit/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-23 11:37:42] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-py2-0.1.6.tar.gz]
+[2024-04-23 11:37:42] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-py2-0.1.7.tar.gz]
+[2024-04-23 11:37:42] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk-py2]: success
+[2024-04-23 11:37:42] INFO root fetch - processPackages [dcoraid]: executing diffoscope
+[2024-04-23 11:37:42] INFO root fetch - processPackages [dcoraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcoraid-0.9.0.tar.gz tmp/dcoraid-0.9.1.tar.gz --markdown 20240423/d/dcoraid/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-23 11:37:42] INFO root fetch - processPackages [polartoolkit]: Remove: archive file [/home/abi/fetcher/tmp/polartoolkit-0.3.1.tar.gz]
+[2024-04-23 11:37:42] INFO root fetch - processPackages [polartoolkit]: Remove: archive file [/home/abi/fetcher/tmp/polartoolkit-0.3.2.tar.gz]
+[2024-04-23 11:37:42] INFO root fetch - main [MainThread]: End processing [polartoolkit]: success
+[2024-04-23 11:37:43] INFO root fetch - processPackages [dcoraid]: Remove: archive file [/home/abi/fetcher/tmp/dcoraid-0.9.0.tar.gz]
+[2024-04-23 11:37:43] INFO root fetch - processPackages [dcoraid]: Remove: archive file [/home/abi/fetcher/tmp/dcoraid-0.9.1.tar.gz]
+[2024-04-23 11:37:43] INFO root fetch - main [MainThread]: End processing [dcoraid]: success
+[2024-04-23 11:37:43] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.23-py3-none-any.whl.zip]
+[2024-04-23 11:37:43] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.25-py3-none-any.whl.zip]
+[2024-04-23 11:37:43] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-04-23 11:37:43] INFO root fetch - main [MainThread]: Store serial: [22891849]
