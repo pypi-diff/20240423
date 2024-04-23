@@ -9723,3 +9723,51 @@
 [2024-04-23 05:48:13] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.1.9.tar.gz]
 [2024-04-23 05:48:13] INFO root fetch - main [MainThread]: End processing [laktory]: success
 [2024-04-23 05:48:13] INFO root fetch - main [MainThread]: Store serial: [22888721]
+[2024-04-23 05:50:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888721]
+[2024-04-23 05:50:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 05:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yoto-api
+[2024-04-23 05:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-helpdesk-mgmt
+[2024-04-23 05:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-helpdesk-mgmt-rating
+[2024-04-23 05:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: runnable
+[2024-04-23 05:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: afeng-py-tools
+[2024-04-23 05:50:21] INFO root fetch - processPackages [yoto-api]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-23 05:50:21] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 05:50:21] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/d5/02/281c021f842aaf87089d3741260b9c223e400d5453d1d848a287d580c6e2/yoto_api-1.6.0.tar.gz
+[2024-04-23 05:50:21] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-04-23 05:50:21] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.2.2.2.2] Old Version: [16.0.2.2.2.1]
+[2024-04-23 05:50:21] INFO root fetch - processPackages [runnable]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-23 05:50:21] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-23 05:50:22] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/e1/7c/a19aba51ece9637c16bd9021d88ae80f5fd7a53f75cfad410c60a95279a0/odoo_addon_helpdesk_mgmt-16.0.2.2.2.1-py3-none-any.whl
+[2024-04-23 05:50:22] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Downloading https://files.pythonhosted.org/packages/83/d9/0a756ee88657f570ff440da2d02d9872de3e88437c2914d52e7403d50f35/odoo_addon_helpdesk_mgmt_rating-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-23 05:50:22] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-23 05:50:22] INFO root fetch - processPackages [runnable]: Downloading https://files.pythonhosted.org/packages/fd/12/a6987242384f8de219d06560beb703effa7808fb974256653220f5031c0c/runnable-0.9.0.tar.gz
+[2024-04-23 05:50:22] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/17/03/d4d3fa4ca0e48e4c0aad6c2fa140dd4c5ffd250d643443488872c0d3a624/yoto_api-1.7.0.tar.gz
+[2024-04-23 05:50:22] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-23 05:50:22] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240423/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 05:50:22] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-04-23 05:50:22] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.6.0.tar.gz tmp/yoto_api-1.7.0.tar.gz --markdown 20240423/y/yoto-api/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-23 05:50:22] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Downloading https://files.pythonhosted.org/packages/d3/62/fb622307f3cc5bcefabcdb45e9ec5ff767b90c450c90ead08020c67691f9/odoo_addon_helpdesk_mgmt_rating-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-23 05:50:22] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/a4/05/b1b18ae9fa75455882998bcff6abf7fc39a54411f70c06043a38aa920449/odoo_addon_helpdesk_mgmt-16.0.2.2.2.2-py3-none-any.whl
+[2024-04-23 05:50:22] INFO root fetch - processPackages [runnable]: Downloading https://files.pythonhosted.org/packages/6d/f2/c89c9ce1844a24b3e073f0f60183f8dbebf2b6e21e472caeb603666786ba/runnable-0.9.1.tar.gz
+[2024-04-23 05:50:22] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: executing diffoscope
+[2024-04-23 05:50:22] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt_rating-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt_rating-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-helpdesk-mgmt-rating/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-23 05:50:22] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2024-04-23 05:50:22] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.2.1-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.2.2-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-helpdesk-mgmt/16.0.2.2.2.1-16.0.2.2.2.2/README.md --exclude *.pyd
+[2024-04-23 05:50:22] INFO root fetch - processPackages [runnable]: executing diffoscope
+[2024-04-23 05:50:22] INFO root fetch - processPackages [runnable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runnable-0.9.0.tar.gz tmp/runnable-0.9.1.tar.gz --markdown 20240423/r/runnable/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-23 05:50:22] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.6.0.tar.gz]
+[2024-04-23 05:50:22] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.7.0.tar.gz]
+[2024-04-23 05:50:22] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-04-23 05:50:23] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_rating-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-23 05:50:23] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_rating-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-23 05:50:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt-rating]: success
+[2024-04-23 05:50:23] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.2.1-py3-none-any.whl.zip]
+[2024-04-23 05:50:23] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.2.2-py3-none-any.whl.zip]
+[2024-04-23 05:50:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2024-04-23 05:50:23] INFO root fetch - processPackages [runnable]: Remove: archive file [/home/abi/fetcher/tmp/runnable-0.9.0.tar.gz]
+[2024-04-23 05:50:23] INFO root fetch - processPackages [runnable]: Remove: archive file [/home/abi/fetcher/tmp/runnable-0.9.1.tar.gz]
+[2024-04-23 05:50:23] INFO root fetch - main [MainThread]: End processing [runnable]: success
+[2024-04-23 05:50:23] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-23 05:50:23] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-23 05:50:23] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-23 05:50:23] INFO root fetch - main [MainThread]: Store serial: [22888737]
