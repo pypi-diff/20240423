@@ -2188,3 +2188,54 @@
 [2024-04-23 01:59:53] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-04-23 01:59:53] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-04-23 01:59:53] INFO root fetch - main [MainThread]: Store serial: [22886127]
+[2024-04-23 02:01:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886127]
+[2024-04-23 02:02:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 02:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: preset-cli
+[2024-04-23 02:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: radixtarget
+[2024-04-23 02:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimllearning
+[2024-04-23 02:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dominodatalab-data
+[2024-04-23 02:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aqtp
+[2024-04-23 02:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rms-pdsfile
+[2024-04-23 02:02:02] INFO root fetch - processPackages [radixtarget]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2024-04-23 02:02:02] INFO root fetch - processPackages [radixtarget]: Downloading https://files.pythonhosted.org/packages/2d/f4/4212d9bc46573271cff290cb5152c508be1c746dd74242e9bd4a601d172c/radixtarget-1.0.0.8.tar.gz
+[2024-04-23 02:02:02] INFO root fetch - processPackages [preset-cli]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 02:02:02] WARNING root fetch - processPackages [mimllearning]: Skipping, unable to determine old version
+[2024-04-23 02:02:02] INFO root fetch - main [MainThread]: End processing [mimllearning] error
+[2024-04-23 02:02:02] INFO root fetch - processPackages [dominodatalab-data]: New version: [5.9.1] Old Version: [5.9.0]
+[2024-04-23 02:02:02] INFO root fetch - processPackages [aqtp]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-23 02:02:02] INFO root fetch - processPackages [rms-pdsfile]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-23 02:02:02] INFO root fetch - processPackages [preset-cli]: Downloading https://files.pythonhosted.org/packages/50/af/964df4a203c2514758ceb1bdaeac9a9c22ded224174b5682501523753fa0/preset-cli-0.2.8.tar.gz
+[2024-04-23 02:02:02] INFO root fetch - processPackages [aqtp]: Downloading https://files.pythonhosted.org/packages/6c/4b/e0afc5391f5457074df383f2a70f355d736a25aea9975bffe6aa33a29ce9/aqtp-0.7.1.tar.gz
+[2024-04-23 02:02:02] INFO root fetch - processPackages [radixtarget]: Downloading https://files.pythonhosted.org/packages/58/ca/070d3038d2ebb93776b68744ad7473ac94290ffaf402fba84219e0ed81ce/radixtarget-1.0.0.9.tar.gz
+[2024-04-23 02:02:02] INFO root fetch - processPackages [dominodatalab-data]: Downloading https://files.pythonhosted.org/packages/24/85/917d4815c3c2196fbb705af377b19e9c0e8adae6b4541f3640a63708379e/dominodatalab_data-5.9.0.tar.gz
+[2024-04-23 02:02:02] INFO root fetch - processPackages [rms-pdsfile]: Downloading https://files.pythonhosted.org/packages/ba/59/814b8f2b4ee5a8bf7e682e77417862e76b8b20389d7d4810d2fe09aeeb4b/rms_pdsfile-0.0.3.tar.gz
+[2024-04-23 02:02:02] INFO root fetch - processPackages [radixtarget]: executing diffoscope
+[2024-04-23 02:02:02] INFO root fetch - processPackages [radixtarget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radixtarget-1.0.0.8.tar.gz tmp/radixtarget-1.0.0.9.tar.gz --markdown 20240423/r/radixtarget/1.0.0.8-1.0.0.9/README.md --exclude *.pyd
+[2024-04-23 02:02:02] INFO root fetch - processPackages [preset-cli]: Downloading https://files.pythonhosted.org/packages/ca/ec/f785ba69f93c481be4b3b7e0f769380f94bb59d815e9db0f9dfcc5ccd8c8/preset-cli-0.2.9.tar.gz
+[2024-04-23 02:02:02] INFO root fetch - processPackages [aqtp]: Downloading https://files.pythonhosted.org/packages/6f/f7/1b83a5d3f355cdea17b0f428a03b6ba3bfc0b995a32d0e5702996d1fcaf5/aqtp-0.7.2.tar.gz
+[2024-04-23 02:02:02] INFO root fetch - processPackages [rms-pdsfile]: Downloading https://files.pythonhosted.org/packages/25/1d/00196040f463ee8b7be35f54a7978af06cdebe16c800b32884791b34ccb5/rms_pdsfile-0.0.4.tar.gz
+[2024-04-23 02:02:02] INFO root fetch - processPackages [dominodatalab-data]: Downloading https://files.pythonhosted.org/packages/0c/75/813d4252452652608e1c7983d1a0f37ea48607489b10d3fdd42e0896f5b1/dominodatalab_data-5.9.1.tar.gz
+[2024-04-23 02:02:03] INFO root fetch - processPackages [preset-cli]: executing diffoscope
+[2024-04-23 02:02:03] INFO root fetch - processPackages [preset-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preset-cli-0.2.8.tar.gz tmp/preset-cli-0.2.9.tar.gz --markdown 20240423/p/preset-cli/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 02:02:03] INFO root fetch - processPackages [dominodatalab-data]: executing diffoscope
+[2024-04-23 02:02:03] INFO root fetch - processPackages [dominodatalab-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dominodatalab_data-5.9.0.tar.gz tmp/dominodatalab_data-5.9.1.tar.gz --markdown 20240423/d/dominodatalab-data/5.9.0-5.9.1/README.md --exclude *.pyd
+[2024-04-23 02:02:03] INFO root fetch - processPackages [aqtp]: executing diffoscope
+[2024-04-23 02:02:03] INFO root fetch - processPackages [aqtp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqtp-0.7.1.tar.gz tmp/aqtp-0.7.2.tar.gz --markdown 20240423/a/aqtp/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-23 02:02:03] INFO root fetch - processPackages [radixtarget]: Remove: archive file [/home/abi/fetcher/tmp/radixtarget-1.0.0.8.tar.gz]
+[2024-04-23 02:02:03] INFO root fetch - processPackages [radixtarget]: Remove: archive file [/home/abi/fetcher/tmp/radixtarget-1.0.0.9.tar.gz]
+[2024-04-23 02:02:03] INFO root fetch - main [MainThread]: End processing [radixtarget]: success
+[2024-04-23 02:02:03] INFO root fetch - processPackages [rms-pdsfile]: executing diffoscope
+[2024-04-23 02:02:03] INFO root fetch - processPackages [rms-pdsfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rms_pdsfile-0.0.3.tar.gz tmp/rms_pdsfile-0.0.4.tar.gz --markdown 20240423/r/rms-pdsfile/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-23 02:02:03] INFO root fetch - processPackages [dominodatalab-data]: Remove: archive file [/home/abi/fetcher/tmp/dominodatalab_data-5.9.0.tar.gz]
+[2024-04-23 02:02:03] INFO root fetch - processPackages [dominodatalab-data]: Remove: archive file [/home/abi/fetcher/tmp/dominodatalab_data-5.9.1.tar.gz]
+[2024-04-23 02:02:03] INFO root fetch - main [MainThread]: End processing [dominodatalab-data]: success
+[2024-04-23 02:02:04] INFO root fetch - processPackages [preset-cli]: Remove: archive file [/home/abi/fetcher/tmp/preset-cli-0.2.8.tar.gz]
+[2024-04-23 02:02:04] INFO root fetch - processPackages [preset-cli]: Remove: archive file [/home/abi/fetcher/tmp/preset-cli-0.2.9.tar.gz]
+[2024-04-23 02:02:04] INFO root fetch - main [MainThread]: End processing [preset-cli]: success
+[2024-04-23 02:02:04] INFO root fetch - processPackages [aqtp]: Remove: archive file [/home/abi/fetcher/tmp/aqtp-0.7.1.tar.gz]
+[2024-04-23 02:02:04] INFO root fetch - processPackages [aqtp]: Remove: archive file [/home/abi/fetcher/tmp/aqtp-0.7.2.tar.gz]
+[2024-04-23 02:02:04] INFO root fetch - main [MainThread]: End processing [aqtp]: success
+[2024-04-23 02:02:04] INFO root fetch - processPackages [rms-pdsfile]: Remove: archive file [/home/abi/fetcher/tmp/rms_pdsfile-0.0.3.tar.gz]
+[2024-04-23 02:02:04] INFO root fetch - processPackages [rms-pdsfile]: Remove: archive file [/home/abi/fetcher/tmp/rms_pdsfile-0.0.4.tar.gz]
+[2024-04-23 02:02:04] INFO root fetch - main [MainThread]: End processing [rms-pdsfile]: success
+[2024-04-23 02:02:04] INFO root fetch - main [MainThread]: Store serial: [22886144]
