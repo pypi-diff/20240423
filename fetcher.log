@@ -9771,3 +9771,36 @@
 [2024-04-23 05:50:23] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-04-23 05:50:23] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-04-23 05:50:23] INFO root fetch - main [MainThread]: Store serial: [22888737]
+[2024-04-23 05:52:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888737]
+[2024-04-23 05:52:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 05:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlflow-oidc-auth
+[2024-04-23 05:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepsearch-glm
+[2024-04-23 05:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gamdl
+[2024-04-23 05:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poggydev
+[2024-04-23 05:52:32] WARNING root fetch - processPackages [poggydev]: Skipping, unable to determine old version
+[2024-04-23 05:52:32] INFO root fetch - main [MainThread]: End processing [poggydev] error
+[2024-04-23 05:52:32] INFO root fetch - processPackages [gamdl]: New version: [2.2] Old Version: [2.1.8]
+[2024-04-23 05:52:32] INFO root fetch - processPackages [mlflow-oidc-auth]: New version: [1.4.0] Old Version: [1.3.3]
+[2024-04-23 05:52:32] INFO root fetch - processPackages [deepsearch-glm]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-23 05:52:32] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/b6/b5/257703553c2a03a5bcbed8e49662c024cca4130220e98d4332f88c9d5ff0/mlflow_oidc_auth-1.3.3.tar.gz
+[2024-04-23 05:52:32] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/2a/52/3e7298a39fd9eaf8719408242eb1edb891b0d8ac52a3ca205fd2ec3b3495/gamdl-2.1.8.tar.gz
+[2024-04-23 05:52:32] INFO root fetch - processPackages [deepsearch-glm]: Downloading https://files.pythonhosted.org/packages/9b/9e/e3aec9901c93140a9ce87412641f030d7e333289633728170b0e46f96459/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 05:52:33] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/c5/42/3e19b10968dd033f83e7239c1b5c183f91d1d656c9312828470d48aecbe7/gamdl-2.2.tar.gz
+[2024-04-23 05:52:33] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/46/d6/3df10e69c8ae5c49a54839db5cf2195adbc2295d865cbffb975d11cbaf18/mlflow_oidc_auth-1.4.0.tar.gz
+[2024-04-23 05:52:33] INFO root fetch - processPackages [gamdl]: executing diffoscope
+[2024-04-23 05:52:33] INFO root fetch - processPackages [gamdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamdl-2.1.8.tar.gz tmp/gamdl-2.2.tar.gz --markdown 20240423/g/gamdl/2.1.8-2.2/README.md --exclude *.pyd
+[2024-04-23 05:52:33] INFO root fetch - processPackages [mlflow-oidc-auth]: executing diffoscope
+[2024-04-23 05:52:33] INFO root fetch - processPackages [mlflow-oidc-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_oidc_auth-1.3.3.tar.gz tmp/mlflow_oidc_auth-1.4.0.tar.gz --markdown 20240423/m/mlflow-oidc-auth/1.3.3-1.4.0/README.md --exclude *.pyd
+[2024-04-23 05:52:33] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.1.8.tar.gz]
+[2024-04-23 05:52:33] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.2.tar.gz]
+[2024-04-23 05:52:33] INFO root fetch - main [MainThread]: End processing [gamdl]: success
+[2024-04-23 05:52:34] INFO root fetch - processPackages [deepsearch-glm]: Downloading https://files.pythonhosted.org/packages/a7/b4/b6e4a1f599dd8c5b22a644ee41f01aa39b5fad5698dce6be0e003fdd6457/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 05:52:34] INFO root fetch - processPackages [deepsearch-glm]: executing diffoscope
+[2024-04-23 05:52:34] INFO root fetch - processPackages [deepsearch-glm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240423/d/deepsearch-glm/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-23 05:52:39] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_oidc_auth-1.3.3.tar.gz]
+[2024-04-23 05:52:39] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_oidc_auth-1.4.0.tar.gz]
+[2024-04-23 05:52:39] INFO root fetch - main [MainThread]: End processing [mlflow-oidc-auth]: success
+[2024-04-23 05:52:59] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 05:52:59] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 05:52:59] INFO root fetch - main [MainThread]: End processing [deepsearch-glm]: success
+[2024-04-23 05:52:59] INFO root fetch - main [MainThread]: Store serial: [22888757]
