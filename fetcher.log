@@ -11825,3 +11825,60 @@
 [2024-04-23 08:24:21] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike_falconpy-1.4.3.tar.gz]
 [2024-04-23 08:24:21] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy]: success
 [2024-04-23 08:24:21] INFO root fetch - main [MainThread]: Store serial: [22889680]
+[2024-04-23 08:26:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889680]
+[2024-04-23 08:26:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 08:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tendril-interests
+[2024-04-23 08:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovp-docker-utils
+[2024-04-23 08:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manifast
+[2024-04-23 08:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: echo-endpoints
+[2024-04-23 08:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vectordb-bench
+[2024-04-23 08:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: minimax-client
+[2024-04-23 08:26:29] INFO root fetch - processPackages [echo-endpoints]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 08:26:29] INFO root fetch - processPackages [echo-endpoints]: Downloading https://files.pythonhosted.org/packages/90/aa/fd96f2418c7a7a513f34665cef550846df4550b4130a0c3fc0da8bd60c3f/echo_endpoints-0.0.1-py3-none-any.whl
+[2024-04-23 08:26:30] INFO root fetch - processPackages [ovp-docker-utils]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-23 08:26:30] INFO root fetch - processPackages [minimax-client]: New version: [0.6.0] Old Version: [0.5.5]
+[2024-04-23 08:26:30] INFO root fetch - processPackages [manifast]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 08:26:30] INFO root fetch - processPackages [vectordb-bench]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-23 08:26:30] INFO root fetch - processPackages [tendril-interests]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-23 08:26:30] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/81/64/b9fb5b4730295428c2c14d9aa6a89eba2dc6f59a264f7ee694a6733b622d/manifast-0.0.8.tar.gz
+[2024-04-23 08:26:30] INFO root fetch - processPackages [echo-endpoints]: Downloading https://files.pythonhosted.org/packages/a8/d0/b0556017858d3f170c20b2671cda6426867a035a85cafbc7f320b268c8a7/echo_endpoints-0.0.2.tar.gz
+[2024-04-23 08:26:30] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/fd/e1/c4bd57ba46bce26a3da7159dd7f64a24eca60f3fd927502e6638c032a49c/tendril_interests-0.6.0.tar.gz
+[2024-04-23 08:26:30] INFO root fetch - processPackages [ovp-docker-utils]: Downloading https://files.pythonhosted.org/packages/f9/46/d1e47f9c41c658420f219e258cc27b070af5892c8d573d80a30487315260/ovp_docker_utils-1.0.6.tar.gz
+[2024-04-23 08:26:30] INFO root fetch - processPackages [minimax-client]: Downloading https://files.pythonhosted.org/packages/c5/12/1665c624ed6fec9934045595e80da1a5afd76a6c4c8930ab839349291447/minimax_client-0.5.5.tar.gz
+[2024-04-23 08:26:30] INFO root fetch - processPackages [vectordb-bench]: Downloading https://files.pythonhosted.org/packages/ba/53/6fc0c1a34afd4b58a574239e0ce6ab1326abd8a33ba9cea842c0d16308ac/vectordb-bench-0.0.7.tar.gz
+[2024-04-23 08:26:30] INFO root fetch - processPackages [echo-endpoints]: executing diffoscope
+[2024-04-23 08:26:30] INFO root fetch - processPackages [echo-endpoints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echo_endpoints-0.0.1-py3-none-any.whl.zip tmp/echo_endpoints-0.0.2.tar.gz --markdown 20240423/e/echo-endpoints/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 08:26:30] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/57/ba/b199fd85bb13cb9c3846d1f9b76e0d143d4ef55451056b4cc69a454abf2e/manifast-0.0.9.tar.gz
+[2024-04-23 08:26:30] INFO root fetch - processPackages [ovp-docker-utils]: Downloading https://files.pythonhosted.org/packages/c3/4b/1754a0226c459a1d5c6c9b39c8d0a0552f292da37c852291147cb4edf860/ovp_docker_utils-1.0.7.tar.gz
+[2024-04-23 08:26:30] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/81/cc/45f9cf1f6df337f82e09cc168a2fea24b792bdc903b5ff01e5a13ae3a280/tendril_interests-0.6.1.tar.gz
+[2024-04-23 08:26:30] INFO root fetch - processPackages [vectordb-bench]: Downloading https://files.pythonhosted.org/packages/6d/1b/55f1feae7734c649398da44c6998e8018192d47599f569a6986718ffceb0/vectordb_bench-0.0.8.tar.gz
+[2024-04-23 08:26:30] INFO root fetch - processPackages [manifast]: executing diffoscope
+[2024-04-23 08:26:30] INFO root fetch - processPackages [manifast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifast-0.0.8.tar.gz tmp/manifast-0.0.9.tar.gz --markdown 20240423/m/manifast/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 08:26:30] INFO root fetch - processPackages [minimax-client]: Downloading https://files.pythonhosted.org/packages/56/0b/e144521d5c4a30adc2897f4ff8c3f675fe9d934a23290292c20535887cfd/minimax_client-0.6.0.tar.gz
+[2024-04-23 08:26:30] INFO root fetch - processPackages [ovp-docker-utils]: executing diffoscope
+[2024-04-23 08:26:30] INFO root fetch - processPackages [ovp-docker-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovp_docker_utils-1.0.6.tar.gz tmp/ovp_docker_utils-1.0.7.tar.gz --markdown 20240423/o/ovp-docker-utils/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-23 08:26:30] INFO root fetch - processPackages [tendril-interests]: executing diffoscope
+[2024-04-23 08:26:30] INFO root fetch - processPackages [tendril-interests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril_interests-0.6.0.tar.gz tmp/tendril_interests-0.6.1.tar.gz --markdown 20240423/t/tendril-interests/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-23 08:26:30] INFO root fetch - processPackages [vectordb-bench]: executing diffoscope
+[2024-04-23 08:26:30] INFO root fetch - processPackages [vectordb-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-bench-0.0.7.tar.gz tmp/vectordb_bench-0.0.8.tar.gz --markdown 20240423/v/vectordb-bench/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-23 08:26:30] INFO root fetch - processPackages [echo-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/echo_endpoints-0.0.1-py3-none-any.whl.zip]
+[2024-04-23 08:26:30] INFO root fetch - processPackages [echo-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/echo_endpoints-0.0.2.tar.gz]
+[2024-04-23 08:26:30] INFO root fetch - processPackages [minimax-client]: executing diffoscope
+[2024-04-23 08:26:30] INFO root fetch - main [MainThread]: End processing [echo-endpoints]: success
+[2024-04-23 08:26:30] INFO root fetch - processPackages [minimax-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minimax_client-0.5.5.tar.gz tmp/minimax_client-0.6.0.tar.gz --markdown 20240423/m/minimax-client/0.5.5-0.6.0/README.md --exclude *.pyd
+[2024-04-23 08:26:31] INFO root fetch - processPackages [ovp-docker-utils]: Remove: archive file [/home/abi/fetcher/tmp/ovp_docker_utils-1.0.6.tar.gz]
+[2024-04-23 08:26:31] INFO root fetch - processPackages [ovp-docker-utils]: Remove: archive file [/home/abi/fetcher/tmp/ovp_docker_utils-1.0.7.tar.gz]
+[2024-04-23 08:26:31] INFO root fetch - main [MainThread]: End processing [ovp-docker-utils]: success
+[2024-04-23 08:26:31] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.8.tar.gz]
+[2024-04-23 08:26:31] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.9.tar.gz]
+[2024-04-23 08:26:31] INFO root fetch - main [MainThread]: End processing [manifast]: success
+[2024-04-23 08:26:31] INFO root fetch - processPackages [minimax-client]: Remove: archive file [/home/abi/fetcher/tmp/minimax_client-0.5.5.tar.gz]
+[2024-04-23 08:26:31] INFO root fetch - processPackages [minimax-client]: Remove: archive file [/home/abi/fetcher/tmp/minimax_client-0.6.0.tar.gz]
+[2024-04-23 08:26:31] INFO root fetch - main [MainThread]: End processing [minimax-client]: success
+[2024-04-23 08:26:31] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril_interests-0.6.0.tar.gz]
+[2024-04-23 08:26:31] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril_interests-0.6.1.tar.gz]
+[2024-04-23 08:26:31] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
+[2024-04-23 08:26:32] INFO root fetch - processPackages [vectordb-bench]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-bench-0.0.7.tar.gz]
+[2024-04-23 08:26:32] INFO root fetch - processPackages [vectordb-bench]: Remove: archive file [/home/abi/fetcher/tmp/vectordb_bench-0.0.8.tar.gz]
+[2024-04-23 08:26:32] INFO root fetch - main [MainThread]: End processing [vectordb-bench]: success
+[2024-04-23 08:26:32] INFO root fetch - main [MainThread]: Store serial: [22889697]
