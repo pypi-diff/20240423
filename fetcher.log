@@ -22565,3 +22565,115 @@ EOFError: EOF read where object expected
 [2024-04-23 15:07:29] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.7rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-23 15:07:29] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2024-04-23 15:07:29] INFO root fetch - main [MainThread]: Store serial: [22894283]
+[2024-04-23 15:09:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894283]
+[2024-04-23 15:09:41] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-23 15:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tentacletk
+[2024-04-23 15:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bimbmaan
+[2024-04-23 15:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-hx-yinying
+[2024-04-23 15:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gridworks-proactor
+[2024-04-23 15:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnxsharp
+[2024-04-23 15:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: UtilityLib
+[2024-04-23 15:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: topologicpy
+[2024-04-23 15:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graphreduce
+[2024-04-23 15:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simo
+[2024-04-23 15:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: t-ocr
+[2024-04-23 15:09:41] INFO root fetch - processPackages [onnxsharp]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 15:09:41] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-23 15:09:41] INFO root fetch - processPackages [bimbmaan]: New version: [0.2] Old Version: [0.1]
+[2024-04-23 15:09:41] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/cc/c0/d9052c582ce274042abaa76f9a120a847f5beabded7aa262040767cf9d7c/onnxsharp-0.0.2-py2.py3-none-any.whl
+[2024-04-23 15:09:41] INFO root fetch - processPackages [UtilityLib]: New version: [2.9.20240323] Old Version: [2.8.20231123]
+[2024-04-23 15:09:41] INFO root fetch - processPackages [t-ocr]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-23 15:09:41] INFO root fetch - processPackages [tentacletk]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 15:09:41] INFO root fetch - processPackages [graphreduce]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-23 15:09:41] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-23 15:09:41] INFO root fetch - processPackages [gridworks-proactor]: New version: [0.4.2] Old Version: [0.4.0]
+[2024-04-23 15:09:41] INFO root fetch - processPackages [topologicpy]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-23 15:09:41] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/5e/19/e67c7148c0d204cae48c82714be3d18b210f705825a92ec234b5bf9577fe/nonebot-plugin-hx-yinying-1.0.2.tar.gz
+[2024-04-23 15:09:41] INFO root fetch - processPackages [bimbmaan]: Downloading https://files.pythonhosted.org/packages/3a/44/401a0ae65d2a5dc92b5b693fefe189c22c94cbb0126ed040c0ef8a1316fe/Bimbmaan-0.1.tar.gz
+[2024-04-23 15:09:41] INFO root fetch - processPackages [UtilityLib]: Downloading https://files.pythonhosted.org/packages/42/d9/161ae46bf9010da67a1fc6894b14dbceab615a7613c570541dc54132d691/UtilityLib-2.8.20231123.tar.gz
+[2024-04-23 15:09:41] INFO root fetch - processPackages [tentacletk]: Downloading https://files.pythonhosted.org/packages/ec/85/86fcaa315c78f65d6d23056264d53ff886bfe7208289e80307096a791036/tentacletk-0.9.8.tar.gz
+[2024-04-23 15:09:41] INFO root fetch - processPackages [t-ocr]: Downloading https://files.pythonhosted.org/packages/4a/9d/40dd0a1b7807f932e9b63ab99cd63e5b73065efbd5f4ba214624148d60f5/t_ocr-1.4.8.tar.gz
+[2024-04-23 15:09:41] INFO root fetch - processPackages [gridworks-proactor]: Downloading https://files.pythonhosted.org/packages/84/8d/6226fee0fc9edb9c557ec3f39faaf0fab4f58c5d0aafb3a1b5fcc9476cd4/gridworks_proactor-0.4.0.tar.gz
+[2024-04-23 15:09:41] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/2e/03/5f74dfbeced06bf2e04a1c74b0116a52bc9cb158ac8a4ea1434597c9f15f/topologicpy-0.5.6.tar.gz
+[2024-04-23 15:09:41] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/1a/40/06ccc9451a9be227013a8c76d6610c0ab015d195564ef75df5400396233a/graphreduce-1.6.2.tar.gz
+[2024-04-23 15:09:41] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/a5/a5/ce9c11ae34998c536cb230bf91a4a816c34697dfe829d606355d94f778cb/onnxsharp-0.0.3-py2.py3-none-any.whl
+[2024-04-23 15:09:41] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-04-23 15:09:41] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 50611970>=10485760
+[2024-04-23 15:09:41] INFO root fetch - processPackages [topologicpy]: Start processing: algokit-utils
+[2024-04-23 15:09:41] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2024-04-23 15:09:41] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/10/67/ecb8c51e1de0c5839186cb0541136032fa4852ee174fd7a8a50452b69522/nonebot-plugin-hx-yinying-1.0.3.tar.gz
+[2024-04-23 15:09:42] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-04-23 15:09:42] INFO root fetch - processPackages [simo]: Start processing: domain-admin
+[2024-04-23 15:09:42] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-04-23 15:09:42] INFO root fetch - processPackages [algokit-utils]: New version: [2.2.2b5] Old Version: [2.2.2b4]
+[2024-04-23 15:09:42] INFO root fetch - processPackages [onnxsharp]: executing diffoscope
+[2024-04-23 15:09:42] INFO root fetch - processPackages [onnxsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxsharp-0.0.2-py2.py3-none-any.whl.zip tmp/onnxsharp-0.0.3-py2.py3-none-any.whl.zip --markdown 20240423/o/onnxsharp/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 15:09:42] INFO root fetch - processPackages [bimbmaan]: Downloading https://files.pythonhosted.org/packages/62/be/924e0d296b3f012ead21fcf30b7f912ae406d40319c7a3220a77577a9ba9/bimbmaan-0.2.tar.gz
+[2024-04-23 15:09:42] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: executing diffoscope
+[2024-04-23 15:09:42] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-hx-yinying-1.0.2.tar.gz tmp/nonebot-plugin-hx-yinying-1.0.3.tar.gz --markdown 20240423/n/nonebot-plugin-hx-yinying/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-23 15:09:42] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/2e/b7/e403f03839ce2a4f9347cec31817bfa791deaff38a1eafe14373abe1403b/algokit_utils-2.2.2b4-py3-none-any.whl
+[2024-04-23 15:09:42] INFO root fetch - processPackages [domain-admin]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-23 15:09:42] INFO root fetch - processPackages [UtilityLib]: Downloading https://files.pythonhosted.org/packages/fa/04/fb3274226ffbeae1a949003b6074bcbd21ca97ef6e15248ebaeaf81533d7/UtilityLib-2.9.20240323.tar.gz
+[2024-04-23 15:09:42] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/01/7c/c2ba8d4ea98895f072fbb451829c996ad0dcbb648ea3b54c44e9491cced0/graphreduce-1.6.3.tar.gz
+[2024-04-23 15:09:42] INFO root fetch - processPackages [bimbmaan]: executing diffoscope
+[2024-04-23 15:09:42] INFO root fetch - processPackages [bimbmaan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bimbmaan-0.1.tar.gz tmp/bimbmaan-0.2.tar.gz --markdown 20240423/b/bimbmaan/0.1-0.2/README.md --exclude *.pyd
+[2024-04-23 15:09:42] INFO root fetch - processPackages [tentacletk]: Downloading https://files.pythonhosted.org/packages/17/eb/3c5b8bd26953a8dbb84c266e218eaa6eef702b2da5745582d4fab810df29/tentacletk-0.9.9.tar.gz
+[2024-04-23 15:09:42] INFO root fetch - processPackages [gridworks-proactor]: Downloading https://files.pythonhosted.org/packages/eb/11/cae1f5816401f7c34f3058558f4c303c70c5fb6ac33bbeb905005ec1de5f/gridworks_proactor-0.4.2.tar.gz
+[2024-04-23 15:09:42] INFO root fetch - processPackages [UtilityLib]: executing diffoscope
+[2024-04-23 15:09:42] INFO root fetch - processPackages [UtilityLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UtilityLib-2.8.20231123.tar.gz tmp/UtilityLib-2.9.20240323.tar.gz --markdown 20240423/U/UtilityLib/2.8.20231123-2.9.20240323/README.md --exclude *.pyd
+[2024-04-23 15:09:42] INFO root fetch - processPackages [graphreduce]: executing diffoscope
+[2024-04-23 15:09:42] INFO root fetch - processPackages [graphreduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphreduce-1.6.2.tar.gz tmp/graphreduce-1.6.3.tar.gz --markdown 20240423/g/graphreduce/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-04-23 15:09:42] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/de/18/6b2ebbfc77836907642faa7dfaccb3a69ad3428104183520725639eab9ea/domain-admin-1.6.8.tar.gz
+[2024-04-23 15:09:42] INFO root fetch - processPackages [tentacletk]: executing diffoscope
+[2024-04-23 15:09:42] INFO root fetch - processPackages [tentacletk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tentacletk-0.9.8.tar.gz tmp/tentacletk-0.9.9.tar.gz --markdown 20240423/t/tentacletk/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-23 15:09:42] INFO root fetch - processPackages [t-ocr]: Downloading https://files.pythonhosted.org/packages/1b/72/33f50062321fd5fcd9dd8913d97c6374bb79efbe07a988e90f7a39be492b/t_ocr-1.4.9.tar.gz
+[2024-04-23 15:09:42] INFO root fetch - processPackages [gridworks-proactor]: executing diffoscope
+[2024-04-23 15:09:42] INFO root fetch - processPackages [gridworks-proactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_proactor-0.4.0.tar.gz tmp/gridworks_proactor-0.4.2.tar.gz --markdown 20240423/g/gridworks-proactor/0.4.0-0.4.2/README.md --exclude *.pyd
+[2024-04-23 15:09:42] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/bd/bc/7da1d5c58f95931ebd31750cca3d905f97bb9555a6af34b659306f4c6dc0/algokit_utils-2.2.2b5-py3-none-any.whl
+[2024-04-23 15:09:42] INFO root fetch - processPackages [t-ocr]: executing diffoscope
+[2024-04-23 15:09:42] INFO root fetch - processPackages [t-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_ocr-1.4.8.tar.gz tmp/t_ocr-1.4.9.tar.gz --markdown 20240423/t/t-ocr/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-23 15:09:42] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2024-04-23 15:09:42] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-2.2.2b4-py3-none-any.whl.zip tmp/algokit_utils-2.2.2b5-py3-none-any.whl.zip --markdown 20240423/a/algokit-utils/2.2.2b4-2.2.2b5/README.md --exclude *.pyd
+[2024-04-23 15:09:43] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-1.0.2.tar.gz]
+[2024-04-23 15:09:43] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-1.0.3.tar.gz]
+[2024-04-23 15:09:43] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Start processing: litserve
+[2024-04-23 15:09:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hx-yinying]: success
+[2024-04-23 15:09:43] INFO root fetch - processPackages [bimbmaan]: Remove: archive file [/home/abi/fetcher/tmp/Bimbmaan-0.1.tar.gz]
+[2024-04-23 15:09:43] INFO root fetch - processPackages [bimbmaan]: Remove: archive file [/home/abi/fetcher/tmp/bimbmaan-0.2.tar.gz]
+[2024-04-23 15:09:43] INFO root fetch - main [MainThread]: End processing [bimbmaan]: success
+[2024-04-23 15:09:43] INFO root fetch - processPackages [litserve]: New version: [0.1.0] Old Version: [0.0.0.dev2]
+[2024-04-23 15:09:43] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.2-py2.py3-none-any.whl.zip]
+[2024-04-23 15:09:43] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.3-py2.py3-none-any.whl.zip]
+[2024-04-23 15:09:43] INFO root fetch - main [MainThread]: End processing [onnxsharp]: success
+[2024-04-23 15:09:43] INFO root fetch - processPackages [UtilityLib]: Remove: archive file [/home/abi/fetcher/tmp/UtilityLib-2.8.20231123.tar.gz]
+[2024-04-23 15:09:43] INFO root fetch - processPackages [UtilityLib]: Remove: archive file [/home/abi/fetcher/tmp/UtilityLib-2.9.20240323.tar.gz]
+[2024-04-23 15:09:43] INFO root fetch - main [MainThread]: End processing [UtilityLib]: success
+[2024-04-23 15:09:43] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.6.2.tar.gz]
+[2024-04-23 15:09:43] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.6.3.tar.gz]
+[2024-04-23 15:09:43] INFO root fetch - main [MainThread]: End processing [graphreduce]: success
+[2024-04-23 15:09:43] INFO root fetch - processPackages [t-ocr]: Remove: archive file [/home/abi/fetcher/tmp/t_ocr-1.4.8.tar.gz]
+[2024-04-23 15:09:43] INFO root fetch - processPackages [t-ocr]: Remove: archive file [/home/abi/fetcher/tmp/t_ocr-1.4.9.tar.gz]
+[2024-04-23 15:09:43] INFO root fetch - main [MainThread]: End processing [t-ocr]: success
+[2024-04-23 15:09:43] INFO root fetch - processPackages [litserve]: Downloading https://files.pythonhosted.org/packages/2f/ae/857f8cf5e2e51181d3ee4465b341778e212716c27ea755d3949aa1761695/litserve-0.0.0.dev2.tar.gz
+[2024-04-23 15:09:43] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.2.2b4-py3-none-any.whl.zip]
+[2024-04-23 15:09:43] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.2.2b5-py3-none-any.whl.zip]
+[2024-04-23 15:09:43] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2024-04-23 15:09:43] INFO root fetch - processPackages [gridworks-proactor]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_proactor-0.4.0.tar.gz]
+[2024-04-23 15:09:43] INFO root fetch - processPackages [gridworks-proactor]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_proactor-0.4.2.tar.gz]
+[2024-04-23 15:09:43] INFO root fetch - main [MainThread]: End processing [gridworks-proactor]: success
+[2024-04-23 15:09:44] INFO root fetch - processPackages [litserve]: Downloading https://files.pythonhosted.org/packages/a1/38/dcbe2322749a3911cec670f0a16d0c025f8357021e8d67de658fdc45f802/litserve-0.1.0.tar.gz
+[2024-04-23 15:09:44] INFO root fetch - processPackages [tentacletk]: Remove: archive file [/home/abi/fetcher/tmp/tentacletk-0.9.8.tar.gz]
+[2024-04-23 15:09:44] INFO root fetch - processPackages [tentacletk]: Remove: archive file [/home/abi/fetcher/tmp/tentacletk-0.9.9.tar.gz]
+[2024-04-23 15:09:44] INFO root fetch - main [MainThread]: End processing [tentacletk]: success
+[2024-04-23 15:09:44] INFO root fetch - processPackages [litserve]: executing diffoscope
+[2024-04-23 15:09:44] INFO root fetch - processPackages [litserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litserve-0.0.0.dev2.tar.gz tmp/litserve-0.1.0.tar.gz --markdown 20240423/l/litserve/0.0.0.dev2-0.1.0/README.md --exclude *.pyd
+[2024-04-23 15:09:44] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c2/4f/a660c8dc467793c416f781443478f0c9f7b1ee9b4cea27835c40b21245af/domain-admin-1.6.9.tar.gz
+[2024-04-23 15:09:44] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2024-04-23 15:09:44] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.6.8.tar.gz tmp/domain-admin-1.6.9.tar.gz --markdown 20240423/d/domain-admin/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-23 15:09:44] INFO root fetch - processPackages [litserve]: Remove: archive file [/home/abi/fetcher/tmp/litserve-0.0.0.dev2.tar.gz]
+[2024-04-23 15:09:44] INFO root fetch - processPackages [litserve]: Remove: archive file [/home/abi/fetcher/tmp/litserve-0.1.0.tar.gz]
+[2024-04-23 15:09:44] INFO root fetch - main [MainThread]: End processing [litserve]: success
+[2024-04-23 15:09:54] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.6.8.tar.gz]
+[2024-04-23 15:09:54] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.6.9.tar.gz]
+[2024-04-23 15:09:54] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2024-04-23 15:09:54] INFO root fetch - main [MainThread]: Store serial: [22894319]
