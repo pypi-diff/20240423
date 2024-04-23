@@ -11397,3 +11397,18 @@
 [2024-04-23 07:55:08] INFO root fetch - processPackages [limexhub]: Remove: archive file [/home/abi/fetcher/tmp/limexhub-0.1.9.tar.gz]
 [2024-04-23 07:55:08] INFO root fetch - main [MainThread]: End processing [limexhub]: success
 [2024-04-23 07:55:08] INFO root fetch - main [MainThread]: Store serial: [22889528]
+[2024-04-23 07:57:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889528]
+[2024-04-23 07:57:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 07:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyluba
+[2024-04-23 07:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-genesiscloud
+[2024-04-23 07:57:17] WARNING root fetch - processPackages [pyluba]: Skipping, unable to determine old version
+[2024-04-23 07:57:17] INFO root fetch - main [MainThread]: End processing [pyluba] error
+[2024-04-23 07:57:17] INFO root fetch - processPackages [pulumi-genesiscloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 07:57:17] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/7b/eb/c1987063b7330a56617c62d967ff70d44c2fde9e6c027effd7bd05f44cfc/pulumi_genesiscloud-0.0.8.tar.gz
+[2024-04-23 07:57:17] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/85/48/c33e3e8789275770f6ecf59b3f8ba30057d291ef8fff95f7d0077bb2638c/pulumi_genesiscloud-0.0.9.tar.gz
+[2024-04-23 07:57:17] INFO root fetch - processPackages [pulumi-genesiscloud]: executing diffoscope
+[2024-04-23 07:57:17] INFO root fetch - processPackages [pulumi-genesiscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_genesiscloud-0.0.8.tar.gz tmp/pulumi_genesiscloud-0.0.9.tar.gz --markdown 20240423/p/pulumi-genesiscloud/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 07:57:18] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.8.tar.gz]
+[2024-04-23 07:57:18] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.9.tar.gz]
+[2024-04-23 07:57:18] INFO root fetch - main [MainThread]: End processing [pulumi-genesiscloud]: success
+[2024-04-23 07:57:18] INFO root fetch - main [MainThread]: Store serial: [22889533]
