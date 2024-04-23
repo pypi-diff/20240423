@@ -16017,3 +16017,61 @@
 [2024-04-23 11:13:26] INFO root fetch - processPackages [zetamarkets_py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
 [2024-04-23 11:13:26] INFO root fetch - main [MainThread]: End processing [zetamarkets_py]: success
 [2024-04-23 11:13:26] INFO root fetch - main [MainThread]: Store serial: [22891554]
+[2024-04-23 11:15:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891554]
+[2024-04-23 11:15:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 11:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-04-23 11:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfx
+[2024-04-23 11:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2024-04-23 11:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forta-bot-sdk
+[2024-04-23 11:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-computenest
+[2024-04-23 11:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ldjcourse
+[2024-04-23 11:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hastexo-xblock
+[2024-04-23 11:15:35] WARNING root fetch - processPackages [zfx]: Skipping, unable to determine old version
+[2024-04-23 11:15:35] INFO root fetch - main [MainThread]: End processing [zfx] error
+[2024-04-23 11:15:35] INFO root fetch - processPackages [ldjcourse]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-04-23 11:15:35] INFO root fetch - processPackages [ldjcourse]: Downloading https://files.pythonhosted.org/packages/3a/31/944ae63f69490efebbc2f4556eb2ac64676a29db8789c6251853b8cf45a2/ldjcourse-0.0.7.8.tar.gz
+[2024-04-23 11:15:35] INFO root fetch - processPackages [forta-bot-sdk]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-23 11:15:35] INFO root fetch - processPackages [hastexo-xblock]: New version: [7.9.1] Old Version: [7.9.0]
+[2024-04-23 11:15:35] INFO root fetch - processPackages [aliyun-python-sdk-computenest]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-23 11:15:35] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-23 11:15:35] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-23 11:15:35] INFO root fetch - processPackages [forta-bot-sdk]: Downloading https://files.pythonhosted.org/packages/50/4c/e0a1fb81a598bab10497424663c82e406157e0e03237ac61514e0953649a/forta_bot_sdk-0.2.2.tar.gz
+[2024-04-23 11:15:35] INFO root fetch - processPackages [hastexo-xblock]: Downloading https://files.pythonhosted.org/packages/4c/1e/d888d12ff2fc451f57c7d0d940233b89f2d92b8cab95209e715fbfef1ec8/hastexo-xblock-7.9.0.tar.gz
+[2024-04-23 11:15:35] INFO root fetch - processPackages [aliyun-python-sdk-computenest]: Downloading https://files.pythonhosted.org/packages/3f/c2/cafb3978c81fd7386e8c0280fae1342bdbf08066cce44ad87c4ac4bc5062/aliyun-python-sdk-computenest-1.0.0.tar.gz
+[2024-04-23 11:15:35] INFO root fetch - processPackages [ldjcourse]: Downloading https://files.pythonhosted.org/packages/b4/fa/c89a3aa31269ae21e83af15a6525b1a74639b9340e4abaf00fe86c9ceb50/ldjcourse-0.0.7.9.tar.gz
+[2024-04-23 11:15:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-23 11:15:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-23 11:15:36] INFO root fetch - processPackages [ldjcourse]: executing diffoscope
+[2024-04-23 11:15:36] INFO root fetch - processPackages [ldjcourse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldjcourse-0.0.7.8.tar.gz tmp/ldjcourse-0.0.7.9.tar.gz --markdown 20240423/l/ldjcourse/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-04-23 11:15:36] INFO root fetch - processPackages [aliyun-python-sdk-computenest]: Downloading https://files.pythonhosted.org/packages/02/0b/b19008910d8d429d9ca69ffb39d69b3998af6064cc3cb5f393f21f2b4e51/aliyun-python-sdk-computenest-1.0.1.tar.gz
+[2024-04-23 11:15:36] INFO root fetch - processPackages [forta-bot-sdk]: Downloading https://files.pythonhosted.org/packages/38/bf/f3b38f4c99909cc677a5346591bce388069a1c89c2b6b4019b000cfa13f6/forta_bot_sdk-0.2.3.tar.gz
+[2024-04-23 11:15:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-23 11:15:36] INFO root fetch - processPackages [hastexo-xblock]: Downloading https://files.pythonhosted.org/packages/7d/07/de8fca080738954fb1a6f21eeb1b016ca65eb6b5da0d125b35f986a5193d/hastexo-xblock-7.9.1.tar.gz
+[2024-04-23 11:15:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-23 11:15:36] INFO root fetch - processPackages [aliyun-python-sdk-computenest]: executing diffoscope
+[2024-04-23 11:15:36] INFO root fetch - processPackages [aliyun-python-sdk-computenest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-computenest-1.0.0.tar.gz tmp/aliyun-python-sdk-computenest-1.0.1.tar.gz --markdown 20240423/a/aliyun-python-sdk-computenest/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-23 11:15:36] INFO root fetch - processPackages [forta-bot-sdk]: executing diffoscope
+[2024-04-23 11:15:36] INFO root fetch - processPackages [forta-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forta_bot_sdk-0.2.2.tar.gz tmp/forta_bot_sdk-0.2.3.tar.gz --markdown 20240423/f/forta-bot-sdk/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-23 11:15:36] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-23 11:15:36] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240423/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-23 11:15:36] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-23 11:15:36] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240423/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-23 11:15:36] INFO root fetch - processPackages [hastexo-xblock]: executing diffoscope
+[2024-04-23 11:15:36] INFO root fetch - processPackages [hastexo-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hastexo-xblock-7.9.0.tar.gz tmp/hastexo-xblock-7.9.1.tar.gz --markdown 20240423/h/hastexo-xblock/7.9.0-7.9.1/README.md --exclude *.pyd
+[2024-04-23 11:15:36] INFO root fetch - processPackages [ldjcourse]: Remove: archive file [/home/abi/fetcher/tmp/ldjcourse-0.0.7.8.tar.gz]
+[2024-04-23 11:15:36] INFO root fetch - processPackages [ldjcourse]: Remove: archive file [/home/abi/fetcher/tmp/ldjcourse-0.0.7.9.tar.gz]
+[2024-04-23 11:15:36] INFO root fetch - main [MainThread]: End processing [ldjcourse]: success
+[2024-04-23 11:15:37] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-23 11:15:37] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-23 11:15:37] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-23 11:15:37] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-23 11:15:37] INFO root fetch - processPackages [aliyun-python-sdk-computenest]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-computenest-1.0.0.tar.gz]
+[2024-04-23 11:15:37] INFO root fetch - processPackages [aliyun-python-sdk-computenest]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-computenest-1.0.1.tar.gz]
+[2024-04-23 11:15:37] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-computenest]: success
+[2024-04-23 11:15:37] INFO root fetch - processPackages [forta-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/forta_bot_sdk-0.2.2.tar.gz]
+[2024-04-23 11:15:37] INFO root fetch - processPackages [forta-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/forta_bot_sdk-0.2.3.tar.gz]
+[2024-04-23 11:15:37] INFO root fetch - main [MainThread]: End processing [forta-bot-sdk]: success
+[2024-04-23 11:15:37] INFO root fetch - processPackages [hastexo-xblock]: Remove: archive file [/home/abi/fetcher/tmp/hastexo-xblock-7.9.0.tar.gz]
+[2024-04-23 11:15:37] INFO root fetch - processPackages [hastexo-xblock]: Remove: archive file [/home/abi/fetcher/tmp/hastexo-xblock-7.9.1.tar.gz]
+[2024-04-23 11:15:37] INFO root fetch - main [MainThread]: End processing [hastexo-xblock]: success
+[2024-04-23 11:15:37] INFO root fetch - main [MainThread]: Store serial: [22891578]
