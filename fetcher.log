@@ -3124,3 +3124,33 @@
 [2024-04-23 02:40:19] INFO root fetch - processPackages [streamlit-aggrid]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_aggrid-1.0.4.tar.gz]
 [2024-04-23 02:40:19] INFO root fetch - main [MainThread]: End processing [streamlit-aggrid]: success
 [2024-04-23 02:40:19] INFO root fetch - main [MainThread]: Store serial: [22886468]
+[2024-04-23 02:42:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886468]
+[2024-04-23 02:42:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 02:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: komodo-sdk
+[2024-04-23 02:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2024-04-23 02:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-threads
+[2024-04-23 02:42:34] INFO root fetch - processPackages [komodo-sdk]: New version: [0.0.98] Old Version: [0.0.97]
+[2024-04-23 02:42:34] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-23 02:42:34] INFO root fetch - processPackages [mo-threads]: New version: [6.599.24114] Old Version: [6.589.24111]
+[2024-04-23 02:42:34] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/2d/b2/2cffa884d250a5bb8930b410ea153e44a5c0db1b0f4b863766e60dde3c8b/komodo_sdk-0.0.97.tar.gz
+[2024-04-23 02:42:34] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-23 02:42:34] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/de/5b/5598f078a57f327d50d7599f12d26925036c2e2f04a568a370f517132913/mo_threads-6.589.24111.tar.gz
+[2024-04-23 02:42:34] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-23 02:42:34] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-23 02:42:34] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240423/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-23 02:42:34] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/62/c1/fa039959079b730831cbba7f02717baca447de1788681cc20e030caa52a8/mo_threads-6.599.24114.tar.gz
+[2024-04-23 02:42:34] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/3a/17/9f6810bdd10505f9f2d331cd846f2868d4a4dc3229e2ad9c34599217b4cf/komodo_sdk-0.0.98.tar.gz
+[2024-04-23 02:42:34] INFO root fetch - processPackages [mo-threads]: executing diffoscope
+[2024-04-23 02:42:34] INFO root fetch - processPackages [mo-threads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_threads-6.589.24111.tar.gz tmp/mo_threads-6.599.24114.tar.gz --markdown 20240423/m/mo-threads/6.589.24111-6.599.24114/README.md --exclude *.pyd
+[2024-04-23 02:42:35] INFO root fetch - processPackages [komodo-sdk]: executing diffoscope
+[2024-04-23 02:42:35] INFO root fetch - processPackages [komodo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komodo_sdk-0.0.97.tar.gz tmp/komodo_sdk-0.0.98.tar.gz --markdown 20240423/k/komodo-sdk/0.0.97-0.0.98/README.md --exclude *.pyd
+[2024-04-23 02:42:35] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-23 02:42:35] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-23 02:42:35] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-23 02:42:35] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-6.589.24111.tar.gz]
+[2024-04-23 02:42:35] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-6.599.24114.tar.gz]
+[2024-04-23 02:42:35] INFO root fetch - main [MainThread]: End processing [mo-threads]: success
+[2024-04-23 02:42:36] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.97.tar.gz]
+[2024-04-23 02:42:36] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.98.tar.gz]
+[2024-04-23 02:42:36] INFO root fetch - main [MainThread]: End processing [komodo-sdk]: success
+[2024-04-23 02:42:36] INFO root fetch - main [MainThread]: Store serial: [22886479]
