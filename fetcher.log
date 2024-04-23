@@ -3284,3 +3284,33 @@
 [2024-04-23 02:49:52] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-04-23 02:49:52] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-04-23 02:49:52] INFO root fetch - main [MainThread]: Store serial: [22886524]
+[2024-04-23 02:51:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886524]
+[2024-04-23 02:52:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 02:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-readability-metrics-small
+[2024-04-23 02:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiogram-tonconnect
+[2024-04-23 02:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multillm
+[2024-04-23 02:52:00] INFO root fetch - processPackages [py-readability-metrics-small]: New version: [1.6] Old Version: [1.5]
+[2024-04-23 02:52:00] INFO root fetch - processPackages [py-readability-metrics-small]: Downloading https://files.pythonhosted.org/packages/96/98/8123505b77f8416b9ca110eeda94476c2183bbca2376300e4c6a1e682139/py_readability_metrics_small-1.5.tar.gz
+[2024-04-23 02:52:01] INFO root fetch - processPackages [aiogram-tonconnect]: New version: [0.13.4] Old Version: [0.13.3]
+[2024-04-23 02:52:01] INFO root fetch - processPackages [multillm]: New version: [0.997] Old Version: [0.996]
+[2024-04-23 02:52:01] INFO root fetch - processPackages [aiogram-tonconnect]: Downloading https://files.pythonhosted.org/packages/69/df/a93aaf21b1a18f3894f50eeb3e3a69008119f01fc294c7180630ad21a4f1/aiogram-tonconnect-0.13.3.tar.gz
+[2024-04-23 02:52:01] INFO root fetch - processPackages [multillm]: Downloading https://files.pythonhosted.org/packages/ce/82/ed6a564cdd5c74921b3b2657e4a9d6e4d79532a2cf2815a367d5ae15beec/multillm-0.996.tar.gz
+[2024-04-23 02:52:01] INFO root fetch - processPackages [py-readability-metrics-small]: Downloading https://files.pythonhosted.org/packages/a1/20/d10b1f19fa2d3bec3716de0b7012953c505c983b5e1d0411114142afbd7e/py_readability_metrics_small-1.6.tar.gz
+[2024-04-23 02:52:01] INFO root fetch - processPackages [py-readability-metrics-small]: executing diffoscope
+[2024-04-23 02:52:01] INFO root fetch - processPackages [py-readability-metrics-small]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_readability_metrics_small-1.5.tar.gz tmp/py_readability_metrics_small-1.6.tar.gz --markdown 20240423/p/py-readability-metrics-small/1.5-1.6/README.md --exclude *.pyd
+[2024-04-23 02:52:01] INFO root fetch - processPackages [aiogram-tonconnect]: Downloading https://files.pythonhosted.org/packages/54/b5/8a650d9441cc5e225915bcf6736199be1176d23550c0919194a139b2eeef/aiogram-tonconnect-0.13.4.tar.gz
+[2024-04-23 02:52:01] INFO root fetch - processPackages [multillm]: Downloading https://files.pythonhosted.org/packages/d0/77/5be74a6cb7c46d1df4bef257284a899930722c228cae9b02320384b5b31f/multillm-0.997.tar.gz
+[2024-04-23 02:52:01] INFO root fetch - processPackages [aiogram-tonconnect]: executing diffoscope
+[2024-04-23 02:52:01] INFO root fetch - processPackages [aiogram-tonconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-tonconnect-0.13.3.tar.gz tmp/aiogram-tonconnect-0.13.4.tar.gz --markdown 20240423/a/aiogram-tonconnect/0.13.3-0.13.4/README.md --exclude *.pyd
+[2024-04-23 02:52:01] INFO root fetch - processPackages [multillm]: executing diffoscope
+[2024-04-23 02:52:01] INFO root fetch - processPackages [multillm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multillm-0.996.tar.gz tmp/multillm-0.997.tar.gz --markdown 20240423/m/multillm/0.996-0.997/README.md --exclude *.pyd
+[2024-04-23 02:52:02] INFO root fetch - processPackages [py-readability-metrics-small]: Remove: archive file [/home/abi/fetcher/tmp/py_readability_metrics_small-1.5.tar.gz]
+[2024-04-23 02:52:02] INFO root fetch - processPackages [py-readability-metrics-small]: Remove: archive file [/home/abi/fetcher/tmp/py_readability_metrics_small-1.6.tar.gz]
+[2024-04-23 02:52:02] INFO root fetch - main [MainThread]: End processing [py-readability-metrics-small]: success
+[2024-04-23 02:52:02] INFO root fetch - processPackages [aiogram-tonconnect]: Remove: archive file [/home/abi/fetcher/tmp/aiogram-tonconnect-0.13.3.tar.gz]
+[2024-04-23 02:52:02] INFO root fetch - processPackages [aiogram-tonconnect]: Remove: archive file [/home/abi/fetcher/tmp/aiogram-tonconnect-0.13.4.tar.gz]
+[2024-04-23 02:52:02] INFO root fetch - main [MainThread]: End processing [aiogram-tonconnect]: success
+[2024-04-23 02:52:02] INFO root fetch - processPackages [multillm]: Remove: archive file [/home/abi/fetcher/tmp/multillm-0.996.tar.gz]
+[2024-04-23 02:52:02] INFO root fetch - processPackages [multillm]: Remove: archive file [/home/abi/fetcher/tmp/multillm-0.997.tar.gz]
+[2024-04-23 02:52:02] INFO root fetch - main [MainThread]: End processing [multillm]: success
+[2024-04-23 02:52:02] INFO root fetch - main [MainThread]: Store serial: [22886534]
