@@ -11299,3 +11299,75 @@
 [2024-04-23 07:46:33] INFO root fetch - processPackages [vvm-lib]: Remove: archive file [/home/abi/fetcher/tmp/vvm_lib-1.0.1.tar.gz]
 [2024-04-23 07:46:33] INFO root fetch - main [MainThread]: End processing [vvm-lib]: success
 [2024-04-23 07:46:33] INFO root fetch - main [MainThread]: Store serial: [22889488]
+[2024-04-23 07:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889488]
+[2024-04-23 07:48:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 07:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appmesh
+[2024-04-23 07:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bo4e
+[2024-04-23 07:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarers.aws-secure-log-bucket
+[2024-04-23 07:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gammarers.aws-secure-flow-log-bucket
+[2024-04-23 07:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bleuscore
+[2024-04-23 07:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-auth-user-case-insensitive
+[2024-04-23 07:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-auth-ldaps
+[2024-04-23 07:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-auth-oidc-environment
+[2024-04-23 07:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-auth-api-key-server-env
+[2024-04-23 07:48:42] INFO root fetch - processPackages [appmesh]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-04-23 07:48:42] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-oidc-environment]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.1]
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-user-case-insensitive]: New version: [14.0.1.0.2.dev1] Old Version: [14.0.1.0.1.dev5]
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-api-key-server-env]: New version: [14.0.1.1.1.dev3] Old Version: [14.0.1.1.1.dev1]
+[2024-04-23 07:48:42] INFO root fetch - processPackages [bo4e]: New version: [202401.1.0rc2] Old Version: [202401.1.0rc1]
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-ldaps]: New version: [14.0.1.0.2.dev3] Old Version: [14.0.1.0.2.dev1]
+[2024-04-23 07:48:42] WARNING root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: Skipping, unable to determine old version
+[2024-04-23 07:48:42] WARNING root fetch - processPackages [bleuscore]: Skipping, unable to determine old version
+[2024-04-23 07:48:42] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-flow-log-bucket] error
+[2024-04-23 07:48:42] INFO root fetch - main [MainThread]: End processing [bleuscore] error
+[2024-04-23 07:48:42] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/e5/15/2a612beec390ca568f49b25d1713b2ec3082e50b9cabaa9fd4863e14ac0e/appmesh-0.8.6-py3-none-any.whl
+[2024-04-23 07:48:42] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/b2/c4/09ca054e17a17c6a7e0f44ce15a5d59da98759117e9c5c716356f494ca58/gammarers.aws-secure-log-bucket-1.6.0.tar.gz
+[2024-04-23 07:48:42] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/c8/f0/3927c822e3df9b1dd7bf65903532ab21494d3f97b40261a123f031dd1fb2/bo4e-202401.1.0rc1.tar.gz
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-api-key-server-env]: Downloading https://files.pythonhosted.org/packages/8b/03/2b2947c3d831ac9adad7ab848e5d83e25e5852805f773be8751182018888/odoo14_addon_auth_api_key_server_env-14.0.1.1.1.dev1-py3-none-any.whl
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-user-case-insensitive]: Downloading https://files.pythonhosted.org/packages/dc/4d/bdb1d679d31e66125e6d67b40daa8ddb4884b700cd6aa9afbb353bb7fe35/odoo14_addon_auth_user_case_insensitive-14.0.1.0.1.dev5-py3-none-any.whl
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-oidc-environment]: Downloading https://files.pythonhosted.org/packages/26/ba/115d1097f47c935b5dbf1edde725520790e4cb92cf30139f55fff28187c5/odoo14_addon_auth_oidc_environment-14.0.1.0.1-py3-none-any.whl
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-ldaps]: Downloading https://files.pythonhosted.org/packages/09/4a/c64bc1dba60452e313ede5a201b3326eb1ada5692090542e74fa10f7a5ef/odoo14_addon_auth_ldaps-14.0.1.0.2.dev1-py3-none-any.whl
+[2024-04-23 07:48:42] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/26/a0/1252db1e2084fc81b29270767c2910d150e9f07444cdd78b500f37106899/appmesh-0.8.7-py3-none-any.whl
+[2024-04-23 07:48:42] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-04-23 07:48:42] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-0.8.6-py3-none-any.whl.zip tmp/appmesh-0.8.7-py3-none-any.whl.zip --markdown 20240423/a/appmesh/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-04-23 07:48:42] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/43/08/4e3e248e1818f9ec4110c34a9ac3105634c1a764d80263bdec2eea8b757b/gammarers.aws-secure-log-bucket-1.6.1.tar.gz
+[2024-04-23 07:48:42] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: executing diffoscope
+[2024-04-23 07:48:42] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarers.aws-secure-log-bucket-1.6.0.tar.gz tmp/gammarers.aws-secure-log-bucket-1.6.1.tar.gz --markdown 20240423/g/gammarers.aws-secure-log-bucket/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-api-key-server-env]: Downloading https://files.pythonhosted.org/packages/b1/f9/40ca02417e68fdb3a8154b4303c773c583d650b4827c310ca42eb2e0c326/odoo14_addon_auth_api_key_server_env-14.0.1.1.1.dev3-py3-none-any.whl
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-ldaps]: Downloading https://files.pythonhosted.org/packages/cf/d2/065b2dcc55a86dd92615beff0ca7e2224174fff3a346307e07061ba533f0/odoo14_addon_auth_ldaps-14.0.1.0.2.dev3-py3-none-any.whl
+[2024-04-23 07:48:42] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/ec/36/3d0a6181b2c6fc8df4204764a32eb4aa3bce00249ea2b0a67abb0d514b56/bo4e-202401.1.0rc2.tar.gz
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-user-case-insensitive]: Downloading https://files.pythonhosted.org/packages/5d/3e/f7fac728af5f324e26f702daf31509532dfd401472772979e1d8cb093b1b/odoo14_addon_auth_user_case_insensitive-14.0.1.0.2.dev1-py3-none-any.whl
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-oidc-environment]: Downloading https://files.pythonhosted.org/packages/4e/ac/dfc4bb7375bc4618a7b92c129a0768e77d94e00bee018f53da0e9661e582/odoo14_addon_auth_oidc_environment-14.0.1.0.2.dev2-py3-none-any.whl
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-ldaps]: executing diffoscope
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-ldaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_auth_ldaps-14.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_auth_ldaps-14.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-auth-ldaps/14.0.1.0.2.dev1-14.0.1.0.2.dev3/README.md --exclude *.pyd
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-user-case-insensitive]: executing diffoscope
+[2024-04-23 07:48:42] INFO root fetch - processPackages [odoo14-addon-auth-user-case-insensitive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_auth_user_case_insensitive-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_auth_user_case_insensitive-14.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-auth-user-case-insensitive/14.0.1.0.1.dev5-14.0.1.0.2.dev1/README.md --exclude *.pyd
+[2024-04-23 07:48:43] INFO root fetch - processPackages [bo4e]: executing diffoscope
+[2024-04-23 07:48:43] INFO root fetch - processPackages [bo4e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bo4e-202401.1.0rc1.tar.gz tmp/bo4e-202401.1.0rc2.tar.gz --markdown 20240423/b/bo4e/202401.1.0rc1-202401.1.0rc2/README.md --exclude *.pyd
+[2024-04-23 07:48:43] INFO root fetch - processPackages [odoo14-addon-auth-api-key-server-env]: executing diffoscope
+[2024-04-23 07:48:43] INFO root fetch - processPackages [odoo14-addon-auth-api-key-server-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_auth_api_key_server_env-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_auth_api_key_server_env-14.0.1.1.1.dev3-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-auth-api-key-server-env/14.0.1.1.1.dev1-14.0.1.1.1.dev3/README.md --exclude *.pyd
+[2024-04-23 07:48:43] INFO root fetch - processPackages [odoo14-addon-auth-oidc-environment]: executing diffoscope
+[2024-04-23 07:48:43] INFO root fetch - processPackages [odoo14-addon-auth-oidc-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_auth_oidc_environment-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_auth_oidc_environment-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-auth-oidc-environment/14.0.1.0.1-14.0.1.0.2.dev2/README.md --exclude *.pyd
+[2024-04-23 07:48:43] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.8.6-py3-none-any.whl.zip]
+[2024-04-23 07:48:43] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.8.7-py3-none-any.whl.zip]
+[2024-04-23 07:48:43] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-04-23 07:48:43] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-log-bucket-1.6.0.tar.gz]
+[2024-04-23 07:48:43] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-log-bucket-1.6.1.tar.gz]
+[2024-04-23 07:48:43] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-log-bucket]: success
+[2024-04-23 07:48:43] INFO root fetch - processPackages [odoo14-addon-auth-ldaps]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auth_ldaps-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2024-04-23 07:48:43] INFO root fetch - processPackages [odoo14-addon-auth-ldaps]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auth_ldaps-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2024-04-23 07:48:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-auth-ldaps]: success
+[2024-04-23 07:48:43] INFO root fetch - processPackages [odoo14-addon-auth-api-key-server-env]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auth_api_key_server_env-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2024-04-23 07:48:43] INFO root fetch - processPackages [odoo14-addon-auth-api-key-server-env]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auth_api_key_server_env-14.0.1.1.1.dev3-py3-none-any.whl.zip]
+[2024-04-23 07:48:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-auth-api-key-server-env]: success
+[2024-04-23 07:48:43] INFO root fetch - processPackages [odoo14-addon-auth-user-case-insensitive]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auth_user_case_insensitive-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2024-04-23 07:48:43] INFO root fetch - processPackages [odoo14-addon-auth-user-case-insensitive]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auth_user_case_insensitive-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2024-04-23 07:48:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-auth-user-case-insensitive]: success
+[2024-04-23 07:48:43] INFO root fetch - processPackages [odoo14-addon-auth-oidc-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auth_oidc_environment-14.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-23 07:48:43] INFO root fetch - processPackages [odoo14-addon-auth-oidc-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auth_oidc_environment-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2024-04-23 07:48:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-auth-oidc-environment]: success
+[2024-04-23 07:48:44] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.1.0rc1.tar.gz]
+[2024-04-23 07:48:44] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.1.0rc2.tar.gz]
+[2024-04-23 07:48:44] INFO root fetch - main [MainThread]: End processing [bo4e]: success
+[2024-04-23 07:48:44] INFO root fetch - main [MainThread]: Store serial: [22889520]
