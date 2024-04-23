@@ -9991,3 +9991,36 @@
 [2024-04-23 06:08:15] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.1.1.tar.gz]
 [2024-04-23 06:08:15] INFO root fetch - main [MainThread]: End processing [komodo-sdk]: success
 [2024-04-23 06:08:15] INFO root fetch - main [MainThread]: Store serial: [22888900]
+[2024-04-23 06:10:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888900]
+[2024-04-23 06:10:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 06:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shared-atomic-enterprise
+[2024-04-23 06:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypipr
+[2024-04-23 06:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gemi-python
+[2024-04-23 06:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: piapia
+[2024-04-23 06:10:23] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.80]
+[2024-04-23 06:10:23] INFO root fetch - processPackages [gemi-python]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 06:10:23] WARNING root fetch - processPackages [piapia]: Skipping, unable to determine old version
+[2024-04-23 06:10:23] INFO root fetch - main [MainThread]: End processing [piapia] error
+[2024-04-23 06:10:23] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!3.3.4] Old Version: [5!3.3.3]
+[2024-04-23 06:10:24] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/bd/39/27640a54c833e6f5dc08fdeac4b5649b034e2f560f6e06bee7f078faaa52/pypipr-1.0.80.tar.gz
+[2024-04-23 06:10:24] INFO root fetch - processPackages [gemi-python]: Downloading https://files.pythonhosted.org/packages/00/20/089ec586ca67d530ddb168d963ec7fd0afc32b86d92832683f9fdcfc1a4e/gemi-python-0.1.1.tar.gz
+[2024-04-23 06:10:24] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/d6/51/7f86a1ca8fc09392499ffe1ce5ed056244193afcf0cecfbdc67c6ef186f8/shared_atomic_enterprise-5!3.3.3-cp39-none-win_amd64.whl
+[2024-04-23 06:10:24] INFO root fetch - processPackages [gemi-python]: Downloading https://files.pythonhosted.org/packages/a8/0c/08fbe40cd48082f279f3d78dd81a16c779713639fce0baf6e4805911e5c6/gemi_python-0.1.2.tar.gz
+[2024-04-23 06:10:24] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-23 06:10:24] INFO root fetch - processPackages [gemi-python]: executing diffoscope
+[2024-04-23 06:10:24] INFO root fetch - processPackages [gemi-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemi-python-0.1.1.tar.gz tmp/gemi_python-0.1.2.tar.gz --markdown 20240423/g/gemi-python/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 06:10:24] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-23 06:10:24] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.80.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240423/p/pypipr/1.0.80-1.0.9/README.md --exclude *.pyd
+[2024-04-23 06:10:24] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/9b/56/f5101ced1002069c06d60d0a77ac39915633072342cf38436c629056a036/shared_atomic_enterprise-5!3.3.4-cp39-none-win_amd64.whl
+[2024-04-23 06:10:25] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.80.tar.gz]
+[2024-04-23 06:10:25] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-23 06:10:25] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-23 06:10:25] INFO root fetch - processPackages [gemi-python]: Remove: archive file [/home/abi/fetcher/tmp/gemi-python-0.1.1.tar.gz]
+[2024-04-23 06:10:25] INFO root fetch - processPackages [gemi-python]: Remove: archive file [/home/abi/fetcher/tmp/gemi_python-0.1.2.tar.gz]
+[2024-04-23 06:10:25] INFO root fetch - main [MainThread]: End processing [gemi-python]: success
+[2024-04-23 06:10:25] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2024-04-23 06:10:25] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!3.3.3-cp39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!3.3.4-cp39-none-win_amd64.whl.zip --markdown 20240423/s/shared-atomic-enterprise/5!3.3.3-5!3.3.4/README.md --exclude *.pyd
+[2024-04-23 06:10:35] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.3.3-cp39-none-win_amd64.whl.zip]
+[2024-04-23 06:10:35] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.3.4-cp39-none-win_amd64.whl.zip]
+[2024-04-23 06:10:35] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2024-04-23 06:10:35] INFO root fetch - main [MainThread]: Store serial: [22888918]
