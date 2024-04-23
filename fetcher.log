@@ -18988,3 +18988,32 @@
 [2024-04-23 13:07:34] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.9.tar.gz]
 [2024-04-23 13:07:34] INFO root fetch - main [MainThread]: End processing [tensorneko-util]: success
 [2024-04-23 13:07:34] INFO root fetch - main [MainThread]: Store serial: [22892764]
+[2024-04-23 13:09:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892764]
+[2024-04-23 13:09:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 13:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meantools
+[2024-04-23 13:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: motion-lake-client
+[2024-04-23 13:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codex-of-the-damned
+[2024-04-23 13:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bugbug
+[2024-04-23 13:09:43] INFO root fetch - processPackages [motion-lake-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 13:09:43] INFO root fetch - processPackages [codex-of-the-damned]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 13:09:43] INFO root fetch - processPackages [bugbug]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 13:09:43] INFO root fetch - processPackages [motion-lake-client]: Downloading https://files.pythonhosted.org/packages/4d/d9/24c2c9e9c6ac71ddb981bd6a39d81ae61575802aa856369f916a5af31ae4/motion_lake_client-0.0.8.tar.gz
+[2024-04-23 13:09:43] INFO root fetch - processPackages [codex-of-the-damned]: Downloading https://files.pythonhosted.org/packages/c2/11/df884619fc13a601b050cb3e01ceb86181c35a4ee94f824c8544d07562f3/codex-of-the-damned-1.8.tar.gz
+[2024-04-23 13:09:43] WARNING root fetch - processPackages [meantools]: Skipping, unable to determine old version
+[2024-04-23 13:09:43] INFO root fetch - main [MainThread]: End processing [meantools] error
+[2024-04-23 13:09:43] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/5b/6a/fc99f3a6e09827c698ee6eab2d88fea1cf94e1c6d0f0d04236a834ba423b/bugbug-0.0.98.tar.gz
+[2024-04-23 13:09:43] WARNING root fetch - processPackages [codex-of-the-damned]: Skipping package: exceeds size limit 17715792>=10485760
+[2024-04-23 13:09:43] INFO root fetch - main [MainThread]: End processing [codex-of-the-damned] error
+[2024-04-23 13:09:43] INFO root fetch - processPackages [motion-lake-client]: Downloading https://files.pythonhosted.org/packages/db/37/c3938b8bdd7cffe1294234cdb0761a2196953f294fd94d87ee4f308a8272/motion_lake_client-0.0.9.tar.gz
+[2024-04-23 13:09:43] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/1b/68/2d9f5d88a3b137b0acc5c563e30de6711280c6bea1292fb42f4652b41c4b/bugbug-0.0.99.tar.gz
+[2024-04-23 13:09:43] INFO root fetch - processPackages [motion-lake-client]: executing diffoscope
+[2024-04-23 13:09:43] INFO root fetch - processPackages [motion-lake-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_lake_client-0.0.8.tar.gz tmp/motion_lake_client-0.0.9.tar.gz --markdown 20240423/m/motion-lake-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 13:09:43] INFO root fetch - processPackages [bugbug]: executing diffoscope
+[2024-04-23 13:09:43] INFO root fetch - processPackages [bugbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugbug-0.0.98.tar.gz tmp/bugbug-0.0.99.tar.gz --markdown 20240423/b/bugbug/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 13:09:44] INFO root fetch - processPackages [motion-lake-client]: Remove: archive file [/home/abi/fetcher/tmp/motion_lake_client-0.0.8.tar.gz]
+[2024-04-23 13:09:44] INFO root fetch - processPackages [motion-lake-client]: Remove: archive file [/home/abi/fetcher/tmp/motion_lake_client-0.0.9.tar.gz]
+[2024-04-23 13:09:44] INFO root fetch - main [MainThread]: End processing [motion-lake-client]: success
+[2024-04-23 13:09:44] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.98.tar.gz]
+[2024-04-23 13:09:44] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.99.tar.gz]
+[2024-04-23 13:09:44] INFO root fetch - main [MainThread]: End processing [bugbug]: success
+[2024-04-23 13:09:44] INFO root fetch - main [MainThread]: Store serial: [22892781]
