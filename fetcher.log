@@ -21204,3 +21204,62 @@ EOFError: EOF read where object expected
 [2024-04-23 14:21:48] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.9.tar.gz]
 [2024-04-23 14:21:48] INFO root fetch - main [MainThread]: End processing [funasr]: success
 [2024-04-23 14:21:48] INFO root fetch - main [MainThread]: Store serial: [22893671]
+[2024-04-23 14:23:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893671]
+[2024-04-23 14:23:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 14:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kiddo-python-bindings
+[2024-04-23 14:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: melobot
+[2024-04-23 14:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tifftools
+[2024-04-23 14:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nestipy-decorator
+[2024-04-23 14:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py2nut
+[2024-04-23 14:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepdespeckling
+[2024-04-23 14:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypnusershub
+[2024-04-23 14:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tcp-sdk
+[2024-04-23 14:23:57] INFO root fetch - processPackages [tifftools]: New version: [1.4.2.dev4] Old Version: [1.4.2.dev2]
+[2024-04-23 14:23:57] WARNING root fetch - processPackages [nestipy-decorator]: Skipping, unable to determine old version
+[2024-04-23 14:23:57] INFO root fetch - main [MainThread]: End processing [nestipy-decorator] error
+[2024-04-23 14:23:57] WARNING root fetch - processPackages [kiddo-python-bindings]: Skipping, unable to determine old version
+[2024-04-23 14:23:57] INFO root fetch - main [MainThread]: End processing [kiddo-python-bindings] error
+[2024-04-23 14:23:57] INFO root fetch - processPackages [melobot]: New version: [2.6.1] Old Version: [2.5.9]
+[2024-04-23 14:23:57] INFO root fetch - processPackages [tifftools]: Downloading https://files.pythonhosted.org/packages/60/53/c4f5d6c1743d90eb09d8be8176c3151d10daddce44ebcc68ad868b8a5176/tifftools-1.4.2.dev2.tar.gz
+[2024-04-23 14:23:57] INFO root fetch - processPackages [tcp-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 14:23:57] INFO root fetch - processPackages [deepdespeckling]: New version: [0.8] Old Version: [0.7]
+[2024-04-23 14:23:57] INFO root fetch - processPackages [py2nut]: New version: [4.2.4] Old Version: [4.2.3]
+[2024-04-23 14:23:57] INFO root fetch - processPackages [pypnusershub]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-04-23 14:23:57] INFO root fetch - processPackages [melobot]: Downloading https://files.pythonhosted.org/packages/7a/22/a5b2baa3b113da213865a10258449637123d7e6b0667e58e193f56193a04/melobot-2.5.9.tar.gz
+[2024-04-23 14:23:58] INFO root fetch - processPackages [tifftools]: Downloading https://files.pythonhosted.org/packages/bf/cd/633a11aed95c40f01d99c9211f5fb313965c93103e062e5efe74b64dc774/tifftools-1.4.2.dev4.tar.gz
+[2024-04-23 14:23:58] INFO root fetch - processPackages [tcp-sdk]: Downloading https://files.pythonhosted.org/packages/a8/fe/3eec87fb958555d178cfa6cc84d695f529593f81fbe346aaff94a025ff8c/tcp-sdk-1.0.8.tar.gz
+[2024-04-23 14:23:58] INFO root fetch - processPackages [pypnusershub]: Downloading https://files.pythonhosted.org/packages/03/a3/20810a3119d7d954f8a09fb6ad538763d430b1ece3a21b164afaa8ad7847/pypnusershub-2.1.3.tar.gz
+[2024-04-23 14:23:58] INFO root fetch - processPackages [py2nut]: Downloading https://files.pythonhosted.org/packages/85/85/f045a499cb9d1a6b335cf504be2620db01fbbd2b129b4c2c7be6c8249286/py2nut-4.2.3.tar.gz
+[2024-04-23 14:23:58] INFO root fetch - processPackages [deepdespeckling]: Downloading https://files.pythonhosted.org/packages/5f/64/7acc8b7c84d4c8e7600729bc6b24f8b9655e2591fb40a33453ed80f2bdcf/deepdespeckling-0.7.tar.gz
+[2024-04-23 14:23:58] INFO root fetch - processPackages [melobot]: Downloading https://files.pythonhosted.org/packages/78/a2/6a16de11131c9e11dc3f063100e7c13254106f5c6ba9949b35c88de8d30b/melobot-2.6.1-py3-none-any.whl
+[2024-04-23 14:23:58] INFO root fetch - processPackages [tifftools]: executing diffoscope
+[2024-04-23 14:23:58] INFO root fetch - processPackages [tifftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tifftools-1.4.2.dev2.tar.gz tmp/tifftools-1.4.2.dev4.tar.gz --markdown 20240423/t/tifftools/1.4.2.dev2-1.4.2.dev4/README.md --exclude *.pyd
+[2024-04-23 14:23:58] WARNING root fetch - processPackages [deepdespeckling]: Skipping package: exceeds size limit 22133068>=10485760
+[2024-04-23 14:23:58] INFO root fetch - main [MainThread]: End processing [deepdespeckling] error
+[2024-04-23 14:23:58] INFO root fetch - processPackages [melobot]: executing diffoscope
+[2024-04-23 14:23:58] INFO root fetch - processPackages [melobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melobot-2.5.9.tar.gz tmp/melobot-2.6.1-py3-none-any.whl.zip --markdown 20240423/m/melobot/2.5.9-2.6.1/README.md --exclude *.pyd
+[2024-04-23 14:23:58] INFO root fetch - processPackages [pypnusershub]: Downloading https://files.pythonhosted.org/packages/d5/e1/9a25b2718102e1587e2c1b2abef0c5626c51d1ab159b77f45b4529e548e2/pypnusershub-2.1.4.tar.gz
+[2024-04-23 14:23:58] INFO root fetch - processPackages [tcp-sdk]: Downloading https://files.pythonhosted.org/packages/18/df/8b72d8262f36110459df23d198313c29b3b4ddcd36ae2a3b90b47b0e3647/tcp-sdk-1.0.9.tar.gz
+[2024-04-23 14:23:58] INFO root fetch - processPackages [pypnusershub]: executing diffoscope
+[2024-04-23 14:23:58] INFO root fetch - processPackages [pypnusershub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypnusershub-2.1.3.tar.gz tmp/pypnusershub-2.1.4.tar.gz --markdown 20240423/p/pypnusershub/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-04-23 14:23:58] INFO root fetch - processPackages [py2nut]: Downloading https://files.pythonhosted.org/packages/89/87/ad959f5eb5134c7c44114577c63dacd91c4ad2189388750d827e5923396f/py2nut-4.2.4.tar.gz
+[2024-04-23 14:23:58] INFO root fetch - processPackages [tcp-sdk]: executing diffoscope
+[2024-04-23 14:23:58] INFO root fetch - processPackages [tcp-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcp-sdk-1.0.8.tar.gz tmp/tcp-sdk-1.0.9.tar.gz --markdown 20240423/t/tcp-sdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 14:23:58] INFO root fetch - processPackages [py2nut]: executing diffoscope
+[2024-04-23 14:23:58] INFO root fetch - processPackages [py2nut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2nut-4.2.3.tar.gz tmp/py2nut-4.2.4.tar.gz --markdown 20240423/p/py2nut/4.2.3-4.2.4/README.md --exclude *.pyd
+[2024-04-23 14:23:59] INFO root fetch - processPackages [melobot]: Remove: archive file [/home/abi/fetcher/tmp/melobot-2.5.9.tar.gz]
+[2024-04-23 14:23:59] INFO root fetch - processPackages [melobot]: Remove: archive file [/home/abi/fetcher/tmp/melobot-2.6.1-py3-none-any.whl.zip]
+[2024-04-23 14:23:59] INFO root fetch - main [MainThread]: End processing [melobot]: success
+[2024-04-23 14:23:59] INFO root fetch - processPackages [tifftools]: Remove: archive file [/home/abi/fetcher/tmp/tifftools-1.4.2.dev2.tar.gz]
+[2024-04-23 14:23:59] INFO root fetch - processPackages [tifftools]: Remove: archive file [/home/abi/fetcher/tmp/tifftools-1.4.2.dev4.tar.gz]
+[2024-04-23 14:23:59] INFO root fetch - main [MainThread]: End processing [tifftools]: success
+[2024-04-23 14:23:59] INFO root fetch - processPackages [tcp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tcp-sdk-1.0.8.tar.gz]
+[2024-04-23 14:23:59] INFO root fetch - processPackages [tcp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tcp-sdk-1.0.9.tar.gz]
+[2024-04-23 14:23:59] INFO root fetch - main [MainThread]: End processing [tcp-sdk]: success
+[2024-04-23 14:23:59] INFO root fetch - processPackages [pypnusershub]: Remove: archive file [/home/abi/fetcher/tmp/pypnusershub-2.1.3.tar.gz]
+[2024-04-23 14:23:59] INFO root fetch - processPackages [pypnusershub]: Remove: archive file [/home/abi/fetcher/tmp/pypnusershub-2.1.4.tar.gz]
+[2024-04-23 14:23:59] INFO root fetch - main [MainThread]: End processing [pypnusershub]: success
+[2024-04-23 14:23:59] INFO root fetch - processPackages [py2nut]: Remove: archive file [/home/abi/fetcher/tmp/py2nut-4.2.3.tar.gz]
+[2024-04-23 14:23:59] INFO root fetch - processPackages [py2nut]: Remove: archive file [/home/abi/fetcher/tmp/py2nut-4.2.4.tar.gz]
+[2024-04-23 14:23:59] INFO root fetch - main [MainThread]: End processing [py2nut]: success
+[2024-04-23 14:23:59] INFO root fetch - main [MainThread]: Store serial: [22893696]
