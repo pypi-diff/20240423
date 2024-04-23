@@ -10246,3 +10246,29 @@
 [2024-04-23 06:36:26] INFO root fetch - processPackages [apstools]: Remove: archive file [/home/abi/fetcher/tmp/apstools-1.6.9rc1.tar.gz]
 [2024-04-23 06:36:26] INFO root fetch - main [MainThread]: End processing [apstools]: success
 [2024-04-23 06:36:26] INFO root fetch - main [MainThread]: Store serial: [22889028]
+[2024-04-23 06:38:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889028]
+[2024-04-23 06:38:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 06:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muko
+[2024-04-23 06:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feffery-antd-charts
+[2024-04-23 06:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quant1x-xtquant
+[2024-04-23 06:38:34] INFO root fetch - processPackages [muko]: New version: [2.31] Old Version: [2.3]
+[2024-04-23 06:38:34] INFO root fetch - processPackages [feffery-antd-charts]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 06:38:34] INFO root fetch - processPackages [quant1x-xtquant]: New version: [2024.3.29] Old Version: [2024.2.6]
+[2024-04-23 06:38:35] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/35/81/1d2f7f8eecd75ecd9ec93f4c009e543ab79b5111aaff2e71822406fc37e8/muko-2.3-py3-none-any.whl
+[2024-04-23 06:38:35] INFO root fetch - processPackages [feffery-antd-charts]: Downloading https://files.pythonhosted.org/packages/7e/da/888ef142a7df1ef278ae51128e28ed9e1126a6fc20a3c64b3eaa3e395406/feffery_antd_charts-0.0.8.tar.gz
+[2024-04-23 06:38:35] INFO root fetch - processPackages [quant1x-xtquant]: Downloading https://files.pythonhosted.org/packages/d0/2a/4bb5b43b7cf338157b63c1ed847f8aad162e0cbe9dacae8d0e300a509c5d/quant1x-xtquant-2024.2.6.tar.gz
+[2024-04-23 06:38:35] WARNING root fetch - processPackages [quant1x-xtquant]: Skipping package: exceeds size limit 39746159>=10485760
+[2024-04-23 06:38:35] INFO root fetch - main [MainThread]: End processing [quant1x-xtquant] error
+[2024-04-23 06:38:35] INFO root fetch - processPackages [feffery-antd-charts]: Downloading https://files.pythonhosted.org/packages/a5/fa/4ad5bd41456de57ee8b3bac2fd400dce771dcaf7380618e0c8ac52faa672/feffery_antd_charts-0.0.9.tar.gz
+[2024-04-23 06:38:35] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/ba/9d/0ffd879c64b18bb4479027c986bab0f620ae5bcd5d01e2d9e33c1bd387d3/muko-2.31-py3-none-any.whl
+[2024-04-23 06:38:35] INFO root fetch - processPackages [feffery-antd-charts]: executing diffoscope
+[2024-04-23 06:38:35] INFO root fetch - processPackages [feffery-antd-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_antd_charts-0.0.8.tar.gz tmp/feffery_antd_charts-0.0.9.tar.gz --markdown 20240423/f/feffery-antd-charts/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 06:38:35] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-04-23 06:38:35] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-2.3-py3-none-any.whl.zip tmp/muko-2.31-py3-none-any.whl.zip --markdown 20240423/m/muko/2.3-2.31/README.md --exclude *.pyd
+[2024-04-23 06:38:40] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.3-py3-none-any.whl.zip]
+[2024-04-23 06:38:40] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.31-py3-none-any.whl.zip]
+[2024-04-23 06:38:40] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-04-23 06:39:01] INFO root fetch - processPackages [feffery-antd-charts]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_charts-0.0.8.tar.gz]
+[2024-04-23 06:39:01] INFO root fetch - processPackages [feffery-antd-charts]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_charts-0.0.9.tar.gz]
+[2024-04-23 06:39:01] INFO root fetch - main [MainThread]: End processing [feffery-antd-charts]: success
+[2024-04-23 06:39:01] INFO root fetch - main [MainThread]: Store serial: [22889036]
