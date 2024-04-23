@@ -11224,3 +11224,45 @@
 [2024-04-23 07:42:12] WARNING root fetch - processPackages [unimernet]: Skipping, unable to determine old version
 [2024-04-23 07:42:12] INFO root fetch - main [MainThread]: End processing [unimernet] error
 [2024-04-23 07:42:12] INFO root fetch - main [MainThread]: Store serial: [22889459]
+[2024-04-23 07:44:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889459]
+[2024-04-23 07:44:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 07:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QrscannerSushant
+[2024-04-23 07:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doctran_openai
+[2024-04-23 07:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trio-binance
+[2024-04-23 07:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gammarers.aws-secure-bucket
+[2024-04-23 07:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ynab-transaction-adjuster
+[2024-04-23 07:44:21] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-23 07:44:21] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-23 07:44:21] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/95/09/3f8b1a2ac831fc31ad90c964465f7d2bd518420d43c4da538aaa2a06f65f/gammarers.aws-secure-bucket-1.3.0.tar.gz
+[2024-04-23 07:44:21] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/e5/6b/e62ede7f73a1ba308c222a61f32e4eebd7546ff78dccbc60ca53a6101165/doctran_openai-0.0.4.tar.gz
+[2024-04-23 07:44:21] INFO root fetch - processPackages [trio-binance]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-23 07:44:21] WARNING root fetch - processPackages [QrscannerSushant]: Skipping, unable to determine old version
+[2024-04-23 07:44:21] INFO root fetch - main [MainThread]: End processing [QrscannerSushant] error
+[2024-04-23 07:44:21] INFO root fetch - processPackages [ynab-transaction-adjuster]: New version: [1.0.0] Old Version: [0.3.8]
+[2024-04-23 07:44:21] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/44/46/85a4db0ac00e8e47b0a35aa201392e9821b509917b7713bfb8d292f0bf49/trio-binance-0.2.2.tar.gz
+[2024-04-23 07:44:21] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/c3/a3/c2d58fe06aaff6f72f0c6b296f7b063cd0c360dc2a5c7e1d6bdf324ab203/gammarers.aws-secure-bucket-1.3.1.tar.gz
+[2024-04-23 07:44:21] INFO root fetch - processPackages [ynab-transaction-adjuster]: Downloading https://files.pythonhosted.org/packages/e3/dc/80d686692c27ae036a29f9591c779e25a5a610942c82de390afec0c91dcf/ynab_transaction_adjuster-0.3.8.tar.gz
+[2024-04-23 07:44:22] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/25/47/288f458d0098f1d13a3ab90efa82cc3d6af7aca0079827895228df401e8e/doctran_openai-0.0.5.tar.gz
+[2024-04-23 07:44:22] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: executing diffoscope
+[2024-04-23 07:44:22] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarers.aws-secure-bucket-1.3.0.tar.gz tmp/gammarers.aws-secure-bucket-1.3.1.tar.gz --markdown 20240423/g/gammarers.aws-secure-bucket/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-23 07:44:22] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-23 07:44:22] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.4.tar.gz tmp/doctran_openai-0.0.5.tar.gz --markdown 20240423/d/doctran_openai/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-23 07:44:22] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/fe/5d/61f5d32c4c734a6ddf1c899409de967d3ff62b3b499a6563101fb9ec5335/trio_binance-0.3.0.tar.gz
+[2024-04-23 07:44:22] INFO root fetch - processPackages [ynab-transaction-adjuster]: Downloading https://files.pythonhosted.org/packages/4b/84/f850727de5e0f80e74dbf2fa3ed61d9548e831dfb90304346b5843bc6f4d/ynab_transaction_adjuster-1.0.0.tar.gz
+[2024-04-23 07:44:22] INFO root fetch - processPackages [trio-binance]: executing diffoscope
+[2024-04-23 07:44:22] INFO root fetch - processPackages [trio-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio-binance-0.2.2.tar.gz tmp/trio_binance-0.3.0.tar.gz --markdown 20240423/t/trio-binance/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-23 07:44:22] INFO root fetch - processPackages [ynab-transaction-adjuster]: executing diffoscope
+[2024-04-23 07:44:22] INFO root fetch - processPackages [ynab-transaction-adjuster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ynab_transaction_adjuster-0.3.8.tar.gz tmp/ynab_transaction_adjuster-1.0.0.tar.gz --markdown 20240423/y/ynab-transaction-adjuster/0.3.8-1.0.0/README.md --exclude *.pyd
+[2024-04-23 07:44:22] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-bucket-1.3.0.tar.gz]
+[2024-04-23 07:44:22] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-bucket-1.3.1.tar.gz]
+[2024-04-23 07:44:22] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-bucket]: success
+[2024-04-23 07:44:22] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.4.tar.gz]
+[2024-04-23 07:44:22] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.5.tar.gz]
+[2024-04-23 07:44:22] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-23 07:44:22] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio-binance-0.2.2.tar.gz]
+[2024-04-23 07:44:22] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio_binance-0.3.0.tar.gz]
+[2024-04-23 07:44:22] INFO root fetch - main [MainThread]: End processing [trio-binance]: success
+[2024-04-23 07:44:23] INFO root fetch - processPackages [ynab-transaction-adjuster]: Remove: archive file [/home/abi/fetcher/tmp/ynab_transaction_adjuster-0.3.8.tar.gz]
+[2024-04-23 07:44:23] INFO root fetch - processPackages [ynab-transaction-adjuster]: Remove: archive file [/home/abi/fetcher/tmp/ynab_transaction_adjuster-1.0.0.tar.gz]
+[2024-04-23 07:44:23] INFO root fetch - main [MainThread]: End processing [ynab-transaction-adjuster]: success
+[2024-04-23 07:44:23] INFO root fetch - main [MainThread]: Store serial: [22889475]
