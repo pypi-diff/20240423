@@ -7387,3 +7387,33 @@
 [2024-04-23 03:40:22] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.745.0.tar.gz]
 [2024-04-23 03:40:22] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-04-23 03:40:22] INFO root fetch - main [MainThread]: Store serial: [22887903]
+[2024-04-23 03:42:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887903]
+[2024-04-23 03:42:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 03:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synthx
+[2024-04-23 03:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xeberus-restful-api-server-library
+[2024-04-23 03:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: artd-promotion
+[2024-04-23 03:42:32] INFO root fetch - processPackages [artd-promotion]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-23 03:42:32] INFO root fetch - processPackages [synthx]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-23 03:42:32] INFO root fetch - processPackages [artd-promotion]: Downloading https://files.pythonhosted.org/packages/19/2b/79e4177c97a03cd891c571080fc80eb9c1b1bce451e71a17cdc9fb7a2cf2/artd_promotion-1.0.3.tar.gz
+[2024-04-23 03:42:32] INFO root fetch - processPackages [synthx]: Downloading https://files.pythonhosted.org/packages/d8/7d/9df0233bf52e75722a9bbf57b911227b3e24772cff5af13fe5ca63919b04/synthx-0.4.1.tar.gz
+[2024-04-23 03:42:32] INFO root fetch - processPackages [xeberus-restful-api-server-library]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-04-23 03:42:32] INFO root fetch - processPackages [xeberus-restful-api-server-library]: Downloading https://files.pythonhosted.org/packages/b2/aa/e3f284f088e54415d58b9b12c99bd2849dfe9190d762c148f30b62df1c6c/xeberus_restful_api_server_library-1.6.6.tar.gz
+[2024-04-23 03:42:32] INFO root fetch - processPackages [artd-promotion]: Downloading https://files.pythonhosted.org/packages/73/1d/b83e8e32cd67f77fb23c35ce071e9cb8ee86c14b8af4978557b975866848/artd_promotion-1.0.4.tar.gz
+[2024-04-23 03:42:32] INFO root fetch - processPackages [artd-promotion]: executing diffoscope
+[2024-04-23 03:42:32] INFO root fetch - processPackages [artd-promotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd_promotion-1.0.3.tar.gz tmp/artd_promotion-1.0.4.tar.gz --markdown 20240423/a/artd-promotion/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-23 03:42:32] INFO root fetch - processPackages [xeberus-restful-api-server-library]: Downloading https://files.pythonhosted.org/packages/e2/7c/6c43b745f41f5968be95f9d16f5f3fab60ba254605c46cb68f115d56cf6c/xeberus_restful_api_server_library-1.6.7.tar.gz
+[2024-04-23 03:42:32] INFO root fetch - processPackages [synthx]: Downloading https://files.pythonhosted.org/packages/e2/bb/bbecb9cd78a2fc81d22392970db15e700ce397ab8c72c7e53ef46122d4a8/synthx-0.4.2.tar.gz
+[2024-04-23 03:42:32] INFO root fetch - processPackages [xeberus-restful-api-server-library]: executing diffoscope
+[2024-04-23 03:42:32] INFO root fetch - processPackages [xeberus-restful-api-server-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xeberus_restful_api_server_library-1.6.6.tar.gz tmp/xeberus_restful_api_server_library-1.6.7.tar.gz --markdown 20240423/x/xeberus-restful-api-server-library/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-04-23 03:42:32] INFO root fetch - processPackages [synthx]: executing diffoscope
+[2024-04-23 03:42:32] INFO root fetch - processPackages [synthx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthx-0.4.1.tar.gz tmp/synthx-0.4.2.tar.gz --markdown 20240423/s/synthx/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-23 03:42:33] INFO root fetch - processPackages [artd-promotion]: Remove: archive file [/home/abi/fetcher/tmp/artd_promotion-1.0.3.tar.gz]
+[2024-04-23 03:42:33] INFO root fetch - processPackages [artd-promotion]: Remove: archive file [/home/abi/fetcher/tmp/artd_promotion-1.0.4.tar.gz]
+[2024-04-23 03:42:33] INFO root fetch - main [MainThread]: End processing [artd-promotion]: success
+[2024-04-23 03:42:33] INFO root fetch - processPackages [synthx]: Remove: archive file [/home/abi/fetcher/tmp/synthx-0.4.1.tar.gz]
+[2024-04-23 03:42:33] INFO root fetch - processPackages [synthx]: Remove: archive file [/home/abi/fetcher/tmp/synthx-0.4.2.tar.gz]
+[2024-04-23 03:42:33] INFO root fetch - main [MainThread]: End processing [synthx]: success
+[2024-04-23 03:42:33] INFO root fetch - processPackages [xeberus-restful-api-server-library]: Remove: archive file [/home/abi/fetcher/tmp/xeberus_restful_api_server_library-1.6.6.tar.gz]
+[2024-04-23 03:42:33] INFO root fetch - processPackages [xeberus-restful-api-server-library]: Remove: archive file [/home/abi/fetcher/tmp/xeberus_restful_api_server_library-1.6.7.tar.gz]
+[2024-04-23 03:42:33] INFO root fetch - main [MainThread]: End processing [xeberus-restful-api-server-library]: success
+[2024-04-23 03:42:33] INFO root fetch - main [MainThread]: Store serial: [22887912]
