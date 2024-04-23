@@ -12029,3 +12029,65 @@
 [2024-04-23 08:35:15] INFO root fetch - processPackages [placeholder-img]: Remove: archive file [/home/abi/fetcher/tmp/placeholder_img-0.4.tar.gz]
 [2024-04-23 08:35:15] INFO root fetch - main [MainThread]: End processing [placeholder-img]: success
 [2024-04-23 08:35:15] INFO root fetch - main [MainThread]: Store serial: [22889743]
+[2024-04-23 08:37:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889743]
+[2024-04-23 08:37:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 08:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xeberus-restful-api-server-library
+[2024-04-23 08:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiida-vasp
+[2024-04-23 08:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2024-04-23 08:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muko
+[2024-04-23 08:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2024-04-23 08:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invenio-records-lom
+[2024-04-23 08:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openagi
+[2024-04-23 08:37:23] INFO root fetch - processPackages [muko]: New version: [2.31] Old Version: [2.3]
+[2024-04-23 08:37:23] INFO root fetch - processPackages [cg]: New version: [60.2.6] Old Version: [60.2.5]
+[2024-04-23 08:37:23] INFO root fetch - processPackages [xeberus-restful-api-server-library]: New version: [1.6.8] Old Version: [1.6.7]
+[2024-04-23 08:37:23] INFO root fetch - processPackages [kcli]: New version: [99.0.202404230631] Old Version: [99.0.202404221421]
+[2024-04-23 08:37:23] INFO root fetch - processPackages [openagi]: New version: [0.1.0b4] Old Version: [0.1.0b3]
+[2024-04-23 08:37:23] INFO root fetch - processPackages [aiida-vasp]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-23 08:37:23] INFO root fetch - processPackages [invenio-records-lom]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-23 08:37:23] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/35/81/1d2f7f8eecd75ecd9ec93f4c009e543ab79b5111aaff2e71822406fc37e8/muko-2.3-py3-none-any.whl
+[2024-04-23 08:37:23] INFO root fetch - processPackages [xeberus-restful-api-server-library]: Downloading https://files.pythonhosted.org/packages/e2/7c/6c43b745f41f5968be95f9d16f5f3fab60ba254605c46cb68f115d56cf6c/xeberus_restful_api_server_library-1.6.7.tar.gz
+[2024-04-23 08:37:23] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/68/ee/c58dab0d99eda86039657b2ac3f4727dbe6682955ce402bfbbd4cc60091c/kcli-99.0.202404221421.tar.gz
+[2024-04-23 08:37:23] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6c/9b/b65226e58673337d3f8a5ab221de83a927a77a83a0a7239da8334485b791/cg-60.2.5.tar.gz
+[2024-04-23 08:37:23] INFO root fetch - processPackages [aiida-vasp]: Downloading https://files.pythonhosted.org/packages/27/81/28470395c55cb392e51ae79babc68867077ed242d54413f0717c11cea091/aiida_vasp-3.1.0.tar.gz
+[2024-04-23 08:37:23] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/a7/d9/b366af89a5d223ea850fb149d543d8535f1a63df7d6aaf194b788ade4a81/invenio-records-lom-0.8.1.tar.gz
+[2024-04-23 08:37:23] INFO root fetch - processPackages [openagi]: Downloading https://files.pythonhosted.org/packages/37/0b/3ea8f0140b94c357cae06c7f4a78c575f6847ef1491422991038bdb47848/openagi-0.1.0b3.tar.gz
+[2024-04-23 08:37:23] WARNING root fetch - processPackages [aiida-vasp]: Skipping package: exceeds size limit 12577635>=10485760
+[2024-04-23 08:37:23] INFO root fetch - main [MainThread]: End processing [aiida-vasp] error
+[2024-04-23 08:37:24] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/ba/9d/0ffd879c64b18bb4479027c986bab0f620ae5bcd5d01e2d9e33c1bd387d3/muko-2.31-py3-none-any.whl
+[2024-04-23 08:37:24] INFO root fetch - processPackages [xeberus-restful-api-server-library]: Downloading https://files.pythonhosted.org/packages/d4/ed/80a7b591f6b3e5270d0f3ad0cbb55855fd8ad57fd58f2f4b6a30efb52569/xeberus_restful_api_server_library-1.6.8.tar.gz
+[2024-04-23 08:37:24] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a1/f1/e8e2c0d387dbeacacba17ec223bb36f2751acf7b1443ba216b1e35a5a0d6/kcli-99.0.202404230631.tar.gz
+[2024-04-23 08:37:24] INFO root fetch - processPackages [openagi]: Downloading https://files.pythonhosted.org/packages/57/f3/77f25226d6a36dd9073d93b00d1c4da3a7320f7f8f21db8f73960da3b4be/openagi-0.1.0b4.tar.gz
+[2024-04-23 08:37:24] INFO root fetch - processPackages [xeberus-restful-api-server-library]: executing diffoscope
+[2024-04-23 08:37:24] INFO root fetch - processPackages [xeberus-restful-api-server-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xeberus_restful_api_server_library-1.6.7.tar.gz tmp/xeberus_restful_api_server_library-1.6.8.tar.gz --markdown 20240423/x/xeberus-restful-api-server-library/1.6.7-1.6.8/README.md --exclude *.pyd
+[2024-04-23 08:37:24] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/d2/a1/a4f27a3949cb9641f050db71c0e20941c366e57450ec499c9f5e40d718c4/invenio-records-lom-0.9.0.tar.gz
+[2024-04-23 08:37:24] INFO root fetch - processPackages [openagi]: executing diffoscope
+[2024-04-23 08:37:24] INFO root fetch - processPackages [openagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openagi-0.1.0b3.tar.gz tmp/openagi-0.1.0b4.tar.gz --markdown 20240423/o/openagi/0.1.0b3-0.1.0b4/README.md --exclude *.pyd
+[2024-04-23 08:37:24] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ee/25/6ccafc2df57cc5e961852aef53f45786b58ef7719009e6411572cce27483/cg-60.2.6.tar.gz
+[2024-04-23 08:37:24] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-23 08:37:24] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404221421.tar.gz tmp/kcli-99.0.202404230631.tar.gz --markdown 20240423/k/kcli/99.0.202404221421-99.0.202404230631/README.md --exclude *.pyd
+[2024-04-23 08:37:24] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-04-23 08:37:24] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-2.3-py3-none-any.whl.zip tmp/muko-2.31-py3-none-any.whl.zip --markdown 20240423/m/muko/2.3-2.31/README.md --exclude *.pyd
+[2024-04-23 08:37:24] INFO root fetch - processPackages [invenio-records-lom]: executing diffoscope
+[2024-04-23 08:37:24] INFO root fetch - processPackages [invenio-records-lom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-lom-0.8.1.tar.gz tmp/invenio-records-lom-0.9.0.tar.gz --markdown 20240423/i/invenio-records-lom/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-23 08:37:24] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-23 08:37:24] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.2.5.tar.gz tmp/cg-60.2.6.tar.gz --markdown 20240423/c/cg/60.2.5-60.2.6/README.md --exclude *.pyd
+[2024-04-23 08:37:25] INFO root fetch - processPackages [openagi]: Remove: archive file [/home/abi/fetcher/tmp/openagi-0.1.0b3.tar.gz]
+[2024-04-23 08:37:25] INFO root fetch - processPackages [openagi]: Remove: archive file [/home/abi/fetcher/tmp/openagi-0.1.0b4.tar.gz]
+[2024-04-23 08:37:25] INFO root fetch - main [MainThread]: End processing [openagi]: success
+[2024-04-23 08:37:25] INFO root fetch - processPackages [xeberus-restful-api-server-library]: Remove: archive file [/home/abi/fetcher/tmp/xeberus_restful_api_server_library-1.6.7.tar.gz]
+[2024-04-23 08:37:25] INFO root fetch - processPackages [xeberus-restful-api-server-library]: Remove: archive file [/home/abi/fetcher/tmp/xeberus_restful_api_server_library-1.6.8.tar.gz]
+[2024-04-23 08:37:25] INFO root fetch - main [MainThread]: End processing [xeberus-restful-api-server-library]: success
+[2024-04-23 08:37:26] INFO root fetch - processPackages [invenio-records-lom]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-lom-0.8.1.tar.gz]
+[2024-04-23 08:37:26] INFO root fetch - processPackages [invenio-records-lom]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-lom-0.9.0.tar.gz]
+[2024-04-23 08:37:26] INFO root fetch - main [MainThread]: End processing [invenio-records-lom]: success
+[2024-04-23 08:37:26] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404221421.tar.gz]
+[2024-04-23 08:37:26] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404230631.tar.gz]
+[2024-04-23 08:37:26] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-23 08:37:28] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.3-py3-none-any.whl.zip]
+[2024-04-23 08:37:28] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.31-py3-none-any.whl.zip]
+[2024-04-23 08:37:28] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-04-23 08:37:28] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.5.tar.gz]
+[2024-04-23 08:37:28] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.6.tar.gz]
+[2024-04-23 08:37:28] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-23 08:37:28] INFO root fetch - main [MainThread]: Store serial: [22889762]
