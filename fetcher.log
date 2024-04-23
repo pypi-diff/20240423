@@ -19492,3 +19492,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 13:25:15] INFO root fetch - processPackages [artistools]: Remove: archive file [/home/abi/fetcher/tmp/artistools-2024.4.23.tar.gz]
 [2024-04-23 13:25:15] INFO root fetch - main [MainThread]: End processing [artistools]: success
 [2024-04-23 13:25:15] INFO root fetch - main [MainThread]: Store serial: [22892959]
+[2024-04-23 13:27:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892959]
+[2024-04-23 13:27:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: db-conn-lib
+[2024-04-23 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-records-resources
+[2024-04-23 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchness
+[2024-04-23 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: microservicebus-py
+[2024-04-23 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchx-nightly
+[2024-04-23 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxsim
+[2024-04-23 13:27:24] INFO root fetch - processPackages [db-conn-lib]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 13:27:24] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.4.22] Old Version: [2024.4.21]
+[2024-04-23 13:27:24] INFO root fetch - processPackages [torchness]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-23 13:27:24] INFO root fetch - processPackages [jaxsim]: New version: [0.2.dev92] Old Version: [0.2.dev87]
+[2024-04-23 13:27:24] INFO root fetch - processPackages [microservicebus-py]: New version: [1.0.9] Old Version: [1.0.6]
+[2024-04-23 13:27:24] INFO root fetch - processPackages [invenio-records-resources]: New version: [5.6.0] Old Version: [5.5.0]
+[2024-04-23 13:27:24] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/ab/4d/557d3efae4329918d745a554d76ac42a6f6d52220fb81aa22acfb5933789/torchx_nightly-2024.4.21-py3-none-any.whl
+[2024-04-23 13:27:24] INFO root fetch - processPackages [db-conn-lib]: Downloading https://files.pythonhosted.org/packages/2d/19/245c53072e76fde77f5f2934a0c489ddfcb9b8a57c77f5819abbcf4b3049/db-conn-lib-0.1.0.tar.gz
+[2024-04-23 13:27:24] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/b5/25/4a27bb25679ce17fef64a522f1af1c8722d2ec06d59735f1ddf7d16201d9/jaxsim-0.2.dev87.tar.gz
+[2024-04-23 13:27:24] INFO root fetch - processPackages [torchness]: Downloading https://files.pythonhosted.org/packages/91/82/fa82f94ae5f18a97226668032ff05edc9b12be880114e66927bfea8a1f23/torchness-1.3.2.tar.gz
+[2024-04-23 13:27:24] INFO root fetch - processPackages [microservicebus-py]: Downloading https://files.pythonhosted.org/packages/95/55/1cbb3c96899d209205adc6d2cb077ddb491e3115a55a7856b975e0979b8e/microservicebus-py-1.0.6.tar.gz
+[2024-04-23 13:27:24] INFO root fetch - processPackages [invenio-records-resources]: Downloading https://files.pythonhosted.org/packages/65/0a/3284b08a4a826c54617dc1d797adc8147b4b139d9f35e0eb96ecea58e7cc/invenio-records-resources-5.5.0.tar.gz
+[2024-04-23 13:27:25] INFO root fetch - processPackages [db-conn-lib]: Downloading https://files.pythonhosted.org/packages/04/12/24cc4602c0bd2f1b816dd39214a0b6cda42f576f2ea4a3a6498b994de340/db_conn_lib-0.1.1.tar.gz
+[2024-04-23 13:27:25] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/6e/74/9e86e7652f67274dd61ed61b72bb1a40347cbd82243c9d9cbf2776172b3a/torchx_nightly-2024.4.22-py3-none-any.whl
+[2024-04-23 13:27:25] INFO root fetch - processPackages [invenio-records-resources]: Downloading https://files.pythonhosted.org/packages/8a/2a/f1a3a56f75538811ac519964a14877c9bc4829316ed9748aca6e8db8b6d6/invenio-records-resources-5.6.0.tar.gz
+[2024-04-23 13:27:25] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/5f/f3/d7774afb77c6832c188a48524d674234d264ab4e593515aac50ba544ea66/jaxsim-0.2.dev92.tar.gz
+[2024-04-23 13:27:25] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-04-23 13:27:25] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.4.21-py3-none-any.whl.zip tmp/torchx_nightly-2024.4.22-py3-none-any.whl.zip --markdown 20240423/t/torchx-nightly/2024.4.21-2024.4.22/README.md --exclude *.pyd
+[2024-04-23 13:27:25] INFO root fetch - processPackages [db-conn-lib]: executing diffoscope
+[2024-04-23 13:27:25] INFO root fetch - processPackages [db-conn-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db-conn-lib-0.1.0.tar.gz tmp/db_conn_lib-0.1.1.tar.gz --markdown 20240423/d/db-conn-lib/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 13:27:25] INFO root fetch - processPackages [microservicebus-py]: Downloading https://files.pythonhosted.org/packages/99/ca/b5b93a98acfb271afa1a2c9bdf64ce4d4ae536084f53dd996551a129173e/microservicebus-py-1.0.9.tar.gz
+[2024-04-23 13:27:25] INFO root fetch - processPackages [torchness]: Downloading https://files.pythonhosted.org/packages/35/58/edd6af1f89889a908f750927d1dfc203a9ae0556fadaf01b89a1dc2edb49/torchness-1.3.3.tar.gz
+[2024-04-23 13:27:25] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2024-04-23 13:27:25] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.2.dev87.tar.gz tmp/jaxsim-0.2.dev92.tar.gz --markdown 20240423/j/jaxsim/0.2.dev87-0.2.dev92/README.md --exclude *.pyd
+[2024-04-23 13:27:25] INFO root fetch - processPackages [microservicebus-py]: executing diffoscope
+[2024-04-23 13:27:25] INFO root fetch - processPackages [microservicebus-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservicebus-py-1.0.6.tar.gz tmp/microservicebus-py-1.0.9.tar.gz --markdown 20240423/m/microservicebus-py/1.0.6-1.0.9/README.md --exclude *.pyd
+[2024-04-23 13:27:25] INFO root fetch - processPackages [invenio-records-resources]: executing diffoscope
+[2024-04-23 13:27:25] INFO root fetch - processPackages [invenio-records-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-resources-5.5.0.tar.gz tmp/invenio-records-resources-5.6.0.tar.gz --markdown 20240423/i/invenio-records-resources/5.5.0-5.6.0/README.md --exclude *.pyd
+[2024-04-23 13:27:25] INFO root fetch - processPackages [torchness]: executing diffoscope
+[2024-04-23 13:27:25] INFO root fetch - processPackages [torchness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchness-1.3.2.tar.gz tmp/torchness-1.3.3.tar.gz --markdown 20240423/t/torchness/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-04-23 13:27:26] INFO root fetch - processPackages [db-conn-lib]: Remove: archive file [/home/abi/fetcher/tmp/db-conn-lib-0.1.0.tar.gz]
+[2024-04-23 13:27:26] INFO root fetch - processPackages [db-conn-lib]: Remove: archive file [/home/abi/fetcher/tmp/db_conn_lib-0.1.1.tar.gz]
+[2024-04-23 13:27:26] INFO root fetch - main [MainThread]: End processing [db-conn-lib]: success
+[2024-04-23 13:27:26] INFO root fetch - processPackages [microservicebus-py]: Remove: archive file [/home/abi/fetcher/tmp/microservicebus-py-1.0.6.tar.gz]
+[2024-04-23 13:27:26] INFO root fetch - processPackages [microservicebus-py]: Remove: archive file [/home/abi/fetcher/tmp/microservicebus-py-1.0.9.tar.gz]
+[2024-04-23 13:27:26] INFO root fetch - main [MainThread]: End processing [microservicebus-py]: success
+[2024-04-23 13:27:26] INFO root fetch - processPackages [torchness]: Remove: archive file [/home/abi/fetcher/tmp/torchness-1.3.2.tar.gz]
+[2024-04-23 13:27:26] INFO root fetch - processPackages [torchness]: Remove: archive file [/home/abi/fetcher/tmp/torchness-1.3.3.tar.gz]
+[2024-04-23 13:27:26] INFO root fetch - main [MainThread]: End processing [torchness]: success
+[2024-04-23 13:27:26] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.21-py3-none-any.whl.zip]
+[2024-04-23 13:27:26] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.22-py3-none-any.whl.zip]
+[2024-04-23 13:27:26] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-04-23 13:27:26] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev87.tar.gz]
+[2024-04-23 13:27:26] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
+[2024-04-23 13:27:26] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2024-04-23 13:27:26] INFO root fetch - processPackages [invenio-records-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-resources-5.5.0.tar.gz]
+[2024-04-23 13:27:26] INFO root fetch - processPackages [invenio-records-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-resources-5.6.0.tar.gz]
+[2024-04-23 13:27:26] INFO root fetch - main [MainThread]: End processing [invenio-records-resources]: success
+[2024-04-23 13:27:26] INFO root fetch - main [MainThread]: Store serial: [22892980]
