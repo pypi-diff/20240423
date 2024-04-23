@@ -13506,3 +13506,74 @@
 [2024-04-23 09:41:01] INFO root fetch - processPackages [pytsa-ais]: Remove: archive file [/home/abi/fetcher/tmp/pytsa_ais-2.3.2.tar.gz]
 [2024-04-23 09:41:01] INFO root fetch - main [MainThread]: End processing [pytsa-ais]: success
 [2024-04-23 09:41:01] INFO root fetch - main [MainThread]: Store serial: [22890345]
+[2024-04-23 09:43:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890345]
+[2024-04-23 09:43:10] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-23 09:45:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890346]
+[2024-04-23 09:45:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 09:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-phone-number
+[2024-04-23 09:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-04-23 09:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clicknium
+[2024-04-23 09:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: microservices-common
+[2024-04-23 09:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labelu
+[2024-04-23 09:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pollyxt_pipelines
+[2024-04-23 09:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysequoia
+[2024-04-23 09:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-phone-number
+[2024-04-23 09:45:16] INFO root fetch - processPackages [mteb]: New version: [1.7.8] Old Version: [1.7.7]
+[2024-04-23 09:45:16] INFO root fetch - processPackages [labelu]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-23 09:45:16] INFO root fetch - processPackages [streamlit-phone-number]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 09:45:16] INFO root fetch - processPackages [streamlit-phone-number]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 09:45:16] INFO root fetch - processPackages [microservices-common]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-23 09:45:16] INFO root fetch - processPackages [pollyxt_pipelines]: New version: [1.9.0] Old Version: [1.8.3]
+[2024-04-23 09:45:16] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/49/d9/4ac77c1d51124cd315549a55b84ca33d5b9256f1ecb3d8945cf370e1dd14/mteb-1.7.7.tar.gz
+[2024-04-23 09:45:16] INFO root fetch - processPackages [clicknium]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-23 09:45:16] INFO root fetch - processPackages [pysequoia]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 09:45:16] INFO root fetch - processPackages [labelu]: Downloading https://files.pythonhosted.org/packages/7d/fc/e31d7b69f54832131219c4c3a2c5f733a063bd11efcd8af59f69252426d8/labelu-1.0.4.tar.gz
+[2024-04-23 09:45:16] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/c5/0e/a7ab67184b186d2706f1461a35863b4a36a390d3f8545a127807eec23530/microservices_common-1.0.2.tar.gz
+[2024-04-23 09:45:16] INFO root fetch - processPackages [streamlit-phone-number]: Downloading https://files.pythonhosted.org/packages/1b/ed/a126ffc71da86b0b2309dd8f5db7a9b493677d9be69724726d1a0dd039a8/streamlit-phone-number-0.0.8.tar.gz
+[2024-04-23 09:45:16] INFO root fetch - processPackages [streamlit-phone-number]: Downloading https://files.pythonhosted.org/packages/1b/ed/a126ffc71da86b0b2309dd8f5db7a9b493677d9be69724726d1a0dd039a8/streamlit-phone-number-0.0.8.tar.gz
+[2024-04-23 09:45:16] INFO root fetch - processPackages [pollyxt_pipelines]: Downloading https://files.pythonhosted.org/packages/8c/d9/cc180309c1925973a3a1850f9fe6baac8676e22f56eedf378416c86880ea/pollyxt_pipelines-1.8.3.tar.gz
+[2024-04-23 09:45:16] INFO root fetch - processPackages [clicknium]: Downloading https://files.pythonhosted.org/packages/d3/9e/2486392f99046f9e11178c0437b2245d96b724cbd66fc1a6d0820f6e5de1/clicknium-0.2.2-py3-none-win_amd64.whl
+[2024-04-23 09:45:16] INFO root fetch - processPackages [pysequoia]: Downloading https://files.pythonhosted.org/packages/f5/c7/a23c02f671946ab4d1c8e12b564caa0513f98e3bc2a8c856930adfe5a8c9/pysequoia-0.1.8.tar.gz
+[2024-04-23 09:45:16] WARNING root fetch - processPackages [clicknium]: Skipping package: exceeds size limit 38928345>=10485760
+[2024-04-23 09:45:16] INFO root fetch - main [MainThread]: End processing [clicknium] error
+[2024-04-23 09:45:16] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-23 09:45:16] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-23 09:45:16] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.7.tar.gz tmp/mteb-1.7.8.tar.gz --markdown 20240423/m/mteb/1.7.7-1.7.8/README.md --exclude *.pyd
+[2024-04-23 09:45:16] INFO root fetch - processPackages [streamlit-phone-number]: Downloading https://files.pythonhosted.org/packages/85/e6/cf181a653c838add3ed7a29564315982e360df54e4765bea89afe05b9350/streamlit-phone-number-0.0.9.tar.gz
+[2024-04-23 09:45:16] INFO root fetch - processPackages [streamlit-phone-number]: Downloading https://files.pythonhosted.org/packages/85/e6/cf181a653c838add3ed7a29564315982e360df54e4765bea89afe05b9350/streamlit-phone-number-0.0.9.tar.gz
+[2024-04-23 09:45:16] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/49/49/53a21f964c4d6b8c1327896c41cd87e78c825c9b6d0fe80956a6ede98988/microservices_common-1.0.3.tar.gz
+[2024-04-23 09:45:16] INFO root fetch - processPackages [labelu]: Downloading https://files.pythonhosted.org/packages/d0/02/23211f5214ccc8aed42a6155eaa57b86ff9910bf9b6ecde1425f9ad316f8/labelu-1.0.5.tar.gz
+[2024-04-23 09:45:16] INFO root fetch - processPackages [pollyxt_pipelines]: Downloading https://files.pythonhosted.org/packages/29/69/d080381e9899a7e23a469f5128598fe5957709e0856b9d2789468943b71c/pollyxt_pipelines-1.9.0.tar.gz
+[2024-04-23 09:45:17] INFO root fetch - processPackages [pollyxt_pipelines]: executing diffoscope
+[2024-04-23 09:45:17] INFO root fetch - processPackages [pollyxt_pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollyxt_pipelines-1.8.3.tar.gz tmp/pollyxt_pipelines-1.9.0.tar.gz --markdown 20240423/p/pollyxt_pipelines/1.8.3-1.9.0/README.md --exclude *.pyd
+[2024-04-23 09:45:17] INFO root fetch - processPackages [streamlit-phone-number]: executing diffoscope
+[2024-04-23 09:45:17] INFO root fetch - processPackages [streamlit-phone-number]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-phone-number-0.0.8.tar.gz tmp/streamlit-phone-number-0.0.9.tar.gz --markdown 20240423/s/streamlit-phone-number/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 09:45:17] INFO root fetch - processPackages [streamlit-phone-number]: executing diffoscope
+[2024-04-23 09:45:17] INFO root fetch - processPackages [streamlit-phone-number]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-phone-number-0.0.8.tar.gz tmp/streamlit-phone-number-0.0.9.tar.gz --markdown 20240423/s/streamlit-phone-number/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 09:45:17] INFO root fetch - processPackages [microservices-common]: executing diffoscope
+[2024-04-23 09:45:17] INFO root fetch - processPackages [microservices-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservices_common-1.0.2.tar.gz tmp/microservices_common-1.0.3.tar.gz --markdown 20240423/m/microservices-common/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-23 09:45:17] INFO root fetch - processPackages [pysequoia]: Downloading https://files.pythonhosted.org/packages/b3/dc/c34f78dd8e0d1f4d3bcf107cf71de5605bb888eca724e26217920c41dff6/pysequoia-0.1.9.tar.gz
+[2024-04-23 09:45:17] INFO root fetch - processPackages [pysequoia]: executing diffoscope
+[2024-04-23 09:45:17] INFO root fetch - processPackages [pysequoia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysequoia-0.1.8.tar.gz tmp/pysequoia-0.1.9.tar.gz --markdown 20240423/p/pysequoia/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 09:45:17] INFO root fetch - processPackages [labelu]: executing diffoscope
+[2024-04-23 09:45:17] INFO root fetch - processPackages [labelu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelu-1.0.4.tar.gz tmp/labelu-1.0.5.tar.gz --markdown 20240423/l/labelu/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-23 09:45:17] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-1.0.2.tar.gz]
+[2024-04-23 09:45:17] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-1.0.3.tar.gz]
+[2024-04-23 09:45:17] INFO root fetch - main [MainThread]: End processing [microservices-common]: success
+[2024-04-23 09:45:17] INFO root fetch - processPackages [streamlit-phone-number]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-phone-number-0.0.8.tar.gz]
+[2024-04-23 09:45:17] INFO root fetch - processPackages [streamlit-phone-number]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-phone-number-0.0.9.tar.gz]
+[2024-04-23 09:45:17] INFO root fetch - main [MainThread]: End processing [streamlit-phone-number]: success
+[2024-04-23 09:45:17] INFO root fetch - processPackages [pollyxt_pipelines]: Remove: archive file [/home/abi/fetcher/tmp/pollyxt_pipelines-1.8.3.tar.gz]
+[2024-04-23 09:45:17] INFO root fetch - processPackages [pollyxt_pipelines]: Remove: archive file [/home/abi/fetcher/tmp/pollyxt_pipelines-1.9.0.tar.gz]
+[2024-04-23 09:45:17] INFO root fetch - main [MainThread]: End processing [pollyxt_pipelines]: success
+[2024-04-23 09:45:17] INFO root fetch - main [MainThread]: End processing [streamlit-phone-number]: success
+[2024-04-23 09:45:18] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.7.tar.gz]
+[2024-04-23 09:45:18] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-23 09:45:18] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-23 09:45:21] INFO root fetch - processPackages [pysequoia]: Remove: archive file [/home/abi/fetcher/tmp/pysequoia-0.1.8.tar.gz]
+[2024-04-23 09:45:21] INFO root fetch - processPackages [pysequoia]: Remove: archive file [/home/abi/fetcher/tmp/pysequoia-0.1.9.tar.gz]
+[2024-04-23 09:45:21] INFO root fetch - main [MainThread]: End processing [pysequoia]: success
+[2024-04-23 09:46:07] INFO root fetch - processPackages [labelu]: Remove: archive file [/home/abi/fetcher/tmp/labelu-1.0.4.tar.gz]
+[2024-04-23 09:46:07] INFO root fetch - processPackages [labelu]: Remove: archive file [/home/abi/fetcher/tmp/labelu-1.0.5.tar.gz]
+[2024-04-23 09:46:07] INFO root fetch - main [MainThread]: End processing [labelu]: success
+[2024-04-23 09:46:07] INFO root fetch - main [MainThread]: Store serial: [22890383]
