@@ -14750,3 +14750,63 @@
 [2024-04-23 10:30:13] INFO root fetch - processPackages [DAJIN2]: Remove: archive file [/home/abi/fetcher/tmp/dajin2-0.4.4.zip]
 [2024-04-23 10:30:13] INFO root fetch - main [MainThread]: End processing [DAJIN2]: success
 [2024-04-23 10:30:13] INFO root fetch - main [MainThread]: Store serial: [22890963]
+[2024-04-23 10:32:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890963]
+[2024-04-23 10:32:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 10:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spacepackets
+[2024-04-23 10:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dclab
+[2024-04-23 10:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrtlib
+[2024-04-23 10:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zonesmart-utils-fork
+[2024-04-23 10:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-rdm-records
+[2024-04-23 10:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pySigma-backend-trellix-helix
+[2024-04-23 10:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: synch2jira
+[2024-04-23 10:32:22] INFO root fetch - processPackages [zonesmart-utils-fork]: New version: [0.5.9.9] Old Version: [0.5.9.8]
+[2024-04-23 10:32:22] INFO root fetch - processPackages [spacepackets]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-23 10:32:22] INFO root fetch - processPackages [invenio-rdm-records]: New version: [9.1.0] Old Version: [9.0.1]
+[2024-04-23 10:32:22] INFO root fetch - processPackages [spacepackets]: Downloading https://files.pythonhosted.org/packages/67/78/384a5ffad7eac5f8e6f7842bd2d4e81eb8f8bfefae020ec3b6d8403d5e32/spacepackets-0.8.1.tar.gz
+[2024-04-23 10:32:22] WARNING root fetch - processPackages [pySigma-backend-trellix-helix]: Skipping, unable to determine old version
+[2024-04-23 10:32:22] INFO root fetch - main [MainThread]: End processing [pySigma-backend-trellix-helix] error
+[2024-04-23 10:32:22] INFO root fetch - processPackages [pyrtlib]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-23 10:32:22] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/1f/3c/039c94473127564e1d61c86469dc142a7a89988f07bba21541fea00682d5/zonesmart-utils-fork-0.5.9.8.tar.gz
+[2024-04-23 10:32:22] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-23 10:32:22] INFO root fetch - processPackages [dclab]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-23 10:32:22] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/18/fd/64e00ec4c048a386747c1bef38aee5bea63914ced22c4011af61c18c7617/invenio-rdm-records-9.0.1.tar.gz
+[2024-04-23 10:32:22] INFO root fetch - processPackages [pyrtlib]: Downloading https://files.pythonhosted.org/packages/57/bc/a6670542be150f125f79eedab52144a7ba7017c77fd665f775403b4b304f/pyrtlib-1.0.5.tar.gz
+[2024-04-23 10:32:22] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/7c/85/1e39b909a273589478001e4ea5a3df8fd5923e2dbc48bc5ded42f984a58f/dclab-0.9.0.tar.gz
+[2024-04-23 10:32:22] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-23 10:32:22] INFO root fetch - processPackages [spacepackets]: Downloading https://files.pythonhosted.org/packages/5a/3a/0c57835afff418d02db88f9c0ee240e220431a0dffb7d13a3fad468fdafa/spacepackets-0.9.0.tar.gz
+[2024-04-23 10:32:23] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/c7/9f/2ff32de4eacc484eb5a9007534d13156a1b1a1a9c62233775741db20c020/zonesmart-utils-fork-0.5.9.9.tar.gz
+[2024-04-23 10:32:23] INFO root fetch - processPackages [spacepackets]: executing diffoscope
+[2024-04-23 10:32:23] INFO root fetch - processPackages [spacepackets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacepackets-0.8.1.tar.gz tmp/spacepackets-0.9.0.tar.gz --markdown 20240423/s/spacepackets/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-23 10:32:23] INFO root fetch - processPackages [zonesmart-utils-fork]: executing diffoscope
+[2024-04-23 10:32:23] INFO root fetch - processPackages [zonesmart-utils-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-fork-0.5.9.8.tar.gz tmp/zonesmart-utils-fork-0.5.9.9.tar.gz --markdown 20240423/z/zonesmart-utils-fork/0.5.9.8-0.5.9.9/README.md --exclude *.pyd
+[2024-04-23 10:32:23] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/ff/b3/da0e80b7a9fddba227a118921bf77e45d687a1dfb9f61cc030022dd8500e/invenio-rdm-records-9.1.0.tar.gz
+[2024-04-23 10:32:23] INFO root fetch - processPackages [pyrtlib]: Downloading https://files.pythonhosted.org/packages/90/d1/398232033d160b2893be4c61c925b4248af6cc3fd23fb36be1221b7b1573/pyrtlib-1.0.6.tar.gz
+[2024-04-23 10:32:23] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-23 10:32:23] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/b7/8f/20dd68d6e832776bab24a9ec17e74b4480bdf3b960f989ada95f9a4387cc/dclab-0.9.1.tar.gz
+[2024-04-23 10:32:23] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-23 10:32:23] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240423/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-23 10:32:23] INFO root fetch - processPackages [pyrtlib]: executing diffoscope
+[2024-04-23 10:32:23] INFO root fetch - processPackages [pyrtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtlib-1.0.5.tar.gz tmp/pyrtlib-1.0.6.tar.gz --markdown 20240423/p/pyrtlib/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-23 10:32:23] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2024-04-23 10:32:23] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-9.0.1.tar.gz tmp/invenio-rdm-records-9.1.0.tar.gz --markdown 20240423/i/invenio-rdm-records/9.0.1-9.1.0/README.md --exclude *.pyd
+[2024-04-23 10:32:23] INFO root fetch - processPackages [dclab]: executing diffoscope
+[2024-04-23 10:32:23] INFO root fetch - processPackages [dclab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dclab-0.9.0.tar.gz tmp/dclab-0.9.1.tar.gz --markdown 20240423/d/dclab/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-23 10:32:24] INFO root fetch - processPackages [spacepackets]: Remove: archive file [/home/abi/fetcher/tmp/spacepackets-0.8.1.tar.gz]
+[2024-04-23 10:32:24] INFO root fetch - processPackages [spacepackets]: Remove: archive file [/home/abi/fetcher/tmp/spacepackets-0.9.0.tar.gz]
+[2024-04-23 10:32:24] INFO root fetch - main [MainThread]: End processing [spacepackets]: success
+[2024-04-23 10:32:24] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-23 10:32:24] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-23 10:32:24] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-23 10:32:24] INFO root fetch - processPackages [pyrtlib]: Remove: archive file [/home/abi/fetcher/tmp/pyrtlib-1.0.5.tar.gz]
+[2024-04-23 10:32:24] INFO root fetch - processPackages [pyrtlib]: Remove: archive file [/home/abi/fetcher/tmp/pyrtlib-1.0.6.tar.gz]
+[2024-04-23 10:32:24] INFO root fetch - main [MainThread]: End processing [pyrtlib]: success
+[2024-04-23 10:32:24] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.8.tar.gz]
+[2024-04-23 10:32:24] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.9.tar.gz]
+[2024-04-23 10:32:24] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
+[2024-04-23 10:32:24] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.0.tar.gz]
+[2024-04-23 10:32:24] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.1.tar.gz]
+[2024-04-23 10:32:24] INFO root fetch - main [MainThread]: End processing [dclab]: success
+[2024-04-23 10:32:27] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.0.1.tar.gz]
+[2024-04-23 10:32:27] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.1.0.tar.gz]
+[2024-04-23 10:32:27] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2024-04-23 10:32:27] INFO root fetch - main [MainThread]: Store serial: [22890993]
