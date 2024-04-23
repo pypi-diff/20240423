@@ -2860,3 +2860,54 @@
 [2024-04-23 02:26:47] INFO root fetch - processPackages [flarejax]: Remove: archive file [/home/abi/fetcher/tmp/flarejax-0.2.0.tar.gz]
 [2024-04-23 02:26:47] INFO root fetch - main [MainThread]: End processing [flarejax]: success
 [2024-04-23 02:26:47] INFO root fetch - main [MainThread]: Store serial: [22886381]
+[2024-04-23 02:28:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886381]
+[2024-04-23 02:28:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 02:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlx-vlm
+[2024-04-23 02:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-gitlab-runner
+[2024-04-23 02:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinxcontrib-rust
+[2024-04-23 02:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-certbot-dns-route53
+[2024-04-23 02:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-aurora-globaldatabase
+[2024-04-23 02:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: entity-recognition-service
+[2024-04-23 02:28:55] INFO root fetch - processPackages [entity-recognition-service]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 02:28:55] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-23 02:28:55] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-23 02:28:55] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-23 02:28:55] INFO root fetch - processPackages [sphinxcontrib-rust]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-23 02:28:55] WARNING root fetch - processPackages [mlx-vlm]: Skipping, unable to determine old version
+[2024-04-23 02:28:55] INFO root fetch - main [MainThread]: End processing [mlx-vlm] error
+[2024-04-23 02:28:55] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/23/18/7145326a6ea0566c2c41ba0bf3822fffc6b4da314a426433179c4724bda3/entity_recognition_service-0.1.8.tar.gz
+[2024-04-23 02:28:55] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-23 02:28:55] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-23 02:28:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-23 02:28:55] INFO root fetch - processPackages [sphinxcontrib-rust]: Downloading https://files.pythonhosted.org/packages/83/c4/a536d1f6f4a4e443fd8aa23406a8d1486c7bf7fd8859b2fe85a092cba87a/sphinxcontrib_rust-0.1.1.tar.gz
+[2024-04-23 02:28:55] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/86/75/a994a9af22b16241a2b38cb3314e7d2457d9aaf73d35a5b70823d8c8ce18/entity_recognition_service-0.1.9.tar.gz
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-23 02:28:56] INFO root fetch - processPackages [entity-recognition-service]: executing diffoscope
+[2024-04-23 02:28:56] INFO root fetch - processPackages [entity-recognition-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entity_recognition_service-0.1.8.tar.gz tmp/entity_recognition_service-0.1.9.tar.gz --markdown 20240423/e/entity-recognition-service/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240423/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240423/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240423/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-23 02:28:56] INFO root fetch - processPackages [sphinxcontrib-rust]: Downloading https://files.pythonhosted.org/packages/42/fb/3fad4ff6394552505ffe7142863f16b42adce7d161085ee0842d98faa9d9/sphinxcontrib_rust-0.2.0.tar.gz
+[2024-04-23 02:28:56] INFO root fetch - processPackages [sphinxcontrib-rust]: executing diffoscope
+[2024-04-23 02:28:56] INFO root fetch - processPackages [sphinxcontrib-rust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib_rust-0.1.1.tar.gz tmp/sphinxcontrib_rust-0.2.0.tar.gz --markdown 20240423/s/sphinxcontrib-rust/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-23 02:28:56] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.8.tar.gz]
+[2024-04-23 02:28:56] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.9.tar.gz]
+[2024-04-23 02:28:56] INFO root fetch - main [MainThread]: End processing [entity-recognition-service]: success
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-23 02:28:56] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-23 02:28:56] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-23 02:28:56] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-23 02:28:56] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-23 02:28:57] INFO root fetch - processPackages [sphinxcontrib-rust]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_rust-0.1.1.tar.gz]
+[2024-04-23 02:28:57] INFO root fetch - processPackages [sphinxcontrib-rust]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_rust-0.2.0.tar.gz]
+[2024-04-23 02:28:57] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-rust]: success
+[2024-04-23 02:28:57] INFO root fetch - main [MainThread]: Store serial: [22886407]
