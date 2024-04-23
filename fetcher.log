@@ -12270,3 +12270,72 @@
 [2024-04-23 08:46:28] INFO root fetch - processPackages [nebula3-python]: Remove: archive file [/home/abi/fetcher/tmp/nebula3_python-3.5.1.tar.gz]
 [2024-04-23 08:46:28] INFO root fetch - main [MainThread]: End processing [nebula3-python]: success
 [2024-04-23 08:46:28] INFO root fetch - main [MainThread]: Store serial: [22889820]
+[2024-04-23 08:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889820]
+[2024-04-23 08:48:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 08:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: replit-river
+[2024-04-23 08:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-contract
+[2024-04-23 08:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-statement-import-online-gocardless
+[2024-04-23 08:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastdeploy
+[2024-04-23 08:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cs2solutions
+[2024-04-23 08:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-nl-account-tax-unece
+[2024-04-23 08:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2024-04-23 08:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fremu
+[2024-04-23 08:48:41] INFO root fetch - processPackages [replit-river]: New version: [0.1.7b6] Old Version: [0.1.7b5]
+[2024-04-23 08:48:41] INFO root fetch - processPackages [cs2solutions]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-23 08:48:41] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-gocardless]: New version: [16.0.1.0.2.5] Old Version: [16.0.1.0.2.2]
+[2024-04-23 08:48:41] INFO root fetch - processPackages [fastdeploy]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-23 08:48:41] WARNING root fetch - processPackages [fremu]: Skipping, unable to determine old version
+[2024-04-23 08:48:41] INFO root fetch - main [MainThread]: End processing [fremu] error
+[2024-04-23 08:48:41] INFO root fetch - processPackages [cg]: New version: [60.2.8] Old Version: [60.2.6]
+[2024-04-23 08:48:41] INFO root fetch - processPackages [odoo-addon-contract]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.4]
+[2024-04-23 08:48:41] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: New version: [16.0.1.0.0.7] Old Version: [15.0.1.2.0]
+[2024-04-23 08:48:41] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/3b/7f/9c13c53d435789f1ef88f8eb971651391b722a85bf8be1c2c01a1526b592/cs2solutions-0.7.1.tar.gz
+[2024-04-23 08:48:41] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/b9/8e/b10eaeda0f6662cd7b084045401fd3d0406e403a36013e273a60da3c54c7/replit_river-0.1.7b5.tar.gz
+[2024-04-23 08:48:41] INFO root fetch - processPackages [fastdeploy]: Downloading https://files.pythonhosted.org/packages/c6/27/0eef2f3693ada749ce4194963013963c07d1f834d7b719b023e20f20c3a8/fastdeploy-3.0.8.tar.gz
+[2024-04-23 08:48:41] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-gocardless]: Downloading https://files.pythonhosted.org/packages/a4/86/5182d123f8f9cdd98d9aa954c4def51e11ded6b9d2b15cf3a7c2fa34af76/odoo_addon_account_statement_import_online_gocardless-16.0.1.0.2.2-py3-none-any.whl
+[2024-04-23 08:48:41] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ee/25/6ccafc2df57cc5e961852aef53f45786b58ef7719009e6411572cce27483/cg-60.2.6.tar.gz
+[2024-04-23 08:48:41] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/03/e6/6f2afeeec7f2d20612c30b8711bf2a478fdca2800c742dd4b1ae3645256e/odoo_addon_contract-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-23 08:48:41] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/d4/4a/945955168d8129f50f918dd4cbc3fe0b2d29d094778c242fee988a3da108/odoo_addon_l10n_nl_account_tax_unece-15.0.1.2.0-py3-none-any.whl
+[2024-04-23 08:48:41] INFO root fetch - processPackages [fastdeploy]: Downloading https://files.pythonhosted.org/packages/e7/88/fd7d5a695474e4424c9f8ae46ca7a6a282cc914eca8ac17cd76149013dfe/fastdeploy-3.0.9.tar.gz
+[2024-04-23 08:48:41] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-gocardless]: Downloading https://files.pythonhosted.org/packages/c7/54/03fc71b888b7e4889926308767415cde9e79d6b1101d85e4234f2ac5fdc8/odoo_addon_account_statement_import_online_gocardless-16.0.1.0.2.5-py3-none-any.whl
+[2024-04-23 08:48:41] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/a8/b9/23af7c9a25646269613fb56220ff24ebf978442ddf8375d24d6afc3bc17d/replit_river-0.1.7b6.tar.gz
+[2024-04-23 08:48:41] INFO root fetch - processPackages [fastdeploy]: executing diffoscope
+[2024-04-23 08:48:41] INFO root fetch - processPackages [fastdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdeploy-3.0.8.tar.gz tmp/fastdeploy-3.0.9.tar.gz --markdown 20240423/f/fastdeploy/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-04-23 08:48:41] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/a0/c5/40060e54d5a292ffd8aca224deb87f24358a894bb1c934e920fb4561b81e/cs2solutions-0.7.2.tar.gz
+[2024-04-23 08:48:41] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-04-23 08:48:41] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.7b5.tar.gz tmp/replit_river-0.1.7b6.tar.gz --markdown 20240423/r/replit-river/0.1.7b5-0.1.7b6/README.md --exclude *.pyd
+[2024-04-23 08:48:41] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-gocardless]: executing diffoscope
+[2024-04-23 08:48:41] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-gocardless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_online_gocardless-16.0.1.0.2.2-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_online_gocardless-16.0.1.0.2.5-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-statement-import-online-gocardless/16.0.1.0.2.2-16.0.1.0.2.5/README.md --exclude *.pyd
+[2024-04-23 08:48:41] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/ee/52/3b6b7bc1841bc911118f7c19d726caf13d7c16dc5ae5a3212052f9e6aadc/odoo_addon_l10n_nl_account_tax_unece-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-23 08:48:42] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/dd/49/ac51a477f27ab9495f9e9c5feb3ab9a6c7214546687895725a3dc4d9f147/cg-60.2.8-py3-none-any.whl
+[2024-04-23 08:48:42] INFO root fetch - processPackages [cs2solutions]: executing diffoscope
+[2024-04-23 08:48:42] INFO root fetch - processPackages [cs2solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2solutions-0.7.1.tar.gz tmp/cs2solutions-0.7.2.tar.gz --markdown 20240423/c/cs2solutions/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-23 08:48:42] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/dd/c3/2ac5b0e28b21bf95c99e522a1469be0be6da1a54b1c3a103195b47e7e583/odoo_addon_contract-17.0.1.0.1-py3-none-any.whl
+[2024-04-23 08:48:42] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: executing diffoscope
+[2024-04-23 08:48:42] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_nl_account_tax_unece-15.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_nl_account_tax_unece-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-l10n-nl-account-tax-unece/15.0.1.2.0-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-04-23 08:48:42] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2024-04-23 08:48:42] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_contract-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-contract/17.0.1.0.0.4-17.0.1.0.1/README.md --exclude *.pyd
+[2024-04-23 08:48:42] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-23 08:48:42] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.2.6.tar.gz tmp/cg-60.2.8-py3-none-any.whl.zip --markdown 20240423/c/cg/60.2.6-60.2.8/README.md --exclude *.pyd
+[2024-04-23 08:48:42] INFO root fetch - processPackages [fastdeploy]: Remove: archive file [/home/abi/fetcher/tmp/fastdeploy-3.0.8.tar.gz]
+[2024-04-23 08:48:42] INFO root fetch - processPackages [fastdeploy]: Remove: archive file [/home/abi/fetcher/tmp/fastdeploy-3.0.9.tar.gz]
+[2024-04-23 08:48:42] INFO root fetch - main [MainThread]: End processing [fastdeploy]: success
+[2024-04-23 08:48:42] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b5.tar.gz]
+[2024-04-23 08:48:42] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b6.tar.gz]
+[2024-04-23 08:48:42] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-04-23 08:48:42] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-gocardless]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_online_gocardless-16.0.1.0.2.2-py3-none-any.whl.zip]
+[2024-04-23 08:48:42] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-gocardless]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_online_gocardless-16.0.1.0.2.5-py3-none-any.whl.zip]
+[2024-04-23 08:48:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-online-gocardless]: success
+[2024-04-23 08:48:42] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.7.1.tar.gz]
+[2024-04-23 08:48:42] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.7.2.tar.gz]
+[2024-04-23 08:48:42] INFO root fetch - main [MainThread]: End processing [cs2solutions]: success
+[2024-04-23 08:48:42] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_nl_account_tax_unece-15.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-23 08:48:42] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_nl_account_tax_unece-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-23 08:48:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-nl-account-tax-unece]: success
+[2024-04-23 08:48:43] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-23 08:48:43] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-23 08:48:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2024-04-23 08:48:43] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.6.tar.gz]
+[2024-04-23 08:48:43] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.8-py3-none-any.whl.zip]
+[2024-04-23 08:48:43] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-23 08:48:43] INFO root fetch - main [MainThread]: Store serial: [22889842]
