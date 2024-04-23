@@ -10439,3 +10439,33 @@
 [2024-04-23 06:56:29] INFO root fetch - processPackages [thriftify]: Remove: archive file [/home/abi/fetcher/tmp/thriftify-0.1.2.tar.gz]
 [2024-04-23 06:56:29] INFO root fetch - main [MainThread]: End processing [thriftify]: success
 [2024-04-23 06:56:29] INFO root fetch - main [MainThread]: Store serial: [22889110]
+[2024-04-23 06:58:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889110]
+[2024-04-23 06:58:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 06:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gai-lib
+[2024-04-23 06:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweecrypt
+[2024-04-23 06:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uac-api
+[2024-04-23 06:58:38] INFO root fetch - processPackages [uac-api]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-23 06:58:38] INFO root fetch - processPackages [gai-lib]: New version: [0.98] Old Version: [0.97]
+[2024-04-23 06:58:38] INFO root fetch - processPackages [sweecrypt]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-23 06:58:38] INFO root fetch - processPackages [gai-lib]: Downloading https://files.pythonhosted.org/packages/ba/48/cc9337707c508f769332d467ffe71db701d0dfe5f12d8fb7c397a560b86a/gai-lib-0.97.tar.gz
+[2024-04-23 06:58:38] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/4c/93/9a8e99c02e310d87bf7cc83987358fc1d9960dd1aadd17efc18a18d9f045/uac-api-0.1.0.tar.gz
+[2024-04-23 06:58:38] INFO root fetch - processPackages [sweecrypt]: Downloading https://files.pythonhosted.org/packages/f9/bd/3b52c25fd4deeab82fcb73769e153a2adf3cc6fa81bdf2d05a385667c8a5/sweecrypt-1.0.2.tar.gz
+[2024-04-23 06:58:38] INFO root fetch - processPackages [gai-lib]: Downloading https://files.pythonhosted.org/packages/d7/ec/73324c4782c5a7d475e0473a63a34aefe2a50c28e3e95e74572ba8e24319/gai-lib-0.98.tar.gz
+[2024-04-23 06:58:38] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/c0/3b/41ff1dc15fa0338560b03a1df021e637cd7114f98c6bc1fb3d6dd22e8557/uac-api-0.2.0.tar.gz
+[2024-04-23 06:58:38] INFO root fetch - processPackages [gai-lib]: executing diffoscope
+[2024-04-23 06:58:38] INFO root fetch - processPackages [gai-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gai-lib-0.97.tar.gz tmp/gai-lib-0.98.tar.gz --markdown 20240423/g/gai-lib/0.97-0.98/README.md --exclude *.pyd
+[2024-04-23 06:58:38] INFO root fetch - processPackages [uac-api]: executing diffoscope
+[2024-04-23 06:58:38] INFO root fetch - processPackages [uac-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uac-api-0.1.0.tar.gz tmp/uac-api-0.2.0.tar.gz --markdown 20240423/u/uac-api/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-23 06:58:38] INFO root fetch - processPackages [sweecrypt]: Downloading https://files.pythonhosted.org/packages/3a/9d/3829ded60493f87e961761e8a4f32cf62235dcbf2832240e0f7389e0d796/sweecrypt-1.0.3.tar.gz
+[2024-04-23 06:58:38] INFO root fetch - processPackages [sweecrypt]: executing diffoscope
+[2024-04-23 06:58:38] INFO root fetch - processPackages [sweecrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweecrypt-1.0.2.tar.gz tmp/sweecrypt-1.0.3.tar.gz --markdown 20240423/s/sweecrypt/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-23 06:58:39] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.1.0.tar.gz]
+[2024-04-23 06:58:39] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.2.0.tar.gz]
+[2024-04-23 06:58:39] INFO root fetch - main [MainThread]: End processing [uac-api]: success
+[2024-04-23 06:58:39] INFO root fetch - processPackages [gai-lib]: Remove: archive file [/home/abi/fetcher/tmp/gai-lib-0.97.tar.gz]
+[2024-04-23 06:58:39] INFO root fetch - processPackages [gai-lib]: Remove: archive file [/home/abi/fetcher/tmp/gai-lib-0.98.tar.gz]
+[2024-04-23 06:58:39] INFO root fetch - main [MainThread]: End processing [gai-lib]: success
+[2024-04-23 06:58:39] INFO root fetch - processPackages [sweecrypt]: Remove: archive file [/home/abi/fetcher/tmp/sweecrypt-1.0.2.tar.gz]
+[2024-04-23 06:58:39] INFO root fetch - processPackages [sweecrypt]: Remove: archive file [/home/abi/fetcher/tmp/sweecrypt-1.0.3.tar.gz]
+[2024-04-23 06:58:39] INFO root fetch - main [MainThread]: End processing [sweecrypt]: success
+[2024-04-23 06:58:39] INFO root fetch - main [MainThread]: Store serial: [22889119]
