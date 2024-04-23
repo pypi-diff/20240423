@@ -12525,3 +12525,72 @@
 [2024-04-23 08:58:11] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1504-py3-none-any.whl.zip]
 [2024-04-23 08:58:11] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-23 08:58:11] INFO root fetch - main [MainThread]: Store serial: [22889948]
+[2024-04-23 09:00:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889948]
+[2024-04-23 09:00:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 09:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luminesce-sdk
+[2024-04-23 09:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clusterenv
+[2024-04-23 09:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fourcats-flask
+[2024-04-23 09:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cs2solutions
+[2024-04-23 09:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rv-utilities
+[2024-04-23 09:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vy-lambda-tools
+[2024-04-23 09:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dve-lumipy-testing
+[2024-04-23 09:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testsolar-testtool-sdk-py2
+[2024-04-23 09:00:20] INFO root fetch - processPackages [cs2solutions]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-23 09:00:20] WARNING root fetch - processPackages [rv-utilities]: Skipping, unable to determine old version
+[2024-04-23 09:00:20] INFO root fetch - main [MainThread]: End processing [rv-utilities] error
+[2024-04-23 09:00:20] INFO root fetch - processPackages [clusterenv]: New version: [0.3.27] Old Version: [0.3.26]
+[2024-04-23 09:00:20] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/a0/c5/40060e54d5a292ffd8aca224deb87f24358a894bb1c934e920fb4561b81e/cs2solutions-0.7.2.tar.gz
+[2024-04-23 09:00:20] INFO root fetch - processPackages [fourcats-flask]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-23 09:00:20] INFO root fetch - processPackages [vy-lambda-tools]: New version: [0.4.0b4] Old Version: [0.4.0b3]
+[2024-04-23 09:00:20] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-23 09:00:20] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-23 09:00:20] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 09:00:20] INFO root fetch - processPackages [clusterenv]: Downloading https://files.pythonhosted.org/packages/56/27/9cea055a00d7a5f7c30a25acc2d76c91eff91b67443bf2d14a79073b0696/clusterenv-0.3.26.tar.gz
+[2024-04-23 09:00:20] INFO root fetch - processPackages [fourcats-flask]: Downloading https://files.pythonhosted.org/packages/e3/90/5350386f4b164dee85e031656cac90e7a3bba521fd2ba30a2c4f7051faf1/fourcats-flask-0.1.2.tar.gz
+[2024-04-23 09:00:20] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Downloading https://files.pythonhosted.org/packages/c3/05/60ecb29730a6f211eb92151b6fc0607670c5586e996e1cfc4a502d763933/testsolar-testtool-sdk-py2-0.1.6.tar.gz
+[2024-04-23 09:00:20] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/e3/65/3696ddb18aebc5d84165e3aad87e9f8ef387ad4f28960b5404833fc6eef5/luminesce_sdk-2.1.8.tar.gz
+[2024-04-23 09:00:20] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-04-23 09:00:20] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/9d/d6/5ce3f9b8ce7a292b21d5746ed5d269fa479ab708cb7d7210ae3143753995/vy_lambda_tools-0.4.0b3.tar.gz
+[2024-04-23 09:00:20] INFO root fetch - processPackages [clusterenv]: Downloading https://files.pythonhosted.org/packages/b8/ed/243b05d28aa77ee3ff4553d58bc79502977caf6f6da98c49c809d8e82576/clusterenv-0.3.27.tar.gz
+[2024-04-23 09:00:20] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/c9/6b/3defa495fc90a6482c7fb49e254060a1cd753def1a0612c324e98309e96e/cs2solutions-0.7.3.tar.gz
+[2024-04-23 09:00:20] INFO root fetch - processPackages [clusterenv]: executing diffoscope
+[2024-04-23 09:00:20] INFO root fetch - processPackages [clusterenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clusterenv-0.3.26.tar.gz tmp/clusterenv-0.3.27.tar.gz --markdown 20240423/c/clusterenv/0.3.26-0.3.27/README.md --exclude *.pyd
+[2024-04-23 09:00:20] INFO root fetch - processPackages [cs2solutions]: executing diffoscope
+[2024-04-23 09:00:20] INFO root fetch - processPackages [cs2solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2solutions-0.7.2.tar.gz tmp/cs2solutions-0.7.3.tar.gz --markdown 20240423/c/cs2solutions/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-04-23 09:00:21] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Downloading https://files.pythonhosted.org/packages/64/56/d44684bd1d61aaf3e42f70496bc6d7276a05a116ccfb5a9fdb60c78a1a1b/testsolar-testtool-sdk-py2-0.1.7.tar.gz
+[2024-04-23 09:00:21] INFO root fetch - processPackages [fourcats-flask]: Downloading https://files.pythonhosted.org/packages/53/d7/d5777f325b922bfb89f4ea50d296cfbf7139550cf5986d99056f9f1ea120/fourcats_flask-0.1.3.tar.gz
+[2024-04-23 09:00:21] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/a2/f8/60fd93602c8a8ca95dc7c40c70e8cd0227fcbe0dbb602c1f1f2c4d761b20/luminesce_sdk-2.1.9.tar.gz
+[2024-04-23 09:00:21] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/48/26/31bcc5e5b39a8315870be0340c16c5817a1002f7bdcd2ecec681ec72bc60/vy_lambda_tools-0.4.0b4.tar.gz
+[2024-04-23 09:00:21] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-04-23 09:00:21] INFO root fetch - processPackages [fourcats-flask]: executing diffoscope
+[2024-04-23 09:00:21] INFO root fetch - processPackages [fourcats-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fourcats-flask-0.1.2.tar.gz tmp/fourcats_flask-0.1.3.tar.gz --markdown 20240423/f/fourcats-flask/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-23 09:00:21] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: executing diffoscope
+[2024-04-23 09:00:21] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-testtool-sdk-py2-0.1.6.tar.gz tmp/testsolar-testtool-sdk-py2-0.1.7.tar.gz --markdown 20240423/t/testsolar-testtool-sdk-py2/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-23 09:00:21] INFO root fetch - processPackages [vy-lambda-tools]: executing diffoscope
+[2024-04-23 09:00:21] INFO root fetch - processPackages [vy-lambda-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vy_lambda_tools-0.4.0b3.tar.gz tmp/vy_lambda_tools-0.4.0b4.tar.gz --markdown 20240423/v/vy-lambda-tools/0.4.0b3-0.4.0b4/README.md --exclude *.pyd
+[2024-04-23 09:00:21] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-23 09:00:21] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-04-23 09:00:21] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.1.8.tar.gz tmp/luminesce_sdk-2.1.9.tar.gz --markdown 20240423/l/luminesce-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-23 09:00:21] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240423/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 09:00:21] INFO root fetch - processPackages [clusterenv]: Remove: archive file [/home/abi/fetcher/tmp/clusterenv-0.3.26.tar.gz]
+[2024-04-23 09:00:21] INFO root fetch - processPackages [clusterenv]: Remove: archive file [/home/abi/fetcher/tmp/clusterenv-0.3.27.tar.gz]
+[2024-04-23 09:00:21] INFO root fetch - main [MainThread]: End processing [clusterenv]: success
+[2024-04-23 09:00:21] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.7.2.tar.gz]
+[2024-04-23 09:00:21] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.7.3.tar.gz]
+[2024-04-23 09:00:21] INFO root fetch - main [MainThread]: End processing [cs2solutions]: success
+[2024-04-23 09:00:21] INFO root fetch - processPackages [fourcats-flask]: Remove: archive file [/home/abi/fetcher/tmp/fourcats-flask-0.1.2.tar.gz]
+[2024-04-23 09:00:21] INFO root fetch - processPackages [fourcats-flask]: Remove: archive file [/home/abi/fetcher/tmp/fourcats_flask-0.1.3.tar.gz]
+[2024-04-23 09:00:21] INFO root fetch - main [MainThread]: End processing [fourcats-flask]: success
+[2024-04-23 09:00:21] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-py2-0.1.6.tar.gz]
+[2024-04-23 09:00:21] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-py2-0.1.7.tar.gz]
+[2024-04-23 09:00:21] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk-py2]: success
+[2024-04-23 09:00:21] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.0b3.tar.gz]
+[2024-04-23 09:00:21] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.0b4.tar.gz]
+[2024-04-23 09:00:21] INFO root fetch - main [MainThread]: End processing [vy-lambda-tools]: success
+[2024-04-23 09:00:22] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.8.tar.gz]
+[2024-04-23 09:00:22] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.9.tar.gz]
+[2024-04-23 09:00:22] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-04-23 09:00:22] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-04-23 09:00:22] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-04-23 09:00:22] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-23 09:00:22] INFO root fetch - main [MainThread]: Store serial: [22889974]
