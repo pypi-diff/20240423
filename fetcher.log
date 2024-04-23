@@ -22473,3 +22473,95 @@ EOFError: EOF read where object expected
 [2024-04-23 15:04:37] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
 [2024-04-23 15:04:37] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
 [2024-04-23 15:04:37] INFO root fetch - main [MainThread]: Store serial: [22894245]
+[2024-04-23 15:06:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894245]
+[2024-04-23 15:06:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-23 15:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rats-pipelines
+[2024-04-23 15:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Background
+[2024-04-23 15:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-processors
+[2024-04-23 15:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openscap-report
+[2024-04-23 15:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: q2-micom
+[2024-04-23 15:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: queue-api
+[2024-04-23 15:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypycounts
+[2024-04-23 15:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mayatk
+[2024-04-23 15:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idvpackage
+[2024-04-23 15:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: astro-ghost
+[2024-04-23 15:06:47] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 15:06:47] INFO root fetch - processPackages [astro-ghost]: New version: [2.2.2.dev12] Old Version: [2.1.5]
+[2024-04-23 15:06:47] INFO root fetch - processPackages [idvpackage]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-23 15:06:47] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 15:06:47] INFO root fetch - processPackages [openscap-report]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-04-23 15:06:47] WARNING root fetch - processPackages [mypycounts]: Skipping, unable to determine old version
+[2024-04-23 15:06:47] INFO root fetch - processPackages [mypycounts]: Start processing: aiogram3-triggers
+[2024-04-23 15:06:47] INFO root fetch - main [MainThread]: End processing [mypycounts] error
+[2024-04-23 15:06:47] INFO root fetch - processPackages [queue-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-23 15:06:47] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 15:06:47] INFO root fetch - processPackages [q2-micom]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-23 15:06:47] INFO root fetch - processPackages [mayatk]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 15:06:47] INFO root fetch - processPackages [Geode-Background]: New version: [7.9.7rc1] Old Version: [7.9.6rc1]
+[2024-04-23 15:06:47] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/df/ef/3f976b5e5dec011856f5ce9cff372c2b59da37274d8cdc32c23fbf820e48/astro_ghost-2.1.5.tar.gz
+[2024-04-23 15:06:47] INFO root fetch - processPackages [aiogram3-triggers]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-23 15:06:47] INFO root fetch - processPackages [idvpackage]: Downloading https://files.pythonhosted.org/packages/6c/7c/65b70ff47604461688a9475630c0e6f7b3f0809d59034ee93c3a20a856cd/idvpackage-1.9.8.tar.gz
+[2024-04-23 15:06:47] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 15:06:47] INFO root fetch - processPackages [openscap-report]: Downloading https://files.pythonhosted.org/packages/64/98/378d5d500f7442a989e2f6892fc9f375b5a53a12b5bee643b21edea52bbb/openscap-report-0.2.7.tar.gz
+[2024-04-23 15:06:47] INFO root fetch - processPackages [queue-api]: Downloading https://files.pythonhosted.org/packages/4e/37/ffb1dc25871fa24b86eebf08f327ed17d23e8f92987fff9f589ef84417ed/queue_api-0.1.3.tar.gz
+[2024-04-23 15:06:47] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 15:06:47] INFO root fetch - processPackages [q2-micom]: Downloading https://files.pythonhosted.org/packages/dc/9d/47dc716e6e629a2b2a933d4b4f0d10f6906d89663e04367bd1ef7c7d2fe7/q2-micom-0.8.0.tar.gz
+[2024-04-23 15:06:47] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/7d/a4/c1be1784446e52e1be3d18364c62336681d5bf7f9d463a341183735cc890/Geode_Background-7.9.6rc1-cp39-cp39-win_amd64.whl
+[2024-04-23 15:06:47] INFO root fetch - processPackages [mayatk]: Downloading https://files.pythonhosted.org/packages/c8/b4/a591dee89e647ce03431f69dc2cd2473a424024c285abcaf8ee9fbe3432d/mayatk-0.9.8.tar.gz
+[2024-04-23 15:06:47] INFO root fetch - processPackages [aiogram3-triggers]: Downloading https://files.pythonhosted.org/packages/1f/73/b154692364174f3bf2c22166e736c2d12a9f8291e89a535a105ddc56cbef/aiogram3_triggers-0.0.0.tar.gz
+[2024-04-23 15:06:47] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 15:06:47] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-23 15:06:47] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 15:06:48] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-23 15:06:48] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 15:06:48] INFO root fetch - processPackages [queue-api]: Downloading https://files.pythonhosted.org/packages/b3/16/00abf846c9a71f362319b2ad7cd44e3ef58a2a02ef3301d98b4227e185c0/queue_api-0.1.4.tar.gz
+[2024-04-23 15:06:48] WARNING root fetch - processPackages [idvpackage]: Skipping package: exceeds size limit 28247832>=10485760
+[2024-04-23 15:06:48] INFO root fetch - main [MainThread]: End processing [idvpackage] error
+[2024-04-23 15:06:48] INFO root fetch - processPackages [q2-micom]: Downloading https://files.pythonhosted.org/packages/44/cc/99bfcfdb7bfa6dc6e7e1fcef62d74a755c5f068d5039e51327ef0d1a8563/q2-micom-0.9.0.tar.gz
+[2024-04-23 15:06:48] INFO root fetch - processPackages [aiogram3-triggers]: Downloading https://files.pythonhosted.org/packages/c2/bc/e748a0649b161bedbeed8311742626e114d7688881631e334fbac540b74c/aiogram3_triggers-0.0.1.tar.gz
+[2024-04-23 15:06:48] INFO root fetch - processPackages [queue-api]: executing diffoscope
+[2024-04-23 15:06:48] INFO root fetch - processPackages [queue-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queue_api-0.1.3.tar.gz tmp/queue_api-0.1.4.tar.gz --markdown 20240423/q/queue-api/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-23 15:06:48] INFO root fetch - processPackages [mayatk]: Downloading https://files.pythonhosted.org/packages/c1/18/00782850eedb97ca45e152a9da0c3c775aeb9037d8e9a4f4c935395c7e85/mayatk-0.9.9.tar.gz
+[2024-04-23 15:06:48] INFO root fetch - processPackages [aiogram3-triggers]: executing diffoscope
+[2024-04-23 15:06:48] INFO root fetch - processPackages [aiogram3-triggers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram3_triggers-0.0.0.tar.gz tmp/aiogram3_triggers-0.0.1.tar.gz --markdown 20240423/a/aiogram3-triggers/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-23 15:06:48] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/10/8b/85e4d79dd6ed46f878ea509d03a91464caa894d9b01c4b379010c08be424/astro_ghost-2.2.2.dev12.tar.gz
+[2024-04-23 15:06:48] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/79/1c/8de87be7be8fe931c4930bb8a18733e8cf05b51743f852690377e3993a89/Geode_Background-7.9.7rc1-cp39-cp39-win_amd64.whl
+[2024-04-23 15:06:48] INFO root fetch - processPackages [openscap-report]: Downloading https://files.pythonhosted.org/packages/06/7a/505accd3e11d9f3ad206cfdbcc4e7726d936c9600f705b9f2a74cf383067/openscap_report-0.2.9.tar.gz
+[2024-04-23 15:06:48] INFO root fetch - processPackages [mayatk]: executing diffoscope
+[2024-04-23 15:06:48] INFO root fetch - processPackages [mayatk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayatk-0.9.8.tar.gz tmp/mayatk-0.9.9.tar.gz --markdown 20240423/m/mayatk/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-23 15:06:48] INFO root fetch - processPackages [astro-ghost]: executing diffoscope
+[2024-04-23 15:06:48] INFO root fetch - processPackages [astro-ghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_ghost-2.1.5.tar.gz tmp/astro_ghost-2.2.2.dev12.tar.gz --markdown 20240423/a/astro-ghost/2.1.5-2.2.2.dev12/README.md --exclude *.pyd
+[2024-04-23 15:06:48] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 15:06:48] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 15:06:48] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-23 15:06:48] INFO root fetch - processPackages [q2-micom]: executing diffoscope
+[2024-04-23 15:06:48] INFO root fetch - processPackages [q2-micom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2-micom-0.8.0.tar.gz tmp/q2-micom-0.9.0.tar.gz --markdown 20240423/q/q2-micom/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-23 15:06:48] INFO root fetch - processPackages [openscap-report]: executing diffoscope
+[2024-04-23 15:06:48] INFO root fetch - processPackages [openscap-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openscap-report-0.2.7.tar.gz tmp/openscap_report-0.2.9.tar.gz --markdown 20240423/o/openscap-report/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-04-23 15:06:48] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 15:06:48] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 15:06:48] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-23 15:06:49] INFO root fetch - processPackages [queue-api]: Remove: archive file [/home/abi/fetcher/tmp/queue_api-0.1.3.tar.gz]
+[2024-04-23 15:06:49] INFO root fetch - processPackages [queue-api]: Remove: archive file [/home/abi/fetcher/tmp/queue_api-0.1.4.tar.gz]
+[2024-04-23 15:06:49] INFO root fetch - main [MainThread]: End processing [queue-api]: success
+[2024-04-23 15:06:49] INFO root fetch - processPackages [aiogram3-triggers]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_triggers-0.0.0.tar.gz]
+[2024-04-23 15:06:49] INFO root fetch - processPackages [aiogram3-triggers]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_triggers-0.0.1.tar.gz]
+[2024-04-23 15:06:49] INFO root fetch - main [MainThread]: End processing [aiogram3-triggers]: success
+[2024-04-23 15:06:49] INFO root fetch - processPackages [mayatk]: Remove: archive file [/home/abi/fetcher/tmp/mayatk-0.9.8.tar.gz]
+[2024-04-23 15:06:49] INFO root fetch - processPackages [mayatk]: Remove: archive file [/home/abi/fetcher/tmp/mayatk-0.9.9.tar.gz]
+[2024-04-23 15:06:49] INFO root fetch - main [MainThread]: End processing [mayatk]: success
+[2024-04-23 15:06:49] INFO root fetch - processPackages [q2-micom]: Remove: archive file [/home/abi/fetcher/tmp/q2-micom-0.8.0.tar.gz]
+[2024-04-23 15:06:49] INFO root fetch - processPackages [q2-micom]: Remove: archive file [/home/abi/fetcher/tmp/q2-micom-0.9.0.tar.gz]
+[2024-04-23 15:06:49] INFO root fetch - main [MainThread]: End processing [q2-micom]: success
+[2024-04-23 15:06:50] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.1.5.tar.gz]
+[2024-04-23 15:06:50] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.2.2.dev12.tar.gz]
+[2024-04-23 15:06:50] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
+[2024-04-23 15:06:54] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2024-04-23 15:06:54] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.9.6rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.9.7rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240423/G/Geode-Background/7.9.6rc1-7.9.7rc1/README.md --exclude *.pyd
+[2024-04-23 15:07:18] INFO root fetch - processPackages [openscap-report]: Remove: archive file [/home/abi/fetcher/tmp/openscap-report-0.2.7.tar.gz]
+[2024-04-23 15:07:18] INFO root fetch - processPackages [openscap-report]: Remove: archive file [/home/abi/fetcher/tmp/openscap_report-0.2.9.tar.gz]
+[2024-04-23 15:07:18] INFO root fetch - main [MainThread]: End processing [openscap-report]: success
+[2024-04-23 15:07:29] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 15:07:29] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.7rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 15:07:29] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2024-04-23 15:07:29] INFO root fetch - main [MainThread]: Store serial: [22894283]
