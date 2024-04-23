@@ -7751,3 +7751,18 @@
 [2024-04-23 04:13:56] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b2.tar.gz]
 [2024-04-23 04:13:56] INFO root fetch - main [MainThread]: End processing [replit-river]: success
 [2024-04-23 04:13:56] INFO root fetch - main [MainThread]: Store serial: [22888014]
+[2024-04-23 04:15:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888014]
+[2024-04-23 04:16:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 04:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatfilediff
+[2024-04-23 04:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biblelib
+[2024-04-23 04:16:04] WARNING root fetch - processPackages [flatfilediff]: Skipping, unable to determine old version
+[2024-04-23 04:16:04] INFO root fetch - main [MainThread]: End processing [flatfilediff] error
+[2024-04-23 04:16:04] INFO root fetch - processPackages [biblelib]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-23 04:16:05] INFO root fetch - processPackages [biblelib]: Downloading https://files.pythonhosted.org/packages/d6/4c/5c4b21a06afb9055f87cd1499c8906034780f2291dfdc95e489498ca7dcf/biblelib-0.3.3.tar.gz
+[2024-04-23 04:16:05] INFO root fetch - processPackages [biblelib]: Downloading https://files.pythonhosted.org/packages/e7/7c/21c49ed2dc208eb3d25d215cc13b52eb56fe0372fd5a25f8a2d844769457/biblelib-0.3.4.tar.gz
+[2024-04-23 04:16:05] INFO root fetch - processPackages [biblelib]: executing diffoscope
+[2024-04-23 04:16:05] INFO root fetch - processPackages [biblelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biblelib-0.3.3.tar.gz tmp/biblelib-0.3.4.tar.gz --markdown 20240423/b/biblelib/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-23 04:16:06] INFO root fetch - processPackages [biblelib]: Remove: archive file [/home/abi/fetcher/tmp/biblelib-0.3.3.tar.gz]
+[2024-04-23 04:16:06] INFO root fetch - processPackages [biblelib]: Remove: archive file [/home/abi/fetcher/tmp/biblelib-0.3.4.tar.gz]
+[2024-04-23 04:16:06] INFO root fetch - main [MainThread]: End processing [biblelib]: success
+[2024-04-23 04:16:06] INFO root fetch - main [MainThread]: Store serial: [22888020]
