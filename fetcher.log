@@ -21263,3 +21263,24 @@ EOFError: EOF read where object expected
 [2024-04-23 14:23:59] INFO root fetch - processPackages [py2nut]: Remove: archive file [/home/abi/fetcher/tmp/py2nut-4.2.4.tar.gz]
 [2024-04-23 14:23:59] INFO root fetch - main [MainThread]: End processing [py2nut]: success
 [2024-04-23 14:23:59] INFO root fetch - main [MainThread]: Store serial: [22893696]
+[2024-04-23 14:26:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893696]
+[2024-04-23 14:26:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 14:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocrd-froc
+[2024-04-23 14:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: database-common-tools
+[2024-04-23 14:26:08] INFO root fetch - processPackages [database-common-tools]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-23 14:26:08] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/19/50/9bd50456d878ffba6058f0b640c51cd15f764face083bfc17e230ce82d52/database-common-tools-1.1.4.tar.gz
+[2024-04-23 14:26:08] INFO root fetch - processPackages [ocrd-froc]: New version: [0.6.1] Old Version: [0.5.2]
+[2024-04-23 14:26:08] INFO root fetch - processPackages [ocrd-froc]: Downloading https://files.pythonhosted.org/packages/0b/69/775336c3f227c48e2af670d46b78c96485f0819bdf154c6b709c2fb602a0/ocrd_froc-0.5.2.tar.gz
+[2024-04-23 14:26:08] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/4f/08/785d364c756aafd34ece41dc92b453b7b9d620f9415730ace64ba9c33ab2/database-common-tools-1.1.5.tar.gz
+[2024-04-23 14:26:08] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-23 14:26:08] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.1.4.tar.gz tmp/database-common-tools-1.1.5.tar.gz --markdown 20240423/d/database-common-tools/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-23 14:26:09] INFO root fetch - processPackages [ocrd-froc]: Downloading https://files.pythonhosted.org/packages/cc/22/72d73dbafb06428c7c40376f9cf2165196094f7b3797418e31ce612ac654/ocrd_froc-0.6.1.tar.gz
+[2024-04-23 14:26:09] INFO root fetch - processPackages [ocrd-froc]: executing diffoscope
+[2024-04-23 14:26:09] INFO root fetch - processPackages [ocrd-froc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd_froc-0.5.2.tar.gz tmp/ocrd_froc-0.6.1.tar.gz --markdown 20240423/o/ocrd-froc/0.5.2-0.6.1/README.md --exclude *.pyd
+[2024-04-23 14:26:09] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.4.tar.gz]
+[2024-04-23 14:26:09] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.5.tar.gz]
+[2024-04-23 14:26:09] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-23 14:26:09] INFO root fetch - processPackages [ocrd-froc]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_froc-0.5.2.tar.gz]
+[2024-04-23 14:26:09] INFO root fetch - processPackages [ocrd-froc]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_froc-0.6.1.tar.gz]
+[2024-04-23 14:26:09] INFO root fetch - main [MainThread]: End processing [ocrd-froc]: success
+[2024-04-23 14:26:09] INFO root fetch - main [MainThread]: Store serial: [22893702]
