@@ -12354,3 +12354,76 @@
 [2024-04-23 08:50:54] INFO root fetch - processPackages [simple-dwd-weatherforecast]: Remove: archive file [/home/abi/fetcher/tmp/simple_dwd_weatherforecast-2.0.9.tar.gz]
 [2024-04-23 08:50:54] INFO root fetch - main [MainThread]: End processing [simple-dwd-weatherforecast]: success
 [2024-04-23 08:50:54] INFO root fetch - main [MainThread]: Store serial: [22889850]
+[2024-04-23 08:52:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889850]
+[2024-04-23 08:53:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 08:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clusterenv
+[2024-04-23 08:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: item-matching
+[2024-04-23 08:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: visyn-core
+[2024-04-23 08:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cityseer
+[2024-04-23 08:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: policyengine-us
+[2024-04-23 08:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clusterenv
+[2024-04-23 08:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dekdjtools
+[2024-04-23 08:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chamco-ragbot
+[2024-04-23 08:53:03] INFO root fetch - processPackages [clusterenv]: New version: [0.3.25] Old Version: [0.3.24]
+[2024-04-23 08:53:03] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-23 08:53:03] INFO root fetch - processPackages [clusterenv]: New version: [0.3.25] Old Version: [0.3.24]
+[2024-04-23 08:53:03] INFO root fetch - processPackages [chamco-ragbot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 08:53:03] INFO root fetch - processPackages [policyengine-us]: New version: [0.748.0] Old Version: [0.747.0]
+[2024-04-23 08:53:03] INFO root fetch - processPackages [cityseer]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-04-23 08:53:03] INFO root fetch - processPackages [visyn-core]: New version: [9.2.2] Old Version: [9.2.0]
+[2024-04-23 08:53:03] INFO root fetch - processPackages [clusterenv]: Downloading https://files.pythonhosted.org/packages/84/48/ae347914e16a7117486bec3b0728f1e3fb4627edf390c4268d2fcc2edba8/clusterenv-0.3.24.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 08:53:03] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/28/24/217618cc94e5d20215b780cc06e8b8ea901198fa7e2ab0f9ae59576698af/chamco_ragbot-0.1.8.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/46/d1/6c0514a3c55ce8c313d19b8d692c464834955a3cce9dca202eb42ac236d9/dekdjtools-0.1.7.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [clusterenv]: Downloading https://files.pythonhosted.org/packages/84/48/ae347914e16a7117486bec3b0728f1e3fb4627edf390c4268d2fcc2edba8/clusterenv-0.3.24.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/93/44/b0907cf81d176fc3e90937bfb40395198b4c1bcddf6a0a50f4d0597ea08a/policyengine-us-0.747.0.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [cityseer]: Downloading https://files.pythonhosted.org/packages/0c/fe/6cd0237a6988486e2fe3ef2043976edcfc1952a2f66a704892d2176229b2/cityseer-4.8.1.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [visyn-core]: Downloading https://files.pythonhosted.org/packages/aa/9b/e68c9433a956d941663c46c54ced678d286e961c058d42bb033949e56fcc/visyn_core-9.2.0-py3-none-any.whl
+[2024-04-23 08:53:03] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/6d/2f/b0cfb668429f9c2cc9bbd78a2a429261023e9941169dc50b7905e48db0ac/chamco_ragbot-0.1.9.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [clusterenv]: Downloading https://files.pythonhosted.org/packages/b0/d2/c6b0adbe0adfd7d0288e148436ea1d5db1e8289cfa6694788c5a45f941ce/clusterenv-0.3.25.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [clusterenv]: Downloading https://files.pythonhosted.org/packages/b0/d2/c6b0adbe0adfd7d0288e148436ea1d5db1e8289cfa6694788c5a45f941ce/clusterenv-0.3.25.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [chamco-ragbot]: executing diffoscope
+[2024-04-23 08:53:03] INFO root fetch - processPackages [chamco-ragbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chamco_ragbot-0.1.8.tar.gz tmp/chamco_ragbot-0.1.9.tar.gz --markdown 20240423/c/chamco-ragbot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 08:53:03] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-04-23 08:53:03] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.7.tar.gz tmp/dekdjtools-0.1.8.tar.gz --markdown 20240423/d/dekdjtools/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-23 08:53:03] INFO root fetch - processPackages [clusterenv]: executing diffoscope
+[2024-04-23 08:53:03] INFO root fetch - processPackages [clusterenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clusterenv-0.3.24.tar.gz tmp/clusterenv-0.3.25.tar.gz --markdown 20240423/c/clusterenv/0.3.24-0.3.25/README.md --exclude *.pyd
+[2024-04-23 08:53:03] INFO root fetch - processPackages [clusterenv]: executing diffoscope
+[2024-04-23 08:53:03] INFO root fetch - processPackages [clusterenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clusterenv-0.3.24.tar.gz tmp/clusterenv-0.3.25.tar.gz --markdown 20240423/c/clusterenv/0.3.24-0.3.25/README.md --exclude *.pyd
+[2024-04-23 08:53:03] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/5b/ed/8d1d0b64de68219af125cd0c4aff669e2f885f9b4efe61329788878a51b0/policyengine-us-0.748.0.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [visyn-core]: Downloading https://files.pythonhosted.org/packages/78/7c/1c6d8a9ef457ec160296a0e6443b89719e6bbb520583ae2b72b8c68f6e10/visyn_core-9.2.2-py3-none-any.whl
+[2024-04-23 08:53:03] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [cityseer]: Downloading https://files.pythonhosted.org/packages/ab/e1/bacf1bf58fe1a62b4563c927a3d3a5556542170d22d08863da6c88a412c6/cityseer-4.9.0.tar.gz
+[2024-04-23 08:53:03] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-04-23 08:53:03] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240423/i/item-matching/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 08:53:03] INFO root fetch - processPackages [visyn-core]: executing diffoscope
+[2024-04-23 08:53:03] INFO root fetch - processPackages [visyn-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visyn_core-9.2.0-py3-none-any.whl.zip tmp/visyn_core-9.2.2-py3-none-any.whl.zip --markdown 20240423/v/visyn-core/9.2.0-9.2.2/README.md --exclude *.pyd
+[2024-04-23 08:53:04] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-23 08:53:04] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.747.0.tar.gz tmp/policyengine-us-0.748.0.tar.gz --markdown 20240423/p/policyengine-us/0.747.0-0.748.0/README.md --exclude *.pyd
+[2024-04-23 08:53:04] INFO root fetch - processPackages [cityseer]: executing diffoscope
+[2024-04-23 08:53:04] INFO root fetch - processPackages [cityseer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cityseer-4.8.1.tar.gz tmp/cityseer-4.9.0.tar.gz --markdown 20240423/c/cityseer/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-04-23 08:53:04] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.8.tar.gz]
+[2024-04-23 08:53:04] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.9.tar.gz]
+[2024-04-23 08:53:04] INFO root fetch - main [MainThread]: End processing [chamco-ragbot]: success
+[2024-04-23 08:53:04] INFO root fetch - processPackages [clusterenv]: Remove: archive file [/home/abi/fetcher/tmp/clusterenv-0.3.24.tar.gz]
+[2024-04-23 08:53:04] INFO root fetch - processPackages [clusterenv]: Remove: archive file [/home/abi/fetcher/tmp/clusterenv-0.3.25.tar.gz]
+[2024-04-23 08:53:04] INFO root fetch - main [MainThread]: End processing [clusterenv]: success
+[2024-04-23 08:53:04] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.7.tar.gz]
+[2024-04-23 08:53:04] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-04-23 08:53:04] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-04-23 08:53:04] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-04-23 08:53:04] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-04-23 08:53:04] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-04-23 08:53:04] INFO root fetch - main [MainThread]: End processing [clusterenv]: success
+[2024-04-23 08:53:05] INFO root fetch - processPackages [visyn-core]: Remove: archive file [/home/abi/fetcher/tmp/visyn_core-9.2.0-py3-none-any.whl.zip]
+[2024-04-23 08:53:05] INFO root fetch - processPackages [visyn-core]: Remove: archive file [/home/abi/fetcher/tmp/visyn_core-9.2.2-py3-none-any.whl.zip]
+[2024-04-23 08:53:05] INFO root fetch - main [MainThread]: End processing [visyn-core]: success
+[2024-04-23 08:53:06] INFO root fetch - processPackages [cityseer]: Remove: archive file [/home/abi/fetcher/tmp/cityseer-4.8.1.tar.gz]
+[2024-04-23 08:53:06] INFO root fetch - processPackages [cityseer]: Remove: archive file [/home/abi/fetcher/tmp/cityseer-4.9.0.tar.gz]
+[2024-04-23 08:53:06] INFO root fetch - main [MainThread]: End processing [cityseer]: success
+[2024-04-23 08:53:36] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.747.0.tar.gz]
+[2024-04-23 08:53:36] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.748.0.tar.gz]
+[2024-04-23 08:53:36] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-23 08:53:36] INFO root fetch - main [MainThread]: Store serial: [22889893]
