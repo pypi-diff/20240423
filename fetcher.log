@@ -2791,3 +2791,15 @@
 [2024-04-23 02:22:27] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.5.0.tar.gz]
 [2024-04-23 02:22:27] INFO root fetch - main [MainThread]: End processing [mms-client]: success
 [2024-04-23 02:22:27] INFO root fetch - main [MainThread]: Store serial: [22886357]
+[2024-04-23 02:24:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886357]
+[2024-04-23 02:24:35] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-23 02:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-tweet-queue
+[2024-04-23 02:24:35] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-23 02:24:36] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2024-04-23 02:24:36] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2024-04-23 02:24:36] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2024-04-23 02:24:36] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20240423/c/cdk-tweet-queue/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-23 02:24:36] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2024-04-23 02:24:36] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2024-04-23 02:24:36] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2024-04-23 02:24:36] INFO root fetch - main [MainThread]: Store serial: [22886361]
