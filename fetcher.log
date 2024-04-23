@@ -9652,3 +9652,74 @@
 [2024-04-23 05:43:56] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_recurring-17.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-04-23 05:43:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-recurring]: success
 [2024-04-23 05:43:56] INFO root fetch - main [MainThread]: Store serial: [22888693]
+[2024-04-23 05:46:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888693]
+[2024-04-23 05:46:04] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-23 05:48:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888694]
+[2024-04-23 05:48:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idmtk
+[2024-04-23 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ghostwindow
+[2024-04-23 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hermesbaby
+[2024-04-23 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: laktory
+[2024-04-23 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: samap
+[2024-04-23 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypomes-db
+[2024-04-23 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bakabakabaka
+[2024-04-23 05:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yoto-api
+[2024-04-23 05:48:10] INFO root fetch - processPackages [yoto-api]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-23 05:48:10] INFO root fetch - processPackages [pypomes-db]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 05:48:10] INFO root fetch - processPackages [bakabakabaka]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-23 05:48:10] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/96/d8/167be90f8c14578a71e8513a518b924dfcbd8142b50f49de337d6af81418/yoto_api-1.5.0.tar.gz
+[2024-04-23 05:48:10] WARNING root fetch - processPackages [hermesbaby]: Skipping, unable to determine old version
+[2024-04-23 05:48:10] INFO root fetch - main [MainThread]: End processing [hermesbaby] error
+[2024-04-23 05:48:10] INFO root fetch - processPackages [ghostwindow]: New version: [1.1.2] Old Version: [1.0.0]
+[2024-04-23 05:48:10] INFO root fetch - processPackages [samap]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-23 05:48:10] INFO root fetch - processPackages [idmtk]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-23 05:48:10] INFO root fetch - processPackages [laktory]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 05:48:10] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/0a/ed/13486a413f0b3dd88ba8dbbd0dc90db09c82939fc809f86ba42e8e3d22bb/pypomes_db-0.3.8.tar.gz
+[2024-04-23 05:48:10] INFO root fetch - processPackages [idmtk]: Downloading https://files.pythonhosted.org/packages/48/bc/7ae3d5fe7b99084f3844d2c438b104a51b7f4482c39bcfcced26315810ca/idmtk-0.1.2.tar.gz
+[2024-04-23 05:48:10] INFO root fetch - processPackages [ghostwindow]: Downloading https://files.pythonhosted.org/packages/b0/6a/bee3b5fa7a58e0502f873eeab1f1737e12a656c0f19df668af52bd5dbbf1/ghostwindow-1.0.0.tar.gz
+[2024-04-23 05:48:10] INFO root fetch - processPackages [bakabakabaka]: Downloading https://files.pythonhosted.org/packages/bb/95/c809a23066f96d55b41be8cf3f55652434d686305bf334ac48ee8563b8b2/bakabakabaka-0.8.8.tar.gz
+[2024-04-23 05:48:10] INFO root fetch - processPackages [samap]: Downloading https://files.pythonhosted.org/packages/10/ae/7e30e4a9e0ec3000740da4c0f2f7a12afb61667ac9300becc63d384c4bcf/samap-1.0.7.tar.gz
+[2024-04-23 05:48:10] INFO root fetch - processPackages [laktory]: Downloading https://files.pythonhosted.org/packages/b4/82/1c84af3ce3f74eeee6ffe6245a5654c51f9b8785af6c220086b180d784b8/laktory-0.1.8.tar.gz
+[2024-04-23 05:48:10] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/d5/02/281c021f842aaf87089d3741260b9c223e400d5453d1d848a287d580c6e2/yoto_api-1.6.0.tar.gz
+[2024-04-23 05:48:10] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-04-23 05:48:10] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.5.0.tar.gz tmp/yoto_api-1.6.0.tar.gz --markdown 20240423/y/yoto-api/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-23 05:48:10] INFO root fetch - processPackages [ghostwindow]: Downloading https://files.pythonhosted.org/packages/8c/7f/fc8eb8765f03a07fd65fbaada10a79e41edaed4dd5f7f908d33ce740db14/ghostwindow-1.1.2.tar.gz
+[2024-04-23 05:48:10] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/36/cc/1d89021e3dde8dec9a232188a02c9f8ea93f30366281b4b54161e98f00f6/pypomes_db-0.3.9.tar.gz
+[2024-04-23 05:48:10] INFO root fetch - processPackages [idmtk]: Downloading https://files.pythonhosted.org/packages/55/2a/a89bb77f769a034fcf05ce71edd1d0b5b5a2da5a45ad46efc796e4cfb79f/idmtk-0.1.3.tar.gz
+[2024-04-23 05:48:10] INFO root fetch - processPackages [bakabakabaka]: Downloading https://files.pythonhosted.org/packages/f6/85/baf1ff65470594bc011886504c8f795918e8a98faf48cc8703c26e8dd736/bakabakabaka-0.8.9.tar.gz
+[2024-04-23 05:48:11] INFO root fetch - processPackages [ghostwindow]: executing diffoscope
+[2024-04-23 05:48:11] INFO root fetch - processPackages [ghostwindow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghostwindow-1.0.0.tar.gz tmp/ghostwindow-1.1.2.tar.gz --markdown 20240423/g/ghostwindow/1.0.0-1.1.2/README.md --exclude *.pyd
+[2024-04-23 05:48:11] INFO root fetch - processPackages [samap]: Downloading https://files.pythonhosted.org/packages/40/d9/775250a48c7dbac0285ff04e33a44be9d76ce3ee313c15c8ba21f4aed225/samap-1.0.8.tar.gz
+[2024-04-23 05:48:11] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-04-23 05:48:11] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.3.8.tar.gz tmp/pypomes_db-0.3.9.tar.gz --markdown 20240423/p/pypomes-db/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 05:48:11] INFO root fetch - processPackages [idmtk]: executing diffoscope
+[2024-04-23 05:48:11] INFO root fetch - processPackages [idmtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idmtk-0.1.2.tar.gz tmp/idmtk-0.1.3.tar.gz --markdown 20240423/i/idmtk/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-23 05:48:11] INFO root fetch - processPackages [bakabakabaka]: executing diffoscope
+[2024-04-23 05:48:11] INFO root fetch - processPackages [bakabakabaka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bakabakabaka-0.8.8.tar.gz tmp/bakabakabaka-0.8.9.tar.gz --markdown 20240423/b/bakabakabaka/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-23 05:48:11] INFO root fetch - processPackages [samap]: executing diffoscope
+[2024-04-23 05:48:11] INFO root fetch - processPackages [samap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samap-1.0.7.tar.gz tmp/samap-1.0.8.tar.gz --markdown 20240423/s/samap/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-23 05:48:11] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.5.0.tar.gz]
+[2024-04-23 05:48:11] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.6.0.tar.gz]
+[2024-04-23 05:48:11] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-04-23 05:48:11] INFO root fetch - processPackages [ghostwindow]: Remove: archive file [/home/abi/fetcher/tmp/ghostwindow-1.0.0.tar.gz]
+[2024-04-23 05:48:11] INFO root fetch - processPackages [ghostwindow]: Remove: archive file [/home/abi/fetcher/tmp/ghostwindow-1.1.2.tar.gz]
+[2024-04-23 05:48:11] INFO root fetch - main [MainThread]: End processing [ghostwindow]: success
+[2024-04-23 05:48:11] INFO root fetch - processPackages [bakabakabaka]: Remove: archive file [/home/abi/fetcher/tmp/bakabakabaka-0.8.8.tar.gz]
+[2024-04-23 05:48:11] INFO root fetch - processPackages [bakabakabaka]: Remove: archive file [/home/abi/fetcher/tmp/bakabakabaka-0.8.9.tar.gz]
+[2024-04-23 05:48:11] INFO root fetch - main [MainThread]: End processing [bakabakabaka]: success
+[2024-04-23 05:48:11] INFO root fetch - processPackages [laktory]: Downloading https://files.pythonhosted.org/packages/ae/22/2619234895906e23fba98e104e46f4c8eaccb6cd57d98c9bb7270f3720d6/laktory-0.1.9.tar.gz
+[2024-04-23 05:48:11] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.3.8.tar.gz]
+[2024-04-23 05:48:11] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.3.9.tar.gz]
+[2024-04-23 05:48:11] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-04-23 05:48:11] INFO root fetch - processPackages [idmtk]: Remove: archive file [/home/abi/fetcher/tmp/idmtk-0.1.2.tar.gz]
+[2024-04-23 05:48:11] INFO root fetch - processPackages [idmtk]: Remove: archive file [/home/abi/fetcher/tmp/idmtk-0.1.3.tar.gz]
+[2024-04-23 05:48:11] INFO root fetch - main [MainThread]: End processing [idmtk]: success
+[2024-04-23 05:48:11] INFO root fetch - processPackages [samap]: Remove: archive file [/home/abi/fetcher/tmp/samap-1.0.7.tar.gz]
+[2024-04-23 05:48:11] INFO root fetch - processPackages [samap]: Remove: archive file [/home/abi/fetcher/tmp/samap-1.0.8.tar.gz]
+[2024-04-23 05:48:11] INFO root fetch - main [MainThread]: End processing [samap]: success
+[2024-04-23 05:48:12] INFO root fetch - processPackages [laktory]: executing diffoscope
+[2024-04-23 05:48:12] INFO root fetch - processPackages [laktory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laktory-0.1.8.tar.gz tmp/laktory-0.1.9.tar.gz --markdown 20240423/l/laktory/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 05:48:13] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.1.8.tar.gz]
+[2024-04-23 05:48:13] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.1.9.tar.gz]
+[2024-04-23 05:48:13] INFO root fetch - main [MainThread]: End processing [laktory]: success
+[2024-04-23 05:48:13] INFO root fetch - main [MainThread]: Store serial: [22888721]
