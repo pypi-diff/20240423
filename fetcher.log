@@ -7366,3 +7366,24 @@
 [2024-04-23 03:37:41] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.4.tar.gz]
 [2024-04-23 03:37:41] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2024-04-23 03:37:41] INFO root fetch - main [MainThread]: Store serial: [22887897]
+[2024-04-23 03:39:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887897]
+[2024-04-23 03:39:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 03:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2024-04-23 03:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: artd-price-list
+[2024-04-23 03:39:50] INFO root fetch - processPackages [policyengine-us]: New version: [0.745.0] Old Version: [0.744.1]
+[2024-04-23 03:39:50] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/34/3a/ea057b8cba3a2c45050bf1a89a4634f6186296c59c1aec914514947421d2/policyengine-us-0.744.1.tar.gz
+[2024-04-23 03:39:50] INFO root fetch - processPackages [artd-price-list]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-23 03:39:50] INFO root fetch - processPackages [artd-price-list]: Downloading https://files.pythonhosted.org/packages/38/5b/5ef684251cb7bad58c1df9469a2ca6f7c14f5661cd6ec44513994ec419e0/artd_price_list-1.0.6.tar.gz
+[2024-04-23 03:39:50] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/04/9b/0bba4d76e324af31570b2567cb46c2bc22e142a01c5b358d82ba8e099170/policyengine-us-0.745.0.tar.gz
+[2024-04-23 03:39:50] INFO root fetch - processPackages [artd-price-list]: Downloading https://files.pythonhosted.org/packages/8c/7b/769605bc4797e191ebcdced32d93fea84441fbfafcac8895848f7566b6fd/artd_price_list-1.0.7.tar.gz
+[2024-04-23 03:39:51] INFO root fetch - processPackages [artd-price-list]: executing diffoscope
+[2024-04-23 03:39:51] INFO root fetch - processPackages [artd-price-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd_price_list-1.0.6.tar.gz tmp/artd_price_list-1.0.7.tar.gz --markdown 20240423/a/artd-price-list/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-23 03:39:51] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-23 03:39:51] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.744.1.tar.gz tmp/policyengine-us-0.745.0.tar.gz --markdown 20240423/p/policyengine-us/0.744.1-0.745.0/README.md --exclude *.pyd
+[2024-04-23 03:39:51] INFO root fetch - processPackages [artd-price-list]: Remove: archive file [/home/abi/fetcher/tmp/artd_price_list-1.0.6.tar.gz]
+[2024-04-23 03:39:51] INFO root fetch - processPackages [artd-price-list]: Remove: archive file [/home/abi/fetcher/tmp/artd_price_list-1.0.7.tar.gz]
+[2024-04-23 03:39:51] INFO root fetch - main [MainThread]: End processing [artd-price-list]: success
+[2024-04-23 03:40:22] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.744.1.tar.gz]
+[2024-04-23 03:40:22] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.745.0.tar.gz]
+[2024-04-23 03:40:22] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-23 03:40:22] INFO root fetch - main [MainThread]: Store serial: [22887903]
