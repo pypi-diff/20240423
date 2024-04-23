@@ -13061,3 +13061,45 @@
 [2024-04-23 09:23:27] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.9-py3-none-any.whl.zip]
 [2024-04-23 09:23:27] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-23 09:23:27] INFO root fetch - main [MainThread]: Store serial: [22890156]
+[2024-04-23 09:25:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890156]
+[2024-04-23 09:25:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 09:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wuji
+[2024-04-23 09:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-coder
+[2024-04-23 09:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imp-vol
+[2024-04-23 09:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: next-api-starter
+[2024-04-23 09:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-nvd3
+[2024-04-23 09:25:36] INFO root fetch - processPackages [next-api-starter]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 09:25:36] INFO root fetch - processPackages [django-nvd3]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-23 09:25:36] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 09:25:36] WARNING root fetch - processPackages [imp-vol]: Skipping, unable to determine old version
+[2024-04-23 09:25:36] INFO root fetch - main [MainThread]: End processing [imp-vol] error
+[2024-04-23 09:25:36] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 09:25:36] INFO root fetch - processPackages [next-api-starter]: Downloading https://files.pythonhosted.org/packages/53/6e/2afff998951f5bbf7d1046fe0634a2ddd8e2a17bc8e27fde38285be7dcf9/next-api-starter-0.1.1.tar.gz
+[2024-04-23 09:25:36] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-23 09:25:36] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-04-23 09:25:36] INFO root fetch - processPackages [django-nvd3]: Downloading https://files.pythonhosted.org/packages/49/e2/4d6d57812fefdfb6c3dcd0468fb7894eed1de5e08af7701fc6c99bb5b7be/django-nvd3-0.9.6.tar.gz
+[2024-04-23 09:25:36] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-23 09:25:36] INFO root fetch - processPackages [next-api-starter]: Downloading https://files.pythonhosted.org/packages/25/8f/b87d887e4adab2c193e049ea5b664c27b061f89b3fde9a3fef5f6b9a10eb/next_api_starter-0.1.2.tar.gz
+[2024-04-23 09:25:36] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-04-23 09:25:36] INFO root fetch - processPackages [django-nvd3]: Downloading https://files.pythonhosted.org/packages/22/c9/6cd4c65cda26b5e5b1e0801e37aaef4eced802311b4722ca54273c64f8d2/django-nvd3-0.9.7.tar.gz
+[2024-04-23 09:25:36] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-23 09:25:36] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240423/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 09:25:36] INFO root fetch - processPackages [next-api-starter]: executing diffoscope
+[2024-04-23 09:25:36] INFO root fetch - processPackages [next-api-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/next-api-starter-0.1.1.tar.gz tmp/next_api_starter-0.1.2.tar.gz --markdown 20240423/n/next-api-starter/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 09:25:37] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-04-23 09:25:37] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240423/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 09:25:37] INFO root fetch - processPackages [django-nvd3]: executing diffoscope
+[2024-04-23 09:25:37] INFO root fetch - processPackages [django-nvd3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-nvd3-0.9.6.tar.gz tmp/django-nvd3-0.9.7.tar.gz --markdown 20240423/d/django-nvd3/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-04-23 09:25:37] INFO root fetch - processPackages [next-api-starter]: Remove: archive file [/home/abi/fetcher/tmp/next-api-starter-0.1.1.tar.gz]
+[2024-04-23 09:25:37] INFO root fetch - processPackages [next-api-starter]: Remove: archive file [/home/abi/fetcher/tmp/next_api_starter-0.1.2.tar.gz]
+[2024-04-23 09:25:37] INFO root fetch - main [MainThread]: End processing [next-api-starter]: success
+[2024-04-23 09:25:37] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-04-23 09:25:37] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-04-23 09:25:37] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-04-23 09:25:37] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-23 09:25:37] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-23 09:25:37] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-23 09:25:37] INFO root fetch - processPackages [django-nvd3]: Remove: archive file [/home/abi/fetcher/tmp/django-nvd3-0.9.6.tar.gz]
+[2024-04-23 09:25:37] INFO root fetch - processPackages [django-nvd3]: Remove: archive file [/home/abi/fetcher/tmp/django-nvd3-0.9.7.tar.gz]
+[2024-04-23 09:25:37] INFO root fetch - main [MainThread]: End processing [django-nvd3]: success
+[2024-04-23 09:25:37] INFO root fetch - main [MainThread]: Store serial: [22890170]
