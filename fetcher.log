@@ -12809,3 +12809,48 @@
 [2024-04-23 09:11:58] INFO root fetch - processPackages [rich-torndb]: Remove: archive file [/home/abi/fetcher/tmp/rich_torndb-0.0.2.tar.gz]
 [2024-04-23 09:11:58] INFO root fetch - main [MainThread]: End processing [rich-torndb]: success
 [2024-04-23 09:11:58] INFO root fetch - main [MainThread]: Store serial: [22890060]
+[2024-04-23 09:14:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890060]
+[2024-04-23 09:14:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 09:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mycttestsdk
+[2024-04-23 09:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crlfi
+[2024-04-23 09:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asapo-consumer
+[2024-04-23 09:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remotion-lambda
+[2024-04-23 09:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: servicefoundry
+[2024-04-23 09:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ailia-tflite
+[2024-04-23 09:14:07] WARNING root fetch - processPackages [ailia-tflite]: Skipping, unable to determine old version
+[2024-04-23 09:14:07] INFO root fetch - processPackages [mycttestsdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 09:14:07] INFO root fetch - main [MainThread]: End processing [ailia-tflite] error
+[2024-04-23 09:14:07] INFO root fetch - processPackages [mycttestsdk]: Downloading https://files.pythonhosted.org/packages/8d/c4/b3ab11926c54fd1f74c9d4f9db56c0f279b9d4f5d015a7fb982c429a464d/mycttestsdk-0.1.0.tar.gz
+[2024-04-23 09:14:07] WARNING root fetch - processPackages [crlfi]: Skipping, unable to determine old version
+[2024-04-23 09:14:07] INFO root fetch - main [MainThread]: End processing [crlfi] error
+[2024-04-23 09:14:07] INFO root fetch - processPackages [asapo-consumer]: New version: [23.12.0a0] Old Version: [100.0.dev2]
+[2024-04-23 09:14:07] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-04-23 09:14:07] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.9rc2] Old Version: [0.9.9rc1]
+[2024-04-23 09:14:07] INFO root fetch - processPackages [asapo-consumer]: Downloading https://files.pythonhosted.org/packages/7f/03/f652317fe5a16c26fbc36da1e798e07f318a157de140a654a006ad67b839/asapo_consumer-100.0.dev2-cp310-cp310-manylinux_2_17_x86_64.whl
+[2024-04-23 09:14:07] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-04-23 09:14:07] INFO root fetch - processPackages [mycttestsdk]: Downloading https://files.pythonhosted.org/packages/6b/bd/8197146e66447e6b6e5ce15a9dac03cc94bc1045ea70a4c4e737e5eb71d5/mycttestsdk-0.1.1.tar.gz
+[2024-04-23 09:14:07] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/02/05/5016312c66b2c7a88f194b61f74c045e7449386ad8b2d1c5248a45a6094f/servicefoundry-0.9.9rc1.tar.gz
+[2024-04-23 09:14:07] INFO root fetch - processPackages [mycttestsdk]: executing diffoscope
+[2024-04-23 09:14:07] INFO root fetch - processPackages [mycttestsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycttestsdk-0.1.0.tar.gz tmp/mycttestsdk-0.1.1.tar.gz --markdown 20240423/m/mycttestsdk/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 09:14:07] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-04-23 09:14:07] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-04-23 09:14:07] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240423/r/remotion-lambda/4.0.98-4.1.0a12/README.md --exclude *.pyd
+[2024-04-23 09:14:07] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/95/2d/4d48175602335d472c23250316e448a45d05e4002ce13dc0e65cd515514a/servicefoundry-0.9.9rc2.tar.gz
+[2024-04-23 09:14:07] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2024-04-23 09:14:07] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.9rc1.tar.gz tmp/servicefoundry-0.9.9rc2.tar.gz --markdown 20240423/s/servicefoundry/0.9.9rc1-0.9.9rc2/README.md --exclude *.pyd
+[2024-04-23 09:14:07] INFO root fetch - processPackages [mycttestsdk]: Remove: archive file [/home/abi/fetcher/tmp/mycttestsdk-0.1.0.tar.gz]
+[2024-04-23 09:14:07] INFO root fetch - processPackages [mycttestsdk]: Remove: archive file [/home/abi/fetcher/tmp/mycttestsdk-0.1.1.tar.gz]
+[2024-04-23 09:14:07] INFO root fetch - main [MainThread]: End processing [mycttestsdk]: success
+[2024-04-23 09:14:08] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-04-23 09:14:08] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-04-23 09:14:08] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-04-23 09:14:08] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc1.tar.gz]
+[2024-04-23 09:14:08] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
+[2024-04-23 09:14:08] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2024-04-23 09:14:08] INFO root fetch - processPackages [asapo-consumer]: Downloading https://files.pythonhosted.org/packages/fb/d3/52044b4b232b54b60ae0cf88b50f4021cd86b1b9185264d096b27bd880be/asapo_consumer-23.12.0a0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 09:14:09] INFO root fetch - processPackages [asapo-consumer]: executing diffoscope
+[2024-04-23 09:14:09] INFO root fetch - processPackages [asapo-consumer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asapo_consumer-100.0.dev2-cp310-cp310-manylinux_2_17_x86_64.whl.zip tmp/asapo_consumer-23.12.0a0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240423/a/asapo-consumer/100.0.dev2-23.12.0a0/README.md --exclude *.pyd
+[2024-04-23 09:14:30] INFO root fetch - processPackages [asapo-consumer]: Remove: archive file [/home/abi/fetcher/tmp/asapo_consumer-100.0.dev2-cp310-cp310-manylinux_2_17_x86_64.whl.zip]
+[2024-04-23 09:14:30] INFO root fetch - processPackages [asapo-consumer]: Remove: archive file [/home/abi/fetcher/tmp/asapo_consumer-23.12.0a0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 09:14:30] INFO root fetch - main [MainThread]: End processing [asapo-consumer]: success
+[2024-04-23 09:14:30] INFO root fetch - main [MainThread]: Store serial: [22890078]
