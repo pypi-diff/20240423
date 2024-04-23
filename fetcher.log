@@ -7297,3 +7297,42 @@
 [2024-04-23 03:33:18] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-04-23 03:33:18] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-04-23 03:33:18] INFO root fetch - main [MainThread]: Store serial: [22887872]
+[2024-04-23 03:35:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887872]
+[2024-04-23 03:35:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 03:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyarmor
+[2024-04-23 03:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyarmor.cli
+[2024-04-23 03:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-account-move-name-sequence
+[2024-04-23 03:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: artd-product
+[2024-04-23 03:35:26] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: New version: [14.0.1.4.2.dev7] Old Version: [14.0.1.4.2.dev5]
+[2024-04-23 03:35:26] INFO root fetch - processPackages [artd-product]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 03:35:26] INFO root fetch - processPackages [pyarmor.cli]: New version: [8.5.4] Old Version: [8.5.3]
+[2024-04-23 03:35:26] INFO root fetch - processPackages [pyarmor]: New version: [8.5.4] Old Version: [8.5.3]
+[2024-04-23 03:35:26] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/e7/8c/499187e410d5d058504cf07378f757d5a74adfc9357e7f10626a66f9fbec/odoo14_addon_account_move_name_sequence-14.0.1.4.2.dev5-py3-none-any.whl
+[2024-04-23 03:35:26] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/85/85/85fcf9ba4141f32d8256b75a153208ba5bd88e0a68cd76ffc97c9e015803/pyarmor.cli-8.5.3-py3-none-any.whl
+[2024-04-23 03:35:26] INFO root fetch - processPackages [artd-product]: Downloading https://files.pythonhosted.org/packages/12/61/284146d0bdd1d5a3f2e4672473efc50ed498dbf6c1eb4f78905f390da978/artd-product-1.0.8.tar.gz
+[2024-04-23 03:35:26] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/1d/f0/7173eab30feb7f72c94a183c6a11af95388265103cb2d9f71a4a129641d6/pyarmor-8.5.3.zip
+[2024-04-23 03:35:27] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/3e/ac/e3ed93fc8a30851c0d7c3212d17deb2abbbd9f60c1e8420d5d3b298ff9fa/odoo14_addon_account_move_name_sequence-14.0.1.4.2.dev7-py3-none-any.whl
+[2024-04-23 03:35:27] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/56/49/84d82ddc4aeb0b9197c830af08e78c2e96d3ae0b125beb3b3f3754c53763/pyarmor.cli-8.5.4-py3-none-any.whl
+[2024-04-23 03:35:27] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: executing diffoscope
+[2024-04-23 03:35:27] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_name_sequence-14.0.1.4.2.dev5-py3-none-any.whl.zip tmp/odoo14_addon_account_move_name_sequence-14.0.1.4.2.dev7-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-account-move-name-sequence/14.0.1.4.2.dev5-14.0.1.4.2.dev7/README.md --exclude *.pyd
+[2024-04-23 03:35:27] INFO root fetch - processPackages [artd-product]: Downloading https://files.pythonhosted.org/packages/6c/38/642959a21f3cec2bfb572b7895fd53aa74950997cf09da6d059defad2794/artd-product-1.0.9.tar.gz
+[2024-04-23 03:35:27] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/bd/15/ffc8337695f5de0b41953584d07434577066f73b2fab188afa1d3646b6b8/pyarmor-8.5.4.zip
+[2024-04-23 03:35:27] INFO root fetch - processPackages [artd-product]: executing diffoscope
+[2024-04-23 03:35:27] INFO root fetch - processPackages [artd-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd-product-1.0.8.tar.gz tmp/artd-product-1.0.9.tar.gz --markdown 20240423/a/artd-product/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 03:35:27] INFO root fetch - processPackages [pyarmor.cli]: executing diffoscope
+[2024-04-23 03:35:27] INFO root fetch - processPackages [pyarmor.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli-8.5.3-py3-none-any.whl.zip tmp/pyarmor.cli-8.5.4-py3-none-any.whl.zip --markdown 20240423/p/pyarmor.cli/8.5.3-8.5.4/README.md --exclude *.pyd
+[2024-04-23 03:35:27] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_name_sequence-14.0.1.4.2.dev5-py3-none-any.whl.zip]
+[2024-04-23 03:35:27] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_name_sequence-14.0.1.4.2.dev7-py3-none-any.whl.zip]
+[2024-04-23 03:35:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-name-sequence]: success
+[2024-04-23 03:35:27] INFO root fetch - processPackages [pyarmor]: executing diffoscope
+[2024-04-23 03:35:27] INFO root fetch - processPackages [pyarmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-8.5.3.zip tmp/pyarmor-8.5.4.zip --markdown 20240423/p/pyarmor/8.5.3-8.5.4/README.md --exclude *.pyd
+[2024-04-23 03:35:27] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.5.3-py3-none-any.whl.zip]
+[2024-04-23 03:35:27] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.5.4-py3-none-any.whl.zip]
+[2024-04-23 03:35:27] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
+[2024-04-23 03:35:28] INFO root fetch - processPackages [artd-product]: Remove: archive file [/home/abi/fetcher/tmp/artd-product-1.0.8.tar.gz]
+[2024-04-23 03:35:28] INFO root fetch - processPackages [artd-product]: Remove: archive file [/home/abi/fetcher/tmp/artd-product-1.0.9.tar.gz]
+[2024-04-23 03:35:28] INFO root fetch - main [MainThread]: End processing [artd-product]: success
+[2024-04-23 03:35:29] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.5.3.zip]
+[2024-04-23 03:35:29] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.5.4.zip]
+[2024-04-23 03:35:29] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
+[2024-04-23 03:35:29] INFO root fetch - main [MainThread]: Store serial: [22887888]
