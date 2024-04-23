@@ -16075,3 +16075,74 @@
 [2024-04-23 11:15:37] INFO root fetch - processPackages [hastexo-xblock]: Remove: archive file [/home/abi/fetcher/tmp/hastexo-xblock-7.9.1.tar.gz]
 [2024-04-23 11:15:37] INFO root fetch - main [MainThread]: End processing [hastexo-xblock]: success
 [2024-04-23 11:15:37] INFO root fetch - main [MainThread]: Store serial: [22891578]
+[2024-04-23 11:17:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891578]
+[2024-04-23 11:17:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 11:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: continuiti
+[2024-04-23 11:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anthropic-tools
+[2024-04-23 11:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ailia-tflite
+[2024-04-23 11:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrapy-contrib
+[2024-04-23 11:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dioptic.profileparser
+[2024-04-23 11:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llm-guard
+[2024-04-23 11:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secretvalidator
+[2024-04-23 11:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docsig
+[2024-04-23 11:17:46] INFO root fetch - processPackages [anthropic-tools]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-23 11:17:46] INFO root fetch - processPackages [dioptic.profileparser]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-23 11:17:46] INFO root fetch - processPackages [secretvalidator]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 11:17:46] INFO root fetch - processPackages [llm-guard]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-04-23 11:17:46] INFO root fetch - processPackages [docsig]: New version: [0.9.0] Old Version: [0.7.0]
+[2024-04-23 11:17:46] INFO root fetch - processPackages [ailia-tflite]: New version: [1.1.13.3] Old Version: [1.1.13.2]
+[2024-04-23 11:17:46] INFO root fetch - processPackages [scrapy-contrib]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-04-23 11:17:46] INFO root fetch - processPackages [continuiti]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-23 11:17:46] INFO root fetch - processPackages [dioptic.profileparser]: Downloading https://files.pythonhosted.org/packages/6e/fc/b9a8de35ed58cdab3e0b7aa6807890e66b466769fca5fbd44d8de60567d1/dioptic.profileparser-0.2.1.tar.gz
+[2024-04-23 11:17:46] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/c1/0c/7d243a551f3f325c65b4e9abf41e6af739f60deb881c244ad6cc3b82038b/secretvalidator-0.1.8.tar.gz
+[2024-04-23 11:17:46] INFO root fetch - processPackages [llm-guard]: Downloading https://files.pythonhosted.org/packages/1a/fc/fc3f7fa771b1b7ce81ab2915f72bd99a77269d8369c47afa3364d11001e2/llm-guard-0.3.7.tar.gz
+[2024-04-23 11:17:46] INFO root fetch - processPackages [anthropic-tools]: Downloading https://files.pythonhosted.org/packages/d0/c9/c3e2d4f66eba7375006db920bd9c77984e021fb5651e1150f3ac5c893144/anthropic_tools-1.0.0.tar.gz
+[2024-04-23 11:17:47] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/b7/aa/3a58eed65c9cd6b8bd5a25e3fb75d0dab2ecdda4b36d07b1e482c485f72b/docsig-0.7.0.tar.gz
+[2024-04-23 11:17:47] INFO root fetch - processPackages [ailia-tflite]: Downloading https://files.pythonhosted.org/packages/90/a3/3be3de892c486646b9238469002c8da7a6a617b7cd86b1ffaadedaf65747/ailia_tflite-1.1.13.2-py3-none-any.whl
+[2024-04-23 11:17:47] INFO root fetch - processPackages [continuiti]: Downloading https://files.pythonhosted.org/packages/f2/04/1446092bbcc450f7122d895cdcef8dbe6e58a1fe13a6d8762b36c844a22b/continuiti-0.0.1.tar.gz
+[2024-04-23 11:17:47] INFO root fetch - processPackages [scrapy-contrib]: Downloading https://files.pythonhosted.org/packages/8c/5e/4993d85d894c360060734b0a1ca1c0d28acb840b1fd49a1b56772db435e6/scrapy_contrib-0.0.6-py3-none-any.whl
+[2024-04-23 11:17:47] WARNING root fetch - processPackages [ailia-tflite]: Skipping package: exceeds size limit 11953811>=10485760
+[2024-04-23 11:17:47] INFO root fetch - main [MainThread]: End processing [ailia-tflite] error
+[2024-04-23 11:17:47] INFO root fetch - processPackages [llm-guard]: Downloading https://files.pythonhosted.org/packages/79/24/9a8e3a60b109310eba3b2ac0ede16831cf1a510a2be69cd807483422817d/llm-guard-0.3.9.tar.gz
+[2024-04-23 11:17:47] INFO root fetch - processPackages [dioptic.profileparser]: Downloading https://files.pythonhosted.org/packages/f7/10/ad4f07607d72ee9d48232083fb5346b2d33fd019b34f2f5f65c03dc53de2/dioptic_profileparser-0.3.0.tar.gz
+[2024-04-23 11:17:47] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/46/26/23b3d02792f2d2eb00039a38f72a84b876b2802557f72d8618e43a8b145d/secretvalidator-0.1.9.tar.gz
+[2024-04-23 11:17:47] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/a5/8b/f9b2d72f71a3977e2edb7a543e8805b8f859ed021086b9eb63b07f9aa86d/docsig-0.9.0.tar.gz
+[2024-04-23 11:17:47] INFO root fetch - processPackages [llm-guard]: executing diffoscope
+[2024-04-23 11:17:47] INFO root fetch - processPackages [llm-guard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-guard-0.3.7.tar.gz tmp/llm-guard-0.3.9.tar.gz --markdown 20240423/l/llm-guard/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-04-23 11:17:47] INFO root fetch - processPackages [dioptic.profileparser]: executing diffoscope
+[2024-04-23 11:17:47] INFO root fetch - processPackages [dioptic.profileparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dioptic.profileparser-0.2.1.tar.gz tmp/dioptic_profileparser-0.3.0.tar.gz --markdown 20240423/d/dioptic.profileparser/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-23 11:17:47] INFO root fetch - processPackages [anthropic-tools]: Downloading https://files.pythonhosted.org/packages/19/a0/8e26a5e190916b00d6c4434d1ce2812df96c0293204e134b522f73ed1382/anthropic_tools-1.0.1.tar.gz
+[2024-04-23 11:17:47] INFO root fetch - processPackages [secretvalidator]: executing diffoscope
+[2024-04-23 11:17:47] INFO root fetch - processPackages [secretvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidator-0.1.8.tar.gz tmp/secretvalidator-0.1.9.tar.gz --markdown 20240423/s/secretvalidator/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 11:17:47] INFO root fetch - processPackages [docsig]: executing diffoscope
+[2024-04-23 11:17:47] INFO root fetch - processPackages [docsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docsig-0.7.0.tar.gz tmp/docsig-0.9.0.tar.gz --markdown 20240423/d/docsig/0.7.0-0.9.0/README.md --exclude *.pyd
+[2024-04-23 11:17:47] INFO root fetch - processPackages [continuiti]: Downloading https://files.pythonhosted.org/packages/8c/4b/123e21ec14a7dd78aec84367cf81db291b28f9f222df350fc5aac01c4f6f/continuiti-0.1.0.tar.gz
+[2024-04-23 11:17:47] INFO root fetch - processPackages [scrapy-contrib]: Downloading https://files.pythonhosted.org/packages/48/f8/f8df6441652e3a1078eebd77aa09052d6ce008056a8e0bea50d977e48dce/scrapy_contrib-0.0.8-py3-none-any.whl
+[2024-04-23 11:17:47] INFO root fetch - processPackages [anthropic-tools]: executing diffoscope
+[2024-04-23 11:17:47] INFO root fetch - processPackages [anthropic-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anthropic_tools-1.0.0.tar.gz tmp/anthropic_tools-1.0.1.tar.gz --markdown 20240423/a/anthropic-tools/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-23 11:17:47] INFO root fetch - processPackages [scrapy-contrib]: executing diffoscope
+[2024-04-23 11:17:47] INFO root fetch - processPackages [scrapy-contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy_contrib-0.0.6-py3-none-any.whl.zip tmp/scrapy_contrib-0.0.8-py3-none-any.whl.zip --markdown 20240423/s/scrapy-contrib/0.0.6-0.0.8/README.md --exclude *.pyd
+[2024-04-23 11:17:48] INFO root fetch - processPackages [dioptic.profileparser]: Remove: archive file [/home/abi/fetcher/tmp/dioptic.profileparser-0.2.1.tar.gz]
+[2024-04-23 11:17:48] INFO root fetch - processPackages [dioptic.profileparser]: Remove: archive file [/home/abi/fetcher/tmp/dioptic_profileparser-0.3.0.tar.gz]
+[2024-04-23 11:17:48] INFO root fetch - main [MainThread]: End processing [dioptic.profileparser]: success
+[2024-04-23 11:17:48] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.8.tar.gz]
+[2024-04-23 11:17:48] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.9.tar.gz]
+[2024-04-23 11:17:48] INFO root fetch - main [MainThread]: End processing [secretvalidator]: success
+[2024-04-23 11:17:48] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.7.0.tar.gz]
+[2024-04-23 11:17:48] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.9.0.tar.gz]
+[2024-04-23 11:17:48] INFO root fetch - main [MainThread]: End processing [docsig]: success
+[2024-04-23 11:17:48] INFO root fetch - processPackages [scrapy-contrib]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_contrib-0.0.6-py3-none-any.whl.zip]
+[2024-04-23 11:17:48] INFO root fetch - processPackages [scrapy-contrib]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_contrib-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 11:17:48] INFO root fetch - main [MainThread]: End processing [scrapy-contrib]: success
+[2024-04-23 11:17:48] INFO root fetch - processPackages [anthropic-tools]: Remove: archive file [/home/abi/fetcher/tmp/anthropic_tools-1.0.0.tar.gz]
+[2024-04-23 11:17:48] INFO root fetch - processPackages [anthropic-tools]: Remove: archive file [/home/abi/fetcher/tmp/anthropic_tools-1.0.1.tar.gz]
+[2024-04-23 11:17:48] INFO root fetch - main [MainThread]: End processing [anthropic-tools]: success
+[2024-04-23 11:17:48] INFO root fetch - processPackages [llm-guard]: Remove: archive file [/home/abi/fetcher/tmp/llm-guard-0.3.7.tar.gz]
+[2024-04-23 11:17:48] INFO root fetch - processPackages [llm-guard]: Remove: archive file [/home/abi/fetcher/tmp/llm-guard-0.3.9.tar.gz]
+[2024-04-23 11:17:48] INFO root fetch - main [MainThread]: End processing [llm-guard]: success
+[2024-04-23 11:17:49] INFO root fetch - processPackages [continuiti]: executing diffoscope
+[2024-04-23 11:17:49] INFO root fetch - processPackages [continuiti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/continuiti-0.0.1.tar.gz tmp/continuiti-0.1.0.tar.gz --markdown 20240423/c/continuiti/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-23 11:17:49] INFO root fetch - processPackages [continuiti]: Remove: archive file [/home/abi/fetcher/tmp/continuiti-0.0.1.tar.gz]
+[2024-04-23 11:17:49] INFO root fetch - processPackages [continuiti]: Remove: archive file [/home/abi/fetcher/tmp/continuiti-0.1.0.tar.gz]
+[2024-04-23 11:17:49] INFO root fetch - main [MainThread]: End processing [continuiti]: success
+[2024-04-23 11:17:49] INFO root fetch - main [MainThread]: Store serial: [22891603]
