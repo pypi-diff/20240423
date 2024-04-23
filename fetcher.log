@@ -2685,3 +2685,65 @@
 [2024-04-23 02:18:06] INFO root fetch - main [MainThread]: End processing [gradio-leaderboard]: success
 [2024-04-23 02:18:06] INFO root fetch - main [MainThread]: End processing [gradio-leaderboard]: success
 [2024-04-23 02:18:06] INFO root fetch - main [MainThread]: Store serial: [22886323]
+[2024-04-23 02:20:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886323]
+[2024-04-23 02:20:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 02:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-04-23 02:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mapdata
+[2024-04-23 02:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mobio-media-sdk
+[2024-04-23 02:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-budibase
+[2024-04-23 02:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchao-nightly
+[2024-04-23 02:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.cdk-ethereum-node
+[2024-04-23 02:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-cr-constructs
+[2024-04-23 02:20:15] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.434] Old Version: [2.1.433]
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 02:20:15] INFO root fetch - processPackages [mobio-media-sdk]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-04-23 02:20:15] INFO root fetch - processPackages [mapdata]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-04-23 02:20:15] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/5f/75/fa2f35d39cfd048a42fe784f2a57da5743e7983bb669c3e4d8eb5aa83710/torchao-nightly-2024.4.8.tar.gz
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/25/62/99eac80acfa10575579e4910c78db6c679c7c316a7b2858e251b5e995da2/cdk-cr-constructs-2.1.433.tar.gz
+[2024-04-23 02:20:15] INFO root fetch - processPackages [mobio-media-sdk]: Downloading https://files.pythonhosted.org/packages/1e/6c/e29ea17699ade1ec4a6acb3d0fb892835f11d9713cb81450d505197f174a/mobio-media-sdk-0.2.8.tar.gz
+[2024-04-23 02:20:15] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15119365>=10485760
+[2024-04-23 02:20:15] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-04-23 02:20:15] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d5/e0ae6447ebc2fc27b71391c55653c89c441bbe6a6a8a7b37aa28dc13014e/torchao-nightly-2024.4.9.tar.gz
+[2024-04-23 02:20:15] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/15/cd/6dcead27a84125c052d2b2467737f3f53b8502134d03f7eb0ed69d8b1783/mapdata-3.5.0.tar.gz
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-04-23 02:20:15] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-23 02:20:15] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.8.tar.gz tmp/torchao-nightly-2024.4.9.tar.gz --markdown 20240423/t/torchao-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240423/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240423/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-04-23 02:20:15] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240423/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 02:20:16] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/b1/ca/d596d74832abd7f56cbdd48c32d4f8577340dae00aca51c2f02d24c978cf/mapdata-3.6.0.tar.gz
+[2024-04-23 02:20:16] INFO root fetch - processPackages [mobio-media-sdk]: Downloading https://files.pythonhosted.org/packages/8e/1f/b1bf8f1364efcd4c79f309221d07963aaef1060c92e6986a80996dce8e85/mobio-media-sdk-0.2.9.tar.gz
+[2024-04-23 02:20:16] INFO root fetch - processPackages [mobio-media-sdk]: executing diffoscope
+[2024-04-23 02:20:16] INFO root fetch - processPackages [mobio-media-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-media-sdk-0.2.8.tar.gz tmp/mobio-media-sdk-0.2.9.tar.gz --markdown 20240423/m/mobio-media-sdk/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 02:20:16] INFO root fetch - processPackages [mapdata]: executing diffoscope
+[2024-04-23 02:20:16] INFO root fetch - processPackages [mapdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapdata-3.5.0.tar.gz tmp/mapdata-3.6.0.tar.gz --markdown 20240423/m/mapdata/3.5.0-3.6.0/README.md --exclude *.pyd
+[2024-04-23 02:20:16] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-04-23 02:20:16] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-04-23 02:20:16] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-04-23 02:20:16] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.8.tar.gz]
+[2024-04-23 02:20:16] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.9.tar.gz]
+[2024-04-23 02:20:16] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-23 02:20:16] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-04-23 02:20:16] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-23 02:20:16] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-23 02:20:16] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-04-23 02:20:16] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-23 02:20:16] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-04-23 02:20:16] INFO root fetch - processPackages [mobio-media-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-media-sdk-0.2.8.tar.gz]
+[2024-04-23 02:20:16] INFO root fetch - processPackages [mobio-media-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-media-sdk-0.2.9.tar.gz]
+[2024-04-23 02:20:16] INFO root fetch - main [MainThread]: End processing [mobio-media-sdk]: success
+[2024-04-23 02:20:17] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-3.5.0.tar.gz]
+[2024-04-23 02:20:17] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-3.6.0.tar.gz]
+[2024-04-23 02:20:17] INFO root fetch - main [MainThread]: End processing [mapdata]: success
+[2024-04-23 02:20:17] INFO root fetch - main [MainThread]: Store serial: [22886342]
