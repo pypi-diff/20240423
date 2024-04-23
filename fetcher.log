@@ -21520,3 +21520,42 @@ EOFError: EOF read where object expected
 [2024-04-23 14:34:53] INFO root fetch - processPackages [peracotta]: Remove: archive file [/home/abi/fetcher/tmp/peracotta-2.3.1.tar.gz]
 [2024-04-23 14:34:53] INFO root fetch - main [MainThread]: End processing [peracotta]: success
 [2024-04-23 14:34:53] INFO root fetch - main [MainThread]: Store serial: [22893805]
+[2024-04-23 14:36:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893805]
+[2024-04-23 14:37:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 14:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Files.com
+[2024-04-23 14:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecv-python-development
+[2024-04-23 14:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waylay-sdk-core
+[2024-04-23 14:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: connect-four-lib
+[2024-04-23 14:37:02] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:37:02] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/1a/0b/57f1b4e7808f0e68005e3460c3b2e28d121224116313e32caff0da5d477c/ecv-python-development-0.0.8.tar.gz
+[2024-04-23 14:37:02] INFO root fetch - processPackages [waylay-sdk-core]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-23 14:37:02] INFO root fetch - processPackages [connect-four-lib]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-23 14:37:02] INFO root fetch - processPackages [Files.com]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-23 14:37:02] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/fe/9f/8654a34abe6ed4232708475bb6c7dd30b128ab68594cd684d58e72375385/Files.com-1.4.8.tar.gz
+[2024-04-23 14:37:02] INFO root fetch - processPackages [connect-four-lib]: Downloading https://files.pythonhosted.org/packages/19/6f/119a3ee7661207c1957725cf9fc6fa58232c23c3cbaa6e75ef17ad173d5b/connect_four_lib-1.3.0.tar.gz
+[2024-04-23 14:37:02] INFO root fetch - processPackages [waylay-sdk-core]: Downloading https://files.pythonhosted.org/packages/7a/c0/15e538136a462980e6a1033cb876f9fee6c8f736007fcfde130f8f7bce6a/waylay_sdk_core-0.2.0.tar.gz
+[2024-04-23 14:37:02] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/1e/40/7f623022bae0ebc2f5beb167e8175b1dad049a8b27764e6859798786fdb2/ecv-python-development-0.0.9.tar.gz
+[2024-04-23 14:37:02] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-23 14:37:02] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.8.tar.gz tmp/ecv-python-development-0.0.9.tar.gz --markdown 20240423/e/ecv-python-development/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:37:02] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/50/2a/081bc12536110f3d42e66312b9c23d07fc87bd3eafaaa4b731c3a21d1660/Files.com-1.4.9.tar.gz
+[2024-04-23 14:37:02] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2024-04-23 14:37:02] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.4.8.tar.gz tmp/Files.com-1.4.9.tar.gz --markdown 20240423/F/Files.com/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-23 14:37:02] INFO root fetch - processPackages [connect-four-lib]: Downloading https://files.pythonhosted.org/packages/0b/13/9bfd0588241260452a1fe1ce34826a50744a1ce08c65afeb8e4a0a183f06/connect_four_lib-1.3.1.tar.gz
+[2024-04-23 14:37:02] INFO root fetch - processPackages [waylay-sdk-core]: Downloading https://files.pythonhosted.org/packages/01/57/d7bb9a345003053b82f1e389cd9585e367a3b984832e2ee6d1cd936bf020/waylay_sdk_core-0.2.1.tar.gz
+[2024-04-23 14:37:02] INFO root fetch - processPackages [connect-four-lib]: executing diffoscope
+[2024-04-23 14:37:02] INFO root fetch - processPackages [connect-four-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_four_lib-1.3.0.tar.gz tmp/connect_four_lib-1.3.1.tar.gz --markdown 20240423/c/connect-four-lib/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-23 14:37:03] INFO root fetch - processPackages [waylay-sdk-core]: executing diffoscope
+[2024-04-23 14:37:03] INFO root fetch - processPackages [waylay-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_core-0.2.0.tar.gz tmp/waylay_sdk_core-0.2.1.tar.gz --markdown 20240423/w/waylay-sdk-core/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-23 14:37:03] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.8.tar.gz]
+[2024-04-23 14:37:03] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.9.tar.gz]
+[2024-04-23 14:37:03] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-23 14:37:03] INFO root fetch - processPackages [connect-four-lib]: Remove: archive file [/home/abi/fetcher/tmp/connect_four_lib-1.3.0.tar.gz]
+[2024-04-23 14:37:03] INFO root fetch - processPackages [connect-four-lib]: Remove: archive file [/home/abi/fetcher/tmp/connect_four_lib-1.3.1.tar.gz]
+[2024-04-23 14:37:03] INFO root fetch - main [MainThread]: End processing [connect-four-lib]: success
+[2024-04-23 14:37:03] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.8.tar.gz]
+[2024-04-23 14:37:03] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.9.tar.gz]
+[2024-04-23 14:37:03] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2024-04-23 14:37:03] INFO root fetch - processPackages [waylay-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_core-0.2.0.tar.gz]
+[2024-04-23 14:37:03] INFO root fetch - processPackages [waylay-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_core-0.2.1.tar.gz]
+[2024-04-23 14:37:03] INFO root fetch - main [MainThread]: End processing [waylay-sdk-core]: success
+[2024-04-23 14:37:03] INFO root fetch - main [MainThread]: Store serial: [22893820]
