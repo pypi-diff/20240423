@@ -17802,3 +17802,78 @@
 [2024-04-23 12:19:14] INFO root fetch - processPackages [voila-sepal-ui]: Remove: archive file [/home/abi/fetcher/tmp/voila_sepal_ui-0.3.2.tar.gz]
 [2024-04-23 12:19:14] INFO root fetch - main [MainThread]: End processing [voila-sepal-ui]: success
 [2024-04-23 12:19:14] INFO root fetch - main [MainThread]: Store serial: [22892241]
+[2024-04-23 12:21:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892241]
+[2024-04-23 12:21:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 12:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tilebox-grpc
+[2024-04-23 12:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quick-yaml
+[2024-04-23 12:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openobd-protocol
+[2024-04-23 12:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-financial-report
+[2024-04-23 12:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TitanDevice
+[2024-04-23 12:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: en-tts
+[2024-04-23 12:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-move-location
+[2024-04-23 12:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nornir-salt
+[2024-04-23 12:21:23] INFO root fetch - processPackages [TitanDevice]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-23 12:21:23] INFO root fetch - processPackages [tilebox-grpc]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-23 12:21:23] INFO root fetch - processPackages [en-tts]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 12:21:23] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/bb/58/488a5121ca63bb8a8b57200176e08b771081537ecc68d33b45d4f4254ea6/TitanDevice-0.1.6.tar.gz
+[2024-04-23 12:21:23] INFO root fetch - processPackages [openobd-protocol]: New version: [0.0.39] Old Version: [0.0.38]
+[2024-04-23 12:21:23] INFO root fetch - processPackages [quick-yaml]: New version: [1.1b2] Old Version: [1.1b1]
+[2024-04-23 12:21:23] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.0.0.13] Old Version: [17.0.1.0.0.12]
+[2024-04-23 12:21:23] INFO root fetch - processPackages [odoo-addon-stock-move-location]: New version: [16.0.1.3.0] Old Version: [16.0.1.2.3]
+[2024-04-23 12:21:23] INFO root fetch - processPackages [nornir-salt]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-23 12:21:23] INFO root fetch - processPackages [tilebox-grpc]: Downloading https://files.pythonhosted.org/packages/89/1d/b97965aa46b1cdfca9d35e7ce68762c61dfc5ca1c0a1f369c5a9c418475e/tilebox_grpc-0.9.0.tar.gz
+[2024-04-23 12:21:23] INFO root fetch - processPackages [en-tts]: Downloading https://files.pythonhosted.org/packages/fc/ce/af9d1f409380e8994c361979843f3d33a4698791dd4584c89d7e07062281/en-tts-0.0.1.tar.gz
+[2024-04-23 12:21:23] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/f5/af/b3837654cf804cae1a4e28db59f211082ed9ae2df81c7d3b9211c683191a/openobd_protocol-0.0.38.tar.gz
+[2024-04-23 12:21:23] INFO root fetch - processPackages [quick-yaml]: Downloading https://files.pythonhosted.org/packages/f2/33/a585920534bf9779a5ed44df065f06c2131a85420c0d66052a8b0d1d3847/quick_yaml-1.1b1.tar.gz
+[2024-04-23 12:21:23] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/7f/10/cb32fb883a2d6e6371882fd5b4415ab865e3088e23f14335ee8822b8de70/odoo_addon_account_financial_report-17.0.1.0.0.12-py3-none-any.whl
+[2024-04-23 12:21:23] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/d3/e3/4de744bb48efc6919592d473af785626c24f9a691ebdf5461eec6fbf9b3f/odoo_addon_stock_move_location-16.0.1.2.3-py3-none-any.whl
+[2024-04-23 12:21:23] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/10/05/9b26377a67e012771d99400d2ef33e8f8c270e2cb2f3bc8fd6eb8e3504fa/TitanDevice-0.1.7.tar.gz
+[2024-04-23 12:21:24] INFO root fetch - processPackages [nornir-salt]: Downloading https://files.pythonhosted.org/packages/b6/6c/9bcdf9c90a13a9dfe709f1d6923307726f660368b3ae049b5a8b37ca56c3/nornir_salt-0.8.0.tar.gz
+[2024-04-23 12:21:24] INFO root fetch - processPackages [tilebox-grpc]: Downloading https://files.pythonhosted.org/packages/b1/d0/864fe0b77fbd5a9a7dbe4505ccfbcdb396b9171e321ad4031d9af99643e1/tilebox_grpc-0.9.1.tar.gz
+[2024-04-23 12:21:24] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-23 12:21:24] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.1.6.tar.gz tmp/TitanDevice-0.1.7.tar.gz --markdown 20240423/T/TitanDevice/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-23 12:21:24] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/72/12/10702d38797966c2fcf2d07db42f01b6f92e9b335dfbbd2f0b0bc034566a/openobd_protocol-0.0.39.tar.gz
+[2024-04-23 12:21:24] INFO root fetch - processPackages [en-tts]: Downloading https://files.pythonhosted.org/packages/1f/be/77e64915c75b52335242f6427bfc213f133ecd57ecee99038454d03c2e5a/en_tts-0.0.2.tar.gz
+[2024-04-23 12:21:24] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/fe/af/2009aad913107eee05ed9bf13d3e06aad62c0201d27c05ab1d2b0b6e67c9/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl
+[2024-04-23 12:21:24] INFO root fetch - processPackages [openobd-protocol]: executing diffoscope
+[2024-04-23 12:21:24] INFO root fetch - processPackages [openobd-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openobd_protocol-0.0.38.tar.gz tmp/openobd_protocol-0.0.39.tar.gz --markdown 20240423/o/openobd-protocol/0.0.38-0.0.39/README.md --exclude *.pyd
+[2024-04-23 12:21:24] INFO root fetch - processPackages [quick-yaml]: Downloading https://files.pythonhosted.org/packages/5c/ab/98bd5b31b54817fcafd42ff546ec77d5b2aa669c7543aa0910ab7eac3234/quick_yaml-1.1b2.tar.gz
+[2024-04-23 12:21:24] INFO root fetch - processPackages [tilebox-grpc]: executing diffoscope
+[2024-04-23 12:21:24] INFO root fetch - processPackages [tilebox-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tilebox_grpc-0.9.0.tar.gz tmp/tilebox_grpc-0.9.1.tar.gz --markdown 20240423/t/tilebox-grpc/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-23 12:21:24] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/35/ce/c75746114be2b5fe2e0cecdd74ea12a48e86eb5e73259632044237de34e6/odoo_addon_stock_move_location-16.0.1.3.0-py3-none-any.whl
+[2024-04-23 12:21:24] INFO root fetch - processPackages [en-tts]: executing diffoscope
+[2024-04-23 12:21:24] INFO root fetch - processPackages [en-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/en-tts-0.0.1.tar.gz tmp/en_tts-0.0.2.tar.gz --markdown 20240423/e/en-tts/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 12:21:24] INFO root fetch - processPackages [quick-yaml]: executing diffoscope
+[2024-04-23 12:21:24] INFO root fetch - processPackages [quick-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_yaml-1.1b1.tar.gz tmp/quick_yaml-1.1b2.tar.gz --markdown 20240423/q/quick-yaml/1.1b1-1.1b2/README.md --exclude *.pyd
+[2024-04-23 12:21:24] INFO root fetch - processPackages [nornir-salt]: Downloading https://files.pythonhosted.org/packages/98/11/15783d53a2ffd95d91290b0b75d760f193f777b4400e28e5b11b2dc1a5ef/nornir_salt-0.9.0.tar.gz
+[2024-04-23 12:21:24] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-04-23 12:21:24] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.0.0.12-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-financial-report/17.0.1.0.0.12-17.0.1.0.0.13/README.md --exclude *.pyd
+[2024-04-23 12:21:24] INFO root fetch - processPackages [odoo-addon-stock-move-location]: executing diffoscope
+[2024-04-23 12:21:24] INFO root fetch - processPackages [odoo-addon-stock-move-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_move_location-16.0.1.2.3-py3-none-any.whl.zip tmp/odoo_addon_stock_move_location-16.0.1.3.0-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-stock-move-location/16.0.1.2.3-16.0.1.3.0/README.md --exclude *.pyd
+[2024-04-23 12:21:24] INFO root fetch - processPackages [nornir-salt]: executing diffoscope
+[2024-04-23 12:21:24] INFO root fetch - processPackages [nornir-salt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nornir_salt-0.8.0.tar.gz tmp/nornir_salt-0.9.0.tar.gz --markdown 20240423/n/nornir-salt/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-23 12:21:24] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.6.tar.gz]
+[2024-04-23 12:21:24] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.7.tar.gz]
+[2024-04-23 12:21:24] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-23 12:21:25] INFO root fetch - processPackages [tilebox-grpc]: Remove: archive file [/home/abi/fetcher/tmp/tilebox_grpc-0.9.0.tar.gz]
+[2024-04-23 12:21:25] INFO root fetch - processPackages [tilebox-grpc]: Remove: archive file [/home/abi/fetcher/tmp/tilebox_grpc-0.9.1.tar.gz]
+[2024-04-23 12:21:25] INFO root fetch - main [MainThread]: End processing [tilebox-grpc]: success
+[2024-04-23 12:21:25] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.0.38.tar.gz]
+[2024-04-23 12:21:25] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.0.39.tar.gz]
+[2024-04-23 12:21:25] INFO root fetch - main [MainThread]: End processing [openobd-protocol]: success
+[2024-04-23 12:21:25] INFO root fetch - processPackages [en-tts]: Remove: archive file [/home/abi/fetcher/tmp/en-tts-0.0.1.tar.gz]
+[2024-04-23 12:21:25] INFO root fetch - processPackages [en-tts]: Remove: archive file [/home/abi/fetcher/tmp/en_tts-0.0.2.tar.gz]
+[2024-04-23 12:21:25] INFO root fetch - main [MainThread]: End processing [en-tts]: success
+[2024-04-23 12:21:25] INFO root fetch - processPackages [quick-yaml]: Remove: archive file [/home/abi/fetcher/tmp/quick_yaml-1.1b1.tar.gz]
+[2024-04-23 12:21:25] INFO root fetch - processPackages [quick-yaml]: Remove: archive file [/home/abi/fetcher/tmp/quick_yaml-1.1b2.tar.gz]
+[2024-04-23 12:21:25] INFO root fetch - main [MainThread]: End processing [quick-yaml]: success
+[2024-04-23 12:21:25] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_location-16.0.1.2.3-py3-none-any.whl.zip]
+[2024-04-23 12:21:25] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_location-16.0.1.3.0-py3-none-any.whl.zip]
+[2024-04-23 12:21:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-location]: success
+[2024-04-23 12:21:25] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.0.0.12-py3-none-any.whl.zip]
+[2024-04-23 12:21:25] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl.zip]
+[2024-04-23 12:21:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-04-23 12:21:25] INFO root fetch - processPackages [nornir-salt]: Remove: archive file [/home/abi/fetcher/tmp/nornir_salt-0.8.0.tar.gz]
+[2024-04-23 12:21:25] INFO root fetch - processPackages [nornir-salt]: Remove: archive file [/home/abi/fetcher/tmp/nornir_salt-0.9.0.tar.gz]
+[2024-04-23 12:21:25] INFO root fetch - main [MainThread]: End processing [nornir-salt]: success
+[2024-04-23 12:21:25] INFO root fetch - main [MainThread]: Store serial: [22892260]
