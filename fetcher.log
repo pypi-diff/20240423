@@ -7685,3 +7685,33 @@
 [2024-04-23 04:07:26] INFO root fetch - processPackages [pathling]: Remove: archive file [/home/abi/fetcher/tmp/pathling-7.0.0.dev0.tar.gz]
 [2024-04-23 04:07:26] INFO root fetch - main [MainThread]: End processing [pathling]: success
 [2024-04-23 04:07:26] INFO root fetch - main [MainThread]: Store serial: [22887994]
+[2024-04-23 04:09:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887994]
+[2024-04-23 04:09:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 04:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-ssi-helpdesk-project
+[2024-04-23 04:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: the-utils
+[2024-04-23 04:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-move-name-sequence
+[2024-04-23 04:09:35] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: New version: [17.0.1.0.4] Old Version: [17.0.1.0.3]
+[2024-04-23 04:09:35] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/ac/ca/1ddbdbe9f0e0327461b64afc34d04f9d59e73b42cf080b5f0a2b0cc8b469/odoo_addon_account_move_name_sequence-17.0.1.0.3-py3-none-any.whl
+[2024-04-23 04:09:35] INFO root fetch - processPackages [odoo14-addon-ssi-helpdesk-project]: New version: [14.0.3.1.0] Old Version: [14.0.3.0.0]
+[2024-04-23 04:09:35] INFO root fetch - processPackages [the-utils]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-23 04:09:35] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/5f/29/8120145704f42ba8b526a40c93786ebb4ebe492314d674dad01b4d2211c8/odoo_addon_account_move_name_sequence-17.0.1.0.4-py3-none-any.whl
+[2024-04-23 04:09:35] INFO root fetch - processPackages [the-utils]: Downloading https://files.pythonhosted.org/packages/bf/2d/92436bc9afb73776d1af9c34911753d182a91fe708ae4315390e15bd9530/the_utils-0.3.5.tar.gz
+[2024-04-23 04:09:35] INFO root fetch - processPackages [odoo14-addon-ssi-helpdesk-project]: Downloading https://files.pythonhosted.org/packages/e0/dc/9d860327385dda0ac7ce37a7fdde8e5d944ab57d06210fe96877728575b4/odoo14_addon_ssi_helpdesk_project-14.0.3.0.0-py3-none-any.whl
+[2024-04-23 04:09:35] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: executing diffoscope
+[2024-04-23 04:09:35] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_name_sequence-17.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_move_name_sequence-17.0.1.0.4-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-move-name-sequence/17.0.1.0.3-17.0.1.0.4/README.md --exclude *.pyd
+[2024-04-23 04:09:35] INFO root fetch - processPackages [the-utils]: Downloading https://files.pythonhosted.org/packages/4e/de/896fb7b6f1f21c21718de9f8699e15a791e96f324a2052e953b1ba3cdcb0/the_utils-0.3.6.tar.gz
+[2024-04-23 04:09:35] INFO root fetch - processPackages [odoo14-addon-ssi-helpdesk-project]: Downloading https://files.pythonhosted.org/packages/d8/7d/9d4fb8201475feb93da2247e36b31ddc4866fb3107ea87b01b19e63ee0ec/odoo14_addon_ssi_helpdesk_project-14.0.3.1.0-py3-none-any.whl
+[2024-04-23 04:09:36] INFO root fetch - processPackages [the-utils]: executing diffoscope
+[2024-04-23 04:09:36] INFO root fetch - processPackages [the-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/the_utils-0.3.5.tar.gz tmp/the_utils-0.3.6.tar.gz --markdown 20240423/t/the-utils/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-23 04:09:36] INFO root fetch - processPackages [odoo14-addon-ssi-helpdesk-project]: executing diffoscope
+[2024-04-23 04:09:36] INFO root fetch - processPackages [odoo14-addon-ssi-helpdesk-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_helpdesk_project-14.0.3.0.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_helpdesk_project-14.0.3.1.0-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-ssi-helpdesk-project/14.0.3.0.0-14.0.3.1.0/README.md --exclude *.pyd
+[2024-04-23 04:09:36] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_name_sequence-17.0.1.0.3-py3-none-any.whl.zip]
+[2024-04-23 04:09:36] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_name_sequence-17.0.1.0.4-py3-none-any.whl.zip]
+[2024-04-23 04:09:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-name-sequence]: success
+[2024-04-23 04:09:36] INFO root fetch - processPackages [odoo14-addon-ssi-helpdesk-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_helpdesk_project-14.0.3.0.0-py3-none-any.whl.zip]
+[2024-04-23 04:09:36] INFO root fetch - processPackages [odoo14-addon-ssi-helpdesk-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_helpdesk_project-14.0.3.1.0-py3-none-any.whl.zip]
+[2024-04-23 04:09:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-helpdesk-project]: success
+[2024-04-23 04:09:36] INFO root fetch - processPackages [the-utils]: Remove: archive file [/home/abi/fetcher/tmp/the_utils-0.3.5.tar.gz]
+[2024-04-23 04:09:36] INFO root fetch - processPackages [the-utils]: Remove: archive file [/home/abi/fetcher/tmp/the_utils-0.3.6.tar.gz]
+[2024-04-23 04:09:36] INFO root fetch - main [MainThread]: End processing [the-utils]: success
+[2024-04-23 04:09:36] INFO root fetch - main [MainThread]: Store serial: [22888001]
