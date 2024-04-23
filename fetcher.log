@@ -10164,3 +10164,30 @@
 [2024-04-23 06:25:44] WARNING root fetch - processPackages [org.iplatform.common]: Skipping, unable to determine old version
 [2024-04-23 06:25:44] INFO root fetch - main [MainThread]: End processing [org.iplatform.common] error
 [2024-04-23 06:25:44] INFO root fetch - main [MainThread]: Store serial: [22888994]
+[2024-04-23 06:27:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888994]
+[2024-04-23 06:27:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 06:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nir
+[2024-04-23 06:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: komodo-sdk
+[2024-04-23 06:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ehdg-pupil-detector
+[2024-04-23 06:27:52] INFO root fetch - processPackages [ehdg-pupil-detector]: New version: [3.5.0] Old Version: [3.4.3]
+[2024-04-23 06:27:52] INFO root fetch - processPackages [komodo-sdk]: New version: [0.1.1] Old Version: [0.0.99]
+[2024-04-23 06:27:52] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/3a/d9/6b0e3a50095badc11716f90decbbc7313fafa6b5a68297238ebc566184fb/ehdg_pupil_detector-3.4.3.tar.gz
+[2024-04-23 06:27:52] INFO root fetch - processPackages [nir]: New version: [1.0.3] Old Version: [1.0.1]
+[2024-04-23 06:27:52] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/07/7d/b02e1c94b4a34e1a286fe080bfeb733dd8c03872b587ecc75071375117c1/komodo_sdk-0.0.99.tar.gz
+[2024-04-23 06:27:52] INFO root fetch - processPackages [nir]: Downloading https://files.pythonhosted.org/packages/24/05/92099cbb9617c04ac8fa725b9d9034bc039e5191948bb48e8ce0238fc533/nir-1.0.1.tar.gz
+[2024-04-23 06:27:53] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/6a/6a/ff430822fd4521677f8b869d452f128acc2c7eeca12948f07056306dc8b8/ehdg_pupil_detector-3.5.0.tar.gz
+[2024-04-23 06:27:53] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/e4/30/d15d2b993d0cf1601cd6c5c9f44301d4850fe1397cb2db4aa7a827a30993/komodo_sdk-0.1.1.tar.gz
+[2024-04-23 06:27:53] INFO root fetch - processPackages [ehdg-pupil-detector]: executing diffoscope
+[2024-04-23 06:27:53] INFO root fetch - processPackages [ehdg-pupil-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdg_pupil_detector-3.4.3.tar.gz tmp/ehdg_pupil_detector-3.5.0.tar.gz --markdown 20240423/e/ehdg-pupil-detector/3.4.3-3.5.0/README.md --exclude *.pyd
+[2024-04-23 06:27:53] INFO root fetch - processPackages [nir]: Downloading https://files.pythonhosted.org/packages/a2/4c/bc3103fc02452e9cc40a5dae3f06d7ca1b5d88d5ed52edef3428e512af2c/nir-1.0.3.tar.gz
+[2024-04-23 06:27:53] INFO root fetch - processPackages [komodo-sdk]: executing diffoscope
+[2024-04-23 06:27:53] INFO root fetch - processPackages [komodo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komodo_sdk-0.0.99.tar.gz tmp/komodo_sdk-0.1.1.tar.gz --markdown 20240423/k/komodo-sdk/0.0.99-0.1.1/README.md --exclude *.pyd
+[2024-04-23 06:27:53] WARNING root fetch - processPackages [nir]: Skipping package: exceeds size limit 15641266>=10485760
+[2024-04-23 06:27:53] INFO root fetch - main [MainThread]: End processing [nir] error
+[2024-04-23 06:27:53] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.4.3.tar.gz]
+[2024-04-23 06:27:53] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.5.0.tar.gz]
+[2024-04-23 06:27:53] INFO root fetch - main [MainThread]: End processing [ehdg-pupil-detector]: success
+[2024-04-23 06:27:54] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.99.tar.gz]
+[2024-04-23 06:27:54] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.1.1.tar.gz]
+[2024-04-23 06:27:54] INFO root fetch - main [MainThread]: End processing [komodo-sdk]: success
+[2024-04-23 06:27:54] INFO root fetch - main [MainThread]: Store serial: [22889004]
