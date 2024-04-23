@@ -18530,3 +18530,41 @@
 [2024-04-23 12:49:56] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-9.0.3.tar.gz]
 [2024-04-23 12:49:56] INFO root fetch - main [MainThread]: End processing [logprep]: success
 [2024-04-23 12:49:56] INFO root fetch - main [MainThread]: Store serial: [22892532]
+[2024-04-23 12:52:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892532]
+[2024-04-23 12:52:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datature
+[2024-04-23 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyastroweatherio
+[2024-04-23 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codex-of-the-damned
+[2024-04-23 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SilverStreamingApplicationPoC
+[2024-04-23 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data_compressor
+[2024-04-23 12:52:05] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 12:52:05] INFO root fetch - processPackages [codex-of-the-damned]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 12:52:05] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-23 12:52:05] WARNING root fetch - processPackages [data_compressor]: Skipping, unable to determine old version
+[2024-04-23 12:52:05] INFO root fetch - main [MainThread]: End processing [data_compressor] error
+[2024-04-23 12:52:05] INFO root fetch - processPackages [datature]: New version: [1.7.1b1] Old Version: [1.7.0]
+[2024-04-23 12:52:05] INFO root fetch - processPackages [codex-of-the-damned]: Downloading https://files.pythonhosted.org/packages/c2/11/df884619fc13a601b050cb3e01ceb86181c35a4ee94f824c8544d07562f3/codex-of-the-damned-1.8.tar.gz
+[2024-04-23 12:52:05] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.43.1.dev9] Old Version: [0.43.1.dev8]
+[2024-04-23 12:52:05] WARNING root fetch - processPackages [codex-of-the-damned]: Skipping package: exceeds size limit 17715792>=10485760
+[2024-04-23 12:52:05] INFO root fetch - main [MainThread]: End processing [codex-of-the-damned] error
+[2024-04-23 12:52:05] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-23 12:52:05] INFO root fetch - processPackages [datature]: Downloading https://files.pythonhosted.org/packages/b3/50/02afac5ec9057a85aff89fbd17098e1fb0081d5be2520a142125baf31942/datature-1.7.0.tar.gz
+[2024-04-23 12:52:05] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/52/24/2c570e0e19bb51a136edaf868d693f0156fca6c66aca91674ec5e7973a2c/pyastroweatherio-0.43.1.dev8.tar.gz
+[2024-04-23 12:52:05] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-23 12:52:05] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240423/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-23 12:52:05] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/75/07/e7eb1179d1b5db7e5e45ea03766c9c39fee7686fa1e316830827643977ac/pyastroweatherio-0.43.1.dev9.tar.gz
+[2024-04-23 12:52:05] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-04-23 12:52:05] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.43.1.dev8.tar.gz tmp/pyastroweatherio-0.43.1.dev9.tar.gz --markdown 20240423/p/pyastroweatherio/0.43.1.dev8-0.43.1.dev9/README.md --exclude *.pyd
+[2024-04-23 12:52:05] INFO root fetch - processPackages [datature]: Downloading https://files.pythonhosted.org/packages/13/ea/db429f178bea13fe400164167f2ec1bb55b4cf888b7f8fc3a6ca1671c070/datature-1.7.1b1.tar.gz
+[2024-04-23 12:52:06] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-23 12:52:06] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-23 12:52:06] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-23 12:52:06] INFO root fetch - processPackages [datature]: executing diffoscope
+[2024-04-23 12:52:06] INFO root fetch - processPackages [datature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datature-1.7.0.tar.gz tmp/datature-1.7.1b1.tar.gz --markdown 20240423/d/datature/1.7.0-1.7.1b1/README.md --exclude *.pyd
+[2024-04-23 12:52:06] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev8.tar.gz]
+[2024-04-23 12:52:06] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev9.tar.gz]
+[2024-04-23 12:52:06] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-04-23 12:52:07] INFO root fetch - processPackages [datature]: Remove: archive file [/home/abi/fetcher/tmp/datature-1.7.0.tar.gz]
+[2024-04-23 12:52:07] INFO root fetch - processPackages [datature]: Remove: archive file [/home/abi/fetcher/tmp/datature-1.7.1b1.tar.gz]
+[2024-04-23 12:52:07] INFO root fetch - main [MainThread]: End processing [datature]: success
+[2024-04-23 12:52:07] INFO root fetch - main [MainThread]: Store serial: [22892548]
