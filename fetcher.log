@@ -17223,3 +17223,54 @@
 [2024-04-23 11:55:12] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.25-py3-none-any.whl.zip]
 [2024-04-23 11:55:12] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-04-23 11:55:12] INFO root fetch - main [MainThread]: Store serial: [22892041]
+[2024-04-23 11:57:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892041]
+[2024-04-23 11:57:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tabviz
+[2024-04-23 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chainbench
+[2024-04-23 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remotion-lambda
+[2024-04-23 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: revpref
+[2024-04-23 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylint-restricted-imports
+[2024-04-23 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yeref
+[2024-04-23 11:57:20] INFO root fetch - processPackages [tabviz]: New version: [1.1.0.4] Old Version: [1.1.0.3]
+[2024-04-23 11:57:20] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-04-23 11:57:20] INFO root fetch - processPackages [tabviz]: Downloading https://files.pythonhosted.org/packages/ab/98/2932931033adbdcbd919b81f430b0b9138a350ea06cb786803c422456ea5/tabviz-1.1.0.3.tar.gz
+[2024-04-23 11:57:21] INFO root fetch - processPackages [chainbench]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-04-23 11:57:21] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-04-23 11:57:21] INFO root fetch - processPackages [pylint-restricted-imports]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-23 11:57:21] WARNING root fetch - processPackages [revpref]: Skipping, unable to determine old version
+[2024-04-23 11:57:21] INFO root fetch - main [MainThread]: End processing [revpref] error
+[2024-04-23 11:57:21] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/9d/17/d26e10c9072a12d5519630d2680aaea218cccc6fb4721b0df5a46d1e6d46/chainbench-0.6.6.tar.gz
+[2024-04-23 11:57:21] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-04-23 11:57:21] INFO root fetch - processPackages [tabviz]: Downloading https://files.pythonhosted.org/packages/f3/c6/75b6220dca4271bd94f5e7e5dd7c6bc75df252de1d5651b245636fce35f1/tabviz-1.1.0.4.tar.gz
+[2024-04-23 11:57:21] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 11:57:21] INFO root fetch - processPackages [pylint-restricted-imports]: Downloading https://files.pythonhosted.org/packages/f2/68/ebd95276e4c744752576c280927583f5bd58bef6fe91ac8bb2336ac73bde/pylint_restricted_imports-0.2.0.tar.gz
+[2024-04-23 11:57:21] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-23 11:57:21] INFO root fetch - processPackages [tabviz]: executing diffoscope
+[2024-04-23 11:57:21] INFO root fetch - processPackages [tabviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabviz-1.1.0.3.tar.gz tmp/tabviz-1.1.0.4.tar.gz --markdown 20240423/t/tabviz/1.1.0.3-1.1.0.4/README.md --exclude *.pyd
+[2024-04-23 11:57:21] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-04-23 11:57:21] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240423/r/remotion-lambda/4.0.98-4.1.0a12/README.md --exclude *.pyd
+[2024-04-23 11:57:21] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/19/36/86192b4243208a70f97ab2252e76410aafd4602654fb1646fe34cac0402b/chainbench-0.6.7.tar.gz
+[2024-04-23 11:57:21] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-23 11:57:21] INFO root fetch - processPackages [chainbench]: executing diffoscope
+[2024-04-23 11:57:21] INFO root fetch - processPackages [chainbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainbench-0.6.6.tar.gz tmp/chainbench-0.6.7.tar.gz --markdown 20240423/c/chainbench/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-04-23 11:57:21] INFO root fetch - processPackages [pylint-restricted-imports]: Downloading https://files.pythonhosted.org/packages/70/3d/b02e12fb0ee53d1d76e03a9b6f60ca9cb8973a5db06b65e58a9784f0a4ab/pylint_restricted_imports-0.2.1.tar.gz
+[2024-04-23 11:57:21] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-23 11:57:21] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240423/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-23 11:57:21] INFO root fetch - processPackages [pylint-restricted-imports]: executing diffoscope
+[2024-04-23 11:57:21] INFO root fetch - processPackages [pylint-restricted-imports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint_restricted_imports-0.2.0.tar.gz tmp/pylint_restricted_imports-0.2.1.tar.gz --markdown 20240423/p/pylint-restricted-imports/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-23 11:57:22] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-04-23 11:57:22] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-04-23 11:57:22] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-04-23 11:57:22] INFO root fetch - processPackages [tabviz]: Remove: archive file [/home/abi/fetcher/tmp/tabviz-1.1.0.3.tar.gz]
+[2024-04-23 11:57:22] INFO root fetch - processPackages [tabviz]: Remove: archive file [/home/abi/fetcher/tmp/tabviz-1.1.0.4.tar.gz]
+[2024-04-23 11:57:22] INFO root fetch - main [MainThread]: End processing [tabviz]: success
+[2024-04-23 11:57:22] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.6.6.tar.gz]
+[2024-04-23 11:57:22] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.6.7.tar.gz]
+[2024-04-23 11:57:22] INFO root fetch - main [MainThread]: End processing [chainbench]: success
+[2024-04-23 11:57:22] INFO root fetch - processPackages [pylint-restricted-imports]: Remove: archive file [/home/abi/fetcher/tmp/pylint_restricted_imports-0.2.0.tar.gz]
+[2024-04-23 11:57:22] INFO root fetch - processPackages [pylint-restricted-imports]: Remove: archive file [/home/abi/fetcher/tmp/pylint_restricted_imports-0.2.1.tar.gz]
+[2024-04-23 11:57:22] INFO root fetch - main [MainThread]: End processing [pylint-restricted-imports]: success
+[2024-04-23 11:57:22] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-23 11:57:22] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-23 11:57:22] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-23 11:57:22] INFO root fetch - main [MainThread]: Store serial: [22892061]
