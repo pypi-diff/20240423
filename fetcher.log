@@ -11457,3 +11457,27 @@
 [2024-04-23 08:01:39] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.9.tar.gz]
 [2024-04-23 08:01:39] INFO root fetch - main [MainThread]: End processing [kytest]: success
 [2024-04-23 08:01:39] INFO root fetch - main [MainThread]: Store serial: [22889548]
+[2024-04-23 08:03:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889548]
+[2024-04-23 08:03:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 08:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dvcx
+[2024-04-23 08:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imswitchclient
+[2024-04-23 08:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fremu
+[2024-04-23 08:03:47] WARNING root fetch - processPackages [fremu]: Skipping, unable to determine old version
+[2024-04-23 08:03:47] INFO root fetch - main [MainThread]: End processing [fremu] error
+[2024-04-23 08:03:47] INFO root fetch - processPackages [imswitchclient]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 08:03:48] INFO root fetch - processPackages [dvcx]: New version: [0.76.0] Old Version: [0.75.1]
+[2024-04-23 08:03:48] INFO root fetch - processPackages [imswitchclient]: Downloading https://files.pythonhosted.org/packages/96/f9/ee0224c6bfac7027f181eda3287fde28ad3cdc9cb5b694f4599dd3c90963/imswitchclient-0.1.1.tar.gz
+[2024-04-23 08:03:48] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/3d/aa/f024507860abad5cbcaa1fb3649bd2365c7e989cae5b2cc291ab224d5994/dvcx-0.75.1.tar.gz
+[2024-04-23 08:03:48] INFO root fetch - processPackages [imswitchclient]: Downloading https://files.pythonhosted.org/packages/cd/96/ac785b2792731d9917ca77e1fe39df5db65c460db75624f3e2de274decea/imswitchclient-0.1.2.tar.gz
+[2024-04-23 08:03:48] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/4e/52/6f55f7228862d95f5331b1554534ce145f008c8405a12de2225a30a6f0b6/dvcx-0.76.0.tar.gz
+[2024-04-23 08:03:48] INFO root fetch - processPackages [imswitchclient]: executing diffoscope
+[2024-04-23 08:03:48] INFO root fetch - processPackages [imswitchclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imswitchclient-0.1.1.tar.gz tmp/imswitchclient-0.1.2.tar.gz --markdown 20240423/i/imswitchclient/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 08:03:48] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-04-23 08:03:48] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.75.1.tar.gz tmp/dvcx-0.76.0.tar.gz --markdown 20240423/d/dvcx/0.75.1-0.76.0/README.md --exclude *.pyd
+[2024-04-23 08:03:49] INFO root fetch - processPackages [imswitchclient]: Remove: archive file [/home/abi/fetcher/tmp/imswitchclient-0.1.1.tar.gz]
+[2024-04-23 08:03:49] INFO root fetch - processPackages [imswitchclient]: Remove: archive file [/home/abi/fetcher/tmp/imswitchclient-0.1.2.tar.gz]
+[2024-04-23 08:03:49] INFO root fetch - main [MainThread]: End processing [imswitchclient]: success
+[2024-04-23 08:03:49] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.75.1.tar.gz]
+[2024-04-23 08:03:49] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.76.0.tar.gz]
+[2024-04-23 08:03:49] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-04-23 08:03:49] INFO root fetch - main [MainThread]: Store serial: [22889558]
