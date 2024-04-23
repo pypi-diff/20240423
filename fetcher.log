@@ -17015,3 +17015,75 @@
 [2024-04-23 11:48:37] INFO root fetch - processPackages [finpy-tse]: Remove: archive file [/home/abi/fetcher/tmp/finpy_tse-1.2.9.tar.gz]
 [2024-04-23 11:48:37] INFO root fetch - main [MainThread]: End processing [finpy-tse]: success
 [2024-04-23 11:48:37] INFO root fetch - main [MainThread]: Store serial: [22891963]
+[2024-04-23 11:50:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891963]
+[2024-04-23 11:50:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 11:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onekey_client
+[2024-04-23 11:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-automationshield
+[2024-04-23 11:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iqrfpy-app-helpers
+[2024-04-23 11:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wd-fw-update
+[2024-04-23 11:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alyx-registrator
+[2024-04-23 11:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vadi
+[2024-04-23 11:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ifctester
+[2024-04-23 11:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TitanDevice
+[2024-04-23 11:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-trino
+[2024-04-23 11:50:46] INFO root fetch - processPackages [TitanDevice]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-23 11:50:46] WARNING root fetch - processPackages [vadi]: Skipping, unable to determine old version
+[2024-04-23 11:50:46] INFO root fetch - main [MainThread]: End processing [vadi] error
+[2024-04-23 11:50:46] WARNING root fetch - processPackages [iqrfpy-app-helpers]: Skipping, unable to determine old version
+[2024-04-23 11:50:46] INFO root fetch - main [MainThread]: End processing [iqrfpy-app-helpers] error
+[2024-04-23 11:50:46] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/90/ae/ef15cdbafca5c2bb3061506414f0f86c145c4509484a2ef70eff965a6cff/TitanDevice-0.1.4.tar.gz
+[2024-04-23 11:50:46] INFO root fetch - processPackages [python-automationshield]: New version: [1.0.0] Old Version: [0.4.0]
+[2024-04-23 11:50:46] INFO root fetch - processPackages [onekey_client]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-23 11:50:46] INFO root fetch - processPackages [alyx-registrator]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 11:50:46] INFO root fetch - processPackages [wd-fw-update]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-23 11:50:46] INFO root fetch - processPackages [ifctester]: New version: [0.0.240423] Old Version: [0.0.240418]
+[2024-04-23 11:50:46] INFO root fetch - processPackages [dbt-trino]: New version: [1.8.0b3] Old Version: [1.8.0b2]
+[2024-04-23 11:50:46] INFO root fetch - processPackages [onekey_client]: Downloading https://files.pythonhosted.org/packages/68/8e/e05277b556087feb28ea2744dbcd01ebe4852b8e276d42b04aae1feeb7f2/onekey_client-2.2.0.tar.gz
+[2024-04-23 11:50:46] INFO root fetch - processPackages [python-automationshield]: Downloading https://files.pythonhosted.org/packages/c9/aa/e2cb204bf22c38c4fe724bf783b05e0b3bc7e8a6b248997bd71e800bc5db/python_automationshield-0.4.0.tar.gz
+[2024-04-23 11:50:46] INFO root fetch - processPackages [alyx-registrator]: Downloading https://files.pythonhosted.org/packages/94/18/e924bafdd8abb2f93b9b1e31d4d61a04f2b9faaba443bc9b02196329dc9d/alyx_registrator-0.0.2.tar.gz
+[2024-04-23 11:50:46] INFO root fetch - processPackages [wd-fw-update]: Downloading https://files.pythonhosted.org/packages/ff/cb/c3e0a423b027fc2fe2b72787840eabf820cbbb0e3388fa407148f53a25a4/wd_fw_update-1.1.1.tar.gz
+[2024-04-23 11:50:47] INFO root fetch - processPackages [ifctester]: Downloading https://files.pythonhosted.org/packages/35/5f/f47c18561bbc4eedcbf4fd07d8e79eb8092a1abf1c4e4c3bcba35af1cc66/ifctester-0.0.240418.tar.gz
+[2024-04-23 11:50:47] INFO root fetch - processPackages [dbt-trino]: Downloading https://files.pythonhosted.org/packages/6a/2c/8087f8d9dd1be75acaf1e1a3d980020464842be499acc53d8c720493e238/dbt-trino-1.8.0b2.tar.gz
+[2024-04-23 11:50:47] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/73/2c/624ef7867957c793c66cb0be20f1dc9d0cdbb647b422dfed4a2b080f8d08/TitanDevice-0.1.5.tar.gz
+[2024-04-23 11:50:47] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-23 11:50:47] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.1.4.tar.gz tmp/TitanDevice-0.1.5.tar.gz --markdown 20240423/T/TitanDevice/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-23 11:50:47] INFO root fetch - processPackages [onekey_client]: Downloading https://files.pythonhosted.org/packages/f1/30/b70a97dbca43861997a9813feed10ca491123b410709e0a8c096e44e3d82/onekey_client-2.3.0.tar.gz
+[2024-04-23 11:50:47] INFO root fetch - processPackages [python-automationshield]: Downloading https://files.pythonhosted.org/packages/9d/92/95c386999b0ea3ae2e8eff23aa5f961ede272f48e5aa63e10ee26549653b/python_automationshield-1.0.0.tar.gz
+[2024-04-23 11:50:47] INFO root fetch - processPackages [alyx-registrator]: Downloading https://files.pythonhosted.org/packages/f7/ea/9587181b463857d0b7e24ba8125e37a59dfd5f9bcccf9d3b48679c76c867/alyx_registrator-0.0.3.tar.gz
+[2024-04-23 11:50:47] INFO root fetch - processPackages [ifctester]: Downloading https://files.pythonhosted.org/packages/85/9c/069df486c92f9e2ae4ddfef0cc931f86b54cd8ab167fbc2c63415259f79d/ifctester-0.0.240423.tar.gz
+[2024-04-23 11:50:47] INFO root fetch - processPackages [wd-fw-update]: Downloading https://files.pythonhosted.org/packages/21/e7/e428ee52bc2e4a33ce60ceba41815d534466265330586e99334278e03229/wd_fw_update-1.2.0.tar.gz
+[2024-04-23 11:50:47] INFO root fetch - processPackages [dbt-trino]: Downloading https://files.pythonhosted.org/packages/45/c4/dc9604e9cbe9f3529fe56dd850cf75aeb655f768efc17097194a3b4d3bc7/dbt-trino-1.8.0b3.tar.gz
+[2024-04-23 11:50:47] INFO root fetch - processPackages [onekey_client]: executing diffoscope
+[2024-04-23 11:50:47] INFO root fetch - processPackages [onekey_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onekey_client-2.2.0.tar.gz tmp/onekey_client-2.3.0.tar.gz --markdown 20240423/o/onekey_client/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-04-23 11:50:47] INFO root fetch - processPackages [python-automationshield]: executing diffoscope
+[2024-04-23 11:50:47] INFO root fetch - processPackages [python-automationshield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_automationshield-0.4.0.tar.gz tmp/python_automationshield-1.0.0.tar.gz --markdown 20240423/p/python-automationshield/0.4.0-1.0.0/README.md --exclude *.pyd
+[2024-04-23 11:50:47] INFO root fetch - processPackages [ifctester]: executing diffoscope
+[2024-04-23 11:50:47] INFO root fetch - processPackages [ifctester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifctester-0.0.240418.tar.gz tmp/ifctester-0.0.240423.tar.gz --markdown 20240423/i/ifctester/0.0.240418-0.0.240423/README.md --exclude *.pyd
+[2024-04-23 11:50:47] INFO root fetch - processPackages [wd-fw-update]: executing diffoscope
+[2024-04-23 11:50:47] INFO root fetch - processPackages [wd-fw-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wd_fw_update-1.1.1.tar.gz tmp/wd_fw_update-1.2.0.tar.gz --markdown 20240423/w/wd-fw-update/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-23 11:50:47] INFO root fetch - processPackages [alyx-registrator]: executing diffoscope
+[2024-04-23 11:50:47] INFO root fetch - processPackages [alyx-registrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alyx_registrator-0.0.2.tar.gz tmp/alyx_registrator-0.0.3.tar.gz --markdown 20240423/a/alyx-registrator/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 11:50:47] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.4.tar.gz]
+[2024-04-23 11:50:47] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.5.tar.gz]
+[2024-04-23 11:50:47] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-23 11:50:48] INFO root fetch - processPackages [dbt-trino]: executing diffoscope
+[2024-04-23 11:50:48] INFO root fetch - processPackages [dbt-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-trino-1.8.0b2.tar.gz tmp/dbt-trino-1.8.0b3.tar.gz --markdown 20240423/d/dbt-trino/1.8.0b2-1.8.0b3/README.md --exclude *.pyd
+[2024-04-23 11:50:48] INFO root fetch - processPackages [ifctester]: Remove: archive file [/home/abi/fetcher/tmp/ifctester-0.0.240418.tar.gz]
+[2024-04-23 11:50:48] INFO root fetch - processPackages [ifctester]: Remove: archive file [/home/abi/fetcher/tmp/ifctester-0.0.240423.tar.gz]
+[2024-04-23 11:50:48] INFO root fetch - main [MainThread]: End processing [ifctester]: success
+[2024-04-23 11:50:48] INFO root fetch - processPackages [onekey_client]: Remove: archive file [/home/abi/fetcher/tmp/onekey_client-2.2.0.tar.gz]
+[2024-04-23 11:50:48] INFO root fetch - processPackages [onekey_client]: Remove: archive file [/home/abi/fetcher/tmp/onekey_client-2.3.0.tar.gz]
+[2024-04-23 11:50:48] INFO root fetch - main [MainThread]: End processing [onekey_client]: success
+[2024-04-23 11:50:48] INFO root fetch - processPackages [python-automationshield]: Remove: archive file [/home/abi/fetcher/tmp/python_automationshield-0.4.0.tar.gz]
+[2024-04-23 11:50:48] INFO root fetch - processPackages [python-automationshield]: Remove: archive file [/home/abi/fetcher/tmp/python_automationshield-1.0.0.tar.gz]
+[2024-04-23 11:50:48] INFO root fetch - main [MainThread]: End processing [python-automationshield]: success
+[2024-04-23 11:50:48] INFO root fetch - processPackages [alyx-registrator]: Remove: archive file [/home/abi/fetcher/tmp/alyx_registrator-0.0.2.tar.gz]
+[2024-04-23 11:50:48] INFO root fetch - processPackages [alyx-registrator]: Remove: archive file [/home/abi/fetcher/tmp/alyx_registrator-0.0.3.tar.gz]
+[2024-04-23 11:50:48] INFO root fetch - main [MainThread]: End processing [alyx-registrator]: success
+[2024-04-23 11:50:48] INFO root fetch - processPackages [wd-fw-update]: Remove: archive file [/home/abi/fetcher/tmp/wd_fw_update-1.1.1.tar.gz]
+[2024-04-23 11:50:48] INFO root fetch - processPackages [wd-fw-update]: Remove: archive file [/home/abi/fetcher/tmp/wd_fw_update-1.2.0.tar.gz]
+[2024-04-23 11:50:48] INFO root fetch - main [MainThread]: End processing [wd-fw-update]: success
+[2024-04-23 11:50:48] INFO root fetch - processPackages [dbt-trino]: Remove: archive file [/home/abi/fetcher/tmp/dbt-trino-1.8.0b2.tar.gz]
+[2024-04-23 11:50:48] INFO root fetch - processPackages [dbt-trino]: Remove: archive file [/home/abi/fetcher/tmp/dbt-trino-1.8.0b3.tar.gz]
+[2024-04-23 11:50:48] INFO root fetch - main [MainThread]: End processing [dbt-trino]: success
+[2024-04-23 11:50:48] INFO root fetch - main [MainThread]: Store serial: [22891991]
