@@ -12666,3 +12666,83 @@
 [2024-04-23 09:03:05] INFO root fetch - processPackages [mayan-edms]: Remove: archive file [/home/abi/fetcher/tmp/mayan-edms-4.6.4.tar.gz]
 [2024-04-23 09:03:05] INFO root fetch - main [MainThread]: End processing [mayan-edms]: success
 [2024-04-23 09:03:05] INFO root fetch - main [MainThread]: Store serial: [22889999]
+[2024-04-23 09:05:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889999]
+[2024-04-23 09:05:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-23 09:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-dbchat
+[2024-04-23 09:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlora
+[2024-04-23 09:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SilverStreamingApplicationPoC
+[2024-04-23 09:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyvisjs
+[2024-04-23 09:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: basx-bread
+[2024-04-23 09:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: turing-planet
+[2024-04-23 09:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fremu
+[2024-04-23 09:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-nightly
+[2024-04-23 09:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idvpackage
+[2024-04-23 09:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clusterenv
+[2024-04-23 09:05:15] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc94.post1] Old Version: [0.0.2rc93.post1]
+[2024-04-23 09:05:15] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 09:05:15] WARNING root fetch - processPackages [fremu]: Skipping, unable to determine old version
+[2024-04-23 09:05:15] INFO root fetch - processPackages [fremu]: Start processing: replit-river
+[2024-04-23 09:05:15] INFO root fetch - main [MainThread]: End processing [fremu] error
+[2024-04-23 09:05:15] INFO root fetch - processPackages [clusterenv]: New version: [0.3.28] Old Version: [0.3.27]
+[2024-04-23 09:05:15] WARNING root fetch - processPackages [pyvisjs]: Skipping, unable to determine old version
+[2024-04-23 09:05:15] INFO root fetch - main [MainThread]: End processing [pyvisjs] error
+[2024-04-23 09:05:15] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.33.1.dev20240421] Old Version: [1.33.1.dev20240420]
+[2024-04-23 09:05:15] INFO root fetch - processPackages [replit-river]: New version: [0.1.7b7] Old Version: [0.1.7b6]
+[2024-04-23 09:05:15] WARNING root fetch - processPackages [turing-planet]: Skipping, unable to determine old version
+[2024-04-23 09:05:15] INFO root fetch - main [MainThread]: End processing [turing-planet] error
+[2024-04-23 09:05:15] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/84/37/8a3212397a0d355d2e918b4eecc4c20139b12617dbc68f91834b7367923c/py_dbchat-0.0.2rc93.post1.tar.gz
+[2024-04-23 09:05:15] INFO root fetch - processPackages [mlora]: New version: [0.3.0.post1] Old Version: [0.3.0]
+[2024-04-23 09:05:15] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-23 09:05:15] INFO root fetch - processPackages [basx-bread]: New version: [0.7.95] Old Version: [0.7.94]
+[2024-04-23 09:05:15] INFO root fetch - processPackages [clusterenv]: Downloading https://files.pythonhosted.org/packages/b8/ed/243b05d28aa77ee3ff4553d58bc79502977caf6f6da98c49c809d8e82576/clusterenv-0.3.27.tar.gz
+[2024-04-23 09:05:15] INFO root fetch - processPackages [idvpackage]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-23 09:05:15] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/ba/35/cb331fdec5e386cae4f6a137ac11c87b32cc51fb824f5e99ce919f3b3de8/streamlit_nightly-1.33.1.dev20240420.tar.gz
+[2024-04-23 09:05:15] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/a8/b9/23af7c9a25646269613fb56220ff24ebf978442ddf8375d24d6afc3bc17d/replit_river-0.1.7b6.tar.gz
+[2024-04-23 09:05:16] INFO root fetch - processPackages [mlora]: Downloading https://files.pythonhosted.org/packages/d2/92/52cbd5fcaef9af0558b0f08779eba416bb320e8fdc8537f064ae523a3560/mlora-0.3.0.tar.gz
+[2024-04-23 09:05:16] INFO root fetch - processPackages [basx-bread]: Downloading https://files.pythonhosted.org/packages/28/f9/5565c0d8a11cb8223694a0a147513742c5bd731ee5b894466b9395d2c640/basx-bread-0.7.94.tar.gz
+[2024-04-23 09:05:16] INFO root fetch - processPackages [idvpackage]: Downloading https://files.pythonhosted.org/packages/6c/7c/65b70ff47604461688a9475630c0e6f7b3f0809d59034ee93c3a20a856cd/idvpackage-1.9.8.tar.gz
+[2024-04-23 09:05:16] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-23 09:05:16] WARNING root fetch - processPackages [idvpackage]: Skipping package: exceeds size limit 28247832>=10485760
+[2024-04-23 09:05:16] INFO root fetch - main [MainThread]: End processing [idvpackage] error
+[2024-04-23 09:05:16] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/63/f4/bbc1a57c0b210425ece6895a2dc73763abc93feafab743ac8bf26f4853e6/py_dbchat-0.0.2rc94.post1.tar.gz
+[2024-04-23 09:05:16] INFO root fetch - processPackages [clusterenv]: Downloading https://files.pythonhosted.org/packages/0d/5a/b5d732d497390d74a39ee9bb9c58f2086e8815fe051ecea5c0f9ee891389/clusterenv-0.3.28.tar.gz
+[2024-04-23 09:05:16] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/d2/62/546ba5f6d33389f52caafdda8f50ca32aac0c2f76bdfd5b410c45f8c4460/replit_river-0.1.7b7.tar.gz
+[2024-04-23 09:05:16] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-23 09:05:16] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240423/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-23 09:05:16] INFO root fetch - processPackages [clusterenv]: executing diffoscope
+[2024-04-23 09:05:16] INFO root fetch - processPackages [clusterenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clusterenv-0.3.27.tar.gz tmp/clusterenv-0.3.28.tar.gz --markdown 20240423/c/clusterenv/0.3.27-0.3.28/README.md --exclude *.pyd
+[2024-04-23 09:05:16] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-04-23 09:05:16] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.7b6.tar.gz tmp/replit_river-0.1.7b7.tar.gz --markdown 20240423/r/replit-river/0.1.7b6-0.1.7b7/README.md --exclude *.pyd
+[2024-04-23 09:05:16] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-04-23 09:05:16] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc93.post1.tar.gz tmp/py_dbchat-0.0.2rc94.post1.tar.gz --markdown 20240423/p/py-dbchat/0.0.2rc93.post1-0.0.2rc94.post1/README.md --exclude *.pyd
+[2024-04-23 09:05:16] INFO root fetch - processPackages [mlora]: Downloading https://files.pythonhosted.org/packages/0e/a6/9dfe26896b49d4e378b4aac898eced4918f6d4dd76f76c011e768470dfac/mlora-0.3.0.post1.tar.gz
+[2024-04-23 09:05:16] INFO root fetch - processPackages [basx-bread]: Downloading https://files.pythonhosted.org/packages/1a/fc/9a5288f65c70bd0097523eb9e750377def39f828ca467f83f23e4879af19/basx_bread-0.7.95.tar.gz
+[2024-04-23 09:05:16] INFO root fetch - processPackages [mlora]: executing diffoscope
+[2024-04-23 09:05:16] INFO root fetch - processPackages [mlora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlora-0.3.0.tar.gz tmp/mlora-0.3.0.post1.tar.gz --markdown 20240423/m/mlora/0.3.0-0.3.0.post1/README.md --exclude *.pyd
+[2024-04-23 09:05:16] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/23/07/2433f4b4d6a817e7c4123afaafc3a58638df4fa338110f49c05463d822bb/streamlit_nightly-1.33.1.dev20240421.tar.gz
+[2024-04-23 09:05:17] INFO root fetch - processPackages [clusterenv]: Remove: archive file [/home/abi/fetcher/tmp/clusterenv-0.3.27.tar.gz]
+[2024-04-23 09:05:17] INFO root fetch - processPackages [clusterenv]: Remove: archive file [/home/abi/fetcher/tmp/clusterenv-0.3.28.tar.gz]
+[2024-04-23 09:05:17] INFO root fetch - main [MainThread]: End processing [clusterenv]: success
+[2024-04-23 09:05:17] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-23 09:05:17] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-23 09:05:17] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-23 09:05:17] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b6.tar.gz]
+[2024-04-23 09:05:17] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b7.tar.gz]
+[2024-04-23 09:05:17] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-04-23 09:05:17] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-04-23 09:05:17] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.33.1.dev20240420.tar.gz tmp/streamlit_nightly-1.33.1.dev20240421.tar.gz --markdown 20240423/s/streamlit-nightly/1.33.1.dev20240420-1.33.1.dev20240421/README.md --exclude *.pyd
+[2024-04-23 09:05:17] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc93.post1.tar.gz]
+[2024-04-23 09:05:17] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc94.post1.tar.gz]
+[2024-04-23 09:05:17] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-04-23 09:05:17] INFO root fetch - processPackages [mlora]: Remove: archive file [/home/abi/fetcher/tmp/mlora-0.3.0.tar.gz]
+[2024-04-23 09:05:17] INFO root fetch - processPackages [mlora]: Remove: archive file [/home/abi/fetcher/tmp/mlora-0.3.0.post1.tar.gz]
+[2024-04-23 09:05:17] INFO root fetch - main [MainThread]: End processing [mlora]: success
+[2024-04-23 09:05:17] INFO root fetch - processPackages [basx-bread]: executing diffoscope
+[2024-04-23 09:05:17] INFO root fetch - processPackages [basx-bread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basx-bread-0.7.94.tar.gz tmp/basx_bread-0.7.95.tar.gz --markdown 20240423/b/basx-bread/0.7.94-0.7.95/README.md --exclude *.pyd
+[2024-04-23 09:05:20] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240420.tar.gz]
+[2024-04-23 09:05:20] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240421.tar.gz]
+[2024-04-23 09:05:20] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-04-23 09:05:28] INFO root fetch - processPackages [basx-bread]: Remove: archive file [/home/abi/fetcher/tmp/basx-bread-0.7.94.tar.gz]
+[2024-04-23 09:05:28] INFO root fetch - processPackages [basx-bread]: Remove: archive file [/home/abi/fetcher/tmp/basx_bread-0.7.95.tar.gz]
+[2024-04-23 09:05:28] INFO root fetch - main [MainThread]: End processing [basx-bread]: success
+[2024-04-23 09:05:28] INFO root fetch - main [MainThread]: Store serial: [22890034]
