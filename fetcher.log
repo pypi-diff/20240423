@@ -15247,3 +15247,72 @@
 [2024-04-23 10:46:32] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-04-23 10:46:32] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-04-23 10:46:32] INFO root fetch - main [MainThread]: Store serial: [22891259]
+[2024-04-23 10:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891259]
+[2024-04-23 10:48:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 10:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arcane-ga4
+[2024-04-23 10:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chess-notation
+[2024-04-23 10:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zonesmart-utils-fork
+[2024-04-23 10:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Flask-PikaRMQ
+[2024-04-23 10:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybunch
+[2024-04-23 10:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chess-utils
+[2024-04-23 10:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anedya-dev-sdk
+[2024-04-23 10:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frontengine
+[2024-04-23 10:48:41] INFO root fetch - processPackages [chess-notation]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 10:48:41] INFO root fetch - processPackages [chess-utils]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-23 10:48:41] WARNING root fetch - processPackages [Flask-PikaRMQ]: Skipping, unable to determine old version
+[2024-04-23 10:48:41] INFO root fetch - main [MainThread]: End processing [Flask-PikaRMQ] error
+[2024-04-23 10:48:41] INFO root fetch - processPackages [pybunch]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-23 10:48:41] INFO root fetch - processPackages [zonesmart-utils-fork]: New version: [0.5.9.9] Old Version: [0.5.9.8]
+[2024-04-23 10:48:41] INFO root fetch - processPackages [chess-notation]: Downloading https://files.pythonhosted.org/packages/32/5b/321aa148837de99a6e8c33c737a8184b9c471a64de7ec63e8881680817ce/chess_notation-0.1.8.tar.gz
+[2024-04-23 10:48:41] INFO root fetch - processPackages [chess-utils]: Downloading https://files.pythonhosted.org/packages/55/94/6ac4fdd74e75d46b0f4b9ec2a3caad087d616134adad0687e40458976362/chess-utils-0.1.7.tar.gz
+[2024-04-23 10:48:41] INFO root fetch - processPackages [anedya-dev-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-23 10:48:41] INFO root fetch - processPackages [arcane-ga4]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-23 10:48:41] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 10:48:41] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/43/c8/6dc07deda6793946472ec7e16d84ab0724bba593c62fb4f7e6d4e3567f6e/pybunch-1.0.5.tar.gz
+[2024-04-23 10:48:41] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/1f/3c/039c94473127564e1d61c86469dc142a7a89988f07bba21541fea00682d5/zonesmart-utils-fork-0.5.9.8.tar.gz
+[2024-04-23 10:48:41] INFO root fetch - processPackages [arcane-ga4]: Downloading https://files.pythonhosted.org/packages/1d/f0/ce0a03d80b9f5456a6316d30a919a0890f8d974e571655db411fb272372c/arcane_ga4-0.4.3.tar.gz
+[2024-04-23 10:48:41] INFO root fetch - processPackages [anedya-dev-sdk]: Downloading https://files.pythonhosted.org/packages/1c/2d/71c1254ed34a511238b705b6722709da7f2530ea7eef5da57d59ae34d5d3/anedya_dev_sdk-0.1.6.tar.gz
+[2024-04-23 10:48:41] INFO root fetch - processPackages [chess-utils]: Downloading https://files.pythonhosted.org/packages/a3/dc/1afe218e54667934bab5660e347ffb7cefed78c6dfddc717fb5f962ae659/chess_utils-0.1.8.tar.gz
+[2024-04-23 10:48:41] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2024-04-23 10:48:41] INFO root fetch - processPackages [chess-notation]: Downloading https://files.pythonhosted.org/packages/e6/ec/1281095fa95f2033d2f36787c9714dd3449d8ab54104c0b842fe3ab0c72f/chess_notation-0.1.9.tar.gz
+[2024-04-23 10:48:42] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/c7/9f/2ff32de4eacc484eb5a9007534d13156a1b1a1a9c62233775741db20c020/zonesmart-utils-fork-0.5.9.9.tar.gz
+[2024-04-23 10:48:42] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/2c/3f/4305e2d9f5ec1526836e1beb12297a725f01867aaa9a51899ce2d9f8ce9e/pybunch-1.0.6.tar.gz
+[2024-04-23 10:48:42] INFO root fetch - processPackages [chess-utils]: executing diffoscope
+[2024-04-23 10:48:42] INFO root fetch - processPackages [chess-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess-utils-0.1.7.tar.gz tmp/chess_utils-0.1.8.tar.gz --markdown 20240423/c/chess-utils/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-23 10:48:42] INFO root fetch - processPackages [chess-notation]: executing diffoscope
+[2024-04-23 10:48:42] INFO root fetch - processPackages [chess-notation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_notation-0.1.8.tar.gz tmp/chess_notation-0.1.9.tar.gz --markdown 20240423/c/chess-notation/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 10:48:42] INFO root fetch - processPackages [zonesmart-utils-fork]: executing diffoscope
+[2024-04-23 10:48:42] INFO root fetch - processPackages [zonesmart-utils-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-fork-0.5.9.8.tar.gz tmp/zonesmart-utils-fork-0.5.9.9.tar.gz --markdown 20240423/z/zonesmart-utils-fork/0.5.9.8-0.5.9.9/README.md --exclude *.pyd
+[2024-04-23 10:48:42] INFO root fetch - processPackages [pybunch]: executing diffoscope
+[2024-04-23 10:48:42] INFO root fetch - processPackages [pybunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybunch-1.0.5.tar.gz tmp/pybunch-1.0.6.tar.gz --markdown 20240423/p/pybunch/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-23 10:48:42] INFO root fetch - processPackages [arcane-ga4]: Downloading https://files.pythonhosted.org/packages/cc/3f/ba233a487a11e328b669ecbec4ef5946247ce98112210bfb2e6a067dd2ce/arcane_ga4-0.4.4.tar.gz
+[2024-04-23 10:48:42] INFO root fetch - processPackages [anedya-dev-sdk]: Downloading https://files.pythonhosted.org/packages/5e/1d/2b9d0e1ed4c7dff68fb4437ce0d3c0a79a63502429e3f72e0f9caad2275b/anedya_dev_sdk-0.1.7.tar.gz
+[2024-04-23 10:48:42] INFO root fetch - processPackages [arcane-ga4]: executing diffoscope
+[2024-04-23 10:48:42] INFO root fetch - processPackages [arcane-ga4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcane_ga4-0.4.3.tar.gz tmp/arcane_ga4-0.4.4.tar.gz --markdown 20240423/a/arcane-ga4/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-23 10:48:42] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2024-04-23 10:48:42] INFO root fetch - processPackages [anedya-dev-sdk]: executing diffoscope
+[2024-04-23 10:48:42] INFO root fetch - processPackages [anedya-dev-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anedya_dev_sdk-0.1.6.tar.gz tmp/anedya_dev_sdk-0.1.7.tar.gz --markdown 20240423/a/anedya-dev-sdk/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-23 10:48:42] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2024-04-23 10:48:42] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20240423/f/frontengine/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 10:48:42] INFO root fetch - processPackages [chess-utils]: Remove: archive file [/home/abi/fetcher/tmp/chess-utils-0.1.7.tar.gz]
+[2024-04-23 10:48:42] INFO root fetch - processPackages [chess-utils]: Remove: archive file [/home/abi/fetcher/tmp/chess_utils-0.1.8.tar.gz]
+[2024-04-23 10:48:42] INFO root fetch - main [MainThread]: End processing [chess-utils]: success
+[2024-04-23 10:48:42] INFO root fetch - processPackages [chess-notation]: Remove: archive file [/home/abi/fetcher/tmp/chess_notation-0.1.8.tar.gz]
+[2024-04-23 10:48:42] INFO root fetch - processPackages [chess-notation]: Remove: archive file [/home/abi/fetcher/tmp/chess_notation-0.1.9.tar.gz]
+[2024-04-23 10:48:42] INFO root fetch - main [MainThread]: End processing [chess-notation]: success
+[2024-04-23 10:48:42] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.5.tar.gz]
+[2024-04-23 10:48:42] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.6.tar.gz]
+[2024-04-23 10:48:43] INFO root fetch - main [MainThread]: End processing [pybunch]: success
+[2024-04-23 10:48:43] INFO root fetch - processPackages [arcane-ga4]: Remove: archive file [/home/abi/fetcher/tmp/arcane_ga4-0.4.3.tar.gz]
+[2024-04-23 10:48:43] INFO root fetch - processPackages [arcane-ga4]: Remove: archive file [/home/abi/fetcher/tmp/arcane_ga4-0.4.4.tar.gz]
+[2024-04-23 10:48:43] INFO root fetch - main [MainThread]: End processing [arcane-ga4]: success
+[2024-04-23 10:48:43] INFO root fetch - processPackages [anedya-dev-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anedya_dev_sdk-0.1.6.tar.gz]
+[2024-04-23 10:48:43] INFO root fetch - processPackages [anedya-dev-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anedya_dev_sdk-0.1.7.tar.gz]
+[2024-04-23 10:48:43] INFO root fetch - main [MainThread]: End processing [anedya-dev-sdk]: success
+[2024-04-23 10:48:43] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2024-04-23 10:48:43] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2024-04-23 10:48:43] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2024-04-23 10:48:43] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.8.tar.gz]
+[2024-04-23 10:48:43] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.9.tar.gz]
+[2024-04-23 10:48:43] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
+[2024-04-23 10:48:43] INFO root fetch - main [MainThread]: Store serial: [22891284]
