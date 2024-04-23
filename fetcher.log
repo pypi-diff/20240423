@@ -18250,3 +18250,86 @@
 [2024-04-23 12:39:00] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240423.tar.gz]
 [2024-04-23 12:39:00] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2024-04-23 12:39:00] INFO root fetch - main [MainThread]: Store serial: [22892450]
+[2024-04-23 12:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892450]
+[2024-04-23 12:41:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-23 12:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymemgpt-nightly
+[2024-04-23 12:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatllm
+[2024-04-23 12:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Fr1997v011
+[2024-04-23 12:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TitanDevice
+[2024-04-23 12:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: video-images-creator
+[2024-04-23 12:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2024-04-23 12:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: makit
+[2024-04-23 12:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: msg2po
+[2024-04-23 12:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: argus-server
+[2024-04-23 12:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: huojiweiguoba
+[2024-04-23 12:41:10] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-04-23 12:41:10] INFO root fetch - processPackages [TitanDevice]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 12:41:10] INFO root fetch - processPackages [huojiweiguoba]: New version: [9.0] Old Version: [8.0]
+[2024-04-23 12:41:10] INFO root fetch - processPackages [video-images-creator]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 12:41:10] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-23 12:41:10] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.23.9.47.34]
+[2024-04-23 12:41:10] INFO root fetch - processPackages [Fr1997v011]: New version: [1.3.0] Old Version: [1.2.8]
+[2024-04-23 12:41:10] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-04-23 12:41:10] INFO root fetch - processPackages [msg2po]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-23 12:41:10] INFO root fetch - processPackages [argus-server]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-23 12:41:10] WARNING root fetch - processPackages [makit]: Skipping, unable to determine old version
+[2024-04-23 12:41:10] INFO root fetch - main [MainThread]: End processing [makit] error
+[2024-04-23 12:41:10] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/bd/c5/74f9c777a621edfa401c6ed4668af92340fe2fc386f5081a479b210ca8bd/TitanDevice-0.1.8.tar.gz
+[2024-04-23 12:41:10] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/9b/6f/b64a46e83d6bfc0f46bb336114ec9f43e3939f86a70108c310351b4f02b4/huojiweiguoba-8.0.tar.gz
+[2024-04-23 12:41:10] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/f8/f2/eab0da3e76b34b9105df3034dbfc2ee8b4eec71db93526b3238860abcc7a/video_images_creator-0.3.8.tar.gz
+[2024-04-23 12:41:10] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-23 12:41:10] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/97/6d/dc66a8f48453cfaa486b94d6cbee1872a1cddfe8854c71262644fc951a5b/chatllm-2024.4.23.9.47.34.tar.gz
+[2024-04-23 12:41:10] WARNING root fetch - processPackages [video-images-creator]: Skipping package: exceeds size limit 46958238>=10485760
+[2024-04-23 12:41:10] INFO root fetch - main [MainThread]: End processing [video-images-creator] error
+[2024-04-23 12:41:10] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/fa/f1/7beafd0239cf415eb57a3e2e2efbc171f14db418fc9c46f102e4ee8c5dde/Fr1997v011-1.2.8.tar.gz
+[2024-04-23 12:41:10] INFO root fetch - processPackages [msg2po]: Downloading https://files.pythonhosted.org/packages/18/67/0e7813c4f9eeb5086bebbba472f055995598e30f999cc84f7437c91f4756/msg2po-1.2.0.tar.gz
+[2024-04-23 12:41:10] INFO root fetch - processPackages [argus-server]: Downloading https://files.pythonhosted.org/packages/a8/3f/7cd338049a43602d3abaa1f72e7ccf4744ffb2a796b8546079a53b76aeb3/argus-server-1.8.1.tar.gz
+[2024-04-23 12:41:10] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/3a/79/586f36e886e9e8dcfc4129b51554721e3019a3b5fc5ca074d349a5747db3/huojiweiguoba-9.0.tar.gz
+[2024-04-23 12:41:10] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-04-23 12:41:10] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/c1/d6/b18446924aaada0d0bc84fa476a81c36f3f35efe205e9cbb9048be7d569c/TitanDevice-0.1.9.tar.gz
+[2024-04-23 12:41:10] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-23 12:41:10] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-23 12:41:10] INFO root fetch - processPackages [huojiweiguoba]: executing diffoscope
+[2024-04-23 12:41:10] INFO root fetch - processPackages [huojiweiguoba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huojiweiguoba-8.0.tar.gz tmp/huojiweiguoba-9.0.tar.gz --markdown 20240423/h/huojiweiguoba/8.0-9.0/README.md --exclude *.pyd
+[2024-04-23 12:41:10] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-23 12:41:10] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.1.8.tar.gz tmp/TitanDevice-0.1.9.tar.gz --markdown 20240423/T/TitanDevice/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 12:41:11] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/66/33/9fcda572be50a1c8d72493964298a18876d15b5baa0f68eb434367bc2063/Fr1997v011-1.3.0.tar.gz
+[2024-04-23 12:41:11] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-23 12:41:11] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240423/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-23 12:41:11] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-23 12:41:11] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240423/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-04-23 12:41:11] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-04-23 12:41:11] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.2.8.tar.gz tmp/Fr1997v011-1.3.0.tar.gz --markdown 20240423/F/Fr1997v011/1.2.8-1.3.0/README.md --exclude *.pyd
+[2024-04-23 12:41:11] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-23 12:41:11] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.23.9.47.34.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240423/c/chatllm/2024.4.23.9.47.34-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-23 12:41:11] INFO root fetch - processPackages [msg2po]: Downloading https://files.pythonhosted.org/packages/ff/26/1b4e81c5a9d0fcfce8640bcbd74d5e3187f4e3147d39b83766cbb3ad1819/msg2po-1.2.1.tar.gz
+[2024-04-23 12:41:11] INFO root fetch - processPackages [argus-server]: Downloading https://files.pythonhosted.org/packages/be/41/c49adda62530c8c78d63f1d19411194dfd8a13596fc82aa22fd4f082c460/argus-server-1.9.0.tar.gz
+[2024-04-23 12:41:11] INFO root fetch - processPackages [msg2po]: executing diffoscope
+[2024-04-23 12:41:11] INFO root fetch - processPackages [msg2po]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msg2po-1.2.0.tar.gz tmp/msg2po-1.2.1.tar.gz --markdown 20240423/m/msg2po/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-23 12:41:11] INFO root fetch - processPackages [argus-server]: executing diffoscope
+[2024-04-23 12:41:11] INFO root fetch - processPackages [argus-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus-server-1.8.1.tar.gz tmp/argus-server-1.9.0.tar.gz --markdown 20240423/a/argus-server/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-23 12:41:11] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-8.0.tar.gz]
+[2024-04-23 12:41:11] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-9.0.tar.gz]
+[2024-04-23 12:41:11] INFO root fetch - main [MainThread]: End processing [huojiweiguoba]: success
+[2024-04-23 12:41:11] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.8.tar.gz]
+[2024-04-23 12:41:11] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.9.tar.gz]
+[2024-04-23 12:41:11] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-23 12:41:12] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.2.8.tar.gz]
+[2024-04-23 12:41:12] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.3.0.tar.gz]
+[2024-04-23 12:41:12] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-04-23 12:41:12] INFO root fetch - processPackages [msg2po]: Remove: archive file [/home/abi/fetcher/tmp/msg2po-1.2.0.tar.gz]
+[2024-04-23 12:41:12] INFO root fetch - processPackages [msg2po]: Remove: archive file [/home/abi/fetcher/tmp/msg2po-1.2.1.tar.gz]
+[2024-04-23 12:41:12] INFO root fetch - main [MainThread]: End processing [msg2po]: success
+[2024-04-23 12:41:12] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-04-23 12:41:12] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-04-23 12:41:12] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-23 12:41:12] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.23.9.47.34.tar.gz]
+[2024-04-23 12:41:12] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-23 12:41:12] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-23 12:41:13] INFO root fetch - processPackages [argus-server]: Remove: archive file [/home/abi/fetcher/tmp/argus-server-1.8.1.tar.gz]
+[2024-04-23 12:41:13] INFO root fetch - processPackages [argus-server]: Remove: archive file [/home/abi/fetcher/tmp/argus-server-1.9.0.tar.gz]
+[2024-04-23 12:41:13] INFO root fetch - main [MainThread]: End processing [argus-server]: success
+[2024-04-23 12:41:13] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-23 12:41:13] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-23 12:41:13] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-23 12:41:13] INFO root fetch - main [MainThread]: Store serial: [22892478]
