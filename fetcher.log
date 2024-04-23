@@ -9307,3 +9307,21 @@
 [2024-04-23 05:28:36] INFO root fetch - processPackages [odoo14-addon-dms-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_dms_field-14.0.1.0.2.dev4-py3-none-any.whl.zip]
 [2024-04-23 05:28:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-dms-field]: success
 [2024-04-23 05:28:36] INFO root fetch - main [MainThread]: Store serial: [22888572]
+[2024-04-23 05:30:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888572]
+[2024-04-23 05:30:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 05:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mycttestsdk
+[2024-04-23 05:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wrapper-bar
+[2024-04-23 05:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarers.aws-secure-bucket
+[2024-04-23 05:30:44] WARNING root fetch - processPackages [mycttestsdk]: Skipping, unable to determine old version
+[2024-04-23 05:30:44] INFO root fetch - main [MainThread]: End processing [mycttestsdk] error
+[2024-04-23 05:30:44] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-23 05:30:44] WARNING root fetch - processPackages [wrapper-bar]: Skipping, unable to determine old version
+[2024-04-23 05:30:44] INFO root fetch - main [MainThread]: End processing [wrapper-bar] error
+[2024-04-23 05:30:44] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/95/09/3f8b1a2ac831fc31ad90c964465f7d2bd518420d43c4da538aaa2a06f65f/gammarers.aws-secure-bucket-1.3.0.tar.gz
+[2024-04-23 05:30:45] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/c3/a3/c2d58fe06aaff6f72f0c6b296f7b063cd0c360dc2a5c7e1d6bdf324ab203/gammarers.aws-secure-bucket-1.3.1.tar.gz
+[2024-04-23 05:30:45] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: executing diffoscope
+[2024-04-23 05:30:45] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarers.aws-secure-bucket-1.3.0.tar.gz tmp/gammarers.aws-secure-bucket-1.3.1.tar.gz --markdown 20240423/g/gammarers.aws-secure-bucket/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-23 05:30:45] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-bucket-1.3.0.tar.gz]
+[2024-04-23 05:30:45] INFO root fetch - processPackages [gammarers.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-bucket-1.3.1.tar.gz]
+[2024-04-23 05:30:45] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-bucket]: success
+[2024-04-23 05:30:45] INFO root fetch - main [MainThread]: Store serial: [22888588]
