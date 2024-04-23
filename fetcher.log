@@ -10329,3 +10329,24 @@
 [2024-04-23 06:43:29] INFO root fetch - processPackages [pymemgpt]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt-0.3.9.tar.gz]
 [2024-04-23 06:43:29] INFO root fetch - main [MainThread]: End processing [pymemgpt]: success
 [2024-04-23 06:43:29] INFO root fetch - main [MainThread]: Store serial: [22889063]
+[2024-04-23 06:45:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889063]
+[2024-04-23 06:45:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 06:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyarmor
+[2024-04-23 06:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyarmor.cli
+[2024-04-23 06:45:38] INFO root fetch - processPackages [pyarmor.cli]: New version: [8.5.5] Old Version: [8.5.4]
+[2024-04-23 06:45:38] INFO root fetch - processPackages [pyarmor]: New version: [8.5.5] Old Version: [8.5.4]
+[2024-04-23 06:45:38] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/56/49/84d82ddc4aeb0b9197c830af08e78c2e96d3ae0b125beb3b3f3754c53763/pyarmor.cli-8.5.4-py3-none-any.whl
+[2024-04-23 06:45:38] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/bd/15/ffc8337695f5de0b41953584d07434577066f73b2fab188afa1d3646b6b8/pyarmor-8.5.4.zip
+[2024-04-23 06:45:39] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/97/ec/c6079857b64bdd270db5af4f45b204928a6cb755f92d626bc2595a4d47db/pyarmor.cli-8.5.5-py3-none-any.whl
+[2024-04-23 06:45:39] INFO root fetch - processPackages [pyarmor.cli]: executing diffoscope
+[2024-04-23 06:45:39] INFO root fetch - processPackages [pyarmor.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli-8.5.4-py3-none-any.whl.zip tmp/pyarmor.cli-8.5.5-py3-none-any.whl.zip --markdown 20240423/p/pyarmor.cli/8.5.4-8.5.5/README.md --exclude *.pyd
+[2024-04-23 06:45:39] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/8d/d7/cc54331e9ba9418273fdb1d68d7bba28317d226122fdd9352ef0d24f3ec8/pyarmor-8.5.5.zip
+[2024-04-23 06:45:39] INFO root fetch - processPackages [pyarmor]: executing diffoscope
+[2024-04-23 06:45:39] INFO root fetch - processPackages [pyarmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-8.5.4.zip tmp/pyarmor-8.5.5.zip --markdown 20240423/p/pyarmor/8.5.4-8.5.5/README.md --exclude *.pyd
+[2024-04-23 06:45:40] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.5.4-py3-none-any.whl.zip]
+[2024-04-23 06:45:40] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.5.5-py3-none-any.whl.zip]
+[2024-04-23 06:45:40] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
+[2024-04-23 06:45:41] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.5.4.zip]
+[2024-04-23 06:45:41] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.5.5.zip]
+[2024-04-23 06:45:41] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
+[2024-04-23 06:45:41] INFO root fetch - main [MainThread]: Store serial: [22889069]
