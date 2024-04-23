@@ -8623,3 +8623,38 @@
 [2024-04-23 04:57:23] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-1.0.3.tar.gz]
 [2024-04-23 04:57:23] INFO root fetch - main [MainThread]: End processing [DXR-BJ]: success
 [2024-04-23 04:57:23] INFO root fetch - main [MainThread]: Store serial: [22888360]
+[2024-04-23 04:59:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888360]
+[2024-04-23 04:59:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 04:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-statement-import-sheet-file
+[2024-04-23 04:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-osubot
+[2024-04-23 04:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-studio
+[2024-04-23 04:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: utilmy
+[2024-04-23 04:59:32] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: New version: [16.0.1.1.1.1] Old Version: [16.0.1.1.1]
+[2024-04-23 04:59:32] INFO root fetch - processPackages [seven-studio]: New version: [1.5.5] Old Version: [1.5.2]
+[2024-04-23 04:59:32] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [5.7.2] Old Version: [5.7.1]
+[2024-04-23 04:59:32] INFO root fetch - processPackages [utilmy]: New version: [0.1.17138411] Old Version: [0.1.17119509]
+[2024-04-23 04:59:32] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: Downloading https://files.pythonhosted.org/packages/32/d7/920cc7b07b0cbe4151086749c01cc86cc31656db17cc77c18dae4c88fdcd/odoo_addon_account_statement_import_sheet_file-16.0.1.1.1-py3-none-any.whl
+[2024-04-23 04:59:32] INFO root fetch - processPackages [seven-studio]: Downloading https://files.pythonhosted.org/packages/35/4a/91979a752b84b22ea3fa854a124c476d066da98ff1deed0b914700e9b98a/seven_studio-1.5.2.tar.gz
+[2024-04-23 04:59:32] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/75/98/9fdd36adbd2a7376d1a2e18705f07e355c8985efe83ffc55fa75c11d0e53/nonebot-plugin-osubot-5.7.1.tar.gz
+[2024-04-23 04:59:32] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/cd/0b/d089351c7f751451d633aa489281318ba2f948f4820e369e80ef3cb447de/utilmy-0.1.17119509.tar.gz
+[2024-04-23 04:59:32] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29381350>=10485760
+[2024-04-23 04:59:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-04-23 04:59:33] INFO root fetch - processPackages [seven-studio]: Downloading https://files.pythonhosted.org/packages/c1/96/2b14dcacd599be2cb9867171890cc9a2a41b5fcd6140e44e3afa3d6dd637/seven_studio-1.5.5.tar.gz
+[2024-04-23 04:59:33] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: Downloading https://files.pythonhosted.org/packages/af/c8/856dcfd87d726fd56b0ee14d9b535482f97559418fc37ffebb31df872d42/odoo_addon_account_statement_import_sheet_file-16.0.1.1.1.1-py3-none-any.whl
+[2024-04-23 04:59:33] INFO root fetch - processPackages [seven-studio]: executing diffoscope
+[2024-04-23 04:59:33] INFO root fetch - processPackages [seven-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_studio-1.5.2.tar.gz tmp/seven_studio-1.5.5.tar.gz --markdown 20240423/s/seven-studio/1.5.2-1.5.5/README.md --exclude *.pyd
+[2024-04-23 04:59:33] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: executing diffoscope
+[2024-04-23 04:59:33] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_sheet_file-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_sheet_file-16.0.1.1.1.1-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-statement-import-sheet-file/16.0.1.1.1-16.0.1.1.1.1/README.md --exclude *.pyd
+[2024-04-23 04:59:33] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/ee/61/1c925f53270cd6c526c7cc85fda406d8e1336b51168710e77534e5d29815/utilmy-0.1.17138411.tar.gz
+[2024-04-23 04:59:34] INFO root fetch - processPackages [seven-studio]: Remove: archive file [/home/abi/fetcher/tmp/seven_studio-1.5.2.tar.gz]
+[2024-04-23 04:59:34] INFO root fetch - processPackages [seven-studio]: Remove: archive file [/home/abi/fetcher/tmp/seven_studio-1.5.5.tar.gz]
+[2024-04-23 04:59:34] INFO root fetch - main [MainThread]: End processing [seven-studio]: success
+[2024-04-23 04:59:34] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_sheet_file-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-04-23 04:59:34] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_sheet_file-16.0.1.1.1.1-py3-none-any.whl.zip]
+[2024-04-23 04:59:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-sheet-file]: success
+[2024-04-23 04:59:34] INFO root fetch - processPackages [utilmy]: executing diffoscope
+[2024-04-23 04:59:34] INFO root fetch - processPackages [utilmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilmy-0.1.17119509.tar.gz tmp/utilmy-0.1.17138411.tar.gz --markdown 20240423/u/utilmy/0.1.17119509-0.1.17138411/README.md --exclude *.pyd
+[2024-04-23 04:59:42] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17119509.tar.gz]
+[2024-04-23 04:59:42] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17138411.tar.gz]
+[2024-04-23 04:59:42] INFO root fetch - main [MainThread]: End processing [utilmy]: success
+[2024-04-23 04:59:42] INFO root fetch - main [MainThread]: Store serial: [22888370]
