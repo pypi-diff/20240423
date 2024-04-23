@@ -13577,3 +13577,63 @@
 [2024-04-23 09:46:07] INFO root fetch - processPackages [labelu]: Remove: archive file [/home/abi/fetcher/tmp/labelu-1.0.5.tar.gz]
 [2024-04-23 09:46:07] INFO root fetch - main [MainThread]: End processing [labelu]: success
 [2024-04-23 09:46:07] INFO root fetch - main [MainThread]: Store serial: [22890383]
+[2024-04-23 09:48:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890383]
+[2024-04-23 09:48:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 09:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thriftify
+[2024-04-23 09:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libro
+[2024-04-23 09:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libro-flow
+[2024-04-23 09:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libro-ai
+[2024-04-23 09:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lense
+[2024-04-23 09:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rstream
+[2024-04-23 09:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorneko-lib
+[2024-04-23 09:48:18] INFO root fetch - processPackages [lense]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 09:48:18] INFO root fetch - processPackages [thriftify]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-23 09:48:18] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/7c/85/052b323649aafe92ae9cf4466c5b69ac2ef809c5809c95eb8888453041e8/lense-0.0.2-py3-none-any.whl
+[2024-04-23 09:48:18] INFO root fetch - processPackages [libro]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-23 09:48:18] WARNING root fetch - processPackages [libro-flow]: Skipping, unable to determine old version
+[2024-04-23 09:48:18] INFO root fetch - main [MainThread]: End processing [libro-flow] error
+[2024-04-23 09:48:18] INFO root fetch - processPackages [libro-ai]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-23 09:48:18] INFO root fetch - processPackages [thriftify]: Downloading https://files.pythonhosted.org/packages/4a/ae/bc11fa767a205b43445ec61f2e9bf23ef4f505bf20f5f56de8e32e2600a2/thriftify-0.1.2.tar.gz
+[2024-04-23 09:48:18] INFO root fetch - processPackages [rstream]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-23 09:48:18] INFO root fetch - processPackages [tensorneko-lib]: New version: [0.3.13] Old Version: [0.3.12]
+[2024-04-23 09:48:18] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/b9/02/cda6be5ba5d1adb01bada1d2cfaec91e30f2d6ec2a048f9fa170aa87f94d/rstream-0.8.1.tar.gz
+[2024-04-23 09:48:18] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/86/7c/aed3e8df448d66c3c0ec4288fcad2994fd3fa18dbf384ce8b80d151e53a6/lense-0.0.3-py3-none-any.whl
+[2024-04-23 09:48:18] INFO root fetch - processPackages [libro-ai]: Downloading https://files.pythonhosted.org/packages/da/f5/4e2db558fea3bb1eeae1079194d42615d689c840220e4433f853c0961704/libro_ai-0.1.2.tar.gz
+[2024-04-23 09:48:18] INFO root fetch - processPackages [libro]: Downloading https://files.pythonhosted.org/packages/c6/37/df9bd416d13887d11271e7a0e9012443578233b0ab327a8e2bd7856cc9de/libro-0.1.4.tar.gz
+[2024-04-23 09:48:18] INFO root fetch - processPackages [thriftify]: Downloading https://files.pythonhosted.org/packages/6e/06/ff6adf85bf649f3f3cab2e22eb04cb4f9ebfaa0177ba9751b9d3f1128d25/thriftify-0.1.3.tar.gz
+[2024-04-23 09:48:18] INFO root fetch - processPackages [tensorneko-lib]: Downloading https://files.pythonhosted.org/packages/7b/65/3b7a290ba2084cd9740ddc3fdfe7c663e638eba626fb0d907e083e0efbc9/tensorneko_lib-0.3.12.tar.gz
+[2024-04-23 09:48:18] INFO root fetch - processPackages [thriftify]: executing diffoscope
+[2024-04-23 09:48:18] INFO root fetch - processPackages [thriftify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thriftify-0.1.2.tar.gz tmp/thriftify-0.1.3.tar.gz --markdown 20240423/t/thriftify/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-23 09:48:18] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 09:48:18] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.2-py3-none-any.whl.zip tmp/lense-0.0.3-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 09:48:19] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/92/ef/61a6ea12a0afe157e759df9abbbb973d4d75526af47b4b5bddf4f613b288/rstream-0.9.0.tar.gz
+[2024-04-23 09:48:19] INFO root fetch - processPackages [libro-ai]: Downloading https://files.pythonhosted.org/packages/03/31/0e5c322444baf3b44f13e686e43f4a4d792cf10ecaf7845056de3ce161b8/libro_ai-0.1.3.tar.gz
+[2024-04-23 09:48:19] INFO root fetch - processPackages [rstream]: executing diffoscope
+[2024-04-23 09:48:19] INFO root fetch - processPackages [rstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstream-0.8.1.tar.gz tmp/rstream-0.9.0.tar.gz --markdown 20240423/r/rstream/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-23 09:48:19] INFO root fetch - processPackages [tensorneko-lib]: Downloading https://files.pythonhosted.org/packages/02/f3/bf1a7c3b1fddb207d8b581b75d24af009f06deb9bbcca04568f61b6f8aa0/tensorneko_lib-0.3.13-cp37-none-win_amd64.whl
+[2024-04-23 09:48:19] INFO root fetch - processPackages [libro-ai]: executing diffoscope
+[2024-04-23 09:48:19] INFO root fetch - processPackages [libro-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libro_ai-0.1.2.tar.gz tmp/libro_ai-0.1.3.tar.gz --markdown 20240423/l/libro-ai/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-23 09:48:19] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.2-py3-none-any.whl.zip]
+[2024-04-23 09:48:19] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.3-py3-none-any.whl.zip]
+[2024-04-23 09:48:19] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 09:48:19] INFO root fetch - processPackages [thriftify]: Remove: archive file [/home/abi/fetcher/tmp/thriftify-0.1.2.tar.gz]
+[2024-04-23 09:48:19] INFO root fetch - processPackages [thriftify]: Remove: archive file [/home/abi/fetcher/tmp/thriftify-0.1.3.tar.gz]
+[2024-04-23 09:48:19] INFO root fetch - main [MainThread]: End processing [thriftify]: success
+[2024-04-23 09:48:19] INFO root fetch - processPackages [tensorneko-lib]: executing diffoscope
+[2024-04-23 09:48:19] INFO root fetch - processPackages [tensorneko-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko_lib-0.3.12.tar.gz tmp/tensorneko_lib-0.3.13-cp37-none-win_amd64.whl.zip --markdown 20240423/t/tensorneko-lib/0.3.12-0.3.13/README.md --exclude *.pyd
+[2024-04-23 09:48:19] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.8.1.tar.gz]
+[2024-04-23 09:48:19] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.9.0.tar.gz]
+[2024-04-23 09:48:19] INFO root fetch - main [MainThread]: End processing [rstream]: success
+[2024-04-23 09:48:19] INFO root fetch - processPackages [libro-ai]: Remove: archive file [/home/abi/fetcher/tmp/libro_ai-0.1.2.tar.gz]
+[2024-04-23 09:48:19] INFO root fetch - processPackages [libro-ai]: Remove: archive file [/home/abi/fetcher/tmp/libro_ai-0.1.3.tar.gz]
+[2024-04-23 09:48:19] INFO root fetch - main [MainThread]: End processing [libro-ai]: success
+[2024-04-23 09:48:20] INFO root fetch - processPackages [tensorneko-lib]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_lib-0.3.12.tar.gz]
+[2024-04-23 09:48:20] INFO root fetch - processPackages [tensorneko-lib]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_lib-0.3.13-cp37-none-win_amd64.whl.zip]
+[2024-04-23 09:48:20] INFO root fetch - main [MainThread]: End processing [tensorneko-lib]: success
+[2024-04-23 09:48:20] INFO root fetch - processPackages [libro]: Downloading https://files.pythonhosted.org/packages/d5/3b/09c2dfbef59ff615c8eb3374734aa033b0703093c6d180b8085ca6bbded5/libro-0.1.5.tar.gz
+[2024-04-23 09:48:20] INFO root fetch - processPackages [libro]: executing diffoscope
+[2024-04-23 09:48:20] INFO root fetch - processPackages [libro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libro-0.1.4.tar.gz tmp/libro-0.1.5.tar.gz --markdown 20240423/l/libro/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-23 09:51:04] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.4.tar.gz]
+[2024-04-23 09:51:04] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.5.tar.gz]
+[2024-04-23 09:51:04] INFO root fetch - main [MainThread]: End processing [libro]: success
+[2024-04-23 09:51:04] INFO root fetch - main [MainThread]: Store serial: [22890429]
