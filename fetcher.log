@@ -12797,3 +12797,15 @@
 [2024-04-23 09:09:48] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
 [2024-04-23 09:09:48] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
 [2024-04-23 09:09:48] INFO root fetch - main [MainThread]: Store serial: [22890055]
+[2024-04-23 09:11:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890055]
+[2024-04-23 09:11:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-23 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rich-torndb
+[2024-04-23 09:11:56] INFO root fetch - processPackages [rich-torndb]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 09:11:57] INFO root fetch - processPackages [rich-torndb]: Downloading https://files.pythonhosted.org/packages/06/af/32a94a4a75e8086c0b231a2e990c01435301210b7010f7e56a184feed429/rich-torndb-0.0.1.tar.gz
+[2024-04-23 09:11:57] INFO root fetch - processPackages [rich-torndb]: Downloading https://files.pythonhosted.org/packages/2c/27/b67818199c513666f3c180f9b1d6a5659a365cc4999613435a011843aa9e/rich_torndb-0.0.2.tar.gz
+[2024-04-23 09:11:57] INFO root fetch - processPackages [rich-torndb]: executing diffoscope
+[2024-04-23 09:11:57] INFO root fetch - processPackages [rich-torndb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich-torndb-0.0.1.tar.gz tmp/rich_torndb-0.0.2.tar.gz --markdown 20240423/r/rich-torndb/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 09:11:58] INFO root fetch - processPackages [rich-torndb]: Remove: archive file [/home/abi/fetcher/tmp/rich-torndb-0.0.1.tar.gz]
+[2024-04-23 09:11:58] INFO root fetch - processPackages [rich-torndb]: Remove: archive file [/home/abi/fetcher/tmp/rich_torndb-0.0.2.tar.gz]
+[2024-04-23 09:11:58] INFO root fetch - main [MainThread]: End processing [rich-torndb]: success
+[2024-04-23 09:11:58] INFO root fetch - main [MainThread]: Store serial: [22890060]
