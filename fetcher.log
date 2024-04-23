@@ -8520,3 +8520,42 @@
 [2024-04-23 04:53:00] INFO root fetch - processPackages [SplatStats]: Remove: archive file [/home/abi/fetcher/tmp/SplatStats-4.2.2.tar.gz]
 [2024-04-23 04:53:00] INFO root fetch - main [MainThread]: End processing [SplatStats]: success
 [2024-04-23 04:53:00] INFO root fetch - main [MainThread]: Store serial: [22888331]
+[2024-04-23 04:55:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888331]
+[2024-04-23 04:55:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 04:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-move-so-import
+[2024-04-23 04:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socket.d
+[2024-04-23 04:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ytmusic-deleter
+[2024-04-23 04:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proksee-batch
+[2024-04-23 04:55:08] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-04-23 04:55:08] INFO root fetch - processPackages [socket.d]: New version: [2.4.11] Old Version: [2.4.10.7]
+[2024-04-23 04:55:08] INFO root fetch - processPackages [ytmusic-deleter]: New version: [2.2.2] Old Version: [2.1.0]
+[2024-04-23 04:55:08] INFO root fetch - processPackages [proksee-batch]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-23 04:55:09] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: Downloading https://files.pythonhosted.org/packages/ae/27/7d5fd5333dc2c62dcd2a7c869fbdc787aae668cde623f656b2ba0a204d59/odoo_addon_account_move_so_import-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-23 04:55:09] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/73/95/a4040219feeb26e8e396d07f90650ccd24515ad497e2db76efe911c40f0d/ytmusic_deleter-2.1.0.tar.gz
+[2024-04-23 04:55:09] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/a2/19/a4ad1074bb2b6ae35b5ab828bab863f43177b9f81669d1eedffa210e33fe/socket.d-2.4.10.7.tar.gz
+[2024-04-23 04:55:09] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/87/77/eceea51332b123244f3f38872eb959aeb2e5a1989b4c71a79f775a545aa1/proksee_batch-0.5.8.tar.gz
+[2024-04-23 04:55:09] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/ba/d7/acfd57fd0e1cf91eb054463edf7315b110abba478cc58b83ca72a40046b7/ytmusic_deleter-2.2.2.tar.gz
+[2024-04-23 04:55:09] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: Downloading https://files.pythonhosted.org/packages/0b/07/c21c6b3954d834a486be189db18aee2ccb1ec92a265a0d6c0deea576714d/odoo_addon_account_move_so_import-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-23 04:55:09] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/6d/28/ee207e9735fc444ff858e573cbce1c40729f95f925a77fbb644868b183f1/socket.d-2.4.11.tar.gz
+[2024-04-23 04:55:09] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: executing diffoscope
+[2024-04-23 04:55:09] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_so_import-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_move_so_import-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-move-so-import/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-23 04:55:09] INFO root fetch - processPackages [ytmusic-deleter]: executing diffoscope
+[2024-04-23 04:55:09] INFO root fetch - processPackages [ytmusic-deleter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytmusic_deleter-2.1.0.tar.gz tmp/ytmusic_deleter-2.2.2.tar.gz --markdown 20240423/y/ytmusic-deleter/2.1.0-2.2.2/README.md --exclude *.pyd
+[2024-04-23 04:55:09] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-04-23 04:55:09] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.10.7.tar.gz tmp/socket.d-2.4.11.tar.gz --markdown 20240423/s/socket.d/2.4.10.7-2.4.11/README.md --exclude *.pyd
+[2024-04-23 04:55:09] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/cd/e5/77ba32d35c45add0f725e323bf178c710319e608ffdec0b1828dafeeda4f/proksee_batch-0.5.9.tar.gz
+[2024-04-23 04:55:10] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_so_import-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-23 04:55:10] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_so_import-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-23 04:55:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-so-import]: success
+[2024-04-23 04:55:10] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.1.0.tar.gz]
+[2024-04-23 04:55:10] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.2.2.tar.gz]
+[2024-04-23 04:55:10] INFO root fetch - main [MainThread]: End processing [ytmusic-deleter]: success
+[2024-04-23 04:55:10] INFO root fetch - processPackages [proksee-batch]: executing diffoscope
+[2024-04-23 04:55:10] INFO root fetch - processPackages [proksee-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proksee_batch-0.5.8.tar.gz tmp/proksee_batch-0.5.9.tar.gz --markdown 20240423/p/proksee-batch/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-23 04:55:10] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.10.7.tar.gz]
+[2024-04-23 04:55:10] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.11.tar.gz]
+[2024-04-23 04:55:10] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-04-23 04:55:12] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.5.8.tar.gz]
+[2024-04-23 04:55:12] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.5.9.tar.gz]
+[2024-04-23 04:55:12] INFO root fetch - main [MainThread]: End processing [proksee-batch]: success
+[2024-04-23 04:55:12] INFO root fetch - main [MainThread]: Store serial: [22888341]
