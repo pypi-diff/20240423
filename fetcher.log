@@ -12854,3 +12854,57 @@
 [2024-04-23 09:14:30] INFO root fetch - processPackages [asapo-consumer]: Remove: archive file [/home/abi/fetcher/tmp/asapo_consumer-23.12.0a0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-23 09:14:30] INFO root fetch - main [MainThread]: End processing [asapo-consumer]: success
 [2024-04-23 09:14:30] INFO root fetch - main [MainThread]: Store serial: [22890078]
+[2024-04-23 09:16:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890078]
+[2024-04-23 09:16:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 09:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: turing-planet
+[2024-04-23 09:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: operagents
+[2024-04-23 09:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IISRapi
+[2024-04-23 09:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: isar
+[2024-04-23 09:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-material-you
+[2024-04-23 09:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ding-api-client
+[2024-04-23 09:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openfinance
+[2024-04-23 09:16:45] INFO root fetch - processPackages [IISRapi]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-23 09:16:45] INFO root fetch - processPackages [operagents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 09:16:45] INFO root fetch - processPackages [openfinance]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-04-23 09:16:45] INFO root fetch - processPackages [ding-api-client]: New version: [3.4.4] Old Version: [3.4.3]
+[2024-04-23 09:16:45] WARNING root fetch - processPackages [django-material-you]: Skipping, unable to determine old version
+[2024-04-23 09:16:45] INFO root fetch - main [MainThread]: End processing [django-material-you] error
+[2024-04-23 09:16:45] WARNING root fetch - processPackages [turing-planet]: Skipping, unable to determine old version
+[2024-04-23 09:16:45] INFO root fetch - main [MainThread]: End processing [turing-planet] error
+[2024-04-23 09:16:45] INFO root fetch - processPackages [isar]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-23 09:16:45] INFO root fetch - processPackages [IISRapi]: Downloading https://files.pythonhosted.org/packages/d6/b9/2cda50300ea3964775cb37e06822205cc71f4bb13664c535350b7e83c673/IISRapi-1.0.tar.gz
+[2024-04-23 09:16:45] INFO root fetch - processPackages [operagents]: Downloading https://files.pythonhosted.org/packages/05/56/78ea07d413113cabe7ca03337446a069d6894d1d0e3324dc11d914d269bd/operagents-0.0.8.tar.gz
+[2024-04-23 09:16:45] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/24/9e/a40ae5538b353dd0f94cbf122f8b47de58d34ffca0b2e4633c259740b079/isar-1.9.1.tar.gz
+[2024-04-23 09:16:45] INFO root fetch - processPackages [openfinance]: Downloading https://files.pythonhosted.org/packages/55/13/e293520f485883c457f328232784355ec70364e1b36214c736153fc46ed5/openfinance-3.3.2.tar.gz
+[2024-04-23 09:16:45] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/18/f3/d1436b01bd11f264af277f58705cce4abf6e38cba29df1a74696baae2d48/ding_api_client-3.4.3.tar.gz
+[2024-04-23 09:16:45] INFO root fetch - processPackages [IISRapi]: Downloading https://files.pythonhosted.org/packages/b3/b8/b19e3897f12c6cff11d3c3217664d3e26ce0c0c756c9388da45868629ef1/IISRapi-1.0.1.tar.gz
+[2024-04-23 09:16:45] INFO root fetch - processPackages [operagents]: Downloading https://files.pythonhosted.org/packages/b0/71/c6353e5f4f5875136783ea669333955fd7e91b22f4f9be4b5567ed1c97c5/operagents-0.0.9.tar.gz
+[2024-04-23 09:16:45] INFO root fetch - processPackages [IISRapi]: executing diffoscope
+[2024-04-23 09:16:45] INFO root fetch - processPackages [IISRapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IISRapi-1.0.tar.gz tmp/IISRapi-1.0.1.tar.gz --markdown 20240423/I/IISRapi/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-23 09:16:45] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/0c/bd/c87b8c89cd96667a2dc47e515d33dc70dc401f8319ab1c440d614490ed4d/isar-1.9.2.tar.gz
+[2024-04-23 09:16:45] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/b5/29/192e40486741a8028cfe2684f51c943d4b6124fb05e6bd696d3d7775bea0/ding_api_client-3.4.4.tar.gz
+[2024-04-23 09:16:45] INFO root fetch - processPackages [openfinance]: Downloading https://files.pythonhosted.org/packages/58/f5/1221a748356bb7fea5467eb79bafb227a1cdb5f7239002637714a281ec26/openfinance-3.3.3.tar.gz
+[2024-04-23 09:16:45] INFO root fetch - processPackages [isar]: executing diffoscope
+[2024-04-23 09:16:45] INFO root fetch - processPackages [isar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isar-1.9.1.tar.gz tmp/isar-1.9.2.tar.gz --markdown 20240423/i/isar/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-23 09:16:45] INFO root fetch - processPackages [operagents]: executing diffoscope
+[2024-04-23 09:16:45] INFO root fetch - processPackages [operagents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/operagents-0.0.8.tar.gz tmp/operagents-0.0.9.tar.gz --markdown 20240423/o/operagents/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 09:16:46] INFO root fetch - processPackages [ding-api-client]: executing diffoscope
+[2024-04-23 09:16:46] INFO root fetch - processPackages [ding-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ding_api_client-3.4.3.tar.gz tmp/ding_api_client-3.4.4.tar.gz --markdown 20240423/d/ding-api-client/3.4.3-3.4.4/README.md --exclude *.pyd
+[2024-04-23 09:16:46] INFO root fetch - processPackages [openfinance]: executing diffoscope
+[2024-04-23 09:16:46] INFO root fetch - processPackages [openfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfinance-3.3.2.tar.gz tmp/openfinance-3.3.3.tar.gz --markdown 20240423/o/openfinance/3.3.2-3.3.3/README.md --exclude *.pyd
+[2024-04-23 09:16:46] INFO root fetch - processPackages [IISRapi]: Remove: archive file [/home/abi/fetcher/tmp/IISRapi-1.0.tar.gz]
+[2024-04-23 09:16:46] INFO root fetch - processPackages [IISRapi]: Remove: archive file [/home/abi/fetcher/tmp/IISRapi-1.0.1.tar.gz]
+[2024-04-23 09:16:46] INFO root fetch - main [MainThread]: End processing [IISRapi]: success
+[2024-04-23 09:16:46] INFO root fetch - processPackages [operagents]: Remove: archive file [/home/abi/fetcher/tmp/operagents-0.0.8.tar.gz]
+[2024-04-23 09:16:46] INFO root fetch - processPackages [operagents]: Remove: archive file [/home/abi/fetcher/tmp/operagents-0.0.9.tar.gz]
+[2024-04-23 09:16:46] INFO root fetch - main [MainThread]: End processing [operagents]: success
+[2024-04-23 09:16:46] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.4.3.tar.gz]
+[2024-04-23 09:16:46] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.4.4.tar.gz]
+[2024-04-23 09:16:46] INFO root fetch - main [MainThread]: End processing [ding-api-client]: success
+[2024-04-23 09:16:46] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.1.tar.gz]
+[2024-04-23 09:16:46] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.2.tar.gz]
+[2024-04-23 09:16:46] INFO root fetch - main [MainThread]: End processing [isar]: success
+[2024-04-23 09:16:47] INFO root fetch - processPackages [openfinance]: Remove: archive file [/home/abi/fetcher/tmp/openfinance-3.3.2.tar.gz]
+[2024-04-23 09:16:47] INFO root fetch - processPackages [openfinance]: Remove: archive file [/home/abi/fetcher/tmp/openfinance-3.3.3.tar.gz]
+[2024-04-23 09:16:47] INFO root fetch - main [MainThread]: End processing [openfinance]: success
+[2024-04-23 09:16:47] INFO root fetch - main [MainThread]: Store serial: [22890107]
