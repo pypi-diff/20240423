@@ -10720,3 +10720,51 @@
 [2024-04-23 07:11:43] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-04-23 07:11:43] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-04-23 07:11:43] INFO root fetch - main [MainThread]: Store serial: [22889215]
+[2024-04-23 07:13:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889215]
+[2024-04-23 07:13:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 07:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: behavysis_pipeline
+[2024-04-23 07:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openinference-instrumentation-llama-index
+[2024-04-23 07:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: replit-river
+[2024-04-23 07:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomic-bomb-engine
+[2024-04-23 07:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: happypig
+[2024-04-23 07:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nova-sdk
+[2024-04-23 07:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: doctran_openai
+[2024-04-23 07:13:53] INFO root fetch - processPackages [replit-river]: New version: [0.1.7b3] Old Version: [0.1.7b2]
+[2024-04-23 07:13:53] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 07:13:53] WARNING root fetch - processPackages [behavysis_pipeline]: Skipping, unable to determine old version
+[2024-04-23 07:13:53] INFO root fetch - main [MainThread]: End processing [behavysis_pipeline] error
+[2024-04-23 07:13:53] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/ee/ca/c11958ccc37f337355897770466a3ade844ae57af731bcfbc844418482f9/replit_river-0.1.7b2.tar.gz
+[2024-04-23 07:13:53] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-23 07:13:53] WARNING root fetch - processPackages [happypig]: Skipping, unable to determine old version
+[2024-04-23 07:13:53] INFO root fetch - main [MainThread]: End processing [happypig] error
+[2024-04-23 07:13:53] WARNING root fetch - processPackages [nova-sdk]: Skipping, unable to determine old version
+[2024-04-23 07:13:53] INFO root fetch - main [MainThread]: End processing [nova-sdk] error
+[2024-04-23 07:13:53] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-23 07:13:53] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: Downloading https://files.pythonhosted.org/packages/81/c1/5d9d036aeb6d236e84c1979d2f933b9197409cfa65c50ac97caca52d97df/openinference_instrumentation_llama_index-1.2.1.tar.gz
+[2024-04-23 07:13:53] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/0e/34/f04583277e23572eae5344e7928217185100690a75214e2857ad74a109e6/doctran_openai-0.0.1.tar.gz
+[2024-04-23 07:13:53] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-23 07:13:53] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/3f/33/52fc276b3af7c01a9127248a85cdcae3eb03e22ae78d4ed276ee6c6cdc4d/replit_river-0.1.7b3.tar.gz
+[2024-04-23 07:13:53] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-04-23 07:13:53] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.7b2.tar.gz tmp/replit_river-0.1.7b3.tar.gz --markdown 20240423/r/replit-river/0.1.7b2-0.1.7b3/README.md --exclude *.pyd
+[2024-04-23 07:13:53] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: Downloading https://files.pythonhosted.org/packages/a6/ea/f210ff2af9cb22356e17b92e365e5da7a08b86e1d8c9415845b30562664d/openinference_instrumentation_llama_index-1.2.2.tar.gz
+[2024-04-23 07:13:53] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/24/2e/1bc96ddbdd3af5f96c9e079fdebfa5f05f4d34d938f9ca3cffaacba275f3/doctran_openai-0.0.2.tar.gz
+[2024-04-23 07:13:53] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: executing diffoscope
+[2024-04-23 07:13:53] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openinference_instrumentation_llama_index-1.2.1.tar.gz tmp/openinference_instrumentation_llama_index-1.2.2.tar.gz --markdown 20240423/o/openinference-instrumentation-llama-index/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-23 07:13:53] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-23 07:13:53] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.1.tar.gz tmp/doctran_openai-0.0.2.tar.gz --markdown 20240423/d/doctran_openai/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 07:13:53] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-23 07:13:54] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b2.tar.gz]
+[2024-04-23 07:13:54] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b3.tar.gz]
+[2024-04-23 07:13:54] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-04-23 07:13:54] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-23 07:13:54] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240423/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-23 07:13:54] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.1.tar.gz]
+[2024-04-23 07:13:54] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.2.tar.gz]
+[2024-04-23 07:13:54] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-23 07:13:54] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation_llama_index-1.2.1.tar.gz]
+[2024-04-23 07:13:54] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation_llama_index-1.2.2.tar.gz]
+[2024-04-23 07:13:54] INFO root fetch - main [MainThread]: End processing [openinference-instrumentation-llama-index]: success
+[2024-04-23 07:13:54] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-23 07:13:54] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-23 07:13:54] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-23 07:13:54] INFO root fetch - main [MainThread]: Store serial: [22889247]
