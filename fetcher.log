@@ -15595,3 +15595,93 @@
 [2024-04-23 11:01:47] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.4.1.tar.gz]
 [2024-04-23 11:01:47] INFO root fetch - main [MainThread]: End processing [viewser]: success
 [2024-04-23 11:01:47] INFO root fetch - main [MainThread]: Store serial: [22891379]
+[2024-04-23 11:03:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891379]
+[2024-04-23 11:03:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-23 11:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zfx
+[2024-04-23 11:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: excel-graph-parser
+[2024-04-23 11:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volstreet
+[2024-04-23 11:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TitanDevice
+[2024-04-23 11:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: l3c
+[2024-04-23 11:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: startrek
+[2024-04-23 11:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: drax-ecc
+[2024-04-23 11:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: noteshrunk
+[2024-04-23 11:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openscap-report
+[2024-04-23 11:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ado_wrapper
+[2024-04-23 11:03:55] INFO root fetch - processPackages [TitanDevice]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-23 11:03:56] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/1b/04/3a146304517661321a9db1afa3a85a08fd56d65d581b1901d1bafc31b67e/TitanDevice-0.1.2.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [excel-graph-parser]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 11:03:56] INFO root fetch - processPackages [startrek]: New version: [1.2.0] Old Version: [1.1.3]
+[2024-04-23 11:03:56] WARNING root fetch - processPackages [zfx]: Skipping, unable to determine old version
+[2024-04-23 11:03:56] INFO root fetch - processPackages [noteshrunk]: New version: [1.6.0] Old Version: [1.5.1]
+[2024-04-23 11:03:56] INFO root fetch - processPackages [zfx]: Start processing: cult-cargo
+[2024-04-23 11:03:56] INFO root fetch - main [MainThread]: End processing [zfx] error
+[2024-04-23 11:03:56] INFO root fetch - processPackages [ado_wrapper]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-23 11:03:56] INFO root fetch - processPackages [openscap-report]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-23 11:03:56] INFO root fetch - processPackages [l3c]: New version: [0.1.0.3] Old Version: [0.1.0.2]
+[2024-04-23 11:03:56] WARNING root fetch - processPackages [drax-ecc]: Skipping, unable to determine old version
+[2024-04-23 11:03:56] INFO root fetch - main [MainThread]: End processing [drax-ecc] error
+[2024-04-23 11:03:56] INFO root fetch - processPackages [volstreet]: New version: [8.0.0] Old Version: [7.2.2]
+[2024-04-23 11:03:56] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/41/8a/239eb99f50e0bed8bac7e13ecbf0e1d3531c42e7d805dfa827f6da63604d/ado_wrapper-1.2.8.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [excel-graph-parser]: Downloading https://files.pythonhosted.org/packages/b4/59/cae2ac7cb54413d57958f7af49771b9dd89975233cc29397ea20171f28e9/excel_graph_parser-0.1.8.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [cult-cargo]: New version: [0.1.2rc8] Old Version: [0.1.2rc7]
+[2024-04-23 11:03:56] INFO root fetch - processPackages [startrek]: Downloading https://files.pythonhosted.org/packages/02/ed/e1ef816c9f777221158100709b27083144a2df71143b47b88c2c708fa343/startrek-1.1.3.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [noteshrunk]: Downloading https://files.pythonhosted.org/packages/4c/a7/272b14f0ec486774a99f20f4c52125bb3521292a314bcd4e2efb249c225b/noteshrunk-1.5.1.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [l3c]: Downloading https://files.pythonhosted.org/packages/07/ba/8c756395ce4cc07dccf2bb4572e7416086824ffe5a7894f6c3a6dd0ffc35/l3c-0.1.0.2.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/cb/e3/e66a6ff1fa0019566264fd28f10dc00ea44c19ba674b11109b8ad037e883/volstreet-7.2.2.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/da/63/0ba6ae0210c8078d9e9330db6d214eae81c30a14e1e5eb9b21a6205e3621/TitanDevice-0.1.3.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [openscap-report]: Downloading https://files.pythonhosted.org/packages/64/98/378d5d500f7442a989e2f6892fc9f375b5a53a12b5bee643b21edea52bbb/openscap-report-0.2.7.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/32/f7/a81ac6114fa2e3e0dde6f5e0f36b41ac8e6295f3ba078d9db14dc3cd92eb/ado_wrapper-1.2.9.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-23 11:03:56] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.1.2.tar.gz tmp/TitanDevice-0.1.3.tar.gz --markdown 20240423/T/TitanDevice/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-23 11:03:56] INFO root fetch - processPackages [cult-cargo]: Downloading https://files.pythonhosted.org/packages/38/f1/1c2d0c341650dfc133e5c243330b8caf27ee8c4d074b51c6702f878154c5/cult_cargo-0.1.2rc7.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [excel-graph-parser]: Downloading https://files.pythonhosted.org/packages/90/8e/6a744a5d7875fbc2e76c72c6db8e352931c261f815992dc62aa47e90315c/excel_graph_parser-0.1.9.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [startrek]: Downloading https://files.pythonhosted.org/packages/9a/b0/d2da8a9f2a04673dc378b4bb515aed753b1c6e3830bcfc013ed7fdbcdcfe/startrek-1.2.0.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [noteshrunk]: Downloading https://files.pythonhosted.org/packages/1a/b0/80acd8d15afacb7c66d1df8aa9c5b9254971846fa3635abb75d1209611f7/noteshrunk-1.6.0.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [l3c]: Downloading https://files.pythonhosted.org/packages/03/3e/613a51f7614d6a6abd0d3c8fd14a5ba96b04a2a010d4fe8ed8e720d3c496/l3c-0.1.0.3.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [excel-graph-parser]: executing diffoscope
+[2024-04-23 11:03:56] INFO root fetch - processPackages [excel-graph-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel_graph_parser-0.1.8.tar.gz tmp/excel_graph_parser-0.1.9.tar.gz --markdown 20240423/e/excel-graph-parser/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 11:03:56] INFO root fetch - processPackages [ado_wrapper]: executing diffoscope
+[2024-04-23 11:03:56] INFO root fetch - processPackages [ado_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ado_wrapper-1.2.8.tar.gz tmp/ado_wrapper-1.2.9.tar.gz --markdown 20240423/a/ado_wrapper/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-23 11:03:56] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/11/40/a07aabf411f4ed1cf50358c0a4591c038a9473ab3cc4a24ef69fec258900/volstreet-8.0.0.tar.gz
+[2024-04-23 11:03:56] INFO root fetch - processPackages [startrek]: executing diffoscope
+[2024-04-23 11:03:56] INFO root fetch - processPackages [startrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/startrek-1.1.3.tar.gz tmp/startrek-1.2.0.tar.gz --markdown 20240423/s/startrek/1.1.3-1.2.0/README.md --exclude *.pyd
+[2024-04-23 11:03:56] INFO root fetch - processPackages [noteshrunk]: executing diffoscope
+[2024-04-23 11:03:56] INFO root fetch - processPackages [noteshrunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noteshrunk-1.5.1.tar.gz tmp/noteshrunk-1.6.0.tar.gz --markdown 20240423/n/noteshrunk/1.5.1-1.6.0/README.md --exclude *.pyd
+[2024-04-23 11:03:56] INFO root fetch - processPackages [l3c]: executing diffoscope
+[2024-04-23 11:03:56] INFO root fetch - processPackages [l3c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l3c-0.1.0.2.tar.gz tmp/l3c-0.1.0.3.tar.gz --markdown 20240423/l/l3c/0.1.0.2-0.1.0.3/README.md --exclude *.pyd
+[2024-04-23 11:03:56] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-04-23 11:03:56] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-7.2.2.tar.gz tmp/volstreet-8.0.0.tar.gz --markdown 20240423/v/volstreet/7.2.2-8.0.0/README.md --exclude *.pyd
+[2024-04-23 11:03:57] INFO root fetch - processPackages [cult-cargo]: Downloading https://files.pythonhosted.org/packages/bc/91/524875e929271b9d06b00b0398b96dc1170a7664383c3da2d4962c89543d/cult_cargo-0.1.2rc8.tar.gz
+[2024-04-23 11:03:57] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.2.tar.gz]
+[2024-04-23 11:03:57] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.3.tar.gz]
+[2024-04-23 11:03:57] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-23 11:03:57] INFO root fetch - processPackages [cult-cargo]: executing diffoscope
+[2024-04-23 11:03:57] INFO root fetch - processPackages [cult-cargo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cult_cargo-0.1.2rc7.tar.gz tmp/cult_cargo-0.1.2rc8.tar.gz --markdown 20240423/c/cult-cargo/0.1.2rc7-0.1.2rc8/README.md --exclude *.pyd
+[2024-04-23 11:03:57] INFO root fetch - processPackages [openscap-report]: Downloading https://files.pythonhosted.org/packages/67/55/8afc52120e5a7188eb8085d530e4730b35aa88e5e16bdc6f8f2c98366793/openscap_report-0.2.8.tar.gz
+[2024-04-23 11:03:57] INFO root fetch - processPackages [excel-graph-parser]: Remove: archive file [/home/abi/fetcher/tmp/excel_graph_parser-0.1.8.tar.gz]
+[2024-04-23 11:03:57] INFO root fetch - processPackages [excel-graph-parser]: Remove: archive file [/home/abi/fetcher/tmp/excel_graph_parser-0.1.9.tar.gz]
+[2024-04-23 11:03:57] INFO root fetch - main [MainThread]: End processing [excel-graph-parser]: success
+[2024-04-23 11:03:57] INFO root fetch - processPackages [noteshrunk]: Remove: archive file [/home/abi/fetcher/tmp/noteshrunk-1.5.1.tar.gz]
+[2024-04-23 11:03:57] INFO root fetch - processPackages [noteshrunk]: Remove: archive file [/home/abi/fetcher/tmp/noteshrunk-1.6.0.tar.gz]
+[2024-04-23 11:03:57] INFO root fetch - main [MainThread]: End processing [noteshrunk]: success
+[2024-04-23 11:03:57] INFO root fetch - processPackages [startrek]: Remove: archive file [/home/abi/fetcher/tmp/startrek-1.1.3.tar.gz]
+[2024-04-23 11:03:57] INFO root fetch - processPackages [startrek]: Remove: archive file [/home/abi/fetcher/tmp/startrek-1.2.0.tar.gz]
+[2024-04-23 11:03:57] INFO root fetch - main [MainThread]: End processing [startrek]: success
+[2024-04-23 11:03:57] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.0.2.tar.gz]
+[2024-04-23 11:03:57] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.0.3.tar.gz]
+[2024-04-23 11:03:57] INFO root fetch - main [MainThread]: End processing [l3c]: success
+[2024-04-23 11:03:57] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.2.8.tar.gz]
+[2024-04-23 11:03:57] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.2.9.tar.gz]
+[2024-04-23 11:03:57] INFO root fetch - main [MainThread]: End processing [ado_wrapper]: success
+[2024-04-23 11:03:57] INFO root fetch - processPackages [openscap-report]: executing diffoscope
+[2024-04-23 11:03:57] INFO root fetch - processPackages [openscap-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openscap-report-0.2.7.tar.gz tmp/openscap_report-0.2.8.tar.gz --markdown 20240423/o/openscap-report/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-23 11:03:58] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.2.2.tar.gz]
+[2024-04-23 11:03:58] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.0.0.tar.gz]
+[2024-04-23 11:03:58] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-04-23 11:03:58] INFO root fetch - processPackages [cult-cargo]: Remove: archive file [/home/abi/fetcher/tmp/cult_cargo-0.1.2rc7.tar.gz]
+[2024-04-23 11:03:58] INFO root fetch - processPackages [cult-cargo]: Remove: archive file [/home/abi/fetcher/tmp/cult_cargo-0.1.2rc8.tar.gz]
+[2024-04-23 11:03:58] INFO root fetch - main [MainThread]: End processing [cult-cargo]: success
+[2024-04-23 11:04:23] INFO root fetch - processPackages [openscap-report]: Remove: archive file [/home/abi/fetcher/tmp/openscap-report-0.2.7.tar.gz]
+[2024-04-23 11:04:23] INFO root fetch - processPackages [openscap-report]: Remove: archive file [/home/abi/fetcher/tmp/openscap_report-0.2.8.tar.gz]
+[2024-04-23 11:04:23] INFO root fetch - main [MainThread]: End processing [openscap-report]: success
+[2024-04-23 11:04:23] INFO root fetch - main [MainThread]: Store serial: [22891423]
