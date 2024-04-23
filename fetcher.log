@@ -17577,3 +17577,69 @@
 [2024-04-23 12:10:31] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
 [2024-04-23 12:10:31] INFO root fetch - main [MainThread]: End processing [webknossos]: success
 [2024-04-23 12:10:31] INFO root fetch - main [MainThread]: Store serial: [22892168]
+[2024-04-23 12:12:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892168]
+[2024-04-23 12:12:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tabviz
+[2024-04-23 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opentf-toolkit-nightly
+[2024-04-23 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkmavrykchain
+[2024-04-23 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ratelimiter
+[2024-04-23 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-plans-paypal
+[2024-04-23 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phospho
+[2024-04-23 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GRSdriver
+[2024-04-23 12:12:40] INFO root fetch - processPackages [mkmavrykchain]: New version: [6.25.6] Old Version: [6.25.5]
+[2024-04-23 12:12:40] INFO root fetch - processPackages [tabviz]: New version: [1.1.0.5] Old Version: [1.1.0.4]
+[2024-04-23 12:12:40] INFO root fetch - processPackages [django-plans-paypal]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-23 12:12:40] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/81/69/2c246bef7704f5a561d171e7c4f4b200e06d1d305a3e09db7f93459052e8/mkmavrykchain-6.25.5-py3-none-any.whl
+[2024-04-23 12:12:40] INFO root fetch - processPackages [tabviz]: Downloading https://files.pythonhosted.org/packages/f3/c6/75b6220dca4271bd94f5e7e5dd7c6bc75df252de1d5651b245636fce35f1/tabviz-1.1.0.4.tar.gz
+[2024-04-23 12:12:40] INFO root fetch - processPackages [django-ratelimiter]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-23 12:12:40] INFO root fetch - processPackages [opentf-toolkit-nightly]: New version: [0.55.0.dev941] Old Version: [0.55.0.dev938]
+[2024-04-23 12:12:40] INFO root fetch - processPackages [phospho]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 12:12:40] INFO root fetch - processPackages [GRSdriver]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-23 12:12:40] INFO root fetch - processPackages [django-plans-paypal]: Downloading https://files.pythonhosted.org/packages/7f/b4/f1597046ef7a1cc26c9269bc4d336b114a79c6b917d22ec0f7a705614589/django-plans-paypal-0.7.0.tar.gz
+[2024-04-23 12:12:40] INFO root fetch - processPackages [django-ratelimiter]: Downloading https://files.pythonhosted.org/packages/46/eb/09476de8eafb0e1ac5f5583d0b783e0678b6bb4c43a05b9bac10c278cf67/django_ratelimiter-0.1.2.tar.gz
+[2024-04-23 12:12:40] INFO root fetch - processPackages [phospho]: Downloading https://files.pythonhosted.org/packages/a5/c2/cddfd715eafd3cad1eee4a415d1b8fab3af6c61521607e3faf6154b8492b/phospho-0.3.8.tar.gz
+[2024-04-23 12:12:40] INFO root fetch - processPackages [GRSdriver]: Downloading https://files.pythonhosted.org/packages/23/3f/cf4d313cc8f75f2170addf35df7be4e70d30c406b699b72bc2a8c40c24c4/GRSdriver-1.0.3.tar.gz
+[2024-04-23 12:12:40] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/65/08/38a6a88605fcc6f8858d56d7879bcaf2fc78edf4d47cf0da468e6d84a118/opentf_toolkit_nightly-0.55.0.dev938-py3-none-any.whl
+[2024-04-23 12:12:40] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/bb/55/eb0d26405c4a5ef81954453ce7c9c1a83be7195e8e9a2ea017fc66d0069f/mkmavrykchain-6.25.6-py3-none-any.whl
+[2024-04-23 12:12:40] INFO root fetch - processPackages [tabviz]: Downloading https://files.pythonhosted.org/packages/83/a4/51d9b003dcc43531e15a3fb9e5c5ff57ab0eacd1cb25a14e7198217f764f/tabviz-1.1.0.5.tar.gz
+[2024-04-23 12:12:40] INFO root fetch - processPackages [mkmavrykchain]: executing diffoscope
+[2024-04-23 12:12:40] INFO root fetch - processPackages [mkmavrykchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkmavrykchain-6.25.5-py3-none-any.whl.zip tmp/mkmavrykchain-6.25.6-py3-none-any.whl.zip --markdown 20240423/m/mkmavrykchain/6.25.5-6.25.6/README.md --exclude *.pyd
+[2024-04-23 12:12:41] INFO root fetch - processPackages [django-plans-paypal]: Downloading https://files.pythonhosted.org/packages/73/4b/77827e179f7a71d4a968f5f051d663c0a2306e59bd3421379fc41916b539/django-plans-paypal-0.7.1.tar.gz
+[2024-04-23 12:12:41] INFO root fetch - processPackages [tabviz]: executing diffoscope
+[2024-04-23 12:12:41] INFO root fetch - processPackages [tabviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabviz-1.1.0.4.tar.gz tmp/tabviz-1.1.0.5.tar.gz --markdown 20240423/t/tabviz/1.1.0.4-1.1.0.5/README.md --exclude *.pyd
+[2024-04-23 12:12:41] INFO root fetch - processPackages [django-ratelimiter]: Downloading https://files.pythonhosted.org/packages/05/7e/1be2cf506aa5ec9164af4d2a2ffc5f0a090da87f1566f530de335f089a47/django_ratelimiter-0.2.0.tar.gz
+[2024-04-23 12:12:41] INFO root fetch - processPackages [phospho]: Downloading https://files.pythonhosted.org/packages/dc/6e/2888f8262e52b24df8d71b89041baf1f0798c159bee4cc0c0fa17bcfbc7c/phospho-0.3.9.tar.gz
+[2024-04-23 12:12:41] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/7e/ad/9c0b3e1061bc3c0a484165dc3414a6f7177366d593120033187e462b7735/opentf_toolkit_nightly-0.55.0.dev941-py3-none-any.whl
+[2024-04-23 12:12:41] INFO root fetch - processPackages [django-plans-paypal]: executing diffoscope
+[2024-04-23 12:12:41] INFO root fetch - processPackages [django-plans-paypal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-plans-paypal-0.7.0.tar.gz tmp/django-plans-paypal-0.7.1.tar.gz --markdown 20240423/d/django-plans-paypal/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-23 12:12:41] INFO root fetch - processPackages [django-ratelimiter]: executing diffoscope
+[2024-04-23 12:12:41] INFO root fetch - processPackages [django-ratelimiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ratelimiter-0.1.2.tar.gz tmp/django_ratelimiter-0.2.0.tar.gz --markdown 20240423/d/django-ratelimiter/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-23 12:12:41] INFO root fetch - processPackages [phospho]: executing diffoscope
+[2024-04-23 12:12:41] INFO root fetch - processPackages [phospho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phospho-0.3.8.tar.gz tmp/phospho-0.3.9.tar.gz --markdown 20240423/p/phospho/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 12:12:41] INFO root fetch - processPackages [opentf-toolkit-nightly]: executing diffoscope
+[2024-04-23 12:12:41] INFO root fetch - processPackages [opentf-toolkit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit_nightly-0.55.0.dev938-py3-none-any.whl.zip tmp/opentf_toolkit_nightly-0.55.0.dev941-py3-none-any.whl.zip --markdown 20240423/o/opentf-toolkit-nightly/0.55.0.dev938-0.55.0.dev941/README.md --exclude *.pyd
+[2024-04-23 12:12:41] INFO root fetch - processPackages [GRSdriver]: Downloading https://files.pythonhosted.org/packages/30/77/98b444a89ddb9015ea013080b9787c2a57b656013d306199cab20188f960/grsdriver-1.0.4.tar.gz
+[2024-04-23 12:12:41] INFO root fetch - processPackages [GRSdriver]: executing diffoscope
+[2024-04-23 12:12:41] INFO root fetch - processPackages [GRSdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GRSdriver-1.0.3.tar.gz tmp/grsdriver-1.0.4.tar.gz --markdown 20240423/G/GRSdriver/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-23 12:12:41] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.5-py3-none-any.whl.zip]
+[2024-04-23 12:12:41] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.6-py3-none-any.whl.zip]
+[2024-04-23 12:12:41] INFO root fetch - main [MainThread]: End processing [mkmavrykchain]: success
+[2024-04-23 12:12:41] INFO root fetch - processPackages [tabviz]: Remove: archive file [/home/abi/fetcher/tmp/tabviz-1.1.0.4.tar.gz]
+[2024-04-23 12:12:41] INFO root fetch - processPackages [tabviz]: Remove: archive file [/home/abi/fetcher/tmp/tabviz-1.1.0.5.tar.gz]
+[2024-04-23 12:12:41] INFO root fetch - main [MainThread]: End processing [tabviz]: success
+[2024-04-23 12:12:41] INFO root fetch - processPackages [django-ratelimiter]: Remove: archive file [/home/abi/fetcher/tmp/django_ratelimiter-0.1.2.tar.gz]
+[2024-04-23 12:12:41] INFO root fetch - processPackages [django-ratelimiter]: Remove: archive file [/home/abi/fetcher/tmp/django_ratelimiter-0.2.0.tar.gz]
+[2024-04-23 12:12:41] INFO root fetch - main [MainThread]: End processing [django-ratelimiter]: success
+[2024-04-23 12:12:42] INFO root fetch - processPackages [django-plans-paypal]: Remove: archive file [/home/abi/fetcher/tmp/django-plans-paypal-0.7.0.tar.gz]
+[2024-04-23 12:12:42] INFO root fetch - processPackages [django-plans-paypal]: Remove: archive file [/home/abi/fetcher/tmp/django-plans-paypal-0.7.1.tar.gz]
+[2024-04-23 12:12:42] INFO root fetch - main [MainThread]: End processing [django-plans-paypal]: success
+[2024-04-23 12:12:42] INFO root fetch - processPackages [phospho]: Remove: archive file [/home/abi/fetcher/tmp/phospho-0.3.8.tar.gz]
+[2024-04-23 12:12:42] INFO root fetch - processPackages [phospho]: Remove: archive file [/home/abi/fetcher/tmp/phospho-0.3.9.tar.gz]
+[2024-04-23 12:12:42] INFO root fetch - main [MainThread]: End processing [phospho]: success
+[2024-04-23 12:12:42] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.55.0.dev938-py3-none-any.whl.zip]
+[2024-04-23 12:12:42] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.55.0.dev941-py3-none-any.whl.zip]
+[2024-04-23 12:12:42] INFO root fetch - main [MainThread]: End processing [opentf-toolkit-nightly]: success
+[2024-04-23 12:12:42] INFO root fetch - processPackages [GRSdriver]: Remove: archive file [/home/abi/fetcher/tmp/GRSdriver-1.0.3.tar.gz]
+[2024-04-23 12:12:42] INFO root fetch - processPackages [GRSdriver]: Remove: archive file [/home/abi/fetcher/tmp/grsdriver-1.0.4.tar.gz]
+[2024-04-23 12:12:42] INFO root fetch - main [MainThread]: End processing [GRSdriver]: success
+[2024-04-23 12:12:42] INFO root fetch - main [MainThread]: Store serial: [22892188]
