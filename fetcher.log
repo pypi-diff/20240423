@@ -17937,3 +17937,52 @@
 [2024-04-23 12:23:38] INFO root fetch - processPackages [astarte-message-hub-proto]: Remove: archive file [/home/abi/fetcher/tmp/astarte_message_hub_proto-0.6.2.tar.gz]
 [2024-04-23 12:23:38] INFO root fetch - main [MainThread]: End processing [astarte-message-hub-proto]: success
 [2024-04-23 12:23:38] INFO root fetch - main [MainThread]: Store serial: [22892277]
+[2024-04-23 12:25:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892277]
+[2024-04-23 12:25:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 12:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ibm-watson-openscale
+[2024-04-23 12:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-financial-report
+[2024-04-23 12:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-financial-report
+[2024-04-23 12:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ebmdatalab
+[2024-04-23 12:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netius
+[2024-04-23 12:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-stock-orderpoint-default-location
+[2024-04-23 12:25:46] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.0.0.13] Old Version: [17.0.1.0.0.12]
+[2024-04-23 12:25:46] INFO root fetch - processPackages [ibm-watson-openscale]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-23 12:25:47] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.0.0.13] Old Version: [17.0.1.0.0.12]
+[2024-04-23 12:25:47] INFO root fetch - processPackages [netius]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-23 12:25:47] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/7f/10/cb32fb883a2d6e6371882fd5b4415ab865e3088e23f14335ee8822b8de70/odoo_addon_account_financial_report-17.0.1.0.0.12-py3-none-any.whl
+[2024-04-23 12:25:47] INFO root fetch - processPackages [ebmdatalab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 12:25:47] WARNING root fetch - processPackages [odoo-addon-stock-orderpoint-default-location]: Skipping, unable to determine old version
+[2024-04-23 12:25:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-orderpoint-default-location] error
+[2024-04-23 12:25:47] INFO root fetch - processPackages [ibm-watson-openscale]: Downloading https://files.pythonhosted.org/packages/ff/8a/a4e714ad4a5b578378a89893becf5d175e82d2787794712186e72711c809/ibm_watson_openscale-3.0.8-py3-none-any.whl
+[2024-04-23 12:25:47] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/7f/10/cb32fb883a2d6e6371882fd5b4415ab865e3088e23f14335ee8822b8de70/odoo_addon_account_financial_report-17.0.1.0.0.12-py3-none-any.whl
+[2024-04-23 12:25:47] INFO root fetch - processPackages [netius]: Downloading https://files.pythonhosted.org/packages/9f/cc/dc560e40bf54c9601334ae223b2bb1ec702b72c9561f3970f7bcb424e915/netius-1.9.8.tar.gz
+[2024-04-23 12:25:47] INFO root fetch - processPackages [ebmdatalab]: Downloading https://files.pythonhosted.org/packages/3e/41/d8d2927d7c858155eef8b6e7e828deeae9fb13d18fea1e1e2a0c4fc9e26b/ebmdatalab-0.0.8.tar.gz
+[2024-04-23 12:25:47] INFO root fetch - processPackages [ibm-watson-openscale]: Downloading https://files.pythonhosted.org/packages/b0/33/1dc28a5725a301c519fe0d47d81218c12e19c1155621813f73d268dbfc9b/ibm_watson_openscale-3.0.9-py3-none-any.whl
+[2024-04-23 12:25:47] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/fe/af/2009aad913107eee05ed9bf13d3e06aad62c0201d27c05ab1d2b0b6e67c9/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl
+[2024-04-23 12:25:47] INFO root fetch - processPackages [netius]: Downloading https://files.pythonhosted.org/packages/09/62/273601b12c7e9be2c0f6956c568061931e7a8fe285e01d76085d66dc161c/netius-1.9.9.tar.gz
+[2024-04-23 12:25:47] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/fe/af/2009aad913107eee05ed9bf13d3e06aad62c0201d27c05ab1d2b0b6e67c9/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl
+[2024-04-23 12:25:47] INFO root fetch - processPackages [ibm-watson-openscale]: executing diffoscope
+[2024-04-23 12:25:47] INFO root fetch - processPackages [ibm-watson-openscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_openscale-3.0.8-py3-none-any.whl.zip tmp/ibm_watson_openscale-3.0.9-py3-none-any.whl.zip --markdown 20240423/i/ibm-watson-openscale/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-04-23 12:25:47] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-04-23 12:25:47] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.0.0.12-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-financial-report/17.0.1.0.0.12-17.0.1.0.0.13/README.md --exclude *.pyd
+[2024-04-23 12:25:47] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-04-23 12:25:47] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.0.0.12-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-financial-report/17.0.1.0.0.12-17.0.1.0.0.13/README.md --exclude *.pyd
+[2024-04-23 12:25:47] INFO root fetch - processPackages [netius]: executing diffoscope
+[2024-04-23 12:25:47] INFO root fetch - processPackages [netius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netius-1.9.8.tar.gz tmp/netius-1.9.9.tar.gz --markdown 20240423/n/netius/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-23 12:25:48] INFO root fetch - processPackages [ebmdatalab]: Downloading https://files.pythonhosted.org/packages/b2/0a/16dd548e763415633b08f5304f747a3ef9e85a1ce3d4b950cc312f40ecfa/ebmdatalab-0.0.9.tar.gz
+[2024-04-23 12:25:48] INFO root fetch - processPackages [ibm-watson-openscale]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_openscale-3.0.8-py3-none-any.whl.zip]
+[2024-04-23 12:25:48] INFO root fetch - processPackages [ibm-watson-openscale]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_openscale-3.0.9-py3-none-any.whl.zip]
+[2024-04-23 12:25:48] INFO root fetch - main [MainThread]: End processing [ibm-watson-openscale]: success
+[2024-04-23 12:25:48] INFO root fetch - processPackages [ebmdatalab]: executing diffoscope
+[2024-04-23 12:25:48] INFO root fetch - processPackages [ebmdatalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebmdatalab-0.0.8.tar.gz tmp/ebmdatalab-0.0.9.tar.gz --markdown 20240423/e/ebmdatalab/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 12:25:48] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.0.0.12-py3-none-any.whl.zip]
+[2024-04-23 12:25:48] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl.zip]
+[2024-04-23 12:25:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-04-23 12:25:48] INFO root fetch - processPackages [netius]: Remove: archive file [/home/abi/fetcher/tmp/netius-1.9.8.tar.gz]
+[2024-04-23 12:25:48] INFO root fetch - processPackages [netius]: Remove: archive file [/home/abi/fetcher/tmp/netius-1.9.9.tar.gz]
+[2024-04-23 12:25:48] INFO root fetch - main [MainThread]: End processing [netius]: success
+[2024-04-23 12:25:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-04-23 12:25:49] INFO root fetch - processPackages [ebmdatalab]: Remove: archive file [/home/abi/fetcher/tmp/ebmdatalab-0.0.8.tar.gz]
+[2024-04-23 12:25:49] INFO root fetch - processPackages [ebmdatalab]: Remove: archive file [/home/abi/fetcher/tmp/ebmdatalab-0.0.9.tar.gz]
+[2024-04-23 12:25:49] INFO root fetch - main [MainThread]: End processing [ebmdatalab]: success
+[2024-04-23 12:25:49] INFO root fetch - main [MainThread]: Store serial: [22892301]
