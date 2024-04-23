@@ -9619,3 +9619,36 @@
 [2024-04-23 05:41:46] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.1.0.9-py3-none-any.whl.zip]
 [2024-04-23 05:41:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
 [2024-04-23 05:41:46] INFO root fetch - main [MainThread]: Store serial: [22888681]
+[2024-04-23 05:43:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888681]
+[2024-04-23 05:43:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 05:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-fieldservice-recurring
+[2024-04-23 05:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snbpy-assistant
+[2024-04-23 05:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edstem-assignment-tracker
+[2024-04-23 05:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eenhoorntje-llm-lib
+[2024-04-23 05:43:55] INFO root fetch - processPackages [edstem-assignment-tracker]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 05:43:55] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-23 05:43:55] INFO root fetch - processPackages [edstem-assignment-tracker]: Downloading https://files.pythonhosted.org/packages/69/28/e5bc65c1247f5e387d9130c6bab64ae8116322b7064c1060992af4f9aa2a/edstem_assignment_tracker-1.0.8.tar.gz
+[2024-04-23 05:43:55] WARNING root fetch - processPackages [snbpy-assistant]: Skipping, unable to determine old version
+[2024-04-23 05:43:55] INFO root fetch - main [MainThread]: End processing [snbpy-assistant] error
+[2024-04-23 05:43:55] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: Downloading https://files.pythonhosted.org/packages/a6/ef/1004e82c5aed262ab41263c38a6ca3661f16042294209973bba49287ff8a/odoo_addon_fieldservice_recurring-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-23 05:43:55] INFO root fetch - processPackages [eenhoorntje-llm-lib]: New version: [0.9] Old Version: [0.8]
+[2024-04-23 05:43:55] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/58/53/c1bd6020de71ee2c61bd61f6c2d4ad72551fc6b613896bfdf423f9900b0a/eenhoorntje_llm_lib-0.8.tar.gz
+[2024-04-23 05:43:55] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: Downloading https://files.pythonhosted.org/packages/84/93/46bd7ee37c30dfc4b946d3e74c7ea64e2189f4efcad01a456a418866f964/odoo_addon_fieldservice_recurring-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-23 05:43:55] INFO root fetch - processPackages [edstem-assignment-tracker]: Downloading https://files.pythonhosted.org/packages/0b/0c/b4f87e4a6c25c702eebb8cb3d5ac3dbc8155318b37d260487962ddb39c4d/edstem_assignment_tracker-1.0.9.tar.gz
+[2024-04-23 05:43:55] INFO root fetch - processPackages [edstem-assignment-tracker]: executing diffoscope
+[2024-04-23 05:43:55] INFO root fetch - processPackages [edstem-assignment-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edstem_assignment_tracker-1.0.8.tar.gz tmp/edstem_assignment_tracker-1.0.9.tar.gz --markdown 20240423/e/edstem-assignment-tracker/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 05:43:55] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: executing diffoscope
+[2024-04-23 05:43:55] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_recurring-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_recurring-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-fieldservice-recurring/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-23 05:43:55] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/6b/11/c58a3da50ee0ab313c0bb6c3b32dfcc29ee0022b5157d9e22cbdc4e456be/eenhoorntje_llm_lib-0.9.tar.gz
+[2024-04-23 05:43:55] INFO root fetch - processPackages [eenhoorntje-llm-lib]: executing diffoscope
+[2024-04-23 05:43:55] INFO root fetch - processPackages [eenhoorntje-llm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eenhoorntje_llm_lib-0.8.tar.gz tmp/eenhoorntje_llm_lib-0.9.tar.gz --markdown 20240423/e/eenhoorntje-llm-lib/0.8-0.9/README.md --exclude *.pyd
+[2024-04-23 05:43:56] INFO root fetch - processPackages [edstem-assignment-tracker]: Remove: archive file [/home/abi/fetcher/tmp/edstem_assignment_tracker-1.0.8.tar.gz]
+[2024-04-23 05:43:56] INFO root fetch - processPackages [edstem-assignment-tracker]: Remove: archive file [/home/abi/fetcher/tmp/edstem_assignment_tracker-1.0.9.tar.gz]
+[2024-04-23 05:43:56] INFO root fetch - main [MainThread]: End processing [edstem-assignment-tracker]: success
+[2024-04-23 05:43:56] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/eenhoorntje_llm_lib-0.8.tar.gz]
+[2024-04-23 05:43:56] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/eenhoorntje_llm_lib-0.9.tar.gz]
+[2024-04-23 05:43:56] INFO root fetch - main [MainThread]: End processing [eenhoorntje-llm-lib]: success
+[2024-04-23 05:43:56] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_recurring-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-23 05:43:56] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_recurring-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-23 05:43:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-recurring]: success
+[2024-04-23 05:43:56] INFO root fetch - main [MainThread]: Store serial: [22888693]
