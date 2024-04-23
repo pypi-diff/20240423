@@ -10421,3 +10421,21 @@
 [2024-04-23 06:54:19] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-04-23 06:54:19] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-04-23 06:54:19] INFO root fetch - main [MainThread]: Store serial: [22889100]
+[2024-04-23 06:56:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889100]
+[2024-04-23 06:56:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 06:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jeutil
+[2024-04-23 06:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thriftify
+[2024-04-23 06:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nova_python_sdk
+[2024-04-23 06:56:28] WARNING root fetch - processPackages [jeutil]: Skipping, unable to determine old version
+[2024-04-23 06:56:28] INFO root fetch - main [MainThread]: End processing [jeutil] error
+[2024-04-23 06:56:28] WARNING root fetch - processPackages [nova_python_sdk]: Skipping, unable to determine old version
+[2024-04-23 06:56:28] INFO root fetch - main [MainThread]: End processing [nova_python_sdk] error
+[2024-04-23 06:56:28] INFO root fetch - processPackages [thriftify]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 06:56:28] INFO root fetch - processPackages [thriftify]: Downloading https://files.pythonhosted.org/packages/20/bc/1791cb7f567b70908a27aa0383efeb3dd85e16f8a7494315392216f1bbeb/thriftify-0.1.1.tar.gz
+[2024-04-23 06:56:29] INFO root fetch - processPackages [thriftify]: Downloading https://files.pythonhosted.org/packages/4a/ae/bc11fa767a205b43445ec61f2e9bf23ef4f505bf20f5f56de8e32e2600a2/thriftify-0.1.2.tar.gz
+[2024-04-23 06:56:29] INFO root fetch - processPackages [thriftify]: executing diffoscope
+[2024-04-23 06:56:29] INFO root fetch - processPackages [thriftify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thriftify-0.1.1.tar.gz tmp/thriftify-0.1.2.tar.gz --markdown 20240423/t/thriftify/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 06:56:29] INFO root fetch - processPackages [thriftify]: Remove: archive file [/home/abi/fetcher/tmp/thriftify-0.1.1.tar.gz]
+[2024-04-23 06:56:29] INFO root fetch - processPackages [thriftify]: Remove: archive file [/home/abi/fetcher/tmp/thriftify-0.1.2.tar.gz]
+[2024-04-23 06:56:29] INFO root fetch - main [MainThread]: End processing [thriftify]: success
+[2024-04-23 06:56:29] INFO root fetch - main [MainThread]: Store serial: [22889110]
