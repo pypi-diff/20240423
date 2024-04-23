@@ -2338,3 +2338,59 @@
 [2024-04-23 02:06:27] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240422.447.tar.gz]
 [2024-04-23 02:06:27] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-23 02:06:27] INFO root fetch - main [MainThread]: Store serial: [22886182]
+[2024-04-23 02:08:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886182]
+[2024-04-23 02:08:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 02:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2024-04-23 02:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seaplane
+[2024-04-23 02:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: np-aind-metadata
+[2024-04-23 02:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radixtarget
+[2024-04-23 02:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chromedriver-py
+[2024-04-23 02:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-collections
+[2024-04-23 02:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fossil-director
+[2024-04-23 02:08:35] INFO root fetch - processPackages [np-aind-metadata]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-23 02:08:35] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240422] Old Version: [0.0.8.dev20240421]
+[2024-04-23 02:08:35] INFO root fetch - processPackages [radixtarget]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2024-04-23 02:08:35] INFO root fetch - processPackages [seaplane]: New version: [0.6a9] Old Version: [0.6a8]
+[2024-04-23 02:08:35] INFO root fetch - processPackages [mo-collections]: New version: [5.598.24114] Old Version: [5.584.24095]
+[2024-04-23 02:08:35] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/6f/e3/a66f28c7af3749be4e6d390485477a2fb2f7173b3a578b406d44f1ecc22f/np_aind_metadata-0.1.3.tar.gz
+[2024-04-23 02:08:35] WARNING root fetch - processPackages [fossil-director]: Skipping, unable to determine old version
+[2024-04-23 02:08:35] INFO root fetch - main [MainThread]: End processing [fossil-director] error
+[2024-04-23 02:08:35] INFO root fetch - processPackages [radixtarget]: Downloading https://files.pythonhosted.org/packages/2d/f4/4212d9bc46573271cff290cb5152c508be1c746dd74242e9bd4a601d172c/radixtarget-1.0.0.8.tar.gz
+[2024-04-23 02:08:35] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/4a/39/aa4d2d82ffaafc02201ad75763262b7c5c246ca00439d38aaa0df1037ae3/jaxutils-nightly-0.0.8.dev20240421.tar.gz
+[2024-04-23 02:08:35] INFO root fetch - processPackages [chromedriver-py]: New version: [99.0.4844.51] Old Version: [99.0.4844.35]
+[2024-04-23 02:08:35] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/04/dc/2ce684388fd09571ac42495b70c05571bfe81f9789cc84e483e1368b8c5c/seaplane-0.6a8.tar.gz
+[2024-04-23 02:08:36] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/0c/ca/8e638a3edaa8fcedaeba9373bf5f4f537089dff1be2154a16c86b154877f/mo-collections-5.584.24095.tar.gz
+[2024-04-23 02:08:36] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/4f/d5/b1c3c43d725b7a7688e4a91cf5f2ac0980f2b7e8fc846d40fdc2934e37fd/np_aind_metadata-0.1.4.tar.gz
+[2024-04-23 02:08:36] INFO root fetch - processPackages [radixtarget]: Downloading https://files.pythonhosted.org/packages/58/ca/070d3038d2ebb93776b68744ad7473ac94290ffaf402fba84219e0ed81ce/radixtarget-1.0.0.9.tar.gz
+[2024-04-23 02:08:36] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f1/5a/1fe41b722a3a104c44fe09fec599272ee8aef30de93b169fde92a324d98d/seaplane-0.6a9.tar.gz
+[2024-04-23 02:08:36] INFO root fetch - processPackages [chromedriver-py]: Downloading https://files.pythonhosted.org/packages/39/03/f1ac791b3c69bd62af64eb3b4f2f0c942828a41ad7eb4840f42ff715c79a/chromedriver-py-99.0.4844.35.tar.gz
+[2024-04-23 02:08:36] INFO root fetch - processPackages [np-aind-metadata]: executing diffoscope
+[2024-04-23 02:08:36] INFO root fetch - processPackages [np-aind-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_aind_metadata-0.1.3.tar.gz tmp/np_aind_metadata-0.1.4.tar.gz --markdown 20240423/n/np-aind-metadata/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-23 02:08:36] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c6/d0/dab93e4934a1d24d80775cfb7fe3d12d633362ea5dcaf2698406b660d01c/jaxutils-nightly-0.0.8.dev20240422.tar.gz
+[2024-04-23 02:08:36] INFO root fetch - processPackages [radixtarget]: executing diffoscope
+[2024-04-23 02:08:36] INFO root fetch - processPackages [radixtarget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radixtarget-1.0.0.8.tar.gz tmp/radixtarget-1.0.0.9.tar.gz --markdown 20240423/r/radixtarget/1.0.0.8-1.0.0.9/README.md --exclude *.pyd
+[2024-04-23 02:08:36] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2024-04-23 02:08:36] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.6a8.tar.gz tmp/seaplane-0.6a9.tar.gz --markdown 20240423/s/seaplane/0.6a8-0.6a9/README.md --exclude *.pyd
+[2024-04-23 02:08:36] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-23 02:08:36] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240421.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240422.tar.gz --markdown 20240423/j/jaxutils-nightly/0.0.8.dev20240421-0.0.8.dev20240422/README.md --exclude *.pyd
+[2024-04-23 02:08:36] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/12/4d/490f60385aa5dc7869d7efccd7ad380a8daa89ea31b797504cce921dbb0b/mo_collections-5.598.24114.tar.gz
+[2024-04-23 02:08:36] INFO root fetch - processPackages [mo-collections]: executing diffoscope
+[2024-04-23 02:08:36] INFO root fetch - processPackages [mo-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-collections-5.584.24095.tar.gz tmp/mo_collections-5.598.24114.tar.gz --markdown 20240423/m/mo-collections/5.584.24095-5.598.24114/README.md --exclude *.pyd
+[2024-04-23 02:08:36] WARNING root fetch - processPackages [chromedriver-py]: Skipping package: exceeds size limit 29238079>=10485760
+[2024-04-23 02:08:36] INFO root fetch - main [MainThread]: End processing [chromedriver-py] error
+[2024-04-23 02:08:37] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.3.tar.gz]
+[2024-04-23 02:08:37] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.4.tar.gz]
+[2024-04-23 02:08:37] INFO root fetch - main [MainThread]: End processing [np-aind-metadata]: success
+[2024-04-23 02:08:37] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240421.tar.gz]
+[2024-04-23 02:08:37] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240422.tar.gz]
+[2024-04-23 02:08:37] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-23 02:08:37] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.6a8.tar.gz]
+[2024-04-23 02:08:37] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.6a9.tar.gz]
+[2024-04-23 02:08:37] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2024-04-23 02:08:37] INFO root fetch - processPackages [radixtarget]: Remove: archive file [/home/abi/fetcher/tmp/radixtarget-1.0.0.8.tar.gz]
+[2024-04-23 02:08:37] INFO root fetch - processPackages [radixtarget]: Remove: archive file [/home/abi/fetcher/tmp/radixtarget-1.0.0.9.tar.gz]
+[2024-04-23 02:08:37] INFO root fetch - main [MainThread]: End processing [radixtarget]: success
+[2024-04-23 02:08:37] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo-collections-5.584.24095.tar.gz]
+[2024-04-23 02:08:37] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo_collections-5.598.24114.tar.gz]
+[2024-04-23 02:08:37] INFO root fetch - main [MainThread]: End processing [mo-collections]: success
+[2024-04-23 02:08:37] INFO root fetch - main [MainThread]: Store serial: [22886217]
