@@ -22677,3 +22677,69 @@ EOFError: EOF read where object expected
 [2024-04-23 15:09:54] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.6.9.tar.gz]
 [2024-04-23 15:09:54] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2024-04-23 15:09:54] INFO root fetch - main [MainThread]: Store serial: [22894319]
+[2024-04-23 15:11:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894319]
+[2024-04-23 15:12:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 15:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: puerml
+[2024-04-23 15:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emotions-analysis
+[2024-04-23 15:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: momonga
+[2024-04-23 15:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kindwise-api-client
+[2024-04-23 15:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ert
+[2024-04-23 15:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-ezglossary-plugin
+[2024-04-23 15:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-coverage
+[2024-04-23 15:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qteasy
+[2024-04-23 15:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bw-simapro-csv
+[2024-04-23 15:12:03] INFO root fetch - processPackages [qteasy]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-04-23 15:12:03] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-04-23 15:12:03] INFO root fetch - processPackages [ert]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-04-23 15:12:03] INFO root fetch - processPackages [puerml]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-23 15:12:03] WARNING root fetch - processPackages [bw-simapro-csv]: Skipping, unable to determine old version
+[2024-04-23 15:12:03] INFO root fetch - main [MainThread]: End processing [bw-simapro-csv] error
+[2024-04-23 15:12:03] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/86/6f/ec297592682a7da6075fc20b58773ab4c960f584d36dc79f1ca91718153f/qteasy-1.1.9.tar.gz
+[2024-04-23 15:12:03] WARNING root fetch - processPackages [emotions-analysis]: Skipping, unable to determine old version
+[2024-04-23 15:12:03] INFO root fetch - main [MainThread]: End processing [emotions-analysis] error
+[2024-04-23 15:12:03] WARNING root fetch - processPackages [momonga]: Skipping, unable to determine old version
+[2024-04-23 15:12:03] INFO root fetch - main [MainThread]: End processing [momonga] error
+[2024-04-23 15:12:03] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: Downloading https://files.pythonhosted.org/packages/c0/fb/d22fa62e441ea8a944c0583ae245bd5a72bcb589f0fbf80ae67ba85ab92a/mkdocs_ezglossary_plugin-1.6.3.tar.gz
+[2024-04-23 15:12:03] INFO root fetch - processPackages [dbt-coverage]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-23 15:12:03] INFO root fetch - processPackages [kindwise-api-client]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-23 15:12:03] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 15:12:03] INFO root fetch - processPackages [puerml]: Downloading https://files.pythonhosted.org/packages/48/8d/a1ae2df997cd7c525629a4bb5cf0850082d8d66541606a753004d4c8a705/puerml-0.1.7.tar.gz
+[2024-04-23 15:12:03] INFO root fetch - processPackages [dbt-coverage]: Downloading https://files.pythonhosted.org/packages/4e/f2/d768a83b8147e652b9c565c198d753b59e05e66b9e9497d96c28636b1100/dbt_coverage-0.3.6.tar.gz
+[2024-04-23 15:12:04] INFO root fetch - processPackages [kindwise-api-client]: Downloading https://files.pythonhosted.org/packages/c7/26/eef5a8645534cca9cd77511f84b60cc94d9c71a919fca632b644f5dfa02e/kindwise_api_client-0.4.1.tar.gz
+[2024-04-23 15:12:04] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/3c/22/fd5b74f6b42c16d2ea6a87eda3d1baf89263c86d8083da71d30270cf54b0/qteasy-1.2.0.tar.gz
+[2024-04-23 15:12:04] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: Downloading https://files.pythonhosted.org/packages/72/b1/0b3e42f4a9f83532d87018b8decbecc96b965e868a5a335fe9eb941839d5/mkdocs_ezglossary_plugin-1.6.4.tar.gz
+[2024-04-23 15:12:04] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8d/4f/a098d5c93dec8fbf941d7d4f60fb3b86707ea5c9f599479549a3d84e246b/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 15:12:04] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: executing diffoscope
+[2024-04-23 15:12:04] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_ezglossary_plugin-1.6.3.tar.gz tmp/mkdocs_ezglossary_plugin-1.6.4.tar.gz --markdown 20240423/m/mkdocs-ezglossary-plugin/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-04-23 15:12:04] INFO root fetch - processPackages [puerml]: Downloading https://files.pythonhosted.org/packages/c1/e4/523c5c69b02459ffb6e52a1a4b8f011d7875d2eed1aaeae02c5a0c948382/puerml-0.1.8.tar.gz
+[2024-04-23 15:12:04] INFO root fetch - processPackages [qteasy]: executing diffoscope
+[2024-04-23 15:12:04] INFO root fetch - processPackages [qteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qteasy-1.1.9.tar.gz tmp/qteasy-1.2.0.tar.gz --markdown 20240423/q/qteasy/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-04-23 15:12:04] INFO root fetch - processPackages [dbt-coverage]: Downloading https://files.pythonhosted.org/packages/68/c7/651724ffaa636a0c04f413fa4d49e493f0a2adaa7b9f6c73cd1fd9c78ac0/dbt_coverage-0.3.7.tar.gz
+[2024-04-23 15:12:04] INFO root fetch - processPackages [puerml]: executing diffoscope
+[2024-04-23 15:12:04] INFO root fetch - processPackages [puerml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puerml-0.1.7.tar.gz tmp/puerml-0.1.8.tar.gz --markdown 20240423/p/puerml/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-23 15:12:04] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-04-23 15:12:04] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240423/e/ert/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-04-23 15:12:04] INFO root fetch - processPackages [dbt-coverage]: executing diffoscope
+[2024-04-23 15:12:04] INFO root fetch - processPackages [dbt-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_coverage-0.3.6.tar.gz tmp/dbt_coverage-0.3.7.tar.gz --markdown 20240423/d/dbt-coverage/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-23 15:12:04] INFO root fetch - processPackages [kindwise-api-client]: Downloading https://files.pythonhosted.org/packages/50/04/8de3a94cdb3cdab08483df1e5f944a1da880174e2f61346b93cc0c60cfe6/kindwise_api_client-0.5.0.tar.gz
+[2024-04-23 15:12:05] INFO root fetch - processPackages [kindwise-api-client]: executing diffoscope
+[2024-04-23 15:12:05] INFO root fetch - processPackages [kindwise-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kindwise_api_client-0.4.1.tar.gz tmp/kindwise_api_client-0.5.0.tar.gz --markdown 20240423/k/kindwise-api-client/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-23 15:12:05] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ezglossary_plugin-1.6.3.tar.gz]
+[2024-04-23 15:12:05] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ezglossary_plugin-1.6.4.tar.gz]
+[2024-04-23 15:12:05] INFO root fetch - main [MainThread]: End processing [mkdocs-ezglossary-plugin]: success
+[2024-04-23 15:12:05] INFO root fetch - processPackages [puerml]: Remove: archive file [/home/abi/fetcher/tmp/puerml-0.1.7.tar.gz]
+[2024-04-23 15:12:05] INFO root fetch - processPackages [puerml]: Remove: archive file [/home/abi/fetcher/tmp/puerml-0.1.8.tar.gz]
+[2024-04-23 15:12:05] INFO root fetch - main [MainThread]: End processing [puerml]: success
+[2024-04-23 15:12:05] INFO root fetch - processPackages [dbt-coverage]: Remove: archive file [/home/abi/fetcher/tmp/dbt_coverage-0.3.6.tar.gz]
+[2024-04-23 15:12:05] INFO root fetch - processPackages [dbt-coverage]: Remove: archive file [/home/abi/fetcher/tmp/dbt_coverage-0.3.7.tar.gz]
+[2024-04-23 15:12:05] INFO root fetch - main [MainThread]: End processing [dbt-coverage]: success
+[2024-04-23 15:12:05] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.9.tar.gz]
+[2024-04-23 15:12:05] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.2.0.tar.gz]
+[2024-04-23 15:12:05] INFO root fetch - main [MainThread]: End processing [qteasy]: success
+[2024-04-23 15:12:05] INFO root fetch - processPackages [kindwise-api-client]: Remove: archive file [/home/abi/fetcher/tmp/kindwise_api_client-0.4.1.tar.gz]
+[2024-04-23 15:12:05] INFO root fetch - processPackages [kindwise-api-client]: Remove: archive file [/home/abi/fetcher/tmp/kindwise_api_client-0.5.0.tar.gz]
+[2024-04-23 15:12:05] INFO root fetch - main [MainThread]: End processing [kindwise-api-client]: success
+[2024-04-23 15:12:09] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 15:12:09] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-23 15:12:09] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-04-23 15:12:09] INFO root fetch - main [MainThread]: Store serial: [22894361]
