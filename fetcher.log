@@ -14190,3 +14190,99 @@
 [2024-04-23 10:08:02] INFO root fetch - processPackages [tipo-kgen]: Remove: archive file [/home/abi/fetcher/tmp/tipo-kgen-0.0.8.tar.gz]
 [2024-04-23 10:08:02] INFO root fetch - main [MainThread]: End processing [tipo-kgen]: success
 [2024-04-23 10:08:02] INFO root fetch - main [MainThread]: Store serial: [22890703]
+[2024-04-23 10:10:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890703]
+[2024-04-23 10:10:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-23 10:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lense
+[2024-04-23 10:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gsheet-pandas
+[2024-04-23 10:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudpss
+[2024-04-23 10:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: persona_ai
+[2024-04-23 10:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proxygen-cli
+[2024-04-23 10:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepgoplus
+[2024-04-23 10:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-sale-order-lot-selection
+[2024-04-23 10:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TerMPS
+[2024-04-23 10:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cognite-neat
+[2024-04-23 10:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dataset-iterator
+[2024-04-23 10:10:10] INFO root fetch - processPackages [lense]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-23 10:10:10] INFO root fetch - processPackages [cloudpss]: New version: [4.1.1b9] Old Version: [4.1.1b8]
+[2024-04-23 10:10:11] WARNING root fetch - processPackages [TerMPS]: Skipping, unable to determine old version
+[2024-04-23 10:10:11] INFO root fetch - processPackages [TerMPS]: Start processing: odoo-addon-stock-picking-report-valued
+[2024-04-23 10:10:11] INFO root fetch - main [MainThread]: End processing [TerMPS] error
+[2024-04-23 10:10:11] INFO root fetch - processPackages [proxygen-cli]: New version: [2.1.7] Old Version: [2.1.6]
+[2024-04-23 10:10:11] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/d3/6f/0b36436596d7bda7155e817df8a84a95bfe90ab250d952a16b3499dfbb1d/lense-0.0.6-py3-none-any.whl
+[2024-04-23 10:10:11] INFO root fetch - processPackages [dataset-iterator]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-23 10:10:11] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/65/0d/e9ba31f289288d38ec199f38c22f1178ac0366abcaa1e81a28f168399008/cloudpss-4.1.1b8.tar.gz
+[2024-04-23 10:10:11] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: New version: [14.0.1.1.1.dev9] Old Version: [14.0.1.1.1.dev8]
+[2024-04-23 10:10:11] INFO root fetch - processPackages [gsheet-pandas]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-23 10:10:11] INFO root fetch - processPackages [deepgoplus]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-23 10:10:11] INFO root fetch - processPackages [persona_ai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 10:10:11] INFO root fetch - processPackages [cognite-neat]: New version: [0.74.0] Old Version: [0.73.4]
+[2024-04-23 10:10:11] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-23 10:10:11] INFO root fetch - processPackages [dataset-iterator]: Downloading https://files.pythonhosted.org/packages/67/3f/cc30f3a1aaa3a0bc7e88e202e201dc045e4fd8093ddd1a5b5fcd6b549e90/dataset_iterator-0.4.0.tar.gz
+[2024-04-23 10:10:11] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: Downloading https://files.pythonhosted.org/packages/7b/8d/6622948fe885762b412ea0ede9c3597751d083b95e1cd01ef1a44dc99fac/odoo14_addon_sale_order_lot_selection-14.0.1.1.1.dev8-py3-none-any.whl
+[2024-04-23 10:10:11] INFO root fetch - processPackages [gsheet-pandas]: Downloading https://files.pythonhosted.org/packages/59/64/bf831c24092ca91869aa186c6c388bf968aef9276b95d01ae5852562f4a3/gsheet_pandas-0.2.6-py3-none-any.whl
+[2024-04-23 10:10:11] INFO root fetch - processPackages [deepgoplus]: Downloading https://files.pythonhosted.org/packages/28/57/44e433157f1d6cbfff9601931d52f69901bc44d6144ca9feb6e576dde4b7/deepgoplus-1.0.1.tar.gz
+[2024-04-23 10:10:11] INFO root fetch - processPackages [persona_ai]: Downloading https://files.pythonhosted.org/packages/e2/ea/d523b831a0a5c38ec09c7d87415fb4a638ad26cde84870f76503f7711f56/persona_ai-0.1.8.tar.gz
+[2024-04-23 10:10:11] INFO root fetch - processPackages [proxygen-cli]: Downloading https://files.pythonhosted.org/packages/3a/88/a1d3929144f205520a442506316808785b6d98b8ed0ae01c85e4a69c22cc/proxygen_cli-2.1.6.tar.gz
+[2024-04-23 10:10:11] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/47/8d/fc60ce00da90701bfef68cbcc656399c258c878e91b877ab302322ee9f86/cognite_neat-0.73.4.tar.gz
+[2024-04-23 10:10:11] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: Downloading https://files.pythonhosted.org/packages/51/66/23be8383f50f7fa2bd9ebbb3f645791fb4a52c397a0dcade3eb6bfcd9b8c/odoo_addon_stock_picking_report_valued-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-23 10:10:11] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/5b/24/24989e49cb8cf21d5d2c8b071d835f6a78aca17eceeb1885baa86476f8d4/cloudpss-4.1.1b9.tar.gz
+[2024-04-23 10:10:11] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/ac/04/502190b60d2a856c40510c76aa32d646240b045efe353a153a358622089c/lense-0.0.7-py3-none-any.whl
+[2024-04-23 10:10:11] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 10:10:11] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.6-py3-none-any.whl.zip tmp/lense-0.0.7-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-23 10:10:11] INFO root fetch - processPackages [cloudpss]: executing diffoscope
+[2024-04-23 10:10:11] INFO root fetch - processPackages [cloudpss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-4.1.1b8.tar.gz tmp/cloudpss-4.1.1b9.tar.gz --markdown 20240423/c/cloudpss/4.1.1b8-4.1.1b9/README.md --exclude *.pyd
+[2024-04-23 10:10:11] INFO root fetch - processPackages [persona_ai]: Downloading https://files.pythonhosted.org/packages/ad/08/9ae4384f090081f9f163c5637989479f29ec8dc2b6a21d03a809ae5d3c78/persona_ai-0.1.9.tar.gz
+[2024-04-23 10:10:11] INFO root fetch - processPackages [gsheet-pandas]: Downloading https://files.pythonhosted.org/packages/74/57/cdb1eeb39b228cb525b0a0c91500b835ba2ac157995653551c300d7d25a4/gsheet_pandas-0.2.7.tar.gz
+[2024-04-23 10:10:11] INFO root fetch - processPackages [deepgoplus]: Downloading https://files.pythonhosted.org/packages/4a/af/8e3fe8163ab67f72dab9f7347e8db40517f6d9eaf0d11a2fbc05076eb653/deepgoplus-1.0.2.tar.gz
+[2024-04-23 10:10:11] INFO root fetch - processPackages [proxygen-cli]: Downloading https://files.pythonhosted.org/packages/26/eb/65ea5c075cbc68478c24fbbb5aad4e5fc048a15ff39149d662995369f047/proxygen_cli-2.1.7.tar.gz
+[2024-04-23 10:10:11] INFO root fetch - processPackages [dataset-iterator]: Downloading https://files.pythonhosted.org/packages/3b/bb/6961d0dfef8a1c0f98818cf0362669e3391143d5ca1edd2d4cec57f1fd1d/dataset_iterator-0.4.1.tar.gz
+[2024-04-23 10:10:11] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: Downloading https://files.pythonhosted.org/packages/3a/42/8996298c16df95fa3575776a0fe71a2fe526f4cc160bd46b8a250ab8bcfd/odoo14_addon_sale_order_lot_selection-14.0.1.1.1.dev9-py3-none-any.whl
+[2024-04-23 10:10:11] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: Downloading https://files.pythonhosted.org/packages/24/19/7c3402705308bce21bf7c685722ecd75e64fdc2dd274f05c45ec777a3581/odoo_addon_stock_picking_report_valued-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-23 10:10:11] INFO root fetch - processPackages [persona_ai]: executing diffoscope
+[2024-04-23 10:10:11] INFO root fetch - processPackages [persona_ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persona_ai-0.1.8.tar.gz tmp/persona_ai-0.1.9.tar.gz --markdown 20240423/p/persona_ai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 10:10:11] INFO root fetch - processPackages [gsheet-pandas]: executing diffoscope
+[2024-04-23 10:10:11] INFO root fetch - processPackages [gsheet-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsheet_pandas-0.2.6-py3-none-any.whl.zip tmp/gsheet_pandas-0.2.7.tar.gz --markdown 20240423/g/gsheet-pandas/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-23 10:10:11] INFO root fetch - processPackages [proxygen-cli]: executing diffoscope
+[2024-04-23 10:10:11] INFO root fetch - processPackages [proxygen-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxygen_cli-2.1.6.tar.gz tmp/proxygen_cli-2.1.7.tar.gz --markdown 20240423/p/proxygen-cli/2.1.6-2.1.7/README.md --exclude *.pyd
+[2024-04-23 10:10:11] INFO root fetch - processPackages [deepgoplus]: executing diffoscope
+[2024-04-23 10:10:11] INFO root fetch - processPackages [deepgoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepgoplus-1.0.1.tar.gz tmp/deepgoplus-1.0.2.tar.gz --markdown 20240423/d/deepgoplus/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-23 10:10:12] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: executing diffoscope
+[2024-04-23 10:10:12] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_report_valued-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_report_valued-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-stock-picking-report-valued/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-23 10:10:12] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/f5/4f/c1aac1dd5ed4a2d8447f6217053bcb8aa57732bf5800f6ae087063b1d138/cognite_neat-0.74.0.tar.gz
+[2024-04-23 10:10:12] INFO root fetch - processPackages [dataset-iterator]: executing diffoscope
+[2024-04-23 10:10:12] INFO root fetch - processPackages [dataset-iterator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset_iterator-0.4.0.tar.gz tmp/dataset_iterator-0.4.1.tar.gz --markdown 20240423/d/dataset-iterator/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-23 10:10:12] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: executing diffoscope
+[2024-04-23 10:10:12] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_lot_selection-14.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_lot_selection-14.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-sale-order-lot-selection/14.0.1.1.1.dev8-14.0.1.1.1.dev9/README.md --exclude *.pyd
+[2024-04-23 10:10:12] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.6-py3-none-any.whl.zip]
+[2024-04-23 10:10:12] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.7-py3-none-any.whl.zip]
+[2024-04-23 10:10:12] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 10:10:12] INFO root fetch - processPackages [gsheet-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gsheet_pandas-0.2.6-py3-none-any.whl.zip]
+[2024-04-23 10:10:12] INFO root fetch - processPackages [gsheet-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gsheet_pandas-0.2.7.tar.gz]
+[2024-04-23 10:10:12] INFO root fetch - main [MainThread]: End processing [gsheet-pandas]: success
+[2024-04-23 10:10:12] INFO root fetch - processPackages [deepgoplus]: Remove: archive file [/home/abi/fetcher/tmp/deepgoplus-1.0.1.tar.gz]
+[2024-04-23 10:10:12] INFO root fetch - processPackages [deepgoplus]: Remove: archive file [/home/abi/fetcher/tmp/deepgoplus-1.0.2.tar.gz]
+[2024-04-23 10:10:12] INFO root fetch - main [MainThread]: End processing [deepgoplus]: success
+[2024-04-23 10:10:12] INFO root fetch - processPackages [proxygen-cli]: Remove: archive file [/home/abi/fetcher/tmp/proxygen_cli-2.1.6.tar.gz]
+[2024-04-23 10:10:12] INFO root fetch - processPackages [proxygen-cli]: Remove: archive file [/home/abi/fetcher/tmp/proxygen_cli-2.1.7.tar.gz]
+[2024-04-23 10:10:12] INFO root fetch - main [MainThread]: End processing [proxygen-cli]: success
+[2024-04-23 10:10:12] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-04-23 10:10:12] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.73.4.tar.gz tmp/cognite_neat-0.74.0.tar.gz --markdown 20240423/c/cognite-neat/0.73.4-0.74.0/README.md --exclude *.pyd
+[2024-04-23 10:10:13] INFO root fetch - processPackages [dataset-iterator]: Remove: archive file [/home/abi/fetcher/tmp/dataset_iterator-0.4.0.tar.gz]
+[2024-04-23 10:10:13] INFO root fetch - processPackages [dataset-iterator]: Remove: archive file [/home/abi/fetcher/tmp/dataset_iterator-0.4.1.tar.gz]
+[2024-04-23 10:10:13] INFO root fetch - main [MainThread]: End processing [dataset-iterator]: success
+[2024-04-23 10:10:13] INFO root fetch - processPackages [persona_ai]: Remove: archive file [/home/abi/fetcher/tmp/persona_ai-0.1.8.tar.gz]
+[2024-04-23 10:10:13] INFO root fetch - processPackages [persona_ai]: Remove: archive file [/home/abi/fetcher/tmp/persona_ai-0.1.9.tar.gz]
+[2024-04-23 10:10:13] INFO root fetch - main [MainThread]: End processing [persona_ai]: success
+[2024-04-23 10:10:13] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-4.1.1b8.tar.gz]
+[2024-04-23 10:10:13] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-4.1.1b9.tar.gz]
+[2024-04-23 10:10:13] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
+[2024-04-23 10:10:13] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_lot_selection-14.0.1.1.1.dev8-py3-none-any.whl.zip]
+[2024-04-23 10:10:13] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_lot_selection-14.0.1.1.1.dev9-py3-none-any.whl.zip]
+[2024-04-23 10:10:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-lot-selection]: success
+[2024-04-23 10:10:13] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_report_valued-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-23 10:10:13] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_report_valued-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-23 10:10:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-report-valued]: success
+[2024-04-23 10:12:23] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.73.4.tar.gz]
+[2024-04-23 10:12:23] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.74.0.tar.gz]
+[2024-04-23 10:12:23] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-04-23 10:12:23] INFO root fetch - main [MainThread]: Store serial: [22890735]
