@@ -10350,3 +10350,24 @@
 [2024-04-23 06:45:41] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.5.5.zip]
 [2024-04-23 06:45:41] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
 [2024-04-23 06:45:41] INFO root fetch - main [MainThread]: Store serial: [22889069]
+[2024-04-23 06:47:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889069]
+[2024-04-23 06:47:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 06:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-mrp-bom-structure-xlsx-level-1
+[2024-04-23 06:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colorfullog
+[2024-04-23 06:47:50] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx-level-1]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-04-23 06:47:50] INFO root fetch - processPackages [colorfullog]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-23 06:47:50] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx-level-1]: Downloading https://files.pythonhosted.org/packages/ca/38/dee358061c1cda1de0335d7ccbd7af0d08b1cfb4510d21084c09ab7eb234/odoo_addon_mrp_bom_structure_xlsx_level_1-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-23 06:47:50] INFO root fetch - processPackages [colorfullog]: Downloading https://files.pythonhosted.org/packages/6d/a8/ba89c891a261099ad08c57397a3fa1a8c190749b53d1e4ee14777ffc26a7/colorfullog-0.0.4.tar.gz
+[2024-04-23 06:47:51] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx-level-1]: Downloading https://files.pythonhosted.org/packages/a7/e2/8b92114d310ea24b7c7309ae88c81feed81aa88e67a8a35c84eed4bca60e/odoo_addon_mrp_bom_structure_xlsx_level_1-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-23 06:47:51] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx-level-1]: executing diffoscope
+[2024-04-23 06:47:51] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx-level-1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_bom_structure_xlsx_level_1-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_mrp_bom_structure_xlsx_level_1-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-mrp-bom-structure-xlsx-level-1/16.0.1.0.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-23 06:47:51] INFO root fetch - processPackages [colorfullog]: Downloading https://files.pythonhosted.org/packages/0f/33/d8a8fafa9c1a13df8a1e0861037e5a72977c34b973d504c47f07fda74169/colorfullog-0.0.5.tar.gz
+[2024-04-23 06:47:51] INFO root fetch - processPackages [colorfullog]: executing diffoscope
+[2024-04-23 06:47:51] INFO root fetch - processPackages [colorfullog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorfullog-0.0.4.tar.gz tmp/colorfullog-0.0.5.tar.gz --markdown 20240423/c/colorfullog/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-23 06:47:51] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx-level-1]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_structure_xlsx_level_1-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-23 06:47:51] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx-level-1]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_structure_xlsx_level_1-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-23 06:47:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-bom-structure-xlsx-level-1]: success
+[2024-04-23 06:47:51] INFO root fetch - processPackages [colorfullog]: Remove: archive file [/home/abi/fetcher/tmp/colorfullog-0.0.4.tar.gz]
+[2024-04-23 06:47:51] INFO root fetch - processPackages [colorfullog]: Remove: archive file [/home/abi/fetcher/tmp/colorfullog-0.0.5.tar.gz]
+[2024-04-23 06:47:51] INFO root fetch - main [MainThread]: End processing [colorfullog]: success
+[2024-04-23 06:47:51] INFO root fetch - main [MainThread]: Store serial: [22889075]
