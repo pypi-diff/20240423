@@ -11188,3 +11188,33 @@
 [2024-04-23 07:37:54] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
 [2024-04-23 07:37:54] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
 [2024-04-23 07:37:54] INFO root fetch - main [MainThread]: Store serial: [22889445]
+[2024-04-23 07:39:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889445]
+[2024-04-23 07:40:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 07:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tuxsuite
+[2024-04-23 07:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypipr
+[2024-04-23 07:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-wikiparser
+[2024-04-23 07:40:02] INFO root fetch - processPackages [simple-wikiparser]: New version: [0.0.0a0] Old Version: [0.0.0]
+[2024-04-23 07:40:02] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.81]
+[2024-04-23 07:40:02] INFO root fetch - processPackages [tuxsuite]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-23 07:40:03] INFO root fetch - processPackages [simple-wikiparser]: Downloading https://files.pythonhosted.org/packages/1e/33/78e7b5dbc0793899ab1903d7377c210690fe2cdf1c6fe98bbd3e91c2c142/simple-wikiparser-0.0.0.tar.gz
+[2024-04-23 07:40:03] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/27/14/f25c40bc531aff32551c08e4d9c8b6894d4749d5ad96f37b58cc307cfb29/tuxsuite-1.8.0.tar.gz
+[2024-04-23 07:40:03] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/36/37/31a5dacf759fc80ce9f59cbc0ffd54ba775d96e74c525e9251f594c5f045/pypipr-1.0.81.tar.gz
+[2024-04-23 07:40:03] INFO root fetch - processPackages [simple-wikiparser]: Downloading https://files.pythonhosted.org/packages/88/20/0c668039a08a85c859410844e73ae07546a6d215baa4c7e2aed30e9b76c6/simple-wikiparser-0.0.0a0.tar.gz
+[2024-04-23 07:40:03] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/4d/5e/8be806f24d5782026eef566b71100557104f363339b8917671132eadf1ea/tuxsuite-1.9.0.tar.gz
+[2024-04-23 07:40:03] INFO root fetch - processPackages [simple-wikiparser]: executing diffoscope
+[2024-04-23 07:40:03] INFO root fetch - processPackages [simple-wikiparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-wikiparser-0.0.0.tar.gz tmp/simple-wikiparser-0.0.0a0.tar.gz --markdown 20240423/s/simple-wikiparser/0.0.0-0.0.0a0/README.md --exclude *.pyd
+[2024-04-23 07:40:03] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-23 07:40:03] INFO root fetch - processPackages [tuxsuite]: executing diffoscope
+[2024-04-23 07:40:03] INFO root fetch - processPackages [tuxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxsuite-1.8.0.tar.gz tmp/tuxsuite-1.9.0.tar.gz --markdown 20240423/t/tuxsuite/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-23 07:40:03] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-23 07:40:03] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.81.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240423/p/pypipr/1.0.81-1.0.9/README.md --exclude *.pyd
+[2024-04-23 07:40:03] INFO root fetch - processPackages [simple-wikiparser]: Remove: archive file [/home/abi/fetcher/tmp/simple-wikiparser-0.0.0.tar.gz]
+[2024-04-23 07:40:03] INFO root fetch - processPackages [simple-wikiparser]: Remove: archive file [/home/abi/fetcher/tmp/simple-wikiparser-0.0.0a0.tar.gz]
+[2024-04-23 07:40:03] INFO root fetch - main [MainThread]: End processing [simple-wikiparser]: success
+[2024-04-23 07:40:04] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.81.tar.gz]
+[2024-04-23 07:40:04] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-23 07:40:04] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-23 07:40:04] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.8.0.tar.gz]
+[2024-04-23 07:40:04] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
+[2024-04-23 07:40:04] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
+[2024-04-23 07:40:04] INFO root fetch - main [MainThread]: Store serial: [22889455]
