@@ -12339,3 +12339,18 @@
 [2024-04-23 08:48:43] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.8-py3-none-any.whl.zip]
 [2024-04-23 08:48:43] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-23 08:48:43] INFO root fetch - main [MainThread]: Store serial: [22889842]
+[2024-04-23 08:50:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889842]
+[2024-04-23 08:50:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 08:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-dwd-weatherforecast
+[2024-04-23 08:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-deribit-api
+[2024-04-23 08:50:52] INFO root fetch - processPackages [simple-dwd-weatherforecast]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-23 08:50:52] WARNING root fetch - processPackages [my-deribit-api]: Skipping, unable to determine old version
+[2024-04-23 08:50:52] INFO root fetch - main [MainThread]: End processing [my-deribit-api] error
+[2024-04-23 08:50:52] INFO root fetch - processPackages [simple-dwd-weatherforecast]: Downloading https://files.pythonhosted.org/packages/8b/fe/1dc5b76158e7e0dd087bf19b8efcd528d3fdc5050fa9df6321b5af61575a/simple_dwd_weatherforecast-2.0.8.tar.gz
+[2024-04-23 08:50:53] INFO root fetch - processPackages [simple-dwd-weatherforecast]: Downloading https://files.pythonhosted.org/packages/50/5e/89160cfc5b9412f1af6d7dfb89d965072ec85ab1af77e56ce056c50cf657/simple_dwd_weatherforecast-2.0.9.tar.gz
+[2024-04-23 08:50:53] INFO root fetch - processPackages [simple-dwd-weatherforecast]: executing diffoscope
+[2024-04-23 08:50:53] INFO root fetch - processPackages [simple-dwd-weatherforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_dwd_weatherforecast-2.0.8.tar.gz tmp/simple_dwd_weatherforecast-2.0.9.tar.gz --markdown 20240423/s/simple-dwd-weatherforecast/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-23 08:50:54] INFO root fetch - processPackages [simple-dwd-weatherforecast]: Remove: archive file [/home/abi/fetcher/tmp/simple_dwd_weatherforecast-2.0.8.tar.gz]
+[2024-04-23 08:50:54] INFO root fetch - processPackages [simple-dwd-weatherforecast]: Remove: archive file [/home/abi/fetcher/tmp/simple_dwd_weatherforecast-2.0.9.tar.gz]
+[2024-04-23 08:50:54] INFO root fetch - main [MainThread]: End processing [simple-dwd-weatherforecast]: success
+[2024-04-23 08:50:54] INFO root fetch - main [MainThread]: Store serial: [22889850]
