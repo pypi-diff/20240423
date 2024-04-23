@@ -8403,3 +8403,15 @@
 [2024-04-23 04:41:41] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_name_sequence-17.0.1.0.5-py3-none-any.whl.zip]
 [2024-04-23 04:41:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-name-sequence]: success
 [2024-04-23 04:41:41] INFO root fetch - main [MainThread]: Store serial: [22888259]
+[2024-04-23 04:43:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888259]
+[2024-04-23 04:43:50] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-23 04:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: the-utils
+[2024-04-23 04:43:50] INFO root fetch - processPackages [the-utils]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-23 04:43:50] INFO root fetch - processPackages [the-utils]: Downloading https://files.pythonhosted.org/packages/bf/2d/92436bc9afb73776d1af9c34911753d182a91fe708ae4315390e15bd9530/the_utils-0.3.5.tar.gz
+[2024-04-23 04:43:50] INFO root fetch - processPackages [the-utils]: Downloading https://files.pythonhosted.org/packages/4e/de/896fb7b6f1f21c21718de9f8699e15a791e96f324a2052e953b1ba3cdcb0/the_utils-0.3.6.tar.gz
+[2024-04-23 04:43:50] INFO root fetch - processPackages [the-utils]: executing diffoscope
+[2024-04-23 04:43:50] INFO root fetch - processPackages [the-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/the_utils-0.3.5.tar.gz tmp/the_utils-0.3.6.tar.gz --markdown 20240423/t/the-utils/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-23 04:43:51] INFO root fetch - processPackages [the-utils]: Remove: archive file [/home/abi/fetcher/tmp/the_utils-0.3.5.tar.gz]
+[2024-04-23 04:43:51] INFO root fetch - processPackages [the-utils]: Remove: archive file [/home/abi/fetcher/tmp/the_utils-0.3.6.tar.gz]
+[2024-04-23 04:43:51] INFO root fetch - main [MainThread]: End processing [the-utils]: success
+[2024-04-23 04:43:51] INFO root fetch - main [MainThread]: Store serial: [22888262]
