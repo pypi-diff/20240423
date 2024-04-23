@@ -9882,3 +9882,54 @@
 [2024-04-23 06:01:43] INFO root fetch - processPackages [ghostwindow]: Remove: archive file [/home/abi/fetcher/tmp/ghostwindow-1.1.2.tar.gz]
 [2024-04-23 06:01:43] INFO root fetch - main [MainThread]: End processing [ghostwindow]: success
 [2024-04-23 06:01:43] INFO root fetch - main [MainThread]: Store serial: [22888805]
+[2024-04-23 06:03:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888805]
+[2024-04-23 06:03:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 06:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2024-04-23 06:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finalsa-common-lambdas
+[2024-04-23 06:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-llms-bedrock
+[2024-04-23 06:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: afeng-py-tools
+[2024-04-23 06:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: property-lazy
+[2024-04-23 06:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hermesbaby
+[2024-04-23 06:03:51] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 06:03:51] WARNING root fetch - processPackages [hermesbaby]: Skipping, unable to determine old version
+[2024-04-23 06:03:51] INFO root fetch - main [MainThread]: End processing [hermesbaby] error
+[2024-04-23 06:03:51] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 06:03:51] INFO root fetch - processPackages [property-lazy]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-23 06:03:51] INFO root fetch - processPackages [llama-index-llms-bedrock]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-23 06:03:52] INFO root fetch - processPackages [finalsa-common-lambdas]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 06:03:52] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2024-04-23 06:03:52] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-23 06:03:52] INFO root fetch - processPackages [property-lazy]: Downloading https://files.pythonhosted.org/packages/05/c8/a0a907d60c5b551b3f19ed69cfc5003620281fdd6320ae6a74381af80127/property_lazy-0.0.5.tar.gz
+[2024-04-23 06:03:52] INFO root fetch - processPackages [finalsa-common-lambdas]: Downloading https://files.pythonhosted.org/packages/8d/40/075dd5da2e2662c4a0bdce207aa2d05a1e8870be97f554b5056cf1569ac6/finalsa-common-lambdas-0.1.0.tar.gz
+[2024-04-23 06:03:52] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-23 06:03:52] INFO root fetch - processPackages [llama-index-llms-bedrock]: Downloading https://files.pythonhosted.org/packages/7d/ae/08410f771c33bddf19f70b03230c5c9b16c2e21f737a4e4639988e9fa0a4/llama_index_llms_bedrock-0.1.6.tar.gz
+[2024-04-23 06:03:52] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-23 06:03:52] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-23 06:03:52] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240423/p/pypipr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 06:03:52] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-23 06:03:52] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240423/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 06:03:52] INFO root fetch - processPackages [property-lazy]: Downloading https://files.pythonhosted.org/packages/40/28/24ce645d7e1fcafd99454080396438c505599b14995d06887bfb3caeb6fa/property_lazy-0.0.6.tar.gz
+[2024-04-23 06:03:52] INFO root fetch - processPackages [llama-index-llms-bedrock]: Downloading https://files.pythonhosted.org/packages/54/b0/22398c282d7d0e7baa8fb46dff1bf946b82a0cfcb79373ab28b5f9578e6d/llama_index_llms_bedrock-0.1.7.tar.gz
+[2024-04-23 06:03:52] INFO root fetch - processPackages [finalsa-common-lambdas]: Downloading https://files.pythonhosted.org/packages/b1/c9/f459c5a1a1f540e134b1c15396e9b60bc1f2b9f9f0155d67058389d7a85e/finalsa_common_lambdas-0.1.1.tar.gz
+[2024-04-23 06:03:52] INFO root fetch - processPackages [property-lazy]: executing diffoscope
+[2024-04-23 06:03:52] INFO root fetch - processPackages [property-lazy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/property_lazy-0.0.5.tar.gz tmp/property_lazy-0.0.6.tar.gz --markdown 20240423/p/property-lazy/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-23 06:03:52] INFO root fetch - processPackages [llama-index-llms-bedrock]: executing diffoscope
+[2024-04-23 06:03:52] INFO root fetch - processPackages [llama-index-llms-bedrock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_llms_bedrock-0.1.6.tar.gz tmp/llama_index_llms_bedrock-0.1.7.tar.gz --markdown 20240423/l/llama-index-llms-bedrock/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-23 06:03:52] INFO root fetch - processPackages [finalsa-common-lambdas]: executing diffoscope
+[2024-04-23 06:03:52] INFO root fetch - processPackages [finalsa-common-lambdas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalsa-common-lambdas-0.1.0.tar.gz tmp/finalsa_common_lambdas-0.1.1.tar.gz --markdown 20240423/f/finalsa-common-lambdas/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 06:03:53] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2024-04-23 06:03:53] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-23 06:03:53] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-23 06:03:53] INFO root fetch - processPackages [property-lazy]: Remove: archive file [/home/abi/fetcher/tmp/property_lazy-0.0.5.tar.gz]
+[2024-04-23 06:03:53] INFO root fetch - processPackages [property-lazy]: Remove: archive file [/home/abi/fetcher/tmp/property_lazy-0.0.6.tar.gz]
+[2024-04-23 06:03:53] INFO root fetch - main [MainThread]: End processing [property-lazy]: success
+[2024-04-23 06:03:53] INFO root fetch - processPackages [llama-index-llms-bedrock]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_bedrock-0.1.6.tar.gz]
+[2024-04-23 06:03:53] INFO root fetch - processPackages [llama-index-llms-bedrock]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_bedrock-0.1.7.tar.gz]
+[2024-04-23 06:03:53] INFO root fetch - main [MainThread]: End processing [llama-index-llms-bedrock]: success
+[2024-04-23 06:03:53] INFO root fetch - processPackages [finalsa-common-lambdas]: Remove: archive file [/home/abi/fetcher/tmp/finalsa-common-lambdas-0.1.0.tar.gz]
+[2024-04-23 06:03:53] INFO root fetch - processPackages [finalsa-common-lambdas]: Remove: archive file [/home/abi/fetcher/tmp/finalsa_common_lambdas-0.1.1.tar.gz]
+[2024-04-23 06:03:53] INFO root fetch - main [MainThread]: End processing [finalsa-common-lambdas]: success
+[2024-04-23 06:03:53] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-23 06:03:53] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-23 06:03:53] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-23 06:03:53] INFO root fetch - main [MainThread]: Store serial: [22888824]
