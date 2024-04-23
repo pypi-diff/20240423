@@ -17508,3 +17508,72 @@
 [2024-04-23 12:08:20] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024042309.tar.gz]
 [2024-04-23 12:08:20] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-04-23 12:08:20] INFO root fetch - main [MainThread]: Store serial: [22892141]
+[2024-04-23 12:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892141]
+[2024-04-23 12:10:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 12:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rats-pipelines
+[2024-04-23 12:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rats-apps
+[2024-04-23 12:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vadi
+[2024-04-23 12:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: routrs
+[2024-04-23 12:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SilverStreamingApplicationPoC
+[2024-04-23 12:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cluster_tools
+[2024-04-23 12:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webknossos
+[2024-04-23 12:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: voila-sepal-ui
+[2024-04-23 12:10:29] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 12:10:29] INFO root fetch - processPackages [vadi]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 12:10:29] WARNING root fetch - processPackages [voila-sepal-ui]: Skipping, unable to determine old version
+[2024-04-23 12:10:29] INFO root fetch - main [MainThread]: End processing [voila-sepal-ui] error
+[2024-04-23 12:10:29] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 12:10:29] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 12:10:29] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 12:10:29] INFO root fetch - processPackages [cluster_tools]: New version: [1.61] Old Version: [1.60]
+[2024-04-23 12:10:29] INFO root fetch - processPackages [routrs]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-04-23 12:10:29] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-23 12:10:29] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 12:10:29] INFO root fetch - processPackages [webknossos]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 12:10:29] INFO root fetch - processPackages [vadi]: Downloading https://files.pythonhosted.org/packages/0c/3c/e3b761374530accd758a50897a39118ca2c2b5b492610da70a259633d9c7/vadi-0.0.2.tar.gz
+[2024-04-23 12:10:29] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/55/95/8e06c87289a9b44d6590288790d348b307858d2b60a00ec30d67e9283c25/cluster_tools-1.60.tar.gz
+[2024-04-23 12:10:29] INFO root fetch - processPackages [routrs]: Downloading https://files.pythonhosted.org/packages/9c/f0/ffe53092e272a56c6163b9bac11f3d8a0b436904c7e444d8b2c64b3d7fe0/routrs-0.1.0.tar.gz
+[2024-04-23 12:10:29] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-23 12:10:29] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/4d/c9/42745013d0db958e84167cf8ba8ddfd89dbae5c1261cbab4f13c519c94d3/webknossos-0.9.8.tar.gz
+[2024-04-23 12:10:29] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 12:10:29] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 12:10:29] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-23 12:10:29] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240423/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-23 12:10:29] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-23 12:10:29] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 12:10:29] INFO root fetch - processPackages [vadi]: Downloading https://files.pythonhosted.org/packages/10/0a/56a2703cc539b9167a59b9fb71236c7facb57d63b97652ce232e3da32c16/vadi-0.0.3.tar.gz
+[2024-04-23 12:10:29] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-23 12:10:29] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 12:10:29] INFO root fetch - processPackages [routrs]: Downloading https://files.pythonhosted.org/packages/48/7b/dfca3c1aea831ab1e72b63d01a68e041f3d471de3f54419c7ca6ddf55534/routrs-1.0.0.tar.gz
+[2024-04-23 12:10:29] INFO root fetch - processPackages [vadi]: executing diffoscope
+[2024-04-23 12:10:29] INFO root fetch - processPackages [vadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vadi-0.0.2.tar.gz tmp/vadi-0.0.3.tar.gz --markdown 20240423/v/vadi/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 12:10:29] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/f1/c8/cfa558d3aa9a9e9a7b5d923e1008b8553c75e12df34ecec1666b038ba0d1/cluster_tools-1.61.tar.gz
+[2024-04-23 12:10:29] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/65/2d/254028182afa9bf201aacc282c3cd1026f4b26a37ffc1b5f38836ca32347/webknossos-0.9.9.tar.gz
+[2024-04-23 12:10:30] INFO root fetch - processPackages [routrs]: executing diffoscope
+[2024-04-23 12:10:30] INFO root fetch - processPackages [routrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routrs-0.1.0.tar.gz tmp/routrs-1.0.0.tar.gz --markdown 20240423/r/routrs/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-04-23 12:10:30] INFO root fetch - processPackages [cluster_tools]: executing diffoscope
+[2024-04-23 12:10:30] INFO root fetch - processPackages [cluster_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_tools-1.60.tar.gz tmp/cluster_tools-1.61.tar.gz --markdown 20240423/c/cluster_tools/1.60-1.61/README.md --exclude *.pyd
+[2024-04-23 12:10:30] INFO root fetch - processPackages [webknossos]: executing diffoscope
+[2024-04-23 12:10:30] INFO root fetch - processPackages [webknossos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webknossos-0.9.8.tar.gz tmp/webknossos-0.9.9.tar.gz --markdown 20240423/w/webknossos/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-23 12:10:30] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-23 12:10:30] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-23 12:10:30] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-23 12:10:30] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 12:10:30] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 12:10:30] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-23 12:10:30] INFO root fetch - processPackages [vadi]: Remove: archive file [/home/abi/fetcher/tmp/vadi-0.0.2.tar.gz]
+[2024-04-23 12:10:30] INFO root fetch - processPackages [vadi]: Remove: archive file [/home/abi/fetcher/tmp/vadi-0.0.3.tar.gz]
+[2024-04-23 12:10:30] INFO root fetch - main [MainThread]: End processing [vadi]: success
+[2024-04-23 12:10:30] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 12:10:30] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 12:10:30] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-23 12:10:30] INFO root fetch - processPackages [routrs]: Remove: archive file [/home/abi/fetcher/tmp/routrs-0.1.0.tar.gz]
+[2024-04-23 12:10:30] INFO root fetch - processPackages [routrs]: Remove: archive file [/home/abi/fetcher/tmp/routrs-1.0.0.tar.gz]
+[2024-04-23 12:10:30] INFO root fetch - main [MainThread]: End processing [routrs]: success
+[2024-04-23 12:10:30] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.60.tar.gz]
+[2024-04-23 12:10:30] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.61.tar.gz]
+[2024-04-23 12:10:30] INFO root fetch - main [MainThread]: End processing [cluster_tools]: success
+[2024-04-23 12:10:31] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.8.tar.gz]
+[2024-04-23 12:10:31] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
+[2024-04-23 12:10:31] INFO root fetch - main [MainThread]: End processing [webknossos]: success
+[2024-04-23 12:10:31] INFO root fetch - main [MainThread]: Store serial: [22892168]
