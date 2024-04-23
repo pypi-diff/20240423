@@ -19375,3 +19375,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 13:20:48] INFO root fetch - processPackages [spox]: Remove: archive file [/home/abi/fetcher/tmp/spox-0.9.3.tar.gz]
 [2024-04-23 13:20:48] INFO root fetch - main [MainThread]: End processing [spox]: success
 [2024-04-23 13:20:48] INFO root fetch - main [MainThread]: Store serial: [22892915]
+[2024-04-23 13:22:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892915]
+[2024-04-23 13:22:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ingestr
+[2024-04-23 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: f3dasm-optimize
+[2024-04-23 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-access-sdk
+[2024-04-23 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ziptimezone
+[2024-04-23 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-core-xe-21
+[2024-04-23 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dicomselect
+[2024-04-23 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aura-cli
+[2024-04-23 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finbourne-access-sdk
+[2024-04-23 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quickstart-vdk
+[2024-04-23 13:22:57] INFO root fetch - processPackages [ingestr]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-23 13:22:57] INFO root fetch - processPackages [ingestr]: Downloading https://files.pythonhosted.org/packages/37/38/22d7269a605357912f4a57904e22f5e6d7e6679e1ad31cea5755d3587b5e/ingestr-0.3.0.tar.gz
+[2024-04-23 13:22:57] INFO root fetch - processPackages [f3dasm-optimize]: New version: [1.5.1] Old Version: [1.4.0]
+[2024-04-23 13:22:57] INFO root fetch - processPackages [dicomselect]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-23 13:22:57] INFO root fetch - processPackages [aura-cli]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-04-23 13:22:57] INFO root fetch - processPackages [ziptimezone]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-23 13:22:57] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-23 13:22:57] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240423] Old Version: [2.5.0b20240422]
+[2024-04-23 13:22:57] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-23 13:22:57] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-23 13:22:57] INFO root fetch - processPackages [f3dasm-optimize]: Downloading https://files.pythonhosted.org/packages/34/6a/7f1e671bdc602b39193cedaef6303c99265fcd38a9a4d73bde367054e9f4/f3dasm_optimize-1.4.0.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [aura-cli]: Downloading https://files.pythonhosted.org/packages/ae/d6/dcd4d55b1c3fcc67314c776032997dc209fbd8ee3bb46fe90a9f164c0af8/aura-cli-0.5.2.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/a0/27/205301da7d1b80ed8b5b026817b12d45b0dd69dc50377fb8a6a510807351/bigdl_core_xe_21-2.5.0b20240422-cp39-cp39-win_amd64.whl
+[2024-04-23 13:22:58] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [dicomselect]: Downloading https://files.pythonhosted.org/packages/b0/20/bc2fd56972c4c3b34f86c42102b4e6d8abac06dde16986ab4088a7861614/dicomselect-0.9.0.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [ingestr]: Downloading https://files.pythonhosted.org/packages/f7/24/edea05ccb21856fa44ed88cecb7ec87454eb9c8e68ab524311dcc7010292/ingestr-0.3.1.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/04/28/4ce776e410b1a3414f82c858c2cb3218258df90b98a6ccfcbdb1e6671940/ziptimezone-1.0.0.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-23 13:22:58] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 28724935>=10485760
+[2024-04-23 13:22:58] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-23 13:22:58] INFO root fetch - processPackages [ingestr]: executing diffoscope
+[2024-04-23 13:22:58] INFO root fetch - processPackages [ingestr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingestr-0.3.0.tar.gz tmp/ingestr-0.3.1.tar.gz --markdown 20240423/i/ingestr/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-23 13:22:58] INFO root fetch - processPackages [f3dasm-optimize]: Downloading https://files.pythonhosted.org/packages/95/88/49c11cb0a402d35fe3abafb5e36bffa899eda5ee4a25ae28f24bac058cd3/f3dasm_optimize-1.5.1.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [aura-cli]: Downloading https://files.pythonhosted.org/packages/6b/10/8aa92ae79ec7d1566cd349b3390c87ccc7ab4b0c511b3d8a2aa4b7057187/aura-cli-0.6.0.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/18/48/cd954db8f1eddc2e311acc537dc46e8da3911b788663fe8cc6f4cf167c76/ziptimezone-1.0.1.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [f3dasm-optimize]: executing diffoscope
+[2024-04-23 13:22:58] INFO root fetch - processPackages [f3dasm-optimize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f3dasm_optimize-1.4.0.tar.gz tmp/f3dasm_optimize-1.5.1.tar.gz --markdown 20240423/f/f3dasm-optimize/1.4.0-1.5.1/README.md --exclude *.pyd
+[2024-04-23 13:22:58] INFO root fetch - processPackages [aura-cli]: executing diffoscope
+[2024-04-23 13:22:58] INFO root fetch - processPackages [aura-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aura-cli-0.5.2.tar.gz tmp/aura-cli-0.6.0.tar.gz --markdown 20240423/a/aura-cli/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-04-23 13:22:58] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [dicomselect]: Downloading https://files.pythonhosted.org/packages/79/4a/f11e56b5f80a5a668dd142b4bb93fa504e05721760cc04a080e1d240c108/dicomselect-0.9.1.tar.gz
+[2024-04-23 13:22:58] INFO root fetch - processPackages [ziptimezone]: executing diffoscope
+[2024-04-23 13:22:58] INFO root fetch - processPackages [ziptimezone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ziptimezone-1.0.0.tar.gz tmp/ziptimezone-1.0.1.tar.gz --markdown 20240423/z/ziptimezone/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-23 13:22:58] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-23 13:22:58] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240423/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-23 13:22:58] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-23 13:22:58] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240423/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-23 13:22:58] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-23 13:22:58] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240423/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-23 13:22:58] INFO root fetch - processPackages [dicomselect]: executing diffoscope
+[2024-04-23 13:22:58] INFO root fetch - processPackages [dicomselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomselect-0.9.0.tar.gz tmp/dicomselect-0.9.1.tar.gz --markdown 20240423/d/dicomselect/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-23 13:22:59] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.0.0.tar.gz]
+[2024-04-23 13:22:59] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.0.1.tar.gz]
+[2024-04-23 13:22:59] INFO root fetch - main [MainThread]: End processing [ziptimezone]: success
+[2024-04-23 13:22:59] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-23 13:22:59] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-23 13:22:59] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-23 13:22:59] INFO root fetch - processPackages [f3dasm-optimize]: Remove: archive file [/home/abi/fetcher/tmp/f3dasm_optimize-1.4.0.tar.gz]
+[2024-04-23 13:22:59] INFO root fetch - processPackages [f3dasm-optimize]: Remove: archive file [/home/abi/fetcher/tmp/f3dasm_optimize-1.5.1.tar.gz]
+[2024-04-23 13:22:59] INFO root fetch - main [MainThread]: End processing [f3dasm-optimize]: success
+[2024-04-23 13:22:59] INFO root fetch - processPackages [dicomselect]: Remove: archive file [/home/abi/fetcher/tmp/dicomselect-0.9.0.tar.gz]
+[2024-04-23 13:22:59] INFO root fetch - processPackages [dicomselect]: Remove: archive file [/home/abi/fetcher/tmp/dicomselect-0.9.1.tar.gz]
+[2024-04-23 13:22:59] INFO root fetch - main [MainThread]: End processing [dicomselect]: success
+[2024-04-23 13:22:59] INFO root fetch - processPackages [aura-cli]: Remove: archive file [/home/abi/fetcher/tmp/aura-cli-0.5.2.tar.gz]
+[2024-04-23 13:22:59] INFO root fetch - processPackages [aura-cli]: Remove: archive file [/home/abi/fetcher/tmp/aura-cli-0.6.0.tar.gz]
+[2024-04-23 13:22:59] INFO root fetch - main [MainThread]: End processing [aura-cli]: success
+[2024-04-23 13:22:59] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-23 13:22:59] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-23 13:22:59] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-23 13:23:00] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-23 13:23:01] INFO root fetch - processPackages [ingestr]: Remove: archive file [/home/abi/fetcher/tmp/ingestr-0.3.0.tar.gz]
+[2024-04-23 13:23:01] INFO root fetch - processPackages [ingestr]: Remove: archive file [/home/abi/fetcher/tmp/ingestr-0.3.1.tar.gz]
+[2024-04-23 13:23:01] INFO root fetch - main [MainThread]: End processing [ingestr]: success
+[2024-04-23 13:23:01] INFO root fetch - main [MainThread]: Store serial: [22892944]
