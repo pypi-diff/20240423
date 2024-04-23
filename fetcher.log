@@ -7447,3 +7447,47 @@
 [2024-04-23 03:45:13] INFO root fetch - processPackages [streamlit-aggrid]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_aggrid-1.0.4.tar.gz]
 [2024-04-23 03:45:13] INFO root fetch - main [MainThread]: End processing [streamlit-aggrid]: success
 [2024-04-23 03:45:13] INFO root fetch - main [MainThread]: Store serial: [22887920]
+[2024-04-23 03:47:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887920]
+[2024-04-23 03:47:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 03:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: artd-stock
+[2024-04-23 03:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-move-name-sequence
+[2024-04-23 03:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-move-name-sequence
+[2024-04-23 03:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mysql-server-has-gone
+[2024-04-23 03:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-move-name-sequence
+[2024-04-23 03:47:26] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: New version: [17.0.1.0.3] Old Version: [17.0.1.0.2]
+[2024-04-23 03:47:26] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: New version: [17.0.1.0.3] Old Version: [17.0.1.0.2]
+[2024-04-23 03:47:26] INFO root fetch - processPackages [artd-stock]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-23 03:47:26] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: New version: [17.0.1.0.3] Old Version: [17.0.1.0.2]
+[2024-04-23 03:47:26] INFO root fetch - processPackages [mysql-server-has-gone]: New version: [2.0.2] Old Version: [2.0.0]
+[2024-04-23 03:47:26] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/29/ad/a6b603e9cacfd39090434a9f728d05ac3b333177c3e9c273c2b9a6f1947a/odoo_addon_account_move_name_sequence-17.0.1.0.2-py3-none-any.whl
+[2024-04-23 03:47:26] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/29/ad/a6b603e9cacfd39090434a9f728d05ac3b333177c3e9c273c2b9a6f1947a/odoo_addon_account_move_name_sequence-17.0.1.0.2-py3-none-any.whl
+[2024-04-23 03:47:26] INFO root fetch - processPackages [artd-stock]: Downloading https://files.pythonhosted.org/packages/07/6a/a4ba81428453b53c542f57282096a126b29174e8e6c18107f4fc87bfbf2c/artd-stock-1.0.4.tar.gz
+[2024-04-23 03:47:26] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/29/ad/a6b603e9cacfd39090434a9f728d05ac3b333177c3e9c273c2b9a6f1947a/odoo_addon_account_move_name_sequence-17.0.1.0.2-py3-none-any.whl
+[2024-04-23 03:47:27] INFO root fetch - processPackages [mysql-server-has-gone]: Downloading https://files.pythonhosted.org/packages/57/61/373dc94efab8c356fe99b6ac0d8182725e72f15bae9b554750f83ed3c20f/mysql_server_has_gone-2.0.0.tar.gz
+[2024-04-23 03:47:27] INFO root fetch - processPackages [artd-stock]: Downloading https://files.pythonhosted.org/packages/26/f2/548569ec818cf76b44d1839cbffd9c551d226f867ddd63856ce66ff4092d/artd-stock-1.0.5.tar.gz
+[2024-04-23 03:47:27] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/ac/ca/1ddbdbe9f0e0327461b64afc34d04f9d59e73b42cf080b5f0a2b0cc8b469/odoo_addon_account_move_name_sequence-17.0.1.0.3-py3-none-any.whl
+[2024-04-23 03:47:27] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/ac/ca/1ddbdbe9f0e0327461b64afc34d04f9d59e73b42cf080b5f0a2b0cc8b469/odoo_addon_account_move_name_sequence-17.0.1.0.3-py3-none-any.whl
+[2024-04-23 03:47:27] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/ac/ca/1ddbdbe9f0e0327461b64afc34d04f9d59e73b42cf080b5f0a2b0cc8b469/odoo_addon_account_move_name_sequence-17.0.1.0.3-py3-none-any.whl
+[2024-04-23 03:47:27] INFO root fetch - processPackages [artd-stock]: executing diffoscope
+[2024-04-23 03:47:27] INFO root fetch - processPackages [artd-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd-stock-1.0.4.tar.gz tmp/artd-stock-1.0.5.tar.gz --markdown 20240423/a/artd-stock/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-23 03:47:27] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: executing diffoscope
+[2024-04-23 03:47:27] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_name_sequence-17.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_move_name_sequence-17.0.1.0.3-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-move-name-sequence/17.0.1.0.2-17.0.1.0.3/README.md --exclude *.pyd
+[2024-04-23 03:47:27] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: executing diffoscope
+[2024-04-23 03:47:27] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_name_sequence-17.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_move_name_sequence-17.0.1.0.3-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-move-name-sequence/17.0.1.0.2-17.0.1.0.3/README.md --exclude *.pyd
+[2024-04-23 03:47:27] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: executing diffoscope
+[2024-04-23 03:47:27] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_name_sequence-17.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_move_name_sequence-17.0.1.0.3-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-move-name-sequence/17.0.1.0.2-17.0.1.0.3/README.md --exclude *.pyd
+[2024-04-23 03:47:27] INFO root fetch - processPackages [mysql-server-has-gone]: Downloading https://files.pythonhosted.org/packages/67/a4/37730bb7722372f634a4a7ec2e4b2f554ed7eca462ee91aaa43e320bc92a/mysql_server_has_gone-2.0.2.tar.gz
+[2024-04-23 03:47:27] INFO root fetch - processPackages [mysql-server-has-gone]: executing diffoscope
+[2024-04-23 03:47:27] INFO root fetch - processPackages [mysql-server-has-gone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_server_has_gone-2.0.0.tar.gz tmp/mysql_server_has_gone-2.0.2.tar.gz --markdown 20240423/m/mysql-server-has-gone/2.0.0-2.0.2/README.md --exclude *.pyd
+[2024-04-23 03:47:28] INFO root fetch - processPackages [artd-stock]: Remove: archive file [/home/abi/fetcher/tmp/artd-stock-1.0.4.tar.gz]
+[2024-04-23 03:47:28] INFO root fetch - processPackages [artd-stock]: Remove: archive file [/home/abi/fetcher/tmp/artd-stock-1.0.5.tar.gz]
+[2024-04-23 03:47:28] INFO root fetch - main [MainThread]: End processing [artd-stock]: success
+[2024-04-23 03:47:28] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_name_sequence-17.0.1.0.2-py3-none-any.whl.zip]
+[2024-04-23 03:47:28] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_name_sequence-17.0.1.0.3-py3-none-any.whl.zip]
+[2024-04-23 03:47:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-name-sequence]: success
+[2024-04-23 03:47:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-name-sequence]: success
+[2024-04-23 03:47:28] INFO root fetch - processPackages [mysql-server-has-gone]: Remove: archive file [/home/abi/fetcher/tmp/mysql_server_has_gone-2.0.0.tar.gz]
+[2024-04-23 03:47:28] INFO root fetch - processPackages [mysql-server-has-gone]: Remove: archive file [/home/abi/fetcher/tmp/mysql_server_has_gone-2.0.2.tar.gz]
+[2024-04-23 03:47:28] INFO root fetch - main [MainThread]: End processing [mysql-server-has-gone]: success
+[2024-04-23 03:47:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-name-sequence]: success
+[2024-04-23 03:47:28] INFO root fetch - main [MainThread]: Store serial: [22887934]
