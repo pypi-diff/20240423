@@ -8295,3 +8295,33 @@
 [2024-04-23 04:35:04] INFO root fetch - main [MainThread]: End processing [LiteEFG]: success
 [2024-04-23 04:35:04] INFO root fetch - main [MainThread]: End processing [LiteEFG]: success
 [2024-04-23 04:35:04] INFO root fetch - main [MainThread]: Store serial: [22888214]
+[2024-04-23 04:37:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888214]
+[2024-04-23 04:37:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 04:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mvesuvio
+[2024-04-23 04:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tradingview-indicators
+[2024-04-23 04:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litellm
+[2024-04-23 04:37:13] INFO root fetch - processPackages [mvesuvio]: New version: [0.0.0.dev183] Old Version: [0.0.0.dev181]
+[2024-04-23 04:37:13] INFO root fetch - processPackages [mvesuvio]: Downloading https://files.pythonhosted.org/packages/3d/4a/892bfcae14c38c273b5e8721c89cb552b6d9ac33bacb164d7beabab9bf8e/mvesuvio-0.0.0.dev181.tar.gz
+[2024-04-23 04:37:13] INFO root fetch - processPackages [tradingview-indicators]: New version: [0.3.7.1] Old Version: [0.3.7]
+[2024-04-23 04:37:13] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-23 04:37:13] INFO root fetch - processPackages [mvesuvio]: Downloading https://files.pythonhosted.org/packages/b8/08/262c910b7ef0e77299660f56266fea2479c58f71b39c7e30253042876324/mvesuvio-0.0.0.dev183.tar.gz
+[2024-04-23 04:37:13] INFO root fetch - processPackages [tradingview-indicators]: Downloading https://files.pythonhosted.org/packages/e2/f9/f56aa61f78d1bb043c5083f0d3ad2d13bd8b5090a3a24104c92b581f145e/tradingview_indicators-0.3.7.tar.gz
+[2024-04-23 04:37:13] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-23 04:37:13] INFO root fetch - processPackages [mvesuvio]: executing diffoscope
+[2024-04-23 04:37:13] INFO root fetch - processPackages [mvesuvio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvesuvio-0.0.0.dev181.tar.gz tmp/mvesuvio-0.0.0.dev183.tar.gz --markdown 20240423/m/mvesuvio/0.0.0.dev181-0.0.0.dev183/README.md --exclude *.pyd
+[2024-04-23 04:37:13] INFO root fetch - processPackages [tradingview-indicators]: Downloading https://files.pythonhosted.org/packages/ce/f6/53647829fb507edc1f76dd4da20c208c38470f566bcb8dccbdcb4930b87a/tradingview_indicators-0.3.7.1.tar.gz
+[2024-04-23 04:37:13] INFO root fetch - processPackages [tradingview-indicators]: executing diffoscope
+[2024-04-23 04:37:13] INFO root fetch - processPackages [tradingview-indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradingview_indicators-0.3.7.tar.gz tmp/tradingview_indicators-0.3.7.1.tar.gz --markdown 20240423/t/tradingview-indicators/0.3.7-0.3.7.1/README.md --exclude *.pyd
+[2024-04-23 04:37:13] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-23 04:37:14] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-23 04:37:14] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240423/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-23 04:37:14] INFO root fetch - processPackages [mvesuvio]: Remove: archive file [/home/abi/fetcher/tmp/mvesuvio-0.0.0.dev181.tar.gz]
+[2024-04-23 04:37:14] INFO root fetch - processPackages [mvesuvio]: Remove: archive file [/home/abi/fetcher/tmp/mvesuvio-0.0.0.dev183.tar.gz]
+[2024-04-23 04:37:14] INFO root fetch - main [MainThread]: End processing [mvesuvio]: success
+[2024-04-23 04:37:14] INFO root fetch - processPackages [tradingview-indicators]: Remove: archive file [/home/abi/fetcher/tmp/tradingview_indicators-0.3.7.tar.gz]
+[2024-04-23 04:37:14] INFO root fetch - processPackages [tradingview-indicators]: Remove: archive file [/home/abi/fetcher/tmp/tradingview_indicators-0.3.7.1.tar.gz]
+[2024-04-23 04:37:14] INFO root fetch - main [MainThread]: End processing [tradingview-indicators]: success
+[2024-04-23 04:37:15] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-23 04:37:15] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-23 04:37:15] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-23 04:37:15] INFO root fetch - main [MainThread]: Store serial: [22888224]
