@@ -10502,3 +10502,24 @@
 [2024-04-23 07:00:51] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
 [2024-04-23 07:00:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2024-04-23 07:00:51] INFO root fetch - main [MainThread]: Store serial: [22889133]
+[2024-04-23 07:02:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889133]
+[2024-04-23 07:02:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 07:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-bootstrap5
+[2024-04-23 07:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: centralcli
+[2024-04-23 07:02:59] INFO root fetch - processPackages [django-bootstrap5]: New version: [24.2] Old Version: [24.1]
+[2024-04-23 07:02:59] INFO root fetch - processPackages [centralcli]: New version: [3.0.0] Old Version: [2.4.0]
+[2024-04-23 07:02:59] INFO root fetch - processPackages [django-bootstrap5]: Downloading https://files.pythonhosted.org/packages/39/21/d15fc1f5bc99733af8397143d50cb971cd680f56756fa882963319632aed/django-bootstrap5-24.1.tar.gz
+[2024-04-23 07:03:00] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/c5/c5/1d2b16fb31a837887c39d6b751400bfc97f0d67ffad297d64aafa813d2c4/centralcli-2.4.0.tar.gz
+[2024-04-23 07:03:00] INFO root fetch - processPackages [django-bootstrap5]: Downloading https://files.pythonhosted.org/packages/f2/74/48395d813a39a06e36031a6f8855a24246d52a985cc52cd17bd76baa8454/django_bootstrap5-24.2.tar.gz
+[2024-04-23 07:03:00] INFO root fetch - processPackages [django-bootstrap5]: executing diffoscope
+[2024-04-23 07:03:00] INFO root fetch - processPackages [django-bootstrap5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bootstrap5-24.1.tar.gz tmp/django_bootstrap5-24.2.tar.gz --markdown 20240423/d/django-bootstrap5/24.1-24.2/README.md --exclude *.pyd
+[2024-04-23 07:03:00] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/74/03/60897e0b6e7d429d31f6fd96cc574098aadf27484a0a24fc9d4201ee7545/centralcli-3.0.0.tar.gz
+[2024-04-23 07:03:00] INFO root fetch - processPackages [centralcli]: executing diffoscope
+[2024-04-23 07:03:00] INFO root fetch - processPackages [centralcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centralcli-2.4.0.tar.gz tmp/centralcli-3.0.0.tar.gz --markdown 20240423/c/centralcli/2.4.0-3.0.0/README.md --exclude *.pyd
+[2024-04-23 07:03:01] INFO root fetch - processPackages [django-bootstrap5]: Remove: archive file [/home/abi/fetcher/tmp/django-bootstrap5-24.1.tar.gz]
+[2024-04-23 07:03:01] INFO root fetch - processPackages [django-bootstrap5]: Remove: archive file [/home/abi/fetcher/tmp/django_bootstrap5-24.2.tar.gz]
+[2024-04-23 07:03:01] INFO root fetch - main [MainThread]: End processing [django-bootstrap5]: success
+[2024-04-23 07:03:01] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-2.4.0.tar.gz]
+[2024-04-23 07:03:01] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-3.0.0.tar.gz]
+[2024-04-23 07:03:01] INFO root fetch - main [MainThread]: End processing [centralcli]: success
+[2024-04-23 07:03:01] INFO root fetch - main [MainThread]: Store serial: [22889140]
