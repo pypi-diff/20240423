@@ -11921,3 +11921,63 @@
 [2024-04-23 08:30:52] INFO root fetch - processPackages [tyjuliacall]: Remove: archive file [/home/abi/fetcher/tmp/tyjuliacall-0.7.5rc1.tar.gz]
 [2024-04-23 08:30:52] INFO root fetch - main [MainThread]: End processing [tyjuliacall]: success
 [2024-04-23 08:30:52] INFO root fetch - main [MainThread]: Store serial: [22889714]
+[2024-04-23 08:32:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889714]
+[2024-04-23 08:33:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 08:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-04-23 08:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: placeholder-img
+[2024-04-23 08:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: danecode
+[2024-04-23 08:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-web-tree-many2one-clickable
+[2024-04-23 08:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rusquant
+[2024-04-23 08:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kanji-to-time
+[2024-04-23 08:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: usscore
+[2024-04-23 08:33:01] INFO root fetch - processPackages [placeholder-img]: New version: [0.3] Old Version: [0.2]
+[2024-04-23 08:33:01] INFO root fetch - processPackages [odoo-addon-web-tree-many2one-clickable]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.5]
+[2024-04-23 08:33:01] INFO root fetch - processPackages [kcli]: New version: [99.0.202404221421] Old Version: [99.0.202404192125]
+[2024-04-23 08:33:01] INFO root fetch - processPackages [danecode]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 08:33:01] INFO root fetch - processPackages [kanji-to-time]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 08:33:01] INFO root fetch - processPackages [placeholder-img]: Downloading https://files.pythonhosted.org/packages/91/0f/17d44e56998721b0d0f7c7ec416242cc798ec2ec4eb22cd4c1cb189eb051/placeholder_img-0.2.tar.gz
+[2024-04-23 08:33:01] WARNING root fetch - processPackages [rusquant]: Skipping, unable to determine old version
+[2024-04-23 08:33:01] INFO root fetch - main [MainThread]: End processing [rusquant] error
+[2024-04-23 08:33:01] INFO root fetch - processPackages [odoo-addon-web-tree-many2one-clickable]: Downloading https://files.pythonhosted.org/packages/ce/97/f6f0c549a5ceafd2c0f6a573af376a23e510897c447c7f621864d10185e1/odoo_addon_web_tree_many2one_clickable-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-23 08:33:01] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c2/30/8214511e33014758e58210fd2fec6df2ad36ae5d13ee9e1694e583b111f1/kcli-99.0.202404192125.tar.gz
+[2024-04-23 08:33:01] INFO root fetch - processPackages [usscore]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-23 08:33:01] INFO root fetch - processPackages [danecode]: Downloading https://files.pythonhosted.org/packages/a1/f4/8ceb7b872ad685243e8339eddbd58683709a2deddc130b50ecef23cab0cd/danecode-0.2.8.tar.gz
+[2024-04-23 08:33:01] INFO root fetch - processPackages [kanji-to-time]: Downloading https://files.pythonhosted.org/packages/df/97/ddc180a8b1b193c8d18fdfbffbfe0f101e14991d88f4995b7a5dddb1d6e0/kanji_to_time-0.0.2.tar.gz
+[2024-04-23 08:33:01] INFO root fetch - processPackages [odoo-addon-web-tree-many2one-clickable]: Downloading https://files.pythonhosted.org/packages/2c/9b/9f88804bdcc4d2653af3a81f0bea533cb1922cf6db23903c49867667e211/odoo_addon_web_tree_many2one_clickable-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-23 08:33:01] INFO root fetch - processPackages [usscore]: Downloading https://files.pythonhosted.org/packages/5d/70/b0056ece2f275d937c0fc356ba568be9f101ba9ce5b689ab0f793c7973af/usscore-0.0.6.tar.gz
+[2024-04-23 08:33:01] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/68/ee/c58dab0d99eda86039657b2ac3f4727dbe6682955ce402bfbbd4cc60091c/kcli-99.0.202404221421.tar.gz
+[2024-04-23 08:33:01] INFO root fetch - processPackages [placeholder-img]: Downloading https://files.pythonhosted.org/packages/00/e3/c162fc9a28d8f147821f5162e0878a5bea24650b49aab464c8ed1259c62e/placeholder_img-0.3.tar.gz
+[2024-04-23 08:33:01] INFO root fetch - processPackages [odoo-addon-web-tree-many2one-clickable]: executing diffoscope
+[2024-04-23 08:33:01] INFO root fetch - processPackages [odoo-addon-web-tree-many2one-clickable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_tree_many2one_clickable-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_web_tree_many2one_clickable-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-web-tree-many2one-clickable/16.0.1.0.0.5-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-23 08:33:01] INFO root fetch - processPackages [danecode]: Downloading https://files.pythonhosted.org/packages/57/b1/f21f951487418c912ce771233c34d7da78239a036fbb00bdec49c9a34216/danecode-0.2.9.tar.gz
+[2024-04-23 08:33:01] INFO root fetch - processPackages [kanji-to-time]: Downloading https://files.pythonhosted.org/packages/83/f6/8827a25767e4435e6c721dee22061dd5a9990949327e77f49469ab47a3c3/kanji_to_time-0.0.3.tar.gz
+[2024-04-23 08:33:02] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-23 08:33:02] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404192125.tar.gz tmp/kcli-99.0.202404221421.tar.gz --markdown 20240423/k/kcli/99.0.202404192125-99.0.202404221421/README.md --exclude *.pyd
+[2024-04-23 08:33:02] INFO root fetch - processPackages [usscore]: Downloading https://files.pythonhosted.org/packages/7d/4d/e8d72f4e34cc19cfb9d77cae14a791ae26f7066d4883003a847be0e650f1/usscore-0.0.7.tar.gz
+[2024-04-23 08:33:02] INFO root fetch - processPackages [placeholder-img]: executing diffoscope
+[2024-04-23 08:33:02] INFO root fetch - processPackages [placeholder-img]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/placeholder_img-0.2.tar.gz tmp/placeholder_img-0.3.tar.gz --markdown 20240423/p/placeholder-img/0.2-0.3/README.md --exclude *.pyd
+[2024-04-23 08:33:02] INFO root fetch - processPackages [kanji-to-time]: executing diffoscope
+[2024-04-23 08:33:02] INFO root fetch - processPackages [kanji-to-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanji_to_time-0.0.2.tar.gz tmp/kanji_to_time-0.0.3.tar.gz --markdown 20240423/k/kanji-to-time/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 08:33:02] INFO root fetch - processPackages [danecode]: executing diffoscope
+[2024-04-23 08:33:02] INFO root fetch - processPackages [danecode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danecode-0.2.8.tar.gz tmp/danecode-0.2.9.tar.gz --markdown 20240423/d/danecode/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 08:33:02] INFO root fetch - processPackages [usscore]: executing diffoscope
+[2024-04-23 08:33:02] INFO root fetch - processPackages [usscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usscore-0.0.6.tar.gz tmp/usscore-0.0.7.tar.gz --markdown 20240423/u/usscore/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-23 08:33:02] INFO root fetch - processPackages [odoo-addon-web-tree-many2one-clickable]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_tree_many2one_clickable-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-23 08:33:02] INFO root fetch - processPackages [odoo-addon-web-tree-many2one-clickable]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_tree_many2one_clickable-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-23 08:33:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-tree-many2one-clickable]: success
+[2024-04-23 08:33:02] INFO root fetch - processPackages [kanji-to-time]: Remove: archive file [/home/abi/fetcher/tmp/kanji_to_time-0.0.2.tar.gz]
+[2024-04-23 08:33:02] INFO root fetch - processPackages [kanji-to-time]: Remove: archive file [/home/abi/fetcher/tmp/kanji_to_time-0.0.3.tar.gz]
+[2024-04-23 08:33:02] INFO root fetch - main [MainThread]: End processing [kanji-to-time]: success
+[2024-04-23 08:33:02] INFO root fetch - processPackages [danecode]: Remove: archive file [/home/abi/fetcher/tmp/danecode-0.2.8.tar.gz]
+[2024-04-23 08:33:02] INFO root fetch - processPackages [danecode]: Remove: archive file [/home/abi/fetcher/tmp/danecode-0.2.9.tar.gz]
+[2024-04-23 08:33:02] INFO root fetch - main [MainThread]: End processing [danecode]: success
+[2024-04-23 08:33:03] INFO root fetch - processPackages [usscore]: Remove: archive file [/home/abi/fetcher/tmp/usscore-0.0.6.tar.gz]
+[2024-04-23 08:33:03] INFO root fetch - processPackages [usscore]: Remove: archive file [/home/abi/fetcher/tmp/usscore-0.0.7.tar.gz]
+[2024-04-23 08:33:03] INFO root fetch - main [MainThread]: End processing [usscore]: success
+[2024-04-23 08:33:03] INFO root fetch - processPackages [placeholder-img]: Remove: archive file [/home/abi/fetcher/tmp/placeholder_img-0.2.tar.gz]
+[2024-04-23 08:33:03] INFO root fetch - processPackages [placeholder-img]: Remove: archive file [/home/abi/fetcher/tmp/placeholder_img-0.3.tar.gz]
+[2024-04-23 08:33:03] INFO root fetch - main [MainThread]: End processing [placeholder-img]: success
+[2024-04-23 08:33:04] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404192125.tar.gz]
+[2024-04-23 08:33:04] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404221421.tar.gz]
+[2024-04-23 08:33:04] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-23 08:33:04] INFO root fetch - main [MainThread]: Store serial: [22889732]
