@@ -11697,3 +11697,33 @@
 [2024-04-23 08:15:20] INFO root fetch - processPackages [placeholder-img]: Remove: archive file [/home/abi/fetcher/tmp/placeholder_img-0.3.tar.gz]
 [2024-04-23 08:15:20] INFO root fetch - main [MainThread]: End processing [placeholder-img]: success
 [2024-04-23 08:15:20] INFO root fetch - main [MainThread]: Store serial: [22889642]
+[2024-04-23 08:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889642]
+[2024-04-23 08:17:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 08:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diligence-fuzzing
+[2024-04-23 08:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module-latest
+[2024-04-23 08:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module
+[2024-04-23 08:17:29] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240422] Old Version: [20240421]
+[2024-04-23 08:17:29] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240422] Old Version: [20240421]
+[2024-04-23 08:17:29] INFO root fetch - processPackages [diligence-fuzzing]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 08:17:29] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/15/2f/c9e94a77df0159ad708c2f43ce08f3d64d4ac7364bdd37c8e7158fbcea4e/fake_bpy_module_latest-20240421.tar.gz
+[2024-04-23 08:17:29] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/8d/b8/49a272b5a04cfa2670abe42357789def40ce5ffa513ba94180b88cdf3277/fake_bpy_module-20240421.tar.gz
+[2024-04-23 08:17:29] INFO root fetch - processPackages [diligence-fuzzing]: Downloading https://files.pythonhosted.org/packages/c1/28/b687d74c7da4caafcaab43ac427a10d4b6638078707dcf4ccef1b093e5f4/diligence-fuzzing-0.9.8.tar.gz
+[2024-04-23 08:17:29] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/a6/fa/b49ae886f0779b48b24b5a62872053e4f8a96f26a9415736768344482902/fake_bpy_module_latest-20240422.tar.gz
+[2024-04-23 08:17:29] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/ba/94/42dd34802d9311acf59aee05f7c2736fc485d5e80e905bdf405c97230120/fake_bpy_module-20240422.tar.gz
+[2024-04-23 08:17:30] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-23 08:17:30] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240421.tar.gz tmp/fake_bpy_module_latest-20240422.tar.gz --markdown 20240423/f/fake-bpy-module-latest/20240421-20240422/README.md --exclude *.pyd
+[2024-04-23 08:17:30] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-23 08:17:30] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240421.tar.gz tmp/fake_bpy_module-20240422.tar.gz --markdown 20240423/f/fake-bpy-module/20240421-20240422/README.md --exclude *.pyd
+[2024-04-23 08:17:31] INFO root fetch - processPackages [diligence-fuzzing]: Downloading https://files.pythonhosted.org/packages/e9/e7/beb1c42c3d9d8ab6cf0cf3d7d46cc78f8fefce9ce53bcc9b20c8e747951c/diligence-fuzzing-0.9.9.tar.gz
+[2024-04-23 08:17:32] INFO root fetch - processPackages [diligence-fuzzing]: executing diffoscope
+[2024-04-23 08:17:32] INFO root fetch - processPackages [diligence-fuzzing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diligence-fuzzing-0.9.8.tar.gz tmp/diligence-fuzzing-0.9.9.tar.gz --markdown 20240423/d/diligence-fuzzing/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-23 08:17:33] INFO root fetch - processPackages [diligence-fuzzing]: Remove: archive file [/home/abi/fetcher/tmp/diligence-fuzzing-0.9.8.tar.gz]
+[2024-04-23 08:17:33] INFO root fetch - processPackages [diligence-fuzzing]: Remove: archive file [/home/abi/fetcher/tmp/diligence-fuzzing-0.9.9.tar.gz]
+[2024-04-23 08:17:33] INFO root fetch - main [MainThread]: End processing [diligence-fuzzing]: success
+[2024-04-23 08:17:41] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240421.tar.gz]
+[2024-04-23 08:17:41] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240422.tar.gz]
+[2024-04-23 08:17:41] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-23 08:17:42] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240421.tar.gz]
+[2024-04-23 08:17:42] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240422.tar.gz]
+[2024-04-23 08:17:42] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-23 08:17:42] INFO root fetch - main [MainThread]: Store serial: [22889652]
