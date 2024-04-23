@@ -16919,3 +16919,99 @@
 [2024-04-23 11:46:26] INFO root fetch - processPackages [torchvinecopulib]: Remove: archive file [/home/abi/fetcher/tmp/torchvinecopulib-2024.4.0.tar.gz]
 [2024-04-23 11:46:26] INFO root fetch - main [MainThread]: End processing [torchvinecopulib]: success
 [2024-04-23 11:46:26] INFO root fetch - main [MainThread]: Store serial: [22891921]
+[2024-04-23 11:48:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891921]
+[2024-04-23 11:48:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-23 11:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robust-extraction
+[2024-04-23 11:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xgne
+[2024-04-23 11:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TitanDevice
+[2024-04-23 11:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lavague
+[2024-04-23 11:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finpy-tse
+[2024-04-23 11:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hellop
+[2024-04-23 11:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: embtechx
+[2024-04-23 11:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycommons
+[2024-04-23 11:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkmavrykchain
+[2024-04-23 11:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dcor-control
+[2024-04-23 11:48:35] INFO root fetch - processPackages [robust-extraction]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 11:48:35] INFO root fetch - processPackages [TitanDevice]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-23 11:48:35] INFO root fetch - processPackages [embtechx]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-23 11:48:35] INFO root fetch - processPackages [pycommons]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-23 11:48:35] INFO root fetch - processPackages [lavague]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-23 11:48:35] INFO root fetch - processPackages [xgne]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 11:48:35] INFO root fetch - processPackages [finpy-tse]: New version: [1.2.9] Old Version: [1.2.6]
+[2024-04-23 11:48:35] INFO root fetch - processPackages [mkmavrykchain]: New version: [6.25.6] Old Version: [6.25.5]
+[2024-04-23 11:48:35] WARNING root fetch - processPackages [hellop]: Skipping, unable to determine old version
+[2024-04-23 11:48:35] INFO root fetch - processPackages [hellop]: Start processing: jaraco.docker
+[2024-04-23 11:48:35] INFO root fetch - main [MainThread]: End processing [hellop] error
+[2024-04-23 11:48:35] INFO root fetch - processPackages [robust-extraction]: Downloading https://files.pythonhosted.org/packages/a1/3e/7b2828388391de2f8109cddd06317d084589f928d29bf0fc29800ea18286/robust_extraction-0.1.8.tar.gz
+[2024-04-23 11:48:35] INFO root fetch - processPackages [dcor-control]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-23 11:48:35] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/da/63/0ba6ae0210c8078d9e9330db6d214eae81c30a14e1e5eb9b21a6205e3621/TitanDevice-0.1.3.tar.gz
+[2024-04-23 11:48:35] INFO root fetch - processPackages [embtechx]: Downloading https://files.pythonhosted.org/packages/b7/a2/ce624962abea1eca277bf91fa7f1e589467b1d5082670b053fca0ea56ae3/embtechx-1.0.3.tar.gz
+[2024-04-23 11:48:35] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/f5/b7/e2307174b50d3416008197b30b2fd81919d123479629cd660c1128d5abec/pycommons-0.8.8.tar.gz
+[2024-04-23 11:48:35] INFO root fetch - processPackages [jaraco.docker]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-04-23 11:48:35] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/31/d1/0cfe91a31c6d2c5ee49c6ca68dbd67d5686859789142a8739e5bca0b0f64/lavague-1.0.7.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [jaraco.docker]: Downloading https://files.pythonhosted.org/packages/86/8d/8f206692f3f645230faf7cb0473e12137c4ee683e21ad0283297f5b2fc58/jaraco.docker-2.1.2.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [xgne]: Downloading https://files.pythonhosted.org/packages/9b/ca/02d1e58b1ee221f5b2cfab15708d59ec95832526f0ba02d01f5567bbe2fb/xgne-0.0.8.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [finpy-tse]: Downloading https://files.pythonhosted.org/packages/1f/32/ddf93c0ee95dfa091612ffe29280655c80bb96eb88b1f32d1e815053ad34/finpy_tse-1.2.6.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/81/69/2c246bef7704f5a561d171e7c4f4b200e06d1d305a3e09db7f93459052e8/mkmavrykchain-6.25.5-py3-none-any.whl
+[2024-04-23 11:48:36] INFO root fetch - processPackages [dcor-control]: Downloading https://files.pythonhosted.org/packages/3f/e0/b529d0b47a5311206f02a4a2afcb79c527dc87c6e48d5502150b3f89c584/dcor_control-0.9.4.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/b6/ca/acae5b6b302dfdf392c815106b020283d0238189cbe02716e4a0c042a8df/pycommons-0.8.9.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [robust-extraction]: Downloading https://files.pythonhosted.org/packages/0d/43/a8bb93d85a7bbbec00eecbb969e011477bfd7816348453ad4d8b6f46a7f2/robust_extraction-0.1.9.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/90/ae/ef15cdbafca5c2bb3061506414f0f86c145c4509484a2ef70eff965a6cff/TitanDevice-0.1.4.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [embtechx]: Downloading https://files.pythonhosted.org/packages/50/6c/2140f845cce0272153e0f6ec7bd5a811d2961112083fd39f866cde3fa92f/embtechx-1.0.4.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [jaraco.docker]: Downloading https://files.pythonhosted.org/packages/6c/ab/6cf1261b363267565c083f70bcd57a8802327f742a8a915d430429cf5d4a/jaraco_docker-2.2.0.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [robust-extraction]: executing diffoscope
+[2024-04-23 11:48:36] INFO root fetch - processPackages [robust-extraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robust_extraction-0.1.8.tar.gz tmp/robust_extraction-0.1.9.tar.gz --markdown 20240423/r/robust-extraction/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 11:48:36] INFO root fetch - processPackages [pycommons]: executing diffoscope
+[2024-04-23 11:48:36] INFO root fetch - processPackages [pycommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons-0.8.8.tar.gz tmp/pycommons-0.8.9.tar.gz --markdown 20240423/p/pycommons/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-23 11:48:36] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/b0/fa/e20813e49f490477b80c5b638ee1f7a8f5f0dbc3dff78c34a4896c8b2b9c/lavague-1.0.8.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-23 11:48:36] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.1.3.tar.gz tmp/TitanDevice-0.1.4.tar.gz --markdown 20240423/T/TitanDevice/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-23 11:48:36] INFO root fetch - processPackages [embtechx]: executing diffoscope
+[2024-04-23 11:48:36] INFO root fetch - processPackages [embtechx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embtechx-1.0.3.tar.gz tmp/embtechx-1.0.4.tar.gz --markdown 20240423/e/embtechx/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-23 11:48:36] INFO root fetch - processPackages [xgne]: Downloading https://files.pythonhosted.org/packages/ba/13/74935d7062685b77e55295d5043669045835a460054dd0e83acd5c4ac971/xgne-0.0.9.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [jaraco.docker]: executing diffoscope
+[2024-04-23 11:48:36] INFO root fetch - processPackages [jaraco.docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.docker-2.1.2.tar.gz tmp/jaraco_docker-2.2.0.tar.gz --markdown 20240423/j/jaraco.docker/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-04-23 11:48:36] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/bb/55/eb0d26405c4a5ef81954453ce7c9c1a83be7195e8e9a2ea017fc66d0069f/mkmavrykchain-6.25.6-py3-none-any.whl
+[2024-04-23 11:48:36] INFO root fetch - processPackages [dcor-control]: Downloading https://files.pythonhosted.org/packages/cd/c1/a7cdfc3e3b4c69171f93c66e26ce8a4d0b4c13c0f47406c81ed0a12433f0/dcor_control-0.9.5.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [finpy-tse]: Downloading https://files.pythonhosted.org/packages/a9/0a/7364ebcf501b0829f2f258e95313cccc4d24f96c3016cb917786bfa8b596/finpy_tse-1.2.9.tar.gz
+[2024-04-23 11:48:36] INFO root fetch - processPackages [xgne]: executing diffoscope
+[2024-04-23 11:48:36] INFO root fetch - processPackages [xgne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgne-0.0.8.tar.gz tmp/xgne-0.0.9.tar.gz --markdown 20240423/x/xgne/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 11:48:36] INFO root fetch - processPackages [lavague]: executing diffoscope
+[2024-04-23 11:48:36] INFO root fetch - processPackages [lavague]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague-1.0.7.tar.gz tmp/lavague-1.0.8.tar.gz --markdown 20240423/l/lavague/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-23 11:48:36] INFO root fetch - processPackages [dcor-control]: executing diffoscope
+[2024-04-23 11:48:36] INFO root fetch - processPackages [dcor-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcor_control-0.9.4.tar.gz tmp/dcor_control-0.9.5.tar.gz --markdown 20240423/d/dcor-control/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-23 11:48:36] INFO root fetch - processPackages [mkmavrykchain]: executing diffoscope
+[2024-04-23 11:48:36] INFO root fetch - processPackages [mkmavrykchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkmavrykchain-6.25.5-py3-none-any.whl.zip tmp/mkmavrykchain-6.25.6-py3-none-any.whl.zip --markdown 20240423/m/mkmavrykchain/6.25.5-6.25.6/README.md --exclude *.pyd
+[2024-04-23 11:48:36] INFO root fetch - processPackages [finpy-tse]: executing diffoscope
+[2024-04-23 11:48:36] INFO root fetch - processPackages [finpy-tse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finpy_tse-1.2.6.tar.gz tmp/finpy_tse-1.2.9.tar.gz --markdown 20240423/f/finpy-tse/1.2.6-1.2.9/README.md --exclude *.pyd
+[2024-04-23 11:48:37] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.3.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.4.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-23 11:48:37] INFO root fetch - processPackages [jaraco.docker]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.docker-2.1.2.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - processPackages [jaraco.docker]: Remove: archive file [/home/abi/fetcher/tmp/jaraco_docker-2.2.0.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - main [MainThread]: End processing [jaraco.docker]: success
+[2024-04-23 11:48:37] INFO root fetch - processPackages [robust-extraction]: Remove: archive file [/home/abi/fetcher/tmp/robust_extraction-0.1.8.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - processPackages [robust-extraction]: Remove: archive file [/home/abi/fetcher/tmp/robust_extraction-0.1.9.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - main [MainThread]: End processing [robust-extraction]: success
+[2024-04-23 11:48:37] INFO root fetch - processPackages [embtechx]: Remove: archive file [/home/abi/fetcher/tmp/embtechx-1.0.3.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - processPackages [embtechx]: Remove: archive file [/home/abi/fetcher/tmp/embtechx-1.0.4.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - main [MainThread]: End processing [embtechx]: success
+[2024-04-23 11:48:37] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.8.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.9.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - main [MainThread]: End processing [pycommons]: success
+[2024-04-23 11:48:37] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.7.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.8.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - main [MainThread]: End processing [lavague]: success
+[2024-04-23 11:48:37] INFO root fetch - processPackages [xgne]: Remove: archive file [/home/abi/fetcher/tmp/xgne-0.0.8.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - processPackages [xgne]: Remove: archive file [/home/abi/fetcher/tmp/xgne-0.0.9.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - main [MainThread]: End processing [xgne]: success
+[2024-04-23 11:48:37] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.5-py3-none-any.whl.zip]
+[2024-04-23 11:48:37] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.6-py3-none-any.whl.zip]
+[2024-04-23 11:48:37] INFO root fetch - main [MainThread]: End processing [mkmavrykchain]: success
+[2024-04-23 11:48:37] INFO root fetch - processPackages [dcor-control]: Remove: archive file [/home/abi/fetcher/tmp/dcor_control-0.9.4.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - processPackages [dcor-control]: Remove: archive file [/home/abi/fetcher/tmp/dcor_control-0.9.5.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - main [MainThread]: End processing [dcor-control]: success
+[2024-04-23 11:48:37] INFO root fetch - processPackages [finpy-tse]: Remove: archive file [/home/abi/fetcher/tmp/finpy_tse-1.2.6.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - processPackages [finpy-tse]: Remove: archive file [/home/abi/fetcher/tmp/finpy_tse-1.2.9.tar.gz]
+[2024-04-23 11:48:37] INFO root fetch - main [MainThread]: End processing [finpy-tse]: success
+[2024-04-23 11:48:37] INFO root fetch - main [MainThread]: Store serial: [22891963]
