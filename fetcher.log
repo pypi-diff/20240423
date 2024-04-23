@@ -12427,3 +12427,48 @@
 [2024-04-23 08:53:36] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.748.0.tar.gz]
 [2024-04-23 08:53:36] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-04-23 08:53:36] INFO root fetch - main [MainThread]: Store serial: [22889893]
+[2024-04-23 08:55:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889893]
+[2024-04-23 08:55:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: property-utils
+[2024-04-23 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hscloud
+[2024-04-23 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: screwdriver-cd-python-sdk
+[2024-04-23 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qteasy
+[2024-04-23 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: limedriver
+[2024-04-23 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rv-utilities
+[2024-04-23 08:55:45] INFO root fetch - processPackages [hscloud]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-23 08:55:45] INFO root fetch - processPackages [property-utils]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-23 08:55:45] WARNING root fetch - processPackages [rv-utilities]: Skipping, unable to determine old version
+[2024-04-23 08:55:45] INFO root fetch - main [MainThread]: End processing [rv-utilities] error
+[2024-04-23 08:55:45] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: New version: [1.0.2] Old Version: [1.0.11]
+[2024-04-23 08:55:45] INFO root fetch - processPackages [qteasy]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-04-23 08:55:45] WARNING root fetch - processPackages [limedriver]: Skipping, unable to determine old version
+[2024-04-23 08:55:45] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/6c/b5/6117bbd03e38ba05a01fa7bd0a11700d500814cfa04fd711f02f12261512/hscloud-0.0.3.tar.gz
+[2024-04-23 08:55:45] INFO root fetch - main [MainThread]: End processing [limedriver] error
+[2024-04-23 08:55:45] INFO root fetch - processPackages [property-utils]: Downloading https://files.pythonhosted.org/packages/dd/28/277b8523458b50d9beadf68a8f0f01f9ab7f550d7309284a1966db5490c0/property_utils-0.2.2.tar.gz
+[2024-04-23 08:55:45] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: Downloading https://files.pythonhosted.org/packages/1f/e1/6089d45cbe681186dc35def5129a361a484f3869a57817d51de25b011990/screwdriver-cd-python-sdk-1.0.11.tar.gz
+[2024-04-23 08:55:45] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/86/6f/ec297592682a7da6075fc20b58773ab4c960f584d36dc79f1ca91718153f/qteasy-1.1.9.tar.gz
+[2024-04-23 08:55:45] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/f3/6c/4905265c8b1daa8feca2555988147bd84ba2961c9bd5587239bf88a9dbec/hscloud-0.0.4.tar.gz
+[2024-04-23 08:55:45] INFO root fetch - processPackages [hscloud]: executing diffoscope
+[2024-04-23 08:55:45] INFO root fetch - processPackages [hscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscloud-0.0.3.tar.gz tmp/hscloud-0.0.4.tar.gz --markdown 20240423/h/hscloud/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-23 08:55:45] INFO root fetch - processPackages [property-utils]: Downloading https://files.pythonhosted.org/packages/16/98/aeeab4895e58f078159a91848f2ed92699dd4d42a921f515c14e5deea3fc/property_utils-0.2.3.tar.gz
+[2024-04-23 08:55:45] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: Downloading https://files.pythonhosted.org/packages/e1/b6/2c762d32639c1779b38f0bda287a1432ee8e23773e74b286d99b2b1a0a27/screwdriver-cd-python-sdk-1.0.2.tar.gz
+[2024-04-23 08:55:46] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/3c/22/fd5b74f6b42c16d2ea6a87eda3d1baf89263c86d8083da71d30270cf54b0/qteasy-1.2.0.tar.gz
+[2024-04-23 08:55:46] INFO root fetch - processPackages [property-utils]: executing diffoscope
+[2024-04-23 08:55:46] INFO root fetch - processPackages [property-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/property_utils-0.2.2.tar.gz tmp/property_utils-0.2.3.tar.gz --markdown 20240423/p/property-utils/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-23 08:55:46] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: executing diffoscope
+[2024-04-23 08:55:46] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screwdriver-cd-python-sdk-1.0.11.tar.gz tmp/screwdriver-cd-python-sdk-1.0.2.tar.gz --markdown 20240423/s/screwdriver-cd-python-sdk/1.0.11-1.0.2/README.md --exclude *.pyd
+[2024-04-23 08:55:46] INFO root fetch - processPackages [qteasy]: executing diffoscope
+[2024-04-23 08:55:46] INFO root fetch - processPackages [qteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qteasy-1.1.9.tar.gz tmp/qteasy-1.2.0.tar.gz --markdown 20240423/q/qteasy/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-04-23 08:55:46] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.3.tar.gz]
+[2024-04-23 08:55:46] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.4.tar.gz]
+[2024-04-23 08:55:46] INFO root fetch - main [MainThread]: End processing [hscloud]: success
+[2024-04-23 08:55:46] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/screwdriver-cd-python-sdk-1.0.11.tar.gz]
+[2024-04-23 08:55:46] INFO root fetch - processPackages [screwdriver-cd-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/screwdriver-cd-python-sdk-1.0.2.tar.gz]
+[2024-04-23 08:55:46] INFO root fetch - main [MainThread]: End processing [screwdriver-cd-python-sdk]: success
+[2024-04-23 08:55:46] INFO root fetch - processPackages [property-utils]: Remove: archive file [/home/abi/fetcher/tmp/property_utils-0.2.2.tar.gz]
+[2024-04-23 08:55:46] INFO root fetch - processPackages [property-utils]: Remove: archive file [/home/abi/fetcher/tmp/property_utils-0.2.3.tar.gz]
+[2024-04-23 08:55:46] INFO root fetch - main [MainThread]: End processing [property-utils]: success
+[2024-04-23 08:55:47] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.9.tar.gz]
+[2024-04-23 08:55:47] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.2.0.tar.gz]
+[2024-04-23 08:55:47] INFO root fetch - main [MainThread]: End processing [qteasy]: success
+[2024-04-23 08:55:47] INFO root fetch - main [MainThread]: Store serial: [22889929]
