@@ -18137,3 +18137,50 @@
 [2024-04-23 12:34:36] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
 [2024-04-23 12:34:36] INFO root fetch - main [MainThread]: End processing [lense]: success
 [2024-04-23 12:34:36] INFO root fetch - main [MainThread]: Store serial: [22892397]
+[2024-04-23 12:36:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892397]
+[2024-04-23 12:36:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 12:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quartz-solar-forecast
+[2024-04-23 12:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmaboss
+[2024-04-23 12:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: revert-api
+[2024-04-23 12:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiokeitaro
+[2024-04-23 12:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monthlycalc
+[2024-04-23 12:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TitanDevice
+[2024-04-23 12:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hance
+[2024-04-23 12:36:45] INFO root fetch - processPackages [TitanDevice]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-23 12:36:45] WARNING root fetch - processPackages [aiokeitaro]: Skipping, unable to determine old version
+[2024-04-23 12:36:45] INFO root fetch - main [MainThread]: End processing [aiokeitaro] error
+[2024-04-23 12:36:45] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/10/05/9b26377a67e012771d99400d2ef33e8f8c270e2cb2f3bc8fd6eb8e3504fa/TitanDevice-0.1.7.tar.gz
+[2024-04-23 12:36:45] WARNING root fetch - processPackages [monthlycalc]: Skipping, unable to determine old version
+[2024-04-23 12:36:45] INFO root fetch - processPackages [revert-api]: New version: [0.0.852] Old Version: [0.0.834]
+[2024-04-23 12:36:45] INFO root fetch - main [MainThread]: End processing [monthlycalc] error
+[2024-04-23 12:36:45] INFO root fetch - processPackages [hance]: New version: [2.0.2] Old Version: [1.0.6]
+[2024-04-23 12:36:45] INFO root fetch - processPackages [quartz-solar-forecast]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 12:36:45] INFO root fetch - processPackages [cmaboss]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2024-04-23 12:36:45] INFO root fetch - processPackages [revert-api]: Downloading https://files.pythonhosted.org/packages/d7/cc/292ee866841febdda1ff9292cca6b26ccb648f83d1b2dc962b2d545691f8/revert_api-0.0.834.tar.gz
+[2024-04-23 12:36:45] INFO root fetch - processPackages [quartz-solar-forecast]: Downloading https://files.pythonhosted.org/packages/0d/a8/ee147294e81be2e9274d941b626981b0df1b12acfaf2ae02d8331d025398/quartz_solar_forecast-1.0.8.tar.gz
+[2024-04-23 12:36:45] INFO root fetch - processPackages [cmaboss]: Downloading https://files.pythonhosted.org/packages/a2/60/33f5c6286a3cc50d79b730b180389291450f125f1ae400b910009cb41f6b/cmaboss-1.0.0b8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2024-04-23 12:36:45] INFO root fetch - processPackages [hance]: Downloading https://files.pythonhosted.org/packages/7f/1e/646a1a12f322f03ae63891f9a113bc3dda501bff8d9caa57f35fd2da8a78/hance-1.0.6-py3-none-win_amd64.whl
+[2024-04-23 12:36:45] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/bd/c5/74f9c777a621edfa401c6ed4668af92340fe2fc386f5081a479b210ca8bd/TitanDevice-0.1.8.tar.gz
+[2024-04-23 12:36:45] WARNING root fetch - processPackages [cmaboss]: Skipping package: exceeds size limit 19802448>=10485760
+[2024-04-23 12:36:45] INFO root fetch - main [MainThread]: End processing [cmaboss] error
+[2024-04-23 12:36:45] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-23 12:36:45] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.1.7.tar.gz tmp/TitanDevice-0.1.8.tar.gz --markdown 20240423/T/TitanDevice/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-23 12:36:45] INFO root fetch - processPackages [revert-api]: Downloading https://files.pythonhosted.org/packages/db/41/569b085ee5638d8ba5384eab141bc0764e876ad9cfb03ba32987d28ddeee/revert_api-0.0.852.tar.gz
+[2024-04-23 12:36:46] INFO root fetch - processPackages [revert-api]: executing diffoscope
+[2024-04-23 12:36:46] INFO root fetch - processPackages [revert-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revert_api-0.0.834.tar.gz tmp/revert_api-0.0.852.tar.gz --markdown 20240423/r/revert-api/0.0.834-0.0.852/README.md --exclude *.pyd
+[2024-04-23 12:36:46] INFO root fetch - processPackages [quartz-solar-forecast]: Downloading https://files.pythonhosted.org/packages/0e/b9/7ccd44f74671069cbf95adc294da069634730309a62687625a2d685c17e7/quartz_solar_forecast-1.0.9.tar.gz
+[2024-04-23 12:36:46] INFO root fetch - processPackages [quartz-solar-forecast]: executing diffoscope
+[2024-04-23 12:36:46] INFO root fetch - processPackages [quartz-solar-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quartz_solar_forecast-1.0.8.tar.gz tmp/quartz_solar_forecast-1.0.9.tar.gz --markdown 20240423/q/quartz-solar-forecast/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 12:36:46] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.7.tar.gz]
+[2024-04-23 12:36:46] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.8.tar.gz]
+[2024-04-23 12:36:46] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-23 12:36:46] INFO root fetch - processPackages [quartz-solar-forecast]: Remove: archive file [/home/abi/fetcher/tmp/quartz_solar_forecast-1.0.8.tar.gz]
+[2024-04-23 12:36:46] INFO root fetch - processPackages [quartz-solar-forecast]: Remove: archive file [/home/abi/fetcher/tmp/quartz_solar_forecast-1.0.9.tar.gz]
+[2024-04-23 12:36:46] INFO root fetch - main [MainThread]: End processing [quartz-solar-forecast]: success
+[2024-04-23 12:36:47] INFO root fetch - processPackages [revert-api]: Remove: archive file [/home/abi/fetcher/tmp/revert_api-0.0.834.tar.gz]
+[2024-04-23 12:36:47] INFO root fetch - processPackages [revert-api]: Remove: archive file [/home/abi/fetcher/tmp/revert_api-0.0.852.tar.gz]
+[2024-04-23 12:36:47] INFO root fetch - main [MainThread]: End processing [revert-api]: success
+[2024-04-23 12:36:47] INFO root fetch - processPackages [hance]: Downloading https://files.pythonhosted.org/packages/42/fa/50721161953c853fff91a49dbe47aca0d6786629bb1cb64dd78e597435d1/hance-2.0.2-py3-none-win32.whl
+[2024-04-23 12:36:48] WARNING root fetch - processPackages [hance]: Skipping package: exceeds size limit 22091075>=10485760
+[2024-04-23 12:36:48] INFO root fetch - main [MainThread]: End processing [hance] error
+[2024-04-23 12:36:48] INFO root fetch - main [MainThread]: Store serial: [22892428]
