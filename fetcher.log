@@ -8496,3 +8496,27 @@
 [2024-04-23 04:50:49] INFO root fetch - processPackages [dispatch-py]: Remove: archive file [/home/abi/fetcher/tmp/dispatch_py-0.6.0.tar.gz]
 [2024-04-23 04:50:49] INFO root fetch - main [MainThread]: End processing [dispatch-py]: success
 [2024-04-23 04:50:49] INFO root fetch - main [MainThread]: Store serial: [22888322]
+[2024-04-23 04:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888322]
+[2024-04-23 04:52:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 04:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-account-payment-term-partner-holiday
+[2024-04-23 04:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SplatStats
+[2024-04-23 04:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intel-ai-safety
+[2024-04-23 04:52:58] WARNING root fetch - processPackages [intel-ai-safety]: Skipping, unable to determine old version
+[2024-04-23 04:52:58] INFO root fetch - processPackages [odoo14-addon-account-payment-term-partner-holiday]: New version: [14.0.1.0.1.dev3] Old Version: [14.0.1.0.1.dev2]
+[2024-04-23 04:52:58] INFO root fetch - main [MainThread]: End processing [intel-ai-safety] error
+[2024-04-23 04:52:58] INFO root fetch - processPackages [SplatStats]: New version: [4.2.2] Old Version: [4.2.1]
+[2024-04-23 04:52:59] INFO root fetch - processPackages [odoo14-addon-account-payment-term-partner-holiday]: Downloading https://files.pythonhosted.org/packages/c9/0e/e9cc775e98cb2662f6f466f96057cb7f64eecbd863cf8977f773648a3ca4/odoo14_addon_account_payment_term_partner_holiday-14.0.1.0.1.dev2-py3-none-any.whl
+[2024-04-23 04:52:59] INFO root fetch - processPackages [SplatStats]: Downloading https://files.pythonhosted.org/packages/bc/18/d8873100a70aebdf8a3cf8cee63174f2b0ada2006c79e27e9532e40c08a6/SplatStats-4.2.1.tar.gz
+[2024-04-23 04:52:59] INFO root fetch - processPackages [odoo14-addon-account-payment-term-partner-holiday]: Downloading https://files.pythonhosted.org/packages/bc/ac/3ad6921403abc7d33360969f3cb88f16982fd8ec2d945efb1682d858c603/odoo14_addon_account_payment_term_partner_holiday-14.0.1.0.1.dev3-py3-none-any.whl
+[2024-04-23 04:52:59] INFO root fetch - processPackages [SplatStats]: Downloading https://files.pythonhosted.org/packages/54/12/fd74e5f6d5cfec4207b39b49d20ef49676d2a99e513a26e6cb8c25e2eefd/SplatStats-4.2.2.tar.gz
+[2024-04-23 04:52:59] INFO root fetch - processPackages [odoo14-addon-account-payment-term-partner-holiday]: executing diffoscope
+[2024-04-23 04:52:59] INFO root fetch - processPackages [odoo14-addon-account-payment-term-partner-holiday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_payment_term_partner_holiday-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_account_payment_term_partner_holiday-14.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-account-payment-term-partner-holiday/14.0.1.0.1.dev2-14.0.1.0.1.dev3/README.md --exclude *.pyd
+[2024-04-23 04:52:59] INFO root fetch - processPackages [SplatStats]: executing diffoscope
+[2024-04-23 04:52:59] INFO root fetch - processPackages [SplatStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SplatStats-4.2.1.tar.gz tmp/SplatStats-4.2.2.tar.gz --markdown 20240423/S/SplatStats/4.2.1-4.2.2/README.md --exclude *.pyd
+[2024-04-23 04:52:59] INFO root fetch - processPackages [odoo14-addon-account-payment-term-partner-holiday]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_term_partner_holiday-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2024-04-23 04:52:59] INFO root fetch - processPackages [odoo14-addon-account-payment-term-partner-holiday]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_term_partner_holiday-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2024-04-23 04:52:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-term-partner-holiday]: success
+[2024-04-23 04:53:00] INFO root fetch - processPackages [SplatStats]: Remove: archive file [/home/abi/fetcher/tmp/SplatStats-4.2.1.tar.gz]
+[2024-04-23 04:53:00] INFO root fetch - processPackages [SplatStats]: Remove: archive file [/home/abi/fetcher/tmp/SplatStats-4.2.2.tar.gz]
+[2024-04-23 04:53:00] INFO root fetch - main [MainThread]: End processing [SplatStats]: success
+[2024-04-23 04:53:00] INFO root fetch - main [MainThread]: Store serial: [22888331]
