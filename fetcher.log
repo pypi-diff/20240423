@@ -8559,3 +8559,67 @@
 [2024-04-23 04:55:12] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.5.9.tar.gz]
 [2024-04-23 04:55:12] INFO root fetch - main [MainThread]: End processing [proksee-batch]: success
 [2024-04-23 04:55:12] INFO root fetch - main [MainThread]: Store serial: [22888341]
+[2024-04-23 04:57:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888341]
+[2024-04-23 04:57:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 04:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyapi-django
+[2024-04-23 04:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-banking-sepa-direct-debit
+[2024-04-23 04:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-banking-sepa-direct-debit
+[2024-04-23 04:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-payment-order
+[2024-04-23 04:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-payment-method-fs-storage
+[2024-04-23 04:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DXR-BJ
+[2024-04-23 04:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tetos
+[2024-04-23 04:57:21] INFO root fetch - processPackages [DXR-BJ]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-payment-method-fs-storage]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2024-04-23 04:57:21] INFO root fetch - processPackages [easyapi-django]: New version: [0.0.9] Old Version: [0.0.80]
+[2024-04-23 04:57:21] INFO root fetch - processPackages [DXR-BJ]: Downloading https://files.pythonhosted.org/packages/5b/90/93377788b37ff775b5545753799eb59a17f349969ff9637bc7d36e2a13c5/DXR_BJ-1.0.2.tar.gz
+[2024-04-23 04:57:21] INFO root fetch - processPackages [tetos]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [17.0.1.1.0.3] Old Version: [17.0.1.1.0.2]
+[2024-04-23 04:57:21] INFO root fetch - processPackages [easyapi-django]: Downloading https://files.pythonhosted.org/packages/e1/86/dc0b9922b103331cac9bd6fac58fe744b74c474224b71a81d04dabb53b88/easyapi_django-0.0.80.tar.gz
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/ef/99/70fcb88f74f28d6bf0ed34f49a839c55bc553cbb4c55d529782da1e71612/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/ef/99/70fcb88f74f28d6bf0ed34f49a839c55bc553cbb4c55d529782da1e71612/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-payment-method-fs-storage]: Downloading https://files.pythonhosted.org/packages/73/64/ed33c43af21c60f4da870344601a4c70c86c242aaa984e580d2e768c1567/odoo_addon_account_payment_method_fs_storage-16.0.1.0.1-py3-none-any.whl
+[2024-04-23 04:57:21] INFO root fetch - processPackages [tetos]: Downloading https://files.pythonhosted.org/packages/0e/92/288ed61ea1b2b93c5459fa144111f55e9edffde4552be7533174eb2fc016/tetos-0.1.1.tar.gz
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/46/d4/f26ad06bbeb2121a17121ff5685ccb563d81eb1b4b51b4fe3855be43c9fb/odoo_addon_account_payment_order-17.0.1.1.0.2-py3-none-any.whl
+[2024-04-23 04:57:21] INFO root fetch - processPackages [DXR-BJ]: Downloading https://files.pythonhosted.org/packages/29/c1/882079f3977ae960dcdd15cbe2477e5cea3b91fba1d610a955446230aa71/DXR_BJ-1.0.3.tar.gz
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/d4/99/6ba717eef4c010e95d6c2cf437025e807c91ba4867eca4ded08bb49cb8d6/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/d4/99/6ba717eef4c010e95d6c2cf437025e807c91ba4867eca4ded08bb49cb8d6/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-23 04:57:21] INFO root fetch - processPackages [easyapi-django]: Downloading https://files.pythonhosted.org/packages/95/62/c460ae663ba5b8e9d71d071d3ec9427fbf583cfffe09c89d267e24fe810f/easyapi_django-0.0.9.tar.gz
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-payment-method-fs-storage]: Downloading https://files.pythonhosted.org/packages/fb/3e/d7c1c8566312574696b931ba3868810ec27a938e57758ba1034b350a5d40/odoo_addon_account_payment_method_fs_storage-16.0.1.0.1.2-py3-none-any.whl
+[2024-04-23 04:57:21] INFO root fetch - processPackages [tetos]: Downloading https://files.pythonhosted.org/packages/a1/20/9592e667c03e20deb8b425c21f455e361f23498431d80015548d75fa2882/tetos-0.2.0.tar.gz
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/9a/ab/d0fc63ca31b3e3ea9a6999fe5feb5f659cfe1088268198c8c2574c495979/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl
+[2024-04-23 04:57:21] INFO root fetch - processPackages [easyapi-django]: executing diffoscope
+[2024-04-23 04:57:21] INFO root fetch - processPackages [easyapi-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyapi_django-0.0.80.tar.gz tmp/easyapi_django-0.0.9.tar.gz --markdown 20240423/e/easyapi-django/0.0.80-0.0.9/README.md --exclude *.pyd
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: executing diffoscope
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-banking-sepa-direct-debit/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: executing diffoscope
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-banking-sepa-direct-debit/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-payment-method-fs-storage]: executing diffoscope
+[2024-04-23 04:57:21] INFO root fetch - processPackages [odoo-addon-account-payment-method-fs-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_method_fs_storage-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_method_fs_storage-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-payment-method-fs-storage/16.0.1.0.1-16.0.1.0.1.2/README.md --exclude *.pyd
+[2024-04-23 04:57:21] INFO root fetch - processPackages [tetos]: executing diffoscope
+[2024-04-23 04:57:21] INFO root fetch - processPackages [tetos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tetos-0.1.1.tar.gz tmp/tetos-0.2.0.tar.gz --markdown 20240423/t/tetos/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-23 04:57:22] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2024-04-23 04:57:22] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-17.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-account-payment-order/17.0.1.1.0.2-17.0.1.1.0.3/README.md --exclude *.pyd
+[2024-04-23 04:57:22] INFO root fetch - processPackages [DXR-BJ]: executing diffoscope
+[2024-04-23 04:57:22] INFO root fetch - processPackages [DXR-BJ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR_BJ-1.0.2.tar.gz tmp/DXR_BJ-1.0.3.tar.gz --markdown 20240423/D/DXR-BJ/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-23 04:57:22] INFO root fetch - processPackages [easyapi-django]: Remove: archive file [/home/abi/fetcher/tmp/easyapi_django-0.0.80.tar.gz]
+[2024-04-23 04:57:22] INFO root fetch - processPackages [easyapi-django]: Remove: archive file [/home/abi/fetcher/tmp/easyapi_django-0.0.9.tar.gz]
+[2024-04-23 04:57:22] INFO root fetch - main [MainThread]: End processing [easyapi-django]: success
+[2024-04-23 04:57:22] INFO root fetch - processPackages [tetos]: Remove: archive file [/home/abi/fetcher/tmp/tetos-0.1.1.tar.gz]
+[2024-04-23 04:57:22] INFO root fetch - processPackages [tetos]: Remove: archive file [/home/abi/fetcher/tmp/tetos-0.2.0.tar.gz]
+[2024-04-23 04:57:22] INFO root fetch - main [MainThread]: End processing [tetos]: success
+[2024-04-23 04:57:22] INFO root fetch - processPackages [odoo-addon-account-payment-method-fs-storage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_method_fs_storage-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-23 04:57:22] INFO root fetch - processPackages [odoo-addon-account-payment-method-fs-storage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_method_fs_storage-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-04-23 04:57:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-method-fs-storage]: success
+[2024-04-23 04:57:23] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-23 04:57:23] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-23 04:57:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-sepa-direct-debit]: success
+[2024-04-23 04:57:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-sepa-direct-debit]: success
+[2024-04-23 04:57:23] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-04-23 04:57:23] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-04-23 04:57:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2024-04-23 04:57:23] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-1.0.2.tar.gz]
+[2024-04-23 04:57:23] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-1.0.3.tar.gz]
+[2024-04-23 04:57:23] INFO root fetch - main [MainThread]: End processing [DXR-BJ]: success
+[2024-04-23 04:57:23] INFO root fetch - main [MainThread]: Store serial: [22888360]
