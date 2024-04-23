@@ -7620,3 +7620,33 @@
 [2024-04-23 03:58:51] INFO root fetch - processPackages [dt-extensions-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_sdk-1.1.9.tar.gz]
 [2024-04-23 03:58:51] INFO root fetch - main [MainThread]: End processing [dt-extensions-sdk]: success
 [2024-04-23 03:58:51] INFO root fetch - main [MainThread]: Store serial: [22887976]
+[2024-04-23 04:00:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887976]
+[2024-04-23 04:00:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 04:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wj-google
+[2024-04-23 04:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kmt
+[2024-04-23 04:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docprompt
+[2024-04-23 04:01:00] INFO root fetch - processPackages [kmt]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-23 04:01:00] INFO root fetch - processPackages [docprompt]: New version: [0.3.0] Old Version: [0.2.8]
+[2024-04-23 04:01:00] INFO root fetch - processPackages [kmt]: Downloading https://files.pythonhosted.org/packages/5a/c1/54115ff8e5a6de12f93e8f11e298b009629943105340e897a13111a01f9f/kmt-0.2.0.tar.gz
+[2024-04-23 04:01:00] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/d0/a2/89c31b328efee618185ff850c44a8963cc162678f5ed62e5127feb0977cc/docprompt-0.2.8.tar.gz
+[2024-04-23 04:01:00] INFO root fetch - processPackages [wj-google]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 04:01:00] INFO root fetch - processPackages [kmt]: Downloading https://files.pythonhosted.org/packages/9d/81/ccd042567a65d13b8483acac6e0350bac5f371eab78aff195939195c7166/kmt-0.3.0.tar.gz
+[2024-04-23 04:01:00] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/89/ec/604538d7aeaf7a1ef2bb5ed997ee174a40c2141393894aa4052f0bcc3ec0/docprompt-0.3.0.tar.gz
+[2024-04-23 04:01:00] INFO root fetch - processPackages [wj-google]: Downloading https://files.pythonhosted.org/packages/ec/e7/67a4ed98b134deb5b077ac838316240501d656a142ef6e539611847b4a3a/wj_google-0.1.1.tar.gz
+[2024-04-23 04:01:00] INFO root fetch - processPackages [kmt]: executing diffoscope
+[2024-04-23 04:01:00] INFO root fetch - processPackages [kmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmt-0.2.0.tar.gz tmp/kmt-0.3.0.tar.gz --markdown 20240423/k/kmt/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-23 04:01:00] INFO root fetch - processPackages [docprompt]: executing diffoscope
+[2024-04-23 04:01:00] INFO root fetch - processPackages [docprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docprompt-0.2.8.tar.gz tmp/docprompt-0.3.0.tar.gz --markdown 20240423/d/docprompt/0.2.8-0.3.0/README.md --exclude *.pyd
+[2024-04-23 04:01:00] INFO root fetch - processPackages [wj-google]: Downloading https://files.pythonhosted.org/packages/ed/7e/2dad1310fe8c53cf086e78aa0dd9089a53ca4677fc188e54d0a93a7fb992/wj_google-0.1.2.tar.gz
+[2024-04-23 04:01:00] INFO root fetch - processPackages [wj-google]: executing diffoscope
+[2024-04-23 04:01:00] INFO root fetch - processPackages [wj-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wj_google-0.1.1.tar.gz tmp/wj_google-0.1.2.tar.gz --markdown 20240423/w/wj-google/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 04:01:00] INFO root fetch - processPackages [kmt]: Remove: archive file [/home/abi/fetcher/tmp/kmt-0.2.0.tar.gz]
+[2024-04-23 04:01:00] INFO root fetch - processPackages [kmt]: Remove: archive file [/home/abi/fetcher/tmp/kmt-0.3.0.tar.gz]
+[2024-04-23 04:01:00] INFO root fetch - main [MainThread]: End processing [kmt]: success
+[2024-04-23 04:01:01] INFO root fetch - processPackages [wj-google]: Remove: archive file [/home/abi/fetcher/tmp/wj_google-0.1.1.tar.gz]
+[2024-04-23 04:01:01] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.2.8.tar.gz]
+[2024-04-23 04:01:01] INFO root fetch - processPackages [wj-google]: Remove: archive file [/home/abi/fetcher/tmp/wj_google-0.1.2.tar.gz]
+[2024-04-23 04:01:01] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.3.0.tar.gz]
+[2024-04-23 04:01:01] INFO root fetch - main [MainThread]: End processing [wj-google]: success
+[2024-04-23 04:01:01] INFO root fetch - main [MainThread]: End processing [docprompt]: success
+[2024-04-23 04:01:01] INFO root fetch - main [MainThread]: Store serial: [22887986]
