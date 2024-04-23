@@ -11481,3 +11481,21 @@
 [2024-04-23 08:03:49] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.76.0.tar.gz]
 [2024-04-23 08:03:49] INFO root fetch - main [MainThread]: End processing [dvcx]: success
 [2024-04-23 08:03:49] INFO root fetch - main [MainThread]: Store serial: [22889558]
+[2024-04-23 08:05:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889558]
+[2024-04-23 08:05:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 08:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oci-cli
+[2024-04-23 08:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangocms-transfer
+[2024-04-23 08:05:58] INFO root fetch - processPackages [djangocms-transfer]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-23 08:05:58] INFO root fetch - processPackages [oci-cli]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-23 08:05:58] INFO root fetch - processPackages [djangocms-transfer]: Downloading https://files.pythonhosted.org/packages/7e/08/a7733f2794729ff544a48a49a1b253348b3bb71b790a4e350cd5b5c678d5/djangocms-transfer-1.0.1.tar.gz
+[2024-04-23 08:05:58] INFO root fetch - processPackages [oci-cli]: executing diffoscope
+[2024-04-23 08:05:58] INFO root fetch - processPackages [oci-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-cli-3.9.0.tar.gz tmp/oci-cli-3.9.1.tar.gz --markdown 20240423/o/oci-cli/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-23 08:05:58] INFO root fetch - processPackages [djangocms-transfer]: Downloading https://files.pythonhosted.org/packages/ad/b2/9c4adda7a79b6dd38fe59990513f8200b2aa0ab97abe2f0a8caed7915b4b/djangocms_transfer-1.0.2.tar.gz
+[2024-04-23 08:05:59] INFO root fetch - processPackages [djangocms-transfer]: executing diffoscope
+[2024-04-23 08:05:59] INFO root fetch - processPackages [djangocms-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-transfer-1.0.1.tar.gz tmp/djangocms_transfer-1.0.2.tar.gz --markdown 20240423/d/djangocms-transfer/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-23 08:05:59] INFO root fetch - processPackages [djangocms-transfer]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-transfer-1.0.1.tar.gz]
+[2024-04-23 08:05:59] INFO root fetch - processPackages [djangocms-transfer]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_transfer-1.0.2.tar.gz]
+[2024-04-23 08:05:59] INFO root fetch - main [MainThread]: End processing [djangocms-transfer]: success
+[2024-04-23 08:08:58] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
+[2024-04-23 08:08:58] INFO root fetch - main [MainThread]: End processing [oci-cli] error
+[2024-04-23 08:08:58] INFO root fetch - main [MainThread]: Store serial: [22889564]
