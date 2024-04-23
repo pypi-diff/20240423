@@ -15328,3 +15328,51 @@
 [2024-04-23 10:50:53] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.7.tar.gz]
 [2024-04-23 10:50:53] INFO root fetch - main [MainThread]: End processing [cloudcix]: success
 [2024-04-23 10:50:53] INFO root fetch - main [MainThread]: Store serial: [22891287]
+[2024-04-23 10:52:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891287]
+[2024-04-23 10:53:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 10:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vdf-io
+[2024-04-23 10:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: motion-learning-toolbox
+[2024-04-23 10:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stimela
+[2024-04-23 10:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carabiner-tools
+[2024-04-23 10:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudcix
+[2024-04-23 10:53:02] INFO root fetch - processPackages [cloudcix]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-23 10:53:02] INFO root fetch - processPackages [stimela]: New version: [2.0rc9] Old Version: [2.0rc8]
+[2024-04-23 10:53:02] INFO root fetch - processPackages [motion-learning-toolbox]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-23 10:53:02] INFO root fetch - processPackages [carabiner-tools]: New version: [0.0.2] Old Version: [0.0.1.post2]
+[2024-04-23 10:53:02] INFO root fetch - processPackages [vdf-io]: New version: [0.1.9] Old Version: [0.1.85]
+[2024-04-23 10:53:02] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/cc/cc/13d28a5efdd4e496bafa1fd6d1a99c8d16600cc337a964e77d0a23ecac9d/cloudcix-0.9.6.tar.gz
+[2024-04-23 10:53:02] INFO root fetch - processPackages [stimela]: Downloading https://files.pythonhosted.org/packages/46/ee/81ee802c122b3947fae396eaff13f285216da021e5de0e38d79c232de696/stimela-2.0rc8.tar.gz
+[2024-04-23 10:53:02] INFO root fetch - processPackages [motion-learning-toolbox]: Downloading https://files.pythonhosted.org/packages/71/14/8e7391ffec945fab290d37a46d523791b39154186d24adacf5cb50ec5781/motion-learning-toolbox-1.0.5.tar.gz
+[2024-04-23 10:53:02] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/0f/79/960c399848c4b4e73ae4986620f78539ea8443881aa1b95f0e571909a7f3/vdf_io-0.1.85.tar.gz
+[2024-04-23 10:53:02] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/23/91/e2a19ba7fccf414f054cc4ff387b792fe6a964e617de11b0af3707683850/cloudcix-0.9.7.tar.gz
+[2024-04-23 10:53:02] INFO root fetch - processPackages [carabiner-tools]: Downloading https://files.pythonhosted.org/packages/a5/f8/d43df2b87e030611a2688849a595a0bb3be52796074f6b1e6f94a2702c41/carabiner-tools-0.0.1.post2.tar.gz
+[2024-04-23 10:53:03] INFO root fetch - processPackages [cloudcix]: executing diffoscope
+[2024-04-23 10:53:03] INFO root fetch - processPackages [cloudcix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudcix-0.9.6.tar.gz tmp/cloudcix-0.9.7.tar.gz --markdown 20240423/c/cloudcix/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-04-23 10:53:03] INFO root fetch - processPackages [motion-learning-toolbox]: Downloading https://files.pythonhosted.org/packages/39/3a/80c600eb8d739b6b9aecd898c372f19c0f737d4d440d077ec893c33750be/motion_learning_toolbox-1.0.6.tar.gz
+[2024-04-23 10:53:03] INFO root fetch - processPackages [stimela]: Downloading https://files.pythonhosted.org/packages/1c/e6/70ca8433a1296c8d78cfd9cfba48e973e38ed6a0b92a3a488d6c186662a1/stimela-2.0rc9.tar.gz
+[2024-04-23 10:53:03] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/54/48/6653d701926d0676616e4c8e49bd591c2fa67a2abb3c903073d39d6cfe8b/vdf_io-0.1.9.tar.gz
+[2024-04-23 10:53:03] INFO root fetch - processPackages [carabiner-tools]: Downloading https://files.pythonhosted.org/packages/30/49/db0e895147a9867a3ac878415367db026150e2ce891163a7ac5b32f9fc64/carabiner_tools-0.0.2.tar.gz
+[2024-04-23 10:53:03] INFO root fetch - processPackages [motion-learning-toolbox]: executing diffoscope
+[2024-04-23 10:53:03] INFO root fetch - processPackages [motion-learning-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion-learning-toolbox-1.0.5.tar.gz tmp/motion_learning_toolbox-1.0.6.tar.gz --markdown 20240423/m/motion-learning-toolbox/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-23 10:53:03] INFO root fetch - processPackages [vdf-io]: executing diffoscope
+[2024-04-23 10:53:03] INFO root fetch - processPackages [vdf-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdf_io-0.1.85.tar.gz tmp/vdf_io-0.1.9.tar.gz --markdown 20240423/v/vdf-io/0.1.85-0.1.9/README.md --exclude *.pyd
+[2024-04-23 10:53:03] INFO root fetch - processPackages [stimela]: executing diffoscope
+[2024-04-23 10:53:03] INFO root fetch - processPackages [stimela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimela-2.0rc8.tar.gz tmp/stimela-2.0rc9.tar.gz --markdown 20240423/s/stimela/2.0rc8-2.0rc9/README.md --exclude *.pyd
+[2024-04-23 10:53:03] INFO root fetch - processPackages [carabiner-tools]: executing diffoscope
+[2024-04-23 10:53:03] INFO root fetch - processPackages [carabiner-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carabiner-tools-0.0.1.post2.tar.gz tmp/carabiner_tools-0.0.2.tar.gz --markdown 20240423/c/carabiner-tools/0.0.1.post2-0.0.2/README.md --exclude *.pyd
+[2024-04-23 10:53:03] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.6.tar.gz]
+[2024-04-23 10:53:03] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.7.tar.gz]
+[2024-04-23 10:53:03] INFO root fetch - main [MainThread]: End processing [cloudcix]: success
+[2024-04-23 10:53:04] INFO root fetch - processPackages [motion-learning-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/motion-learning-toolbox-1.0.5.tar.gz]
+[2024-04-23 10:53:04] INFO root fetch - processPackages [motion-learning-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/motion_learning_toolbox-1.0.6.tar.gz]
+[2024-04-23 10:53:04] INFO root fetch - main [MainThread]: End processing [motion-learning-toolbox]: success
+[2024-04-23 10:53:04] INFO root fetch - processPackages [vdf-io]: Remove: archive file [/home/abi/fetcher/tmp/vdf_io-0.1.85.tar.gz]
+[2024-04-23 10:53:04] INFO root fetch - processPackages [vdf-io]: Remove: archive file [/home/abi/fetcher/tmp/vdf_io-0.1.9.tar.gz]
+[2024-04-23 10:53:04] INFO root fetch - main [MainThread]: End processing [vdf-io]: success
+[2024-04-23 10:53:04] INFO root fetch - processPackages [carabiner-tools]: Remove: archive file [/home/abi/fetcher/tmp/carabiner-tools-0.0.1.post2.tar.gz]
+[2024-04-23 10:53:04] INFO root fetch - processPackages [carabiner-tools]: Remove: archive file [/home/abi/fetcher/tmp/carabiner_tools-0.0.2.tar.gz]
+[2024-04-23 10:53:04] INFO root fetch - main [MainThread]: End processing [carabiner-tools]: success
+[2024-04-23 10:53:04] INFO root fetch - processPackages [stimela]: Remove: archive file [/home/abi/fetcher/tmp/stimela-2.0rc8.tar.gz]
+[2024-04-23 10:53:04] INFO root fetch - processPackages [stimela]: Remove: archive file [/home/abi/fetcher/tmp/stimela-2.0rc9.tar.gz]
+[2024-04-23 10:53:04] INFO root fetch - main [MainThread]: End processing [stimela]: success
+[2024-04-23 10:53:04] INFO root fetch - main [MainThread]: Store serial: [22891302]
