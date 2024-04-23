@@ -7569,3 +7569,24 @@
 [2024-04-23 03:54:31] INFO root fetch - processPackages [napalm-panos]: Remove: archive file [/home/abi/fetcher/tmp/napalm_panos-0.6.1.tar.gz]
 [2024-04-23 03:54:31] INFO root fetch - main [MainThread]: End processing [napalm-panos]: success
 [2024-04-23 03:54:31] INFO root fetch - main [MainThread]: Store serial: [22887961]
+[2024-04-23 03:56:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887961]
+[2024-04-23 03:56:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 03:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loe-simp-app-fw
+[2024-04-23 03:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysui
+[2024-04-23 03:56:39] INFO root fetch - processPackages [pysui]: New version: [0.58.0] Old Version: [0.57.0]
+[2024-04-23 03:56:39] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-23 03:56:40] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/77/e7/e553c5653fe60a9863813d501f2d308d4a1fad2b301eaf58de4c9bdaf0da/pysui-0.57.0-py3-none-any.whl
+[2024-04-23 03:56:40] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/b0/3f/4f48b0b1fd51603d83427f9548710b4a2079997fbc2b20591080339c3ccf/loe_simp_app_fw-1.1.0.tar.gz
+[2024-04-23 03:56:40] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/e6/3f/0294831f5c0dd39fa13f3e219ec3e85f67e509b0adf215fc5acdf44f60bb/loe_simp_app_fw-1.1.1.tar.gz
+[2024-04-23 03:56:40] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/f1/73/e8c7c63f898fa737b0f767af41a20d34c690b19c5ce26b50abae39b77326/pysui-0.58.0-py3-none-any.whl
+[2024-04-23 03:56:40] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-04-23 03:56:40] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.1.0.tar.gz tmp/loe_simp_app_fw-1.1.1.tar.gz --markdown 20240423/l/loe-simp-app-fw/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-23 03:56:40] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2024-04-23 03:56:40] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.57.0-py3-none-any.whl.zip tmp/pysui-0.58.0-py3-none-any.whl.zip --markdown 20240423/p/pysui/0.57.0-0.58.0/README.md --exclude *.pyd
+[2024-04-23 03:56:41] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.1.0.tar.gz]
+[2024-04-23 03:56:41] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.1.1.tar.gz]
+[2024-04-23 03:56:41] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-04-23 03:56:41] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.57.0-py3-none-any.whl.zip]
+[2024-04-23 03:56:41] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.58.0-py3-none-any.whl.zip]
+[2024-04-23 03:56:41] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2024-04-23 03:56:41] INFO root fetch - main [MainThread]: Store serial: [22887966]
