@@ -11981,3 +11981,51 @@
 [2024-04-23 08:33:04] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404221421.tar.gz]
 [2024-04-23 08:33:04] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-04-23 08:33:04] INFO root fetch - main [MainThread]: Store serial: [22889732]
+[2024-04-23 08:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889732]
+[2024-04-23 08:35:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usscore
+[2024-04-23 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: generate-sequences
+[2024-04-23 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfish
+[2024-04-23 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: placeholder-img
+[2024-04-23 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xeberus-restful-api-server-library
+[2024-04-23 08:35:13] INFO root fetch - processPackages [placeholder-img]: New version: [0.4] Old Version: [0.3]
+[2024-04-23 08:35:13] INFO root fetch - processPackages [usscore]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-23 08:35:13] INFO root fetch - processPackages [xeberus-restful-api-server-library]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-04-23 08:35:13] INFO root fetch - processPackages [kfish]: New version: [99.0.202404221424] Old Version: [99.0.202404192128]
+[2024-04-23 08:35:13] INFO root fetch - processPackages [placeholder-img]: Downloading https://files.pythonhosted.org/packages/00/e3/c162fc9a28d8f147821f5162e0878a5bea24650b49aab464c8ed1259c62e/placeholder_img-0.3.tar.gz
+[2024-04-23 08:35:13] INFO root fetch - processPackages [generate-sequences]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 08:35:13] INFO root fetch - processPackages [xeberus-restful-api-server-library]: Downloading https://files.pythonhosted.org/packages/b2/aa/e3f284f088e54415d58b9b12c99bd2849dfe9190d762c148f30b62df1c6c/xeberus_restful_api_server_library-1.6.6.tar.gz
+[2024-04-23 08:35:13] INFO root fetch - processPackages [usscore]: Downloading https://files.pythonhosted.org/packages/5d/70/b0056ece2f275d937c0fc356ba568be9f101ba9ce5b689ab0f793c7973af/usscore-0.0.6.tar.gz
+[2024-04-23 08:35:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/be/61/7debdab700e450ed6171bb440ab06642a15afa38f8ff71fc97fea6e85c0a/kfish-99.0.202404192128-py3-none-any.whl
+[2024-04-23 08:35:13] INFO root fetch - processPackages [usscore]: Downloading https://files.pythonhosted.org/packages/7d/4d/e8d72f4e34cc19cfb9d77cae14a791ae26f7066d4883003a847be0e650f1/usscore-0.0.7.tar.gz
+[2024-04-23 08:35:13] INFO root fetch - processPackages [generate-sequences]: Downloading https://files.pythonhosted.org/packages/07/af/1f42f6867df06e3eda7d852febcad57f549e64dbb13097a6ac55866fad47/generate_sequences-0.0.2.tar.gz
+[2024-04-23 08:35:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c2/c1/0a8a82c8c1efc348892473c2d65e27ef81f7008a2dadb10ec130c5352dc2/kfish-99.0.202404221424-py3-none-any.whl
+[2024-04-23 08:35:13] INFO root fetch - processPackages [usscore]: executing diffoscope
+[2024-04-23 08:35:13] INFO root fetch - processPackages [usscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usscore-0.0.6.tar.gz tmp/usscore-0.0.7.tar.gz --markdown 20240423/u/usscore/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-23 08:35:13] INFO root fetch - processPackages [xeberus-restful-api-server-library]: Downloading https://files.pythonhosted.org/packages/e2/7c/6c43b745f41f5968be95f9d16f5f3fab60ba254605c46cb68f115d56cf6c/xeberus_restful_api_server_library-1.6.7.tar.gz
+[2024-04-23 08:35:13] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-23 08:35:13] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404192128-py3-none-any.whl.zip tmp/kfish-99.0.202404221424-py3-none-any.whl.zip --markdown 20240423/k/kfish/99.0.202404192128-99.0.202404221424/README.md --exclude *.pyd
+[2024-04-23 08:35:13] INFO root fetch - processPackages [xeberus-restful-api-server-library]: executing diffoscope
+[2024-04-23 08:35:13] INFO root fetch - processPackages [xeberus-restful-api-server-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xeberus_restful_api_server_library-1.6.6.tar.gz tmp/xeberus_restful_api_server_library-1.6.7.tar.gz --markdown 20240423/x/xeberus-restful-api-server-library/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-04-23 08:35:13] INFO root fetch - processPackages [placeholder-img]: Downloading https://files.pythonhosted.org/packages/d6/2d/d0c73858c9ed6ff4c243688db76dc12a0edbc6e2593c3b0485f0df1b69ba/placeholder_img-0.4.tar.gz
+[2024-04-23 08:35:13] INFO root fetch - processPackages [generate-sequences]: Downloading https://files.pythonhosted.org/packages/46/e9/b0d2c7047846d7651f8ad82f213cd74925705d4781d2a42becbe6d4ff1dd/generate_sequences-0.0.3.tar.gz
+[2024-04-23 08:35:14] INFO root fetch - processPackages [generate-sequences]: executing diffoscope
+[2024-04-23 08:35:14] INFO root fetch - processPackages [generate-sequences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generate_sequences-0.0.2.tar.gz tmp/generate_sequences-0.0.3.tar.gz --markdown 20240423/g/generate-sequences/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 08:35:14] INFO root fetch - processPackages [placeholder-img]: executing diffoscope
+[2024-04-23 08:35:14] INFO root fetch - processPackages [placeholder-img]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/placeholder_img-0.3.tar.gz tmp/placeholder_img-0.4.tar.gz --markdown 20240423/p/placeholder-img/0.3-0.4/README.md --exclude *.pyd
+[2024-04-23 08:35:14] INFO root fetch - processPackages [usscore]: Remove: archive file [/home/abi/fetcher/tmp/usscore-0.0.6.tar.gz]
+[2024-04-23 08:35:14] INFO root fetch - processPackages [usscore]: Remove: archive file [/home/abi/fetcher/tmp/usscore-0.0.7.tar.gz]
+[2024-04-23 08:35:14] INFO root fetch - main [MainThread]: End processing [usscore]: success
+[2024-04-23 08:35:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404192128-py3-none-any.whl.zip]
+[2024-04-23 08:35:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404221424-py3-none-any.whl.zip]
+[2024-04-23 08:35:14] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-23 08:35:14] INFO root fetch - processPackages [xeberus-restful-api-server-library]: Remove: archive file [/home/abi/fetcher/tmp/xeberus_restful_api_server_library-1.6.6.tar.gz]
+[2024-04-23 08:35:14] INFO root fetch - processPackages [xeberus-restful-api-server-library]: Remove: archive file [/home/abi/fetcher/tmp/xeberus_restful_api_server_library-1.6.7.tar.gz]
+[2024-04-23 08:35:14] INFO root fetch - main [MainThread]: End processing [xeberus-restful-api-server-library]: success
+[2024-04-23 08:35:14] INFO root fetch - processPackages [generate-sequences]: Remove: archive file [/home/abi/fetcher/tmp/generate_sequences-0.0.2.tar.gz]
+[2024-04-23 08:35:14] INFO root fetch - processPackages [generate-sequences]: Remove: archive file [/home/abi/fetcher/tmp/generate_sequences-0.0.3.tar.gz]
+[2024-04-23 08:35:14] INFO root fetch - main [MainThread]: End processing [generate-sequences]: success
+[2024-04-23 08:35:15] INFO root fetch - processPackages [placeholder-img]: Remove: archive file [/home/abi/fetcher/tmp/placeholder_img-0.3.tar.gz]
+[2024-04-23 08:35:15] INFO root fetch - processPackages [placeholder-img]: Remove: archive file [/home/abi/fetcher/tmp/placeholder_img-0.4.tar.gz]
+[2024-04-23 08:35:15] INFO root fetch - main [MainThread]: End processing [placeholder-img]: success
+[2024-04-23 08:35:15] INFO root fetch - main [MainThread]: Store serial: [22889743]
