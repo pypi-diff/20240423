@@ -8088,3 +8088,83 @@
 [2024-04-23 04:22:57] INFO root fetch - processPackages [fprime-fpp-check]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_check-2.1.0a9-py3-none-manylinux_2_28_aarch64.whl.zip]
 [2024-04-23 04:22:57] INFO root fetch - main [MainThread]: End processing [fprime-fpp-check]: success
 [2024-04-23 04:22:57] INFO root fetch - main [MainThread]: Store serial: [22888130]
+[2024-04-23 04:25:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888130]
+[2024-04-23 04:25:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 04:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thermosteam
+[2024-04-23 04:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fprime-fpp-to-dict
+[2024-04-23 04:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fprime-fpp-to-json
+[2024-04-23 04:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fprime-fpp-to-xml
+[2024-04-23 04:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HeraData
+[2024-04-23 04:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-account-move-name-sequence
+[2024-04-23 04:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llm-parse
+[2024-04-23 04:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: afeng-py-tools
+[2024-04-23 04:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ebookconverter
+[2024-04-23 04:25:47] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: New version: [14.0.1.4.3] Old Version: [14.0.1.4.2.dev7]
+[2024-04-23 04:25:47] INFO root fetch - processPackages [fprime-fpp-to-dict]: New version: [2.1.0a9] Old Version: [2.1.0a7]
+[2024-04-23 04:25:47] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/3e/ac/e3ed93fc8a30851c0d7c3212d17deb2abbbd9f60c1e8420d5d3b298ff9fa/odoo14_addon_account_move_name_sequence-14.0.1.4.2.dev7-py3-none-any.whl
+[2024-04-23 04:25:47] INFO root fetch - processPackages [llm-parse]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 04:25:47] INFO root fetch - processPackages [HeraData]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-23 04:25:47] INFO root fetch - processPackages [fprime-fpp-to-json]: New version: [2.1.0a9] Old Version: [2.1.0a7]
+[2024-04-23 04:25:47] INFO root fetch - processPackages [fprime-fpp-to-xml]: New version: [2.1.0a9] Old Version: [2.1.0a7]
+[2024-04-23 04:25:47] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 04:25:47] INFO root fetch - processPackages [ebookconverter]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-23 04:25:47] INFO root fetch - processPackages [fprime-fpp-to-dict]: Downloading https://files.pythonhosted.org/packages/a6/e7/b7304267b56f73986ff5b5cec97d7a11f261db74e5f94a1b50668dd01278/fprime_fpp_to_dict-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-23 04:25:47] INFO root fetch - processPackages [llm-parse]: Downloading https://files.pythonhosted.org/packages/b7/38/c2ea107f4ed29b80a575109aff6cfa40066e1135980a13371e40bc5234c4/llm_parse-0.1.0.tar.gz
+[2024-04-23 04:25:47] INFO root fetch - processPackages [fprime-fpp-to-json]: Downloading https://files.pythonhosted.org/packages/ba/ee/3f7223e98261db7ceedee46bc8bafa2384aebb35606d2508b881f2450162/fprime_fpp_to_json-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-23 04:25:47] INFO root fetch - processPackages [thermosteam]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-23 04:25:47] INFO root fetch - processPackages [HeraData]: Downloading https://files.pythonhosted.org/packages/b9/6e/aada0f432a78612e9f19a29f350492e0dc29d150cb03448621e82a3e60b2/HeraData-0.1.tar.gz
+[2024-04-23 04:25:47] INFO root fetch - processPackages [fprime-fpp-to-xml]: Downloading https://files.pythonhosted.org/packages/49/d4/58129315bd747eaece1ca7e39526b83ff62b28a86f31cf3ea6f2d551b6ea/fprime_fpp_to_xml-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-23 04:25:47] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-23 04:25:47] INFO root fetch - processPackages [ebookconverter]: Downloading https://files.pythonhosted.org/packages/a4/53/d054b8dc0aa7f16778e5999a6f4083109e6a84334898724215d87b939e49/ebookconverter-0.9.4.tar.gz
+[2024-04-23 04:25:47] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/3b/5c/40065493634ba39b0e8c5673897c35213cf93483a37bb6de73c4c25568d6/odoo14_addon_account_move_name_sequence-14.0.1.4.3-py3-none-any.whl
+[2024-04-23 04:25:48] INFO root fetch - processPackages [thermosteam]: Downloading https://files.pythonhosted.org/packages/56/8f/c12015817ab835a11a1faf668a607d94a2240ccca4e4723fa84593ed1a29/thermosteam-0.8.3.tar.gz
+[2024-04-23 04:25:48] WARNING root fetch - processPackages [thermosteam]: Skipping package: exceeds size limit 16942699>=10485760
+[2024-04-23 04:25:48] INFO root fetch - main [MainThread]: End processing [thermosteam] error
+[2024-04-23 04:25:48] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: executing diffoscope
+[2024-04-23 04:25:48] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_name_sequence-14.0.1.4.2.dev7-py3-none-any.whl.zip tmp/odoo14_addon_account_move_name_sequence-14.0.1.4.3-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-account-move-name-sequence/14.0.1.4.2.dev7-14.0.1.4.3/README.md --exclude *.pyd
+[2024-04-23 04:25:48] INFO root fetch - processPackages [llm-parse]: Downloading https://files.pythonhosted.org/packages/12/f2/c6237b94bcc7dab5fdbacaf70bc22f8d578d7bc81fb1fa68aaa9620dd791/llm_parse-0.1.1.tar.gz
+[2024-04-23 04:25:48] INFO root fetch - processPackages [HeraData]: Downloading https://files.pythonhosted.org/packages/00/d5/097f71990332273618e170814767779e4890508f43cc725cabe208cd66f4/HeraData-0.1.1.tar.gz
+[2024-04-23 04:25:48] INFO root fetch - processPackages [llm-parse]: executing diffoscope
+[2024-04-23 04:25:48] INFO root fetch - processPackages [llm-parse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_parse-0.1.0.tar.gz tmp/llm_parse-0.1.1.tar.gz --markdown 20240423/l/llm-parse/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 04:25:48] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-23 04:25:48] INFO root fetch - processPackages [ebookconverter]: Downloading https://files.pythonhosted.org/packages/09/bf/7dfebffa7435cf1cf579f5733ffd1d8fefdcd536e06b79db7046db1832b0/ebookconverter-0.9.5.tar.gz
+[2024-04-23 04:25:48] INFO root fetch - processPackages [HeraData]: executing diffoscope
+[2024-04-23 04:25:48] INFO root fetch - processPackages [HeraData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HeraData-0.1.tar.gz tmp/HeraData-0.1.1.tar.gz --markdown 20240423/H/HeraData/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-23 04:25:48] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-23 04:25:48] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240423/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 04:25:48] INFO root fetch - processPackages [ebookconverter]: executing diffoscope
+[2024-04-23 04:25:48] INFO root fetch - processPackages [ebookconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebookconverter-0.9.4.tar.gz tmp/ebookconverter-0.9.5.tar.gz --markdown 20240423/e/ebookconverter/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-23 04:25:48] INFO root fetch - processPackages [fprime-fpp-to-json]: Downloading https://files.pythonhosted.org/packages/ae/59/3be3bad6a23822b445690d20df13040ec330ab3e4afc1582187f4e2ce4ae/fprime_fpp_to_json-2.1.0a9-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-23 04:25:48] INFO root fetch - processPackages [fprime-fpp-to-xml]: Downloading https://files.pythonhosted.org/packages/4a/71/b6dea52b11f691264d25b1ffb0a23eaf5041f6eae3849b1dcf4d86dc2464/fprime_fpp_to_xml-2.1.0a9-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-23 04:25:48] INFO root fetch - processPackages [HeraData]: Remove: archive file [/home/abi/fetcher/tmp/HeraData-0.1.tar.gz]
+[2024-04-23 04:25:48] INFO root fetch - processPackages [HeraData]: Remove: archive file [/home/abi/fetcher/tmp/HeraData-0.1.1.tar.gz]
+[2024-04-23 04:25:48] INFO root fetch - main [MainThread]: End processing [HeraData]: success
+[2024-04-23 04:25:48] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_name_sequence-14.0.1.4.2.dev7-py3-none-any.whl.zip]
+[2024-04-23 04:25:48] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_name_sequence-14.0.1.4.3-py3-none-any.whl.zip]
+[2024-04-23 04:25:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-name-sequence]: success
+[2024-04-23 04:25:49] INFO root fetch - processPackages [llm-parse]: Remove: archive file [/home/abi/fetcher/tmp/llm_parse-0.1.0.tar.gz]
+[2024-04-23 04:25:49] INFO root fetch - processPackages [llm-parse]: Remove: archive file [/home/abi/fetcher/tmp/llm_parse-0.1.1.tar.gz]
+[2024-04-23 04:25:49] INFO root fetch - main [MainThread]: End processing [llm-parse]: success
+[2024-04-23 04:25:49] INFO root fetch - processPackages [ebookconverter]: Remove: archive file [/home/abi/fetcher/tmp/ebookconverter-0.9.4.tar.gz]
+[2024-04-23 04:25:49] INFO root fetch - processPackages [ebookconverter]: Remove: archive file [/home/abi/fetcher/tmp/ebookconverter-0.9.5.tar.gz]
+[2024-04-23 04:25:49] INFO root fetch - main [MainThread]: End processing [ebookconverter]: success
+[2024-04-23 04:25:49] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-23 04:25:49] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-23 04:25:49] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-23 04:25:50] INFO root fetch - processPackages [fprime-fpp-to-xml]: executing diffoscope
+[2024-04-23 04:25:50] INFO root fetch - processPackages [fprime-fpp-to-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpp_to_xml-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip tmp/fprime_fpp_to_xml-2.1.0a9-py3-none-manylinux_2_28_aarch64.whl.zip --markdown 20240423/f/fprime-fpp-to-xml/2.1.0a7-2.1.0a9/README.md --exclude *.pyd
+[2024-04-23 04:25:52] INFO root fetch - processPackages [fprime-fpp-to-dict]: Downloading https://files.pythonhosted.org/packages/2d/5d/5e70b90cbed7bf36e2fe71eb6cce5bce043bc4bb16b9a4d8b026e5ef6252/fprime_fpp_to_dict-2.1.0a9-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-23 04:25:54] INFO root fetch - processPackages [fprime-fpp-to-json]: executing diffoscope
+[2024-04-23 04:25:54] INFO root fetch - processPackages [fprime-fpp-to-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpp_to_json-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip tmp/fprime_fpp_to_json-2.1.0a9-py3-none-manylinux_2_28_aarch64.whl.zip --markdown 20240423/f/fprime-fpp-to-json/2.1.0a7-2.1.0a9/README.md --exclude *.pyd
+[2024-04-23 04:25:54] INFO root fetch - processPackages [fprime-fpp-to-dict]: executing diffoscope
+[2024-04-23 04:25:54] INFO root fetch - processPackages [fprime-fpp-to-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpp_to_dict-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip tmp/fprime_fpp_to_dict-2.1.0a9-py3-none-manylinux_2_28_aarch64.whl.zip --markdown 20240423/f/fprime-fpp-to-dict/2.1.0a7-2.1.0a9/README.md --exclude *.pyd
+[2024-04-23 04:27:42] INFO root fetch - processPackages [fprime-fpp-to-json]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_to_json-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-23 04:27:42] INFO root fetch - processPackages [fprime-fpp-to-json]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_to_json-2.1.0a9-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-23 04:27:42] INFO root fetch - main [MainThread]: End processing [fprime-fpp-to-json]: success
+[2024-04-23 04:27:43] INFO root fetch - processPackages [fprime-fpp-to-xml]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_to_xml-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-23 04:27:43] INFO root fetch - processPackages [fprime-fpp-to-xml]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_to_xml-2.1.0a9-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-23 04:27:43] INFO root fetch - main [MainThread]: End processing [fprime-fpp-to-xml]: success
+[2024-04-23 04:27:50] INFO root fetch - processPackages [fprime-fpp-to-dict]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_to_dict-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-23 04:27:50] INFO root fetch - processPackages [fprime-fpp-to-dict]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_to_dict-2.1.0a9-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-23 04:27:50] INFO root fetch - main [MainThread]: End processing [fprime-fpp-to-dict]: success
+[2024-04-23 04:27:50] INFO root fetch - main [MainThread]: Store serial: [22888176]
