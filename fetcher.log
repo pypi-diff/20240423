@@ -14621,3 +14621,69 @@
 [2024-04-23 10:25:51] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-23 10:25:51] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-04-23 10:25:51] INFO root fetch - main [MainThread]: Store serial: [22890904]
+[2024-04-23 10:27:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890904]
+[2024-04-23 10:28:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 10:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stsdk
+[2024-04-23 10:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: motor-decorator
+[2024-04-23 10:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiomultiprocess
+[2024-04-23 10:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytsa-ais
+[2024-04-23 10:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-continuous
+[2024-04-23 10:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aTeam-PySparkLibrary
+[2024-04-23 10:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lense
+[2024-04-23 10:28:00] INFO root fetch - processPackages [motor-decorator]: New version: [0.0.3.7] Old Version: [0.0.3.6]
+[2024-04-23 10:28:00] INFO root fetch - processPackages [pytest-continuous]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 10:28:00] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 10:28:00] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 10:28:00] INFO root fetch - processPackages [stsdk]: New version: [0.3.1.dev1] Old Version: [0.2.1]
+[2024-04-23 10:28:00] INFO root fetch - processPackages [aiomultiprocess]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-23 10:28:00] INFO root fetch - processPackages [motor-decorator]: Downloading https://files.pythonhosted.org/packages/08/b8/94bab4f734fd21b2dd3fedc692779b5093f6fe220d2cbcfe14dbd101fcaa/motor-decorator-0.0.3.6.tar.gz
+[2024-04-23 10:28:00] INFO root fetch - processPackages [pytsa-ais]: New version: [2.3.3] Old Version: [2.3.2]
+[2024-04-23 10:28:00] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-23 10:28:00] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-04-23 10:28:00] INFO root fetch - processPackages [pytest-continuous]: Downloading https://files.pythonhosted.org/packages/a5/7b/f65c499451fb33ec084bc0f2ec8b2826577684fb19fc3c596b03d2cc3ac2/pytest-continuous-0.1.0.tar.gz
+[2024-04-23 10:28:00] INFO root fetch - processPackages [pytsa-ais]: Downloading https://files.pythonhosted.org/packages/29/4b/371f5599ed3a2ecf5e3ae9011afc70487e014ac3ded614998ad049ab9043/pytsa_ais-2.3.2.tar.gz
+[2024-04-23 10:28:00] INFO root fetch - processPackages [aiomultiprocess]: Downloading https://files.pythonhosted.org/packages/59/30/64e01ec7ecb4aa1123b54401ffc36c16bb1d7155b924f7430a651fb956c1/aiomultiprocess-0.9.0.tar.gz
+[2024-04-23 10:28:00] INFO root fetch - processPackages [stsdk]: Downloading https://files.pythonhosted.org/packages/0f/4c/59e731e02a75fe15dd026daecdc83216add1161171f927f2f860913ead58/stsdk-0.2.1.tar.gz
+[2024-04-23 10:28:00] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-23 10:28:00] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-04-23 10:28:01] INFO root fetch - processPackages [motor-decorator]: Downloading https://files.pythonhosted.org/packages/e4/32/e91892f680aab1df4364aa60d799178e2ec1cc21a66bad47faeb31d3ff82/motor-decorator-0.0.3.7.tar.gz
+[2024-04-23 10:28:01] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 10:28:01] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 10:28:01] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-04-23 10:28:01] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240423/a/aTeam-PySparkLibrary/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 10:28:01] INFO root fetch - processPackages [pytest-continuous]: Downloading https://files.pythonhosted.org/packages/e5/cb/f6b8cb27a1cb2b785b70f71bb235fb0832ebb6d78f750b3389b7ecf82eb1/pytest-continuous-0.1.1.tar.gz
+[2024-04-23 10:28:01] INFO root fetch - processPackages [aiomultiprocess]: Downloading https://files.pythonhosted.org/packages/02/d4/1e69e17dda5df91734b70d03dbbf9f222ddb438e1f3bf4ea8fa135ce46de/aiomultiprocess-0.9.1.tar.gz
+[2024-04-23 10:28:01] INFO root fetch - processPackages [motor-decorator]: executing diffoscope
+[2024-04-23 10:28:01] INFO root fetch - processPackages [motor-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motor-decorator-0.0.3.6.tar.gz tmp/motor-decorator-0.0.3.7.tar.gz --markdown 20240423/m/motor-decorator/0.0.3.6-0.0.3.7/README.md --exclude *.pyd
+[2024-04-23 10:28:01] INFO root fetch - processPackages [stsdk]: Downloading https://files.pythonhosted.org/packages/3f/d0/49186d7a2e5d7edae79c51396f03ab227b2918c9bc905587da40493f1281/stsdk-0.3.1.dev1.tar.gz
+[2024-04-23 10:28:01] INFO root fetch - processPackages [pytest-continuous]: executing diffoscope
+[2024-04-23 10:28:01] INFO root fetch - processPackages [pytest-continuous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-continuous-0.1.0.tar.gz tmp/pytest-continuous-0.1.1.tar.gz --markdown 20240423/p/pytest-continuous/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 10:28:01] INFO root fetch - processPackages [stsdk]: executing diffoscope
+[2024-04-23 10:28:01] INFO root fetch - processPackages [stsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stsdk-0.2.1.tar.gz tmp/stsdk-0.3.1.dev1.tar.gz --markdown 20240423/s/stsdk/0.2.1-0.3.1.dev1/README.md --exclude *.pyd
+[2024-04-23 10:28:01] INFO root fetch - processPackages [aiomultiprocess]: executing diffoscope
+[2024-04-23 10:28:01] INFO root fetch - processPackages [aiomultiprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomultiprocess-0.9.0.tar.gz tmp/aiomultiprocess-0.9.1.tar.gz --markdown 20240423/a/aiomultiprocess/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-23 10:28:01] INFO root fetch - processPackages [pytsa-ais]: Downloading https://files.pythonhosted.org/packages/6e/cb/bb17101feedec92409afbb17da02a42350046c6e12df7e295507eb21e1c5/pytsa_ais-2.3.3.tar.gz
+[2024-04-23 10:28:01] INFO root fetch - processPackages [pytsa-ais]: executing diffoscope
+[2024-04-23 10:28:01] INFO root fetch - processPackages [pytsa-ais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytsa_ais-2.3.2.tar.gz tmp/pytsa_ais-2.3.3.tar.gz --markdown 20240423/p/pytsa-ais/2.3.2-2.3.3/README.md --exclude *.pyd
+[2024-04-23 10:28:01] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 10:28:01] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 10:28:01] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 10:28:01] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-04-23 10:28:01] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-04-23 10:28:01] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-04-23 10:28:01] INFO root fetch - processPackages [motor-decorator]: Remove: archive file [/home/abi/fetcher/tmp/motor-decorator-0.0.3.6.tar.gz]
+[2024-04-23 10:28:01] INFO root fetch - processPackages [motor-decorator]: Remove: archive file [/home/abi/fetcher/tmp/motor-decorator-0.0.3.7.tar.gz]
+[2024-04-23 10:28:01] INFO root fetch - main [MainThread]: End processing [motor-decorator]: success
+[2024-04-23 10:28:01] INFO root fetch - processPackages [pytest-continuous]: Remove: archive file [/home/abi/fetcher/tmp/pytest-continuous-0.1.0.tar.gz]
+[2024-04-23 10:28:01] INFO root fetch - processPackages [pytest-continuous]: Remove: archive file [/home/abi/fetcher/tmp/pytest-continuous-0.1.1.tar.gz]
+[2024-04-23 10:28:01] INFO root fetch - main [MainThread]: End processing [pytest-continuous]: success
+[2024-04-23 10:28:02] INFO root fetch - processPackages [aiomultiprocess]: Remove: archive file [/home/abi/fetcher/tmp/aiomultiprocess-0.9.0.tar.gz]
+[2024-04-23 10:28:02] INFO root fetch - processPackages [aiomultiprocess]: Remove: archive file [/home/abi/fetcher/tmp/aiomultiprocess-0.9.1.tar.gz]
+[2024-04-23 10:28:02] INFO root fetch - main [MainThread]: End processing [aiomultiprocess]: success
+[2024-04-23 10:28:02] INFO root fetch - processPackages [stsdk]: Remove: archive file [/home/abi/fetcher/tmp/stsdk-0.2.1.tar.gz]
+[2024-04-23 10:28:02] INFO root fetch - processPackages [stsdk]: Remove: archive file [/home/abi/fetcher/tmp/stsdk-0.3.1.dev1.tar.gz]
+[2024-04-23 10:28:02] INFO root fetch - main [MainThread]: End processing [stsdk]: success
+[2024-04-23 10:28:03] INFO root fetch - processPackages [pytsa-ais]: Remove: archive file [/home/abi/fetcher/tmp/pytsa_ais-2.3.2.tar.gz]
+[2024-04-23 10:28:03] INFO root fetch - processPackages [pytsa-ais]: Remove: archive file [/home/abi/fetcher/tmp/pytsa_ais-2.3.3.tar.gz]
+[2024-04-23 10:28:03] INFO root fetch - main [MainThread]: End processing [pytsa-ais]: success
+[2024-04-23 10:28:03] INFO root fetch - main [MainThread]: Store serial: [22890931]
