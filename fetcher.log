@@ -13637,3 +13637,141 @@
 [2024-04-23 09:51:04] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.5.tar.gz]
 [2024-04-23 09:51:04] INFO root fetch - main [MainThread]: End processing [libro]: success
 [2024-04-23 09:51:04] INFO root fetch - main [MainThread]: Store serial: [22890429]
+[2024-04-23 09:53:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890429]
+[2024-04-23 09:53:16] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-23 09:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runtimepy
+[2024-04-23 09:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotrain-advanced
+[2024-04-23 09:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Robocon-24
+[2024-04-23 09:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nrstitcher-utils
+[2024-04-23 09:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-gmailapi-json-backend
+[2024-04-23 09:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CoreStart
+[2024-04-23 09:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyspartn
+[2024-04-23 09:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lense
+[2024-04-23 09:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hestia-earth-models
+[2024-04-23 09:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ewah
+[2024-04-23 09:53:16] INFO root fetch - processPackages [nrstitcher-utils]: New version: [0.1.0.dev1] Old Version: [0.1.0.dev0]
+[2024-04-23 09:53:16] WARNING root fetch - processPackages [Robocon-24]: Skipping, unable to determine old version
+[2024-04-23 09:53:16] INFO root fetch - processPackages [Robocon-24]: Start processing: fremu
+[2024-04-23 09:53:16] INFO root fetch - main [MainThread]: End processing [Robocon-24] error
+[2024-04-23 09:53:16] WARNING root fetch - processPackages [fremu]: Skipping, unable to determine old version
+[2024-04-23 09:53:16] INFO root fetch - processPackages [fremu]: Start processing: gxr-py-pkg-template
+[2024-04-23 09:53:16] INFO root fetch - main [MainThread]: End processing [fremu] error
+[2024-04-23 09:53:16] INFO root fetch - processPackages [runtimepy]: New version: [4.2.1] Old Version: [4.2.0]
+[2024-04-23 09:53:16] INFO root fetch - processPackages [django-gmailapi-json-backend]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 09:53:16] INFO root fetch - processPackages [pyspartn]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-23 09:53:16] INFO root fetch - processPackages [lense]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-23 09:53:16] INFO root fetch - processPackages [CoreStart]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-04-23 09:53:16] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-23 09:53:16] INFO root fetch - processPackages [hestia-earth-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-23 09:53:16] INFO root fetch - processPackages [ewah]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-23 09:53:16] WARNING root fetch - processPackages [gxr-py-pkg-template]: Skipping, unable to determine old version
+[2024-04-23 09:53:16] INFO root fetch - processPackages [gxr-py-pkg-template]: Start processing: pyhamsys
+[2024-04-23 09:53:16] INFO root fetch - main [MainThread]: End processing [gxr-py-pkg-template] error
+[2024-04-23 09:53:16] INFO root fetch - processPackages [nrstitcher-utils]: Downloading https://files.pythonhosted.org/packages/8c/e3/8c70203bd0ec9dca42394988792c6f7db3a5ca6db505688158b1484314a5/nrstitcher_utils-0.1.0.dev0.tar.gz
+[2024-04-23 09:53:16] INFO root fetch - processPackages [django-gmailapi-json-backend]: Downloading https://files.pythonhosted.org/packages/83/6c/72e7f6d20fb65bd95e30b77420f9f5ecd8c7c8dff84948d316e4506d0454/django-gmailapi-json-backend-1.8.tar.gz
+[2024-04-23 09:53:16] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-04-23 09:53:16] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/dd/1c/2b068be90d345bee9816c7277234918e507afca129041f523689a9fbcecb/pyspartn-0.3.0.tar.gz
+[2024-04-23 09:53:16] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/a2/3c/b113a1e74ed4c74f07e1da2ee1d09ba95762cdcc1526b3f2864b970a264d/runtimepy-4.2.0.tar.gz
+[2024-04-23 09:53:16] INFO root fetch - processPackages [pyhamsys]: New version: [0.31] Old Version: [0.3]
+[2024-04-23 09:53:16] INFO root fetch - processPackages [ewah]: Downloading https://files.pythonhosted.org/packages/aa/11/dccb8d8958986c7f56c6ae45e7c84148ae14724a5f66e8b549c2ac64cf3f/ewah-0.8.98.tar.gz
+[2024-04-23 09:53:16] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/07/13/8129ad6893b6c4cd22d80986cbceb459a568391abf911c8ea369bc78f0f5/lense-0.0.4-py3-none-any.whl
+[2024-04-23 09:53:16] INFO root fetch - processPackages [CoreStart]: Downloading https://files.pythonhosted.org/packages/95/98/8b5a65f1ce29178a4da6b3e2520bbb3ad03279d66e94a41a84f5653df402/corestart-0.1.1.tar.gz
+[2024-04-23 09:53:16] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/a2/61/d19a2d7e01e8a5e0035eea49d6f5bdd2e224d17d89fe9ef0012f7ff05723/hestia-earth-models-0.9.0.tar.gz
+[2024-04-23 09:53:16] INFO root fetch - processPackages [django-gmailapi-json-backend]: Downloading https://files.pythonhosted.org/packages/0d/f7/8379f41d6447589ef74f695783db108c58c977819b9e44f718d0fa1583a8/django_gmailapi_json_backend-1.9.tar.gz
+[2024-04-23 09:53:16] INFO root fetch - processPackages [nrstitcher-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/050d8cfec091ac02928a384c168a1f4be96d833504a717a9500c0c42a810/nrstitcher_utils-0.1.0.dev1.tar.gz
+[2024-04-23 09:53:16] INFO root fetch - processPackages [pyhamsys]: Downloading https://files.pythonhosted.org/packages/f3/d7/765004dba1076a88702fb3a1b1c4381914910bb6272e25babee42db369b3/pyhamsys-0.3.tar.gz
+[2024-04-23 09:53:16] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/07/5b/fc2568a905bce1a49c9ce7648112f2a1745c185cdb2d6aac2a42e9988b5f/pyspartn-0.3.1.tar.gz
+[2024-04-23 09:53:17] INFO root fetch - processPackages [django-gmailapi-json-backend]: executing diffoscope
+[2024-04-23 09:53:17] INFO root fetch - processPackages [django-gmailapi-json-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-gmailapi-json-backend-1.8.tar.gz tmp/django_gmailapi_json_backend-1.9.tar.gz --markdown 20240423/d/django-gmailapi-json-backend/1.8-1.9/README.md --exclude *.pyd
+[2024-04-23 09:53:17] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/4b/72/19511f9343619b23223a4fb6f0bc12c7c575955d9630bdd9d41ce6493eb1/runtimepy-4.2.1.tar.gz
+[2024-04-23 09:53:17] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-04-23 09:53:17] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/7f/04/dae9661b6addadfc89a97dc07f41361792a651e022341f82e5cb7c4283e8/lense-0.0.5-py3-none-any.whl
+[2024-04-23 09:53:17] INFO root fetch - processPackages [CoreStart]: Downloading https://files.pythonhosted.org/packages/f7/b7/8eee325ef5f2d234449df5e7fef12724682530728aa62573003163019a47/CoreStart-0.1.3.tar.gz
+[2024-04-23 09:53:17] INFO root fetch - processPackages [nrstitcher-utils]: executing diffoscope
+[2024-04-23 09:53:17] INFO root fetch - processPackages [nrstitcher-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrstitcher_utils-0.1.0.dev0.tar.gz tmp/nrstitcher_utils-0.1.0.dev1.tar.gz --markdown 20240423/n/nrstitcher-utils/0.1.0.dev0-0.1.0.dev1/README.md --exclude *.pyd
+[2024-04-23 09:53:17] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/59/94/5b9b4317f8ae747ccffceb5debddd5d4f68a8aac6d6d53afb2ade6dbdfdb/hestia-earth-models-0.9.1.tar.gz
+[2024-04-23 09:53:17] INFO root fetch - processPackages [ewah]: Downloading https://files.pythonhosted.org/packages/2c/11/fe05b8f1816aad234c97699cbe29fe9500dfed6cf9a141cade83c374b7ab/ewah-0.8.99.tar.gz
+[2024-04-23 09:53:17] INFO root fetch - processPackages [pyspartn]: executing diffoscope
+[2024-04-23 09:53:17] INFO root fetch - processPackages [pyspartn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspartn-0.3.0.tar.gz tmp/pyspartn-0.3.1.tar.gz --markdown 20240423/p/pyspartn/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-23 09:53:17] INFO root fetch - processPackages [runtimepy]: executing diffoscope
+[2024-04-23 09:53:17] INFO root fetch - processPackages [runtimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runtimepy-4.2.0.tar.gz tmp/runtimepy-4.2.1.tar.gz --markdown 20240423/r/runtimepy/4.2.0-4.2.1/README.md --exclude *.pyd
+[2024-04-23 09:53:17] INFO root fetch - processPackages [CoreStart]: executing diffoscope
+[2024-04-23 09:53:17] INFO root fetch - processPackages [CoreStart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corestart-0.1.1.tar.gz tmp/CoreStart-0.1.3.tar.gz --markdown 20240423/C/CoreStart/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-04-23 09:53:17] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 09:53:17] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.4-py3-none-any.whl.zip tmp/lense-0.0.5-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-23 09:53:17] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-04-23 09:53:17] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240423/a/autotrain-advanced/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-23 09:53:17] INFO root fetch - processPackages [pyhamsys]: Downloading https://files.pythonhosted.org/packages/3e/15/e4e1e019942d081625376814f29352ce8da99ecb90a1a5df6d0b2f3288be/pyhamsys-0.31.tar.gz
+[2024-04-23 09:53:17] INFO root fetch - processPackages [ewah]: executing diffoscope
+[2024-04-23 09:53:17] INFO root fetch - processPackages [ewah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewah-0.8.98.tar.gz tmp/ewah-0.8.99.tar.gz --markdown 20240423/e/ewah/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-04-23 09:53:17] INFO root fetch - processPackages [hestia-earth-models]: executing diffoscope
+[2024-04-23 09:53:17] INFO root fetch - processPackages [hestia-earth-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-models-0.9.0.tar.gz tmp/hestia-earth-models-0.9.1.tar.gz --markdown 20240423/h/hestia-earth-models/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-23 09:53:17] INFO root fetch - processPackages [pyhamsys]: executing diffoscope
+[2024-04-23 09:53:17] INFO root fetch - processPackages [pyhamsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhamsys-0.3.tar.gz tmp/pyhamsys-0.31.tar.gz --markdown 20240423/p/pyhamsys/0.3-0.31/README.md --exclude *.pyd
+[2024-04-23 09:53:17] INFO root fetch - processPackages [django-gmailapi-json-backend]: Remove: archive file [/home/abi/fetcher/tmp/django-gmailapi-json-backend-1.8.tar.gz]
+[2024-04-23 09:53:17] INFO root fetch - processPackages [django-gmailapi-json-backend]: Remove: archive file [/home/abi/fetcher/tmp/django_gmailapi_json_backend-1.9.tar.gz]
+[2024-04-23 09:53:17] INFO root fetch - processPackages [django-gmailapi-json-backend]: Start processing: benimang
+[2024-04-23 09:53:17] INFO root fetch - main [MainThread]: End processing [django-gmailapi-json-backend]: success
+[2024-04-23 09:53:18] INFO root fetch - processPackages [benimang]: New version: [0.5.24] Old Version: [0.5.23]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [CoreStart]: Remove: archive file [/home/abi/fetcher/tmp/corestart-0.1.1.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [CoreStart]: Remove: archive file [/home/abi/fetcher/tmp/CoreStart-0.1.3.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [CoreStart]: Start processing: tensorneko
+[2024-04-23 09:53:18] INFO root fetch - main [MainThread]: End processing [CoreStart]: success
+[2024-04-23 09:53:18] INFO root fetch - processPackages [nrstitcher-utils]: Remove: archive file [/home/abi/fetcher/tmp/nrstitcher_utils-0.1.0.dev0.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [nrstitcher-utils]: Remove: archive file [/home/abi/fetcher/tmp/nrstitcher_utils-0.1.0.dev1.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [nrstitcher-utils]: Start processing: agenta
+[2024-04-23 09:53:18] INFO root fetch - main [MainThread]: End processing [nrstitcher-utils]: success
+[2024-04-23 09:53:18] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.3.0.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.3.1.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [pyspartn]: Start processing: odoo13-addon-photovoltaic-mgmt-extended
+[2024-04-23 09:53:18] INFO root fetch - main [MainThread]: End processing [pyspartn]: success
+[2024-04-23 09:53:18] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.4-py3-none-any.whl.zip]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.5-py3-none-any.whl.zip]
+[2024-04-23 09:53:18] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 09:53:18] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/33/2f/a34e4ba0efe93e5ca316df9f1e53a9363f537f9a57036cce6b840bda7128/benimang-0.5.23.tar.gz
+[2024-04-23 09:53:18] INFO root fetch - processPackages [tensorneko]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-04-23 09:53:18] INFO root fetch - processPackages [pyhamsys]: Remove: archive file [/home/abi/fetcher/tmp/pyhamsys-0.3.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [pyhamsys]: Remove: archive file [/home/abi/fetcher/tmp/pyhamsys-0.31.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - main [MainThread]: End processing [pyhamsys]: success
+[2024-04-23 09:53:18] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: New version: [13.0.1.1.4] Old Version: [13.0.1.1.3]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-04-23 09:53:18] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/05/a1/337b7f3145cc0e8d6e495d974fd66dbef2b9998d03157de226fe5f78a6b4/tensorneko-0.3.8.tar.gz
+[2024-04-23 09:53:18] INFO root fetch - processPackages [ewah]: Remove: archive file [/home/abi/fetcher/tmp/ewah-0.8.98.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [ewah]: Remove: archive file [/home/abi/fetcher/tmp/ewah-0.8.99.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - main [MainThread]: End processing [ewah]: success
+[2024-04-23 09:53:18] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-04-23 09:53:18] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/a6/f5/396d851bd988debc9778a569099b198e6cb2ed9a36ec1f7be48c1d3335ff/benimang-0.5.24.tar.gz
+[2024-04-23 09:53:18] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: Downloading https://files.pythonhosted.org/packages/2a/dd/2b5130d234e2fb9cba039496ef98dcb6213a75a6cfd660ca5baf05364db3/odoo13-addon-photovoltaic_mgmt_extended-13.0.1.1.3.tar.gz
+[2024-04-23 09:53:18] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-04-23 09:53:18] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240423/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-23 09:53:18] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2024-04-23 09:53:18] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.5.23.tar.gz tmp/benimang-0.5.24.tar.gz --markdown 20240423/b/benimang/0.5.23-0.5.24/README.md --exclude *.pyd
+[2024-04-23 09:53:18] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.2.0.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.2.1.tar.gz]
+[2024-04-23 09:53:18] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
+[2024-04-23 09:53:18] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: Downloading https://files.pythonhosted.org/packages/7b/76/129b261c97f186b34ff5587dd0101eb2acdb8411050b6e1b7bd73e25facf/odoo13-addon-photovoltaic_mgmt_extended-13.0.1.1.4.tar.gz
+[2024-04-23 09:53:18] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/2f/15/74760826105ec8ad24dee75a9910cff8a2bf12fe3ba737a19330c158b2d5/tensorneko-0.3.9.tar.gz
+[2024-04-23 09:53:19] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: executing diffoscope
+[2024-04-23 09:53:19] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13-addon-photovoltaic_mgmt_extended-13.0.1.1.3.tar.gz tmp/odoo13-addon-photovoltaic_mgmt_extended-13.0.1.1.4.tar.gz --markdown 20240423/o/odoo13-addon-photovoltaic-mgmt-extended/13.0.1.1.3-13.0.1.1.4/README.md --exclude *.pyd
+[2024-04-23 09:53:19] INFO root fetch - processPackages [tensorneko]: executing diffoscope
+[2024-04-23 09:53:19] INFO root fetch - processPackages [tensorneko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko-0.3.8.tar.gz tmp/tensorneko-0.3.9.tar.gz --markdown 20240423/t/tensorneko/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 09:53:19] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.0.tar.gz]
+[2024-04-23 09:53:19] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
+[2024-04-23 09:53:19] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
+[2024-04-23 09:53:19] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.5.23.tar.gz]
+[2024-04-23 09:53:19] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.5.24.tar.gz]
+[2024-04-23 09:53:19] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2024-04-23 09:53:19] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-04-23 09:53:19] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-04-23 09:53:19] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-04-23 09:53:19] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_mgmt_extended-13.0.1.1.3.tar.gz]
+[2024-04-23 09:53:19] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_mgmt_extended-13.0.1.1.4.tar.gz]
+[2024-04-23 09:53:19] INFO root fetch - main [MainThread]: End processing [odoo13-addon-photovoltaic-mgmt-extended]: success
+[2024-04-23 09:53:19] INFO root fetch - processPackages [tensorneko]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko-0.3.8.tar.gz]
+[2024-04-23 09:53:19] INFO root fetch - processPackages [tensorneko]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko-0.3.9.tar.gz]
+[2024-04-23 09:53:19] INFO root fetch - main [MainThread]: End processing [tensorneko]: success
+[2024-04-23 09:53:19] INFO root fetch - main [MainThread]: Store serial: [22890511]
