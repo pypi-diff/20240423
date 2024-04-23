@@ -22164,3 +22164,69 @@ EOFError: EOF read where object expected
 [2024-04-23 14:55:49] INFO root fetch - processPackages [sphinx-api-relink]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_api_relink-0.0.9.tar.gz]
 [2024-04-23 14:55:49] INFO root fetch - main [MainThread]: End processing [sphinx-api-relink]: success
 [2024-04-23 14:55:49] INFO root fetch - main [MainThread]: Store serial: [22894104]
+[2024-04-23 14:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894104]
+[2024-04-23 14:57:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Geode-Common
+[2024-04-23 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clean-python
+[2024-04-23 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miksiai
+[2024-04-23 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hnt-nf-jira-library
+[2024-04-23 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyt2s
+[2024-04-23 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-eigen-ingenuity
+[2024-04-23 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aoc-core
+[2024-04-23 14:57:58] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-23 14:57:58] INFO root fetch - processPackages [miksiai]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-23 14:57:59] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/84/89/3c53ff4be542cfc10c07f16d0437fc0c21897173bc9a04852f315de7f14e/python-eigen-ingenuity-0.4.8.tar.gz
+[2024-04-23 14:57:59] INFO root fetch - processPackages [clean-python]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-23 14:57:59] INFO root fetch - processPackages [miksiai]: Downloading https://files.pythonhosted.org/packages/34/9a/abd631040eae7bc2a61b0c620d31efa39890d33c2a49e9dcbeef3d6aea24/miksiai-1.0.1-cp310-cp310-win_amd64.whl
+[2024-04-23 14:57:59] INFO root fetch - processPackages [hnt-nf-jira-library]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-23 14:57:59] INFO root fetch - processPackages [pyt2s]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 14:57:59] INFO root fetch - processPackages [Geode-Common]: New version: [31.0.8rc1] Old Version: [31.0.7rc1]
+[2024-04-23 14:57:59] INFO root fetch - processPackages [aoc-core]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-04-23 14:57:59] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/d5/46/2554bcc92a089d39a46cc8a215282b82286d0694e45c99808348a0478326/python-eigen-ingenuity-0.4.9.tar.gz
+[2024-04-23 14:57:59] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/bd/c2/cab75fd591a8a0e523710dcd7cb658bc49d11ad336f4c3abd3f825f6e754/clean-python-0.9.5.tar.gz
+[2024-04-23 14:57:59] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/5b/29/7816c87ef38f87fe2544d0ef6b04bb51e621f3929443f7773523253a9f0d/Geode_Common-31.0.7rc1-cp39-cp39-win_amd64.whl
+[2024-04-23 14:57:59] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/41/5f/e43090033ccdf1f2b417e3f62a39bb52775c0d102c031007dd2b61da0974/hnt_nf_jira_library-0.4.0.tar.gz
+[2024-04-23 14:57:59] INFO root fetch - processPackages [aoc-core]: Downloading https://files.pythonhosted.org/packages/87/17/66cb335908437a0aabdf33d85f6a1f6a53d0230b0a33e0466b6c2b5f09ed/aoc_core-0.1.3.tar.gz
+[2024-04-23 14:57:59] INFO root fetch - processPackages [pyt2s]: Downloading https://files.pythonhosted.org/packages/ad/97/34f1ea9aebfc545a0e44c7d7857958a369b0d1c870dbc5fbe75e4e3a4e82/pyt2s-0.0.1.tar.gz
+[2024-04-23 14:57:59] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2024-04-23 14:57:59] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.8.tar.gz tmp/python-eigen-ingenuity-0.4.9.tar.gz --markdown 20240423/p/python-eigen-ingenuity/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-23 14:57:59] INFO root fetch - processPackages [miksiai]: Downloading https://files.pythonhosted.org/packages/b0/63/70f1b91359e1f889825b4305f23b7342eb12b0d9298e8660b4eae3196997/miksiai-1.0.2-cp310-cp310-macosx_11_0_arm64.whl
+[2024-04-23 14:57:59] INFO root fetch - processPackages [miksiai]: executing diffoscope
+[2024-04-23 14:57:59] INFO root fetch - processPackages [miksiai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miksiai-1.0.1-cp310-cp310-win_amd64.whl.zip tmp/miksiai-1.0.2-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240423/m/miksiai/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-23 14:57:59] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/91/d7/cef5e7b10c4876d003dc442972c21ac4b387ea0e2611940728311b090b4d/hnt_nf_jira_library-0.4.1.tar.gz
+[2024-04-23 14:57:59] INFO root fetch - processPackages [pyt2s]: Downloading https://files.pythonhosted.org/packages/9e/82/b18e9f4032bf1dccd944bfc88dfd817e97d3a525e08becd0f115106bcaeb/pyt2s-0.0.2.tar.gz
+[2024-04-23 14:57:59] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/5f/6e/6f96232599f1e881c2a03f70ea85b49e4dbe86d8ac6044cf072d203f8c84/clean-python-0.9.6.tar.gz
+[2024-04-23 14:57:59] INFO root fetch - processPackages [aoc-core]: Downloading https://files.pythonhosted.org/packages/52/ed/20365f7dab38e26d9fbd85dd08c1404c0b8a817eba64c0ff7d18a8365f68/aoc_core-0.2.0.tar.gz
+[2024-04-23 14:57:59] INFO root fetch - processPackages [clean-python]: executing diffoscope
+[2024-04-23 14:57:59] INFO root fetch - processPackages [clean-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-python-0.9.5.tar.gz tmp/clean-python-0.9.6.tar.gz --markdown 20240423/c/clean-python/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-23 14:57:59] INFO root fetch - processPackages [hnt-nf-jira-library]: executing diffoscope
+[2024-04-23 14:57:59] INFO root fetch - processPackages [hnt-nf-jira-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnt_nf_jira_library-0.4.0.tar.gz tmp/hnt_nf_jira_library-0.4.1.tar.gz --markdown 20240423/h/hnt-nf-jira-library/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-23 14:57:59] INFO root fetch - processPackages [pyt2s]: executing diffoscope
+[2024-04-23 14:57:59] INFO root fetch - processPackages [pyt2s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyt2s-0.0.1.tar.gz tmp/pyt2s-0.0.2.tar.gz --markdown 20240423/p/pyt2s/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 14:57:59] INFO root fetch - processPackages [aoc-core]: executing diffoscope
+[2024-04-23 14:57:59] INFO root fetch - processPackages [aoc-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aoc_core-0.1.3.tar.gz tmp/aoc_core-0.2.0.tar.gz --markdown 20240423/a/aoc-core/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-04-23 14:58:00] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.8.tar.gz]
+[2024-04-23 14:58:00] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.9.tar.gz]
+[2024-04-23 14:58:00] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2024-04-23 14:58:00] INFO root fetch - processPackages [miksiai]: Remove: archive file [/home/abi/fetcher/tmp/miksiai-1.0.1-cp310-cp310-win_amd64.whl.zip]
+[2024-04-23 14:58:00] INFO root fetch - processPackages [miksiai]: Remove: archive file [/home/abi/fetcher/tmp/miksiai-1.0.2-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-04-23 14:58:00] INFO root fetch - main [MainThread]: End processing [miksiai]: success
+[2024-04-23 14:58:00] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.4.0.tar.gz]
+[2024-04-23 14:58:00] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.4.1.tar.gz]
+[2024-04-23 14:58:00] INFO root fetch - main [MainThread]: End processing [hnt-nf-jira-library]: success
+[2024-04-23 14:58:00] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/5a/03/31d9f67b53fbbd8b6ba93ae76e38256de018869d607648d08416350788c7/Geode_Common-31.0.8rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-23 14:58:00] INFO root fetch - processPackages [pyt2s]: Remove: archive file [/home/abi/fetcher/tmp/pyt2s-0.0.1.tar.gz]
+[2024-04-23 14:58:00] INFO root fetch - processPackages [pyt2s]: Remove: archive file [/home/abi/fetcher/tmp/pyt2s-0.0.2.tar.gz]
+[2024-04-23 14:58:00] INFO root fetch - main [MainThread]: End processing [pyt2s]: success
+[2024-04-23 14:58:00] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.9.5.tar.gz]
+[2024-04-23 14:58:00] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.9.6.tar.gz]
+[2024-04-23 14:58:00] INFO root fetch - main [MainThread]: End processing [clean-python]: success
+[2024-04-23 14:58:00] INFO root fetch - processPackages [aoc-core]: Remove: archive file [/home/abi/fetcher/tmp/aoc_core-0.1.3.tar.gz]
+[2024-04-23 14:58:00] INFO root fetch - processPackages [aoc-core]: Remove: archive file [/home/abi/fetcher/tmp/aoc_core-0.2.0.tar.gz]
+[2024-04-23 14:58:00] INFO root fetch - main [MainThread]: End processing [aoc-core]: success
+[2024-04-23 14:58:01] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2024-04-23 14:58:01] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-31.0.7rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-31.0.8rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240423/G/Geode-Common/31.0.7rc1-31.0.8rc1/README.md --exclude *.pyd
+[2024-04-23 14:58:02] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.0.7rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 14:58:02] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.0.8rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-23 14:58:02] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2024-04-23 14:58:02] INFO root fetch - main [MainThread]: Store serial: [22894141]
