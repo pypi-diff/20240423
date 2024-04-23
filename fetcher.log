@@ -10218,3 +10218,31 @@
 [2024-04-23 06:30:05] INFO root fetch - processPackages [enrichsdk]: Remove: archive file [/home/abi/fetcher/tmp/enrichsdk-5.3.0.tar.gz]
 [2024-04-23 06:30:05] INFO root fetch - main [MainThread]: End processing [enrichsdk]: success
 [2024-04-23 06:30:05] INFO root fetch - main [MainThread]: Store serial: [22889016]
+[2024-04-23 06:32:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889016]
+[2024-04-23 06:32:14] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-23 06:34:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889016]
+[2024-04-23 06:34:19] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-23 06:36:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889016]
+[2024-04-23 06:36:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 06:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarers.aws-secure-log-bucket
+[2024-04-23 06:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apstools
+[2024-04-23 06:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uptycs-py
+[2024-04-23 06:36:25] INFO root fetch - processPackages [apstools]: New version: [1.6.9rc1] Old Version: [1.6.9]
+[2024-04-23 06:36:25] WARNING root fetch - processPackages [gammarers.aws-secure-log-bucket]: Skipping, unable to determine old version
+[2024-04-23 06:36:25] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-log-bucket] error
+[2024-04-23 06:36:25] INFO root fetch - processPackages [uptycs-py]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 06:36:25] INFO root fetch - processPackages [apstools]: Downloading https://files.pythonhosted.org/packages/bb/e8/af2920d3a7fedda68a11081779a3935b639643858f29f2c5af211c0c8f6f/apstools-1.6.9.tar.gz
+[2024-04-23 06:36:25] INFO root fetch - processPackages [uptycs-py]: Downloading https://files.pythonhosted.org/packages/05/64/79dda91fc22f88b76edf65392ea5ad6e98d4f3653a2d1b94648849ce76a8/uptycs-py-0.0.2.tar.gz
+[2024-04-23 06:36:25] INFO root fetch - processPackages [apstools]: Downloading https://files.pythonhosted.org/packages/d4/ce/7740563ebafc7c2c86fb4241495a359ea6bc1dfda4e7084e39092b35f8ce/apstools-1.6.9rc1.tar.gz
+[2024-04-23 06:36:25] INFO root fetch - processPackages [apstools]: executing diffoscope
+[2024-04-23 06:36:25] INFO root fetch - processPackages [apstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apstools-1.6.9.tar.gz tmp/apstools-1.6.9rc1.tar.gz --markdown 20240423/a/apstools/1.6.9-1.6.9rc1/README.md --exclude *.pyd
+[2024-04-23 06:36:25] INFO root fetch - processPackages [uptycs-py]: Downloading https://files.pythonhosted.org/packages/8e/9b/3077b6ad7994892800feba628af1b3123c1d8e4158657266f7e8ffd4b19e/uptycs-py-0.0.3.tar.gz
+[2024-04-23 06:36:25] INFO root fetch - processPackages [uptycs-py]: executing diffoscope
+[2024-04-23 06:36:25] INFO root fetch - processPackages [uptycs-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptycs-py-0.0.2.tar.gz tmp/uptycs-py-0.0.3.tar.gz --markdown 20240423/u/uptycs-py/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 06:36:26] INFO root fetch - processPackages [uptycs-py]: Remove: archive file [/home/abi/fetcher/tmp/uptycs-py-0.0.2.tar.gz]
+[2024-04-23 06:36:26] INFO root fetch - processPackages [uptycs-py]: Remove: archive file [/home/abi/fetcher/tmp/uptycs-py-0.0.3.tar.gz]
+[2024-04-23 06:36:26] INFO root fetch - main [MainThread]: End processing [uptycs-py]: success
+[2024-04-23 06:36:26] INFO root fetch - processPackages [apstools]: Remove: archive file [/home/abi/fetcher/tmp/apstools-1.6.9.tar.gz]
+[2024-04-23 06:36:26] INFO root fetch - processPackages [apstools]: Remove: archive file [/home/abi/fetcher/tmp/apstools-1.6.9rc1.tar.gz]
+[2024-04-23 06:36:26] INFO root fetch - main [MainThread]: End processing [apstools]: success
+[2024-04-23 06:36:26] INFO root fetch - main [MainThread]: Store serial: [22889028]
