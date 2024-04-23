@@ -7491,3 +7491,45 @@
 [2024-04-23 03:47:28] INFO root fetch - main [MainThread]: End processing [mysql-server-has-gone]: success
 [2024-04-23 03:47:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-name-sequence]: success
 [2024-04-23 03:47:28] INFO root fetch - main [MainThread]: Store serial: [22887934]
+[2024-04-23 03:49:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887934]
+[2024-04-23 03:49:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 03:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-04-23 03:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yoto-api
+[2024-04-23 03:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-parse
+[2024-04-23 03:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2024-04-23 03:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyneople
+[2024-04-23 03:49:37] INFO root fetch - processPackages [yoto-api]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-23 03:49:37] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.23.9.44.7]
+[2024-04-23 03:49:37] INFO root fetch - processPackages [policyengine-us]: New version: [0.746.0] Old Version: [0.745.0]
+[2024-04-23 03:49:37] WARNING root fetch - processPackages [llm-parse]: Skipping, unable to determine old version
+[2024-04-23 03:49:37] INFO root fetch - main [MainThread]: End processing [llm-parse] error
+[2024-04-23 03:49:37] INFO root fetch - processPackages [pyneople]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-23 03:49:37] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/3f/ca/2683bc432ad985b2ac5fca0855e0933920bd60bdf37a00522e81644a10b1/yoto_api-1.4.3.tar.gz
+[2024-04-23 03:49:37] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/04/9b/0bba4d76e324af31570b2567cb46c2bc22e142a01c5b358d82ba8e099170/policyengine-us-0.745.0.tar.gz
+[2024-04-23 03:49:37] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/e7/0d/98350a441a3461e589aa2d655adf886f5d8dce0f41fdc2f70bb85c74146b/chatllm-2024.4.23.9.44.7.tar.gz
+[2024-04-23 03:49:37] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/fa/c8/d1832d122bebe98403db1b4de42d376dd2de427472c8644bbef1b3a036d9/yoto_api-1.4.4.tar.gz
+[2024-04-23 03:49:37] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/46/61/1532e4ee13304d0a434993db141438481ef83533d61ae4e85132d71e57db/pyneople-0.2.1.tar.gz
+[2024-04-23 03:49:37] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-04-23 03:49:37] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.4.3.tar.gz tmp/yoto_api-1.4.4.tar.gz --markdown 20240423/y/yoto-api/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-04-23 03:49:37] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-23 03:49:37] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/72/e2/ee76fb94aa9aea4cd07d9195985b6a677974422e98a4077b6117c4480a29/policyengine-us-0.746.0.tar.gz
+[2024-04-23 03:49:37] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/f0/91/5831370cc6d0f0751513180bf20ef4611f4ebf66aab58a98a6329bcc3ef1/pyneople-0.2.2.tar.gz
+[2024-04-23 03:49:38] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-23 03:49:38] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.745.0.tar.gz tmp/policyengine-us-0.746.0.tar.gz --markdown 20240423/p/policyengine-us/0.745.0-0.746.0/README.md --exclude *.pyd
+[2024-04-23 03:49:38] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-23 03:49:38] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.23.9.44.7.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240423/c/chatllm/2024.4.23.9.44.7-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-23 03:49:38] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-04-23 03:49:38] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.2.1.tar.gz tmp/pyneople-0.2.2.tar.gz --markdown 20240423/p/pyneople/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-23 03:49:38] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.4.3.tar.gz]
+[2024-04-23 03:49:38] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.4.4.tar.gz]
+[2024-04-23 03:49:38] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-04-23 03:49:38] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.2.1.tar.gz]
+[2024-04-23 03:49:38] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.2.2.tar.gz]
+[2024-04-23 03:49:38] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-04-23 03:49:39] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.23.9.44.7.tar.gz]
+[2024-04-23 03:49:39] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-23 03:49:39] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-23 03:50:10] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.745.0.tar.gz]
+[2024-04-23 03:50:10] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.746.0.tar.gz]
+[2024-04-23 03:50:10] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-23 03:50:10] INFO root fetch - main [MainThread]: Store serial: [22887951]
