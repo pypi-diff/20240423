@@ -9398,3 +9398,51 @@
 [2024-04-23 05:32:56] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.0.tar.gz]
 [2024-04-23 05:32:56] INFO root fetch - main [MainThread]: End processing [agt-server]: success
 [2024-04-23 05:32:56] INFO root fetch - main [MainThread]: Store serial: [22888612]
+[2024-04-23 05:35:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888612]
+[2024-04-23 05:35:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: druida
+[2024-04-23 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: a3consul
+[2024-04-23 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-ubl
+[2024-04-23 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jpholiday
+[2024-04-23 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-edi
+[2024-04-23 05:35:05] INFO root fetch - processPackages [druida]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 05:35:05] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/54/4a/598451ade8bde7f369deba69feb62cde24693585acb81aed1eb62547c114/druida-0.0.8.tar.gz
+[2024-04-23 05:35:05] INFO root fetch - processPackages [odoo-addon-base-edi]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-04-23 05:35:05] INFO root fetch - processPackages [a3consul]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 05:35:05] INFO root fetch - processPackages [jpholiday]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 05:35:05] INFO root fetch - processPackages [odoo-addon-base-ubl]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-04-23 05:35:06] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/c2/fc/04f7092cb544ce2c35e3be2dd5ff20bee19fcc5ba5378898e0f03e15b8a9/druida-0.0.9.tar.gz
+[2024-04-23 05:35:06] INFO root fetch - processPackages [a3consul]: Downloading https://files.pythonhosted.org/packages/58/60/2c8f6f3ea502b69c8dee593e21d337d2605a1882627e142569d680d29897/a3consul-0.1.0.tar.gz
+[2024-04-23 05:35:06] INFO root fetch - processPackages [odoo-addon-base-edi]: Downloading https://files.pythonhosted.org/packages/b6/e5/4098dece724d2174fdf1a9b914009f4b3a80f56634bbaa8670e006e8424e/odoo_addon_base_edi-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-23 05:35:06] INFO root fetch - processPackages [jpholiday]: Downloading https://files.pythonhosted.org/packages/6c/f0/2ca1d77cbe1b7e5ae70de2f716beb98c704c213e72c4f6fb384a17fc1e82/jpholiday-0.1.8.tar.gz
+[2024-04-23 05:35:06] INFO root fetch - processPackages [odoo-addon-base-ubl]: Downloading https://files.pythonhosted.org/packages/e8/55/c949b7fcfeced5f21e7ae0d4eb7283872f125ecdc69887c7da7bbcf1549c/odoo_addon_base_ubl-16.0.1.1.0-py3-none-any.whl
+[2024-04-23 05:35:06] INFO root fetch - processPackages [druida]: executing diffoscope
+[2024-04-23 05:35:06] INFO root fetch - processPackages [druida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/druida-0.0.8.tar.gz tmp/druida-0.0.9.tar.gz --markdown 20240423/d/druida/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 05:35:06] INFO root fetch - processPackages [a3consul]: Downloading https://files.pythonhosted.org/packages/61/72/f132ddc5faaf3fb736da36cbe61523a329293d2f0b5ca4baa5a8a2bc45e7/a3consul-0.1.1.tar.gz
+[2024-04-23 05:35:06] INFO root fetch - processPackages [odoo-addon-base-edi]: Downloading https://files.pythonhosted.org/packages/48/b3/8f61478217114c820643dd9b83847cd0e7686e5c5783d1623f810191018b/odoo_addon_base_edi-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-23 05:35:06] INFO root fetch - processPackages [a3consul]: executing diffoscope
+[2024-04-23 05:35:06] INFO root fetch - processPackages [a3consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a3consul-0.1.0.tar.gz tmp/a3consul-0.1.1.tar.gz --markdown 20240423/a/a3consul/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 05:35:06] INFO root fetch - processPackages [jpholiday]: Downloading https://files.pythonhosted.org/packages/9d/29/c4a6504b52aac8cb9703a0b00b3dd632c00890ff43295b7ff243a89d3d56/jpholiday-0.1.9.tar.gz
+[2024-04-23 05:35:06] INFO root fetch - processPackages [odoo-addon-base-edi]: executing diffoscope
+[2024-04-23 05:35:06] INFO root fetch - processPackages [odoo-addon-base-edi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_edi-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_edi-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-base-edi/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-23 05:35:06] INFO root fetch - processPackages [jpholiday]: executing diffoscope
+[2024-04-23 05:35:06] INFO root fetch - processPackages [odoo-addon-base-ubl]: Downloading https://files.pythonhosted.org/packages/12/90/e8f9a27ce17e66e3cad724adfc1eca75074e0fea675f0bb133a8f6480ee1/odoo_addon_base_ubl-16.0.1.1.0.1-py3-none-any.whl
+[2024-04-23 05:35:06] INFO root fetch - processPackages [jpholiday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpholiday-0.1.8.tar.gz tmp/jpholiday-0.1.9.tar.gz --markdown 20240423/j/jpholiday/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 05:35:06] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.8.tar.gz]
+[2024-04-23 05:35:06] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.9.tar.gz]
+[2024-04-23 05:35:06] INFO root fetch - main [MainThread]: End processing [druida]: success
+[2024-04-23 05:35:07] INFO root fetch - processPackages [a3consul]: Remove: archive file [/home/abi/fetcher/tmp/a3consul-0.1.0.tar.gz]
+[2024-04-23 05:35:07] INFO root fetch - processPackages [a3consul]: Remove: archive file [/home/abi/fetcher/tmp/a3consul-0.1.1.tar.gz]
+[2024-04-23 05:35:07] INFO root fetch - main [MainThread]: End processing [a3consul]: success
+[2024-04-23 05:35:07] INFO root fetch - processPackages [odoo-addon-base-ubl]: executing diffoscope
+[2024-04-23 05:35:07] INFO root fetch - processPackages [odoo-addon-base-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_ubl-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_base_ubl-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-base-ubl/16.0.1.1.0-16.0.1.1.0.1/README.md --exclude *.pyd
+[2024-04-23 05:35:07] INFO root fetch - processPackages [jpholiday]: Remove: archive file [/home/abi/fetcher/tmp/jpholiday-0.1.8.tar.gz]
+[2024-04-23 05:35:07] INFO root fetch - processPackages [jpholiday]: Remove: archive file [/home/abi/fetcher/tmp/jpholiday-0.1.9.tar.gz]
+[2024-04-23 05:35:07] INFO root fetch - main [MainThread]: End processing [jpholiday]: success
+[2024-04-23 05:35:07] INFO root fetch - processPackages [odoo-addon-base-edi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_edi-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-23 05:35:07] INFO root fetch - processPackages [odoo-addon-base-edi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_edi-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-23 05:35:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-edi]: success
+[2024-04-23 05:35:12] INFO root fetch - processPackages [odoo-addon-base-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_ubl-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-23 05:35:12] INFO root fetch - processPackages [odoo-addon-base-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_ubl-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-23 05:35:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-ubl]: success
+[2024-04-23 05:35:12] INFO root fetch - main [MainThread]: Store serial: [22888625]
