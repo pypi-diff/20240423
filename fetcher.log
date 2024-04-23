@@ -2989,3 +2989,33 @@
 [2024-04-23 02:33:18] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.7rc0.tar.gz]
 [2024-04-23 02:33:18] INFO root fetch - main [MainThread]: End processing [bbot]: success
 [2024-04-23 02:33:18] INFO root fetch - main [MainThread]: Store serial: [22886430]
+[2024-04-23 02:35:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886430]
+[2024-04-23 02:35:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 02:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sf-hamilton
+[2024-04-23 02:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cvxpygen
+[2024-04-23 02:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quick-server
+[2024-04-23 02:35:26] INFO root fetch - processPackages [quick-server]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-23 02:35:26] INFO root fetch - processPackages [quick-server]: Downloading https://files.pythonhosted.org/packages/11/8f/db906b6b8e1ee0258350267ad2d859d5f942d6d93386133b988ac8926f14/quick_server-0.9.4.tar.gz
+[2024-04-23 02:35:26] INFO root fetch - processPackages [cvxpygen]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-23 02:35:26] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2024-04-23 02:35:27] INFO root fetch - processPackages [cvxpygen]: Downloading https://files.pythonhosted.org/packages/b9/c4/82562fc7475a4cb129faba1f2966b6b5941694443bc848ab3d78e4e34fa1/cvxpygen-0.3.3.tar.gz
+[2024-04-23 02:35:27] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2024-04-23 02:35:27] INFO root fetch - processPackages [quick-server]: Downloading https://files.pythonhosted.org/packages/2f/56/3f4012c097c8e92d37646124ce4e50e0e3acaaccab069e852d8e731e06ba/quick_server-0.9.5.tar.gz
+[2024-04-23 02:35:27] INFO root fetch - processPackages [quick-server]: executing diffoscope
+[2024-04-23 02:35:27] INFO root fetch - processPackages [quick-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_server-0.9.4.tar.gz tmp/quick_server-0.9.5.tar.gz --markdown 20240423/q/quick-server/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-23 02:35:27] INFO root fetch - processPackages [cvxpygen]: Downloading https://files.pythonhosted.org/packages/21/32/44d5bb6c695175e43384dfd8ae95616702cf43bca93ee583fbd35d72b86f/cvxpygen-0.3.4.tar.gz
+[2024-04-23 02:35:27] INFO root fetch - processPackages [cvxpygen]: executing diffoscope
+[2024-04-23 02:35:27] INFO root fetch - processPackages [cvxpygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxpygen-0.3.3.tar.gz tmp/cvxpygen-0.3.4.tar.gz --markdown 20240423/c/cvxpygen/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-23 02:35:27] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2024-04-23 02:35:27] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2024-04-23 02:35:27] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20240423/s/sf-hamilton/1.9.0-1.9.0rc0/README.md --exclude *.pyd
+[2024-04-23 02:35:27] INFO root fetch - processPackages [quick-server]: Remove: archive file [/home/abi/fetcher/tmp/quick_server-0.9.4.tar.gz]
+[2024-04-23 02:35:27] INFO root fetch - processPackages [quick-server]: Remove: archive file [/home/abi/fetcher/tmp/quick_server-0.9.5.tar.gz]
+[2024-04-23 02:35:27] INFO root fetch - main [MainThread]: End processing [quick-server]: success
+[2024-04-23 02:35:28] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0.tar.gz]
+[2024-04-23 02:35:28] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
+[2024-04-23 02:35:28] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2024-04-23 02:35:29] INFO root fetch - processPackages [cvxpygen]: Remove: archive file [/home/abi/fetcher/tmp/cvxpygen-0.3.3.tar.gz]
+[2024-04-23 02:35:29] INFO root fetch - processPackages [cvxpygen]: Remove: archive file [/home/abi/fetcher/tmp/cvxpygen-0.3.4.tar.gz]
+[2024-04-23 02:35:29] INFO root fetch - main [MainThread]: End processing [cvxpygen]: success
+[2024-04-23 02:35:29] INFO root fetch - main [MainThread]: Store serial: [22886438]
