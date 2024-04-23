@@ -7715,3 +7715,15 @@
 [2024-04-23 04:09:36] INFO root fetch - processPackages [the-utils]: Remove: archive file [/home/abi/fetcher/tmp/the_utils-0.3.6.tar.gz]
 [2024-04-23 04:09:36] INFO root fetch - main [MainThread]: End processing [the-utils]: success
 [2024-04-23 04:09:36] INFO root fetch - main [MainThread]: Store serial: [22888001]
+[2024-04-23 04:11:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888001]
+[2024-04-23 04:11:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-23 04:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sportswrangler
+[2024-04-23 04:11:45] INFO root fetch - processPackages [sportswrangler]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-04-23 04:11:45] INFO root fetch - processPackages [sportswrangler]: Downloading https://files.pythonhosted.org/packages/66/fc/2a978e9f727e0662005ad7ad3785750a29a02b32173018aba5038bf36c4e/sportswrangler-0.0.0.tar.gz
+[2024-04-23 04:11:45] INFO root fetch - processPackages [sportswrangler]: Downloading https://files.pythonhosted.org/packages/1f/16/0e9a6bb032406e5fc4347dd28ded992ee798c1557dba111314aae7a3b25a/sportswrangler-0.1.0.tar.gz
+[2024-04-23 04:11:45] INFO root fetch - processPackages [sportswrangler]: executing diffoscope
+[2024-04-23 04:11:45] INFO root fetch - processPackages [sportswrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sportswrangler-0.0.0.tar.gz tmp/sportswrangler-0.1.0.tar.gz --markdown 20240423/s/sportswrangler/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-04-23 04:11:46] INFO root fetch - processPackages [sportswrangler]: Remove: archive file [/home/abi/fetcher/tmp/sportswrangler-0.0.0.tar.gz]
+[2024-04-23 04:11:46] INFO root fetch - processPackages [sportswrangler]: Remove: archive file [/home/abi/fetcher/tmp/sportswrangler-0.1.0.tar.gz]
+[2024-04-23 04:11:46] INFO root fetch - main [MainThread]: End processing [sportswrangler]: success
+[2024-04-23 04:11:46] INFO root fetch - main [MainThread]: Store serial: [22888004]
