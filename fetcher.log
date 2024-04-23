@@ -14056,3 +14056,56 @@
 [2024-04-23 10:03:32] INFO root fetch - processPackages [zetamarkets_py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
 [2024-04-23 10:03:32] INFO root fetch - main [MainThread]: End processing [zetamarkets_py]: success
 [2024-04-23 10:03:32] INFO root fetch - main [MainThread]: Store serial: [22890623]
+[2024-04-23 10:05:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890623]
+[2024-04-23 10:05:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 10:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langfun
+[2024-04-23 10:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-azure-auth
+[2024-04-23 10:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voodoonet
+[2024-04-23 10:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cytocraft
+[2024-04-23 10:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mteb
+[2024-04-23 10:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BoatBuddy
+[2024-04-23 10:05:41] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240422] Old Version: [0.0.2.dev20240421]
+[2024-04-23 10:05:41] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-23 10:05:41] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/e4/46/a830687e3a6a7192ab5fe0e27b12eca604c62519cff11915cdf4512bfa54/langfun-0.0.2.dev20240421.tar.gz
+[2024-04-23 10:05:41] INFO root fetch - processPackages [django-azure-auth]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-23 10:05:41] INFO root fetch - processPackages [cytocraft]: New version: [0.1] Old Version: [0.0.5]
+[2024-04-23 10:05:41] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-23 10:05:41] INFO root fetch - processPackages [BoatBuddy]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-23 10:05:42] INFO root fetch - processPackages [voodoonet]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 10:05:42] INFO root fetch - processPackages [cytocraft]: Downloading https://files.pythonhosted.org/packages/75/bb/1090f9c24ff5d276a1cd9fe8c9df9eab91bcb44e075511ff650edc827aff/cytocraft-0.0.5.tar.gz
+[2024-04-23 10:05:42] INFO root fetch - processPackages [django-azure-auth]: Downloading https://files.pythonhosted.org/packages/9d/fa/a46df8b8b9dc01b21fac80acb7dcc13c93fdd0a94939c0a67822d71d6026/django_azure_auth-1.2.1.tar.gz
+[2024-04-23 10:05:42] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/bf/4d/9e321cfe04d1c06153ff54a1253eda867fdd54ee3739262e5d7cfc51b1c7/boatbuddy-0.9.4.tar.gz
+[2024-04-23 10:05:42] INFO root fetch - processPackages [voodoonet]: Downloading https://files.pythonhosted.org/packages/94/2b/8ce8a62694bf499221b43991eb1420cee1e1683790ece41e7ff2c85ed13d/voodoonet-0.1.8.tar.gz
+[2024-04-23 10:05:42] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/f5/de/b60024c22602d14ac6a7ba1789fbe41f8d5a85eebb2eed6add13d130d0ce/langfun-0.0.2.dev20240422.tar.gz
+[2024-04-23 10:05:42] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-23 10:05:42] INFO root fetch - processPackages [django-azure-auth]: Downloading https://files.pythonhosted.org/packages/ff/7a/fe7a7b3b4100e6d8436d8055ba2b1650b1893c3545dc2aa5e5b8aa0c8bdd/django_azure_auth-1.2.2.tar.gz
+[2024-04-23 10:05:42] WARNING root fetch - processPackages [voodoonet]: Skipping package: exceeds size limit 10548488>=10485760
+[2024-04-23 10:05:42] INFO root fetch - main [MainThread]: End processing [voodoonet] error
+[2024-04-23 10:05:42] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-23 10:05:42] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240421.tar.gz tmp/langfun-0.0.2.dev20240422.tar.gz --markdown 20240423/l/langfun/0.0.2.dev20240421-0.0.2.dev20240422/README.md --exclude *.pyd
+[2024-04-23 10:05:42] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-23 10:05:42] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240423/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-23 10:05:42] INFO root fetch - processPackages [django-azure-auth]: executing diffoscope
+[2024-04-23 10:05:42] INFO root fetch - processPackages [django-azure-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_azure_auth-1.2.1.tar.gz tmp/django_azure_auth-1.2.2.tar.gz --markdown 20240423/d/django-azure-auth/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-23 10:05:42] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/fd/f5/139785198b6a0e3c5ca20dae7046eff9e2b660f9a02f1ecd73546dfff321/boatbuddy-0.9.5.tar.gz
+[2024-04-23 10:05:43] INFO root fetch - processPackages [BoatBuddy]: executing diffoscope
+[2024-04-23 10:05:43] INFO root fetch - processPackages [BoatBuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boatbuddy-0.9.4.tar.gz tmp/boatbuddy-0.9.5.tar.gz --markdown 20240423/B/BoatBuddy/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-23 10:05:43] INFO root fetch - processPackages [django-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_auth-1.2.1.tar.gz]
+[2024-04-23 10:05:43] INFO root fetch - processPackages [django-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_auth-1.2.2.tar.gz]
+[2024-04-23 10:05:43] INFO root fetch - main [MainThread]: End processing [django-azure-auth]: success
+[2024-04-23 10:05:43] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240421.tar.gz]
+[2024-04-23 10:05:43] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240422.tar.gz]
+[2024-04-23 10:05:43] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-23 10:05:43] INFO root fetch - processPackages [cytocraft]: Downloading https://files.pythonhosted.org/packages/ad/b3/87cc2414fdfb1acf2857ec1ba4dcd5055b6fbb620a8b0d2739af02e4a143/cytocraft-0.1.tar.gz
+[2024-04-23 10:05:44] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-23 10:05:44] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-23 10:05:44] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-23 10:05:47] INFO root fetch - processPackages [cytocraft]: executing diffoscope
+[2024-04-23 10:05:47] INFO root fetch - processPackages [cytocraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytocraft-0.0.5.tar.gz tmp/cytocraft-0.1.tar.gz --markdown 20240423/c/cytocraft/0.0.5-0.1/README.md --exclude *.pyd
+[2024-04-23 10:05:50] INFO root fetch - processPackages [cytocraft]: Remove: archive file [/home/abi/fetcher/tmp/cytocraft-0.0.5.tar.gz]
+[2024-04-23 10:05:50] INFO root fetch - processPackages [cytocraft]: Remove: archive file [/home/abi/fetcher/tmp/cytocraft-0.1.tar.gz]
+[2024-04-23 10:05:50] INFO root fetch - main [MainThread]: End processing [cytocraft]: success
+[2024-04-23 10:05:50] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.4.tar.gz]
+[2024-04-23 10:05:50] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
+[2024-04-23 10:05:50] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
+[2024-04-23 10:05:50] INFO root fetch - main [MainThread]: Store serial: [22890640]
