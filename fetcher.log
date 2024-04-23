@@ -17643,3 +17643,68 @@
 [2024-04-23 12:12:42] INFO root fetch - processPackages [GRSdriver]: Remove: archive file [/home/abi/fetcher/tmp/grsdriver-1.0.4.tar.gz]
 [2024-04-23 12:12:42] INFO root fetch - main [MainThread]: End processing [GRSdriver]: success
 [2024-04-23 12:12:42] INFO root fetch - main [MainThread]: Store serial: [22892188]
+[2024-04-23 12:14:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892188]
+[2024-04-23 12:14:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 12:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdo-sdk-python
+[2024-04-23 12:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lense
+[2024-04-23 12:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiogram3-triggers
+[2024-04-23 12:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TitanDevice
+[2024-04-23 12:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotframework-xlibrary
+[2024-04-23 12:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyhula
+[2024-04-23 12:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eirStru
+[2024-04-23 12:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: serverless-openai
+[2024-04-23 12:14:51] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 12:14:51] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.97] Old Version: [1.0.96]
+[2024-04-23 12:14:51] INFO root fetch - processPackages [TitanDevice]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-23 12:14:51] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 12:14:51] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-23 12:14:51] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [11.0.4] Old Version: [11.0.3]
+[2024-04-23 12:14:51] WARNING root fetch - processPackages [aiogram3-triggers]: Skipping, unable to determine old version
+[2024-04-23 12:14:51] INFO root fetch - main [MainThread]: End processing [aiogram3-triggers] error
+[2024-04-23 12:14:51] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/fb/73/26dfed74d441d20053ac9db514718945a7f9263f45762b4334c4eba1e927/cdo-sdk-python-1.0.96.tar.gz
+[2024-04-23 12:14:51] INFO root fetch - processPackages [pyhula]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-23 12:14:51] INFO root fetch - processPackages [serverless-openai]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-23 12:14:51] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-23 12:14:51] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/73/2c/624ef7867957c793c66cb0be20f1dc9d0cdbb647b422dfed4a2b080f8d08/TitanDevice-0.1.5.tar.gz
+[2024-04-23 12:14:51] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/55/bf/e4fcdb20b4c37ee27bd6107be7076a78b17022740834b8b5373a1902ac06/robotframework-xlibrary-11.0.3.tar.gz
+[2024-04-23 12:14:51] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-23 12:14:51] INFO root fetch - processPackages [pyhula]: Downloading https://files.pythonhosted.org/packages/bc/b7/071bf962fdcf90f0ced5a4bb22ecce0d14f12f5fc543a5d2a25fc8617e57/pyhula-1.0.2-cp36-cp36m-win_amd64.whl
+[2024-04-23 12:14:51] INFO root fetch - processPackages [serverless-openai]: Downloading https://files.pythonhosted.org/packages/e0/67/35e45a897eeab2f7371d6558ebb910a9dc659cea99fc8afc990e0a145167/serverless_openai-1.3.3.tar.gz
+[2024-04-23 12:14:51] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-23 12:14:51] WARNING root fetch - processPackages [pyhula]: Skipping package: exceeds size limit 53137593>=10485760
+[2024-04-23 12:14:51] INFO root fetch - main [MainThread]: End processing [pyhula] error
+[2024-04-23 12:14:52] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 12:14:52] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 12:14:52] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/c6/a1/0b89b3a65dbd68c7c8686a300504d446202448676e37c7fdf10c06797fb1/cdo-sdk-python-1.0.97.tar.gz
+[2024-04-23 12:14:52] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-23 12:14:52] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240423/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 12:14:52] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/bb/58/488a5121ca63bb8a8b57200176e08b771081537ecc68d33b45d4f4254ea6/TitanDevice-0.1.6.tar.gz
+[2024-04-23 12:14:52] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/39/9a/8f691edd5dacc88cf7817a53b0a412c522b34a3c116664e4b7884d1d0ea2/robotframework-xlibrary-11.0.4.tar.gz
+[2024-04-23 12:14:52] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-23 12:14:52] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.96.tar.gz tmp/cdo-sdk-python-1.0.97.tar.gz --markdown 20240423/c/cdo-sdk-python/1.0.96-1.0.97/README.md --exclude *.pyd
+[2024-04-23 12:14:52] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-23 12:14:52] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.1.5.tar.gz tmp/TitanDevice-0.1.6.tar.gz --markdown 20240423/T/TitanDevice/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-23 12:14:52] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-04-23 12:14:52] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-11.0.3.tar.gz tmp/robotframework-xlibrary-11.0.4.tar.gz --markdown 20240423/r/robotframework-xlibrary/11.0.3-11.0.4/README.md --exclude *.pyd
+[2024-04-23 12:14:52] INFO root fetch - processPackages [serverless-openai]: Downloading https://files.pythonhosted.org/packages/00/23/2388ebf69d69acd5880dbdba7e4ebc1499a982f1dde9c31ec47099a1182f/serverless_openai-1.3.4.tar.gz
+[2024-04-23 12:14:52] INFO root fetch - processPackages [serverless-openai]: executing diffoscope
+[2024-04-23 12:14:52] INFO root fetch - processPackages [serverless-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless_openai-1.3.3.tar.gz tmp/serverless_openai-1.3.4.tar.gz --markdown 20240423/s/serverless-openai/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-04-23 12:14:52] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-23 12:14:52] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-23 12:14:52] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-23 12:14:52] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 12:14:52] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 12:14:52] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 12:14:52] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.5.tar.gz]
+[2024-04-23 12:14:52] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.6.tar.gz]
+[2024-04-23 12:14:52] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-23 12:14:52] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.3.tar.gz]
+[2024-04-23 12:14:52] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.4.tar.gz]
+[2024-04-23 12:14:52] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-04-23 12:14:53] INFO root fetch - processPackages [serverless-openai]: Remove: archive file [/home/abi/fetcher/tmp/serverless_openai-1.3.3.tar.gz]
+[2024-04-23 12:14:53] INFO root fetch - processPackages [serverless-openai]: Remove: archive file [/home/abi/fetcher/tmp/serverless_openai-1.3.4.tar.gz]
+[2024-04-23 12:14:53] INFO root fetch - main [MainThread]: End processing [serverless-openai]: success
+[2024-04-23 12:14:53] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.96.tar.gz]
+[2024-04-23 12:14:53] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.97.tar.gz]
+[2024-04-23 12:14:53] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-23 12:14:53] INFO root fetch - main [MainThread]: Store serial: [22892212]
