@@ -17448,3 +17448,63 @@
 [2024-04-23 12:06:07] INFO root fetch - processPackages [python-package-template-pypi]: Remove: archive file [/home/abi/fetcher/tmp/python_package_template_pypi-0.1.0-py3-none-any.whl.zip]
 [2024-04-23 12:06:07] INFO root fetch - main [MainThread]: End processing [python-package-template-pypi]: success
 [2024-04-23 12:06:07] INFO root fetch - main [MainThread]: Store serial: [22892119]
+[2024-04-23 12:08:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892119]
+[2024-04-23 12:08:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 12:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-package-template-pypi
+[2024-04-23 12:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2024-04-23 12:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-keras-nightly
+[2024-04-23 12:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: database-common-tools
+[2024-04-23 12:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hub-driver-handler
+[2024-04-23 12:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiokeitaro
+[2024-04-23 12:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rats-processors
+[2024-04-23 12:08:16] INFO root fetch - processPackages [python-package-template-pypi]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-04-23 12:08:16] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 12:08:16] INFO root fetch - processPackages [hub-driver-handler]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 12:08:16] WARNING root fetch - processPackages [aiokeitaro]: Skipping, unable to determine old version
+[2024-04-23 12:08:16] INFO root fetch - main [MainThread]: End processing [aiokeitaro] error
+[2024-04-23 12:08:16] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 12:08:16] INFO root fetch - processPackages [database-common-tools]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-23 12:08:16] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 12:08:16] INFO root fetch - processPackages [python-package-template-pypi]: Downloading https://files.pythonhosted.org/packages/d1/47/437d709a99a681fd3683f754ba001845c7e0a83d4655b023dc82e36c0d59/python_package_template_pypi-0.0.4.tar.gz
+[2024-04-23 12:08:16] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-23 12:08:16] INFO root fetch - processPackages [hub-driver-handler]: Downloading https://files.pythonhosted.org/packages/c3/e9/2a837b30d39faffbe9ec15e192a0d48e18e5c9c8f879514e1fdbc287fa79/hub_driver_handler-0.0.8.tar.gz
+[2024-04-23 12:08:16] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024042309] Old Version: [2.17.0.dev2024042209]
+[2024-04-23 12:08:16] INFO root fetch - processPackages [python-package-template-pypi]: Downloading https://files.pythonhosted.org/packages/eb/97/fe6b7e72d56a38a79f361ba4d26132e25b3f0f6bba820d3308901edf2e01/python_package_template_pypi-0.1.0-py3-none-any.whl
+[2024-04-23 12:08:16] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 12:08:16] INFO root fetch - processPackages [python-package-template-pypi]: executing diffoscope
+[2024-04-23 12:08:16] INFO root fetch - processPackages [python-package-template-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_package_template_pypi-0.0.4.tar.gz tmp/python_package_template_pypi-0.1.0-py3-none-any.whl.zip --markdown 20240423/p/python-package-template-pypi/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-04-23 12:08:16] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/ac/64/bd5217274cf2d8e06c614cce93235b771e3893972b973652d6a924d1512b/database-common-tools-1.1.3.tar.gz
+[2024-04-23 12:08:16] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-23 12:08:16] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 12:08:16] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/f5/b7/3c1042ef84f2450dea0015a2fa1f6b9d6f6cdba576db05b9e68fa7d06872/tf_keras_nightly-2.17.0.dev2024042209.tar.gz
+[2024-04-23 12:08:17] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-23 12:08:17] INFO root fetch - processPackages [hub-driver-handler]: Downloading https://files.pythonhosted.org/packages/56/fa/766adcba1c6faa715339a4c90269beb2bf6cc484a3e84bae54b67db045f7/hub_driver_handler-0.0.9.tar.gz
+[2024-04-23 12:08:17] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-23 12:08:17] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240423/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-23 12:08:17] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/19/50/9bd50456d878ffba6058f0b640c51cd15f764face083bfc17e230ce82d52/database-common-tools-1.1.4.tar.gz
+[2024-04-23 12:08:17] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/8e/ca/a7f78491817969a0b5b055e5013e1d4cf564f0115d31ed133538abe0f357/tf_keras_nightly-2.17.0.dev2024042309.tar.gz
+[2024-04-23 12:08:17] INFO root fetch - processPackages [hub-driver-handler]: executing diffoscope
+[2024-04-23 12:08:17] INFO root fetch - processPackages [hub-driver-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hub_driver_handler-0.0.8.tar.gz tmp/hub_driver_handler-0.0.9.tar.gz --markdown 20240423/h/hub-driver-handler/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 12:08:17] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-23 12:08:17] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.1.3.tar.gz tmp/database-common-tools-1.1.4.tar.gz --markdown 20240423/d/database-common-tools/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-23 12:08:17] INFO root fetch - processPackages [python-package-template-pypi]: Remove: archive file [/home/abi/fetcher/tmp/python_package_template_pypi-0.0.4.tar.gz]
+[2024-04-23 12:08:17] INFO root fetch - processPackages [python-package-template-pypi]: Remove: archive file [/home/abi/fetcher/tmp/python_package_template_pypi-0.1.0-py3-none-any.whl.zip]
+[2024-04-23 12:08:17] INFO root fetch - main [MainThread]: End processing [python-package-template-pypi]: success
+[2024-04-23 12:08:17] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 12:08:17] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 12:08:17] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-23 12:08:17] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-04-23 12:08:17] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024042209.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024042309.tar.gz --markdown 20240423/t/tf-keras-nightly/2.17.0.dev2024042209-2.17.0.dev2024042309/README.md --exclude *.pyd
+[2024-04-23 12:08:17] INFO root fetch - processPackages [hub-driver-handler]: Remove: archive file [/home/abi/fetcher/tmp/hub_driver_handler-0.0.8.tar.gz]
+[2024-04-23 12:08:17] INFO root fetch - processPackages [hub-driver-handler]: Remove: archive file [/home/abi/fetcher/tmp/hub_driver_handler-0.0.9.tar.gz]
+[2024-04-23 12:08:17] INFO root fetch - main [MainThread]: End processing [hub-driver-handler]: success
+[2024-04-23 12:08:18] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.3.tar.gz]
+[2024-04-23 12:08:18] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.4.tar.gz]
+[2024-04-23 12:08:18] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-23 12:08:18] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-23 12:08:18] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-23 12:08:18] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-23 12:08:20] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024042209.tar.gz]
+[2024-04-23 12:08:20] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024042309.tar.gz]
+[2024-04-23 12:08:20] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-04-23 12:08:20] INFO root fetch - main [MainThread]: Store serial: [22892141]
