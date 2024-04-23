@@ -12908,3 +12908,15 @@
 [2024-04-23 09:16:47] INFO root fetch - processPackages [openfinance]: Remove: archive file [/home/abi/fetcher/tmp/openfinance-3.3.3.tar.gz]
 [2024-04-23 09:16:47] INFO root fetch - main [MainThread]: End processing [openfinance]: success
 [2024-04-23 09:16:47] INFO root fetch - main [MainThread]: Store serial: [22890107]
+[2024-04-23 09:18:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890107]
+[2024-04-23 09:18:55] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-23 09:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-04-23 09:18:56] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240423071625] Old Version: [3.3.1.dev20240422215446]
+[2024-04-23 09:18:56] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/35/e5/feedc4fbd55451f5f16acdd07e59daaea53e060937d2b36b591d57b1be5c/localstack_core-3.3.1.dev20240422215446.tar.gz
+[2024-04-23 09:18:56] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d4/eb/5662f9c14e4d16a27336c879c52f4c87a1de3baee9b627d898827b54a7c3/localstack_core-3.3.1.dev20240423071625.tar.gz
+[2024-04-23 09:18:57] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-23 09:18:57] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.3.1.dev20240422215446.tar.gz tmp/localstack_core-3.3.1.dev20240423071625.tar.gz --markdown 20240423/l/localstack-core/3.3.1.dev20240422215446-3.3.1.dev20240423071625/README.md --exclude *.pyd
+[2024-04-23 09:19:00] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240422215446.tar.gz]
+[2024-04-23 09:19:00] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240423071625.tar.gz]
+[2024-04-23 09:19:00] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-23 09:19:00] INFO root fetch - main [MainThread]: Store serial: [22890111]
