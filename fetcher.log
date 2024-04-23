@@ -2911,3 +2911,33 @@
 [2024-04-23 02:28:57] INFO root fetch - processPackages [sphinxcontrib-rust]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_rust-0.2.0.tar.gz]
 [2024-04-23 02:28:57] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-rust]: success
 [2024-04-23 02:28:57] INFO root fetch - main [MainThread]: Store serial: [22886407]
+[2024-04-23 02:31:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886407]
+[2024-04-23 02:31:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 02:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tendril-auth
+[2024-04-23 02:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2024-04-23 02:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: picoscope
+[2024-04-23 02:31:05] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240422] Old Version: [0.1.5.dev20240421]
+[2024-04-23 02:31:05] INFO root fetch - processPackages [tendril-auth]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-04-23 02:31:05] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/db/04/f5f4663c37bfab5d9a3a16b37b92b3a9b574864ee38b0e48ee5a07862816/aeppl_nightly-0.1.5.dev20240421.tar.gz
+[2024-04-23 02:31:05] INFO root fetch - processPackages [picoscope]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-23 02:31:05] INFO root fetch - processPackages [tendril-auth]: Downloading https://files.pythonhosted.org/packages/da/b3/1cbd72c21492f35bbda575032115b19456c67eceeb348180cf4c6f907654/tendril_auth-0.4.3.tar.gz
+[2024-04-23 02:31:05] INFO root fetch - processPackages [picoscope]: Downloading https://files.pythonhosted.org/packages/bb/ea/1c4375e1d37bc25eecc4cdd346021300a968d90605fd631c763b1fb286ba/picoscope-0.7.8.tar.gz
+[2024-04-23 02:31:05] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/76/8e/319fdd880e194fa83bfd3f4318042f61b981c23a55e88286df5d3e38b361/aeppl_nightly-0.1.5.dev20240422.tar.gz
+[2024-04-23 02:31:05] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-23 02:31:05] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240421.tar.gz tmp/aeppl_nightly-0.1.5.dev20240422.tar.gz --markdown 20240423/a/aeppl-nightly/0.1.5.dev20240421-0.1.5.dev20240422/README.md --exclude *.pyd
+[2024-04-23 02:31:06] INFO root fetch - processPackages [tendril-auth]: Downloading https://files.pythonhosted.org/packages/6d/52/eca90e0e0a8a33bcc5062afa05949a0511ca44cc5f5e68fea59a58778b6d/tendril_auth-0.5.0.tar.gz
+[2024-04-23 02:31:06] INFO root fetch - processPackages [tendril-auth]: executing diffoscope
+[2024-04-23 02:31:06] INFO root fetch - processPackages [tendril-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril_auth-0.4.3.tar.gz tmp/tendril_auth-0.5.0.tar.gz --markdown 20240423/t/tendril-auth/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-04-23 02:31:06] INFO root fetch - processPackages [picoscope]: Downloading https://files.pythonhosted.org/packages/22/84/f3b04c2a22f6a3b559838cfb6f974165ed7df20cf4ec390d06edd3cf1fe1/picoscope-0.7.9.tar.gz
+[2024-04-23 02:31:06] INFO root fetch - processPackages [picoscope]: executing diffoscope
+[2024-04-23 02:31:06] INFO root fetch - processPackages [picoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picoscope-0.7.8.tar.gz tmp/picoscope-0.7.9.tar.gz --markdown 20240423/p/picoscope/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-23 02:31:06] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240421.tar.gz]
+[2024-04-23 02:31:06] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240422.tar.gz]
+[2024-04-23 02:31:06] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-23 02:31:06] INFO root fetch - processPackages [tendril-auth]: Remove: archive file [/home/abi/fetcher/tmp/tendril_auth-0.4.3.tar.gz]
+[2024-04-23 02:31:06] INFO root fetch - processPackages [tendril-auth]: Remove: archive file [/home/abi/fetcher/tmp/tendril_auth-0.5.0.tar.gz]
+[2024-04-23 02:31:06] INFO root fetch - main [MainThread]: End processing [tendril-auth]: success
+[2024-04-23 02:31:06] INFO root fetch - processPackages [picoscope]: Remove: archive file [/home/abi/fetcher/tmp/picoscope-0.7.8.tar.gz]
+[2024-04-23 02:31:06] INFO root fetch - processPackages [picoscope]: Remove: archive file [/home/abi/fetcher/tmp/picoscope-0.7.9.tar.gz]
+[2024-04-23 02:31:06] INFO root fetch - main [MainThread]: End processing [picoscope]: success
+[2024-04-23 02:31:06] INFO root fetch - main [MainThread]: Store serial: [22886414]
