@@ -17418,3 +17418,33 @@
 [2024-04-23 12:03:56] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.9.tar.gz]
 [2024-04-23 12:03:56] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
 [2024-04-23 12:03:56] INFO root fetch - main [MainThread]: Store serial: [22892112]
+[2024-04-23 12:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892112]
+[2024-04-23 12:06:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ul-py-tool
+[2024-04-23 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: music-kraken
+[2024-04-23 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-package-template-pypi
+[2024-04-23 12:06:05] INFO root fetch - processPackages [ul-py-tool]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-23 12:06:05] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/e7/3d/8585d3c079ab7fc04908f16aba2f8ef0a65ab3a51d782d1a2dffb4b6b644/ul-py-tool-2.0.0.tar.gz
+[2024-04-23 12:06:05] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-04-23 12:06:06] INFO root fetch - processPackages [python-package-template-pypi]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-04-23 12:06:06] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/cb/06/8ae70afb14c2307fb716d0fe36aad66a90c9e2598f47879c1277c5f23318/music_kraken-1.7.0.tar.gz
+[2024-04-23 12:06:06] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/a4/34/23f6b67894cd38bc0180d1bda48cae068ce3431cd22720e4e149000e3c8a/ul-py-tool-2.1.0.tar.gz
+[2024-04-23 12:06:06] INFO root fetch - processPackages [python-package-template-pypi]: Downloading https://files.pythonhosted.org/packages/d1/47/437d709a99a681fd3683f754ba001845c7e0a83d4655b023dc82e36c0d59/python_package_template_pypi-0.0.4.tar.gz
+[2024-04-23 12:06:06] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2024-04-23 12:06:06] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-2.0.0.tar.gz tmp/ul-py-tool-2.1.0.tar.gz --markdown 20240423/u/ul-py-tool/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-23 12:06:06] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-04-23 12:06:06] INFO root fetch - processPackages [python-package-template-pypi]: Downloading https://files.pythonhosted.org/packages/eb/97/fe6b7e72d56a38a79f361ba4d26132e25b3f0f6bba820d3308901edf2e01/python_package_template_pypi-0.1.0-py3-none-any.whl
+[2024-04-23 12:06:06] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-04-23 12:06:06] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.7.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240423/m/music-kraken/1.7.0-1.9.0/README.md --exclude *.pyd
+[2024-04-23 12:06:06] INFO root fetch - processPackages [python-package-template-pypi]: executing diffoscope
+[2024-04-23 12:06:06] INFO root fetch - processPackages [python-package-template-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_package_template_pypi-0.0.4.tar.gz tmp/python_package_template_pypi-0.1.0-py3-none-any.whl.zip --markdown 20240423/p/python-package-template-pypi/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-04-23 12:06:06] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-2.0.0.tar.gz]
+[2024-04-23 12:06:06] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-2.1.0.tar.gz]
+[2024-04-23 12:06:06] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2024-04-23 12:06:07] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.7.0.tar.gz]
+[2024-04-23 12:06:07] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-04-23 12:06:07] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-04-23 12:06:07] INFO root fetch - processPackages [python-package-template-pypi]: Remove: archive file [/home/abi/fetcher/tmp/python_package_template_pypi-0.0.4.tar.gz]
+[2024-04-23 12:06:07] INFO root fetch - processPackages [python-package-template-pypi]: Remove: archive file [/home/abi/fetcher/tmp/python_package_template_pypi-0.1.0-py3-none-any.whl.zip]
+[2024-04-23 12:06:07] INFO root fetch - main [MainThread]: End processing [python-package-template-pypi]: success
+[2024-04-23 12:06:07] INFO root fetch - main [MainThread]: Store serial: [22892119]
