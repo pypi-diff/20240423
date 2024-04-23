@@ -20459,3 +20459,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 14:01:48] INFO root fetch - processPackages [bbutils]: Remove: archive file [/home/abi/fetcher/tmp/bbutils-0.6.0.0.tar.gz]
 [2024-04-23 14:01:48] INFO root fetch - main [MainThread]: End processing [bbutils]: success
 [2024-04-23 14:01:48] INFO root fetch - main [MainThread]: Store serial: [22893398]
+[2024-04-23 14:03:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893398]
+[2024-04-23 14:03:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 14:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dockipy
+[2024-04-23 14:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: html-text
+[2024-04-23 14:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meantools
+[2024-04-23 14:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ayeaye-fossa
+[2024-04-23 14:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LogGuard
+[2024-04-23 14:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fmu-tools
+[2024-04-23 14:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OGU
+[2024-04-23 14:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opytimal
+[2024-04-23 14:03:58] INFO root fetch - processPackages [ayeaye-fossa]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:03:58] INFO root fetch - processPackages [html-text]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-04-23 14:03:58] INFO root fetch - processPackages [LogGuard]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-23 14:03:58] INFO root fetch - processPackages [dockipy]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-23 14:03:58] INFO root fetch - processPackages [meantools]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-23 14:03:58] WARNING root fetch - processPackages [opytimal]: Skipping, unable to determine old version
+[2024-04-23 14:03:58] INFO root fetch - main [MainThread]: End processing [opytimal] error
+[2024-04-23 14:03:58] INFO root fetch - processPackages [OGU]: New version: [1.52] Old Version: [1.5]
+[2024-04-23 14:03:58] INFO root fetch - processPackages [fmu-tools]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-23 14:03:58] INFO root fetch - processPackages [LogGuard]: Downloading https://files.pythonhosted.org/packages/da/df/113fd847eb018aec648f271a3c7f38538b2be03d7a0eedee11b569efc44a/logguard-0.2.5.tar.gz
+[2024-04-23 14:03:58] INFO root fetch - processPackages [meantools]: Downloading https://files.pythonhosted.org/packages/58/f3/c14a77e8171290389613a3bbfdf368aa5897eafddae8bb7ccc40c7a50ebf/meantools-1.1.2.tar.gz
+[2024-04-23 14:03:58] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/b1/53/d92df9330a198da3e859db9c1cf0ebb2d21258c2f2aa45ad736eb1081ba8/dockipy-0.0.6.tar.gz
+[2024-04-23 14:03:58] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/d8/a1/912b7eb7c2ec90821727eeae723c737b6fccd8c7d43b5b88035f69062531/ayeaye-fossa-0.0.8.tar.gz
+[2024-04-23 14:03:58] INFO root fetch - processPackages [html-text]: Downloading https://files.pythonhosted.org/packages/de/f0/d18ac3ea1eeee089bb99b7abf64b8de774ebb31f73977a1fc3f6bfad8566/html_text-0.5.2.tar.gz
+[2024-04-23 14:03:58] INFO root fetch - processPackages [fmu-tools]: Downloading https://files.pythonhosted.org/packages/9a/39/95db06e8158558e6f4352277b216b92e8b4403d2dcbbb2f37ef0551d871e/fmu_tools-1.8.1.tar.gz
+[2024-04-23 14:03:58] INFO root fetch - processPackages [OGU]: Downloading https://files.pythonhosted.org/packages/4b/e1/f2c9c40cd047039844e2bf9c65b4736a9c62e8ca58e60b933b7a3f24b556/ogu-1.5-py3-none-any.whl
+[2024-04-23 14:03:58] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/3f/3a/f0d0d26d68a1d713e3a4fd112bc9c5730bf2ffb87570f006537da13a4e41/ayeaye-fossa-0.0.9.tar.gz
+[2024-04-23 14:03:58] INFO root fetch - processPackages [LogGuard]: Downloading https://files.pythonhosted.org/packages/a0/12/cdfac921e8041f6e5c45ecf600000263a8ba73fac74c75471013dffae487/logguard-0.2.6.tar.gz
+[2024-04-23 14:03:58] INFO root fetch - processPackages [meantools]: Downloading https://files.pythonhosted.org/packages/23/67/0b93a5753236777a072a5a979a357da5608621f2f413a2e80767ff04c82c/meantools-1.1.3.tar.gz
+[2024-04-23 14:03:58] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/19/29/ebac2f7a020b27c9ca5d1053a987f715bc6436e531da39e40128b78dcfb0/dockipy-0.0.7.tar.gz
+[2024-04-23 14:03:58] INFO root fetch - processPackages [ayeaye-fossa]: executing diffoscope
+[2024-04-23 14:03:58] INFO root fetch - processPackages [ayeaye-fossa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayeaye-fossa-0.0.8.tar.gz tmp/ayeaye-fossa-0.0.9.tar.gz --markdown 20240423/a/ayeaye-fossa/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:03:58] INFO root fetch - processPackages [html-text]: Downloading https://files.pythonhosted.org/packages/60/e6/542804b9cc3fc220beacfd07c1abb32e0a83754494e2cb175690222d52c9/html_text-0.6.0.tar.gz
+[2024-04-23 14:03:58] INFO root fetch - processPackages [LogGuard]: executing diffoscope
+[2024-04-23 14:03:58] INFO root fetch - processPackages [LogGuard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logguard-0.2.5.tar.gz tmp/logguard-0.2.6.tar.gz --markdown 20240423/L/LogGuard/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-23 14:03:58] INFO root fetch - processPackages [dockipy]: executing diffoscope
+[2024-04-23 14:03:58] INFO root fetch - processPackages [dockipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockipy-0.0.6.tar.gz tmp/dockipy-0.0.7.tar.gz --markdown 20240423/d/dockipy/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-23 14:03:58] INFO root fetch - processPackages [meantools]: executing diffoscope
+[2024-04-23 14:03:58] INFO root fetch - processPackages [meantools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meantools-1.1.2.tar.gz tmp/meantools-1.1.3.tar.gz --markdown 20240423/m/meantools/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-23 14:03:58] INFO root fetch - processPackages [OGU]: Downloading https://files.pythonhosted.org/packages/1b/ee/5b50002c05886bbccb03bb552b25c86e37dba6ff52f9c56bedf046c95602/ogu-1.52.tar.gz
+[2024-04-23 14:03:58] INFO root fetch - processPackages [html-text]: executing diffoscope
+[2024-04-23 14:03:58] INFO root fetch - processPackages [html-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_text-0.5.2.tar.gz tmp/html_text-0.6.0.tar.gz --markdown 20240423/h/html-text/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-04-23 14:03:58] INFO root fetch - processPackages [OGU]: executing diffoscope
+[2024-04-23 14:03:58] INFO root fetch - processPackages [OGU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogu-1.5-py3-none-any.whl.zip tmp/ogu-1.52.tar.gz --markdown 20240423/O/OGU/1.5-1.52/README.md --exclude *.pyd
+[2024-04-23 14:03:59] INFO root fetch - processPackages [fmu-tools]: Downloading https://files.pythonhosted.org/packages/db/0b/a37bc3412948fddac5e39d8120a0807845753466ef17fa7cb47da201daba/fmu_tools-1.9.0.tar.gz
+[2024-04-23 14:03:59] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.8.tar.gz]
+[2024-04-23 14:03:59] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.9.tar.gz]
+[2024-04-23 14:03:59] INFO root fetch - main [MainThread]: End processing [ayeaye-fossa]: success
+[2024-04-23 14:03:59] INFO root fetch - processPackages [meantools]: Remove: archive file [/home/abi/fetcher/tmp/meantools-1.1.2.tar.gz]
+[2024-04-23 14:03:59] INFO root fetch - processPackages [meantools]: Remove: archive file [/home/abi/fetcher/tmp/meantools-1.1.3.tar.gz]
+[2024-04-23 14:03:59] INFO root fetch - main [MainThread]: End processing [meantools]: success
+[2024-04-23 14:03:59] INFO root fetch - processPackages [LogGuard]: Remove: archive file [/home/abi/fetcher/tmp/logguard-0.2.5.tar.gz]
+[2024-04-23 14:03:59] INFO root fetch - processPackages [LogGuard]: Remove: archive file [/home/abi/fetcher/tmp/logguard-0.2.6.tar.gz]
+[2024-04-23 14:03:59] INFO root fetch - main [MainThread]: End processing [LogGuard]: success
+[2024-04-23 14:03:59] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.6.tar.gz]
+[2024-04-23 14:03:59] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.7.tar.gz]
+[2024-04-23 14:03:59] INFO root fetch - main [MainThread]: End processing [dockipy]: success
+[2024-04-23 14:03:59] INFO root fetch - processPackages [html-text]: Remove: archive file [/home/abi/fetcher/tmp/html_text-0.5.2.tar.gz]
+[2024-04-23 14:03:59] INFO root fetch - processPackages [html-text]: Remove: archive file [/home/abi/fetcher/tmp/html_text-0.6.0.tar.gz]
+[2024-04-23 14:03:59] INFO root fetch - main [MainThread]: End processing [html-text]: success
+[2024-04-23 14:03:59] INFO root fetch - processPackages [OGU]: Remove: archive file [/home/abi/fetcher/tmp/ogu-1.5-py3-none-any.whl.zip]
+[2024-04-23 14:03:59] INFO root fetch - processPackages [OGU]: Remove: archive file [/home/abi/fetcher/tmp/ogu-1.52.tar.gz]
+[2024-04-23 14:03:59] INFO root fetch - main [MainThread]: End processing [OGU]: success
+[2024-04-23 14:04:00] INFO root fetch - processPackages [fmu-tools]: executing diffoscope
+[2024-04-23 14:04:00] INFO root fetch - processPackages [fmu-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmu_tools-1.8.1.tar.gz tmp/fmu_tools-1.9.0.tar.gz --markdown 20240423/f/fmu-tools/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-23 14:04:01] INFO root fetch - processPackages [fmu-tools]: Remove: archive file [/home/abi/fetcher/tmp/fmu_tools-1.8.1.tar.gz]
+[2024-04-23 14:04:01] INFO root fetch - processPackages [fmu-tools]: Remove: archive file [/home/abi/fetcher/tmp/fmu_tools-1.9.0.tar.gz]
+[2024-04-23 14:04:01] INFO root fetch - main [MainThread]: End processing [fmu-tools]: success
+[2024-04-23 14:04:01] INFO root fetch - main [MainThread]: Store serial: [22893425]
