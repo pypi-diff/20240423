@@ -22086,3 +22086,51 @@ EOFError: EOF read where object expected
 [2024-04-23 14:51:23] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2024-04-23 14:51:23] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2024-04-23 14:51:23] INFO root fetch - main [MainThread]: Store serial: [22894044]
+[2024-04-23 14:53:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894044]
+[2024-04-23 14:53:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-express
+[2024-04-23 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: octue
+[2024-04-23 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: h5grove
+[2024-04-23 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odbc2deltalake
+[2024-04-23 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-pfx
+[2024-04-23 14:53:33] INFO root fetch - processPackages [lusid-express]: New version: [0.6.5] Old Version: [0.6.14]
+[2024-04-23 14:53:33] INFO root fetch - processPackages [h5grove]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-23 14:53:33] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-23 14:53:33] INFO root fetch - processPackages [octue]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 14:53:33] INFO root fetch - processPackages [django-pfx]: New version: [1.4.dev8] Old Version: [1.4.dev6]
+[2024-04-23 14:53:33] INFO root fetch - processPackages [lusid-express]: Downloading https://files.pythonhosted.org/packages/64/80/96cc751bfb664f9a070bb8d9d1f2a1e1a4ad6a4ad233e2eb08589a7c3727/lusid_express-0.6.14.tar.gz
+[2024-04-23 14:53:33] INFO root fetch - processPackages [h5grove]: Downloading https://files.pythonhosted.org/packages/e4/fe/ca8b5bf60b5885c35777e6a8138471a080cd22437b9dc4277032f7e54f70/h5grove-2.1.0.tar.gz
+[2024-04-23 14:53:33] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/a2/3e/4713b688a0fdadaf8f9886626fd19b470d56d0f84eb43dd541940b155739/odbc2deltalake-0.8.9.tar.gz
+[2024-04-23 14:53:33] INFO root fetch - processPackages [octue]: Downloading https://files.pythonhosted.org/packages/dd/d0/c0bb1ee9e9a73810ece385ac5e1c2fb9127e1151077551911882a9ecb277/octue-0.9.8.tar.gz
+[2024-04-23 14:53:33] INFO root fetch - processPackages [lusid-express]: Downloading https://files.pythonhosted.org/packages/a1/8d/81c34d5e39c99398ea7e326a8f2709e5740215c84aa74857cef7481d01ed/lusid_express-0.6.5.tar.gz
+[2024-04-23 14:53:33] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/2e/9f/65575dd6215264f53e9e8b7a4683326bc83c43481f371071af7e71e7a40e/django-pfx-1.4.dev6.tar.gz
+[2024-04-23 14:53:33] INFO root fetch - processPackages [h5grove]: Downloading https://files.pythonhosted.org/packages/2b/01/5ae387be04ac0b5a4397b1c3a186f4ba22711563c018392adfb6b7cdc070/h5grove-2.2.0.tar.gz
+[2024-04-23 14:53:33] INFO root fetch - processPackages [lusid-express]: executing diffoscope
+[2024-04-23 14:53:33] INFO root fetch - processPackages [lusid-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_express-0.6.14.tar.gz tmp/lusid_express-0.6.5.tar.gz --markdown 20240423/l/lusid-express/0.6.14-0.6.5/README.md --exclude *.pyd
+[2024-04-23 14:53:33] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-04-23 14:53:34] INFO root fetch - processPackages [octue]: Downloading https://files.pythonhosted.org/packages/e9/05/d04ff47ecae5f4ddc8c3efb128793bc1868bdcf23f12394c61d55d48e6aa/octue-0.9.9.tar.gz
+[2024-04-23 14:53:34] INFO root fetch - processPackages [h5grove]: executing diffoscope
+[2024-04-23 14:53:34] INFO root fetch - processPackages [h5grove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5grove-2.1.0.tar.gz tmp/h5grove-2.2.0.tar.gz --markdown 20240423/h/h5grove/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-04-23 14:53:34] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-04-23 14:53:34] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.8.9.tar.gz tmp/odbc2deltalake-0.9.0.tar.gz --markdown 20240423/o/odbc2deltalake/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-04-23 14:53:34] INFO root fetch - processPackages [octue]: executing diffoscope
+[2024-04-23 14:53:34] INFO root fetch - processPackages [octue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octue-0.9.8.tar.gz tmp/octue-0.9.9.tar.gz --markdown 20240423/o/octue/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-23 14:53:34] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/7f/53/caf5a55c22d1a4048e13c64bf53557581259f02deab3e33483ff3512cdf3/django-pfx-1.4.dev8.tar.gz
+[2024-04-23 14:53:34] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2024-04-23 14:53:34] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.4.dev6.tar.gz tmp/django-pfx-1.4.dev8.tar.gz --markdown 20240423/d/django-pfx/1.4.dev6-1.4.dev8/README.md --exclude *.pyd
+[2024-04-23 14:53:34] INFO root fetch - processPackages [h5grove]: Remove: archive file [/home/abi/fetcher/tmp/h5grove-2.1.0.tar.gz]
+[2024-04-23 14:53:34] INFO root fetch - processPackages [h5grove]: Remove: archive file [/home/abi/fetcher/tmp/h5grove-2.2.0.tar.gz]
+[2024-04-23 14:53:34] INFO root fetch - main [MainThread]: End processing [h5grove]: success
+[2024-04-23 14:53:34] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.8.9.tar.gz]
+[2024-04-23 14:53:34] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-04-23 14:53:34] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-04-23 14:53:35] INFO root fetch - processPackages [octue]: Remove: archive file [/home/abi/fetcher/tmp/octue-0.9.8.tar.gz]
+[2024-04-23 14:53:35] INFO root fetch - processPackages [octue]: Remove: archive file [/home/abi/fetcher/tmp/octue-0.9.9.tar.gz]
+[2024-04-23 14:53:35] INFO root fetch - main [MainThread]: End processing [octue]: success
+[2024-04-23 14:53:35] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev6.tar.gz]
+[2024-04-23 14:53:35] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev8.tar.gz]
+[2024-04-23 14:53:35] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2024-04-23 14:53:36] INFO root fetch - processPackages [lusid-express]: Remove: archive file [/home/abi/fetcher/tmp/lusid_express-0.6.14.tar.gz]
+[2024-04-23 14:53:36] INFO root fetch - processPackages [lusid-express]: Remove: archive file [/home/abi/fetcher/tmp/lusid_express-0.6.5.tar.gz]
+[2024-04-23 14:53:36] INFO root fetch - main [MainThread]: End processing [lusid-express]: success
+[2024-04-23 14:53:36] INFO root fetch - main [MainThread]: Store serial: [22894096]
