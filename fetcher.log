@@ -10158,3 +10158,9 @@
 [2024-04-23 06:23:35] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.9.tar.gz]
 [2024-04-23 06:23:35] INFO root fetch - main [MainThread]: End processing [gentccode]: success
 [2024-04-23 06:23:35] INFO root fetch - main [MainThread]: Store serial: [22888989]
+[2024-04-23 06:25:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888989]
+[2024-04-23 06:25:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-23 06:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: org.iplatform.common
+[2024-04-23 06:25:44] WARNING root fetch - processPackages [org.iplatform.common]: Skipping, unable to determine old version
+[2024-04-23 06:25:44] INFO root fetch - main [MainThread]: End processing [org.iplatform.common] error
+[2024-04-23 06:25:44] INFO root fetch - main [MainThread]: Store serial: [22888994]
