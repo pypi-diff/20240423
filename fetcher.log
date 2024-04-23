@@ -21781,3 +21781,115 @@ EOFError: EOF read where object expected
 [2024-04-23 14:44:09] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-24.4.0.tar.gz]
 [2024-04-23 14:44:09] INFO root fetch - main [MainThread]: End processing [lino]: success
 [2024-04-23 14:44:09] INFO root fetch - main [MainThread]: Store serial: [22893897]
+[2024-04-23 14:46:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893897]
+[2024-04-23 14:46:18] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-23 14:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lino-xl
+[2024-04-23 14:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miksiai
+[2024-04-23 14:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lino-noi
+[2024-04-23 14:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-sql-explorer
+[2024-04-23 14:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hj-proj-module
+[2024-04-23 14:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lino-react
+[2024-04-23 14:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ingenialink
+[2024-04-23 14:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antakia-core
+[2024-04-23 14:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygrocy
+[2024-04-23 14:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: GeoAlchemy2
+[2024-04-23 14:46:18] INFO root fetch - processPackages [hj-proj-module]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-23 14:46:18] INFO root fetch - processPackages [django-sql-explorer]: New version: [4.1b6] Old Version: [4.1b5]
+[2024-04-23 14:46:18] INFO root fetch - processPackages [antakia-core]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-23 14:46:18] INFO root fetch - processPackages [lino-xl]: New version: [24.4.0] Old Version: [24.3.3]
+[2024-04-23 14:46:18] INFO root fetch - processPackages [miksiai]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-23 14:46:18] INFO root fetch - processPackages [pygrocy]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-23 14:46:18] INFO root fetch - processPackages [lino-noi]: New version: [24.4.0] Old Version: [24.3.1]
+[2024-04-23 14:46:18] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/db/12/7bb0e640457f3bbbbc0b77439e6b03839642728f5b9676f3a6cdbf41672e/hj_proj_module-0.1.7.tar.gz
+[2024-04-23 14:46:18] INFO root fetch - processPackages [ingenialink]: New version: [7.3.0] Old Version: [7.2.0]
+[2024-04-23 14:46:18] INFO root fetch - processPackages [GeoAlchemy2]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-23 14:46:18] INFO root fetch - processPackages [lino-react]: New version: [24.4.0] Old Version: [24.3.2]
+[2024-04-23 14:46:18] INFO root fetch - processPackages [antakia-core]: Downloading https://files.pythonhosted.org/packages/82/c3/645f29d6d39e0a81d93c4ba5d983e97b44c7dadfc1a5fba7be18811bbe94/antakia_core-0.4.0.tar.gz
+[2024-04-23 14:46:18] INFO root fetch - processPackages [django-sql-explorer]: Downloading https://files.pythonhosted.org/packages/1f/47/d68f30707d74f517fae58c0241456790e2c55793a0c9c2e0aa4e858e792b/django_sql_explorer-4.1b5.tar.gz
+[2024-04-23 14:46:18] INFO root fetch - processPackages [lino-xl]: Downloading https://files.pythonhosted.org/packages/ef/e7/c613c8bbcb333bda54470c91218628e1ddf1906ed3b272f29ecf83fa62c8/lino-xl-24.3.3.tar.gz
+[2024-04-23 14:46:18] INFO root fetch - processPackages [pygrocy]: Downloading https://files.pythonhosted.org/packages/13/c1/53b693ac308038abf50532578d7a618cd9af8815fd9779246b4f8cac0063/pygrocy-2.0.0.tar.gz
+[2024-04-23 14:46:18] INFO root fetch - processPackages [miksiai]: Downloading https://files.pythonhosted.org/packages/34/9a/abd631040eae7bc2a61b0c620d31efa39890d33c2a49e9dcbeef3d6aea24/miksiai-1.0.1-cp310-cp310-win_amd64.whl
+[2024-04-23 14:46:18] INFO root fetch - processPackages [lino-noi]: Downloading https://files.pythonhosted.org/packages/3d/fb/7daccf9c7159e22620066aaedcd00181997ceccb3fc0ee40936ac76e1eb1/lino-noi-24.3.1.tar.gz
+[2024-04-23 14:46:18] WARNING root fetch - processPackages [lino-xl]: Skipping package: exceeds size limit 41987824>=10485760
+[2024-04-23 14:46:18] INFO root fetch - processPackages [lino-xl]: Start processing: doctran_openai
+[2024-04-23 14:46:18] INFO root fetch - main [MainThread]: End processing [lino-xl] error
+[2024-04-23 14:46:18] INFO root fetch - processPackages [ingenialink]: Downloading https://files.pythonhosted.org/packages/11/00/3fd33063cf1d8f388bc46dbb9b6d4d59458613d0227bc0e9763c45912c71/ingenialink-7.2.0.tar.gz
+[2024-04-23 14:46:18] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/6d/00/2af732ff0f07536c9fffce5b55504101e2939f549aeba5691b1ed34a5b02/lino_react-24.3.2.tar.gz
+[2024-04-23 14:46:18] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:46:18] INFO root fetch - processPackages [GeoAlchemy2]: Downloading https://files.pythonhosted.org/packages/79/7c/69ef8bc33894baa1eaddd6eecf182318aa20eb8d1974b8a9413a818a8a13/GeoAlchemy2-0.9.3.tar.gz
+[2024-04-23 14:46:19] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/94/49/69693d7a64f73d84255649b427048581401581af1b2733dd7b132cd4a620/hj_proj_module-0.1.9.tar.gz
+[2024-04-23 14:46:19] INFO root fetch - processPackages [antakia-core]: Downloading https://files.pythonhosted.org/packages/9a/ee/331f646aab5ae877f8c334927aa2b50c23460c4463e407b47f4c97932121/antakia_core-0.4.1.tar.gz
+[2024-04-23 14:46:19] INFO root fetch - processPackages [django-sql-explorer]: Downloading https://files.pythonhosted.org/packages/c9/9e/51feac8f0b41ebca729cb04d51c9be5a8fb98ba0fee021eed5c24c5c2733/django_sql_explorer-4.1b6.tar.gz
+[2024-04-23 14:46:19] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/cf/ee/05034545d75a841e008b92e49c2b144b94ab265f8b8878a39626222b7677/doctran_openai-0.0.8.tar.gz
+[2024-04-23 14:46:19] INFO root fetch - processPackages [hj-proj-module]: executing diffoscope
+[2024-04-23 14:46:19] INFO root fetch - processPackages [hj-proj-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj_proj_module-0.1.7.tar.gz tmp/hj_proj_module-0.1.9.tar.gz --markdown 20240423/h/hj-proj-module/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-23 14:46:19] INFO root fetch - processPackages [antakia-core]: executing diffoscope
+[2024-04-23 14:46:19] INFO root fetch - processPackages [antakia-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antakia_core-0.4.0.tar.gz tmp/antakia_core-0.4.1.tar.gz --markdown 20240423/a/antakia-core/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-23 14:46:19] INFO root fetch - processPackages [pygrocy]: Downloading https://files.pythonhosted.org/packages/e0/52/4135165cee7e25b4014fbe09f5126cf348d3be03caac08cdbb41fe68dec7/pygrocy-2.1.0.tar.gz
+[2024-04-23 14:46:19] INFO root fetch - processPackages [lino-noi]: Downloading https://files.pythonhosted.org/packages/c2/b0/e5acaee47962bf5369b577ea14d4e116f5eb80f1930194c0cf8fc7606fd4/lino-noi-24.4.0.tar.gz
+[2024-04-23 14:46:19] INFO root fetch - processPackages [django-sql-explorer]: executing diffoscope
+[2024-04-23 14:46:19] INFO root fetch - processPackages [django-sql-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sql_explorer-4.1b5.tar.gz tmp/django_sql_explorer-4.1b6.tar.gz --markdown 20240423/d/django-sql-explorer/4.1b5-4.1b6/README.md --exclude *.pyd
+[2024-04-23 14:46:19] INFO root fetch - processPackages [ingenialink]: Downloading https://files.pythonhosted.org/packages/9f/ac/74ee191c10fdfd8ddcce9c3ad3e6e2af717f883250f8a43843f4c7b9c94a/ingenialink-7.3.0.tar.gz
+[2024-04-23 14:46:19] INFO root fetch - processPackages [pygrocy]: executing diffoscope
+[2024-04-23 14:46:19] INFO root fetch - processPackages [pygrocy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrocy-2.0.0.tar.gz tmp/pygrocy-2.1.0.tar.gz --markdown 20240423/p/pygrocy/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-23 14:46:19] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/bf/57/6123b8227a48d42aa4dc92614deefd2fb96be6aa7d4e4d9a03e12fbde0cb/doctran_openai-0.0.9.tar.gz
+[2024-04-23 14:46:19] INFO root fetch - processPackages [GeoAlchemy2]: Downloading https://files.pythonhosted.org/packages/f6/48/80e48251e1e0cf94a6e809252a545c32d7644b737a10e3ce06ba87bc7f6d/GeoAlchemy2-0.9.4.tar.gz
+[2024-04-23 14:46:19] INFO root fetch - processPackages [lino-noi]: executing diffoscope
+[2024-04-23 14:46:19] INFO root fetch - processPackages [lino-noi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-noi-24.3.1.tar.gz tmp/lino-noi-24.4.0.tar.gz --markdown 20240423/l/lino-noi/24.3.1-24.4.0/README.md --exclude *.pyd
+[2024-04-23 14:46:19] INFO root fetch - processPackages [miksiai]: Downloading https://files.pythonhosted.org/packages/b0/63/70f1b91359e1f889825b4305f23b7342eb12b0d9298e8660b4eae3196997/miksiai-1.0.2-cp310-cp310-macosx_11_0_arm64.whl
+[2024-04-23 14:46:19] INFO root fetch - processPackages [ingenialink]: executing diffoscope
+[2024-04-23 14:46:19] INFO root fetch - processPackages [ingenialink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingenialink-7.2.0.tar.gz tmp/ingenialink-7.3.0.tar.gz --markdown 20240423/i/ingenialink/7.2.0-7.3.0/README.md --exclude *.pyd
+[2024-04-23 14:46:19] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-23 14:46:19] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.8.tar.gz tmp/doctran_openai-0.0.9.tar.gz --markdown 20240423/d/doctran_openai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:46:19] INFO root fetch - processPackages [GeoAlchemy2]: executing diffoscope
+[2024-04-23 14:46:19] INFO root fetch - processPackages [GeoAlchemy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeoAlchemy2-0.9.3.tar.gz tmp/GeoAlchemy2-0.9.4.tar.gz --markdown 20240423/G/GeoAlchemy2/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-23 14:46:19] INFO root fetch - processPackages [miksiai]: executing diffoscope
+[2024-04-23 14:46:19] INFO root fetch - processPackages [miksiai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miksiai-1.0.1-cp310-cp310-win_amd64.whl.zip tmp/miksiai-1.0.2-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240423/m/miksiai/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-23 14:46:19] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/58/7d/6798e30374917482fb4389cfc26f98c379222846905edc83a47e9e02f5ab/lino_react-24.4.0.tar.gz
+[2024-04-23 14:46:20] INFO root fetch - processPackages [lino-react]: executing diffoscope
+[2024-04-23 14:46:20] INFO root fetch - processPackages [lino-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino_react-24.3.2.tar.gz tmp/lino_react-24.4.0.tar.gz --markdown 20240423/l/lino-react/24.3.2-24.4.0/README.md --exclude *.pyd
+[2024-04-23 14:46:20] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.7.tar.gz]
+[2024-04-23 14:46:20] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.9.tar.gz]
+[2024-04-23 14:46:20] INFO root fetch - processPackages [hj-proj-module]: Start processing: lino-amici
+[2024-04-23 14:46:20] INFO root fetch - main [MainThread]: End processing [hj-proj-module]: success
+[2024-04-23 14:46:20] INFO root fetch - processPackages [antakia-core]: Remove: archive file [/home/abi/fetcher/tmp/antakia_core-0.4.0.tar.gz]
+[2024-04-23 14:46:20] INFO root fetch - processPackages [antakia-core]: Remove: archive file [/home/abi/fetcher/tmp/antakia_core-0.4.1.tar.gz]
+[2024-04-23 14:46:20] INFO root fetch - processPackages [antakia-core]: Start processing: antakia
+[2024-04-23 14:46:20] INFO root fetch - main [MainThread]: End processing [antakia-core]: success
+[2024-04-23 14:46:20] INFO root fetch - processPackages [lino-amici]: New version: [24.4.0] Old Version: [24.3.1]
+[2024-04-23 14:46:20] INFO root fetch - processPackages [antakia]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-23 14:46:20] INFO root fetch - processPackages [pygrocy]: Remove: archive file [/home/abi/fetcher/tmp/pygrocy-2.0.0.tar.gz]
+[2024-04-23 14:46:20] INFO root fetch - processPackages [pygrocy]: Remove: archive file [/home/abi/fetcher/tmp/pygrocy-2.1.0.tar.gz]
+[2024-04-23 14:46:20] INFO root fetch - main [MainThread]: End processing [pygrocy]: success
+[2024-04-23 14:46:20] INFO root fetch - processPackages [antakia]: Downloading https://files.pythonhosted.org/packages/3d/d9/ae5a4c12ebdda4d71140e378843d304e53d652d47528e93fcbcc7b5b8b01/antakia-0.4.0.tar.gz
+[2024-04-23 14:46:20] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.8.tar.gz]
+[2024-04-23 14:46:20] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.9.tar.gz]
+[2024-04-23 14:46:20] WARNING root fetch - processPackages [antakia]: Skipping package: exceeds size limit 22881318>=10485760
+[2024-04-23 14:46:20] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-23 14:46:20] INFO root fetch - main [MainThread]: End processing [antakia] error
+[2024-04-23 14:46:20] INFO root fetch - processPackages [lino-amici]: Downloading https://files.pythonhosted.org/packages/77/ff/d3ca44eaee6a12d96135678bfd169fb85471adaa73be9ab32a04cca1f020/lino-amici-24.3.1.tar.gz
+[2024-04-23 14:46:20] INFO root fetch - processPackages [lino-noi]: Remove: archive file [/home/abi/fetcher/tmp/lino-noi-24.3.1.tar.gz]
+[2024-04-23 14:46:20] INFO root fetch - processPackages [lino-noi]: Remove: archive file [/home/abi/fetcher/tmp/lino-noi-24.4.0.tar.gz]
+[2024-04-23 14:46:20] INFO root fetch - main [MainThread]: End processing [lino-noi]: success
+[2024-04-23 14:46:21] INFO root fetch - processPackages [miksiai]: Remove: archive file [/home/abi/fetcher/tmp/miksiai-1.0.1-cp310-cp310-win_amd64.whl.zip]
+[2024-04-23 14:46:21] INFO root fetch - processPackages [miksiai]: Remove: archive file [/home/abi/fetcher/tmp/miksiai-1.0.2-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-04-23 14:46:21] INFO root fetch - main [MainThread]: End processing [miksiai]: success
+[2024-04-23 14:46:21] INFO root fetch - processPackages [GeoAlchemy2]: Remove: archive file [/home/abi/fetcher/tmp/GeoAlchemy2-0.9.3.tar.gz]
+[2024-04-23 14:46:21] INFO root fetch - processPackages [GeoAlchemy2]: Remove: archive file [/home/abi/fetcher/tmp/GeoAlchemy2-0.9.4.tar.gz]
+[2024-04-23 14:46:21] INFO root fetch - main [MainThread]: End processing [GeoAlchemy2]: success
+[2024-04-23 14:46:21] INFO root fetch - processPackages [lino-amici]: Downloading https://files.pythonhosted.org/packages/b1/9e/e9ddf7d089e7026e2e9f60ace92e2824a4ae4cfb1506674ef06f4d5a6232/lino-amici-24.4.0.tar.gz
+[2024-04-23 14:46:21] INFO root fetch - processPackages [lino-amici]: executing diffoscope
+[2024-04-23 14:46:21] INFO root fetch - processPackages [lino-amici]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-amici-24.3.1.tar.gz tmp/lino-amici-24.4.0.tar.gz --markdown 20240423/l/lino-amici/24.3.1-24.4.0/README.md --exclude *.pyd
+[2024-04-23 14:46:21] INFO root fetch - processPackages [ingenialink]: Remove: archive file [/home/abi/fetcher/tmp/ingenialink-7.2.0.tar.gz]
+[2024-04-23 14:46:21] INFO root fetch - processPackages [ingenialink]: Remove: archive file [/home/abi/fetcher/tmp/ingenialink-7.3.0.tar.gz]
+[2024-04-23 14:46:21] INFO root fetch - main [MainThread]: End processing [ingenialink]: success
+[2024-04-23 14:46:22] INFO root fetch - processPackages [lino-amici]: Remove: archive file [/home/abi/fetcher/tmp/lino-amici-24.3.1.tar.gz]
+[2024-04-23 14:46:22] INFO root fetch - processPackages [lino-amici]: Remove: archive file [/home/abi/fetcher/tmp/lino-amici-24.4.0.tar.gz]
+[2024-04-23 14:46:22] INFO root fetch - main [MainThread]: End processing [lino-amici]: success
+[2024-04-23 14:46:26] INFO root fetch - processPackages [django-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer-4.1b5.tar.gz]
+[2024-04-23 14:46:26] INFO root fetch - processPackages [django-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer-4.1b6.tar.gz]
+[2024-04-23 14:46:26] INFO root fetch - main [MainThread]: End processing [django-sql-explorer]: success
+[2024-04-23 14:46:55] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-24.3.2.tar.gz]
+[2024-04-23 14:46:55] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-24.4.0.tar.gz]
+[2024-04-23 14:46:55] INFO root fetch - main [MainThread]: End processing [lino-react]: success
+[2024-04-23 14:46:55] INFO root fetch - main [MainThread]: Store serial: [22893931]
