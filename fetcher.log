@@ -14810,3 +14810,36 @@
 [2024-04-23 10:32:27] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.1.0.tar.gz]
 [2024-04-23 10:32:27] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
 [2024-04-23 10:32:27] INFO root fetch - main [MainThread]: Store serial: [22890993]
+[2024-04-23 10:34:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890993]
+[2024-04-23 10:34:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 10:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chellow
+[2024-04-23 10:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-facebook-marketing
+[2024-04-23 10:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorrt-yolo
+[2024-04-23 10:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maxframe
+[2024-04-23 10:34:36] WARNING root fetch - processPackages [tensorrt-yolo]: Skipping, unable to determine old version
+[2024-04-23 10:34:36] INFO root fetch - main [MainThread]: End processing [tensorrt-yolo] error
+[2024-04-23 10:34:36] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: New version: [3.0.0.dev202404041423] Old Version: [3.0.0.dev202404010923]
+[2024-04-23 10:34:36] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-04-23 10:34:36] INFO root fetch - processPackages [maxframe]: New version: [0.1.0b4] Old Version: [0.1.0b3]
+[2024-04-23 10:34:36] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Downloading https://files.pythonhosted.org/packages/81/2e/c912b4ac72f342f15584882c7288ea5bdc074a4bfd44f7d37f480da773f3/airbyte_source_facebook_marketing-3.0.0.dev202404010923.tar.gz
+[2024-04-23 10:34:36] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-04-23 10:34:36] INFO root fetch - processPackages [maxframe]: Downloading https://files.pythonhosted.org/packages/b2/f0/6ed21c44fcdb1bee431cc2d0d367ee58c19a8ee502ba28522d2b74f28566/maxframe-0.1.0b3.tar.gz
+[2024-04-23 10:34:37] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Downloading https://files.pythonhosted.org/packages/3f/72/cd78f383b92dd9c221ce42e243c1fd60965eebee94be2829807af86dab8b/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz
+[2024-04-23 10:34:37] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-04-23 10:34:37] INFO root fetch - processPackages [maxframe]: Downloading https://files.pythonhosted.org/packages/58/cf/497e24eb85addd9606ea39d05f17b604939b68101ab6c57b1fe0019db1a8/maxframe-0.1.0b4.tar.gz
+[2024-04-23 10:34:37] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: executing diffoscope
+[2024-04-23 10:34:37] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_facebook_marketing-3.0.0.dev202404010923.tar.gz tmp/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz --markdown 20240423/a/airbyte-source-facebook-marketing/3.0.0.dev202404010923-3.0.0.dev202404041423/README.md --exclude *.pyd
+[2024-04-23 10:34:37] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-04-23 10:34:37] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240423/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-04-23 10:34:37] INFO root fetch - processPackages [maxframe]: executing diffoscope
+[2024-04-23 10:34:37] INFO root fetch - processPackages [maxframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxframe-0.1.0b3.tar.gz tmp/maxframe-0.1.0b4.tar.gz --markdown 20240423/m/maxframe/0.1.0b3-0.1.0b4/README.md --exclude *.pyd
+[2024-04-23 10:34:37] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_facebook_marketing-3.0.0.dev202404010923.tar.gz]
+[2024-04-23 10:34:37] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz]
+[2024-04-23 10:34:37] INFO root fetch - main [MainThread]: End processing [airbyte-source-facebook-marketing]: success
+[2024-04-23 10:34:39] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-04-23 10:34:39] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-04-23 10:34:39] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-04-23 10:34:40] INFO root fetch - processPackages [maxframe]: Remove: archive file [/home/abi/fetcher/tmp/maxframe-0.1.0b3.tar.gz]
+[2024-04-23 10:34:40] INFO root fetch - processPackages [maxframe]: Remove: archive file [/home/abi/fetcher/tmp/maxframe-0.1.0b4.tar.gz]
+[2024-04-23 10:34:40] INFO root fetch - main [MainThread]: End processing [maxframe]: success
+[2024-04-23 10:34:40] INFO root fetch - main [MainThread]: Store serial: [22891019]
