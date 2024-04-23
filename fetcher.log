@@ -11152,3 +11152,18 @@
 [2024-04-23 07:33:25] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
 [2024-04-23 07:33:25] INFO root fetch - main [MainThread]: End processing [HawaData]: success
 [2024-04-23 07:33:25] INFO root fetch - main [MainThread]: Store serial: [22889419]
+[2024-04-23 07:35:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889419]
+[2024-04-23 07:35:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 07:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iturtle
+[2024-04-23 07:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasette-secrets
+[2024-04-23 07:35:34] WARNING root fetch - processPackages [datasette-secrets]: Skipping, unable to determine old version
+[2024-04-23 07:35:34] INFO root fetch - main [MainThread]: End processing [datasette-secrets] error
+[2024-04-23 07:35:34] INFO root fetch - processPackages [iturtle]: New version: [1.0.0] Old Version: [0.8.6]
+[2024-04-23 07:35:34] INFO root fetch - processPackages [iturtle]: Downloading https://files.pythonhosted.org/packages/df/6f/63a4ceb9ea7746a672a5d5cf5e12486692b091693e4e8d305d263a088d99/iturtle-0.8.6-py2.py3-none-any.whl
+[2024-04-23 07:35:35] INFO root fetch - processPackages [iturtle]: Downloading https://files.pythonhosted.org/packages/b9/c3/962fcaba915e2f9152ff118ec05f8cbad790853bc8ea9c5bdb5d0fb65081/iturtle-1.0.0-py2.py3-none-any.whl
+[2024-04-23 07:35:35] INFO root fetch - processPackages [iturtle]: executing diffoscope
+[2024-04-23 07:35:35] INFO root fetch - processPackages [iturtle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iturtle-0.8.6-py2.py3-none-any.whl.zip tmp/iturtle-1.0.0-py2.py3-none-any.whl.zip --markdown 20240423/i/iturtle/0.8.6-1.0.0/README.md --exclude *.pyd
+[2024-04-23 07:35:43] INFO root fetch - processPackages [iturtle]: Remove: archive file [/home/abi/fetcher/tmp/iturtle-0.8.6-py2.py3-none-any.whl.zip]
+[2024-04-23 07:35:43] INFO root fetch - processPackages [iturtle]: Remove: archive file [/home/abi/fetcher/tmp/iturtle-1.0.0-py2.py3-none-any.whl.zip]
+[2024-04-23 07:35:43] INFO root fetch - main [MainThread]: End processing [iturtle]: success
+[2024-04-23 07:35:43] INFO root fetch - main [MainThread]: Store serial: [22889426]
