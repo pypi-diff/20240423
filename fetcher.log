@@ -18796,3 +18796,54 @@
 [2024-04-23 13:00:50] INFO root fetch - processPackages [tensorneko-lib]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_lib-0.3.14-cp311-cp311-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip]
 [2024-04-23 13:00:50] INFO root fetch - main [MainThread]: End processing [tensorneko-lib]: success
 [2024-04-23 13:00:50] INFO root fetch - main [MainThread]: Store serial: [22892646]
+[2024-04-23 13:02:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892646]
+[2024-04-23 13:02:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 13:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mediaflowimage
+[2024-04-23 13:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data_compressor
+[2024-04-23 13:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hddm-s
+[2024-04-23 13:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: l3c
+[2024-04-23 13:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arkindex-client
+[2024-04-23 13:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qoqo-qiskit-devices
+[2024-04-23 13:02:59] INFO root fetch - processPackages [l3c]: New version: [0.1.0.3] Old Version: [0.1.0.2]
+[2024-04-23 13:02:59] WARNING root fetch - processPackages [data_compressor]: Skipping, unable to determine old version
+[2024-04-23 13:02:59] INFO root fetch - main [MainThread]: End processing [data_compressor] error
+[2024-04-23 13:02:59] INFO root fetch - processPackages [l3c]: Downloading https://files.pythonhosted.org/packages/07/ba/8c756395ce4cc07dccf2bb4572e7416086824ffe5a7894f6c3a6dd0ffc35/l3c-0.1.0.2.tar.gz
+[2024-04-23 13:02:59] INFO root fetch - processPackages [hddm-s]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-23 13:02:59] INFO root fetch - processPackages [mediaflowimage]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-23 13:02:59] INFO root fetch - processPackages [arkindex-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 13:02:59] INFO root fetch - processPackages [qoqo-qiskit-devices]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-23 13:02:59] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/64/f3/a64d68f0b0e2303173334c5d0d783cb3890382b8909e381370610ae4408d/hddm_s-1.0.tar.gz
+[2024-04-23 13:02:59] INFO root fetch - processPackages [mediaflowimage]: Downloading https://files.pythonhosted.org/packages/2c/c4/d0ccdd32a18a1c5fa29165d2fff518fc6d2bfaca0cee565376edbd9dec9d/mediaflowimage-1.0.2.tar.gz
+[2024-04-23 13:02:59] INFO root fetch - processPackages [l3c]: Downloading https://files.pythonhosted.org/packages/03/3e/613a51f7614d6a6abd0d3c8fd14a5ba96b04a2a010d4fe8ed8e720d3c496/l3c-0.1.0.3.tar.gz
+[2024-04-23 13:02:59] INFO root fetch - processPackages [arkindex-client]: Downloading https://files.pythonhosted.org/packages/54/55/3b6c39936bbdf68d6e2598f589c2f2b0602730983f9a787cbf95e1fa3054/arkindex-client-1.0.8.tar.gz
+[2024-04-23 13:02:59] INFO root fetch - processPackages [qoqo-qiskit-devices]: Downloading https://files.pythonhosted.org/packages/9a/2b/787bd1589b59398bfc8cefb323ae50d5fc7ab81ac199634bab6de2c1d411/qoqo_qiskit_devices-0.4.1.tar.gz
+[2024-04-23 13:02:59] INFO root fetch - processPackages [l3c]: executing diffoscope
+[2024-04-23 13:02:59] INFO root fetch - processPackages [l3c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l3c-0.1.0.2.tar.gz tmp/l3c-0.1.0.3.tar.gz --markdown 20240423/l/l3c/0.1.0.2-0.1.0.3/README.md --exclude *.pyd
+[2024-04-23 13:02:59] INFO root fetch - processPackages [mediaflowimage]: Downloading https://files.pythonhosted.org/packages/62/70/651a127968041dc2ecd69ef801e734fae627812504c5d7049c9b49366cd7/mediaflowimage-1.0.3.tar.gz
+[2024-04-23 13:02:59] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/98/1a/f8d85f5fd7f655d4409955ec0475690dd94dbed7fba8689530c5adb14e5b/hddm_s-1.0.1.tar.gz
+[2024-04-23 13:03:00] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-04-23 13:03:00] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.0.tar.gz tmp/hddm_s-1.0.1.tar.gz --markdown 20240423/h/hddm-s/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-23 13:03:00] INFO root fetch - processPackages [mediaflowimage]: executing diffoscope
+[2024-04-23 13:03:00] INFO root fetch - processPackages [mediaflowimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediaflowimage-1.0.2.tar.gz tmp/mediaflowimage-1.0.3.tar.gz --markdown 20240423/m/mediaflowimage/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-23 13:03:00] INFO root fetch - processPackages [arkindex-client]: Downloading https://files.pythonhosted.org/packages/a7/21/94e7f4fd4188705cb2944a1329af41703f803f36f836ab8a80bed8a9fbba/arkindex-client-1.0.9.tar.gz
+[2024-04-23 13:03:00] INFO root fetch - processPackages [qoqo-qiskit-devices]: Downloading https://files.pythonhosted.org/packages/f5/3d/7601a2b7d513c01e78c95ef87effd1921c2252e8fda8fd1dbda8e186aca4/qoqo_qiskit_devices-0.4.2.tar.gz
+[2024-04-23 13:03:00] INFO root fetch - processPackages [arkindex-client]: executing diffoscope
+[2024-04-23 13:03:00] INFO root fetch - processPackages [arkindex-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkindex-client-1.0.8.tar.gz tmp/arkindex-client-1.0.9.tar.gz --markdown 20240423/a/arkindex-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 13:03:00] INFO root fetch - processPackages [qoqo-qiskit-devices]: executing diffoscope
+[2024-04-23 13:03:00] INFO root fetch - processPackages [qoqo-qiskit-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qiskit_devices-0.4.1.tar.gz tmp/qoqo_qiskit_devices-0.4.2.tar.gz --markdown 20240423/q/qoqo-qiskit-devices/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-23 13:03:00] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.0.2.tar.gz]
+[2024-04-23 13:03:00] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.0.3.tar.gz]
+[2024-04-23 13:03:00] INFO root fetch - main [MainThread]: End processing [l3c]: success
+[2024-04-23 13:03:00] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.tar.gz]
+[2024-04-23 13:03:00] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.1.tar.gz]
+[2024-04-23 13:03:00] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-04-23 13:03:00] INFO root fetch - processPackages [mediaflowimage]: Remove: archive file [/home/abi/fetcher/tmp/mediaflowimage-1.0.2.tar.gz]
+[2024-04-23 13:03:00] INFO root fetch - processPackages [mediaflowimage]: Remove: archive file [/home/abi/fetcher/tmp/mediaflowimage-1.0.3.tar.gz]
+[2024-04-23 13:03:00] INFO root fetch - main [MainThread]: End processing [mediaflowimage]: success
+[2024-04-23 13:03:01] INFO root fetch - processPackages [arkindex-client]: Remove: archive file [/home/abi/fetcher/tmp/arkindex-client-1.0.8.tar.gz]
+[2024-04-23 13:03:01] INFO root fetch - processPackages [arkindex-client]: Remove: archive file [/home/abi/fetcher/tmp/arkindex-client-1.0.9.tar.gz]
+[2024-04-23 13:03:01] INFO root fetch - main [MainThread]: End processing [arkindex-client]: success
+[2024-04-23 13:03:01] INFO root fetch - processPackages [qoqo-qiskit-devices]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qiskit_devices-0.4.1.tar.gz]
+[2024-04-23 13:03:01] INFO root fetch - processPackages [qoqo-qiskit-devices]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qiskit_devices-0.4.2.tar.gz]
+[2024-04-23 13:03:01] INFO root fetch - main [MainThread]: End processing [qoqo-qiskit-devices]: success
+[2024-04-23 13:03:01] INFO root fetch - main [MainThread]: Store serial: [22892715]
