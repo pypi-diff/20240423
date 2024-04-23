@@ -17743,3 +17743,62 @@
 [2024-04-23 12:17:03] INFO root fetch - processPackages [tromero-tailor]: Remove: archive file [/home/abi/fetcher/tmp/tromero_tailor-0.0.9.tar.gz]
 [2024-04-23 12:17:03] INFO root fetch - main [MainThread]: End processing [tromero-tailor]: success
 [2024-04-23 12:17:03] INFO root fetch - main [MainThread]: Store serial: [22892223]
+[2024-04-23 12:19:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892223]
+[2024-04-23 12:19:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 12:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hddm-s
+[2024-04-23 12:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: database-common-tools
+[2024-04-23 12:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shell-whiz
+[2024-04-23 12:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agenta
+[2024-04-23 12:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2024-04-23 12:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: voila-sepal-ui
+[2024-04-23 12:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: enviroplus
+[2024-04-23 12:19:12] INFO root fetch - processPackages [database-common-tools]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-23 12:19:12] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-23 12:19:12] INFO root fetch - processPackages [voila-sepal-ui]: New version: [0.3.2] Old Version: [0.3.0]
+[2024-04-23 12:19:12] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 12:19:12] WARNING root fetch - processPackages [hddm-s]: Skipping, unable to determine old version
+[2024-04-23 12:19:12] INFO root fetch - main [MainThread]: End processing [hddm-s] error
+[2024-04-23 12:19:12] INFO root fetch - processPackages [shell-whiz]: New version: [3.2.2] Old Version: [3.2.1]
+[2024-04-23 12:19:12] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-04-23 12:19:12] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/ac/64/bd5217274cf2d8e06c614cce93235b771e3893972b973652d6a924d1512b/database-common-tools-1.1.3.tar.gz
+[2024-04-23 12:19:12] INFO root fetch - processPackages [enviroplus]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-23 12:19:12] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-23 12:19:12] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/01/51/9259d1aaea3893ece605a1736fce9eb1ad97dccb77030b21fb897d14cb48/shell_whiz-3.2.1.tar.gz
+[2024-04-23 12:19:13] INFO root fetch - processPackages [voila-sepal-ui]: Downloading https://files.pythonhosted.org/packages/d5/6f/ecbccf6074c8d797d6168b0956d53d1f9263c5d12128ed156b06bab8c39b/voila_sepal_ui-0.3.2.tar.gz
+[2024-04-23 12:19:13] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/19/50/9bd50456d878ffba6058f0b640c51cd15f764face083bfc17e230ce82d52/database-common-tools-1.1.4.tar.gz
+[2024-04-23 12:19:13] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-04-23 12:19:13] INFO root fetch - processPackages [enviroplus]: Downloading https://files.pythonhosted.org/packages/19/d6/970c8eb41f900e775600c15a7fc42a4e9445f7cedaba33dc5110d6bdeecb/enviroplus-1.0.1.tar.gz
+[2024-04-23 12:19:13] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-23 12:19:13] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-23 12:19:13] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.1.3.tar.gz tmp/database-common-tools-1.1.4.tar.gz --markdown 20240423/d/database-common-tools/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-23 12:19:13] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-04-23 12:19:13] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240423/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-23 12:19:13] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/8a/5a/fd503abd6f667afd353cf08bf57fa2c2030e88950e6df250fd5279caf400/shell_whiz-3.2.2.tar.gz
+[2024-04-23 12:19:13] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-23 12:19:13] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240423/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-23 12:19:13] INFO root fetch - processPackages [enviroplus]: Downloading https://files.pythonhosted.org/packages/7f/3e/69d7bba671bbfc76d6e186357a86ca7657af1081c858fbc7ec39a52414f0/enviroplus-1.0.2.tar.gz
+[2024-04-23 12:19:13] INFO root fetch - processPackages [shell-whiz]: executing diffoscope
+[2024-04-23 12:19:13] INFO root fetch - processPackages [shell-whiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_whiz-3.2.1.tar.gz tmp/shell_whiz-3.2.2.tar.gz --markdown 20240423/s/shell-whiz/3.2.1-3.2.2/README.md --exclude *.pyd
+[2024-04-23 12:19:13] INFO root fetch - processPackages [voila-sepal-ui]: executing diffoscope
+[2024-04-23 12:19:13] INFO root fetch - processPackages [voila-sepal-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-sepal-ui-0.3.0.tar.gz tmp/voila_sepal_ui-0.3.2.tar.gz --markdown 20240423/v/voila-sepal-ui/0.3.0-0.3.2/README.md --exclude *.pyd
+[2024-04-23 12:19:13] INFO root fetch - processPackages [enviroplus]: executing diffoscope
+[2024-04-23 12:19:13] INFO root fetch - processPackages [enviroplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enviroplus-1.0.1.tar.gz tmp/enviroplus-1.0.2.tar.gz --markdown 20240423/e/enviroplus/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-23 12:19:14] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.3.tar.gz]
+[2024-04-23 12:19:14] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.4.tar.gz]
+[2024-04-23 12:19:14] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-23 12:19:14] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-04-23 12:19:14] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-04-23 12:19:14] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-04-23 12:19:14] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-23 12:19:14] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-23 12:19:14] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-23 12:19:14] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-3.2.1.tar.gz]
+[2024-04-23 12:19:14] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-3.2.2.tar.gz]
+[2024-04-23 12:19:14] INFO root fetch - main [MainThread]: End processing [shell-whiz]: success
+[2024-04-23 12:19:14] INFO root fetch - processPackages [enviroplus]: Remove: archive file [/home/abi/fetcher/tmp/enviroplus-1.0.1.tar.gz]
+[2024-04-23 12:19:14] INFO root fetch - processPackages [enviroplus]: Remove: archive file [/home/abi/fetcher/tmp/enviroplus-1.0.2.tar.gz]
+[2024-04-23 12:19:14] INFO root fetch - main [MainThread]: End processing [enviroplus]: success
+[2024-04-23 12:19:14] INFO root fetch - processPackages [voila-sepal-ui]: Remove: archive file [/home/abi/fetcher/tmp/voila-sepal-ui-0.3.0.tar.gz]
+[2024-04-23 12:19:14] INFO root fetch - processPackages [voila-sepal-ui]: Remove: archive file [/home/abi/fetcher/tmp/voila_sepal_ui-0.3.2.tar.gz]
+[2024-04-23 12:19:14] INFO root fetch - main [MainThread]: End processing [voila-sepal-ui]: success
+[2024-04-23 12:19:14] INFO root fetch - main [MainThread]: Store serial: [22892241]
