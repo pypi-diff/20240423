@@ -15529,3 +15529,69 @@
 [2024-04-23 10:59:36] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-04-23 10:59:36] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-04-23 10:59:36] INFO root fetch - main [MainThread]: Store serial: [22891350]
+[2024-04-23 11:01:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891350]
+[2024-04-23 11:01:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 11:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wei-office-simptool
+[2024-04-23 11:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chargespot
+[2024-04-23 11:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maplib
+[2024-04-23 11:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bribrain
+[2024-04-23 11:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viewser
+[2024-04-23 11:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TitanDevice
+[2024-04-23 11:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moonblade
+[2024-04-23 11:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdf4llm
+[2024-04-23 11:01:45] INFO root fetch - processPackages [TitanDevice]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 11:01:45] WARNING root fetch - processPackages [moonblade]: Skipping, unable to determine old version
+[2024-04-23 11:01:45] INFO root fetch - main [MainThread]: End processing [moonblade] error
+[2024-04-23 11:01:45] INFO root fetch - processPackages [viewser]: New version: [6.4.1] Old Version: [6.4.0]
+[2024-04-23 11:01:45] INFO root fetch - processPackages [pdf4llm]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 11:01:45] INFO root fetch - processPackages [wei-office-simptool]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-23 11:01:45] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/7c/56/109da41933dcecc56b504fd5d44380eb20cfb429edd6ae909018b51ab84d/TitanDevice-0.1.1.tar.gz
+[2024-04-23 11:01:45] INFO root fetch - processPackages [bribrain]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-23 11:01:45] INFO root fetch - processPackages [chargespot]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 11:01:45] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/76/89/d02fe4f3109e1e1d4450700ef65cf9086595441defb83168d02c26a5c206/viewser-6.4.0.tar.gz
+[2024-04-23 11:01:45] INFO root fetch - processPackages [pdf4llm]: Downloading https://files.pythonhosted.org/packages/3d/a0/29ea825b8a503328debec5372a80a5e6c25ee1a983db769ab3deea11dc4f/pdf4llm-0.0.2.tar.gz
+[2024-04-23 11:01:45] INFO root fetch - processPackages [maplib]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-23 11:01:45] INFO root fetch - processPackages [wei-office-simptool]: Downloading https://files.pythonhosted.org/packages/b1/0a/0d52907e4d46f8583ea35421846c304586394cfa29e24f31523b146b5859/wei_office_simptool-0.0.6.tar.gz
+[2024-04-23 11:01:45] INFO root fetch - processPackages [bribrain]: Downloading https://files.pythonhosted.org/packages/2b/08/ae6d831089615aa22045a88b5f4bc3b37aacb876509ccab237b1b634e939/bribrain-1.0.3.tar.gz
+[2024-04-23 11:01:45] INFO root fetch - processPackages [chargespot]: Downloading https://files.pythonhosted.org/packages/26/ac/aa1b13d7584add89dc1a608ae8a977826b4a1b535d48bf5fe5b5d8cd02d4/chargespot-0.0.2.tar.gz
+[2024-04-23 11:01:45] INFO root fetch - processPackages [maplib]: Downloading https://files.pythonhosted.org/packages/28/ee/c3a4e15eb9ae0cde75da5a9877eb4de7e8aa1f963db0462e1479df1fa160/maplib-0.8.8.tar.gz
+[2024-04-23 11:01:46] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/e6/6d/3de4376e08d787359205264c41bbeab4bfcd8c672033ae67a4642c59f875/viewser-6.4.1.tar.gz
+[2024-04-23 11:01:46] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/1b/04/3a146304517661321a9db1afa3a85a08fd56d65d581b1901d1bafc31b67e/TitanDevice-0.1.2.tar.gz
+[2024-04-23 11:01:46] INFO root fetch - processPackages [pdf4llm]: Downloading https://files.pythonhosted.org/packages/cf/5e/86d059da491ae615bcb092cbfff59d2a06fc1d66c7522a38d8575e746f13/pdf4llm-0.0.3.tar.gz
+[2024-04-23 11:01:46] INFO root fetch - processPackages [wei-office-simptool]: Downloading https://files.pythonhosted.org/packages/30/12/74b2e7eda7694a9dd96a9c24e4afdbd88b29fab59de9146b6a0695baf860/wei_office_simptool-0.0.7.tar.gz
+[2024-04-23 11:01:46] INFO root fetch - processPackages [viewser]: executing diffoscope
+[2024-04-23 11:01:46] INFO root fetch - processPackages [viewser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viewser-6.4.0.tar.gz tmp/viewser-6.4.1.tar.gz --markdown 20240423/v/viewser/6.4.0-6.4.1/README.md --exclude *.pyd
+[2024-04-23 11:01:46] INFO root fetch - processPackages [chargespot]: Downloading https://files.pythonhosted.org/packages/89/7a/23a2c0001f740b6a7d56dba7543b225814f3fef912e501eb0caa8da8088b/chargespot-0.0.3.tar.gz
+[2024-04-23 11:01:46] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-23 11:01:46] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.1.1.tar.gz tmp/TitanDevice-0.1.2.tar.gz --markdown 20240423/T/TitanDevice/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 11:01:46] INFO root fetch - processPackages [bribrain]: Downloading https://files.pythonhosted.org/packages/9e/b0/de8688270f44996c34f0c0fb19417fae9974cbbb0e0f3bb54b7d6e5eb7d6/bribrain-1.0.4.tar.gz
+[2024-04-23 11:01:46] INFO root fetch - processPackages [pdf4llm]: executing diffoscope
+[2024-04-23 11:01:46] INFO root fetch - processPackages [pdf4llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf4llm-0.0.2.tar.gz tmp/pdf4llm-0.0.3.tar.gz --markdown 20240423/p/pdf4llm/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 11:01:46] INFO root fetch - processPackages [maplib]: Downloading https://files.pythonhosted.org/packages/b0/f6/d2db71b83ba503b3a9653c44a517b548ac0f5f9724c721d00d7194d107f2/maplib-0.8.9-cp311-cp311-macosx_11_0_arm64.whl
+[2024-04-23 11:01:46] INFO root fetch - processPackages [wei-office-simptool]: executing diffoscope
+[2024-04-23 11:01:46] INFO root fetch - processPackages [wei-office-simptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wei_office_simptool-0.0.6.tar.gz tmp/wei_office_simptool-0.0.7.tar.gz --markdown 20240423/w/wei-office-simptool/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-23 11:01:46] INFO root fetch - processPackages [chargespot]: executing diffoscope
+[2024-04-23 11:01:46] INFO root fetch - processPackages [chargespot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chargespot-0.0.2.tar.gz tmp/chargespot-0.0.3.tar.gz --markdown 20240423/c/chargespot/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 11:01:46] INFO root fetch - processPackages [bribrain]: executing diffoscope
+[2024-04-23 11:01:46] INFO root fetch - processPackages [bribrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bribrain-1.0.3.tar.gz tmp/bribrain-1.0.4.tar.gz --markdown 20240423/b/bribrain/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-23 11:01:46] WARNING root fetch - processPackages [maplib]: Skipping package: exceeds size limit 13114009>=10485760
+[2024-04-23 11:01:46] INFO root fetch - main [MainThread]: End processing [maplib] error
+[2024-04-23 11:01:46] INFO root fetch - processPackages [pdf4llm]: Remove: archive file [/home/abi/fetcher/tmp/pdf4llm-0.0.2.tar.gz]
+[2024-04-23 11:01:46] INFO root fetch - processPackages [pdf4llm]: Remove: archive file [/home/abi/fetcher/tmp/pdf4llm-0.0.3.tar.gz]
+[2024-04-23 11:01:46] INFO root fetch - main [MainThread]: End processing [pdf4llm]: success
+[2024-04-23 11:01:47] INFO root fetch - processPackages [bribrain]: Remove: archive file [/home/abi/fetcher/tmp/bribrain-1.0.3.tar.gz]
+[2024-04-23 11:01:47] INFO root fetch - processPackages [bribrain]: Remove: archive file [/home/abi/fetcher/tmp/bribrain-1.0.4.tar.gz]
+[2024-04-23 11:01:47] INFO root fetch - main [MainThread]: End processing [bribrain]: success
+[2024-04-23 11:01:47] INFO root fetch - processPackages [wei-office-simptool]: Remove: archive file [/home/abi/fetcher/tmp/wei_office_simptool-0.0.6.tar.gz]
+[2024-04-23 11:01:47] INFO root fetch - processPackages [wei-office-simptool]: Remove: archive file [/home/abi/fetcher/tmp/wei_office_simptool-0.0.7.tar.gz]
+[2024-04-23 11:01:47] INFO root fetch - main [MainThread]: End processing [wei-office-simptool]: success
+[2024-04-23 11:01:47] INFO root fetch - processPackages [chargespot]: Remove: archive file [/home/abi/fetcher/tmp/chargespot-0.0.2.tar.gz]
+[2024-04-23 11:01:47] INFO root fetch - processPackages [chargespot]: Remove: archive file [/home/abi/fetcher/tmp/chargespot-0.0.3.tar.gz]
+[2024-04-23 11:01:47] INFO root fetch - main [MainThread]: End processing [chargespot]: success
+[2024-04-23 11:01:47] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.1.tar.gz]
+[2024-04-23 11:01:47] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.2.tar.gz]
+[2024-04-23 11:01:47] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-23 11:01:47] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.4.0.tar.gz]
+[2024-04-23 11:01:47] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.4.1.tar.gz]
+[2024-04-23 11:01:47] INFO root fetch - main [MainThread]: End processing [viewser]: success
+[2024-04-23 11:01:47] INFO root fetch - main [MainThread]: Store serial: [22891379]
