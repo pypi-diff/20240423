@@ -14531,3 +14531,30 @@
 [2024-04-23 10:21:20] INFO root fetch - processPackages [chrontext]: Remove: archive file [/home/abi/fetcher/tmp/chrontext-0.8.6.tar.gz]
 [2024-04-23 10:21:20] INFO root fetch - main [MainThread]: End processing [chrontext]: success
 [2024-04-23 10:21:20] INFO root fetch - main [MainThread]: Store serial: [22890835]
+[2024-04-23 10:23:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890835]
+[2024-04-23 10:23:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 10:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenGeode-Geosciences
+[2024-04-23 10:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybunch
+[2024-04-23 10:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zmx-hello
+[2024-04-23 10:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gxr-py-pkg-temp
+[2024-04-23 10:23:29] INFO root fetch - processPackages [pybunch]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-23 10:23:29] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/b6/e7/14cec65c365fb8c735962bb7880d3f51e83170796feb056a2de1211ed056/pybunch-1.0.3.tar.gz
+[2024-04-23 10:23:29] WARNING root fetch - processPackages [zmx-hello]: Skipping, unable to determine old version
+[2024-04-23 10:23:29] WARNING root fetch - processPackages [gxr-py-pkg-temp]: Skipping, unable to determine old version
+[2024-04-23 10:23:29] INFO root fetch - main [MainThread]: End processing [zmx-hello] error
+[2024-04-23 10:23:29] INFO root fetch - main [MainThread]: End processing [gxr-py-pkg-temp] error
+[2024-04-23 10:23:30] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.6.4rc1] Old Version: [7.6.3rc1]
+[2024-04-23 10:23:30] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/e4/bc/472042833778317e65f438a29985298f9666e8dab573f199e8c2fb2a3252/pybunch-1.0.4.tar.gz
+[2024-04-23 10:23:30] INFO root fetch - processPackages [pybunch]: executing diffoscope
+[2024-04-23 10:23:30] INFO root fetch - processPackages [pybunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybunch-1.0.3.tar.gz tmp/pybunch-1.0.4.tar.gz --markdown 20240423/p/pybunch/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-23 10:23:30] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/47/07/35c3ca649febb72c49d1054ec07b9bfd5efbcc4c3176b603aa99a79804c1/OpenGeode_Geosciences-7.6.3rc1-cp39-cp39-win_amd64.whl
+[2024-04-23 10:23:30] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/4b/c9/3e217bf5035940bf7e2cad0d79f565e3169035a33125e5b9b0fd510ca631/OpenGeode_Geosciences-7.6.4rc1-cp39-cp39-win_amd64.whl
+[2024-04-23 10:23:31] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2024-04-23 10:23:31] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.6.3rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.6.4rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240423/O/OpenGeode-Geosciences/7.6.3rc1-7.6.4rc1/README.md --exclude *.pyd
+[2024-04-23 10:23:31] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.3.tar.gz]
+[2024-04-23 10:23:31] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.4.tar.gz]
+[2024-04-23 10:23:31] INFO root fetch - main [MainThread]: End processing [pybunch]: success
+[2024-04-23 10:23:35] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 10:23:35] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 10:23:35] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2024-04-23 10:23:35] INFO root fetch - main [MainThread]: Store serial: [22890855]
