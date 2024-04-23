@@ -7766,3 +7766,24 @@
 [2024-04-23 04:16:06] INFO root fetch - processPackages [biblelib]: Remove: archive file [/home/abi/fetcher/tmp/biblelib-0.3.4.tar.gz]
 [2024-04-23 04:16:06] INFO root fetch - main [MainThread]: End processing [biblelib]: success
 [2024-04-23 04:16:06] INFO root fetch - main [MainThread]: Store serial: [22888020]
+[2024-04-23 04:18:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888020]
+[2024-04-23 04:18:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 04:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sfmanager
+[2024-04-23 04:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2024-04-23 04:18:14] INFO root fetch - processPackages [sfmanager]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-23 04:18:14] INFO root fetch - processPackages [policyengine-us]: New version: [0.748.0] Old Version: [0.747.0]
+[2024-04-23 04:18:15] INFO root fetch - processPackages [sfmanager]: Downloading https://files.pythonhosted.org/packages/17/97/2b362e73c851f85069f0f678ef127c6dd52e5444d3848ed7de30f2aa41e6/sfmanager-0.1.7.tar.gz
+[2024-04-23 04:18:15] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/93/44/b0907cf81d176fc3e90937bfb40395198b4c1bcddf6a0a50f4d0597ea08a/policyengine-us-0.747.0.tar.gz
+[2024-04-23 04:18:15] INFO root fetch - processPackages [sfmanager]: Downloading https://files.pythonhosted.org/packages/83/a3/507ab792ccfe59a5e838c2709b9a15be526169da2996e490286dd8852e83/sfmanager-0.1.8.tar.gz
+[2024-04-23 04:18:15] INFO root fetch - processPackages [sfmanager]: executing diffoscope
+[2024-04-23 04:18:15] INFO root fetch - processPackages [sfmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfmanager-0.1.7.tar.gz tmp/sfmanager-0.1.8.tar.gz --markdown 20240423/s/sfmanager/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-23 04:18:15] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/5b/ed/8d1d0b64de68219af125cd0c4aff669e2f885f9b4efe61329788878a51b0/policyengine-us-0.748.0.tar.gz
+[2024-04-23 04:18:15] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-23 04:18:15] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.747.0.tar.gz tmp/policyengine-us-0.748.0.tar.gz --markdown 20240423/p/policyengine-us/0.747.0-0.748.0/README.md --exclude *.pyd
+[2024-04-23 04:18:16] INFO root fetch - processPackages [sfmanager]: Remove: archive file [/home/abi/fetcher/tmp/sfmanager-0.1.7.tar.gz]
+[2024-04-23 04:18:16] INFO root fetch - processPackages [sfmanager]: Remove: archive file [/home/abi/fetcher/tmp/sfmanager-0.1.8.tar.gz]
+[2024-04-23 04:18:16] INFO root fetch - main [MainThread]: End processing [sfmanager]: success
+[2024-04-23 04:18:48] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.747.0.tar.gz]
+[2024-04-23 04:18:48] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.748.0.tar.gz]
+[2024-04-23 04:18:48] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-23 04:18:48] INFO root fetch - main [MainThread]: Store serial: [22888026]
