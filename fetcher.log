@@ -9954,3 +9954,40 @@
 [2024-04-23 06:06:04] INFO root fetch - processPackages [dirhash]: Remove: archive file [/home/abi/fetcher/tmp/dirhash-0.4.0.tar.gz]
 [2024-04-23 06:06:04] INFO root fetch - main [MainThread]: End processing [dirhash]: success
 [2024-04-23 06:06:04] INFO root fetch - main [MainThread]: Store serial: [22888837]
+[2024-04-23 06:08:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888837]
+[2024-04-23 06:08:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 06:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: komodo-sdk
+[2024-04-23 06:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: citation-rabbot
+[2024-04-23 06:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypipr
+[2024-04-23 06:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypipr
+[2024-04-23 06:08:13] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 06:08:13] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 06:08:13] INFO root fetch - processPackages [citation-rabbot]: New version: [3.9.1] Old Version: [3.9]
+[2024-04-23 06:08:13] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2024-04-23 06:08:13] INFO root fetch - processPackages [komodo-sdk]: New version: [0.1.1] Old Version: [0.0.99]
+[2024-04-23 06:08:13] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2024-04-23 06:08:13] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/ed/d2/f8bf901a49b9b33c0cb36ab0c7affe2946a407bcff938cc80c87606da353/citation-rabbot-3.9.tar.gz
+[2024-04-23 06:08:13] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-23 06:08:13] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-23 06:08:13] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/07/7d/b02e1c94b4a34e1a286fe080bfeb733dd8c03872b587ecc75071375117c1/komodo_sdk-0.0.99.tar.gz
+[2024-04-23 06:08:13] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-23 06:08:13] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240423/p/pypipr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 06:08:13] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-23 06:08:13] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240423/p/pypipr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 06:08:13] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/32/05/50cb6bb89c49991087cf06565acc67b78f7d906423118076d4e45e849ea9/citation-rabbot-3.9.1.tar.gz
+[2024-04-23 06:08:13] INFO root fetch - processPackages [citation-rabbot]: executing diffoscope
+[2024-04-23 06:08:13] INFO root fetch - processPackages [citation-rabbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation-rabbot-3.9.tar.gz tmp/citation-rabbot-3.9.1.tar.gz --markdown 20240423/c/citation-rabbot/3.9-3.9.1/README.md --exclude *.pyd
+[2024-04-23 06:08:13] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/e4/30/d15d2b993d0cf1601cd6c5c9f44301d4850fe1397cb2db4aa7a827a30993/komodo_sdk-0.1.1.tar.gz
+[2024-04-23 06:08:14] INFO root fetch - processPackages [komodo-sdk]: executing diffoscope
+[2024-04-23 06:08:14] INFO root fetch - processPackages [komodo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komodo_sdk-0.0.99.tar.gz tmp/komodo_sdk-0.1.1.tar.gz --markdown 20240423/k/komodo-sdk/0.0.99-0.1.1/README.md --exclude *.pyd
+[2024-04-23 06:08:14] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2024-04-23 06:08:14] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-23 06:08:14] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-23 06:08:14] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-23 06:08:14] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.tar.gz]
+[2024-04-23 06:08:14] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.1.tar.gz]
+[2024-04-23 06:08:14] INFO root fetch - main [MainThread]: End processing [citation-rabbot]: success
+[2024-04-23 06:08:15] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.99.tar.gz]
+[2024-04-23 06:08:15] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.1.1.tar.gz]
+[2024-04-23 06:08:15] INFO root fetch - main [MainThread]: End processing [komodo-sdk]: success
+[2024-04-23 06:08:15] INFO root fetch - main [MainThread]: Store serial: [22888900]
