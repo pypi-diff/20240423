@@ -13924,3 +13924,75 @@
 [2024-04-23 09:57:49] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.95.tar.gz]
 [2024-04-23 09:57:49] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-23 09:57:49] INFO root fetch - main [MainThread]: Store serial: [22890563]
+[2024-04-23 09:59:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890563]
+[2024-04-23 09:59:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 09:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voici
+[2024-04-23 09:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voici-core
+[2024-04-23 09:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-iframe-autoresize
+[2024-04-23 09:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cs.debug
+[2024-04-23 09:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pgpt_python
+[2024-04-23 09:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amilib
+[2024-04-23 09:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fremu
+[2024-04-23 09:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Flask-PikaMQ
+[2024-04-23 09:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: IISRapi
+[2024-04-23 09:59:58] INFO root fetch - processPackages [IISRapi]: New version: [1.1] Old Version: [1.0.1]
+[2024-04-23 09:59:58] INFO root fetch - processPackages [fremu]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-23 09:59:59] WARNING root fetch - processPackages [streamlit-iframe-autoresize]: Skipping, unable to determine old version
+[2024-04-23 09:59:59] INFO root fetch - main [MainThread]: End processing [streamlit-iframe-autoresize] error
+[2024-04-23 09:59:59] INFO root fetch - processPackages [IISRapi]: Downloading https://files.pythonhosted.org/packages/b3/b8/b19e3897f12c6cff11d3c3217664d3e26ce0c0c756c9388da45868629ef1/IISRapi-1.0.1.tar.gz
+[2024-04-23 09:59:59] INFO root fetch - processPackages [voici]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-23 09:59:59] WARNING root fetch - processPackages [Flask-PikaMQ]: Skipping, unable to determine old version
+[2024-04-23 09:59:59] INFO root fetch - processPackages [fremu]: Downloading https://files.pythonhosted.org/packages/ef/77/61328b0751ca7bc5502fdfccd8a89d16db11440030bdc73b797ee8436d85/fremu-0.0.4.tar.gz
+[2024-04-23 09:59:59] INFO root fetch - main [MainThread]: End processing [Flask-PikaMQ] error
+[2024-04-23 09:59:59] INFO root fetch - processPackages [voici-core]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-23 09:59:59] INFO root fetch - processPackages [cs.debug]: New version: [20240423] Old Version: [20230613.1]
+[2024-04-23 09:59:59] INFO root fetch - processPackages [pgpt_python]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 09:59:59] INFO root fetch - processPackages [amilib]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-23 09:59:59] INFO root fetch - processPackages [voici]: Downloading https://files.pythonhosted.org/packages/8d/57/1c233a3713f45e598b09da4af2559f25a449d02027fe3433d7b3b40d354f/voici-0.6.0.tar.gz
+[2024-04-23 09:59:59] INFO root fetch - processPackages [cs.debug]: Downloading https://files.pythonhosted.org/packages/87/49/32272f9e138356e8a1a3469ef924ae4142986187c3d35c2299d0b463757e/cs.debug-20230613.1.tar.gz
+[2024-04-23 09:59:59] INFO root fetch - processPackages [voici-core]: Downloading https://files.pythonhosted.org/packages/44/5e/2bdcd5cf6b0ee369c5982789153eb8ed750aca8262a6367228391ef7d5a8/voici_core-0.6.0.tar.gz
+[2024-04-23 09:59:59] INFO root fetch - processPackages [pgpt_python]: Downloading https://files.pythonhosted.org/packages/97/ad/7a804e33ec18b4e6d5cd133b99bfded06ae364975cb3616b8252c99126d2/pgpt_python-0.1.0.tar.gz
+[2024-04-23 09:59:59] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/1f/5a/c43aa2f60b2f31eeec87faa8fb2a84f0e5c68533dfdf5c9c9d794afe042c/amilib-0.0.6.tar.gz
+[2024-04-23 09:59:59] INFO root fetch - processPackages [IISRapi]: Downloading https://files.pythonhosted.org/packages/a8/cf/dda949947662071ea210f9e17942a802ea2c3b4e83370c75b628356256d5/IISRapi-1.1.tar.gz
+[2024-04-23 09:59:59] INFO root fetch - processPackages [fremu]: Downloading https://files.pythonhosted.org/packages/d2/9f/3e01eaf46f7d639ff1cb5709afe2f734633904933f3f15b6fdfb7648b659/fremu-0.0.5.tar.gz
+[2024-04-23 09:59:59] INFO root fetch - processPackages [IISRapi]: executing diffoscope
+[2024-04-23 09:59:59] INFO root fetch - processPackages [IISRapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IISRapi-1.0.1.tar.gz tmp/IISRapi-1.1.tar.gz --markdown 20240423/I/IISRapi/1.0.1-1.1/README.md --exclude *.pyd
+[2024-04-23 09:59:59] INFO root fetch - processPackages [cs.debug]: Downloading https://files.pythonhosted.org/packages/fb/6a/0568e6655a849d48ad930024f1b71ce2d0af2cf9d4f7c0ef81e02c5d47eb/cs.debug-20240423.tar.gz
+[2024-04-23 09:59:59] INFO root fetch - processPackages [pgpt_python]: Downloading https://files.pythonhosted.org/packages/19/34/5bf088f3f574ad0e00e66ddf954c49a2a9f746fc0f5f079e1e47dfc0c492/pgpt_python-0.1.1.tar.gz
+[2024-04-23 09:59:59] INFO root fetch - processPackages [voici]: Downloading https://files.pythonhosted.org/packages/44/89/9a38d590951c2c568152e9fc9ec700bb0711cd1c81d7aad55aee5a602166/voici-0.6.1.tar.gz
+[2024-04-23 09:59:59] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/79/a8/8f313d2247a104dbc54decded76f761d1dd8fb1efc41c8109d3a846a2c23/amilib-0.0.7.tar.gz
+[2024-04-23 09:59:59] INFO root fetch - processPackages [fremu]: executing diffoscope
+[2024-04-23 09:59:59] INFO root fetch - processPackages [fremu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fremu-0.0.4.tar.gz tmp/fremu-0.0.5.tar.gz --markdown 20240423/f/fremu/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-23 09:59:59] INFO root fetch - processPackages [cs.debug]: executing diffoscope
+[2024-04-23 09:59:59] INFO root fetch - processPackages [cs.debug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.debug-20230613.1.tar.gz tmp/cs.debug-20240423.tar.gz --markdown 20240423/c/cs.debug/20230613.1-20240423/README.md --exclude *.pyd
+[2024-04-23 09:59:59] INFO root fetch - processPackages [pgpt_python]: executing diffoscope
+[2024-04-23 09:59:59] INFO root fetch - processPackages [pgpt_python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgpt_python-0.1.0.tar.gz tmp/pgpt_python-0.1.1.tar.gz --markdown 20240423/p/pgpt_python/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 09:59:59] INFO root fetch - processPackages [voici]: executing diffoscope
+[2024-04-23 09:59:59] INFO root fetch - processPackages [voici]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voici-0.6.0.tar.gz tmp/voici-0.6.1.tar.gz --markdown 20240423/v/voici/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-23 09:59:59] INFO root fetch - processPackages [amilib]: executing diffoscope
+[2024-04-23 09:59:59] INFO root fetch - processPackages [amilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amilib-0.0.6.tar.gz tmp/amilib-0.0.7.tar.gz --markdown 20240423/a/amilib/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-23 09:59:59] INFO root fetch - processPackages [voici-core]: Downloading https://files.pythonhosted.org/packages/2e/a6/7a4812c198fd9a1fda11a81d412004c1e9ce6c36569a7bb190aa12e8afba/voici_core-0.6.1.tar.gz
+[2024-04-23 10:00:00] INFO root fetch - processPackages [IISRapi]: Remove: archive file [/home/abi/fetcher/tmp/IISRapi-1.0.1.tar.gz]
+[2024-04-23 10:00:00] INFO root fetch - processPackages [IISRapi]: Remove: archive file [/home/abi/fetcher/tmp/IISRapi-1.1.tar.gz]
+[2024-04-23 10:00:00] INFO root fetch - main [MainThread]: End processing [IISRapi]: success
+[2024-04-23 10:00:00] INFO root fetch - processPackages [voici-core]: executing diffoscope
+[2024-04-23 10:00:00] INFO root fetch - processPackages [voici-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voici_core-0.6.0.tar.gz tmp/voici_core-0.6.1.tar.gz --markdown 20240423/v/voici-core/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-23 10:00:00] INFO root fetch - processPackages [cs.debug]: Remove: archive file [/home/abi/fetcher/tmp/cs.debug-20230613.1.tar.gz]
+[2024-04-23 10:00:00] INFO root fetch - processPackages [cs.debug]: Remove: archive file [/home/abi/fetcher/tmp/cs.debug-20240423.tar.gz]
+[2024-04-23 10:00:00] INFO root fetch - main [MainThread]: End processing [cs.debug]: success
+[2024-04-23 10:00:00] INFO root fetch - processPackages [fremu]: Remove: archive file [/home/abi/fetcher/tmp/fremu-0.0.4.tar.gz]
+[2024-04-23 10:00:00] INFO root fetch - processPackages [fremu]: Remove: archive file [/home/abi/fetcher/tmp/fremu-0.0.5.tar.gz]
+[2024-04-23 10:00:00] INFO root fetch - main [MainThread]: End processing [fremu]: success
+[2024-04-23 10:00:00] INFO root fetch - processPackages [voici]: Remove: archive file [/home/abi/fetcher/tmp/voici-0.6.0.tar.gz]
+[2024-04-23 10:00:00] INFO root fetch - processPackages [voici]: Remove: archive file [/home/abi/fetcher/tmp/voici-0.6.1.tar.gz]
+[2024-04-23 10:00:00] INFO root fetch - main [MainThread]: End processing [voici]: success
+[2024-04-23 10:00:00] INFO root fetch - processPackages [pgpt_python]: Remove: archive file [/home/abi/fetcher/tmp/pgpt_python-0.1.0.tar.gz]
+[2024-04-23 10:00:00] INFO root fetch - processPackages [pgpt_python]: Remove: archive file [/home/abi/fetcher/tmp/pgpt_python-0.1.1.tar.gz]
+[2024-04-23 10:00:00] INFO root fetch - main [MainThread]: End processing [pgpt_python]: success
+[2024-04-23 10:00:00] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.6.tar.gz]
+[2024-04-23 10:00:00] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.7.tar.gz]
+[2024-04-23 10:00:00] INFO root fetch - main [MainThread]: End processing [amilib]: success
+[2024-04-23 10:01:15] INFO root fetch - processPackages [voici-core]: Remove: archive file [/home/abi/fetcher/tmp/voici_core-0.6.0.tar.gz]
+[2024-04-23 10:01:15] INFO root fetch - processPackages [voici-core]: Remove: archive file [/home/abi/fetcher/tmp/voici_core-0.6.1.tar.gz]
+[2024-04-23 10:01:15] INFO root fetch - main [MainThread]: End processing [voici-core]: success
+[2024-04-23 10:01:15] INFO root fetch - main [MainThread]: Store serial: [22890598]
