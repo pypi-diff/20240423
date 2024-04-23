@@ -20278,3 +20278,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 13:52:13] INFO root fetch - processPackages [cryptlex.lexactivator]: Remove: archive file [/home/abi/fetcher/tmp/cryptlex.lexactivator-3.9.1.tar.gz]
 [2024-04-23 13:52:13] INFO root fetch - main [MainThread]: End processing [cryptlex.lexactivator]: success
 [2024-04-23 13:52:13] INFO root fetch - main [MainThread]: Store serial: [22893322]
+[2024-04-23 13:54:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893322]
+[2024-04-23 13:54:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 13:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypoolparty
+[2024-04-23 13:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wd-fw-update
+[2024-04-23 13:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prosperity2bt
+[2024-04-23 13:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chellow
+[2024-04-23 13:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sunholo
+[2024-04-23 13:54:30] INFO root fetch - processPackages [wd-fw-update]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-23 13:54:30] INFO root fetch - processPackages [prosperity2bt]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-23 13:54:30] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-23 13:54:30] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-04-23 13:54:30] INFO root fetch - processPackages [pypoolparty]: New version: [0.2.1] Old Version: [0.0.8]
+[2024-04-23 13:54:30] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-04-23 13:54:30] INFO root fetch - processPackages [wd-fw-update]: Downloading https://files.pythonhosted.org/packages/ff/cb/c3e0a423b027fc2fe2b72787840eabf820cbbb0e3388fa407148f53a25a4/wd_fw_update-1.1.1.tar.gz
+[2024-04-23 13:54:30] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-23 13:54:30] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/4c/ec/1b954a259bd9535a2e1693bf0dcbd442d55114b370f1c7dd26d020499151/prosperity2bt-0.7.0.tar.gz
+[2024-04-23 13:54:31] INFO root fetch - processPackages [pypoolparty]: Downloading https://files.pythonhosted.org/packages/f2/d1/f15ae867e3b937ca49d29696a2c0c3786025760da255b842355ab922bf34/pypoolparty-0.0.8.tar.gz
+[2024-04-23 13:54:31] INFO root fetch - processPackages [wd-fw-update]: Downloading https://files.pythonhosted.org/packages/21/e7/e428ee52bc2e4a33ce60ceba41815d534466265330586e99334278e03229/wd_fw_update-1.2.0.tar.gz
+[2024-04-23 13:54:31] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-04-23 13:54:31] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-23 13:54:31] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-23 13:54:31] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240423/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-23 13:54:31] INFO root fetch - processPackages [wd-fw-update]: executing diffoscope
+[2024-04-23 13:54:31] INFO root fetch - processPackages [wd-fw-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wd_fw_update-1.1.1.tar.gz tmp/wd_fw_update-1.2.0.tar.gz --markdown 20240423/w/wd-fw-update/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-23 13:54:31] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-04-23 13:54:31] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240423/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-04-23 13:54:31] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/ec/b9/84be43ed78849a8af6333d21d3a8fa3d51f9c8d02b7f93ef18d260a8ee7b/prosperity2bt-0.8.0.tar.gz
+[2024-04-23 13:54:31] INFO root fetch - processPackages [pypoolparty]: Downloading https://files.pythonhosted.org/packages/b8/f0/78f12100fb92a3351e658afb9e3334ceb661b9e7e0477858f0049e5bcbac/pypoolparty-0.2.1.tar.gz
+[2024-04-23 13:54:31] INFO root fetch - processPackages [pypoolparty]: executing diffoscope
+[2024-04-23 13:54:31] INFO root fetch - processPackages [pypoolparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypoolparty-0.0.8.tar.gz tmp/pypoolparty-0.2.1.tar.gz --markdown 20240423/p/pypoolparty/0.0.8-0.2.1/README.md --exclude *.pyd
+[2024-04-23 13:54:31] INFO root fetch - processPackages [prosperity2bt]: executing diffoscope
+[2024-04-23 13:54:31] INFO root fetch - processPackages [prosperity2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosperity2bt-0.7.0.tar.gz tmp/prosperity2bt-0.8.0.tar.gz --markdown 20240423/p/prosperity2bt/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-23 13:54:32] INFO root fetch - processPackages [wd-fw-update]: Remove: archive file [/home/abi/fetcher/tmp/wd_fw_update-1.1.1.tar.gz]
+[2024-04-23 13:54:32] INFO root fetch - processPackages [wd-fw-update]: Remove: archive file [/home/abi/fetcher/tmp/wd_fw_update-1.2.0.tar.gz]
+[2024-04-23 13:54:32] INFO root fetch - main [MainThread]: End processing [wd-fw-update]: success
+[2024-04-23 13:54:32] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-23 13:54:32] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-23 13:54:32] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-23 13:54:32] INFO root fetch - processPackages [pypoolparty]: Remove: archive file [/home/abi/fetcher/tmp/pypoolparty-0.0.8.tar.gz]
+[2024-04-23 13:54:32] INFO root fetch - processPackages [pypoolparty]: Remove: archive file [/home/abi/fetcher/tmp/pypoolparty-0.2.1.tar.gz]
+[2024-04-23 13:54:32] INFO root fetch - main [MainThread]: End processing [pypoolparty]: success
+[2024-04-23 13:54:33] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.7.0.tar.gz]
+[2024-04-23 13:54:33] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.8.0.tar.gz]
+[2024-04-23 13:54:33] INFO root fetch - main [MainThread]: End processing [prosperity2bt]: success
+[2024-04-23 13:54:34] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-04-23 13:54:34] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-04-23 13:54:34] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-04-23 13:54:34] INFO root fetch - main [MainThread]: Store serial: [22893341]
