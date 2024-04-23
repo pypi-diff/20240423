@@ -15685,3 +15685,159 @@
 [2024-04-23 11:04:23] INFO root fetch - processPackages [openscap-report]: Remove: archive file [/home/abi/fetcher/tmp/openscap_report-0.2.8.tar.gz]
 [2024-04-23 11:04:23] INFO root fetch - main [MainThread]: End processing [openscap-report]: success
 [2024-04-23 11:04:23] INFO root fetch - main [MainThread]: Store serial: [22891423]
+[2024-04-23 11:06:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891423]
+[2024-04-23 11:06:32] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-23 11:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: que_sdk
+[2024-04-23 11:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tcp
+[2024-04-23 11:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jinaai-api-schemas
+[2024-04-23 11:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.common
+[2024-04-23 11:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.core
+[2024-04-23 11:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.features
+[2024-04-23 11:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastlabel
+[2024-04-23 11:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: udp
+[2024-04-23 11:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.tabular
+[2024-04-23 11:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-dingtalk
+[2024-04-23 11:06:32] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240422] Old Version: [1.1.1b20240421]
+[2024-04-23 11:06:32] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.97] Old Version: [2.0.96]
+[2024-04-23 11:06:32] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240422] Old Version: [1.1.1b20240421]
+[2024-04-23 11:06:32] INFO root fetch - processPackages [jinaai-api-schemas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 11:06:32] INFO root fetch - processPackages [que_sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 11:06:32] INFO root fetch - processPackages [tcp]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-23 11:06:32] INFO root fetch - processPackages [udp]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-23 11:06:32] INFO root fetch - processPackages [fastlabel]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 11:06:32] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/2b/6b/d2dc85ad3464ccf6edd7e5f72d17853f22fb663303261edbdbfcd0b7cb82/autogluon.tabular-1.1.1b20240421.tar.gz
+[2024-04-23 11:06:32] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240423] Old Version: [1.1.1b20240422]
+[2024-04-23 11:06:32] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/25/53/ad172c67e00482cc18a49f409534f879e3832d9cce3fd25e2a5304a4e93f/autogluon.core-1.1.1b20240421.tar.gz
+[2024-04-23 11:06:32] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240423] Old Version: [1.1.1b20240422]
+[2024-04-23 11:06:32] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/80/8f/428a503aeb3de699f396d2016ef788c305fd395ed0617a49925d9403c105/alibabacloud_dingtalk-2.0.96.tar.gz
+[2024-04-23 11:06:32] INFO root fetch - processPackages [que_sdk]: Downloading https://files.pythonhosted.org/packages/2e/6c/f687013f2c1934db77af4dfde95236e9ed638bde3c0b91c3db953865f8fa/que_sdk-0.1.1.tar.gz
+[2024-04-23 11:06:32] INFO root fetch - processPackages [tcp]: Downloading https://files.pythonhosted.org/packages/4a/34/5556f0d8e869ab45ab9eed86e5ec0ee768427d900f0da74ba7bb872874fa/tcp-1.1.2.tar.gz
+[2024-04-23 11:06:32] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/25/39/f863141710107516bb3ddba4fc7996934fb79d7c7b3f929453a812fa8eab/jinaai_api_schemas-0.0.8.tar.gz
+[2024-04-23 11:06:32] INFO root fetch - processPackages [udp]: Downloading https://files.pythonhosted.org/packages/18/d2/7c78546850ad959a4ffd581aeb346d336dcb1ff8378cff769165fd84e772/udp-1.1.2.tar.gz
+[2024-04-23 11:06:32] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/82/44/afa748372f7e48c0590950c471c0454e91f0b666665fa924e223dfc623cc/autogluon.common-1.1.1b20240422.tar.gz
+[2024-04-23 11:06:32] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/57/be/7f95f0710f3736b944abf8635802ed7c4fa9ed908af29b88814533d5d1aa/fastlabel-0.9.8.tar.gz
+[2024-04-23 11:06:33] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/4d/23/27431ee80756dc75d52a910552a4a0a6be97e69bbe54e3e90bb522ccce8c/autogluon.features-1.1.1b20240422.tar.gz
+[2024-04-23 11:06:33] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/1c/bc/41d27f03bc6b2ac9f6b6036f5aae96698315290ba74aea68d6ed65a3becd/autogluon.core-1.1.1b20240422.tar.gz
+[2024-04-23 11:06:33] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/21/8b/740a350b7bf1d20d13a384753707f99ae32cb40b45af37650aabbe4de4e5/alibabacloud_dingtalk-2.0.97.tar.gz
+[2024-04-23 11:06:33] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/3b/6a/f66a1dbcd67829ab718ea6247a1208ec8e398008bc68b340e3d8020401f7/autogluon.tabular-1.1.1b20240422.tar.gz
+[2024-04-23 11:06:33] INFO root fetch - processPackages [tcp]: Downloading https://files.pythonhosted.org/packages/7a/83/3a5ac099673bdac6bab5b851dc77f880fd72cc309d59aa6f0e6d7b848253/tcp-1.2.0.tar.gz
+[2024-04-23 11:06:33] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/61/d2/6821514a6cc42b5b55a3eb2ee495174540c809889a9e0ba57657f8d637c4/jinaai_api_schemas-0.0.9.tar.gz
+[2024-04-23 11:06:33] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-23 11:06:33] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240421.tar.gz tmp/autogluon.core-1.1.1b20240422.tar.gz --markdown 20240423/a/autogluon.core/1.1.1b20240421-1.1.1b20240422/README.md --exclude *.pyd
+[2024-04-23 11:06:33] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/0d/ee/7028cad55247d022ea5555817d7c6e334ef01958148552b1cdd16fe13dc0/autogluon.common-1.1.1b20240423.tar.gz
+[2024-04-23 11:06:33] INFO root fetch - processPackages [udp]: Downloading https://files.pythonhosted.org/packages/9e/3a/66cb639aa8d8de7814cc67bae703123defe39489217afb87e7514d4559cc/udp-1.2.0.tar.gz
+[2024-04-23 11:06:33] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/6c/7a/6567a3573c5491f079f7cafaa62688d5f735798de8f07626624dfd1ab8a6/autogluon.features-1.1.1b20240423.tar.gz
+[2024-04-23 11:06:33] INFO root fetch - processPackages [tcp]: executing diffoscope
+[2024-04-23 11:06:33] INFO root fetch - processPackages [tcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcp-1.1.2.tar.gz tmp/tcp-1.2.0.tar.gz --markdown 20240423/t/tcp/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-04-23 11:06:33] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/d0/e5/f18c001dc7450d962af6e6925a6600fb1877e202166062e99e6d1fadf36b/fastlabel-0.9.9.tar.gz
+[2024-04-23 11:06:33] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2024-04-23 11:06:33] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.96.tar.gz tmp/alibabacloud_dingtalk-2.0.97.tar.gz --markdown 20240423/a/alibabacloud-dingtalk/2.0.96-2.0.97/README.md --exclude *.pyd
+[2024-04-23 11:06:33] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-04-23 11:06:33] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240421.tar.gz tmp/autogluon.tabular-1.1.1b20240422.tar.gz --markdown 20240423/a/autogluon.tabular/1.1.1b20240421-1.1.1b20240422/README.md --exclude *.pyd
+[2024-04-23 11:06:33] INFO root fetch - processPackages [jinaai-api-schemas]: executing diffoscope
+[2024-04-23 11:06:33] INFO root fetch - processPackages [jinaai-api-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinaai_api_schemas-0.0.8.tar.gz tmp/jinaai_api_schemas-0.0.9.tar.gz --markdown 20240423/j/jinaai-api-schemas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 11:06:33] INFO root fetch - processPackages [que_sdk]: Downloading https://files.pythonhosted.org/packages/2e/6f/776c2e03099e4317cd28ba11f4739f7452d623056d414fdb6718c858b319/que_sdk-0.1.2.tar.gz
+[2024-04-23 11:06:33] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-23 11:06:33] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240422.tar.gz tmp/autogluon.common-1.1.1b20240423.tar.gz --markdown 20240423/a/autogluon.common/1.1.1b20240422-1.1.1b20240423/README.md --exclude *.pyd
+[2024-04-23 11:06:33] INFO root fetch - processPackages [udp]: executing diffoscope
+[2024-04-23 11:06:33] INFO root fetch - processPackages [udp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udp-1.1.2.tar.gz tmp/udp-1.2.0.tar.gz --markdown 20240423/u/udp/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-04-23 11:06:33] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-23 11:06:33] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240422.tar.gz tmp/autogluon.features-1.1.1b20240423.tar.gz --markdown 20240423/a/autogluon.features/1.1.1b20240422-1.1.1b20240423/README.md --exclude *.pyd
+[2024-04-23 11:06:33] INFO root fetch - processPackages [que_sdk]: executing diffoscope
+[2024-04-23 11:06:33] INFO root fetch - processPackages [que_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/que_sdk-0.1.1.tar.gz tmp/que_sdk-0.1.2.tar.gz --markdown 20240423/q/que_sdk/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 11:06:33] INFO root fetch - processPackages [fastlabel]: executing diffoscope
+[2024-04-23 11:06:33] INFO root fetch - processPackages [fastlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlabel-0.9.8.tar.gz tmp/fastlabel-0.9.9.tar.gz --markdown 20240423/f/fastlabel/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-23 11:06:34] INFO root fetch - processPackages [tcp]: Remove: archive file [/home/abi/fetcher/tmp/tcp-1.1.2.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [tcp]: Remove: archive file [/home/abi/fetcher/tmp/tcp-1.2.0.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [tcp]: Start processing: ul-py-tool
+[2024-04-23 11:06:34] INFO root fetch - main [MainThread]: End processing [tcp]: success
+[2024-04-23 11:06:34] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.8.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.9.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [jinaai-api-schemas]: Start processing: chittorgarh-client
+[2024-04-23 11:06:34] INFO root fetch - main [MainThread]: End processing [jinaai-api-schemas]: success
+[2024-04-23 11:06:34] INFO root fetch - processPackages [ul-py-tool]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240421.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240422.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.core]: Start processing: autogluon.multimodal
+[2024-04-23 11:06:34] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-23 11:06:34] INFO root fetch - processPackages [chittorgarh-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240422] Old Version: [1.1.1b20240421]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/e7/3d/8585d3c079ab7fc04908f16aba2f8ef0a65ab3a51d782d1a2dffb4b6b644/ul-py-tool-2.0.0.tar.gz
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240422.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240423.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.features]: Start processing: secretvalidator
+[2024-04-23 11:06:34] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/c4/d5/76173e67728a011e2fd48918324dc4641e44c85b57d7c8cdc166db70a7af/autogluon.multimodal-1.1.1b20240421.tar.gz
+[2024-04-23 11:06:34] INFO root fetch - processPackages [udp]: Remove: archive file [/home/abi/fetcher/tmp/udp-1.1.2.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [udp]: Remove: archive file [/home/abi/fetcher/tmp/udp-1.2.0.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [udp]: Start processing: autogluon.timeseries
+[2024-04-23 11:06:34] INFO root fetch - main [MainThread]: End processing [udp]: success
+[2024-04-23 11:06:34] INFO root fetch - processPackages [secretvalidator]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240422.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240423.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.common]: Start processing: autogluon
+[2024-04-23 11:06:34] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240421.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240422.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.tabular]: Start processing: huojiweiguoba
+[2024-04-23 11:06:34] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-04-23 11:06:34] INFO root fetch - processPackages [chittorgarh-client]: Downloading https://files.pythonhosted.org/packages/7a/a5/763311ef5b7671d7d7d796aa5c7cde0ebac51eb76ea86c48fdbaead3cb6c/chittorgarh_client-1.0.8.tar.gz
+[2024-04-23 11:06:34] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.8.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.9.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - main [MainThread]: End processing [fastlabel]: success
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240422] Old Version: [1.1.1b20240421]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/c1/0c/7d243a551f3f325c65b4e9abf41e6af739f60deb881c244ad6cc3b82038b/secretvalidator-0.1.8.tar.gz
+[2024-04-23 11:06:34] INFO root fetch - processPackages [que_sdk]: Remove: archive file [/home/abi/fetcher/tmp/que_sdk-0.1.1.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [que_sdk]: Remove: archive file [/home/abi/fetcher/tmp/que_sdk-0.1.2.tar.gz]
+[2024-04-23 11:06:34] INFO root fetch - main [MainThread]: End processing [que_sdk]: success
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/a2/71/35dd4652e81e5a3c1e60345045f5ee80b3a5dfbb982284b85f3d3c9483e5/autogluon.timeseries-1.1.1b20240421.tar.gz
+[2024-04-23 11:06:34] INFO root fetch - processPackages [huojiweiguoba]: New version: [9.0] Old Version: [8.0]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240423] Old Version: [1.1.1b20240422]
+[2024-04-23 11:06:34] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/a4/34/23f6b67894cd38bc0180d1bda48cae068ce3431cd22720e4e149000e3c8a/ul-py-tool-2.1.0.tar.gz
+[2024-04-23 11:06:35] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/46/26/23b3d02792f2d2eb00039a38f72a84b876b2802557f72d8618e43a8b145d/secretvalidator-0.1.9.tar.gz
+[2024-04-23 11:06:35] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/bb/f1/9f71e173cd1d43bb55f88812bc138b3529d51388f28b5a611ef126945c60/autogluon.multimodal-1.1.1b20240422.tar.gz
+[2024-04-23 11:06:35] INFO root fetch - processPackages [chittorgarh-client]: Downloading https://files.pythonhosted.org/packages/56/3e/fc317ea00053937e692f624fe70a95f6d6c6f22d64c13d62f0ac7fe66b7d/chittorgarh_client-1.0.9.tar.gz
+[2024-04-23 11:06:35] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/9b/6f/b64a46e83d6bfc0f46bb336114ec9f43e3939f86a70108c310351b4f02b4/huojiweiguoba-8.0.tar.gz
+[2024-04-23 11:06:35] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/60/4b/ee81be8a5b5901f0984b1a2e719e22dde6bed8b76e4ddff701038f045d8b/autogluon-1.1.1b20240422.tar.gz
+[2024-04-23 11:06:35] INFO root fetch - processPackages [secretvalidator]: executing diffoscope
+[2024-04-23 11:06:35] INFO root fetch - processPackages [secretvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidator-0.1.8.tar.gz tmp/secretvalidator-0.1.9.tar.gz --markdown 20240423/s/secretvalidator/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 11:06:35] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2024-04-23 11:06:35] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-2.0.0.tar.gz tmp/ul-py-tool-2.1.0.tar.gz --markdown 20240423/u/ul-py-tool/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-23 11:06:35] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-04-23 11:06:35] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240421.tar.gz tmp/autogluon.multimodal-1.1.1b20240422.tar.gz --markdown 20240423/a/autogluon.multimodal/1.1.1b20240421-1.1.1b20240422/README.md --exclude *.pyd
+[2024-04-23 11:06:35] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/74/2c/f3b07f165e16dd2e388d83f54a1cf349b096411ee7bb299c8259d86afcd4/autogluon.timeseries-1.1.1b20240422.tar.gz
+[2024-04-23 11:06:35] INFO root fetch - processPackages [chittorgarh-client]: executing diffoscope
+[2024-04-23 11:06:35] INFO root fetch - processPackages [chittorgarh-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chittorgarh_client-1.0.8.tar.gz tmp/chittorgarh_client-1.0.9.tar.gz --markdown 20240423/c/chittorgarh-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 11:06:35] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-23 11:06:35] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240421.tar.gz tmp/autogluon.timeseries-1.1.1b20240422.tar.gz --markdown 20240423/a/autogluon.timeseries/1.1.1b20240421-1.1.1b20240422/README.md --exclude *.pyd
+[2024-04-23 11:06:35] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/cc/10/a1c54f25f7abb7b967d4745c5b1ff332390d9ffa4894d2882f11562b6021/autogluon-1.1.1b20240423.tar.gz
+[2024-04-23 11:06:35] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/3a/79/586f36e886e9e8dcfc4129b51554721e3019a3b5fc5ca074d349a5747db3/huojiweiguoba-9.0.tar.gz
+[2024-04-23 11:06:35] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-04-23 11:06:35] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240422.tar.gz tmp/autogluon-1.1.1b20240423.tar.gz --markdown 20240423/a/autogluon/1.1.1b20240422-1.1.1b20240423/README.md --exclude *.pyd
+[2024-04-23 11:06:35] INFO root fetch - processPackages [huojiweiguoba]: executing diffoscope
+[2024-04-23 11:06:35] INFO root fetch - processPackages [huojiweiguoba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huojiweiguoba-8.0.tar.gz tmp/huojiweiguoba-9.0.tar.gz --markdown 20240423/h/huojiweiguoba/8.0-9.0/README.md --exclude *.pyd
+[2024-04-23 11:06:35] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.8.tar.gz]
+[2024-04-23 11:06:35] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.9.tar.gz]
+[2024-04-23 11:06:35] INFO root fetch - main [MainThread]: End processing [secretvalidator]: success
+[2024-04-23 11:06:36] INFO root fetch - processPackages [chittorgarh-client]: Remove: archive file [/home/abi/fetcher/tmp/chittorgarh_client-1.0.8.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - processPackages [chittorgarh-client]: Remove: archive file [/home/abi/fetcher/tmp/chittorgarh_client-1.0.9.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - main [MainThread]: End processing [chittorgarh-client]: success
+[2024-04-23 11:06:36] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-2.0.0.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-2.1.0.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2024-04-23 11:06:36] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240421.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240422.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-23 11:06:36] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240422.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240423.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-04-23 11:06:36] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-8.0.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-9.0.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - main [MainThread]: End processing [huojiweiguoba]: success
+[2024-04-23 11:06:36] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240421.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240422.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-04-23 11:06:36] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.96.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.97.tar.gz]
+[2024-04-23 11:06:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2024-04-23 11:06:36] INFO root fetch - main [MainThread]: Store serial: [22891477]
