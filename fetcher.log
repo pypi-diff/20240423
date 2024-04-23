@@ -20413,3 +20413,49 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 13:59:33] INFO root fetch - processPackages [cryptlex.lexactivator]: Remove: archive file [/home/abi/fetcher/tmp/cryptlex.lexactivator-3.9.1.tar.gz]
 [2024-04-23 13:59:33] INFO root fetch - main [MainThread]: End processing [cryptlex.lexactivator]: success
 [2024-04-23 13:59:33] INFO root fetch - main [MainThread]: Store serial: [22893374]
+[2024-04-23 14:01:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893374]
+[2024-04-23 14:01:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 14:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ScholarCodeCollective
+[2024-04-23 14:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbutils
+[2024-04-23 14:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypipr
+[2024-04-23 14:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-layui29
+[2024-04-23 14:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opytimal
+[2024-04-23 14:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: state-graph
+[2024-04-23 14:01:47] INFO root fetch - processPackages [ScholarCodeCollective]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-23 14:01:47] INFO root fetch - processPackages [opytimal]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-23 14:01:47] INFO root fetch - processPackages [bbutils]: New version: [0.6.0.0] Old Version: [0.5.5.0]
+[2024-04-23 14:01:47] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.85]
+[2024-04-23 14:01:47] INFO root fetch - processPackages [django-layui29]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-23 14:01:47] WARNING root fetch - processPackages [state-graph]: Skipping, unable to determine old version
+[2024-04-23 14:01:47] INFO root fetch - main [MainThread]: End processing [state-graph] error
+[2024-04-23 14:01:47] INFO root fetch - processPackages [ScholarCodeCollective]: Downloading https://files.pythonhosted.org/packages/53/22/468b7ac62328489db92f585976fb003d226076026769b2d65f023ef7ccff/ScholarCodeCollective-0.1.tar.gz
+[2024-04-23 14:01:47] ERROR root fetch - processPackages [opytimal]: Unable to fetch info: No such project/version 'opytimal' 0.5.0
+[2024-04-23 14:01:47] INFO root fetch - main [MainThread]: End processing [opytimal] error
+[2024-04-23 14:01:47] INFO root fetch - processPackages [bbutils]: Downloading https://files.pythonhosted.org/packages/91/c3/0cbeecd41b16913aa3f82912f55a3cc68372dcc78b0afe2c6dca26fed8c1/bbutils-0.5.5.0.tar.gz
+[2024-04-23 14:01:47] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/73/c2/a0e9179013345ed98dbb56289f60c30819277899ad7060a5ff21513d0d22/pypipr-1.0.85.tar.gz
+[2024-04-23 14:01:47] INFO root fetch - processPackages [django-layui29]: Downloading https://files.pythonhosted.org/packages/5f/b0/fecc5bf43d238c71148e817e181e1bc59f7965b6d207b786fc8b341075da/django_layui29-0.2.0.tar.gz
+[2024-04-23 14:01:48] INFO root fetch - processPackages [ScholarCodeCollective]: Downloading https://files.pythonhosted.org/packages/28/bb/ef61da7ae6cd39d79ee15c8ceb4f3b24436976966a616a883923cb0d4afc/ScholarCodeCollective-0.1.1.tar.gz
+[2024-04-23 14:01:48] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-23 14:01:48] INFO root fetch - processPackages [bbutils]: Downloading https://files.pythonhosted.org/packages/6b/66/6977a8301f2090580ff1a7e7fad782e94ea0ffef27104a8df036bc8a0be4/bbutils-0.6.0.0.tar.gz
+[2024-04-23 14:01:48] INFO root fetch - processPackages [django-layui29]: Downloading https://files.pythonhosted.org/packages/e5/ce/e242cc406d02940110edabe14c452698480b9d70c44603f9dc8cec7b8ec7/django_layui29-0.3.0.tar.gz
+[2024-04-23 14:01:48] INFO root fetch - processPackages [ScholarCodeCollective]: executing diffoscope
+[2024-04-23 14:01:48] INFO root fetch - processPackages [ScholarCodeCollective]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScholarCodeCollective-0.1.tar.gz tmp/ScholarCodeCollective-0.1.1.tar.gz --markdown 20240423/S/ScholarCodeCollective/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-23 14:01:48] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-23 14:01:48] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.85.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240423/p/pypipr/1.0.85-1.0.9/README.md --exclude *.pyd
+[2024-04-23 14:01:48] INFO root fetch - processPackages [bbutils]: executing diffoscope
+[2024-04-23 14:01:48] INFO root fetch - processPackages [bbutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbutils-0.5.5.0.tar.gz tmp/bbutils-0.6.0.0.tar.gz --markdown 20240423/b/bbutils/0.5.5.0-0.6.0.0/README.md --exclude *.pyd
+[2024-04-23 14:01:48] INFO root fetch - processPackages [django-layui29]: executing diffoscope
+[2024-04-23 14:01:48] INFO root fetch - processPackages [django-layui29]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_layui29-0.2.0.tar.gz tmp/django_layui29-0.3.0.tar.gz --markdown 20240423/d/django-layui29/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-23 14:01:48] INFO root fetch - processPackages [ScholarCodeCollective]: Remove: archive file [/home/abi/fetcher/tmp/ScholarCodeCollective-0.1.tar.gz]
+[2024-04-23 14:01:48] INFO root fetch - processPackages [ScholarCodeCollective]: Remove: archive file [/home/abi/fetcher/tmp/ScholarCodeCollective-0.1.1.tar.gz]
+[2024-04-23 14:01:48] INFO root fetch - main [MainThread]: End processing [ScholarCodeCollective]: success
+[2024-04-23 14:01:48] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.85.tar.gz]
+[2024-04-23 14:01:48] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-23 14:01:48] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-23 14:01:48] INFO root fetch - processPackages [django-layui29]: Remove: archive file [/home/abi/fetcher/tmp/django_layui29-0.2.0.tar.gz]
+[2024-04-23 14:01:48] INFO root fetch - processPackages [django-layui29]: Remove: archive file [/home/abi/fetcher/tmp/django_layui29-0.3.0.tar.gz]
+[2024-04-23 14:01:48] INFO root fetch - main [MainThread]: End processing [django-layui29]: success
+[2024-04-23 14:01:48] INFO root fetch - processPackages [bbutils]: Remove: archive file [/home/abi/fetcher/tmp/bbutils-0.5.5.0.tar.gz]
+[2024-04-23 14:01:48] INFO root fetch - processPackages [bbutils]: Remove: archive file [/home/abi/fetcher/tmp/bbutils-0.6.0.0.tar.gz]
+[2024-04-23 14:01:48] INFO root fetch - main [MainThread]: End processing [bbutils]: success
+[2024-04-23 14:01:48] INFO root fetch - main [MainThread]: Store serial: [22893398]
