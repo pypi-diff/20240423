@@ -7162,3 +7162,24 @@
 [2024-04-23 03:20:08] INFO root fetch - processPackages [corgea-cli]: Remove: archive file [/home/abi/fetcher/tmp/corgea_cli-1.2.4.tar.gz]
 [2024-04-23 03:20:08] INFO root fetch - main [MainThread]: End processing [corgea-cli]: success
 [2024-04-23 03:20:08] INFO root fetch - main [MainThread]: Store serial: [22887463]
+[2024-04-23 03:22:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887463]
+[2024-04-23 03:22:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 03:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-sql
+[2024-04-23 03:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cgai-io
+[2024-04-23 03:22:24] INFO root fetch - processPackages [mo-sql]: New version: [4.600.24114] Old Version: [4.586.24095]
+[2024-04-23 03:22:24] INFO root fetch - processPackages [cgai-io]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-23 03:22:24] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/32/5a/29501780cc4f622c2ae3519f95f2e6edd3ca912e7a6459151bf62fa588ec/mo-sql-4.586.24095.tar.gz
+[2024-04-23 03:22:24] INFO root fetch - processPackages [cgai-io]: Downloading https://files.pythonhosted.org/packages/f9/29/1bdcb5fb905d51810a6ecc901fc21ca5f6a1b0f53be0dc674071ee1348b3/cgai_io-1.1.7.tar.gz
+[2024-04-23 03:22:24] INFO root fetch - processPackages [cgai-io]: Downloading https://files.pythonhosted.org/packages/ed/2b/6cfe82c007b2872f6cbef2ada60b05e7114f65a9ea9ddcb9ef1d024029a2/cgai_io-1.1.8.tar.gz
+[2024-04-23 03:22:24] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/65/d5/6427504859b3df0f311a3e6a62501aaeb95e730fc0561fb2dc0e0313878a/mo_sql-4.600.24114.tar.gz
+[2024-04-23 03:22:24] INFO root fetch - processPackages [mo-sql]: executing diffoscope
+[2024-04-23 03:22:24] INFO root fetch - processPackages [mo-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-sql-4.586.24095.tar.gz tmp/mo_sql-4.600.24114.tar.gz --markdown 20240423/m/mo-sql/4.586.24095-4.600.24114/README.md --exclude *.pyd
+[2024-04-23 03:22:24] INFO root fetch - processPackages [cgai-io]: executing diffoscope
+[2024-04-23 03:22:24] INFO root fetch - processPackages [cgai-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgai_io-1.1.7.tar.gz tmp/cgai_io-1.1.8.tar.gz --markdown 20240423/c/cgai-io/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-23 03:22:25] INFO root fetch - processPackages [cgai-io]: Remove: archive file [/home/abi/fetcher/tmp/cgai_io-1.1.7.tar.gz]
+[2024-04-23 03:22:25] INFO root fetch - processPackages [cgai-io]: Remove: archive file [/home/abi/fetcher/tmp/cgai_io-1.1.8.tar.gz]
+[2024-04-23 03:22:25] INFO root fetch - main [MainThread]: End processing [cgai-io]: success
+[2024-04-23 03:22:25] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo-sql-4.586.24095.tar.gz]
+[2024-04-23 03:22:25] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql-4.600.24114.tar.gz]
+[2024-04-23 03:22:25] INFO root fetch - main [MainThread]: End processing [mo-sql]: success
+[2024-04-23 03:22:25] INFO root fetch - main [MainThread]: Store serial: [22887536]
