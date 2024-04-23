@@ -17161,3 +17161,65 @@
 [2024-04-23 11:53:00] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.96.tar.gz]
 [2024-04-23 11:53:00] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-23 11:53:00] INFO root fetch - main [MainThread]: Store serial: [22892018]
+[2024-04-23 11:55:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892018]
+[2024-04-23 11:55:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 11:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdo-sdk-python
+[2024-04-23 11:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycloudlib
+[2024-04-23 11:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BubbleDet
+[2024-04-23 11:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: everai
+[2024-04-23 11:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: truefoundry
+[2024-04-23 11:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codex-of-the-damned
+[2024-04-23 11:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chat-rag
+[2024-04-23 11:55:09] INFO root fetch - processPackages [everai]: New version: [0.1.25] Old Version: [0.1.23]
+[2024-04-23 11:55:09] INFO root fetch - processPackages [truefoundry]: New version: [0.2.0rc6] Old Version: [0.2.0rc5]
+[2024-04-23 11:55:09] INFO root fetch - processPackages [chat-rag]: New version: [0.1.67] Old Version: [0.1.66]
+[2024-04-23 11:55:09] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.96] Old Version: [1.0.95]
+[2024-04-23 11:55:09] INFO root fetch - processPackages [BubbleDet]: New version: [1.0.7] Old Version: [1.0.0]
+[2024-04-23 11:55:09] INFO root fetch - processPackages [codex-of-the-damned]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 11:55:09] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2024-04-23 11:55:09] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/fd/ca/da2fcd2caa68a8a83f1455ba046e2500cd5bc2147603f872486e65f1cfc5/everai-0.1.23-py3-none-any.whl
+[2024-04-23 11:55:09] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/51/57/1e9981a3da23f5bd2b8f102b7681b829ee74000792dca66ddad082b8d65a/truefoundry-0.2.0rc5.tar.gz
+[2024-04-23 11:55:09] INFO root fetch - processPackages [chat-rag]: Downloading https://files.pythonhosted.org/packages/86/ce/31a840e386a8da48baf2a432741bd6293c40f5dcc9b4e3aff8173375a854/chat_rag-0.1.66.tar.gz
+[2024-04-23 11:55:09] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/de/90/18ae6ab5616b4f442014bf4c9824b1b8870cc7aa66986e5737e7f02ce57e/cdo-sdk-python-1.0.95.tar.gz
+[2024-04-23 11:55:09] INFO root fetch - processPackages [BubbleDet]: Downloading https://files.pythonhosted.org/packages/ab/22/3b79f2236dbc9e1f6fc4e062bcfb0727ef783b40e822492955d6f97aaad6/BubbleDet-1.0.0.tar.gz
+[2024-04-23 11:55:09] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2024-04-23 11:55:09] INFO root fetch - processPackages [codex-of-the-damned]: Downloading https://files.pythonhosted.org/packages/c2/11/df884619fc13a601b050cb3e01ceb86181c35a4ee94f824c8544d07562f3/codex-of-the-damned-1.8.tar.gz
+[2024-04-23 11:55:09] INFO root fetch - processPackages [chat-rag]: Downloading https://files.pythonhosted.org/packages/5a/ac/5991891212b2cbc2634801b4f6726292f7688819d8e9c94ff8726d817a39/chat_rag-0.1.67.tar.gz
+[2024-04-23 11:55:09] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/84/f1/5e5cf4f9d6ad27643fa86a4a47865e9aca1ae011fe636a39306be8b64146/truefoundry-0.2.0rc6.tar.gz
+[2024-04-23 11:55:09] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/96/9f/80928d87ccbfa13aa06c1901391d9af421879ab2229edc42d8fa3899512d/everai-0.1.25-py3-none-any.whl
+[2024-04-23 11:55:09] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/fb/73/26dfed74d441d20053ac9db514718945a7f9263f45762b4334c4eba1e927/cdo-sdk-python-1.0.96.tar.gz
+[2024-04-23 11:55:10] INFO root fetch - processPackages [truefoundry]: executing diffoscope
+[2024-04-23 11:55:10] INFO root fetch - processPackages [truefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truefoundry-0.2.0rc5.tar.gz tmp/truefoundry-0.2.0rc6.tar.gz --markdown 20240423/t/truefoundry/0.2.0rc5-0.2.0rc6/README.md --exclude *.pyd
+[2024-04-23 11:55:10] INFO root fetch - processPackages [chat-rag]: executing diffoscope
+[2024-04-23 11:55:10] INFO root fetch - processPackages [chat-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat_rag-0.1.66.tar.gz tmp/chat_rag-0.1.67.tar.gz --markdown 20240423/c/chat-rag/0.1.66-0.1.67/README.md --exclude *.pyd
+[2024-04-23 11:55:10] INFO root fetch - processPackages [BubbleDet]: Downloading https://files.pythonhosted.org/packages/f9/88/c1b707e510eb5e183a76b14454dc4419adbb66522123d7df5e2d5144dc68/bubbledet-1.0.7.tar.gz
+[2024-04-23 11:55:10] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-04-23 11:55:10] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.23-py3-none-any.whl.zip tmp/everai-0.1.25-py3-none-any.whl.zip --markdown 20240423/e/everai/0.1.23-0.1.25/README.md --exclude *.pyd
+[2024-04-23 11:55:10] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-23 11:55:10] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.95.tar.gz tmp/cdo-sdk-python-1.0.96.tar.gz --markdown 20240423/c/cdo-sdk-python/1.0.95-1.0.96/README.md --exclude *.pyd
+[2024-04-23 11:55:10] INFO root fetch - processPackages [BubbleDet]: executing diffoscope
+[2024-04-23 11:55:10] INFO root fetch - processPackages [BubbleDet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BubbleDet-1.0.0.tar.gz tmp/bubbledet-1.0.7.tar.gz --markdown 20240423/B/BubbleDet/1.0.0-1.0.7/README.md --exclude *.pyd
+[2024-04-23 11:55:10] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2024-04-23 11:55:10] WARNING root fetch - processPackages [codex-of-the-damned]: Skipping package: exceeds size limit 17715792>=10485760
+[2024-04-23 11:55:10] INFO root fetch - main [MainThread]: End processing [codex-of-the-damned] error
+[2024-04-23 11:55:10] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2024-04-23 11:55:10] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20240423/p/pycloudlib/18.7-18.8/README.md --exclude *.pyd
+[2024-04-23 11:55:10] INFO root fetch - processPackages [chat-rag]: Remove: archive file [/home/abi/fetcher/tmp/chat_rag-0.1.66.tar.gz]
+[2024-04-23 11:55:10] INFO root fetch - processPackages [chat-rag]: Remove: archive file [/home/abi/fetcher/tmp/chat_rag-0.1.67.tar.gz]
+[2024-04-23 11:55:10] INFO root fetch - main [MainThread]: End processing [chat-rag]: success
+[2024-04-23 11:55:11] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.0rc5.tar.gz]
+[2024-04-23 11:55:11] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.0rc6.tar.gz]
+[2024-04-23 11:55:11] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
+[2024-04-23 11:55:11] INFO root fetch - processPackages [BubbleDet]: Remove: archive file [/home/abi/fetcher/tmp/BubbleDet-1.0.0.tar.gz]
+[2024-04-23 11:55:11] INFO root fetch - processPackages [BubbleDet]: Remove: archive file [/home/abi/fetcher/tmp/bubbledet-1.0.7.tar.gz]
+[2024-04-23 11:55:11] INFO root fetch - main [MainThread]: End processing [BubbleDet]: success
+[2024-04-23 11:55:11] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.7.tar.gz]
+[2024-04-23 11:55:11] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.8.tar.gz]
+[2024-04-23 11:55:11] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2024-04-23 11:55:11] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.95.tar.gz]
+[2024-04-23 11:55:11] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.96.tar.gz]
+[2024-04-23 11:55:11] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-23 11:55:12] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.23-py3-none-any.whl.zip]
+[2024-04-23 11:55:12] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.25-py3-none-any.whl.zip]
+[2024-04-23 11:55:12] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-04-23 11:55:12] INFO root fetch - main [MainThread]: Store serial: [22892041]
