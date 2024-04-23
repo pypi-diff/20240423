@@ -10854,3 +10854,62 @@
 [2024-04-23 07:22:33] INFO root fetch - processPackages [cpymad]: Remove: archive file [/home/abi/fetcher/tmp/cpymad-1.9.3.tar.gz]
 [2024-04-23 07:22:33] INFO root fetch - main [MainThread]: End processing [cpymad]: success
 [2024-04-23 07:22:33] INFO root fetch - main [MainThread]: Store serial: [22889330]
+[2024-04-23 07:24:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889330]
+[2024-04-23 07:24:41] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-23 07:26:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889331]
+[2024-04-23 07:26:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 07:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-purchase-security
+[2024-04-23 07:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-queue-job-batch
+[2024-04-23 07:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-queue-job
+[2024-04-23 07:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-queue-job-subscribe
+[2024-04-23 07:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: doctran_openai
+[2024-04-23 07:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libfwsi-python
+[2024-04-23 07:26:47] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 07:26:47] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/24/2e/1bc96ddbdd3af5f96c9e079fdebfa5f05f4d34d938f9ca3cffaacba275f3/doctran_openai-0.0.2.tar.gz
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo-addon-purchase-security]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-23 07:26:47] INFO root fetch - processPackages [libfwsi-python]: New version: [20240423] Old Version: [20240417]
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo14-addon-queue-job-subscribe]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo14-addon-queue-job-batch]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev2]
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo14-addon-queue-job]: New version: [14.0.3.5.5.dev6] Old Version: [14.0.3.5.5.dev5]
+[2024-04-23 07:26:47] INFO root fetch - processPackages [libfwsi-python]: Downloading https://files.pythonhosted.org/packages/54/3b/10d1c22e24851fdbee92587db0baa601da80e3d0a94d8b0c330342cc6106/libfwsi-python-20240417.tar.gz
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo-addon-purchase-security]: Downloading https://files.pythonhosted.org/packages/5e/e4/676e692f73d1ed55fb731c92bfb58bfc03b2aa63e33aa7f8f89268b1ff34/odoo_addon_purchase_security-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo14-addon-queue-job-batch]: Downloading https://files.pythonhosted.org/packages/2b/04/42cf79bc9826ec29d056f4d4a7a0ff22327cd85235d03b424cd0fece48f2/odoo14_addon_queue_job_batch-14.0.1.0.2.dev2-py3-none-any.whl
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo14-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/63/5a/06b984fe4810d053a71b566e1d6d924ef811169f247ae5bedcb11df90a25/odoo14_addon_queue_job-14.0.3.5.5.dev5-py3-none-any.whl
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo14-addon-queue-job-subscribe]: Downloading https://files.pythonhosted.org/packages/4e/bf/4c6361beb9b39eb024bac7c5491448c371326ff0fc36cfe89cb42ef528a1/odoo14_addon_queue_job_subscribe-14.0.1.0.1.dev5-py3-none-any.whl
+[2024-04-23 07:26:47] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/aa/73/68133036cb1120ee5cbe37955c1898404403156fee4f522d61b597de7868/doctran_openai-0.0.3.tar.gz
+[2024-04-23 07:26:47] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-23 07:26:47] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.2.tar.gz tmp/doctran_openai-0.0.3.tar.gz --markdown 20240423/d/doctran_openai/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo-addon-purchase-security]: Downloading https://files.pythonhosted.org/packages/8b/c0/8932dd71229c3a79cb271b89c742bcebb993d5d165b5003fa794c8d17f21/odoo_addon_purchase_security-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo14-addon-queue-job-batch]: Downloading https://files.pythonhosted.org/packages/02/39/e5e5885866c98149f701d2ad2802144f10a410c96341a6828fc5054055cf/odoo14_addon_queue_job_batch-14.0.1.0.2.dev4-py3-none-any.whl
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo14-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/e2/8d/901970aedc425bb9b9206f7df653831438fc6cf1108407dc69b7f1afb7c5/odoo14_addon_queue_job-14.0.3.5.5.dev6-py3-none-any.whl
+[2024-04-23 07:26:47] INFO root fetch - processPackages [libfwsi-python]: Downloading https://files.pythonhosted.org/packages/b7/5b/28b6c7ca2f1f30af0ffea95cd30cca5cd1347560787c6db5d8f04d94e4e8/libfwsi-python-20240423.tar.gz
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo14-addon-queue-job-subscribe]: Downloading https://files.pythonhosted.org/packages/52/0c/9d0a788cc04debc079473cb41c0b495140fcf19dff04f9062c0b8dfcaf1e/odoo14_addon_queue_job_subscribe-14.0.1.0.1.dev6-py3-none-any.whl
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo14-addon-queue-job-batch]: executing diffoscope
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo14-addon-queue-job-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_queue_job_batch-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_queue_job_batch-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-queue-job-batch/14.0.1.0.2.dev2-14.0.1.0.2.dev4/README.md --exclude *.pyd
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo-addon-purchase-security]: executing diffoscope
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo-addon-purchase-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_security-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_security-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-purchase-security/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo14-addon-queue-job]: executing diffoscope
+[2024-04-23 07:26:47] INFO root fetch - processPackages [odoo14-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_queue_job-14.0.3.5.5.dev5-py3-none-any.whl.zip tmp/odoo14_addon_queue_job-14.0.3.5.5.dev6-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-queue-job/14.0.3.5.5.dev5-14.0.3.5.5.dev6/README.md --exclude *.pyd
+[2024-04-23 07:26:48] INFO root fetch - processPackages [odoo14-addon-queue-job-subscribe]: executing diffoscope
+[2024-04-23 07:26:48] INFO root fetch - processPackages [odoo14-addon-queue-job-subscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_queue_job_subscribe-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_queue_job_subscribe-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-queue-job-subscribe/14.0.1.0.1.dev5-14.0.1.0.1.dev6/README.md --exclude *.pyd
+[2024-04-23 07:26:48] INFO root fetch - processPackages [libfwsi-python]: executing diffoscope
+[2024-04-23 07:26:48] INFO root fetch - processPackages [libfwsi-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libfwsi-python-20240417.tar.gz tmp/libfwsi-python-20240423.tar.gz --markdown 20240423/l/libfwsi-python/20240417-20240423/README.md --exclude *.pyd
+[2024-04-23 07:26:48] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.2.tar.gz]
+[2024-04-23 07:26:48] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.3.tar.gz]
+[2024-04-23 07:26:48] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-23 07:26:48] INFO root fetch - processPackages [odoo14-addon-queue-job-batch]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job_batch-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2024-04-23 07:26:48] INFO root fetch - processPackages [odoo14-addon-queue-job-batch]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job_batch-14.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2024-04-23 07:26:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-queue-job-batch]: success
+[2024-04-23 07:26:48] INFO root fetch - processPackages [odoo14-addon-queue-job-subscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job_subscribe-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2024-04-23 07:26:48] INFO root fetch - processPackages [odoo14-addon-queue-job-subscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job_subscribe-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2024-04-23 07:26:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-queue-job-subscribe]: success
+[2024-04-23 07:26:48] INFO root fetch - processPackages [odoo-addon-purchase-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_security-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-23 07:26:48] INFO root fetch - processPackages [odoo-addon-purchase-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_security-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-23 07:26:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-security]: success
+[2024-04-23 07:26:48] INFO root fetch - processPackages [odoo14-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job-14.0.3.5.5.dev5-py3-none-any.whl.zip]
+[2024-04-23 07:26:48] INFO root fetch - processPackages [odoo14-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job-14.0.3.5.5.dev6-py3-none-any.whl.zip]
+[2024-04-23 07:26:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-queue-job]: success
+[2024-04-23 07:26:52] INFO root fetch - processPackages [libfwsi-python]: Remove: archive file [/home/abi/fetcher/tmp/libfwsi-python-20240417.tar.gz]
+[2024-04-23 07:26:52] INFO root fetch - processPackages [libfwsi-python]: Remove: archive file [/home/abi/fetcher/tmp/libfwsi-python-20240423.tar.gz]
+[2024-04-23 07:26:52] INFO root fetch - main [MainThread]: End processing [libfwsi-python]: success
+[2024-04-23 07:26:52] INFO root fetch - main [MainThread]: Store serial: [22889345]
