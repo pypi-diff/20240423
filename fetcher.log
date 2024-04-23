@@ -3385,3 +3385,24 @@
 [2024-04-23 02:56:24] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.8.7.tar.gz]
 [2024-04-23 02:56:24] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2024-04-23 02:56:24] INFO root fetch - main [MainThread]: Store serial: [22886556]
+[2024-04-23 02:58:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886556]
+[2024-04-23 02:58:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 02:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: powerschoolapi-cars1n
+[2024-04-23 02:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astro-ghost
+[2024-04-23 02:58:33] INFO root fetch - processPackages [astro-ghost]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-23 02:58:33] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/22/da/79a769cdd9354bbd9c8ae8252e2fb84523ed4e2c91b14b066d65b5281b15/astro_ghost-2.1.4.tar.gz
+[2024-04-23 02:58:33] INFO root fetch - processPackages [powerschoolapi-cars1n]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-23 02:58:33] INFO root fetch - processPackages [powerschoolapi-cars1n]: Downloading https://files.pythonhosted.org/packages/3d/c2/a28ae728d86adef1846738eb5e370d76e5fc2b725612462916e5cf263282/powerschoolapi_cars1n-1.0.4.tar.gz
+[2024-04-23 02:58:34] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/df/ef/3f976b5e5dec011856f5ce9cff372c2b59da37274d8cdc32c23fbf820e48/astro_ghost-2.1.5.tar.gz
+[2024-04-23 02:58:34] INFO root fetch - processPackages [astro-ghost]: executing diffoscope
+[2024-04-23 02:58:34] INFO root fetch - processPackages [astro-ghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_ghost-2.1.4.tar.gz tmp/astro_ghost-2.1.5.tar.gz --markdown 20240423/a/astro-ghost/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-04-23 02:58:35] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.1.4.tar.gz]
+[2024-04-23 02:58:35] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.1.5.tar.gz]
+[2024-04-23 02:58:35] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
+[2024-04-23 02:58:36] INFO root fetch - processPackages [powerschoolapi-cars1n]: Downloading https://files.pythonhosted.org/packages/8f/19/3aed8ff6ef17b7c86186565ac31fd94ad16f7cbb79bc281a28b0b34d600d/powerschoolapi_cars1n-1.0.5.tar.gz
+[2024-04-23 02:58:36] INFO root fetch - processPackages [powerschoolapi-cars1n]: executing diffoscope
+[2024-04-23 02:58:36] INFO root fetch - processPackages [powerschoolapi-cars1n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerschoolapi_cars1n-1.0.4.tar.gz tmp/powerschoolapi_cars1n-1.0.5.tar.gz --markdown 20240423/p/powerschoolapi-cars1n/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-23 02:58:37] INFO root fetch - processPackages [powerschoolapi-cars1n]: Remove: archive file [/home/abi/fetcher/tmp/powerschoolapi_cars1n-1.0.4.tar.gz]
+[2024-04-23 02:58:37] INFO root fetch - processPackages [powerschoolapi-cars1n]: Remove: archive file [/home/abi/fetcher/tmp/powerschoolapi_cars1n-1.0.5.tar.gz]
+[2024-04-23 02:58:37] INFO root fetch - main [MainThread]: End processing [powerschoolapi-cars1n]: success
+[2024-04-23 02:58:37] INFO root fetch - main [MainThread]: Store serial: [22886565]
