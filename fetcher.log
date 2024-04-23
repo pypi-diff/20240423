@@ -11412,3 +11412,36 @@
 [2024-04-23 07:57:18] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.9.tar.gz]
 [2024-04-23 07:57:18] INFO root fetch - main [MainThread]: End processing [pulumi-genesiscloud]: success
 [2024-04-23 07:57:18] INFO root fetch - main [MainThread]: Store serial: [22889533]
+[2024-04-23 07:59:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889533]
+[2024-04-23 07:59:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 07:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-genesiscloud
+[2024-04-23 07:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unimernet
+[2024-04-23 07:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mteb
+[2024-04-23 07:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-tier-validation
+[2024-04-23 07:59:26] WARNING root fetch - processPackages [unimernet]: Skipping, unable to determine old version
+[2024-04-23 07:59:26] INFO root fetch - main [MainThread]: End processing [unimernet] error
+[2024-04-23 07:59:26] INFO root fetch - processPackages [pulumi-genesiscloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 07:59:26] INFO root fetch - processPackages [mteb]: New version: [1.7.6] Old Version: [1.7.5]
+[2024-04-23 07:59:27] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/7b/eb/c1987063b7330a56617c62d967ff70d44c2fde9e6c027effd7bd05f44cfc/pulumi_genesiscloud-0.0.8.tar.gz
+[2024-04-23 07:59:27] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [17.0.1.5.1] Old Version: [17.0.1.5.0.2]
+[2024-04-23 07:59:27] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/0c/fd/bdd61ca3ffe36d9b7c38966e345e7c67d9923669e1da7e839f5a765b867e/odoo_addon_base_tier_validation-17.0.1.5.0.2-py3-none-any.whl
+[2024-04-23 07:59:27] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/ac/5a/0c121b61b91dfec95a1391df811da7d1fbfa53e8fea175db5017adcaee76/mteb-1.7.5.tar.gz
+[2024-04-23 07:59:27] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/85/48/c33e3e8789275770f6ecf59b3f8ba30057d291ef8fff95f7d0077bb2638c/pulumi_genesiscloud-0.0.9.tar.gz
+[2024-04-23 07:59:27] INFO root fetch - processPackages [pulumi-genesiscloud]: executing diffoscope
+[2024-04-23 07:59:27] INFO root fetch - processPackages [pulumi-genesiscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_genesiscloud-0.0.8.tar.gz tmp/pulumi_genesiscloud-0.0.9.tar.gz --markdown 20240423/p/pulumi-genesiscloud/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 07:59:27] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/36/fa/309284f1c4d85f0f3735b1e07d9d7feea001fef09754e015fabc87a6f44a/odoo_addon_base_tier_validation-17.0.1.5.1-py3-none-any.whl
+[2024-04-23 07:59:27] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/71/49/8cffd667df707175c695afbae6a16b32bdc3c933b581d619bac806f9348c/mteb-1.7.6.tar.gz
+[2024-04-23 07:59:27] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-23 07:59:27] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.5.tar.gz tmp/mteb-1.7.6.tar.gz --markdown 20240423/m/mteb/1.7.5-1.7.6/README.md --exclude *.pyd
+[2024-04-23 07:59:27] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2024-04-23 07:59:27] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-17.0.1.5.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-17.0.1.5.1-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-base-tier-validation/17.0.1.5.0.2-17.0.1.5.1/README.md --exclude *.pyd
+[2024-04-23 07:59:28] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.8.tar.gz]
+[2024-04-23 07:59:28] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.9.tar.gz]
+[2024-04-23 07:59:28] INFO root fetch - main [MainThread]: End processing [pulumi-genesiscloud]: success
+[2024-04-23 07:59:28] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-17.0.1.5.0.2-py3-none-any.whl.zip]
+[2024-04-23 07:59:28] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-17.0.1.5.1-py3-none-any.whl.zip]
+[2024-04-23 07:59:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2024-04-23 07:59:29] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.5.tar.gz]
+[2024-04-23 07:59:29] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.6.tar.gz]
+[2024-04-23 07:59:29] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-23 07:59:29] INFO root fetch - main [MainThread]: Store serial: [22889542]
