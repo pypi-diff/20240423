@@ -10913,3 +10913,78 @@
 [2024-04-23 07:26:52] INFO root fetch - processPackages [libfwsi-python]: Remove: archive file [/home/abi/fetcher/tmp/libfwsi-python-20240423.tar.gz]
 [2024-04-23 07:26:52] INFO root fetch - main [MainThread]: End processing [libfwsi-python]: success
 [2024-04-23 07:26:52] INFO root fetch - main [MainThread]: Store serial: [22889345]
+[2024-04-23 07:28:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889345]
+[2024-04-23 07:29:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 07:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phenocv
+[2024-04-23 07:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaea-operator
+[2024-04-23 07:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mrx-link-core
+[2024-04-23 07:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-wikiparser
+[2024-04-23 07:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-report-qweb-parameter
+[2024-04-23 07:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-report-context
+[2024-04-23 07:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-report-csv
+[2024-04-23 07:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-report-xlsx
+[2024-04-23 07:29:01] INFO root fetch - processPackages [gaea-operator]: New version: [1.2.0.dev7] Old Version: [1.2.0.dev6]
+[2024-04-23 07:29:01] INFO root fetch - processPackages [phenocv]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-23 07:29:01] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/ee/1d/91c32c19721830e9a045528467052b4e6e46742d86329c37a506309e1e83/gaea_operator-1.2.0.dev6-py3-none-any.whl
+[2024-04-23 07:29:01] INFO root fetch - processPackages [simple-wikiparser]: New version: [0.0.0a0] Old Version: [0.0.0]
+[2024-04-23 07:29:01] INFO root fetch - processPackages [odoo14-addon-report-csv]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev3]
+[2024-04-23 07:29:01] INFO root fetch - processPackages [odoo14-addon-report-qweb-parameter]: New version: [14.0.1.0.1.dev7] Old Version: [14.0.1.0.1.dev6]
+[2024-04-23 07:29:01] INFO root fetch - processPackages [odoo14-addon-report-context]: New version: [14.0.1.0.4.dev2] Old Version: [14.0.1.0.3.dev1]
+[2024-04-23 07:29:01] INFO root fetch - processPackages [mrx-link-core]: New version: [1.4.0.dev2] Old Version: [1.4.0.dev1]
+[2024-04-23 07:29:01] INFO root fetch - processPackages [odoo14-addon-report-xlsx]: New version: [14.0.1.0.9] Old Version: [14.0.1.0.8]
+[2024-04-23 07:29:01] INFO root fetch - processPackages [phenocv]: Downloading https://files.pythonhosted.org/packages/66/d5/6a6f457d1f46cd0513a685772bd4b7106e24b50f5b638d4b2bd8b0874161/phenocv-0.1.3.tar.gz
+[2024-04-23 07:29:01] INFO root fetch - processPackages [simple-wikiparser]: Downloading https://files.pythonhosted.org/packages/1e/33/78e7b5dbc0793899ab1903d7377c210690fe2cdf1c6fe98bbd3e91c2c142/simple-wikiparser-0.0.0.tar.gz
+[2024-04-23 07:29:01] INFO root fetch - processPackages [odoo14-addon-report-csv]: Downloading https://files.pythonhosted.org/packages/72/20/fc633b0fe3020cf04c2f0d637fbf5440b4c1cf22dd5073b7646e51d45b2a/odoo14_addon_report_csv-14.0.1.0.1.dev3-py3-none-any.whl
+[2024-04-23 07:29:01] INFO root fetch - processPackages [odoo14-addon-report-context]: Downloading https://files.pythonhosted.org/packages/2b/6c/57b4af56e9d520af076cee529066a4be08eaff6b3de53d32035a5f4032e1/odoo14_addon_report_context-14.0.1.0.3.dev1-py3-none-any.whl
+[2024-04-23 07:29:01] INFO root fetch - processPackages [odoo14-addon-report-qweb-parameter]: Downloading https://files.pythonhosted.org/packages/39/63/13ab135cb63961ffd04b008f57ea24b65f24e0271c4d75dc320f89c726f2/odoo14_addon_report_qweb_parameter-14.0.1.0.1.dev6-py3-none-any.whl
+[2024-04-23 07:29:01] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/74/ef/96950173a054d7b5b323f2fd272771167d477900add2ab27962b137db9a6/mrx_link_core-1.4.0.dev1-cp39-cp39-win_amd64.whl
+[2024-04-23 07:29:01] INFO root fetch - processPackages [odoo14-addon-report-xlsx]: Downloading https://files.pythonhosted.org/packages/ac/ac/4a9ac785daa1a50bb6f99d2765817ea67a37c0cd2445c8479a72c8a49170/odoo14_addon_report_xlsx-14.0.1.0.8-py3-none-any.whl
+[2024-04-23 07:29:01] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/ce/5e/a3c05106202be3f17ee02527315548d053cbf693d9d3a227d07742a68775/gaea_operator-1.2.0.dev7-py3-none-any.whl
+[2024-04-23 07:29:01] INFO root fetch - processPackages [phenocv]: Downloading https://files.pythonhosted.org/packages/f5/97/0d755d9464b9245d55393e18a2e69da97039acbceb4d3310bff0eb198304/phenocv-0.1.4.tar.gz
+[2024-04-23 07:29:01] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-04-23 07:29:01] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-1.2.0.dev6-py3-none-any.whl.zip tmp/gaea_operator-1.2.0.dev7-py3-none-any.whl.zip --markdown 20240423/g/gaea-operator/1.2.0.dev6-1.2.0.dev7/README.md --exclude *.pyd
+[2024-04-23 07:29:01] INFO root fetch - processPackages [simple-wikiparser]: Downloading https://files.pythonhosted.org/packages/88/20/0c668039a08a85c859410844e73ae07546a6d215baa4c7e2aed30e9b76c6/simple-wikiparser-0.0.0a0.tar.gz
+[2024-04-23 07:29:01] INFO root fetch - processPackages [odoo14-addon-report-qweb-parameter]: Downloading https://files.pythonhosted.org/packages/d4/a3/2a4ebcfa56a2f852725a65d143cb3b903ca441332d55735be2e01f5de234/odoo14_addon_report_qweb_parameter-14.0.1.0.1.dev7-py3-none-any.whl
+[2024-04-23 07:29:01] INFO root fetch - processPackages [phenocv]: executing diffoscope
+[2024-04-23 07:29:01] INFO root fetch - processPackages [phenocv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenocv-0.1.3.tar.gz tmp/phenocv-0.1.4.tar.gz --markdown 20240423/p/phenocv/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-23 07:29:01] INFO root fetch - processPackages [odoo14-addon-report-csv]: Downloading https://files.pythonhosted.org/packages/04/8d/ee976e14fa2c15fbdf4e519066be13caa5db746bc91d66d1b2e36a8b8c51/odoo14_addon_report_csv-14.0.1.0.1.dev5-py3-none-any.whl
+[2024-04-23 07:29:01] INFO root fetch - processPackages [odoo14-addon-report-context]: Downloading https://files.pythonhosted.org/packages/f0/b3/25958948d7481bdd2193c69c2991673c3bc2f8db8e72b0731f2aec6e1618/odoo14_addon_report_context-14.0.1.0.4.dev2-py3-none-any.whl
+[2024-04-23 07:29:02] INFO root fetch - processPackages [odoo14-addon-report-xlsx]: Downloading https://files.pythonhosted.org/packages/0c/de/7d8025d5ab76aa95b581f4e34ab9958d5ddf9561246e8375c52d106e68d5/odoo14_addon_report_xlsx-14.0.1.0.9-py3-none-any.whl
+[2024-04-23 07:29:02] INFO root fetch - processPackages [simple-wikiparser]: executing diffoscope
+[2024-04-23 07:29:02] INFO root fetch - processPackages [simple-wikiparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-wikiparser-0.0.0.tar.gz tmp/simple-wikiparser-0.0.0a0.tar.gz --markdown 20240423/s/simple-wikiparser/0.0.0-0.0.0a0/README.md --exclude *.pyd
+[2024-04-23 07:29:02] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/e6/64/98604dedf9425e277802a48ebc2e60753864b30ec165a8947eb40764daed/mrx_link_core-1.4.0.dev2-cp39-cp39-win_amd64.whl
+[2024-04-23 07:29:02] INFO root fetch - processPackages [odoo14-addon-report-qweb-parameter]: executing diffoscope
+[2024-04-23 07:29:02] INFO root fetch - processPackages [odoo14-addon-report-qweb-parameter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_report_qweb_parameter-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_report_qweb_parameter-14.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-report-qweb-parameter/14.0.1.0.1.dev6-14.0.1.0.1.dev7/README.md --exclude *.pyd
+[2024-04-23 07:29:02] INFO root fetch - processPackages [odoo14-addon-report-csv]: executing diffoscope
+[2024-04-23 07:29:02] INFO root fetch - processPackages [odoo14-addon-report-xlsx]: executing diffoscope
+[2024-04-23 07:29:02] INFO root fetch - processPackages [odoo14-addon-report-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_report_csv-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_report_csv-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-report-csv/14.0.1.0.1.dev3-14.0.1.0.1.dev5/README.md --exclude *.pyd
+[2024-04-23 07:29:02] INFO root fetch - processPackages [odoo14-addon-report-xlsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_report_xlsx-14.0.1.0.8-py3-none-any.whl.zip tmp/odoo14_addon_report_xlsx-14.0.1.0.9-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-report-xlsx/14.0.1.0.8-14.0.1.0.9/README.md --exclude *.pyd
+[2024-04-23 07:29:02] INFO root fetch - processPackages [odoo14-addon-report-context]: executing diffoscope
+[2024-04-23 07:29:02] INFO root fetch - processPackages [odoo14-addon-report-context]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_report_context-14.0.1.0.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_report_context-14.0.1.0.4.dev2-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-report-context/14.0.1.0.3.dev1-14.0.1.0.4.dev2/README.md --exclude *.pyd
+[2024-04-23 07:29:02] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2024-04-23 07:29:02] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.4.0.dev1-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.4.0.dev2-cp39-cp39-win_amd64.whl.zip --markdown 20240423/m/mrx-link-core/1.4.0.dev1-1.4.0.dev2/README.md --exclude *.pyd
+[2024-04-23 07:29:02] INFO root fetch - processPackages [simple-wikiparser]: Remove: archive file [/home/abi/fetcher/tmp/simple-wikiparser-0.0.0.tar.gz]
+[2024-04-23 07:29:02] INFO root fetch - processPackages [simple-wikiparser]: Remove: archive file [/home/abi/fetcher/tmp/simple-wikiparser-0.0.0a0.tar.gz]
+[2024-04-23 07:29:02] INFO root fetch - main [MainThread]: End processing [simple-wikiparser]: success
+[2024-04-23 07:29:02] INFO root fetch - processPackages [odoo14-addon-report-qweb-parameter]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_qweb_parameter-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2024-04-23 07:29:02] INFO root fetch - processPackages [odoo14-addon-report-qweb-parameter]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_qweb_parameter-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2024-04-23 07:29:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-report-qweb-parameter]: success
+[2024-04-23 07:29:02] INFO root fetch - processPackages [phenocv]: Remove: archive file [/home/abi/fetcher/tmp/phenocv-0.1.3.tar.gz]
+[2024-04-23 07:29:02] INFO root fetch - processPackages [phenocv]: Remove: archive file [/home/abi/fetcher/tmp/phenocv-0.1.4.tar.gz]
+[2024-04-23 07:29:02] INFO root fetch - main [MainThread]: End processing [phenocv]: success
+[2024-04-23 07:29:02] INFO root fetch - processPackages [odoo14-addon-report-context]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_context-14.0.1.0.3.dev1-py3-none-any.whl.zip]
+[2024-04-23 07:29:02] INFO root fetch - processPackages [odoo14-addon-report-context]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_context-14.0.1.0.4.dev2-py3-none-any.whl.zip]
+[2024-04-23 07:29:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-report-context]: success
+[2024-04-23 07:29:03] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.dev6-py3-none-any.whl.zip]
+[2024-04-23 07:29:03] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.dev7-py3-none-any.whl.zip]
+[2024-04-23 07:29:03] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-04-23 07:29:03] INFO root fetch - processPackages [odoo14-addon-report-csv]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_csv-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2024-04-23 07:29:03] INFO root fetch - processPackages [odoo14-addon-report-csv]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_csv-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2024-04-23 07:29:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-report-csv]: success
+[2024-04-23 07:29:03] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 07:29:03] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 07:29:03] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2024-04-23 07:29:03] INFO root fetch - processPackages [odoo14-addon-report-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_xlsx-14.0.1.0.8-py3-none-any.whl.zip]
+[2024-04-23 07:29:03] INFO root fetch - processPackages [odoo14-addon-report-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_xlsx-14.0.1.0.9-py3-none-any.whl.zip]
+[2024-04-23 07:29:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-report-xlsx]: success
+[2024-04-23 07:29:03] INFO root fetch - main [MainThread]: Store serial: [22889375]
