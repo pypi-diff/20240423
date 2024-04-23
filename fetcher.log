@@ -11445,3 +11445,15 @@
 [2024-04-23 07:59:29] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.6.tar.gz]
 [2024-04-23 07:59:29] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-23 07:59:29] INFO root fetch - main [MainThread]: Store serial: [22889542]
+[2024-04-23 08:01:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889542]
+[2024-04-23 08:01:37] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-23 08:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kytest
+[2024-04-23 08:01:37] INFO root fetch - processPackages [kytest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 08:01:37] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/38/b4/85e915d95e6d8ae6caae685be018b54adaadfcc88094c4b9a766af3f139c/kytest-0.0.8.tar.gz
+[2024-04-23 08:01:38] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/36/f4/c3ebb11b933fe50ea919d941f19fdd760121247aa33dcca464e43242fc1c/kytest-0.0.9.tar.gz
+[2024-04-23 08:01:38] INFO root fetch - processPackages [kytest]: executing diffoscope
+[2024-04-23 08:01:38] INFO root fetch - processPackages [kytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kytest-0.0.8.tar.gz tmp/kytest-0.0.9.tar.gz --markdown 20240423/k/kytest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 08:01:39] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.8.tar.gz]
+[2024-04-23 08:01:39] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.9.tar.gz]
+[2024-04-23 08:01:39] INFO root fetch - main [MainThread]: End processing [kytest]: success
+[2024-04-23 08:01:39] INFO root fetch - main [MainThread]: Store serial: [22889548]
