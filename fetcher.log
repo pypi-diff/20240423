@@ -15376,3 +15376,42 @@
 [2024-04-23 10:53:04] INFO root fetch - processPackages [stimela]: Remove: archive file [/home/abi/fetcher/tmp/stimela-2.0rc9.tar.gz]
 [2024-04-23 10:53:04] INFO root fetch - main [MainThread]: End processing [stimela]: success
 [2024-04-23 10:53:04] INFO root fetch - main [MainThread]: Store serial: [22891302]
+[2024-04-23 10:55:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891302]
+[2024-04-23 10:55:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 10:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secretvalidator
+[2024-04-23 10:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: causadb
+[2024-04-23 10:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: game-prediction2
+[2024-04-23 10:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mns-common
+[2024-04-23 10:55:13] INFO root fetch - processPackages [game-prediction2]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 10:55:13] INFO root fetch - processPackages [game-prediction2]: Downloading https://files.pythonhosted.org/packages/fd/66/ffbcf34a595e33ea2606c45cb29ac8d06919948e332ea879536650e48870/game_prediction2-0.1.8.tar.gz
+[2024-04-23 10:55:13] INFO root fetch - processPackages [secretvalidator]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 10:55:13] INFO root fetch - processPackages [causadb]: New version: [1.9.0] Old Version: [1.8.8]
+[2024-04-23 10:55:13] INFO root fetch - processPackages [mns-common]: New version: [1.0.7.5.4] Old Version: [1.0.7.5.3]
+[2024-04-23 10:55:13] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/c1/0c/7d243a551f3f325c65b4e9abf41e6af739f60deb881c244ad6cc3b82038b/secretvalidator-0.1.8.tar.gz
+[2024-04-23 10:55:13] INFO root fetch - processPackages [causadb]: Downloading https://files.pythonhosted.org/packages/0d/04/18b6a6103c974a2ace6d365e3671bcc2dee83efb8a1d468b5a1be70bcf12/causadb-1.8.8.tar.gz
+[2024-04-23 10:55:13] INFO root fetch - processPackages [game-prediction2]: Downloading https://files.pythonhosted.org/packages/a1/5e/a92ea7d93d672c8259152b2e8b59b65b351080b49d36f3bdd5c717fa6134/game_prediction2-0.1.9.tar.gz
+[2024-04-23 10:55:14] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/3c/55/7aa12bdc4a6d2cdd07b40a6efaf268d8a65c0c31f99d48c2ae5a26f5608b/mns_common-1.0.7.5.3.tar.gz
+[2024-04-23 10:55:14] INFO root fetch - processPackages [game-prediction2]: executing diffoscope
+[2024-04-23 10:55:14] INFO root fetch - processPackages [game-prediction2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/game_prediction2-0.1.8.tar.gz tmp/game_prediction2-0.1.9.tar.gz --markdown 20240423/g/game-prediction2/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 10:55:14] INFO root fetch - processPackages [causadb]: Downloading https://files.pythonhosted.org/packages/b4/79/d885149b3962edeb0954a0bc0892b79fbeba673ea007f10d2a2bee904a4e/causadb-1.9.0.tar.gz
+[2024-04-23 10:55:14] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/46/26/23b3d02792f2d2eb00039a38f72a84b876b2802557f72d8618e43a8b145d/secretvalidator-0.1.9.tar.gz
+[2024-04-23 10:55:14] INFO root fetch - processPackages [causadb]: executing diffoscope
+[2024-04-23 10:55:14] INFO root fetch - processPackages [causadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causadb-1.8.8.tar.gz tmp/causadb-1.9.0.tar.gz --markdown 20240423/c/causadb/1.8.8-1.9.0/README.md --exclude *.pyd
+[2024-04-23 10:55:14] INFO root fetch - processPackages [secretvalidator]: executing diffoscope
+[2024-04-23 10:55:14] INFO root fetch - processPackages [secretvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidator-0.1.8.tar.gz tmp/secretvalidator-0.1.9.tar.gz --markdown 20240423/s/secretvalidator/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 10:55:14] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/8f/09/b1f9b3fdcc5c99d9364322be9a5da3da456baba1d8d9bb25b82f3c7693ef/mns_common-1.0.7.5.4.tar.gz
+[2024-04-23 10:55:14] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-04-23 10:55:14] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.5.3.tar.gz tmp/mns_common-1.0.7.5.4.tar.gz --markdown 20240423/m/mns-common/1.0.7.5.3-1.0.7.5.4/README.md --exclude *.pyd
+[2024-04-23 10:55:14] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.8.tar.gz]
+[2024-04-23 10:55:14] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.9.tar.gz]
+[2024-04-23 10:55:14] INFO root fetch - main [MainThread]: End processing [secretvalidator]: success
+[2024-04-23 10:55:14] INFO root fetch - processPackages [causadb]: Remove: archive file [/home/abi/fetcher/tmp/causadb-1.8.8.tar.gz]
+[2024-04-23 10:55:14] INFO root fetch - processPackages [causadb]: Remove: archive file [/home/abi/fetcher/tmp/causadb-1.9.0.tar.gz]
+[2024-04-23 10:55:14] INFO root fetch - main [MainThread]: End processing [causadb]: success
+[2024-04-23 10:55:14] INFO root fetch - processPackages [game-prediction2]: Remove: archive file [/home/abi/fetcher/tmp/game_prediction2-0.1.8.tar.gz]
+[2024-04-23 10:55:14] INFO root fetch - processPackages [game-prediction2]: Remove: archive file [/home/abi/fetcher/tmp/game_prediction2-0.1.9.tar.gz]
+[2024-04-23 10:55:14] INFO root fetch - main [MainThread]: End processing [game-prediction2]: success
+[2024-04-23 10:55:15] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.5.3.tar.gz]
+[2024-04-23 10:55:15] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.5.4.tar.gz]
+[2024-04-23 10:55:15] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-04-23 10:55:15] INFO root fetch - main [MainThread]: Store serial: [22891313]
