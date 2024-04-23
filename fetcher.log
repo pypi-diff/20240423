@@ -10768,3 +10768,29 @@
 [2024-04-23 07:13:54] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-04-23 07:13:54] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-04-23 07:13:54] INFO root fetch - main [MainThread]: Store serial: [22889247]
+[2024-04-23 07:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889247]
+[2024-04-23 07:16:02] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-23 07:18:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889256]
+[2024-04-23 07:18:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 07:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: behavysis_viewer
+[2024-04-23 07:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dacutil
+[2024-04-23 07:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-metadata
+[2024-04-23 07:18:08] INFO root fetch - processPackages [dacutil]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-04-23 07:18:08] WARNING root fetch - processPackages [behavysis_viewer]: Skipping, unable to determine old version
+[2024-04-23 07:18:08] INFO root fetch - main [MainThread]: End processing [behavysis_viewer] error
+[2024-04-23 07:18:08] INFO root fetch - processPackages [ml-metadata]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-23 07:18:08] INFO root fetch - processPackages [dacutil]: Downloading https://files.pythonhosted.org/packages/eb/56/0108c5d3581a0b5cc500ac45b00b71b0e7bdcf8e9d09b10b77e6bcde1062/dacutil-0.3.3.tar.gz
+[2024-04-23 07:18:08] INFO root fetch - processPackages [ml-metadata]: Downloading https://files.pythonhosted.org/packages/a3/c2/4a796611667b33dad7ea6e23824f99c97d5483684c71cc470c0a4928f47d/ml_metadata-1.8.0-cp39-cp39-win_amd64.whl
+[2024-04-23 07:18:09] INFO root fetch - processPackages [dacutil]: Downloading https://files.pythonhosted.org/packages/26/eb/475e8e592e31643dab69a30de3b1113efcc12bfc4332f56b54db14cb427f/dacutil-0.4.0.tar.gz
+[2024-04-23 07:18:09] INFO root fetch - processPackages [dacutil]: executing diffoscope
+[2024-04-23 07:18:09] INFO root fetch - processPackages [dacutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dacutil-0.3.3.tar.gz tmp/dacutil-0.4.0.tar.gz --markdown 20240423/d/dacutil/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-04-23 07:18:09] INFO root fetch - processPackages [dacutil]: Remove: archive file [/home/abi/fetcher/tmp/dacutil-0.3.3.tar.gz]
+[2024-04-23 07:18:09] INFO root fetch - processPackages [dacutil]: Remove: archive file [/home/abi/fetcher/tmp/dacutil-0.4.0.tar.gz]
+[2024-04-23 07:18:09] INFO root fetch - main [MainThread]: End processing [dacutil]: success
+[2024-04-23 07:18:10] INFO root fetch - processPackages [ml-metadata]: Downloading https://files.pythonhosted.org/packages/73/fe/aa47f7262c723eb1fc164393334351d50d97da992af916cdb63926c281b5/ml_metadata-1.9.0-cp39-cp39-win_amd64.whl
+[2024-04-23 07:18:10] INFO root fetch - processPackages [ml-metadata]: executing diffoscope
+[2024-04-23 07:18:10] INFO root fetch - processPackages [ml-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_metadata-1.8.0-cp39-cp39-win_amd64.whl.zip tmp/ml_metadata-1.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240423/m/ml-metadata/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-23 07:18:11] INFO root fetch - processPackages [ml-metadata]: Remove: archive file [/home/abi/fetcher/tmp/ml_metadata-1.8.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 07:18:11] INFO root fetch - processPackages [ml-metadata]: Remove: archive file [/home/abi/fetcher/tmp/ml_metadata-1.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 07:18:11] INFO root fetch - main [MainThread]: End processing [ml-metadata]: success
+[2024-04-23 07:18:11] INFO root fetch - main [MainThread]: Store serial: [22889269]
