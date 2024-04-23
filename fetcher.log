@@ -11167,3 +11167,24 @@
 [2024-04-23 07:35:43] INFO root fetch - processPackages [iturtle]: Remove: archive file [/home/abi/fetcher/tmp/iturtle-1.0.0-py2.py3-none-any.whl.zip]
 [2024-04-23 07:35:43] INFO root fetch - main [MainThread]: End processing [iturtle]: success
 [2024-04-23 07:35:43] INFO root fetch - main [MainThread]: Store serial: [22889426]
+[2024-04-23 07:37:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889426]
+[2024-04-23 07:37:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 07:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-runtime-nightly
+[2024-04-23 07:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuxsuite
+[2024-04-23 07:37:52] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240421] Old Version: [2.17.0.dev20240420]
+[2024-04-23 07:37:52] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/9f/04/72049e8b97638c56e47740df79f24d32f51f5863b815871c2cfea272865a/tflite_runtime_nightly-2.17.0.dev20240420-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-23 07:37:52] INFO root fetch - processPackages [tuxsuite]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-23 07:37:53] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/27/14/f25c40bc531aff32551c08e4d9c8b6894d4749d5ad96f37b58cc307cfb29/tuxsuite-1.8.0.tar.gz
+[2024-04-23 07:37:53] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/65/8d/4932c6a02b645379d5dc6345f4478a3e466b166d038ec012e1307163468e/tflite_runtime_nightly-2.17.0.dev20240421-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-23 07:37:53] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/4d/5e/8be806f24d5782026eef566b71100557104f363339b8917671132eadf1ea/tuxsuite-1.9.0.tar.gz
+[2024-04-23 07:37:53] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-04-23 07:37:53] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240420-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240421-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240423/t/tflite-runtime-nightly/2.17.0.dev20240420-2.17.0.dev20240421/README.md --exclude *.pyd
+[2024-04-23 07:37:53] INFO root fetch - processPackages [tuxsuite]: executing diffoscope
+[2024-04-23 07:37:53] INFO root fetch - processPackages [tuxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxsuite-1.8.0.tar.gz tmp/tuxsuite-1.9.0.tar.gz --markdown 20240423/t/tuxsuite/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-23 07:37:54] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240420-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-23 07:37:54] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240421-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-23 07:37:54] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-04-23 07:37:54] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.8.0.tar.gz]
+[2024-04-23 07:37:54] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
+[2024-04-23 07:37:54] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
+[2024-04-23 07:37:54] INFO root fetch - main [MainThread]: Store serial: [22889445]
