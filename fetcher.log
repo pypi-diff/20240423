@@ -8243,3 +8243,27 @@
 [2024-04-23 04:30:39] INFO root fetch - processPackages [speechless]: Remove: archive file [/home/abi/fetcher/tmp/speechless-0.9.0.tar.gz]
 [2024-04-23 04:30:39] INFO root fetch - main [MainThread]: End processing [speechless]: success
 [2024-04-23 04:30:39] INFO root fetch - main [MainThread]: Store serial: [22888198]
+[2024-04-23 04:32:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888198]
+[2024-04-23 04:32:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 04:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yoto-api
+[2024-04-23 04:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datapath
+[2024-04-23 04:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linker-atom
+[2024-04-23 04:32:48] INFO root fetch - processPackages [yoto-api]: New version: [1.5.0] Old Version: [1.4.4]
+[2024-04-23 04:32:48] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/fa/c8/d1832d122bebe98403db1b4de42d376dd2de427472c8644bbef1b3a036d9/yoto_api-1.4.4.tar.gz
+[2024-04-23 04:32:48] INFO root fetch - processPackages [linker-atom]: New version: [0.0.36] Old Version: [0.0.35]
+[2024-04-23 04:32:48] WARNING root fetch - processPackages [datapath]: Skipping, unable to determine old version
+[2024-04-23 04:32:48] INFO root fetch - main [MainThread]: End processing [datapath] error
+[2024-04-23 04:32:49] INFO root fetch - processPackages [linker-atom]: Downloading https://files.pythonhosted.org/packages/41/69/443db748f2d83cba695e34c9dfc687a27701362b36c430473494a049c446/linker_atom-0.0.35.tar.gz
+[2024-04-23 04:32:49] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/96/d8/167be90f8c14578a71e8513a518b924dfcbd8142b50f49de337d6af81418/yoto_api-1.5.0.tar.gz
+[2024-04-23 04:32:49] INFO root fetch - processPackages [linker-atom]: Downloading https://files.pythonhosted.org/packages/0f/2d/c6ff521d3f00324c5dc270d546af5e14493d01894a10a9a6cfcd3680ad24/linker_atom-0.0.36.tar.gz
+[2024-04-23 04:32:49] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-04-23 04:32:49] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.4.4.tar.gz tmp/yoto_api-1.5.0.tar.gz --markdown 20240423/y/yoto-api/1.4.4-1.5.0/README.md --exclude *.pyd
+[2024-04-23 04:32:49] INFO root fetch - processPackages [linker-atom]: executing diffoscope
+[2024-04-23 04:32:49] INFO root fetch - processPackages [linker-atom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linker_atom-0.0.35.tar.gz tmp/linker_atom-0.0.36.tar.gz --markdown 20240423/l/linker-atom/0.0.35-0.0.36/README.md --exclude *.pyd
+[2024-04-23 04:32:49] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.4.4.tar.gz]
+[2024-04-23 04:32:49] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.5.0.tar.gz]
+[2024-04-23 04:32:49] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-04-23 04:32:50] INFO root fetch - processPackages [linker-atom]: Remove: archive file [/home/abi/fetcher/tmp/linker_atom-0.0.35.tar.gz]
+[2024-04-23 04:32:50] INFO root fetch - processPackages [linker-atom]: Remove: archive file [/home/abi/fetcher/tmp/linker_atom-0.0.36.tar.gz]
+[2024-04-23 04:32:50] INFO root fetch - main [MainThread]: End processing [linker-atom]: success
+[2024-04-23 04:32:50] INFO root fetch - main [MainThread]: Store serial: [22888209]
