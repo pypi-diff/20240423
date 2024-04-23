@@ -3019,3 +3019,33 @@
 [2024-04-23 02:35:29] INFO root fetch - processPackages [cvxpygen]: Remove: archive file [/home/abi/fetcher/tmp/cvxpygen-0.3.4.tar.gz]
 [2024-04-23 02:35:29] INFO root fetch - main [MainThread]: End processing [cvxpygen]: success
 [2024-04-23 02:35:29] INFO root fetch - main [MainThread]: Store serial: [22886438]
+[2024-04-23 02:37:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886438]
+[2024-04-23 02:37:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 02:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bedrock-bot
+[2024-04-23 02:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2024-04-23 02:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ploomber-cloud
+[2024-04-23 02:37:37] INFO root fetch - processPackages [bedrock-bot]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-23 02:37:37] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-23 02:37:37] INFO root fetch - processPackages [bedrock-bot]: Downloading https://files.pythonhosted.org/packages/37/e6/071f9218f8a17371d1ba0f0ef290098a77203c97f95387bcf42651b85ddb/bedrock_bot-1.0.5.tar.gz
+[2024-04-23 02:37:37] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-23 02:37:37] INFO root fetch - processPackages [ploomber-cloud]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-23 02:37:38] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-23 02:37:38] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/e6/f8/f4451ff0cb54c012c89da5286d33c3f73ca21e606814f7366bd6cda4738a/ploomber-cloud-0.1.9.tar.gz
+[2024-04-23 02:37:38] INFO root fetch - processPackages [bedrock-bot]: Downloading https://files.pythonhosted.org/packages/c4/e8/5f408401b1650d32385646cfb3fe87a6220301383b151857daad35fe6f0f/bedrock_bot-1.0.6.tar.gz
+[2024-04-23 02:37:38] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-23 02:37:38] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240423/s/state-machine-semaphore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-23 02:37:38] INFO root fetch - processPackages [bedrock-bot]: executing diffoscope
+[2024-04-23 02:37:38] INFO root fetch - processPackages [bedrock-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bedrock_bot-1.0.5.tar.gz tmp/bedrock_bot-1.0.6.tar.gz --markdown 20240423/b/bedrock-bot/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-23 02:37:38] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/a2/42/881d67de4fa4af26a62ccab7df149a2946c89ee55cd83ad02f8e772a896c/ploomber-cloud-0.2.0.tar.gz
+[2024-04-23 02:37:38] INFO root fetch - processPackages [bedrock-bot]: Remove: archive file [/home/abi/fetcher/tmp/bedrock_bot-1.0.5.tar.gz]
+[2024-04-23 02:37:38] INFO root fetch - processPackages [bedrock-bot]: Remove: archive file [/home/abi/fetcher/tmp/bedrock_bot-1.0.6.tar.gz]
+[2024-04-23 02:37:38] INFO root fetch - main [MainThread]: End processing [bedrock-bot]: success
+[2024-04-23 02:37:38] INFO root fetch - processPackages [ploomber-cloud]: executing diffoscope
+[2024-04-23 02:37:38] INFO root fetch - processPackages [ploomber-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-cloud-0.1.9.tar.gz tmp/ploomber-cloud-0.2.0.tar.gz --markdown 20240423/p/ploomber-cloud/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-23 02:37:38] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-23 02:37:38] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-23 02:37:38] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-23 02:37:39] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.9.tar.gz]
+[2024-04-23 02:37:39] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.2.0.tar.gz]
+[2024-04-23 02:37:39] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
+[2024-04-23 02:37:39] INFO root fetch - main [MainThread]: Store serial: [22886444]
