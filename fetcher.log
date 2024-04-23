@@ -15463,3 +15463,69 @@
 [2024-04-23 10:57:26] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
 [2024-04-23 10:57:26] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
 [2024-04-23 10:57:26] INFO root fetch - main [MainThread]: Store serial: [22891327]
+[2024-04-23 10:59:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891327]
+[2024-04-23 10:59:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 10:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TitanDevice
+[2024-04-23 10:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zonesmart-utils
+[2024-04-23 10:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superstore
+[2024-04-23 10:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sinaraml
+[2024-04-23 10:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atomic-bomb-engine
+[2024-04-23 10:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secretvalidator
+[2024-04-23 10:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mns-common
+[2024-04-23 10:59:34] INFO root fetch - processPackages [TitanDevice]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 10:59:34] INFO root fetch - processPackages [secretvalidator]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 10:59:34] INFO root fetch - processPackages [mns-common]: New version: [1.0.7.5.4] Old Version: [1.0.7.5.3]
+[2024-04-23 10:59:34] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/c1/0c/7d243a551f3f325c65b4e9abf41e6af739f60deb881c244ad6cc3b82038b/secretvalidator-0.1.8.tar.gz
+[2024-04-23 10:59:34] INFO root fetch - processPackages [superstore]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-23 10:59:34] INFO root fetch - processPackages [sinaraml]: New version: [2024.4.23] Old Version: [2024.4.19]
+[2024-04-23 10:59:34] INFO root fetch - processPackages [zonesmart-utils]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-04-23 10:59:34] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/3c/55/7aa12bdc4a6d2cdd07b40a6efaf268d8a65c0c31f99d48c2ae5a26f5608b/mns_common-1.0.7.5.3.tar.gz
+[2024-04-23 10:59:34] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/76/50/7a9438c6ec6a16ac4bfd2a67d746017c8cde70fd7138f9e147b7e8fcf12d/TitanDevice-0.1.0.tar.gz
+[2024-04-23 10:59:35] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-23 10:59:35] INFO root fetch - processPackages [superstore]: Downloading https://files.pythonhosted.org/packages/b6/5d/56661a751c427fec1d24a5221e508204b4f21baab8ffc4cfb1406607a867/superstore-0.2.1.tar.gz
+[2024-04-23 10:59:35] INFO root fetch - processPackages [sinaraml]: Downloading https://files.pythonhosted.org/packages/d2/85/c9de006ac40e1836decf994f061357faa7379cf350e06633cbb77aeb98cc/sinaraml-2024.4.19.tar.gz
+[2024-04-23 10:59:35] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/46/26/23b3d02792f2d2eb00039a38f72a84b876b2802557f72d8618e43a8b145d/secretvalidator-0.1.9.tar.gz
+[2024-04-23 10:59:35] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/5b/24/6b5fbd5b0fc2d749679c674b2ea6df52089f58fae2b5460b44a519189701/zonesmart-utils-0.5.9.tar.gz
+[2024-04-23 10:59:35] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/8f/09/b1f9b3fdcc5c99d9364322be9a5da3da456baba1d8d9bb25b82f3c7693ef/mns_common-1.0.7.5.4.tar.gz
+[2024-04-23 10:59:35] INFO root fetch - processPackages [secretvalidator]: executing diffoscope
+[2024-04-23 10:59:35] INFO root fetch - processPackages [secretvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidator-0.1.8.tar.gz tmp/secretvalidator-0.1.9.tar.gz --markdown 20240423/s/secretvalidator/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 10:59:35] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/7c/56/109da41933dcecc56b504fd5d44380eb20cfb429edd6ae909018b51ab84d/TitanDevice-0.1.1.tar.gz
+[2024-04-23 10:59:35] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-23 10:59:35] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-04-23 10:59:35] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.5.3.tar.gz tmp/mns_common-1.0.7.5.4.tar.gz --markdown 20240423/m/mns-common/1.0.7.5.3-1.0.7.5.4/README.md --exclude *.pyd
+[2024-04-23 10:59:35] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-23 10:59:35] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.1.0.tar.gz tmp/TitanDevice-0.1.1.tar.gz --markdown 20240423/T/TitanDevice/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 10:59:35] INFO root fetch - processPackages [sinaraml]: Downloading https://files.pythonhosted.org/packages/a3/a3/44b5f6705c09a2b98543f952bd71867c5e1326bc8deacde57bbc03fcedc3/sinaraml-2024.4.23.tar.gz
+[2024-04-23 10:59:35] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/66/4b/62902c12f70461ac6182c3dfa57fa03bbfb4a3bc91a67cb1f995f0d2c994/zonesmart-utils-0.6.0.tar.gz
+[2024-04-23 10:59:35] INFO root fetch - processPackages [sinaraml]: executing diffoscope
+[2024-04-23 10:59:35] INFO root fetch - processPackages [sinaraml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinaraml-2024.4.19.tar.gz tmp/sinaraml-2024.4.23.tar.gz --markdown 20240423/s/sinaraml/2024.4.19-2024.4.23/README.md --exclude *.pyd
+[2024-04-23 10:59:35] INFO root fetch - processPackages [zonesmart-utils]: executing diffoscope
+[2024-04-23 10:59:35] INFO root fetch - processPackages [zonesmart-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-0.5.9.tar.gz tmp/zonesmart-utils-0.6.0.tar.gz --markdown 20240423/z/zonesmart-utils/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-04-23 10:59:35] INFO root fetch - processPackages [superstore]: Downloading https://files.pythonhosted.org/packages/d3/01/3ae8850774afb0e840dfba7074c9bd19edf8e7017a935ad131c05704b28a/superstore-0.2.2.tar.gz
+[2024-04-23 10:59:35] INFO root fetch - processPackages [superstore]: executing diffoscope
+[2024-04-23 10:59:35] INFO root fetch - processPackages [superstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superstore-0.2.1.tar.gz tmp/superstore-0.2.2.tar.gz --markdown 20240423/s/superstore/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-23 10:59:35] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.8.tar.gz]
+[2024-04-23 10:59:35] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.9.tar.gz]
+[2024-04-23 10:59:35] INFO root fetch - main [MainThread]: End processing [secretvalidator]: success
+[2024-04-23 10:59:35] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-23 10:59:36] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.0.tar.gz]
+[2024-04-23 10:59:36] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.1.tar.gz]
+[2024-04-23 10:59:36] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-23 10:59:36] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.5.3.tar.gz]
+[2024-04-23 10:59:36] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.5.4.tar.gz]
+[2024-04-23 10:59:36] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-04-23 10:59:36] INFO root fetch - processPackages [sinaraml]: Remove: archive file [/home/abi/fetcher/tmp/sinaraml-2024.4.19.tar.gz]
+[2024-04-23 10:59:36] INFO root fetch - processPackages [sinaraml]: Remove: archive file [/home/abi/fetcher/tmp/sinaraml-2024.4.23.tar.gz]
+[2024-04-23 10:59:36] INFO root fetch - main [MainThread]: End processing [sinaraml]: success
+[2024-04-23 10:59:36] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-23 10:59:36] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240423/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-23 10:59:36] INFO root fetch - processPackages [superstore]: Remove: archive file [/home/abi/fetcher/tmp/superstore-0.2.1.tar.gz]
+[2024-04-23 10:59:36] INFO root fetch - processPackages [superstore]: Remove: archive file [/home/abi/fetcher/tmp/superstore-0.2.2.tar.gz]
+[2024-04-23 10:59:36] INFO root fetch - main [MainThread]: End processing [superstore]: success
+[2024-04-23 10:59:36] INFO root fetch - processPackages [zonesmart-utils]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-0.5.9.tar.gz]
+[2024-04-23 10:59:36] INFO root fetch - processPackages [zonesmart-utils]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-0.6.0.tar.gz]
+[2024-04-23 10:59:36] INFO root fetch - main [MainThread]: End processing [zonesmart-utils]: success
+[2024-04-23 10:59:36] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-23 10:59:36] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-23 10:59:36] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-23 10:59:36] INFO root fetch - main [MainThread]: Store serial: [22891350]
