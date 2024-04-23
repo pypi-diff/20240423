@@ -7267,3 +7267,33 @@
 [2024-04-23 03:31:05] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.9.3.tar.gz]
 [2024-04-23 03:31:05] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
 [2024-04-23 03:31:05] INFO root fetch - main [MainThread]: Store serial: [22887815]
+[2024-04-23 03:33:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887815]
+[2024-04-23 03:33:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 03:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyAgrum-nightly
+[2024-04-23 03:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MyLLM
+[2024-04-23 03:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-auth0
+[2024-04-23 03:33:14] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1713834577] Old Version: [3.4.0a1713461821]
+[2024-04-23 03:33:14] INFO root fetch - processPackages [MyLLM]: New version: [4.8.9] Old Version: [4.8.8]
+[2024-04-23 03:33:14] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/7f/32/0f7d3e120af15903bec68fec6b26e3aad859baf32571153c4c5a6cffb759/pulumi_auth0-3.4.0a1713461821.tar.gz
+[2024-04-23 03:33:15] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-04-23 03:33:15] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/6b/14/d40a942c29ba66876f011314685e49af6306938907b8694fa2964d1b59de/pulumi_auth0-3.4.0a1713834577.tar.gz
+[2024-04-23 03:33:15] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/57/3a/bfe2f2c55e10a6dee7a033bc1731f5ed17fe7c958a210478832a958f6d80/myllm-4.8.9.tar.gz
+[2024-04-23 03:33:15] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-04-23 03:33:15] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1713461821.tar.gz tmp/pulumi_auth0-3.4.0a1713834577.tar.gz --markdown 20240423/p/pulumi-auth0/3.4.0a1713461821-3.4.0a1713834577/README.md --exclude *.pyd
+[2024-04-23 03:33:15] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-04-23 03:33:15] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.8.tar.gz tmp/myllm-4.8.9.tar.gz --markdown 20240423/M/MyLLM/4.8.8-4.8.9/README.md --exclude *.pyd
+[2024-04-23 03:33:16] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-04-23 03:33:16] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
+[2024-04-23 03:33:16] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-04-23 03:33:16] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1713461821.tar.gz]
+[2024-04-23 03:33:16] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1713834577.tar.gz]
+[2024-04-23 03:33:16] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-04-23 03:33:16] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-04-23 03:33:16] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-04-23 03:33:17] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-04-23 03:33:17] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-04-23 03:33:17] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240423/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-04-23 03:33:18] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 03:33:18] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 03:33:18] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-04-23 03:33:18] INFO root fetch - main [MainThread]: Store serial: [22887872]
