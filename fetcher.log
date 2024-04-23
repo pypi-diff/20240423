@@ -10523,3 +10523,24 @@
 [2024-04-23 07:03:01] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-3.0.0.tar.gz]
 [2024-04-23 07:03:01] INFO root fetch - main [MainThread]: End processing [centralcli]: success
 [2024-04-23 07:03:01] INFO root fetch - main [MainThread]: Store serial: [22889140]
+[2024-04-23 07:05:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889140]
+[2024-04-23 07:05:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 07:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ALLM
+[2024-04-23 07:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: replit-river
+[2024-04-23 07:05:10] INFO root fetch - processPackages [replit-river]: New version: [0.1.7b2] Old Version: [0.1.7b1]
+[2024-04-23 07:05:10] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/fd/b0/714c81fc755400bdd3958d9edbc822ddc017d4d7b3466dc0cca63a7c7e41/replit_river-0.1.7b1.tar.gz
+[2024-04-23 07:05:10] INFO root fetch - processPackages [ALLM]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-23 07:05:10] INFO root fetch - processPackages [ALLM]: Downloading https://files.pythonhosted.org/packages/7f/2b/038e970e652b360d76632c927d1754030c40487dd6f9825eb4f0c0cba2e7/ALLM-1.0-py3-none-any.whl
+[2024-04-23 07:05:10] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/ee/ca/c11958ccc37f337355897770466a3ade844ae57af731bcfbc844418482f9/replit_river-0.1.7b2.tar.gz
+[2024-04-23 07:05:10] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-04-23 07:05:10] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.7b1.tar.gz tmp/replit_river-0.1.7b2.tar.gz --markdown 20240423/r/replit-river/0.1.7b1-0.1.7b2/README.md --exclude *.pyd
+[2024-04-23 07:05:11] INFO root fetch - processPackages [ALLM]: Downloading https://files.pythonhosted.org/packages/62/fa/a9cebd022093fdff94e6b32adff2c8bc992799abcdc2e38a0f3154145de3/ALLM-1.0.1-py3-none-any.whl
+[2024-04-23 07:05:11] INFO root fetch - processPackages [ALLM]: executing diffoscope
+[2024-04-23 07:05:11] INFO root fetch - processPackages [ALLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALLM-1.0-py3-none-any.whl.zip tmp/ALLM-1.0.1-py3-none-any.whl.zip --markdown 20240423/A/ALLM/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-23 07:05:11] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b1.tar.gz]
+[2024-04-23 07:05:11] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b2.tar.gz]
+[2024-04-23 07:05:11] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-04-23 07:05:11] INFO root fetch - processPackages [ALLM]: Remove: archive file [/home/abi/fetcher/tmp/ALLM-1.0-py3-none-any.whl.zip]
+[2024-04-23 07:05:11] INFO root fetch - processPackages [ALLM]: Remove: archive file [/home/abi/fetcher/tmp/ALLM-1.0.1-py3-none-any.whl.zip]
+[2024-04-23 07:05:11] INFO root fetch - main [MainThread]: End processing [ALLM]: success
+[2024-04-23 07:05:11] INFO root fetch - main [MainThread]: Store serial: [22889145]
