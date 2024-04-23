@@ -14109,3 +14109,84 @@
 [2024-04-23 10:05:50] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
 [2024-04-23 10:05:50] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
 [2024-04-23 10:05:50] INFO root fetch - main [MainThread]: Store serial: [22890640]
+[2024-04-23 10:07:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890640]
+[2024-04-23 10:07:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-23 10:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dogma-data
+[2024-04-23 10:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lense
+[2024-04-23 10:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RIIGID
+[2024-04-23 10:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: code-data-share
+[2024-04-23 10:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-continuous
+[2024-04-23 10:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yoggopoth
+[2024-04-23 10:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tipo-kgen
+[2024-04-23 10:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: motor-decorator
+[2024-04-23 10:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyglove
+[2024-04-23 10:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Giraffe-View
+[2024-04-23 10:07:59] INFO root fetch - processPackages [lense]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-23 10:07:59] WARNING root fetch - processPackages [pytest-continuous]: Skipping, unable to determine old version
+[2024-04-23 10:07:59] INFO root fetch - main [MainThread]: End processing [pytest-continuous] error
+[2024-04-23 10:07:59] INFO root fetch - processPackages [tipo-kgen]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-23 10:07:59] INFO root fetch - processPackages [motor-decorator]: New version: [0.0.3.6] Old Version: [0.0.3.5]
+[2024-04-23 10:07:59] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240422] Old Version: [0.4.5.dev20240421]
+[2024-04-23 10:07:59] WARNING root fetch - processPackages [yoggopoth]: Skipping, unable to determine old version
+[2024-04-23 10:07:59] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/7f/04/dae9661b6addadfc89a97dc07f41361792a651e022341f82e5cb7c4283e8/lense-0.0.5-py3-none-any.whl
+[2024-04-23 10:07:59] INFO root fetch - main [MainThread]: End processing [yoggopoth] error
+[2024-04-23 10:07:59] INFO root fetch - processPackages [tipo-kgen]: Downloading https://files.pythonhosted.org/packages/83/51/7787e8351d303f8b386cdbaab98d1f15677f59ec4ac752bd5ba4e08f5edd/tipo-kgen-0.0.7.tar.gz
+[2024-04-23 10:07:59] INFO root fetch - processPackages [code-data-share]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-04-23 10:07:59] INFO root fetch - processPackages [RIIGID]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-23 10:07:59] INFO root fetch - processPackages [Giraffe-View]: New version: [0.1.0.9] Old Version: [0.1.0.8]
+[2024-04-23 10:07:59] INFO root fetch - processPackages [dogma-data]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 10:07:59] INFO root fetch - processPackages [motor-decorator]: Downloading https://files.pythonhosted.org/packages/56/0d/ef156f46318b7b73669f2287da3cd52160959ea6533c0947b3560e4d4a4b/motor-decorator-0.0.3.5.tar.gz
+[2024-04-23 10:07:59] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/66/bd/411154b7a20c932797afd0b8bfe91a0d3499bb59812f05591abafbbbcf98/pyglove-0.4.5.dev20240421.tar.gz
+[2024-04-23 10:08:00] INFO root fetch - processPackages [RIIGID]: Downloading https://files.pythonhosted.org/packages/09/b6/2dbe8d5fc35cb0f3d65e7f59e57fa71db4b850de25ff63b02c60bee0529c/RIIGID-1.0.3.tar.gz
+[2024-04-23 10:08:00] INFO root fetch - processPackages [code-data-share]: Downloading https://files.pythonhosted.org/packages/2d/99/52bc5fbaae169635bb8a0ab0f7e56e76b73c406b19f4141275f7b495303c/code_data_share-0.0.5.tar.gz
+[2024-04-23 10:08:00] INFO root fetch - processPackages [dogma-data]: Downloading https://files.pythonhosted.org/packages/8e/b2/a1719dc200acbe067245fbc0aae45c9a087bec36d921bb09dcfc3afe384a/dogma_data-0.2.8.tar.gz
+[2024-04-23 10:08:00] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/5e/d1/3b21947f5243b9d054c8bbbfc868ae33a3306d13a5385e034588840b90a3/Giraffe_View-0.1.0.8.tar.gz
+[2024-04-23 10:08:00] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/d3/6f/0b36436596d7bda7155e817df8a84a95bfe90ab250d952a16b3499dfbb1d/lense-0.0.6-py3-none-any.whl
+[2024-04-23 10:08:00] INFO root fetch - processPackages [motor-decorator]: Downloading https://files.pythonhosted.org/packages/08/b8/94bab4f734fd21b2dd3fedc692779b5093f6fe220d2cbcfe14dbd101fcaa/motor-decorator-0.0.3.6.tar.gz
+[2024-04-23 10:08:00] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/d0/9c/3f923732156c1e01f39e396e6473d7c10ed9d7ca01ca07534cab54024240/pyglove-0.4.5.dev20240422.tar.gz
+[2024-04-23 10:08:00] INFO root fetch - processPackages [motor-decorator]: executing diffoscope
+[2024-04-23 10:08:00] INFO root fetch - processPackages [motor-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motor-decorator-0.0.3.5.tar.gz tmp/motor-decorator-0.0.3.6.tar.gz --markdown 20240423/m/motor-decorator/0.0.3.5-0.0.3.6/README.md --exclude *.pyd
+[2024-04-23 10:08:00] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 10:08:00] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.5-py3-none-any.whl.zip tmp/lense-0.0.6-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-23 10:08:00] INFO root fetch - processPackages [tipo-kgen]: Downloading https://files.pythonhosted.org/packages/ea/76/27672027fb2466a0e17202a0cff59d356d9c4def878c6d1089f63e768593/tipo-kgen-0.0.8.tar.gz
+[2024-04-23 10:08:00] INFO root fetch - processPackages [dogma-data]: Downloading https://files.pythonhosted.org/packages/3e/fe/15abfb530d328398811212c2cf379a1112e6b2653c6198eeaf1f1fe4b2f2/dogma_data-0.2.9.tar.gz
+[2024-04-23 10:08:00] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-23 10:08:00] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240421.tar.gz tmp/pyglove-0.4.5.dev20240422.tar.gz --markdown 20240423/p/pyglove/0.4.5.dev20240421-0.4.5.dev20240422/README.md --exclude *.pyd
+[2024-04-23 10:08:00] INFO root fetch - processPackages [RIIGID]: Downloading https://files.pythonhosted.org/packages/91/a5/6726f34047d5c335d7de6a816f40e8e906f670658f3bde1bd7f2a295c4d3/RIIGID-1.0.4.tar.gz
+[2024-04-23 10:08:00] INFO root fetch - processPackages [code-data-share]: Downloading https://files.pythonhosted.org/packages/f8/24/78f378de67ccb8d29bcf8679312d0bfbcdb7362fd9936660ef62f34284c5/code_data_share-0.1.0.tar.gz
+[2024-04-23 10:08:00] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/d3/33/d5f0286895afba52d87f10608b964e0cbe3b00c9f083d501cf1b0f4efa81/Giraffe_View-0.1.0.9.tar.gz
+[2024-04-23 10:08:00] INFO root fetch - processPackages [dogma-data]: executing diffoscope
+[2024-04-23 10:08:00] INFO root fetch - processPackages [dogma-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dogma_data-0.2.8.tar.gz tmp/dogma_data-0.2.9.tar.gz --markdown 20240423/d/dogma-data/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 10:08:00] INFO root fetch - processPackages [Giraffe-View]: executing diffoscope
+[2024-04-23 10:08:00] INFO root fetch - processPackages [Giraffe-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Giraffe_View-0.1.0.8.tar.gz tmp/Giraffe_View-0.1.0.9.tar.gz --markdown 20240423/G/Giraffe-View/0.1.0.8-0.1.0.9/README.md --exclude *.pyd
+[2024-04-23 10:08:00] INFO root fetch - processPackages [RIIGID]: executing diffoscope
+[2024-04-23 10:08:00] INFO root fetch - processPackages [RIIGID]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RIIGID-1.0.3.tar.gz tmp/RIIGID-1.0.4.tar.gz --markdown 20240423/R/RIIGID/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-23 10:08:00] INFO root fetch - processPackages [tipo-kgen]: executing diffoscope
+[2024-04-23 10:08:00] INFO root fetch - processPackages [tipo-kgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tipo-kgen-0.0.7.tar.gz tmp/tipo-kgen-0.0.8.tar.gz --markdown 20240423/t/tipo-kgen/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-23 10:08:00] INFO root fetch - processPackages [code-data-share]: executing diffoscope
+[2024-04-23 10:08:00] INFO root fetch - processPackages [code-data-share]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_data_share-0.0.5.tar.gz tmp/code_data_share-0.1.0.tar.gz --markdown 20240423/c/code-data-share/0.0.5-0.1.0/README.md --exclude *.pyd
+[2024-04-23 10:08:01] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.5-py3-none-any.whl.zip]
+[2024-04-23 10:08:01] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.6-py3-none-any.whl.zip]
+[2024-04-23 10:08:01] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 10:08:01] INFO root fetch - processPackages [motor-decorator]: Remove: archive file [/home/abi/fetcher/tmp/motor-decorator-0.0.3.5.tar.gz]
+[2024-04-23 10:08:01] INFO root fetch - processPackages [motor-decorator]: Remove: archive file [/home/abi/fetcher/tmp/motor-decorator-0.0.3.6.tar.gz]
+[2024-04-23 10:08:01] INFO root fetch - main [MainThread]: End processing [motor-decorator]: success
+[2024-04-23 10:08:01] INFO root fetch - processPackages [dogma-data]: Remove: archive file [/home/abi/fetcher/tmp/dogma_data-0.2.8.tar.gz]
+[2024-04-23 10:08:01] INFO root fetch - processPackages [dogma-data]: Remove: archive file [/home/abi/fetcher/tmp/dogma_data-0.2.9.tar.gz]
+[2024-04-23 10:08:01] INFO root fetch - main [MainThread]: End processing [dogma-data]: success
+[2024-04-23 10:08:01] INFO root fetch - processPackages [RIIGID]: Remove: archive file [/home/abi/fetcher/tmp/RIIGID-1.0.3.tar.gz]
+[2024-04-23 10:08:01] INFO root fetch - processPackages [RIIGID]: Remove: archive file [/home/abi/fetcher/tmp/RIIGID-1.0.4.tar.gz]
+[2024-04-23 10:08:01] INFO root fetch - main [MainThread]: End processing [RIIGID]: success
+[2024-04-23 10:08:01] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.8.tar.gz]
+[2024-04-23 10:08:01] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.9.tar.gz]
+[2024-04-23 10:08:01] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
+[2024-04-23 10:08:01] INFO root fetch - processPackages [code-data-share]: Remove: archive file [/home/abi/fetcher/tmp/code_data_share-0.0.5.tar.gz]
+[2024-04-23 10:08:01] INFO root fetch - processPackages [code-data-share]: Remove: archive file [/home/abi/fetcher/tmp/code_data_share-0.1.0.tar.gz]
+[2024-04-23 10:08:01] INFO root fetch - main [MainThread]: End processing [code-data-share]: success
+[2024-04-23 10:08:01] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240421.tar.gz]
+[2024-04-23 10:08:01] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240422.tar.gz]
+[2024-04-23 10:08:01] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-23 10:08:02] INFO root fetch - processPackages [tipo-kgen]: Remove: archive file [/home/abi/fetcher/tmp/tipo-kgen-0.0.7.tar.gz]
+[2024-04-23 10:08:02] INFO root fetch - processPackages [tipo-kgen]: Remove: archive file [/home/abi/fetcher/tmp/tipo-kgen-0.0.8.tar.gz]
+[2024-04-23 10:08:02] INFO root fetch - main [MainThread]: End processing [tipo-kgen]: success
+[2024-04-23 10:08:02] INFO root fetch - main [MainThread]: Store serial: [22890703]
