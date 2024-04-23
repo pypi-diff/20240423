@@ -21121,3 +21121,86 @@ EOFError: EOF read where object expected
 [2024-04-23 14:19:37] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev98.tar.gz]
 [2024-04-23 14:19:37] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
 [2024-04-23 14:19:37] INFO root fetch - main [MainThread]: Store serial: [22893639]
+[2024-04-23 14:21:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893639]
+[2024-04-23 14:21:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-23 14:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swh.graph
+[2024-04-23 14:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funasr
+[2024-04-23 14:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fiddler-client
+[2024-04-23 14:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opytimal
+[2024-04-23 14:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nkululeko
+[2024-04-23 14:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tidevice3
+[2024-04-23 14:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sonar-dummy-python-oss
+[2024-04-23 14:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TreeSAK
+[2024-04-23 14:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: doctran_openai
+[2024-04-23 14:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xl2thrift
+[2024-04-23 14:21:46] INFO root fetch - processPackages [opytimal]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-23 14:21:46] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-23 14:21:46] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev2] Old Version: [3.1.0.dev1]
+[2024-04-23 14:21:46] INFO root fetch - processPackages [funasr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 14:21:46] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/41/0d/da75fe0909038d9b6ec13b0735360ebc4bd67e576bd74c7a5b1a27989896/opytimal-0.5.4.tar.gz
+[2024-04-23 14:21:46] INFO root fetch - processPackages [tidevice3]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-23 14:21:46] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/7b/d1/80eb3dbce7fc0a74b5e0bc3c4483efa0bd383c9770ebbd484f66ecbd40c5/doctran_openai-0.0.7.tar.gz
+[2024-04-23 14:21:46] INFO root fetch - processPackages [swh.graph]: New version: [3.4.0] Old Version: [3.3.1]
+[2024-04-23 14:21:46] WARNING root fetch - processPackages [xl2thrift]: Skipping, unable to determine old version
+[2024-04-23 14:21:46] INFO root fetch - main [MainThread]: End processing [xl2thrift] error
+[2024-04-23 14:21:46] INFO root fetch - processPackages [sonar-dummy-python-oss]: New version: [0.1.0a75] Old Version: [0.1.0.93]
+[2024-04-23 14:21:46] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-23 14:21:46] INFO root fetch - processPackages [nkululeko]: New version: [0.81.7] Old Version: [0.81.6]
+[2024-04-23 14:21:46] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/08/ea/1f0e0c4bf6978125bb6d32314f0dcebce3728dfce8fa0ef3106948b4d899/fiddler-client-3.1.0.dev1.tar.gz
+[2024-04-23 14:21:46] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/21/21/731cf3cbf78402270debbdb84df0ea7792894307364fd9d73b168d54311f/funasr-1.0.8.tar.gz
+[2024-04-23 14:21:46] INFO root fetch - processPackages [sonar-dummy-python-oss]: Downloading https://files.pythonhosted.org/packages/95/7c/cd38cf8bfea41666e3ab8fb23181c6dce9cd817d994570cf407f71a381b6/sonar_dummy_python_oss-0.1.0.93.tar.gz
+[2024-04-23 14:21:46] INFO root fetch - processPackages [tidevice3]: Downloading https://files.pythonhosted.org/packages/8a/17/e0f82c11869b11833b40302d8d0fe110e38365a27113f69a3f46035324ed/tidevice3-0.8.4.tar.gz
+[2024-04-23 14:21:46] INFO root fetch - processPackages [swh.graph]: Downloading https://files.pythonhosted.org/packages/b5/1a/9e69d2ff2445a38f3b7fe9d08490340f36953941f3d9a4dd7f1d33c043bb/swh.graph-3.3.1.tar.gz
+[2024-04-23 14:21:46] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/f1/12/97283e7a7c1ba943cb78c2f6808ca95b20076a4cdd70d4910b31b8f0391c/opytimal-0.5.5.tar.gz
+[2024-04-23 14:21:46] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-04-23 14:21:46] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/6b/e1/fe45637429f8e65ff11237bc987705ca8295c863471ec6144d9ecb525221/fiddler-client-3.1.0.dev2.tar.gz
+[2024-04-23 14:21:46] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/a4/67/03b4d1fa6bf0711cdba30c4faab601e9ab169b08237c87c516dba7dbbbe7/nkululeko-0.81.6.tar.gz
+[2024-04-23 14:21:46] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/cf/ee/05034545d75a841e008b92e49c2b144b94ab265f8b8878a39626222b7677/doctran_openai-0.0.8.tar.gz
+[2024-04-23 14:21:46] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 14:21:46] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.5.4.tar.gz tmp/opytimal-0.5.5.tar.gz --markdown 20240423/o/opytimal/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-04-23 14:21:46] WARNING root fetch - processPackages [swh.graph]: Skipping package: exceeds size limit 115788265>=10485760
+[2024-04-23 14:21:46] INFO root fetch - main [MainThread]: End processing [swh.graph] error
+[2024-04-23 14:21:46] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-04-23 14:21:46] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.1.0.dev1.tar.gz tmp/fiddler-client-3.1.0.dev2.tar.gz --markdown 20240423/f/fiddler-client/3.1.0.dev1-3.1.0.dev2/README.md --exclude *.pyd
+[2024-04-23 14:21:46] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-23 14:21:46] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.7.tar.gz tmp/doctran_openai-0.0.8.tar.gz --markdown 20240423/d/doctran_openai/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-23 14:21:46] INFO root fetch - processPackages [sonar-dummy-python-oss]: Downloading https://files.pythonhosted.org/packages/4e/c2/60b5cb75c33b3255bb1ea83ec8cb8531b6422410c72d6a5baeaf529db450/sonar_dummy_python_oss-0.1.0a75.tar.gz
+[2024-04-23 14:21:47] INFO root fetch - processPackages [tidevice3]: Downloading https://files.pythonhosted.org/packages/2c/f4/083237e9504ad0bf6aeae982e20d0bbdaafb39a0be3514f3648b39275cb0/tidevice3-0.9.0.tar.gz
+[2024-04-23 14:21:47] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/d0/dd/6f3c701795e79dbbbfe61e62b81fabcb3d7a62598476c4197f8156a012ad/funasr-1.0.9.tar.gz
+[2024-04-23 14:21:47] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/1f/51/aeaa8133a5dfdaa4d55e08d3c48a3f9077d3bfc2ddee44d04d5ef0208c4b/nkululeko-0.81.7.tar.gz
+[2024-04-23 14:21:47] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-04-23 14:21:47] INFO root fetch - processPackages [sonar-dummy-python-oss]: executing diffoscope
+[2024-04-23 14:21:47] INFO root fetch - processPackages [sonar-dummy-python-oss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonar_dummy_python_oss-0.1.0.93.tar.gz tmp/sonar_dummy_python_oss-0.1.0a75.tar.gz --markdown 20240423/s/sonar-dummy-python-oss/0.1.0.93-0.1.0a75/README.md --exclude *.pyd
+[2024-04-23 14:21:47] INFO root fetch - processPackages [tidevice3]: executing diffoscope
+[2024-04-23 14:21:47] INFO root fetch - processPackages [tidevice3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidevice3-0.8.4.tar.gz tmp/tidevice3-0.9.0.tar.gz --markdown 20240423/t/tidevice3/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-23 14:21:47] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2024-04-23 14:21:47] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-1.0.8.tar.gz tmp/funasr-1.0.9.tar.gz --markdown 20240423/f/funasr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 14:21:47] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-04-23 14:21:47] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.81.6.tar.gz tmp/nkululeko-0.81.7.tar.gz --markdown 20240423/n/nkululeko/0.81.6-0.81.7/README.md --exclude *.pyd
+[2024-04-23 14:21:47] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-04-23 14:21:47] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240423/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-23 14:21:47] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.7.tar.gz]
+[2024-04-23 14:21:47] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.8.tar.gz]
+[2024-04-23 14:21:47] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-23 14:21:47] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.5.4.tar.gz]
+[2024-04-23 14:21:47] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.5.5.tar.gz]
+[2024-04-23 14:21:47] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 14:21:47] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev1.tar.gz]
+[2024-04-23 14:21:47] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev2.tar.gz]
+[2024-04-23 14:21:47] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-04-23 14:21:48] INFO root fetch - processPackages [sonar-dummy-python-oss]: Remove: archive file [/home/abi/fetcher/tmp/sonar_dummy_python_oss-0.1.0.93.tar.gz]
+[2024-04-23 14:21:48] INFO root fetch - processPackages [sonar-dummy-python-oss]: Remove: archive file [/home/abi/fetcher/tmp/sonar_dummy_python_oss-0.1.0a75.tar.gz]
+[2024-04-23 14:21:48] INFO root fetch - main [MainThread]: End processing [sonar-dummy-python-oss]: success
+[2024-04-23 14:21:48] INFO root fetch - processPackages [tidevice3]: Remove: archive file [/home/abi/fetcher/tmp/tidevice3-0.8.4.tar.gz]
+[2024-04-23 14:21:48] INFO root fetch - processPackages [tidevice3]: Remove: archive file [/home/abi/fetcher/tmp/tidevice3-0.9.0.tar.gz]
+[2024-04-23 14:21:48] INFO root fetch - main [MainThread]: End processing [tidevice3]: success
+[2024-04-23 14:21:48] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-04-23 14:21:48] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-04-23 14:21:48] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-04-23 14:21:48] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.81.6.tar.gz]
+[2024-04-23 14:21:48] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.81.7.tar.gz]
+[2024-04-23 14:21:48] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-04-23 14:21:48] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.8.tar.gz]
+[2024-04-23 14:21:48] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.9.tar.gz]
+[2024-04-23 14:21:48] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2024-04-23 14:21:48] INFO root fetch - main [MainThread]: Store serial: [22893671]
