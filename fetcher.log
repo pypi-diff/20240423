@@ -10083,3 +10083,18 @@
 [2024-04-23 06:14:54] INFO root fetch - processPackages [minium]: Remove: archive file [/home/abi/fetcher/tmp/minium-1.5.4.tar.gz]
 [2024-04-23 06:14:54] INFO root fetch - main [MainThread]: End processing [minium]: success
 [2024-04-23 06:14:54] INFO root fetch - main [MainThread]: Store serial: [22888959]
+[2024-04-23 06:16:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888959]
+[2024-04-23 06:17:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 06:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdf4llm
+[2024-04-23 06:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sts-lib
+[2024-04-23 06:17:03] WARNING root fetch - processPackages [pdf4llm]: Skipping, unable to determine old version
+[2024-04-23 06:17:03] INFO root fetch - main [MainThread]: End processing [pdf4llm] error
+[2024-04-23 06:17:03] INFO root fetch - processPackages [sts-lib]: New version: [0.27.0] Old Version: [0.26.0]
+[2024-04-23 06:17:04] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/33/4c/d9cc8e4ae2f65d9ac6679b8698a973af6b5b760c77e16b36016a1ce5bc6d/sts_lib-0.26.0.tar.gz
+[2024-04-23 06:17:04] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/32/44/ec641232f71700ffe57f6b1dd8b21efc57310576062b1abf5353bf24eb08/sts_lib-0.27.0.tar.gz
+[2024-04-23 06:17:04] INFO root fetch - processPackages [sts-lib]: executing diffoscope
+[2024-04-23 06:17:04] INFO root fetch - processPackages [sts-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_lib-0.26.0.tar.gz tmp/sts_lib-0.27.0.tar.gz --markdown 20240423/s/sts-lib/0.26.0-0.27.0/README.md --exclude *.pyd
+[2024-04-23 06:17:05] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.26.0.tar.gz]
+[2024-04-23 06:17:05] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.27.0.tar.gz]
+[2024-04-23 06:17:05] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
+[2024-04-23 06:17:05] INFO root fetch - main [MainThread]: Store serial: [22888967]
