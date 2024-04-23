@@ -11882,3 +11882,30 @@
 [2024-04-23 08:26:32] INFO root fetch - processPackages [vectordb-bench]: Remove: archive file [/home/abi/fetcher/tmp/vectordb_bench-0.0.8.tar.gz]
 [2024-04-23 08:26:32] INFO root fetch - main [MainThread]: End processing [vectordb-bench]: success
 [2024-04-23 08:26:32] INFO root fetch - main [MainThread]: Store serial: [22889697]
+[2024-04-23 08:28:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889697]
+[2024-04-23 08:28:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 08:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wxauto
+[2024-04-23 08:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: replit-river
+[2024-04-23 08:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vadi
+[2024-04-23 08:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chargespot
+[2024-04-23 08:28:41] WARNING root fetch - processPackages [chargespot]: Skipping, unable to determine old version
+[2024-04-23 08:28:41] INFO root fetch - main [MainThread]: End processing [chargespot] error
+[2024-04-23 08:28:41] INFO root fetch - processPackages [replit-river]: New version: [0.1.7b5] Old Version: [0.1.7b3]
+[2024-04-23 08:28:41] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/3f/33/52fc276b3af7c01a9127248a85cdcae3eb03e22ae78d4ed276ee6c6cdc4d/replit_river-0.1.7b3.tar.gz
+[2024-04-23 08:28:41] WARNING root fetch - processPackages [vadi]: Skipping, unable to determine old version
+[2024-04-23 08:28:41] INFO root fetch - main [MainThread]: End processing [vadi] error
+[2024-04-23 08:28:41] INFO root fetch - processPackages [wxauto]: New version: [3.9.8.15.5] Old Version: [3.9.8.15.4]
+[2024-04-23 08:28:41] INFO root fetch - processPackages [wxauto]: Downloading https://files.pythonhosted.org/packages/2d/6e/5d3b50a0882a3866edb9861dbb77883c2f1cd9496a8d6ef2edb5c41ef1d0/wxauto-3.9.8.15.4.tar.gz
+[2024-04-23 08:28:41] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/b9/8e/b10eaeda0f6662cd7b084045401fd3d0406e403a36013e273a60da3c54c7/replit_river-0.1.7b5.tar.gz
+[2024-04-23 08:28:42] INFO root fetch - processPackages [wxauto]: Downloading https://files.pythonhosted.org/packages/69/90/9eaaecee99bc8bc6f766b8a9433e23205f00542b545a80251dfb487fca01/wxauto-3.9.8.15.5.tar.gz
+[2024-04-23 08:28:42] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-04-23 08:28:42] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.7b3.tar.gz tmp/replit_river-0.1.7b5.tar.gz --markdown 20240423/r/replit-river/0.1.7b3-0.1.7b5/README.md --exclude *.pyd
+[2024-04-23 08:28:42] INFO root fetch - processPackages [wxauto]: executing diffoscope
+[2024-04-23 08:28:42] INFO root fetch - processPackages [wxauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxauto-3.9.8.15.4.tar.gz tmp/wxauto-3.9.8.15.5.tar.gz --markdown 20240423/w/wxauto/3.9.8.15.4-3.9.8.15.5/README.md --exclude *.pyd
+[2024-04-23 08:28:42] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b3.tar.gz]
+[2024-04-23 08:28:42] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b5.tar.gz]
+[2024-04-23 08:28:42] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-04-23 08:28:42] INFO root fetch - processPackages [wxauto]: Remove: archive file [/home/abi/fetcher/tmp/wxauto-3.9.8.15.4.tar.gz]
+[2024-04-23 08:28:42] INFO root fetch - processPackages [wxauto]: Remove: archive file [/home/abi/fetcher/tmp/wxauto-3.9.8.15.5.tar.gz]
+[2024-04-23 08:28:42] INFO root fetch - main [MainThread]: End processing [wxauto]: success
+[2024-04-23 08:28:42] INFO root fetch - main [MainThread]: Store serial: [22889710]
