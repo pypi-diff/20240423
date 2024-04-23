@@ -7237,3 +7237,33 @@
 [2024-04-23 03:28:55] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404230126.tar.gz]
 [2024-04-23 03:28:55] INFO root fetch - main [MainThread]: End processing [onediffx]: success
 [2024-04-23 03:28:55] INFO root fetch - main [MainThread]: Store serial: [22887744]
+[2024-04-23 03:30:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887744]
+[2024-04-23 03:31:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 03:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th-influx-sdk
+[2024-04-23 03:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: file-renamer
+[2024-04-23 03:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ez-a-sync
+[2024-04-23 03:31:04] INFO root fetch - processPackages [th-influx-sdk]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-23 03:31:04] INFO root fetch - processPackages [file-renamer]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-23 03:31:04] INFO root fetch - processPackages [ez-a-sync]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-23 03:31:04] INFO root fetch - processPackages [file-renamer]: Downloading https://files.pythonhosted.org/packages/89/07/e0c0c6c6230397f5ca8f73a415fe006a84db860e55e884818503840d9285/file_renamer-1.0.1.tar.gz
+[2024-04-23 03:31:04] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/96/94/98a91b3fe83b42ff9cf320f35f4aa53689bfdc416bd5abd93cc36452ca1e/th-influx-sdk-1.0.2.tar.gz
+[2024-04-23 03:31:04] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/79/96/435db21d769b668a77c8c5d9f4cc5e215ebeeffd9d5daa274e7f0e166e92/ez-a-sync-0.9.2.tar.gz
+[2024-04-23 03:31:05] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/6e/34/6f4e128c3f6189d6d74d476d8ebbfaa3612d63e5b5560199148276bd1350/th-influx-sdk-1.0.3.tar.gz
+[2024-04-23 03:31:05] INFO root fetch - processPackages [file-renamer]: Downloading https://files.pythonhosted.org/packages/77/6f/8edd4d4f5b4433aa7c24e3a7ff00f13f7338034dddd2e0d109ec6a4ea281/file_renamer-1.0.2.tar.gz
+[2024-04-23 03:31:05] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/f4/19/7b1bac3b3ef8f548fcfcd916ecaf6c392d75ff5997e785d688f5270478f1/ez-a-sync-0.9.3.tar.gz
+[2024-04-23 03:31:05] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2024-04-23 03:31:05] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.9.2.tar.gz tmp/ez-a-sync-0.9.3.tar.gz --markdown 20240423/e/ez-a-sync/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-23 03:31:05] INFO root fetch - processPackages [th-influx-sdk]: executing diffoscope
+[2024-04-23 03:31:05] INFO root fetch - processPackages [th-influx-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th-influx-sdk-1.0.2.tar.gz tmp/th-influx-sdk-1.0.3.tar.gz --markdown 20240423/t/th-influx-sdk/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-23 03:31:05] INFO root fetch - processPackages [file-renamer]: executing diffoscope
+[2024-04-23 03:31:05] INFO root fetch - processPackages [file-renamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file_renamer-1.0.1.tar.gz tmp/file_renamer-1.0.2.tar.gz --markdown 20240423/f/file-renamer/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-23 03:31:05] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.2.tar.gz]
+[2024-04-23 03:31:05] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.3.tar.gz]
+[2024-04-23 03:31:05] INFO root fetch - main [MainThread]: End processing [th-influx-sdk]: success
+[2024-04-23 03:31:05] INFO root fetch - processPackages [file-renamer]: Remove: archive file [/home/abi/fetcher/tmp/file_renamer-1.0.1.tar.gz]
+[2024-04-23 03:31:05] INFO root fetch - processPackages [file-renamer]: Remove: archive file [/home/abi/fetcher/tmp/file_renamer-1.0.2.tar.gz]
+[2024-04-23 03:31:05] INFO root fetch - main [MainThread]: End processing [file-renamer]: success
+[2024-04-23 03:31:05] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.9.2.tar.gz]
+[2024-04-23 03:31:05] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.9.3.tar.gz]
+[2024-04-23 03:31:05] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2024-04-23 03:31:05] INFO root fetch - main [MainThread]: Store serial: [22887815]
