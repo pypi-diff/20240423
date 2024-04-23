@@ -9077,3 +9077,63 @@
 [2024-04-23 05:19:23] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.5.9.tar.gz]
 [2024-04-23 05:19:23] INFO root fetch - main [MainThread]: End processing [proksee-batch]: success
 [2024-04-23 05:19:23] INFO root fetch - main [MainThread]: Store serial: [22888500]
+[2024-04-23 05:21:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888500]
+[2024-04-23 05:21:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 05:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webdriver-browser
+[2024-04-23 05:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fossil-director
+[2024-04-23 05:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notemgmt
+[2024-04-23 05:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyekfmm
+[2024-04-23 05:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sprocketship
+[2024-04-23 05:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emlvp
+[2024-04-23 05:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-currency-rate-update-xe
+[2024-04-23 05:21:32] WARNING root fetch - processPackages [fossil-director]: Skipping, unable to determine old version
+[2024-04-23 05:21:32] INFO root fetch - main [MainThread]: End processing [fossil-director] error
+[2024-04-23 05:21:32] INFO root fetch - processPackages [webdriver-browser]: New version: [0.1.5] Old Version: [0.1.4.post1]
+[2024-04-23 05:21:32] INFO root fetch - processPackages [notemgmt]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-23 05:21:32] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev3]
+[2024-04-23 05:21:32] INFO root fetch - processPackages [pyekfmm]: New version: [0.0.8.7] Old Version: [0.0.8.6]
+[2024-04-23 05:21:32] INFO root fetch - processPackages [sprocketship]: New version: [1.0.0] Old Version: [0.6.0]
+[2024-04-23 05:21:32] INFO root fetch - processPackages [emlvp]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-23 05:21:32] INFO root fetch - processPackages [webdriver-browser]: Downloading https://files.pythonhosted.org/packages/2d/9f/7417189f3ab2cf5ea323c0ea9252c005832d4a9938f11e56bf90c143d5b7/webdriver-browser-0.1.4.post1.tar.gz
+[2024-04-23 05:21:32] INFO root fetch - processPackages [notemgmt]: Downloading https://files.pythonhosted.org/packages/9f/e7/35972e89e57275ac07329a04babd475c2dc1bf77be8bcc81edd92d28433e/notemgmt-1.1.1.tar.gz
+[2024-04-23 05:21:32] INFO root fetch - processPackages [pyekfmm]: Downloading https://files.pythonhosted.org/packages/1e/73/18f9a3a5e00aa2164984979e7b32fb827f07de749e52e698abc029240a5c/pyekfmm-0.0.8.6.tar.gz
+[2024-04-23 05:21:32] INFO root fetch - processPackages [sprocketship]: Downloading https://files.pythonhosted.org/packages/2c/f8/de730979140f796c9ecfe2ceeabec53ebec49bd67cdf3670a18a2cda7303/sprocketship-0.6.0.tar.gz
+[2024-04-23 05:21:32] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/5d/29/ee0ebf6d6a4a19505d3065aa8fe4509517a587edca5708ed484fb6cb5635/odoo14_addon_currency_rate_update_xe-14.0.1.0.1.dev3-py3-none-any.whl
+[2024-04-23 05:21:32] INFO root fetch - processPackages [emlvp]: Downloading https://files.pythonhosted.org/packages/98/30/94889805d2e5f0df8aab4848f7fde37974067fcf31e8d775fa675c28d73f/emlvp-1.1.0.tar.gz
+[2024-04-23 05:21:33] INFO root fetch - processPackages [notemgmt]: Downloading https://files.pythonhosted.org/packages/74/bf/5c2b6202dba5ef3215f2656c9dcfb2c91401309312e90adaef1b20abdb21/notemgmt-1.2.0.tar.gz
+[2024-04-23 05:21:33] INFO root fetch - processPackages [webdriver-browser]: Downloading https://files.pythonhosted.org/packages/b8/5d/3b6d7a15e6fd8e9e69b5de7ba1316ba1050763d4fa8a793b7c6677fc1757/webdriver_browser-0.1.5.tar.gz
+[2024-04-23 05:21:33] INFO root fetch - processPackages [sprocketship]: Downloading https://files.pythonhosted.org/packages/48/27/10566917a2c80a3fc3073885668591ea8c11c0f322ed1e5414013ed56417/sprocketship-1.0.0.tar.gz
+[2024-04-23 05:21:33] INFO root fetch - processPackages [pyekfmm]: Downloading https://files.pythonhosted.org/packages/f7/51/b5e95249d5284912f268484294ea52513718184eb03d0a6052b53b156390/pyekfmm-0.0.8.7.tar.gz
+[2024-04-23 05:21:33] INFO root fetch - processPackages [notemgmt]: executing diffoscope
+[2024-04-23 05:21:33] INFO root fetch - processPackages [notemgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notemgmt-1.1.1.tar.gz tmp/notemgmt-1.2.0.tar.gz --markdown 20240423/n/notemgmt/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-23 05:21:33] INFO root fetch - processPackages [webdriver-browser]: executing diffoscope
+[2024-04-23 05:21:33] INFO root fetch - processPackages [webdriver-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdriver-browser-0.1.4.post1.tar.gz tmp/webdriver_browser-0.1.5.tar.gz --markdown 20240423/w/webdriver-browser/0.1.4.post1-0.1.5/README.md --exclude *.pyd
+[2024-04-23 05:21:33] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/ec/50/aa3ab108e4e2847c1003a36f1a727fd283b342be1f6716197d9001beff94/odoo14_addon_currency_rate_update_xe-14.0.1.0.1.dev4-py3-none-any.whl
+[2024-04-23 05:21:33] INFO root fetch - processPackages [emlvp]: Downloading https://files.pythonhosted.org/packages/c6/85/d5d28d00941c60967a4b0424f3b7f9dbcb5bfb2aa63eab10cbb58050368e/emlvp-1.2.0.tar.gz
+[2024-04-23 05:21:33] INFO root fetch - processPackages [pyekfmm]: executing diffoscope
+[2024-04-23 05:21:33] INFO root fetch - processPackages [pyekfmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyekfmm-0.0.8.6.tar.gz tmp/pyekfmm-0.0.8.7.tar.gz --markdown 20240423/p/pyekfmm/0.0.8.6-0.0.8.7/README.md --exclude *.pyd
+[2024-04-23 05:21:33] INFO root fetch - processPackages [sprocketship]: executing diffoscope
+[2024-04-23 05:21:33] INFO root fetch - processPackages [sprocketship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sprocketship-0.6.0.tar.gz tmp/sprocketship-1.0.0.tar.gz --markdown 20240423/s/sprocketship/0.6.0-1.0.0/README.md --exclude *.pyd
+[2024-04-23 05:21:33] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: executing diffoscope
+[2024-04-23 05:21:33] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_currency_rate_update_xe-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_currency_rate_update_xe-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-currency-rate-update-xe/14.0.1.0.1.dev3-14.0.1.0.1.dev4/README.md --exclude *.pyd
+[2024-04-23 05:21:33] INFO root fetch - processPackages [emlvp]: executing diffoscope
+[2024-04-23 05:21:33] INFO root fetch - processPackages [emlvp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emlvp-1.1.0.tar.gz tmp/emlvp-1.2.0.tar.gz --markdown 20240423/e/emlvp/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-23 05:21:33] INFO root fetch - processPackages [webdriver-browser]: Remove: archive file [/home/abi/fetcher/tmp/webdriver-browser-0.1.4.post1.tar.gz]
+[2024-04-23 05:21:33] INFO root fetch - processPackages [webdriver-browser]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_browser-0.1.5.tar.gz]
+[2024-04-23 05:21:33] INFO root fetch - main [MainThread]: End processing [webdriver-browser]: success
+[2024-04-23 05:21:33] INFO root fetch - processPackages [notemgmt]: Remove: archive file [/home/abi/fetcher/tmp/notemgmt-1.1.1.tar.gz]
+[2024-04-23 05:21:33] INFO root fetch - processPackages [notemgmt]: Remove: archive file [/home/abi/fetcher/tmp/notemgmt-1.2.0.tar.gz]
+[2024-04-23 05:21:33] INFO root fetch - main [MainThread]: End processing [notemgmt]: success
+[2024-04-23 05:21:34] INFO root fetch - processPackages [sprocketship]: Remove: archive file [/home/abi/fetcher/tmp/sprocketship-0.6.0.tar.gz]
+[2024-04-23 05:21:34] INFO root fetch - processPackages [sprocketship]: Remove: archive file [/home/abi/fetcher/tmp/sprocketship-1.0.0.tar.gz]
+[2024-04-23 05:21:34] INFO root fetch - main [MainThread]: End processing [sprocketship]: success
+[2024-04-23 05:21:34] INFO root fetch - processPackages [pyekfmm]: Remove: archive file [/home/abi/fetcher/tmp/pyekfmm-0.0.8.6.tar.gz]
+[2024-04-23 05:21:34] INFO root fetch - processPackages [pyekfmm]: Remove: archive file [/home/abi/fetcher/tmp/pyekfmm-0.0.8.7.tar.gz]
+[2024-04-23 05:21:34] INFO root fetch - main [MainThread]: End processing [pyekfmm]: success
+[2024-04-23 05:21:34] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_currency_rate_update_xe-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2024-04-23 05:21:34] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_currency_rate_update_xe-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2024-04-23 05:21:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-currency-rate-update-xe]: success
+[2024-04-23 05:21:38] INFO root fetch - processPackages [emlvp]: Remove: archive file [/home/abi/fetcher/tmp/emlvp-1.1.0.tar.gz]
+[2024-04-23 05:21:38] INFO root fetch - processPackages [emlvp]: Remove: archive file [/home/abi/fetcher/tmp/emlvp-1.2.0.tar.gz]
+[2024-04-23 05:21:38] INFO root fetch - main [MainThread]: End processing [emlvp]: success
+[2024-04-23 05:21:38] INFO root fetch - main [MainThread]: Store serial: [22888517]
