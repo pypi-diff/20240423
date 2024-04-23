@@ -9184,3 +9184,57 @@
 [2024-04-23 05:23:50] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
 [2024-04-23 05:23:50] INFO root fetch - main [MainThread]: End processing [gs2]: success
 [2024-04-23 05:23:50] INFO root fetch - main [MainThread]: Store serial: [22888533]
+[2024-04-23 05:25:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888533]
+[2024-04-23 05:25:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 05:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-ddmrp-chatter
+[2024-04-23 05:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-ddmrp-chatter
+[2024-04-23 05:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eirStru
+[2024-04-23 05:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: InvokeAI
+[2024-04-23 05:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AvaxiaLLM
+[2024-04-23 05:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-osubot
+[2024-04-23 05:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proksee-batch
+[2024-04-23 05:25:58] INFO root fetch - processPackages [proksee-batch]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-23 05:25:58] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0]
+[2024-04-23 05:25:58] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0]
+[2024-04-23 05:25:58] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [5.7.2] Old Version: [5.7.1]
+[2024-04-23 05:25:58] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 05:25:58] INFO root fetch - processPackages [InvokeAI]: New version: [4.2.0a1] Old Version: [4.1.0]
+[2024-04-23 05:25:59] WARNING root fetch - processPackages [AvaxiaLLM]: Skipping, unable to determine old version
+[2024-04-23 05:25:59] INFO root fetch - main [MainThread]: End processing [AvaxiaLLM] error
+[2024-04-23 05:25:59] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/87/77/eceea51332b123244f3f38872eb959aeb2e5a1989b4c71a79f775a545aa1/proksee_batch-0.5.8.tar.gz
+[2024-04-23 05:25:59] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: Downloading https://files.pythonhosted.org/packages/9a/b7/733a9bf890248d1384f31611d7178922aa1c26c566f25d2ed9283a37ca0f/odoo_addon_ddmrp_chatter-16.0.1.1.0-py3-none-any.whl
+[2024-04-23 05:25:59] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: Downloading https://files.pythonhosted.org/packages/9a/b7/733a9bf890248d1384f31611d7178922aa1c26c566f25d2ed9283a37ca0f/odoo_addon_ddmrp_chatter-16.0.1.1.0-py3-none-any.whl
+[2024-04-23 05:25:59] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/75/98/9fdd36adbd2a7376d1a2e18705f07e355c8985efe83ffc55fa75c11d0e53/nonebot-plugin-osubot-5.7.1.tar.gz
+[2024-04-23 05:25:59] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-23 05:25:59] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/f0/e5/ccbec46ddb9eadf0706881b7e5b12082fdcfaef1366cbfa2964e716c2eed/InvokeAI-4.1.0.tar.gz
+[2024-04-23 05:25:59] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29381350>=10485760
+[2024-04-23 05:25:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-04-23 05:25:59] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: Downloading https://files.pythonhosted.org/packages/76/05/f1a5b3f5580a58e7b327005cfbcd41d4ca61b783f33686970ee300e78322/odoo_addon_ddmrp_chatter-16.0.1.1.1-py3-none-any.whl
+[2024-04-23 05:25:59] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-23 05:25:59] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: Downloading https://files.pythonhosted.org/packages/76/05/f1a5b3f5580a58e7b327005cfbcd41d4ca61b783f33686970ee300e78322/odoo_addon_ddmrp_chatter-16.0.1.1.1-py3-none-any.whl
+[2024-04-23 05:25:59] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: executing diffoscope
+[2024-04-23 05:25:59] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_chatter-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_chatter-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-ddmrp-chatter/16.0.1.1.0-16.0.1.1.1/README.md --exclude *.pyd
+[2024-04-23 05:25:59] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-23 05:25:59] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240423/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 05:25:59] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: executing diffoscope
+[2024-04-23 05:25:59] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_chatter-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_chatter-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-ddmrp-chatter/16.0.1.1.0-16.0.1.1.1/README.md --exclude *.pyd
+[2024-04-23 05:25:59] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/44/b6/ed565d5d9dd42e3313e4b7f6397553c8184af29e7aa68cb8fe203fe7a01a/InvokeAI-4.2.0a1.tar.gz
+[2024-04-23 05:25:59] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/cd/e5/77ba32d35c45add0f725e323bf178c710319e608ffdec0b1828dafeeda4f/proksee_batch-0.5.9.tar.gz
+[2024-04-23 05:25:59] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2024-04-23 05:25:59] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-4.1.0.tar.gz tmp/InvokeAI-4.2.0a1.tar.gz --markdown 20240423/I/InvokeAI/4.1.0-4.2.0a1/README.md --exclude *.pyd
+[2024-04-23 05:25:59] INFO root fetch - processPackages [proksee-batch]: executing diffoscope
+[2024-04-23 05:25:59] INFO root fetch - processPackages [proksee-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proksee_batch-0.5.8.tar.gz tmp/proksee_batch-0.5.9.tar.gz --markdown 20240423/p/proksee-batch/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-23 05:26:00] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_chatter-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-23 05:26:00] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_chatter-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-04-23 05:26:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-chatter]: success
+[2024-04-23 05:26:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-chatter]: success
+[2024-04-23 05:26:00] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-23 05:26:00] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-23 05:26:00] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-23 05:26:01] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.5.8.tar.gz]
+[2024-04-23 05:26:01] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.5.9.tar.gz]
+[2024-04-23 05:26:01] INFO root fetch - main [MainThread]: End processing [proksee-batch]: success
+[2024-04-23 05:26:25] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.1.0.tar.gz]
+[2024-04-23 05:26:25] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.0a1.tar.gz]
+[2024-04-23 05:26:25] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2024-04-23 05:26:25] INFO root fetch - main [MainThread]: Store serial: [22888551]
