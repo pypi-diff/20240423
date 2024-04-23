@@ -14450,3 +14450,84 @@
 [2024-04-23 10:19:03] WARNING root fetch - processPackages [libecalc]: Skipping package: exceeds size limit 28339411>=10485760
 [2024-04-23 10:19:03] INFO root fetch - main [MainThread]: End processing [libecalc] error
 [2024-04-23 10:19:03] INFO root fetch - main [MainThread]: Store serial: [22890807]
+[2024-04-23 10:21:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890807]
+[2024-04-23 10:21:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-23 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdf4llm
+[2024-04-23 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pgpt_python
+[2024-04-23 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dforge
+[2024-04-23 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Flask-PikaMQ
+[2024-04-23 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: energyml-utils
+[2024-04-23 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TitanDevice
+[2024-04-23 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lense
+[2024-04-23 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bgutils-hddly
+[2024-04-23 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chrontext
+[2024-04-23 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tweety-ns
+[2024-04-23 10:21:12] INFO root fetch - processPackages [pgpt_python]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 10:21:12] WARNING root fetch - processPackages [TitanDevice]: Skipping, unable to determine old version
+[2024-04-23 10:21:12] INFO root fetch - main [MainThread]: End processing [TitanDevice] error
+[2024-04-23 10:21:12] INFO root fetch - processPackages [pdf4llm]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 10:21:12] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 10:21:12] WARNING root fetch - processPackages [Flask-PikaMQ]: Skipping, unable to determine old version
+[2024-04-23 10:21:12] INFO root fetch - main [MainThread]: End processing [Flask-PikaMQ] error
+[2024-04-23 10:21:12] INFO root fetch - processPackages [dforge]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-23 10:21:12] INFO root fetch - processPackages [energyml-utils]: New version: [1.0.1.dev4] Old Version: [1.0.0]
+[2024-04-23 10:21:12] INFO root fetch - processPackages [pgpt_python]: Downloading https://files.pythonhosted.org/packages/97/ad/7a804e33ec18b4e6d5cd133b99bfded06ae364975cb3616b8252c99126d2/pgpt_python-0.1.0.tar.gz
+[2024-04-23 10:21:12] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-23 10:21:12] INFO root fetch - processPackages [bgutils-hddly]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-23 10:21:12] INFO root fetch - processPackages [dforge]: Downloading https://files.pythonhosted.org/packages/83/fe/1d57736425766d6e3c50a731a2f7fb7409333cecb957307c67b8a77432b4/dforge-2.1.1.tar.gz
+[2024-04-23 10:21:12] INFO root fetch - processPackages [chrontext]: New version: [0.8.6] Old Version: [0.8.4]
+[2024-04-23 10:21:12] INFO root fetch - processPackages [tweety-ns]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-23 10:21:12] INFO root fetch - processPackages [pdf4llm]: Downloading https://files.pythonhosted.org/packages/01/0d/53b777b6be5623e82ea9fa62ed6f28517a2c798fce4766910d5b7a67e4c1/pdf4llm-0.0.1.tar.gz
+[2024-04-23 10:21:12] INFO root fetch - processPackages [energyml-utils]: Downloading https://files.pythonhosted.org/packages/fa/d3/0d005a60e9ddf45f3294392f195b32f18d642f718d34c6bc74571d44d3a4/energyml_utils-1.0.0.tar.gz
+[2024-04-23 10:21:12] INFO root fetch - processPackages [bgutils-hddly]: Downloading https://files.pythonhosted.org/packages/07/22/a69a45ea0621e457373043238ae8172d597dde38054d258752459d22fd6a/bgutils_hddly-1.1.8-py3-none-any.whl
+[2024-04-23 10:21:12] INFO root fetch - processPackages [pgpt_python]: Downloading https://files.pythonhosted.org/packages/19/34/5bf088f3f574ad0e00e66ddf954c49a2a9f746fc0f5f079e1e47dfc0c492/pgpt_python-0.1.1.tar.gz
+[2024-04-23 10:21:12] INFO root fetch - processPackages [chrontext]: Downloading https://files.pythonhosted.org/packages/9e/b2/aa0b9ad3c1a497b8caf91799f84e201d74a1115afc65a1b40408cb2b8268/chrontext-0.8.4.tar.gz
+[2024-04-23 10:21:12] INFO root fetch - processPackages [tweety-ns]: Downloading https://files.pythonhosted.org/packages/5d/dd/65eea84a2d6851f733135adda9016d7ced5ee873c870d66ff502babcedb1/tweety-ns-1.1.2.tar.gz
+[2024-04-23 10:21:12] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-23 10:21:12] INFO root fetch - processPackages [dforge]: Downloading https://files.pythonhosted.org/packages/97/fe/648d1fa429fac98951de592943486ad60890efcd959a4ac6a355f53ca0d2/dforge-2.1.2.tar.gz
+[2024-04-23 10:21:12] INFO root fetch - processPackages [pgpt_python]: executing diffoscope
+[2024-04-23 10:21:12] INFO root fetch - processPackages [pgpt_python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgpt_python-0.1.0.tar.gz tmp/pgpt_python-0.1.1.tar.gz --markdown 20240423/p/pgpt_python/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 10:21:13] INFO root fetch - processPackages [pdf4llm]: Downloading https://files.pythonhosted.org/packages/3d/a0/29ea825b8a503328debec5372a80a5e6c25ee1a983db769ab3deea11dc4f/pdf4llm-0.0.2.tar.gz
+[2024-04-23 10:21:13] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 10:21:13] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 10:21:13] INFO root fetch - processPackages [energyml-utils]: Downloading https://files.pythonhosted.org/packages/fc/27/3c06d3ba691b9167e3f40e22a0b2df8bd14d8509b895042451b9f0491de8/energyml_utils-1.0.1.dev4.tar.gz
+[2024-04-23 10:21:13] INFO root fetch - processPackages [dforge]: executing diffoscope
+[2024-04-23 10:21:13] INFO root fetch - processPackages [dforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dforge-2.1.1.tar.gz tmp/dforge-2.1.2.tar.gz --markdown 20240423/d/dforge/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-23 10:21:13] INFO root fetch - processPackages [bgutils-hddly]: Downloading https://files.pythonhosted.org/packages/68/b8/73eaefe5a7f9214b0aa5443f4083f56d3a6492768411b1a003302b66bf45/bgutils_hddly-1.1.9.tar.gz
+[2024-04-23 10:21:13] INFO root fetch - processPackages [pdf4llm]: executing diffoscope
+[2024-04-23 10:21:13] INFO root fetch - processPackages [pdf4llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf4llm-0.0.1.tar.gz tmp/pdf4llm-0.0.2.tar.gz --markdown 20240423/p/pdf4llm/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 10:21:13] INFO root fetch - processPackages [energyml-utils]: executing diffoscope
+[2024-04-23 10:21:13] INFO root fetch - processPackages [energyml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energyml_utils-1.0.0.tar.gz tmp/energyml_utils-1.0.1.dev4.tar.gz --markdown 20240423/e/energyml-utils/1.0.0-1.0.1.dev4/README.md --exclude *.pyd
+[2024-04-23 10:21:13] INFO root fetch - processPackages [bgutils-hddly]: executing diffoscope
+[2024-04-23 10:21:13] INFO root fetch - processPackages [bgutils-hddly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgutils_hddly-1.1.8-py3-none-any.whl.zip tmp/bgutils_hddly-1.1.9.tar.gz --markdown 20240423/b/bgutils-hddly/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-23 10:21:13] INFO root fetch - processPackages [tweety-ns]: Downloading https://files.pythonhosted.org/packages/ed/03/16b0d66b32cc0ecee7f2601e23307618d323fa68f5d01d84dbdf79b7fe05/tweety_ns-1.1.3.tar.gz
+[2024-04-23 10:21:13] INFO root fetch - processPackages [tweety-ns]: executing diffoscope
+[2024-04-23 10:21:13] INFO root fetch - processPackages [tweety-ns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweety-ns-1.1.2.tar.gz tmp/tweety_ns-1.1.3.tar.gz --markdown 20240423/t/tweety-ns/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-23 10:21:13] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 10:21:13] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 10:21:13] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 10:21:13] INFO root fetch - processPackages [pdf4llm]: Remove: archive file [/home/abi/fetcher/tmp/pdf4llm-0.0.1.tar.gz]
+[2024-04-23 10:21:13] INFO root fetch - processPackages [pdf4llm]: Remove: archive file [/home/abi/fetcher/tmp/pdf4llm-0.0.2.tar.gz]
+[2024-04-23 10:21:13] INFO root fetch - main [MainThread]: End processing [pdf4llm]: success
+[2024-04-23 10:21:14] INFO root fetch - processPackages [pgpt_python]: Remove: archive file [/home/abi/fetcher/tmp/pgpt_python-0.1.0.tar.gz]
+[2024-04-23 10:21:14] INFO root fetch - processPackages [pgpt_python]: Remove: archive file [/home/abi/fetcher/tmp/pgpt_python-0.1.1.tar.gz]
+[2024-04-23 10:21:14] INFO root fetch - main [MainThread]: End processing [pgpt_python]: success
+[2024-04-23 10:21:14] INFO root fetch - processPackages [bgutils-hddly]: Remove: archive file [/home/abi/fetcher/tmp/bgutils_hddly-1.1.8-py3-none-any.whl.zip]
+[2024-04-23 10:21:14] INFO root fetch - processPackages [bgutils-hddly]: Remove: archive file [/home/abi/fetcher/tmp/bgutils_hddly-1.1.9.tar.gz]
+[2024-04-23 10:21:14] INFO root fetch - main [MainThread]: End processing [bgutils-hddly]: success
+[2024-04-23 10:21:14] INFO root fetch - processPackages [energyml-utils]: Remove: archive file [/home/abi/fetcher/tmp/energyml_utils-1.0.0.tar.gz]
+[2024-04-23 10:21:14] INFO root fetch - processPackages [energyml-utils]: Remove: archive file [/home/abi/fetcher/tmp/energyml_utils-1.0.1.dev4.tar.gz]
+[2024-04-23 10:21:14] INFO root fetch - main [MainThread]: End processing [energyml-utils]: success
+[2024-04-23 10:21:14] INFO root fetch - processPackages [dforge]: Remove: archive file [/home/abi/fetcher/tmp/dforge-2.1.1.tar.gz]
+[2024-04-23 10:21:14] INFO root fetch - processPackages [dforge]: Remove: archive file [/home/abi/fetcher/tmp/dforge-2.1.2.tar.gz]
+[2024-04-23 10:21:14] INFO root fetch - main [MainThread]: End processing [dforge]: success
+[2024-04-23 10:21:14] INFO root fetch - processPackages [tweety-ns]: Remove: archive file [/home/abi/fetcher/tmp/tweety-ns-1.1.2.tar.gz]
+[2024-04-23 10:21:14] INFO root fetch - processPackages [tweety-ns]: Remove: archive file [/home/abi/fetcher/tmp/tweety_ns-1.1.3.tar.gz]
+[2024-04-23 10:21:14] INFO root fetch - main [MainThread]: End processing [tweety-ns]: success
+[2024-04-23 10:21:14] INFO root fetch - processPackages [chrontext]: Downloading https://files.pythonhosted.org/packages/70/e1/ae8bf58f995580488fd7faa0bc8d055e9fd071a338edaeeebba74a811aec/chrontext-0.8.6.tar.gz
+[2024-04-23 10:21:17] INFO root fetch - processPackages [chrontext]: executing diffoscope
+[2024-04-23 10:21:17] INFO root fetch - processPackages [chrontext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrontext-0.8.4.tar.gz tmp/chrontext-0.8.6.tar.gz --markdown 20240423/c/chrontext/0.8.4-0.8.6/README.md --exclude *.pyd
+[2024-04-23 10:21:20] INFO root fetch - processPackages [chrontext]: Remove: archive file [/home/abi/fetcher/tmp/chrontext-0.8.4.tar.gz]
+[2024-04-23 10:21:20] INFO root fetch - processPackages [chrontext]: Remove: archive file [/home/abi/fetcher/tmp/chrontext-0.8.6.tar.gz]
+[2024-04-23 10:21:20] INFO root fetch - main [MainThread]: End processing [chrontext]: success
+[2024-04-23 10:21:20] INFO root fetch - main [MainThread]: Store serial: [22890835]
