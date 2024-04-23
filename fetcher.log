@@ -14947,3 +14947,132 @@
 [2024-04-23 10:39:42] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240423071625.tar.gz]
 [2024-04-23 10:39:42] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-23 10:39:42] INFO root fetch - main [MainThread]: Store serial: [22891101]
+[2024-04-23 10:41:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891101]
+[2024-04-23 10:41:51] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-23 10:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phringe
+[2024-04-23 10:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uhelp
+[2024-04-23 10:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tq42-grpc-client
+[2024-04-23 10:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bcmd
+[2024-04-23 10:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hda
+[2024-04-23 10:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fourcats-flask
+[2024-04-23 10:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chess-utils
+[2024-04-23 10:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: selphyprint
+[2024-04-23 10:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlink
+[2024-04-23 10:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pypipr
+[2024-04-23 10:41:52] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-23 10:41:52] INFO root fetch - processPackages [phringe]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 10:41:52] INFO root fetch - processPackages [fourcats-flask]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-23 10:41:52] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.83]
+[2024-04-23 10:41:52] INFO root fetch - processPackages [hda]: New version: [2.14] Old Version: [2.13]
+[2024-04-23 10:41:52] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [chess-utils]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-23 10:41:52] INFO root fetch - processPackages [bcmd]: New version: [0.0.69] Old Version: [0.0.68]
+[2024-04-23 10:41:52] INFO root fetch - processPackages [uhelp]: New version: [0.6.2] Old Version: [0.6.0]
+[2024-04-23 10:41:52] INFO root fetch - processPackages [selphyprint]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 10:41:52] INFO root fetch - processPackages [sqlink]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-04-23 10:41:52] INFO root fetch - processPackages [fourcats-flask]: Downloading https://files.pythonhosted.org/packages/e3/90/5350386f4b164dee85e031656cac90e7a3bba521fd2ba30a2c4f7051faf1/fourcats-flask-0.1.2.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/7a/6c/f071cba50885da2c0c38dd2f65e60b0b1a3d428c2bf4acc7a24115009243/phringe-0.0.8.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [hda]: Downloading https://files.pythonhosted.org/packages/62/00/af78d2b6a7e7120b0fcc8df1772e0cea898d128efa3397d91ef0dfefc59a/hda-2.13.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/9a/67/c9df13bd2e67e3e284877febae73490c0615e20f51a1197a84ab93416b61/bcmd-0.0.68.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [uhelp]: Downloading https://files.pythonhosted.org/packages/2b/dc/24a145f13f3cd04e6f36262838e22ce7888f9f6790413d64d47f0fd3338a/uhelp-0.6.0.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [chess-utils]: Downloading https://files.pythonhosted.org/packages/55/94/6ac4fdd74e75d46b0f4b9ec2a3caad087d616134adad0687e40458976362/chess-utils-0.1.7.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/dc/a4/029d731993dd565a727a21f46c117f65d54e2a80f0576b6d9323e7e7c926/pypipr-1.0.83.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [selphyprint]: Downloading https://files.pythonhosted.org/packages/9d/21/e31f6b15d63ceb135752cbe73c3a3789962917df6667d86b1239fda852ba/selphyprint-0.0.2.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [sqlink]: Downloading https://files.pythonhosted.org/packages/e1/32/63c5fc10cb9844ad60b9b2c5f969e1cc845edf5631fb05a3f7066953cbbe/sqlink-1.5.3.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [fourcats-flask]: Downloading https://files.pythonhosted.org/packages/53/d7/d5777f325b922bfb89f4ea50d296cfbf7139550cf5986d99056f9f1ea120/fourcats_flask-0.1.3.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/a9/3f/4fae0af86d9be225260c4afd1c1b74017765456017b0dd091b57adba093b/phringe-0.0.9.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [fourcats-flask]: executing diffoscope
+[2024-04-23 10:41:52] INFO root fetch - processPackages [fourcats-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fourcats-flask-0.1.2.tar.gz tmp/fourcats_flask-0.1.3.tar.gz --markdown 20240423/f/fourcats-flask/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-23 10:41:52] INFO root fetch - processPackages [phringe]: executing diffoscope
+[2024-04-23 10:41:52] INFO root fetch - processPackages [phringe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phringe-0.0.8.tar.gz tmp/phringe-0.0.9.tar.gz --markdown 20240423/p/phringe/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 10:41:52] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-04-23 10:41:52] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240423/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-23 10:41:52] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [hda]: Downloading https://files.pythonhosted.org/packages/cf/05/b95991a42dfaba9fe985fe0c7574915f10da6178d8f45f0ae3aa681cce1a/hda-2.14.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/f6/a5/ec8c13c06a39c356617ea9ec525764cdb94be287eee241950157f2ab2e27/bcmd-0.0.69.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [chess-utils]: Downloading https://files.pythonhosted.org/packages/a3/dc/1afe218e54667934bab5660e347ffb7cefed78c6dfddc717fb5f962ae659/chess_utils-0.1.8.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [selphyprint]: Downloading https://files.pythonhosted.org/packages/6e/89/d3958493cd23c83cdd9737f1599e1a0cba5e8eca0d1f8e31a55b4c9060a2/selphyprint-0.0.3.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [sqlink]: Downloading https://files.pythonhosted.org/packages/0f/76/9c2c29e10e8e8d1cb6533a46860d8ced5ba9d66053f4be97df98d0ea105f/sqlink-1.5.4.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-23 10:41:52] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.83.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240423/p/pypipr/1.0.83-1.0.9/README.md --exclude *.pyd
+[2024-04-23 10:41:52] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2024-04-23 10:41:52] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.68.tar.gz tmp/bcmd-0.0.69.tar.gz --markdown 20240423/b/bcmd/0.0.68-0.0.69/README.md --exclude *.pyd
+[2024-04-23 10:41:52] INFO root fetch - processPackages [hda]: executing diffoscope
+[2024-04-23 10:41:52] INFO root fetch - processPackages [hda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hda-2.13.tar.gz tmp/hda-2.14.tar.gz --markdown 20240423/h/hda/2.13-2.14/README.md --exclude *.pyd
+[2024-04-23 10:41:52] INFO root fetch - processPackages [uhelp]: Downloading https://files.pythonhosted.org/packages/8c/16/c66c1f2a15b7cbd15dc248e09a28d59416d535aee4718e97337e3c6b64d3/uhelp-0.6.2.tar.gz
+[2024-04-23 10:41:52] INFO root fetch - processPackages [chess-utils]: executing diffoscope
+[2024-04-23 10:41:52] INFO root fetch - processPackages [chess-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess-utils-0.1.7.tar.gz tmp/chess_utils-0.1.8.tar.gz --markdown 20240423/c/chess-utils/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-23 10:41:53] INFO root fetch - processPackages [selphyprint]: executing diffoscope
+[2024-04-23 10:41:53] INFO root fetch - processPackages [selphyprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selphyprint-0.0.2.tar.gz tmp/selphyprint-0.0.3.tar.gz --markdown 20240423/s/selphyprint/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 10:41:53] INFO root fetch - processPackages [sqlink]: executing diffoscope
+[2024-04-23 10:41:53] INFO root fetch - processPackages [sqlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlink-1.5.3.tar.gz tmp/sqlink-1.5.4.tar.gz --markdown 20240423/s/sqlink/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-04-23 10:41:53] INFO root fetch - processPackages [uhelp]: executing diffoscope
+[2024-04-23 10:41:53] INFO root fetch - processPackages [uhelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uhelp-0.6.0.tar.gz tmp/uhelp-0.6.2.tar.gz --markdown 20240423/u/uhelp/0.6.0-0.6.2/README.md --exclude *.pyd
+[2024-04-23 10:41:53] INFO root fetch - processPackages [fourcats-flask]: Remove: archive file [/home/abi/fetcher/tmp/fourcats-flask-0.1.2.tar.gz]
+[2024-04-23 10:41:53] INFO root fetch - processPackages [fourcats-flask]: Remove: archive file [/home/abi/fetcher/tmp/fourcats_flask-0.1.3.tar.gz]
+[2024-04-23 10:41:53] INFO root fetch - processPackages [fourcats-flask]: Start processing: mecord-cli
+[2024-04-23 10:41:53] INFO root fetch - main [MainThread]: End processing [fourcats-flask]: success
+[2024-04-23 10:41:53] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.8.tar.gz]
+[2024-04-23 10:41:53] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.9.tar.gz]
+[2024-04-23 10:41:53] INFO root fetch - processPackages [phringe]: Start processing: gsheet-pandas
+[2024-04-23 10:41:53] INFO root fetch - main [MainThread]: End processing [phringe]: success
+[2024-04-23 10:41:53] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-23 10:41:53] INFO root fetch - processPackages [gsheet-pandas]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-23 10:41:53] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.83.tar.gz]
+[2024-04-23 10:41:53] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-23 10:41:53] INFO root fetch - processPackages [pypipr]: Start processing: frontengine-dev
+[2024-04-23 10:41:53] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-23 10:41:54] INFO root fetch - processPackages [gsheet-pandas]: Downloading https://files.pythonhosted.org/packages/59/64/bf831c24092ca91869aa186c6c388bf968aef9276b95d01ae5852562f4a3/gsheet_pandas-0.2.6-py3-none-any.whl
+[2024-04-23 10:41:54] INFO root fetch - processPackages [chess-utils]: Remove: archive file [/home/abi/fetcher/tmp/chess-utils-0.1.7.tar.gz]
+[2024-04-23 10:41:54] INFO root fetch - processPackages [chess-utils]: Remove: archive file [/home/abi/fetcher/tmp/chess_utils-0.1.8.tar.gz]
+[2024-04-23 10:41:54] INFO root fetch - processPackages [chess-utils]: Start processing: chess-notation
+[2024-04-23 10:41:54] INFO root fetch - main [MainThread]: End processing [chess-utils]: success
+[2024-04-23 10:41:54] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.68.tar.gz]
+[2024-04-23 10:41:54] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.69.tar.gz]
+[2024-04-23 10:41:54] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2024-04-23 10:41:54] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-04-23 10:41:54] INFO root fetch - processPackages [selphyprint]: Remove: archive file [/home/abi/fetcher/tmp/selphyprint-0.0.2.tar.gz]
+[2024-04-23 10:41:54] INFO root fetch - processPackages [selphyprint]: Remove: archive file [/home/abi/fetcher/tmp/selphyprint-0.0.3.tar.gz]
+[2024-04-23 10:41:54] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 10:41:54] INFO root fetch - main [MainThread]: End processing [selphyprint]: success
+[2024-04-23 10:41:54] INFO root fetch - processPackages [sqlink]: Remove: archive file [/home/abi/fetcher/tmp/sqlink-1.5.3.tar.gz]
+[2024-04-23 10:41:54] INFO root fetch - processPackages [sqlink]: Remove: archive file [/home/abi/fetcher/tmp/sqlink-1.5.4.tar.gz]
+[2024-04-23 10:41:54] INFO root fetch - main [MainThread]: End processing [sqlink]: success
+[2024-04-23 10:41:54] INFO root fetch - processPackages [hda]: Remove: archive file [/home/abi/fetcher/tmp/hda-2.13.tar.gz]
+[2024-04-23 10:41:54] INFO root fetch - processPackages [hda]: Remove: archive file [/home/abi/fetcher/tmp/hda-2.14.tar.gz]
+[2024-04-23 10:41:54] INFO root fetch - main [MainThread]: End processing [hda]: success
+[2024-04-23 10:41:54] INFO root fetch - processPackages [chess-notation]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-23 10:41:54] INFO root fetch - processPackages [gsheet-pandas]: Downloading https://files.pythonhosted.org/packages/74/57/cdb1eeb39b228cb525b0a0c91500b835ba2ac157995653551c300d7d25a4/gsheet_pandas-0.2.7.tar.gz
+[2024-04-23 10:41:54] INFO root fetch - processPackages [gsheet-pandas]: executing diffoscope
+[2024-04-23 10:41:54] INFO root fetch - processPackages [gsheet-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsheet_pandas-0.2.6-py3-none-any.whl.zip tmp/gsheet_pandas-0.2.7.tar.gz --markdown 20240423/g/gsheet-pandas/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-23 10:41:54] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2024-04-23 10:41:54] INFO root fetch - processPackages [chess-notation]: Downloading https://files.pythonhosted.org/packages/99/65/12e122fb964c976bc931e3cfe02b419eb817e34e3eb695425d43b5fedc1b/chess-notation-0.1.7.tar.gz
+[2024-04-23 10:41:54] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-04-23 10:41:54] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-04-23 10:41:54] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240423/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-23 10:41:54] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2024-04-23 10:41:54] INFO root fetch - processPackages [chess-notation]: Downloading https://files.pythonhosted.org/packages/32/5b/321aa148837de99a6e8c33c737a8184b9c471a64de7ec63e8881680817ce/chess_notation-0.1.8.tar.gz
+[2024-04-23 10:41:54] INFO root fetch - processPackages [gsheet-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gsheet_pandas-0.2.6-py3-none-any.whl.zip]
+[2024-04-23 10:41:54] INFO root fetch - processPackages [gsheet-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gsheet_pandas-0.2.7.tar.gz]
+[2024-04-23 10:41:54] INFO root fetch - main [MainThread]: End processing [gsheet-pandas]: success
+[2024-04-23 10:41:55] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2024-04-23 10:41:55] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20240423/f/frontengine-dev/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 10:41:55] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-04-23 10:41:55] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-04-23 10:41:55] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-04-23 10:41:55] INFO root fetch - processPackages [chess-notation]: executing diffoscope
+[2024-04-23 10:41:55] INFO root fetch - processPackages [chess-notation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess-notation-0.1.7.tar.gz tmp/chess_notation-0.1.8.tar.gz --markdown 20240423/c/chess-notation/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-23 10:41:55] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-04-23 10:41:55] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-04-23 10:41:55] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-04-23 10:41:55] INFO root fetch - processPackages [chess-notation]: Remove: archive file [/home/abi/fetcher/tmp/chess-notation-0.1.7.tar.gz]
+[2024-04-23 10:41:55] INFO root fetch - processPackages [chess-notation]: Remove: archive file [/home/abi/fetcher/tmp/chess_notation-0.1.8.tar.gz]
+[2024-04-23 10:41:55] INFO root fetch - main [MainThread]: End processing [chess-notation]: success
+[2024-04-23 10:41:55] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2024-04-23 10:41:55] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2024-04-23 10:41:55] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2024-04-23 10:42:06] INFO root fetch - processPackages [uhelp]: Remove: archive file [/home/abi/fetcher/tmp/uhelp-0.6.0.tar.gz]
+[2024-04-23 10:42:06] INFO root fetch - processPackages [uhelp]: Remove: archive file [/home/abi/fetcher/tmp/uhelp-0.6.2.tar.gz]
+[2024-04-23 10:42:06] INFO root fetch - main [MainThread]: End processing [uhelp]: success
+[2024-04-23 10:42:06] INFO root fetch - main [MainThread]: Store serial: [22891156]
