@@ -12145,3 +12145,18 @@
 [2024-04-23 08:39:39] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-toursolver]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel_shipment_advice_toursolver-16.0.1.0.0.6-py3-none-any.whl.zip]
 [2024-04-23 08:39:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel-shipment-advice-toursolver]: success
 [2024-04-23 08:39:39] INFO root fetch - main [MainThread]: Store serial: [22889781]
+[2024-04-23 08:41:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889781]
+[2024-04-23 08:41:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 08:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myavm
+[2024-04-23 08:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HeraData
+[2024-04-23 08:41:48] INFO root fetch - processPackages [HeraData]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-23 08:41:48] WARNING root fetch - processPackages [myavm]: Skipping, unable to determine old version
+[2024-04-23 08:41:48] INFO root fetch - main [MainThread]: End processing [myavm] error
+[2024-04-23 08:41:48] INFO root fetch - processPackages [HeraData]: Downloading https://files.pythonhosted.org/packages/b9/6e/aada0f432a78612e9f19a29f350492e0dc29d150cb03448621e82a3e60b2/HeraData-0.1.tar.gz
+[2024-04-23 08:41:48] INFO root fetch - processPackages [HeraData]: Downloading https://files.pythonhosted.org/packages/00/d5/097f71990332273618e170814767779e4890508f43cc725cabe208cd66f4/HeraData-0.1.1.tar.gz
+[2024-04-23 08:41:49] INFO root fetch - processPackages [HeraData]: executing diffoscope
+[2024-04-23 08:41:49] INFO root fetch - processPackages [HeraData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HeraData-0.1.tar.gz tmp/HeraData-0.1.1.tar.gz --markdown 20240423/H/HeraData/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-23 08:41:49] INFO root fetch - processPackages [HeraData]: Remove: archive file [/home/abi/fetcher/tmp/HeraData-0.1.tar.gz]
+[2024-04-23 08:41:49] INFO root fetch - processPackages [HeraData]: Remove: archive file [/home/abi/fetcher/tmp/HeraData-0.1.1.tar.gz]
+[2024-04-23 08:41:49] INFO root fetch - main [MainThread]: End processing [HeraData]: success
+[2024-04-23 08:41:49] INFO root fetch - main [MainThread]: Store serial: [22889789]
