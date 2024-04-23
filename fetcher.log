@@ -18389,3 +18389,69 @@
 [2024-04-23 12:45:33] INFO root fetch - processPackages [ctkdlib]: Remove: archive file [/home/abi/fetcher/tmp/ctkdlib-5.0.tar.gz]
 [2024-04-23 12:45:33] INFO root fetch - main [MainThread]: End processing [ctkdlib]: success
 [2024-04-23 12:45:33] INFO root fetch - main [MainThread]: Store serial: [22892494]
+[2024-04-23 12:47:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892494]
+[2024-04-23 12:47:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 12:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gridengine-framework
+[2024-04-23 12:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: serverless-openai
+[2024-04-23 12:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doctran_openai
+[2024-04-23 12:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CVE-2023-29489
+[2024-04-23 12:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lense
+[2024-04-23 12:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gti-scnu
+[2024-04-23 12:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azureml-designer-pytorch-modules
+[2024-04-23 12:47:42] INFO root fetch - processPackages [serverless-openai]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-23 12:47:42] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-23 12:47:42] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 12:47:42] INFO root fetch - processPackages [gti-scnu]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 12:47:42] INFO root fetch - processPackages [CVE-2023-29489]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 12:47:42] INFO root fetch - processPackages [serverless-openai]: Downloading https://files.pythonhosted.org/packages/e0/67/35e45a897eeab2f7371d6558ebb910a9dc659cea99fc8afc990e0a145167/serverless_openai-1.3.3.tar.gz
+[2024-04-23 12:47:42] INFO root fetch - processPackages [gridengine-framework]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-23 12:47:42] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 12:47:42] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/da/b3/5d97d5ddc29220e78dcc232f9decf9220c07b4b800c8c896212fc37009e4/doctran_openai-0.0.6.tar.gz
+[2024-04-23 12:47:42] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-23 12:47:42] INFO root fetch - processPackages [serverless-openai]: Downloading https://files.pythonhosted.org/packages/00/23/2388ebf69d69acd5880dbdba7e4ebc1499a982f1dde9c31ec47099a1182f/serverless_openai-1.3.4.tar.gz
+[2024-04-23 12:47:42] INFO root fetch - processPackages [gti-scnu]: Downloading https://files.pythonhosted.org/packages/bc/0f/fa3d15c10e763dda6bfc0875c5e0c7853de3449c0385300c434a88c2fcc0/gti_scnu-0.0.8-py3-none-any.whl
+[2024-04-23 12:47:42] INFO root fetch - processPackages [gridengine-framework]: Downloading https://files.pythonhosted.org/packages/76/42/4eae3dba0bf7717567bfcefe92487b55f07bcaeb317d749f632dbcc35935/gridengine_framework-0.8.1.tar.gz
+[2024-04-23 12:47:42] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: Downloading https://files.pythonhosted.org/packages/12/ff/80a8ef97e9dbd60a213ef9d7c3be80dc55812e02a4a518c6e22eda3c0664/azureml_designer_pytorch_modules-0.0.8-py3-none-any.whl
+[2024-04-23 12:47:42] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-23 12:47:43] INFO root fetch - processPackages [CVE-2023-29489]: Downloading https://files.pythonhosted.org/packages/15/e2/8a9654925dcfa1f891d0ea630cbbefd8b9d0c7e0ca3c2d61f25f3a41957c/CVE-2023-29489-0.0.2.tar.gz
+[2024-04-23 12:47:43] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/7b/d1/80eb3dbce7fc0a74b5e0bc3c4483efa0bd383c9770ebbd484f66ecbd40c5/doctran_openai-0.0.7.tar.gz
+[2024-04-23 12:47:43] INFO root fetch - processPackages [serverless-openai]: executing diffoscope
+[2024-04-23 12:47:43] INFO root fetch - processPackages [serverless-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless_openai-1.3.3.tar.gz tmp/serverless_openai-1.3.4.tar.gz --markdown 20240423/s/serverless-openai/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-04-23 12:47:43] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 12:47:43] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 12:47:43] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-23 12:47:43] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.6.tar.gz tmp/doctran_openai-0.0.7.tar.gz --markdown 20240423/d/doctran_openai/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-23 12:47:43] INFO root fetch - processPackages [gridengine-framework]: Downloading https://files.pythonhosted.org/packages/11/ce/df4dfbe5c32fc61e024fa14920a52fa7467a8079b9d983e7e8a14d5d592b/gridengine_framework-0.8.2.tar.gz
+[2024-04-23 12:47:43] INFO root fetch - processPackages [gti-scnu]: Downloading https://files.pythonhosted.org/packages/b2/c0/5c08913cc8bdc9a48ccbf5046d75c60640003f5009ac98bcc5d6f18d4537/gti_scnu-0.0.9-py3-none-any.whl
+[2024-04-23 12:47:43] INFO root fetch - processPackages [CVE-2023-29489]: Downloading https://files.pythonhosted.org/packages/0d/7d/85bbf73a1c6cfbfa1aa6443d4ed0b0cd27aa4eb2bd6604b9a1ba98764a98/CVE-2023-29489-0.0.3.tar.gz
+[2024-04-23 12:47:43] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: Downloading https://files.pythonhosted.org/packages/be/a8/fbc1c91856645759116b262cb328e5c45ddb1b28c8e04da490864c3b2b1b/azureml_designer_pytorch_modules-0.0.9-py3-none-any.whl
+[2024-04-23 12:47:43] INFO root fetch - processPackages [gti-scnu]: executing diffoscope
+[2024-04-23 12:47:43] INFO root fetch - processPackages [gti-scnu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gti_scnu-0.0.8-py3-none-any.whl.zip tmp/gti_scnu-0.0.9-py3-none-any.whl.zip --markdown 20240423/g/gti-scnu/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 12:47:43] INFO root fetch - processPackages [gridengine-framework]: executing diffoscope
+[2024-04-23 12:47:43] INFO root fetch - processPackages [gridengine-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridengine_framework-0.8.1.tar.gz tmp/gridengine_framework-0.8.2.tar.gz --markdown 20240423/g/gridengine-framework/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-04-23 12:47:43] INFO root fetch - processPackages [CVE-2023-29489]: executing diffoscope
+[2024-04-23 12:47:43] INFO root fetch - processPackages [CVE-2023-29489]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CVE-2023-29489-0.0.2.tar.gz tmp/CVE-2023-29489-0.0.3.tar.gz --markdown 20240423/C/CVE-2023-29489/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 12:47:43] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: executing diffoscope
+[2024-04-23 12:47:43] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_designer_pytorch_modules-0.0.8-py3-none-any.whl.zip tmp/azureml_designer_pytorch_modules-0.0.9-py3-none-any.whl.zip --markdown 20240423/a/azureml-designer-pytorch-modules/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 12:47:43] INFO root fetch - processPackages [serverless-openai]: Remove: archive file [/home/abi/fetcher/tmp/serverless_openai-1.3.3.tar.gz]
+[2024-04-23 12:47:43] INFO root fetch - processPackages [serverless-openai]: Remove: archive file [/home/abi/fetcher/tmp/serverless_openai-1.3.4.tar.gz]
+[2024-04-23 12:47:43] INFO root fetch - main [MainThread]: End processing [serverless-openai]: success
+[2024-04-23 12:47:43] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 12:47:43] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 12:47:43] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 12:47:43] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.6.tar.gz]
+[2024-04-23 12:47:43] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.7.tar.gz]
+[2024-04-23 12:47:43] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-23 12:47:44] INFO root fetch - processPackages [CVE-2023-29489]: Remove: archive file [/home/abi/fetcher/tmp/CVE-2023-29489-0.0.2.tar.gz]
+[2024-04-23 12:47:44] INFO root fetch - processPackages [CVE-2023-29489]: Remove: archive file [/home/abi/fetcher/tmp/CVE-2023-29489-0.0.3.tar.gz]
+[2024-04-23 12:47:44] INFO root fetch - main [MainThread]: End processing [CVE-2023-29489]: success
+[2024-04-23 12:47:44] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_pytorch_modules-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 12:47:44] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_pytorch_modules-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 12:47:44] INFO root fetch - main [MainThread]: End processing [azureml-designer-pytorch-modules]: success
+[2024-04-23 12:47:44] INFO root fetch - processPackages [gridengine-framework]: Remove: archive file [/home/abi/fetcher/tmp/gridengine_framework-0.8.1.tar.gz]
+[2024-04-23 12:47:44] INFO root fetch - processPackages [gridengine-framework]: Remove: archive file [/home/abi/fetcher/tmp/gridengine_framework-0.8.2.tar.gz]
+[2024-04-23 12:47:44] INFO root fetch - main [MainThread]: End processing [gridengine-framework]: success
+[2024-04-23 12:47:44] INFO root fetch - processPackages [gti-scnu]: Remove: archive file [/home/abi/fetcher/tmp/gti_scnu-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 12:47:44] INFO root fetch - processPackages [gti-scnu]: Remove: archive file [/home/abi/fetcher/tmp/gti_scnu-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 12:47:44] INFO root fetch - main [MainThread]: End processing [gti-scnu]: success
+[2024-04-23 12:47:44] INFO root fetch - main [MainThread]: Store serial: [22892510]
