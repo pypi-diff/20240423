@@ -18847,3 +18847,87 @@
 [2024-04-23 13:03:01] INFO root fetch - processPackages [qoqo-qiskit-devices]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qiskit_devices-0.4.2.tar.gz]
 [2024-04-23 13:03:01] INFO root fetch - main [MainThread]: End processing [qoqo-qiskit-devices]: success
 [2024-04-23 13:03:01] INFO root fetch - main [MainThread]: Store serial: [22892715]
+[2024-04-23 13:05:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892715]
+[2024-04-23 13:05:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 13:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2024-04-23 13:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatllm
+[2024-04-23 13:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: allocmd
+[2024-04-23 13:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-custom-modal-admin
+[2024-04-23 13:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mobgap
+[2024-04-23 13:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DLMS-SPODES-client
+[2024-04-23 13:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flatpack
+[2024-04-23 13:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: perun.proxygui
+[2024-04-23 13:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zonesmart-utils-fork
+[2024-04-23 13:05:11] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.23.9.47.34]
+[2024-04-23 13:05:11] INFO root fetch - processPackages [zonesmart-utils-fork]: New version: [0.5.9.9] Old Version: [0.5.9.8]
+[2024-04-23 13:05:11] INFO root fetch - processPackages [perun.proxygui]: New version: [5.0.0] Old Version: [4.1.1]
+[2024-04-23 13:05:11] INFO root fetch - processPackages [flatpack]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-23 13:05:11] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.84]
+[2024-04-23 13:05:11] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/48/5e/5a7a62d933478f5ceba9b241c36ce7232d127d3180fd29876502d5173520/perun.proxygui-4.1.1.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [django-custom-modal-admin]: New version: [1.0.0] Old Version: [0.2.2]
+[2024-04-23 13:05:11] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/97/6d/dc66a8f48453cfaa486b94d6cbee1872a1cddfe8854c71262644fc951a5b/chatllm-2024.4.23.9.47.34.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [mobgap]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-23 13:05:11] INFO root fetch - processPackages [allocmd]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 13:05:11] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-04-23 13:05:11] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/42/48/84e949164975b341645163f536ee4ca8329c4e3dfa6d143c2806a0849a54/flatpack-3.3.8.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/1f/3c/039c94473127564e1d61c86469dc142a7a89988f07bba21541fea00682d5/zonesmart-utils-fork-0.5.9.8.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [allocmd]: Downloading https://files.pythonhosted.org/packages/6d/7e/da7a8879fe73553275183a3aee001deed0a4329fd64ea6325f23b671fc81/allocmd-0.3.8.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/9b/08/e07a79776f05d4890120edc7ae799fa6ab039dc0e3053fc46ee6985a5d47/pypipr-1.0.84.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [django-custom-modal-admin]: Downloading https://files.pythonhosted.org/packages/66/d7/7d8626f621872faa351c8f727b448e0256d4631475e862adfb8fe0914b95/django-custom-modal-admin-0.2.2.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [mobgap]: Downloading https://files.pythonhosted.org/packages/eb/13/7ba72036133cfcbaae74fe940da40516fc6d6194e898787c10033015a117/mobgap-0.2.0.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/35/77/93cbe4237fbfbe2607f1ee85d735b0812e440d9ff891afe8416974935340/DLMS_SPODES_client-0.8.6.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/11/54/065825e8640b062c83c07c97d8dea514db8a5c0ea3c272834b88c568d82e/flatpack-3.3.9.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/c7/9f/2ff32de4eacc484eb5a9007534d13156a1b1a1a9c62233775741db20c020/zonesmart-utils-fork-0.5.9.9.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [allocmd]: Downloading https://files.pythonhosted.org/packages/62/90/9b598a475847e52acca70f1dab4f70f5828e236ad083b4cc83804993c63a/allocmd-0.3.9.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-04-23 13:05:11] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.3.8.tar.gz tmp/flatpack-3.3.9.tar.gz --markdown 20240423/f/flatpack/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-23 13:05:11] INFO root fetch - processPackages [zonesmart-utils-fork]: executing diffoscope
+[2024-04-23 13:05:11] INFO root fetch - processPackages [zonesmart-utils-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-fork-0.5.9.8.tar.gz tmp/zonesmart-utils-fork-0.5.9.9.tar.gz --markdown 20240423/z/zonesmart-utils-fork/0.5.9.8-0.5.9.9/README.md --exclude *.pyd
+[2024-04-23 13:05:11] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-23 13:05:11] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.84.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240423/p/pypipr/1.0.84-1.0.9/README.md --exclude *.pyd
+[2024-04-23 13:05:11] INFO root fetch - processPackages [django-custom-modal-admin]: Downloading https://files.pythonhosted.org/packages/39/de/3af37f3d010451e05bf86ab9fe96b3cfeab6ab79c6e2f215bdfcaee3054e/django_custom_modal_admin-1.0.0.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/f6/54/3acf7ffdb080a268be89b6fb7b85f7d827211707d87f4a21786f2b5f35d2/DLMS_SPODES_client-0.8.7.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [allocmd]: executing diffoscope
+[2024-04-23 13:05:11] INFO root fetch - processPackages [allocmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allocmd-0.3.8.tar.gz tmp/allocmd-0.3.9.tar.gz --markdown 20240423/a/allocmd/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 13:05:11] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/28/24/ff7cd57775997a89a150b94096a399ada7117a3b103978b50520f0523aac/perun.proxygui-5.0.0.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [mobgap]: Downloading https://files.pythonhosted.org/packages/af/23/1193b27b1560d3529acf296f8a7c09d445f1da56cddcff73e4677dc7588d/mobgap-0.3.0.tar.gz
+[2024-04-23 13:05:11] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-23 13:05:11] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.23.9.47.34.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240423/c/chatllm/2024.4.23.9.47.34-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-23 13:05:11] INFO root fetch - processPackages [django-custom-modal-admin]: executing diffoscope
+[2024-04-23 13:05:11] INFO root fetch - processPackages [django-custom-modal-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-custom-modal-admin-0.2.2.tar.gz tmp/django_custom_modal_admin-1.0.0.tar.gz --markdown 20240423/d/django-custom-modal-admin/0.2.2-1.0.0/README.md --exclude *.pyd
+[2024-04-23 13:05:12] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-23 13:05:12] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.8.6.tar.gz tmp/DLMS_SPODES_client-0.8.7.tar.gz --markdown 20240423/D/DLMS-SPODES-client/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-04-23 13:05:12] INFO root fetch - processPackages [mobgap]: executing diffoscope
+[2024-04-23 13:05:12] INFO root fetch - processPackages [mobgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobgap-0.2.0.tar.gz tmp/mobgap-0.3.0.tar.gz --markdown 20240423/m/mobgap/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-23 13:05:12] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-04-23 13:05:12] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-4.1.1.tar.gz tmp/perun.proxygui-5.0.0.tar.gz --markdown 20240423/p/perun.proxygui/4.1.1-5.0.0/README.md --exclude *.pyd
+[2024-04-23 13:05:12] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.84.tar.gz]
+[2024-04-23 13:05:12] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.8.tar.gz]
+[2024-04-23 13:05:12] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-23 13:05:12] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.9.tar.gz]
+[2024-04-23 13:05:12] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-23 13:05:12] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-04-23 13:05:12] INFO root fetch - processPackages [allocmd]: Remove: archive file [/home/abi/fetcher/tmp/allocmd-0.3.8.tar.gz]
+[2024-04-23 13:05:12] INFO root fetch - processPackages [allocmd]: Remove: archive file [/home/abi/fetcher/tmp/allocmd-0.3.9.tar.gz]
+[2024-04-23 13:05:12] INFO root fetch - main [MainThread]: End processing [allocmd]: success
+[2024-04-23 13:05:12] INFO root fetch - processPackages [django-custom-modal-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-custom-modal-admin-0.2.2.tar.gz]
+[2024-04-23 13:05:12] INFO root fetch - processPackages [django-custom-modal-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_custom_modal_admin-1.0.0.tar.gz]
+[2024-04-23 13:05:12] INFO root fetch - main [MainThread]: End processing [django-custom-modal-admin]: success
+[2024-04-23 13:05:13] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.6.tar.gz]
+[2024-04-23 13:05:13] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.7.tar.gz]
+[2024-04-23 13:05:13] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-23 13:05:13] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.8.tar.gz]
+[2024-04-23 13:05:13] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.9.tar.gz]
+[2024-04-23 13:05:13] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
+[2024-04-23 13:05:13] INFO root fetch - processPackages [mobgap]: Remove: archive file [/home/abi/fetcher/tmp/mobgap-0.2.0.tar.gz]
+[2024-04-23 13:05:13] INFO root fetch - processPackages [mobgap]: Remove: archive file [/home/abi/fetcher/tmp/mobgap-0.3.0.tar.gz]
+[2024-04-23 13:05:13] INFO root fetch - main [MainThread]: End processing [mobgap]: success
+[2024-04-23 13:05:13] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.23.9.47.34.tar.gz]
+[2024-04-23 13:05:13] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-23 13:05:13] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-23 13:05:15] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-4.1.1.tar.gz]
+[2024-04-23 13:05:15] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.0.0.tar.gz]
+[2024-04-23 13:05:15] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-04-23 13:05:15] INFO root fetch - main [MainThread]: Store serial: [22892742]
