@@ -7183,3 +7183,24 @@
 [2024-04-23 03:22:25] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql-4.600.24114.tar.gz]
 [2024-04-23 03:22:25] INFO root fetch - main [MainThread]: End processing [mo-sql]: success
 [2024-04-23 03:22:25] INFO root fetch - main [MainThread]: Store serial: [22887536]
+[2024-04-23 03:24:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887536]
+[2024-04-23 03:24:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 03:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-04-23 03:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-json-config
+[2024-04-23 03:24:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-23 03:24:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-04-23 03:24:34] INFO root fetch - processPackages [mo-json-config]: New version: [4.600.24114] Old Version: [4.586.24095]
+[2024-04-23 03:24:34] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/0a/5c/5bc6245a57dbb7d56710eb6ebb124318b6bc19d0533a7578dba2b4b22d93/mo-json-config-4.586.24095.tar.gz
+[2024-04-23 03:24:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-04-23 03:24:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-04-23 03:24:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240423/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-23 03:24:34] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/30/6e/66280595565912c740e24c18db78dabfb9ad2fd410bd901f02e3c89e0ec7/mo_json_config-4.600.24114.tar.gz
+[2024-04-23 03:24:35] INFO root fetch - processPackages [mo-json-config]: executing diffoscope
+[2024-04-23 03:24:35] INFO root fetch - processPackages [mo-json-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-json-config-4.586.24095.tar.gz tmp/mo_json_config-4.600.24114.tar.gz --markdown 20240423/m/mo-json-config/4.586.24095-4.600.24114/README.md --exclude *.pyd
+[2024-04-23 03:24:35] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-04-23 03:24:35] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-04-23 03:24:35] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-04-23 03:24:35] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo-json-config-4.586.24095.tar.gz]
+[2024-04-23 03:24:35] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.600.24114.tar.gz]
+[2024-04-23 03:24:35] INFO root fetch - main [MainThread]: End processing [mo-json-config]: success
+[2024-04-23 03:24:35] INFO root fetch - main [MainThread]: Store serial: [22887605]
