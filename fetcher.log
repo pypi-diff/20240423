@@ -22134,3 +22134,33 @@ EOFError: EOF read where object expected
 [2024-04-23 14:53:36] INFO root fetch - processPackages [lusid-express]: Remove: archive file [/home/abi/fetcher/tmp/lusid_express-0.6.5.tar.gz]
 [2024-04-23 14:53:36] INFO root fetch - main [MainThread]: End processing [lusid-express]: success
 [2024-04-23 14:53:36] INFO root fetch - main [MainThread]: Store serial: [22894096]
+[2024-04-23 14:55:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894096]
+[2024-04-23 14:55:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 14:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinx-api-relink
+[2024-04-23 14:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logstash-api
+[2024-04-23 14:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: label-convert
+[2024-04-23 14:55:48] INFO root fetch - processPackages [label-convert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:55:48] INFO root fetch - processPackages [sphinx-api-relink]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:55:48] INFO root fetch - processPackages [logstash-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 14:55:48] INFO root fetch - processPackages [label-convert]: Downloading https://files.pythonhosted.org/packages/bb/25/fa3195baf0fc1f6d0b25145cc2ce1735937dd94a7471ab5c737c7abc02f5/label_convert-0.0.8-py3-none-any.whl
+[2024-04-23 14:55:48] INFO root fetch - processPackages [logstash-api]: Downloading https://files.pythonhosted.org/packages/4a/e7/4ab534719d8f64f08d0f6e2c93edded2cf7907f3787a25f13317db3bc991/logstash_api-0.1.0.tar.gz
+[2024-04-23 14:55:48] INFO root fetch - processPackages [sphinx-api-relink]: Downloading https://files.pythonhosted.org/packages/c4/0c/43f00229cb5a3571d8b5aab1dae00dd2866cee81b77e04797f0e72a95430/sphinx-api-relink-0.0.8.tar.gz
+[2024-04-23 14:55:48] INFO root fetch - processPackages [label-convert]: Downloading https://files.pythonhosted.org/packages/17/2a/36947a642022054b4ca435fc6bbc3a9c43d775d60efffff1ce54099bb3c3/label_convert-0.0.9-py3-none-any.whl
+[2024-04-23 14:55:48] INFO root fetch - processPackages [logstash-api]: Downloading https://files.pythonhosted.org/packages/72/bb/51e60582d20b9f9c607e85015fb8bf6d834906df739fbb85cb87dfb2d89a/logstash-api-0.1.1.tar.gz
+[2024-04-23 14:55:48] INFO root fetch - processPackages [sphinx-api-relink]: Downloading https://files.pythonhosted.org/packages/b9/a2/2a88ff22f4ea8a3fd9bcb4200f1bf9ff558276e915b7c9beaf25bb8053bf/sphinx_api_relink-0.0.9.tar.gz
+[2024-04-23 14:55:49] INFO root fetch - processPackages [logstash-api]: executing diffoscope
+[2024-04-23 14:55:49] INFO root fetch - processPackages [logstash-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logstash_api-0.1.0.tar.gz tmp/logstash-api-0.1.1.tar.gz --markdown 20240423/l/logstash-api/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 14:55:49] INFO root fetch - processPackages [sphinx-api-relink]: executing diffoscope
+[2024-04-23 14:55:49] INFO root fetch - processPackages [sphinx-api-relink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-api-relink-0.0.8.tar.gz tmp/sphinx_api_relink-0.0.9.tar.gz --markdown 20240423/s/sphinx-api-relink/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:55:49] INFO root fetch - processPackages [label-convert]: executing diffoscope
+[2024-04-23 14:55:49] INFO root fetch - processPackages [label-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label_convert-0.0.8-py3-none-any.whl.zip tmp/label_convert-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/label-convert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:55:49] INFO root fetch - processPackages [logstash-api]: Remove: archive file [/home/abi/fetcher/tmp/logstash_api-0.1.0.tar.gz]
+[2024-04-23 14:55:49] INFO root fetch - processPackages [logstash-api]: Remove: archive file [/home/abi/fetcher/tmp/logstash-api-0.1.1.tar.gz]
+[2024-04-23 14:55:49] INFO root fetch - main [MainThread]: End processing [logstash-api]: success
+[2024-04-23 14:55:49] INFO root fetch - processPackages [label-convert]: Remove: archive file [/home/abi/fetcher/tmp/label_convert-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 14:55:49] INFO root fetch - processPackages [label-convert]: Remove: archive file [/home/abi/fetcher/tmp/label_convert-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 14:55:49] INFO root fetch - main [MainThread]: End processing [label-convert]: success
+[2024-04-23 14:55:49] INFO root fetch - processPackages [sphinx-api-relink]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-api-relink-0.0.8.tar.gz]
+[2024-04-23 14:55:49] INFO root fetch - processPackages [sphinx-api-relink]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_api_relink-0.0.9.tar.gz]
+[2024-04-23 14:55:49] INFO root fetch - main [MainThread]: End processing [sphinx-api-relink]: success
+[2024-04-23 14:55:49] INFO root fetch - main [MainThread]: Store serial: [22894104]
