@@ -9038,3 +9038,42 @@
 [2024-04-23 05:17:11] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ionoscloud-9.0.2.tar.gz]
 [2024-04-23 05:17:11] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-ionoscloud]: success
 [2024-04-23 05:17:11] INFO root fetch - main [MainThread]: Store serial: [22888488]
+[2024-04-23 05:19:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888488]
+[2024-04-23 05:19:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 05:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: competex
+[2024-04-23 05:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-elasticsearch20170613
+[2024-04-23 05:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: artd-order
+[2024-04-23 05:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proksee-batch
+[2024-04-23 05:19:20] INFO root fetch - processPackages [artd-order]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-23 05:19:20] INFO root fetch - processPackages [competex]: New version: [1.1] Old Version: [1.0]
+[2024-04-23 05:19:20] INFO root fetch - processPackages [proksee-batch]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-23 05:19:20] INFO root fetch - processPackages [artd-order]: Downloading https://files.pythonhosted.org/packages/ee/0f/3f7f57aa1960b5a8dc6d9b28e3de87ae8bb79490b3306c8f4b6b06231c0a/artd-order-1.0.3.tar.gz
+[2024-04-23 05:19:20] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: New version: [2.0.0] Old Version: [1.4.0]
+[2024-04-23 05:19:20] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/87/77/eceea51332b123244f3f38872eb959aeb2e5a1989b4c71a79f775a545aa1/proksee_batch-0.5.8.tar.gz
+[2024-04-23 05:19:20] INFO root fetch - processPackages [competex]: Downloading https://files.pythonhosted.org/packages/96/17/22c59cb1139eba2006a19e305c05b0efaebf908c789b8fd8273fcb9ddd70/competex-1.0.tar.gz
+[2024-04-23 05:19:21] INFO root fetch - processPackages [artd-order]: Downloading https://files.pythonhosted.org/packages/b1/a3/d6ef53e9a116555819d2f05320f147983f6090bc83306ac8d5c3d0acf601/artd-order-1.0.4.tar.gz
+[2024-04-23 05:19:21] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: Downloading https://files.pythonhosted.org/packages/c5/80/d43b7f851b477669eb87f0c01cb1e450954350af1f7b140107519ba5db8b/alibabacloud_elasticsearch20170613-1.4.0.tar.gz
+[2024-04-23 05:19:21] INFO root fetch - processPackages [artd-order]: executing diffoscope
+[2024-04-23 05:19:21] INFO root fetch - processPackages [artd-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd-order-1.0.3.tar.gz tmp/artd-order-1.0.4.tar.gz --markdown 20240423/a/artd-order/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-23 05:19:21] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/cd/e5/77ba32d35c45add0f725e323bf178c710319e608ffdec0b1828dafeeda4f/proksee_batch-0.5.9.tar.gz
+[2024-04-23 05:19:21] INFO root fetch - processPackages [competex]: Downloading https://files.pythonhosted.org/packages/d4/55/e1148918aeb216d3fd3dd9f13b39d5474a7a4b0033a91149809b581d266a/competex-1.1.tar.gz
+[2024-04-23 05:19:21] INFO root fetch - processPackages [competex]: executing diffoscope
+[2024-04-23 05:19:21] INFO root fetch - processPackages [competex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/competex-1.0.tar.gz tmp/competex-1.1.tar.gz --markdown 20240423/c/competex/1.0-1.1/README.md --exclude *.pyd
+[2024-04-23 05:19:21] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: Downloading https://files.pythonhosted.org/packages/16/0b/80b0c58cae50aedfe12063390494a77ac48319553ace8dd5d6d96d451d82/alibabacloud_elasticsearch20170613-2.0.0.tar.gz
+[2024-04-23 05:19:21] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: executing diffoscope
+[2024-04-23 05:19:21] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_elasticsearch20170613-1.4.0.tar.gz tmp/alibabacloud_elasticsearch20170613-2.0.0.tar.gz --markdown 20240423/a/alibabacloud-elasticsearch20170613/1.4.0-2.0.0/README.md --exclude *.pyd
+[2024-04-23 05:19:21] INFO root fetch - processPackages [proksee-batch]: executing diffoscope
+[2024-04-23 05:19:21] INFO root fetch - processPackages [proksee-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proksee_batch-0.5.8.tar.gz tmp/proksee_batch-0.5.9.tar.gz --markdown 20240423/p/proksee-batch/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-23 05:19:21] INFO root fetch - processPackages [artd-order]: Remove: archive file [/home/abi/fetcher/tmp/artd-order-1.0.3.tar.gz]
+[2024-04-23 05:19:21] INFO root fetch - processPackages [artd-order]: Remove: archive file [/home/abi/fetcher/tmp/artd-order-1.0.4.tar.gz]
+[2024-04-23 05:19:21] INFO root fetch - main [MainThread]: End processing [artd-order]: success
+[2024-04-23 05:19:22] INFO root fetch - processPackages [competex]: Remove: archive file [/home/abi/fetcher/tmp/competex-1.0.tar.gz]
+[2024-04-23 05:19:22] INFO root fetch - processPackages [competex]: Remove: archive file [/home/abi/fetcher/tmp/competex-1.1.tar.gz]
+[2024-04-23 05:19:22] INFO root fetch - main [MainThread]: End processing [competex]: success
+[2024-04-23 05:19:22] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_elasticsearch20170613-1.4.0.tar.gz]
+[2024-04-23 05:19:22] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_elasticsearch20170613-2.0.0.tar.gz]
+[2024-04-23 05:19:22] INFO root fetch - main [MainThread]: End processing [alibabacloud-elasticsearch20170613]: success
+[2024-04-23 05:19:23] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.5.8.tar.gz]
+[2024-04-23 05:19:23] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.5.9.tar.gz]
+[2024-04-23 05:19:23] INFO root fetch - main [MainThread]: End processing [proksee-batch]: success
+[2024-04-23 05:19:23] INFO root fetch - main [MainThread]: Store serial: [22888500]
