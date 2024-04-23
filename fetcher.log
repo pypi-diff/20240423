@@ -19017,3 +19017,60 @@
 [2024-04-23 13:09:44] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.99.tar.gz]
 [2024-04-23 13:09:44] INFO root fetch - main [MainThread]: End processing [bugbug]: success
 [2024-04-23 13:09:44] INFO root fetch - main [MainThread]: Store serial: [22892781]
+[2024-04-23 13:11:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892781]
+[2024-04-23 13:11:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 13:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opensr-utils
+[2024-04-23 13:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognite-synthetic-tags
+[2024-04-23 13:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: motion-lake-client
+[2024-04-23 13:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scPANTHEON
+[2024-04-23 13:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flatpack
+[2024-04-23 13:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ado_wrapper
+[2024-04-23 13:11:53] INFO root fetch - processPackages [motion-lake-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 13:11:53] INFO root fetch - processPackages [ado_wrapper]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-23 13:11:53] INFO root fetch - processPackages [flatpack]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-23 13:11:53] INFO root fetch - processPackages [motion-lake-client]: Downloading https://files.pythonhosted.org/packages/4d/d9/24c2c9e9c6ac71ddb981bd6a39d81ae61575802aa856369f916a5af31ae4/motion_lake_client-0.0.8.tar.gz
+[2024-04-23 13:11:53] INFO root fetch - processPackages [cognite-synthetic-tags]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-23 13:11:53] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/41/8a/239eb99f50e0bed8bac7e13ecbf0e1d3531c42e7d805dfa827f6da63604d/ado_wrapper-1.2.8.tar.gz
+[2024-04-23 13:11:53] INFO root fetch - processPackages [opensr-utils]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-23 13:11:53] INFO root fetch - processPackages [scPANTHEON]: New version: [0.5.5.3] Old Version: [0.5.5.2]
+[2024-04-23 13:11:53] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/42/48/84e949164975b341645163f536ee4ca8329c4e3dfa6d143c2806a0849a54/flatpack-3.3.8.tar.gz
+[2024-04-23 13:11:53] INFO root fetch - processPackages [cognite-synthetic-tags]: Downloading https://files.pythonhosted.org/packages/30/bb/e37e0578d0513d22024220a6717d676afcaf9f32c494963bdb5637b361b7/cognite_synthetic_tags-0.5.1.tar.gz
+[2024-04-23 13:11:53] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/0a/69/fd45c2b7a784583b1532eb88fa3531a0895c5bff99d148b276a3808510d7/opensr-utils-0.4.8.tar.gz
+[2024-04-23 13:11:53] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/32/f7/a81ac6114fa2e3e0dde6f5e0f36b41ac8e6295f3ba078d9db14dc3cd92eb/ado_wrapper-1.2.9.tar.gz
+[2024-04-23 13:11:53] INFO root fetch - processPackages [motion-lake-client]: Downloading https://files.pythonhosted.org/packages/db/37/c3938b8bdd7cffe1294234cdb0761a2196953f294fd94d87ee4f308a8272/motion_lake_client-0.0.9.tar.gz
+[2024-04-23 13:11:53] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/11/54/065825e8640b062c83c07c97d8dea514db8a5c0ea3c272834b88c568d82e/flatpack-3.3.9.tar.gz
+[2024-04-23 13:11:53] INFO root fetch - processPackages [scPANTHEON]: Downloading https://files.pythonhosted.org/packages/f8/ba/5657175c95ef6a4790abae539d93149d4d2229a57e34415956e101c1cd21/scPANTHEON-0.5.5.2.tar.gz
+[2024-04-23 13:11:54] INFO root fetch - processPackages [ado_wrapper]: executing diffoscope
+[2024-04-23 13:11:54] INFO root fetch - processPackages [ado_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ado_wrapper-1.2.8.tar.gz tmp/ado_wrapper-1.2.9.tar.gz --markdown 20240423/a/ado_wrapper/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-23 13:11:54] INFO root fetch - processPackages [motion-lake-client]: executing diffoscope
+[2024-04-23 13:11:54] INFO root fetch - processPackages [motion-lake-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_lake_client-0.0.8.tar.gz tmp/motion_lake_client-0.0.9.tar.gz --markdown 20240423/m/motion-lake-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 13:11:54] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-04-23 13:11:54] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.3.8.tar.gz tmp/flatpack-3.3.9.tar.gz --markdown 20240423/f/flatpack/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-23 13:11:54] INFO root fetch - processPackages [cognite-synthetic-tags]: Downloading https://files.pythonhosted.org/packages/6f/5e/49f7bf1c38365490dbaa23d42be68198f220dc04fdc59df9ea3df1ee0cac/cognite_synthetic_tags-0.5.2.tar.gz
+[2024-04-23 13:11:54] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/01/be/98b9f6d453ee11648ecbba55c24d93d20f21bea71dc8cc0b0ca3f3271908/opensr-utils-0.4.9.tar.gz
+[2024-04-23 13:11:54] INFO root fetch - processPackages [cognite-synthetic-tags]: executing diffoscope
+[2024-04-23 13:11:54] INFO root fetch - processPackages [cognite-synthetic-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_synthetic_tags-0.5.1.tar.gz tmp/cognite_synthetic_tags-0.5.2.tar.gz --markdown 20240423/c/cognite-synthetic-tags/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-23 13:11:54] INFO root fetch - processPackages [opensr-utils]: executing diffoscope
+[2024-04-23 13:11:54] INFO root fetch - processPackages [opensr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-utils-0.4.8.tar.gz tmp/opensr-utils-0.4.9.tar.gz --markdown 20240423/o/opensr-utils/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-23 13:11:54] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.8.tar.gz]
+[2024-04-23 13:11:54] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.9.tar.gz]
+[2024-04-23 13:11:54] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-04-23 13:11:54] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.2.8.tar.gz]
+[2024-04-23 13:11:54] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.2.9.tar.gz]
+[2024-04-23 13:11:54] INFO root fetch - main [MainThread]: End processing [ado_wrapper]: success
+[2024-04-23 13:11:54] INFO root fetch - processPackages [cognite-synthetic-tags]: Remove: archive file [/home/abi/fetcher/tmp/cognite_synthetic_tags-0.5.1.tar.gz]
+[2024-04-23 13:11:54] INFO root fetch - processPackages [cognite-synthetic-tags]: Remove: archive file [/home/abi/fetcher/tmp/cognite_synthetic_tags-0.5.2.tar.gz]
+[2024-04-23 13:11:54] INFO root fetch - main [MainThread]: End processing [cognite-synthetic-tags]: success
+[2024-04-23 13:11:55] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.8.tar.gz]
+[2024-04-23 13:11:55] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.9.tar.gz]
+[2024-04-23 13:11:55] INFO root fetch - main [MainThread]: End processing [opensr-utils]: success
+[2024-04-23 13:11:55] INFO root fetch - processPackages [motion-lake-client]: Remove: archive file [/home/abi/fetcher/tmp/motion_lake_client-0.0.8.tar.gz]
+[2024-04-23 13:11:55] INFO root fetch - processPackages [motion-lake-client]: Remove: archive file [/home/abi/fetcher/tmp/motion_lake_client-0.0.9.tar.gz]
+[2024-04-23 13:11:55] INFO root fetch - main [MainThread]: End processing [motion-lake-client]: success
+[2024-04-23 13:11:55] INFO root fetch - processPackages [scPANTHEON]: Downloading https://files.pythonhosted.org/packages/ac/9a/c992007073e81717af95bcb6ede7b904ad528645caec5da994c94d908dad/scPANTHEON-0.5.5.3.tar.gz
+[2024-04-23 13:11:57] INFO root fetch - processPackages [scPANTHEON]: executing diffoscope
+[2024-04-23 13:11:57] INFO root fetch - processPackages [scPANTHEON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scPANTHEON-0.5.5.2.tar.gz tmp/scPANTHEON-0.5.5.3.tar.gz --markdown 20240423/s/scPANTHEON/0.5.5.2-0.5.5.3/README.md --exclude *.pyd
+[2024-04-23 13:11:59] INFO root fetch - processPackages [scPANTHEON]: Remove: archive file [/home/abi/fetcher/tmp/scPANTHEON-0.5.5.2.tar.gz]
+[2024-04-23 13:11:59] INFO root fetch - processPackages [scPANTHEON]: Remove: archive file [/home/abi/fetcher/tmp/scPANTHEON-0.5.5.3.tar.gz]
+[2024-04-23 13:11:59] INFO root fetch - main [MainThread]: End processing [scPANTHEON]: success
+[2024-04-23 13:11:59] INFO root fetch - main [MainThread]: Store serial: [22892818]
