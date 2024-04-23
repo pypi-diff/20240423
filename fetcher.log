@@ -21974,3 +21974,115 @@ EOFError: EOF read where object expected
 [2024-04-23 14:49:07] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.9.tar.gz]
 [2024-04-23 14:49:07] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
 [2024-04-23 14:49:07] INFO root fetch - main [MainThread]: Store serial: [22893965]
+[2024-04-23 14:51:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893965]
+[2024-04-23 14:51:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-23 14:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doctran_openai
+[2024-04-23 14:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lnmmeshio
+[2024-04-23 14:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mteb
+[2024-04-23 14:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mediapipe-nightly
+[2024-04-23 14:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fisspy
+[2024-04-23 14:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opytimal
+[2024-04-23 14:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codeforlife-portal
+[2024-04-23 14:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libsegmenter
+[2024-04-23 14:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cfl-common
+[2024-04-23 14:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cognite-neat
+[2024-04-23 14:51:16] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-23 14:51:16] INFO root fetch - processPackages [opytimal]: New version: [0.5.8] Old Version: [0.5.6]
+[2024-04-23 14:51:16] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:51:16] INFO root fetch - processPackages [cognite-neat]: New version: [0.75.1] Old Version: [0.74.0]
+[2024-04-23 14:51:16] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-23 14:51:16] INFO root fetch - processPackages [fisspy]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-23 14:51:16] INFO root fetch - processPackages [lnmmeshio]: New version: [5.3.2] Old Version: [5.3.1]
+[2024-04-23 14:51:16] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/cf/ee/05034545d75a841e008b92e49c2b144b94ab265f8b8878a39626222b7677/doctran_openai-0.0.8.tar.gz
+[2024-04-23 14:51:16] INFO root fetch - processPackages [mediapipe-nightly]: New version: [0.10.13.post20240423] Old Version: [0.10.13.post20240421]
+[2024-04-23 14:51:16] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-04-23 14:51:16] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/a3/dd/e406fd5ba6d1f9921eed49b178d0c9fe8e458f7f47dcd45344a64606ae1d/opytimal-0.5.6.tar.gz
+[2024-04-23 14:51:16] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/f5/4f/c1aac1dd5ed4a2d8447f6217053bcb8aa57732bf5800f6ae087063b1d138/cognite_neat-0.74.0.tar.gz
+[2024-04-23 14:51:16] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-04-23 14:51:16] INFO root fetch - processPackages [libsegmenter]: New version: [0.9.1] Old Version: [0.9]
+[2024-04-23 14:51:16] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/98/45/be6fdfaec39f69d9d9d451c33f4d882c04f14eb6159c4bfccaa83fe72d78/fisspy-1.0.4.tar.gz
+[2024-04-23 14:51:16] INFO root fetch - processPackages [lnmmeshio]: Downloading https://files.pythonhosted.org/packages/cc/32/010fe8d4cfd270e08d50b6c94559e3bb23972a194d295b0402a5319a6d7f/lnmmeshio-5.3.1.tar.gz
+[2024-04-23 14:51:17] INFO root fetch - processPackages [mediapipe-nightly]: Downloading https://files.pythonhosted.org/packages/c0/36/47a56a9260b7f43251b665edfcea62d42eea95e1821c1167c4e67040b73d/mediapipe_nightly-0.10.13.post20240421-cp39-cp39-macosx_11_0_x86_64.whl
+[2024-04-23 14:51:17] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/bf/57/6123b8227a48d42aa4dc92614deefd2fb96be6aa7d4e4d9a03e12fbde0cb/doctran_openai-0.0.9.tar.gz
+[2024-04-23 14:51:17] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-23 14:51:17] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2024-04-23 14:51:17] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2024-04-23 14:51:17] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/9b/f0/13fa1ea3b368bfdffec44de6b657700a4f008444a874b4d482646652dcb7/libsegmenter-0.9-pp39-pypy39_pp73-win_amd64.whl
+[2024-04-23 14:51:17] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-23 14:51:17] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.8.tar.gz tmp/doctran_openai-0.0.9.tar.gz --markdown 20240423/d/doctran_openai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:51:17] WARNING root fetch - processPackages [mediapipe-nightly]: Skipping package: exceeds size limit 49978916>=10485760
+[2024-04-23 14:51:17] INFO root fetch - processPackages [mediapipe-nightly]: Start processing: OpenGeode-core
+[2024-04-23 14:51:17] INFO root fetch - main [MainThread]: End processing [mediapipe-nightly] error
+[2024-04-23 14:51:17] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/ac/47/1130d7b53e172d964de4c8aefa9fe0cdf36d46807fa8b70486a1cadeeb15/opytimal-0.5.8.tar.gz
+[2024-04-23 14:51:17] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-23 14:51:17] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240423/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-23 14:51:17] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.19.2rc1]
+[2024-04-23 14:51:17] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 14:51:17] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.5.6.tar.gz tmp/opytimal-0.5.8.tar.gz --markdown 20240423/o/opytimal/0.5.6-0.5.8/README.md --exclude *.pyd
+[2024-04-23 14:51:17] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/51/7a/2e93a269943ded87db1bb97d0409b25252308b669679d60a2dade4828c1f/fisspy-1.0.5.tar.gz
+[2024-04-23 14:51:17] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/d6/c2/63a2238b9e7135cb523d96c4434f6bc7331be4a2b024b9c4b311e101ed84/cognite_neat-0.75.1.tar.gz
+[2024-04-23 14:51:17] INFO root fetch - processPackages [lnmmeshio]: Downloading https://files.pythonhosted.org/packages/83/59/08ec8bba6d7a4ab182ba3a7da89ec8ab4599ac7ff307c26c1127403e6eff/lnmmeshio-5.3.2.tar.gz
+[2024-04-23 14:51:17] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2024-04-23 14:51:17] INFO root fetch - processPackages [fisspy]: executing diffoscope
+[2024-04-23 14:51:17] INFO root fetch - processPackages [fisspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fisspy-1.0.4.tar.gz tmp/fisspy-1.0.5.tar.gz --markdown 20240423/f/fisspy/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-23 14:51:17] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/ff/e9/823513f92a8e055ccad97402f467f493ff5036d9b8deafa26a5719870b07/OpenGeode_core-14.19.2rc1-cp39-cp39-win_amd64.whl
+[2024-04-23 14:51:17] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/9c/2e/5810d19babe21df618a8c4f2e3a9376435553759db2316ffdc57a6f13aa7/libsegmenter-0.9.1-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2024-04-23 14:51:17] INFO root fetch - processPackages [lnmmeshio]: executing diffoscope
+[2024-04-23 14:51:17] INFO root fetch - processPackages [lnmmeshio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnmmeshio-5.3.1.tar.gz tmp/lnmmeshio-5.3.2.tar.gz --markdown 20240423/l/lnmmeshio/5.3.1-5.3.2/README.md --exclude *.pyd
+[2024-04-23 14:51:17] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-04-23 14:51:17] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.74.0.tar.gz tmp/cognite_neat-0.75.1.tar.gz --markdown 20240423/c/cognite-neat/0.74.0-0.75.1/README.md --exclude *.pyd
+[2024-04-23 14:51:17] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2024-04-23 14:51:17] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20240423/c/cfl-common/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-04-23 14:51:17] INFO root fetch - processPackages [libsegmenter]: executing diffoscope
+[2024-04-23 14:51:17] INFO root fetch - processPackages [libsegmenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsegmenter-0.9-pp39-pypy39_pp73-win_amd64.whl.zip tmp/libsegmenter-0.9.1-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip --markdown 20240423/l/libsegmenter/0.9-0.9.1/README.md --exclude *.pyd
+[2024-04-23 14:51:17] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 11733262>=10485760
+[2024-04-23 14:51:17] INFO root fetch - processPackages [OpenGeode-core]: Start processing: ecv-python-development
+[2024-04-23 14:51:17] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-04-23 14:51:18] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.8.tar.gz]
+[2024-04-23 14:51:18] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.9.tar.gz]
+[2024-04-23 14:51:18] INFO root fetch - processPackages [doctran_openai]: Start processing: python-eigen-ingenuity
+[2024-04-23 14:51:18] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-23 14:51:18] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:51:18] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/1a/0b/57f1b4e7808f0e68005e3460c3b2e28d121224116313e32caff0da5d477c/ecv-python-development-0.0.8.tar.gz
+[2024-04-23 14:51:18] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-23 14:51:18] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/1e/40/7f623022bae0ebc2f5beb167e8175b1dad049a8b27764e6859798786fdb2/ecv-python-development-0.0.9.tar.gz
+[2024-04-23 14:51:18] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.5.6.tar.gz]
+[2024-04-23 14:51:18] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.5.8.tar.gz]
+[2024-04-23 14:51:18] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 14:51:18] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.0.4.tar.gz]
+[2024-04-23 14:51:18] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.0.5.tar.gz]
+[2024-04-23 14:51:18] INFO root fetch - main [MainThread]: End processing [fisspy]: success
+[2024-04-23 14:51:18] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/84/89/3c53ff4be542cfc10c07f16d0437fc0c21897173bc9a04852f315de7f14e/python-eigen-ingenuity-0.4.8.tar.gz
+[2024-04-23 14:51:18] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-23 14:51:18] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.8.tar.gz tmp/ecv-python-development-0.0.9.tar.gz --markdown 20240423/e/ecv-python-development/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:51:18] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.9-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-04-23 14:51:18] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.9.1-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
+[2024-04-23 14:51:18] INFO root fetch - main [MainThread]: End processing [libsegmenter]: success
+[2024-04-23 14:51:18] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2024-04-23 14:51:18] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2024-04-23 14:51:18] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2024-04-23 14:51:18] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/d5/46/2554bcc92a089d39a46cc8a215282b82286d0694e45c99808348a0478326/python-eigen-ingenuity-0.4.9.tar.gz
+[2024-04-23 14:51:19] INFO root fetch - processPackages [lnmmeshio]: Remove: archive file [/home/abi/fetcher/tmp/lnmmeshio-5.3.1.tar.gz]
+[2024-04-23 14:51:19] INFO root fetch - processPackages [lnmmeshio]: Remove: archive file [/home/abi/fetcher/tmp/lnmmeshio-5.3.2.tar.gz]
+[2024-04-23 14:51:19] INFO root fetch - main [MainThread]: End processing [lnmmeshio]: success
+[2024-04-23 14:51:19] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2024-04-23 14:51:19] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.8.tar.gz tmp/python-eigen-ingenuity-0.4.9.tar.gz --markdown 20240423/p/python-eigen-ingenuity/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-23 14:51:19] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.8.tar.gz]
+[2024-04-23 14:51:19] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.9.tar.gz]
+[2024-04-23 14:51:19] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-23 14:51:19] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2024-04-23 14:51:19] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-23 14:51:19] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-23 14:51:19] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-23 14:51:19] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.8.tar.gz]
+[2024-04-23 14:51:19] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.9.tar.gz]
+[2024-04-23 14:51:19] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2024-04-23 14:51:21] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2024-04-23 14:51:21] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20240423/c/codeforlife-portal/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-04-23 14:51:21] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.74.0.tar.gz]
+[2024-04-23 14:51:21] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.1.tar.gz]
+[2024-04-23 14:51:21] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-04-23 14:51:23] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2024-04-23 14:51:23] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2024-04-23 14:51:23] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2024-04-23 14:51:23] INFO root fetch - main [MainThread]: Store serial: [22894044]
