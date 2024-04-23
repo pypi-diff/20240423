@@ -3406,3 +3406,33 @@
 [2024-04-23 02:58:37] INFO root fetch - processPackages [powerschoolapi-cars1n]: Remove: archive file [/home/abi/fetcher/tmp/powerschoolapi_cars1n-1.0.5.tar.gz]
 [2024-04-23 02:58:37] INFO root fetch - main [MainThread]: End processing [powerschoolapi-cars1n]: success
 [2024-04-23 02:58:37] INFO root fetch - main [MainThread]: Store serial: [22886565]
+[2024-04-23 03:00:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886565]
+[2024-04-23 03:00:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 03:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: entity-recognition-service
+[2024-04-23 03:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-simulator-xiuxian
+[2024-04-23 03:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fscan
+[2024-04-23 03:00:46] INFO root fetch - processPackages [entity-recognition-service]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 03:00:46] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/23/18/7145326a6ea0566c2c41ba0bf3822fffc6b4da314a426433179c4724bda3/entity_recognition_service-0.1.8.tar.gz
+[2024-04-23 03:00:46] INFO root fetch - processPackages [fscan]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-23 03:00:46] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: New version: [0.5.26] Old Version: [0.5.25]
+[2024-04-23 03:00:46] INFO root fetch - processPackages [entity-recognition-service]: Downloading https://files.pythonhosted.org/packages/86/75/a994a9af22b16241a2b38cb3314e7d2457d9aaf73d35a5b70823d8c8ce18/entity_recognition_service-0.1.9.tar.gz
+[2024-04-23 03:00:46] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Downloading https://files.pythonhosted.org/packages/1f/73/22c2a43e0bdc35836d5cf460f8b20d2b61c7b71bd776f70a77911aca2f05/nonebot_plugin_simulator_xiuxian-0.5.25.tar.gz
+[2024-04-23 03:00:46] INFO root fetch - processPackages [fscan]: Downloading https://files.pythonhosted.org/packages/5e/e7/f7cd162db9cc264f37dc6e60dcde3e36262fa288539f0c8890674340a988/fscan-0.3.5.tar.gz
+[2024-04-23 03:00:46] INFO root fetch - processPackages [entity-recognition-service]: executing diffoscope
+[2024-04-23 03:00:46] INFO root fetch - processPackages [entity-recognition-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entity_recognition_service-0.1.8.tar.gz tmp/entity_recognition_service-0.1.9.tar.gz --markdown 20240423/e/entity-recognition-service/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 03:00:46] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Downloading https://files.pythonhosted.org/packages/fa/68/a6112db4644c0a73a04aceaf044c99d302b61c80ae5c3d0e5688e22941ca/nonebot_plugin_simulator_xiuxian-0.5.26.tar.gz
+[2024-04-23 03:00:46] INFO root fetch - processPackages [fscan]: Downloading https://files.pythonhosted.org/packages/2d/6b/400a3b8841efd73861a848327424a9179e4f0988b96c8c7a3fe5eaa14ce9/fscan-0.3.6.tar.gz
+[2024-04-23 03:00:47] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: executing diffoscope
+[2024-04-23 03:00:47] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_simulator_xiuxian-0.5.25.tar.gz tmp/nonebot_plugin_simulator_xiuxian-0.5.26.tar.gz --markdown 20240423/n/nonebot-plugin-simulator-xiuxian/0.5.25-0.5.26/README.md --exclude *.pyd
+[2024-04-23 03:00:47] INFO root fetch - processPackages [fscan]: executing diffoscope
+[2024-04-23 03:00:47] INFO root fetch - processPackages [fscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fscan-0.3.5.tar.gz tmp/fscan-0.3.6.tar.gz --markdown 20240423/f/fscan/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-23 03:00:47] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.8.tar.gz]
+[2024-04-23 03:00:47] INFO root fetch - processPackages [entity-recognition-service]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_service-0.1.9.tar.gz]
+[2024-04-23 03:00:47] INFO root fetch - main [MainThread]: End processing [entity-recognition-service]: success
+[2024-04-23 03:00:47] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_simulator_xiuxian-0.5.25.tar.gz]
+[2024-04-23 03:00:47] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_simulator_xiuxian-0.5.26.tar.gz]
+[2024-04-23 03:00:47] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-simulator-xiuxian]: success
+[2024-04-23 03:00:47] INFO root fetch - processPackages [fscan]: Remove: archive file [/home/abi/fetcher/tmp/fscan-0.3.5.tar.gz]
+[2024-04-23 03:00:47] INFO root fetch - processPackages [fscan]: Remove: archive file [/home/abi/fetcher/tmp/fscan-0.3.6.tar.gz]
+[2024-04-23 03:00:47] INFO root fetch - main [MainThread]: End processing [fscan]: success
+[2024-04-23 03:00:47] INFO root fetch - main [MainThread]: Store serial: [22886583]
