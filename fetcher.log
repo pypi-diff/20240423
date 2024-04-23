@@ -8415,3 +8415,27 @@
 [2024-04-23 04:43:51] INFO root fetch - processPackages [the-utils]: Remove: archive file [/home/abi/fetcher/tmp/the_utils-0.3.6.tar.gz]
 [2024-04-23 04:43:51] INFO root fetch - main [MainThread]: End processing [the-utils]: success
 [2024-04-23 04:43:51] INFO root fetch - main [MainThread]: Store serial: [22888262]
+[2024-04-23 04:45:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888262]
+[2024-04-23 04:46:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 04:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biosteam
+[2024-04-23 04:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Horama
+[2024-04-23 04:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: InvokeAI
+[2024-04-23 04:46:00] WARNING root fetch - processPackages [Horama]: Skipping, unable to determine old version
+[2024-04-23 04:46:00] INFO root fetch - main [MainThread]: End processing [Horama] error
+[2024-04-23 04:46:01] INFO root fetch - processPackages [InvokeAI]: New version: [4.2.0a1] Old Version: [4.1.0]
+[2024-04-23 04:46:01] INFO root fetch - processPackages [biosteam]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-23 04:46:01] INFO root fetch - processPackages [biosteam]: Downloading https://files.pythonhosted.org/packages/9c/00/313204e69841aef03bab6e9e10a271b265d5baee12b666cb0f7eee0e9ab2/biosteam-2.9.8.tar.gz
+[2024-04-23 04:46:01] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/f0/e5/ccbec46ddb9eadf0706881b7e5b12082fdcfaef1366cbfa2964e716c2eed/InvokeAI-4.1.0.tar.gz
+[2024-04-23 04:46:01] INFO root fetch - processPackages [biosteam]: Downloading https://files.pythonhosted.org/packages/e8/20/f344b75b639fc3d827c69ecf18e63ab753349283dab6a010e8e2b8860aaa/biosteam-2.9.9.tar.gz
+[2024-04-23 04:46:01] INFO root fetch - processPackages [biosteam]: executing diffoscope
+[2024-04-23 04:46:01] INFO root fetch - processPackages [biosteam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biosteam-2.9.8.tar.gz tmp/biosteam-2.9.9.tar.gz --markdown 20240423/b/biosteam/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-23 04:46:01] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/44/b6/ed565d5d9dd42e3313e4b7f6397553c8184af29e7aa68cb8fe203fe7a01a/InvokeAI-4.2.0a1.tar.gz
+[2024-04-23 04:46:02] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2024-04-23 04:46:02] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-4.1.0.tar.gz tmp/InvokeAI-4.2.0a1.tar.gz --markdown 20240423/I/InvokeAI/4.1.0-4.2.0a1/README.md --exclude *.pyd
+[2024-04-23 04:46:02] INFO root fetch - processPackages [biosteam]: Remove: archive file [/home/abi/fetcher/tmp/biosteam-2.9.8.tar.gz]
+[2024-04-23 04:46:02] INFO root fetch - processPackages [biosteam]: Remove: archive file [/home/abi/fetcher/tmp/biosteam-2.9.9.tar.gz]
+[2024-04-23 04:46:02] INFO root fetch - main [MainThread]: End processing [biosteam]: success
+[2024-04-23 04:46:28] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.1.0.tar.gz]
+[2024-04-23 04:46:28] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.0a1.tar.gz]
+[2024-04-23 04:46:28] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2024-04-23 04:46:28] INFO root fetch - main [MainThread]: Store serial: [22888270]
