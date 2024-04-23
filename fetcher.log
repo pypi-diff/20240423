@@ -23374,3 +23374,81 @@ EOFError: EOF read where object expected
 [2024-04-23 15:24:53] INFO root fetch - processPackages [plonetheme.barceloneta]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.barceloneta-3.2.0a3.tar.gz]
 [2024-04-23 15:24:53] INFO root fetch - main [MainThread]: End processing [plonetheme.barceloneta]: success
 [2024-04-23 15:24:53] INFO root fetch - main [MainThread]: Store serial: [22894616]
+[2024-04-23 15:26:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894616]
+[2024-04-23 15:27:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 15:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aopp-deconv-tool
+[2024-04-23 15:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SnaxModule
+[2024-04-23 15:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiogram3-triggers
+[2024-04-23 15:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qtapputils
+[2024-04-23 15:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opytimal
+[2024-04-23 15:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BrickBundles
+[2024-04-23 15:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: badi-users
+[2024-04-23 15:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BrickAgx
+[2024-04-23 15:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: energy-base
+[2024-04-23 15:27:02] INFO root fetch - processPackages [aopp-deconv-tool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 15:27:02] WARNING root fetch - processPackages [SnaxModule]: Skipping, unable to determine old version
+[2024-04-23 15:27:02] INFO root fetch - main [MainThread]: End processing [SnaxModule] error
+[2024-04-23 15:27:02] INFO root fetch - processPackages [opytimal]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-23 15:27:02] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/50/55/3294e03a3df4e27304d8d45cb34755d7e04ba04fcd5353b065112d29d412/aopp_deconv_tool-0.1.8.tar.gz
+[2024-04-23 15:27:02] INFO root fetch - processPackages [BrickBundles]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-04-23 15:27:02] INFO root fetch - processPackages [aiogram3-triggers]: New version: [0.0.3] Old Version: [0.0.0]
+[2024-04-23 15:27:02] INFO root fetch - processPackages [qtapputils]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-23 15:27:02] INFO root fetch - processPackages [energy-base]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-04-23 15:27:02] INFO root fetch - processPackages [BrickAgx]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-04-23 15:27:02] INFO root fetch - processPackages [badi-users]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-23 15:27:02] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/67/1f/9fbda90040a9330cf1848852ff1e390e41d72143858c8be35402de849434/opytimal-0.6.5.tar.gz
+[2024-04-23 15:27:02] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/50/d3/c41960f9b0821db87a718427c6970cb1738f663bff003962791eacd4f312/brickbundles-0.6.3-py3-none-any.whl
+[2024-04-23 15:27:02] INFO root fetch - processPackages [aiogram3-triggers]: Downloading https://files.pythonhosted.org/packages/1f/73/b154692364174f3bf2c22166e736c2d12a9f8291e89a535a105ddc56cbef/aiogram3_triggers-0.0.0.tar.gz
+[2024-04-23 15:27:02] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/d2/3b/c511c0463be20fcf47ab6e89261c14b0378e8e6060ea783f71fc6c7daec5/energy_base-1.7.1.tar.gz
+[2024-04-23 15:27:02] INFO root fetch - processPackages [qtapputils]: Downloading https://files.pythonhosted.org/packages/1b/ed/e150e932eaceb87beb93bbe76835702895fbd3205d8b5fac4dc79208af7e/qtapputils-0.5.1.tar.gz
+[2024-04-23 15:27:02] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/60/b1/6c32f12c379622e7f31b8b7e851232ad0230d341b71caa62fab10f304577/brickagx-0.6.3-cp39-cp39-win_amd64.whl
+[2024-04-23 15:27:02] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/42/77/049c78465de3437508a5575e37120636ca0165b55fd93ff33eb7fd7e3482/badi_users-2.3.1.tar.gz
+[2024-04-23 15:27:03] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/9b/1a/bbfe6985d8c21cce84317f26ad1ad7b438e4eee7b28eff4bd7fb6e8a78c3/aopp_deconv_tool-0.1.9.tar.gz
+[2024-04-23 15:27:03] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/16/42/21a06f9c4c9b7bd1f1137ca3c5797710d793bedf2f7c39a8c0d636b30987/opytimal-0.6.6.tar.gz
+[2024-04-23 15:27:03] INFO root fetch - processPackages [aopp-deconv-tool]: executing diffoscope
+[2024-04-23 15:27:03] INFO root fetch - processPackages [aopp-deconv-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aopp_deconv_tool-0.1.8.tar.gz tmp/aopp_deconv_tool-0.1.9.tar.gz --markdown 20240423/a/aopp-deconv-tool/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 15:27:03] INFO root fetch - processPackages [aiogram3-triggers]: Downloading https://files.pythonhosted.org/packages/0f/b9/a6beb73b91d0c9db54251e05c4c174c97db402df4a9d09031b63b7ce5d13/aiogram3_triggers-0.0.3.tar.gz
+[2024-04-23 15:27:03] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/f8/60/bed70396fcda2fc4b1ae9ba59229c9d4bb87cb67a1999468e25be8b90043/brickbundles-0.7.0-py3-none-any.whl
+[2024-04-23 15:27:03] INFO root fetch - processPackages [qtapputils]: Downloading https://files.pythonhosted.org/packages/84/eb/e8566b888094d8107550f59e1edb9348883344894eed7548076066209742/qtapputils-0.5.2.tar.gz
+[2024-04-23 15:27:03] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/73/62/6bb034d60aef9b2abb5aedde7c200c50258979081e047d15bdc6235795e0/energy_base-1.7.2.tar.gz
+[2024-04-23 15:27:03] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 15:27:03] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.6.5.tar.gz tmp/opytimal-0.6.6.tar.gz --markdown 20240423/o/opytimal/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-04-23 15:27:03] INFO root fetch - processPackages [qtapputils]: executing diffoscope
+[2024-04-23 15:27:03] INFO root fetch - processPackages [qtapputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtapputils-0.5.1.tar.gz tmp/qtapputils-0.5.2.tar.gz --markdown 20240423/q/qtapputils/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-23 15:27:03] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-04-23 15:27:03] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.7.1.tar.gz tmp/energy_base-1.7.2.tar.gz --markdown 20240423/e/energy-base/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-04-23 15:27:03] INFO root fetch - processPackages [BrickBundles]: executing diffoscope
+[2024-04-23 15:27:03] INFO root fetch - processPackages [BrickBundles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickbundles-0.6.3-py3-none-any.whl.zip tmp/brickbundles-0.7.0-py3-none-any.whl.zip --markdown 20240423/B/BrickBundles/0.6.3-0.7.0/README.md --exclude *.pyd
+[2024-04-23 15:27:03] INFO root fetch - processPackages [aiogram3-triggers]: executing diffoscope
+[2024-04-23 15:27:03] INFO root fetch - processPackages [aiogram3-triggers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram3_triggers-0.0.0.tar.gz tmp/aiogram3_triggers-0.0.3.tar.gz --markdown 20240423/a/aiogram3-triggers/0.0.0-0.0.3/README.md --exclude *.pyd
+[2024-04-23 15:27:03] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/91/13/cde01fa37f445080b2ec049b70968f6d74398f683baffea7c3162271b8e7/badi_users-2.3.2.tar.gz
+[2024-04-23 15:27:03] INFO root fetch - processPackages [badi-users]: executing diffoscope
+[2024-04-23 15:27:03] INFO root fetch - processPackages [badi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badi_users-2.3.1.tar.gz tmp/badi_users-2.3.2.tar.gz --markdown 20240423/b/badi-users/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-04-23 15:27:04] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/15/8d/9780caf0ecca08d5be2e8e826cc4866561158c2c02196162a5389dc66a76/brickagx-0.7.0-cp39-cp39-win_amd64.whl
+[2024-04-23 15:27:04] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.8.tar.gz]
+[2024-04-23 15:27:04] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.9.tar.gz]
+[2024-04-23 15:27:04] INFO root fetch - main [MainThread]: End processing [aopp-deconv-tool]: success
+[2024-04-23 15:27:04] INFO root fetch - processPackages [aiogram3-triggers]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_triggers-0.0.0.tar.gz]
+[2024-04-23 15:27:04] INFO root fetch - processPackages [aiogram3-triggers]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_triggers-0.0.3.tar.gz]
+[2024-04-23 15:27:04] INFO root fetch - main [MainThread]: End processing [aiogram3-triggers]: success
+[2024-04-23 15:27:04] INFO root fetch - processPackages [qtapputils]: Remove: archive file [/home/abi/fetcher/tmp/qtapputils-0.5.1.tar.gz]
+[2024-04-23 15:27:04] INFO root fetch - processPackages [qtapputils]: Remove: archive file [/home/abi/fetcher/tmp/qtapputils-0.5.2.tar.gz]
+[2024-04-23 15:27:04] INFO root fetch - main [MainThread]: End processing [qtapputils]: success
+[2024-04-23 15:27:04] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.7.1.tar.gz]
+[2024-04-23 15:27:04] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.7.2.tar.gz]
+[2024-04-23 15:27:04] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-04-23 15:27:04] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.6.5.tar.gz]
+[2024-04-23 15:27:04] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.6.6.tar.gz]
+[2024-04-23 15:27:04] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 15:27:04] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.6.3-py3-none-any.whl.zip]
+[2024-04-23 15:27:04] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.7.0-py3-none-any.whl.zip]
+[2024-04-23 15:27:04] INFO root fetch - main [MainThread]: End processing [BrickBundles]: success
+[2024-04-23 15:27:05] INFO root fetch - processPackages [badi-users]: Remove: archive file [/home/abi/fetcher/tmp/badi_users-2.3.1.tar.gz]
+[2024-04-23 15:27:05] INFO root fetch - processPackages [badi-users]: Remove: archive file [/home/abi/fetcher/tmp/badi_users-2.3.2.tar.gz]
+[2024-04-23 15:27:05] INFO root fetch - main [MainThread]: End processing [badi-users]: success
+[2024-04-23 15:27:05] INFO root fetch - processPackages [BrickAgx]: executing diffoscope
+[2024-04-23 15:27:05] INFO root fetch - processPackages [BrickAgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickagx-0.6.3-cp39-cp39-win_amd64.whl.zip tmp/brickagx-0.7.0-cp39-cp39-win_amd64.whl.zip --markdown 20240423/B/BrickAgx/0.6.3-0.7.0/README.md --exclude *.pyd
+[2024-04-23 15:27:06] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.6.3-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 15:27:06] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.7.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 15:27:06] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
+[2024-04-23 15:27:06] INFO root fetch - main [MainThread]: Store serial: [22894646]
