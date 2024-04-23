@@ -8439,3 +8439,30 @@
 [2024-04-23 04:46:28] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.0a1.tar.gz]
 [2024-04-23 04:46:28] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2024-04-23 04:46:28] INFO root fetch - main [MainThread]: Store serial: [22888270]
+[2024-04-23 04:48:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888270]
+[2024-04-23 04:48:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 04:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cppksConnect-validator
+[2024-04-23 04:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-sale-order-invoicing-grouping-criteria
+[2024-04-23 04:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: afeng-py-tools
+[2024-04-23 04:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cooksConnect-validator
+[2024-04-23 04:48:38] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 04:48:38] WARNING root fetch - processPackages [cppksConnect-validator]: Skipping, unable to determine old version
+[2024-04-23 04:48:38] INFO root fetch - main [MainThread]: End processing [cppksConnect-validator] error
+[2024-04-23 04:48:38] WARNING root fetch - processPackages [cooksConnect-validator]: Skipping, unable to determine old version
+[2024-04-23 04:48:38] INFO root fetch - main [MainThread]: End processing [cooksConnect-validator] error
+[2024-04-23 04:48:38] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-grouping-criteria]: New version: [14.0.1.0.2.dev9] Old Version: [14.0.1.0.2.dev8]
+[2024-04-23 04:48:38] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-23 04:48:38] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-grouping-criteria]: Downloading https://files.pythonhosted.org/packages/1a/5d/346666e7edcd387de907d3cc18746f2c9d11d1256f11292e5335d6f6d571/odoo14_addon_sale_order_invoicing_grouping_criteria-14.0.1.0.2.dev8-py3-none-any.whl
+[2024-04-23 04:48:38] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-23 04:48:38] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-23 04:48:38] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240423/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 04:48:38] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-grouping-criteria]: Downloading https://files.pythonhosted.org/packages/38/aa/b02d1111e8714d70ebf6f60efd623b3b427fbcbbf9d5c4255b3c203f7173/odoo14_addon_sale_order_invoicing_grouping_criteria-14.0.1.0.2.dev9-py3-none-any.whl
+[2024-04-23 04:48:38] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-grouping-criteria]: executing diffoscope
+[2024-04-23 04:48:38] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-grouping-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_invoicing_grouping_criteria-14.0.1.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_invoicing_grouping_criteria-14.0.1.0.2.dev9-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addon-sale-order-invoicing-grouping-criteria/14.0.1.0.2.dev8-14.0.1.0.2.dev9/README.md --exclude *.pyd
+[2024-04-23 04:48:39] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-grouping-criteria]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_invoicing_grouping_criteria-14.0.1.0.2.dev8-py3-none-any.whl.zip]
+[2024-04-23 04:48:39] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-grouping-criteria]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_invoicing_grouping_criteria-14.0.1.0.2.dev9-py3-none-any.whl.zip]
+[2024-04-23 04:48:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-invoicing-grouping-criteria]: success
+[2024-04-23 04:48:39] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-23 04:48:39] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-23 04:48:39] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-23 04:48:39] INFO root fetch - main [MainThread]: Store serial: [22888286]
