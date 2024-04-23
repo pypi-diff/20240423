@@ -17986,3 +17986,38 @@
 [2024-04-23 12:25:49] INFO root fetch - processPackages [ebmdatalab]: Remove: archive file [/home/abi/fetcher/tmp/ebmdatalab-0.0.9.tar.gz]
 [2024-04-23 12:25:49] INFO root fetch - main [MainThread]: End processing [ebmdatalab]: success
 [2024-04-23 12:25:49] INFO root fetch - main [MainThread]: Store serial: [22892301]
+[2024-04-23 12:27:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892301]
+[2024-04-23 12:27:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-intercompany
+[2024-04-23 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codex-of-the-damned
+[2024-04-23 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: river
+[2024-04-23 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: holobench
+[2024-04-23 12:27:58] INFO root fetch - processPackages [codex-of-the-damned]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 12:27:58] INFO root fetch - processPackages [codex-of-the-damned]: Downloading https://files.pythonhosted.org/packages/c2/11/df884619fc13a601b050cb3e01ceb86181c35a4ee94f824c8544d07562f3/codex-of-the-damned-1.8.tar.gz
+[2024-04-23 12:27:58] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-04-23 12:27:58] INFO root fetch - processPackages [holobench]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-23 12:27:58] WARNING root fetch - processPackages [codex-of-the-damned]: Skipping package: exceeds size limit 17715792>=10485760
+[2024-04-23 12:27:58] INFO root fetch - main [MainThread]: End processing [codex-of-the-damned] error
+[2024-04-23 12:27:58] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: Downloading https://files.pythonhosted.org/packages/ec/0d/5c4873b9c4bc26fdb0c712ec9cb4bc59bdda9b2e3a591d7293becac3f79d/odoo_addon_stock_intercompany-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-23 12:27:58] INFO root fetch - processPackages [river]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-23 12:27:58] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/62/c0/2975948bb8b1c809a023db3bd1c8de949c9d56bf34dd96f5015259b9e77b/holobench-1.8.0.tar.gz
+[2024-04-23 12:27:58] INFO root fetch - processPackages [river]: Downloading https://files.pythonhosted.org/packages/72/6c/e2164b57802af0b7e60a4ac271a1277876a720eb88cde88c2aa4a7aa24c1/river-0.8.0.tar.gz
+[2024-04-23 12:27:58] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: Downloading https://files.pythonhosted.org/packages/58/54/0f466017f39abc4e44fa4ba72306b4a3c857d840ae8903297ab5b32f3d71/odoo_addon_stock_intercompany-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-23 12:27:58] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: executing diffoscope
+[2024-04-23 12:27:58] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_intercompany-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_intercompany-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-stock-intercompany/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-23 12:27:58] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/93/4f/5ab3d9f60dc2580f0c2f054540ed82c34393cc7b4e115f96d3a5b81e1b16/holobench-1.9.0.tar.gz
+[2024-04-23 12:27:59] INFO root fetch - processPackages [holobench]: executing diffoscope
+[2024-04-23 12:27:59] INFO root fetch - processPackages [holobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holobench-1.8.0.tar.gz tmp/holobench-1.9.0.tar.gz --markdown 20240423/h/holobench/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-23 12:27:59] INFO root fetch - processPackages [river]: Downloading https://files.pythonhosted.org/packages/08/23/aa6c018d9f7a07e1e607eee8c22fb0256da6bd0026a698d6d5c0e4630f7c/river-0.9.0.tar.gz
+[2024-04-23 12:27:59] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_intercompany-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-23 12:27:59] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_intercompany-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-23 12:27:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-intercompany]: success
+[2024-04-23 12:27:59] INFO root fetch - processPackages [river]: executing diffoscope
+[2024-04-23 12:27:59] INFO root fetch - processPackages [river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/river-0.8.0.tar.gz tmp/river-0.9.0.tar.gz --markdown 20240423/r/river/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-23 12:27:59] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-1.8.0.tar.gz]
+[2024-04-23 12:27:59] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-1.9.0.tar.gz]
+[2024-04-23 12:27:59] INFO root fetch - main [MainThread]: End processing [holobench]: success
+[2024-04-23 12:28:03] INFO root fetch - processPackages [river]: Remove: archive file [/home/abi/fetcher/tmp/river-0.8.0.tar.gz]
+[2024-04-23 12:28:03] INFO root fetch - processPackages [river]: Remove: archive file [/home/abi/fetcher/tmp/river-0.9.0.tar.gz]
+[2024-04-23 12:28:03] INFO root fetch - main [MainThread]: End processing [river]: success
+[2024-04-23 12:28:03] INFO root fetch - main [MainThread]: Store serial: [22892345]
