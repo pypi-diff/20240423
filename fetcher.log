@@ -10391,3 +10391,33 @@
 [2024-04-23 06:52:06] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.7.2.tar.gz]
 [2024-04-23 06:52:06] INFO root fetch - main [MainThread]: End processing [seatable-api]: success
 [2024-04-23 06:52:06] INFO root fetch - main [MainThread]: Store serial: [22889091]
+[2024-04-23 06:54:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889091]
+[2024-04-23 06:54:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 06:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ethyca-fides
+[2024-04-23 06:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mitosis
+[2024-04-23 06:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quant1x-trader
+[2024-04-23 06:54:15] INFO root fetch - processPackages [quant1x-trader]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-23 06:54:15] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-23 06:54:15] INFO root fetch - processPackages [mitosis]: New version: [0.5.0b2] Old Version: [0.5.0b1]
+[2024-04-23 06:54:15] INFO root fetch - processPackages [quant1x-trader]: Downloading https://files.pythonhosted.org/packages/f2/d8/e9039ec6231e0a524c6cb388ad619fbbd0e7ece5da0a05a3f3d919c37dca/quant1x-trader-0.7.4.tar.gz
+[2024-04-23 06:54:15] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-04-23 06:54:16] INFO root fetch - processPackages [mitosis]: Downloading https://files.pythonhosted.org/packages/54/cb/140c90c5cdcec71a76e1ec02f2e8744b1de2775ef526e5fc515a9a61f6a4/mitosis-0.5.0b1.tar.gz
+[2024-04-23 06:54:16] INFO root fetch - processPackages [quant1x-trader]: Downloading https://files.pythonhosted.org/packages/bb/54/80b3f66625277c1f78706077cfe5590a3d143a8f465be32fc9efc87ed12c/quant1x-trader-0.7.5.tar.gz
+[2024-04-23 06:54:16] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-04-23 06:54:16] INFO root fetch - processPackages [mitosis]: Downloading https://files.pythonhosted.org/packages/e3/e3/d92b44ae75acbf29374db5ba8d8233ed207b21dee177980f741aa4adb0c2/mitosis-0.5.0b2.tar.gz
+[2024-04-23 06:54:16] INFO root fetch - processPackages [quant1x-trader]: executing diffoscope
+[2024-04-23 06:54:16] INFO root fetch - processPackages [quant1x-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant1x-trader-0.7.4.tar.gz tmp/quant1x-trader-0.7.5.tar.gz --markdown 20240423/q/quant1x-trader/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-04-23 06:54:16] INFO root fetch - processPackages [mitosis]: executing diffoscope
+[2024-04-23 06:54:16] INFO root fetch - processPackages [mitosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitosis-0.5.0b1.tar.gz tmp/mitosis-0.5.0b2.tar.gz --markdown 20240423/m/mitosis/0.5.0b1-0.5.0b2/README.md --exclude *.pyd
+[2024-04-23 06:54:16] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-04-23 06:54:16] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240423/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-23 06:54:16] INFO root fetch - processPackages [quant1x-trader]: Remove: archive file [/home/abi/fetcher/tmp/quant1x-trader-0.7.4.tar.gz]
+[2024-04-23 06:54:16] INFO root fetch - processPackages [quant1x-trader]: Remove: archive file [/home/abi/fetcher/tmp/quant1x-trader-0.7.5.tar.gz]
+[2024-04-23 06:54:16] INFO root fetch - main [MainThread]: End processing [quant1x-trader]: success
+[2024-04-23 06:54:17] INFO root fetch - processPackages [mitosis]: Remove: archive file [/home/abi/fetcher/tmp/mitosis-0.5.0b1.tar.gz]
+[2024-04-23 06:54:17] INFO root fetch - processPackages [mitosis]: Remove: archive file [/home/abi/fetcher/tmp/mitosis-0.5.0b2.tar.gz]
+[2024-04-23 06:54:17] INFO root fetch - main [MainThread]: End processing [mitosis]: success
+[2024-04-23 06:54:19] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-04-23 06:54:19] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-04-23 06:54:19] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-04-23 06:54:19] INFO root fetch - main [MainThread]: Store serial: [22889100]
