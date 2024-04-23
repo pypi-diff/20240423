@@ -3436,3 +3436,114 @@
 [2024-04-23 03:00:47] INFO root fetch - processPackages [fscan]: Remove: archive file [/home/abi/fetcher/tmp/fscan-0.3.6.tar.gz]
 [2024-04-23 03:00:47] INFO root fetch - main [MainThread]: End processing [fscan]: success
 [2024-04-23 03:00:47] INFO root fetch - main [MainThread]: Store serial: [22886583]
+[2024-04-23 03:02:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886583]
+[2024-04-23 03:02:56] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-23 03:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-dots
+[2024-04-23 03:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-commandx
+[2024-04-23 03:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore-a-la-carte-docdb-elastic
+[2024-04-23 03:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botocore-a-la-carte-es
+[2024-04-23 03:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-events
+[2024-04-23 03:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: structifyai
+[2024-04-23 03:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-a-la-carte-b2bi
+[2024-04-23 03:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botocore-a-la-carte-glue
+[2024-04-23 03:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botocore-a-la-carte-lex-runtime
+[2024-04-23 03:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: botocore-a-la-carte-outposts
+[2024-04-23 03:02:56] INFO root fetch - processPackages [pulumi-commandx]: New version: [0.0.2a1713828252] Old Version: [0.0.2a1713827595]
+[2024-04-23 03:02:56] INFO root fetch - processPackages [mo-dots]: New version: [9.596.24113] Old Version: [9.595.24112]
+[2024-04-23 03:02:56] INFO root fetch - processPackages [botocore-a-la-carte-glue]: New version: [1.34.9] Old Version: [1.34.89]
+[2024-04-23 03:02:56] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/0f/b0/a9c183ed21ff42c76ab3a069088a2e02f62944eeeb594565d42c1bef3000/mo_dots-9.595.24112.tar.gz
+[2024-04-23 03:02:56] INFO root fetch - processPackages [botocore-a-la-carte-b2bi]: New version: [1.34.9] Old Version: [1.34.89]
+[2024-04-23 03:02:56] INFO root fetch - processPackages [structifyai]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-23 03:02:56] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: New version: [1.34.9] Old Version: [1.34.89]
+[2024-04-23 03:02:56] INFO root fetch - processPackages [botocore-a-la-carte-es]: New version: [1.34.9] Old Version: [1.34.89]
+[2024-04-23 03:02:56] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: New version: [1.34.9] Old Version: [1.34.89]
+[2024-04-23 03:02:56] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: New version: [1.34.9] Old Version: [1.34.89]
+[2024-04-23 03:02:56] INFO root fetch - processPackages [botocore-a-la-carte-events]: New version: [1.34.9] Old Version: [1.34.89]
+[2024-04-23 03:02:56] INFO root fetch - processPackages [pulumi-commandx]: Downloading https://files.pythonhosted.org/packages/5c/75/3661a6b51ea37c0179421ed73253ae6b3038c062f2e3f954780fdf98597b/pulumi_commandx-0.0.2a1713827595.tar.gz
+[2024-04-23 03:02:56] INFO root fetch - processPackages [botocore-a-la-carte-glue]: Downloading https://files.pythonhosted.org/packages/bd/38/8ec854986cc6d3fca500b390ea30976de89d90ea6a8a61fab1c171f08623/botocore_a_la_carte_glue-1.34.89-py3-none-any.whl
+[2024-04-23 03:02:56] INFO root fetch - processPackages [botocore-a-la-carte-b2bi]: Downloading https://files.pythonhosted.org/packages/e8/b3/228efe2736acf45af14ce8d65765c6497a5ee16a37d53f89edf3efbde505/botocore_a_la_carte_b2bi-1.34.89-py3-none-any.whl
+[2024-04-23 03:02:56] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: Downloading https://files.pythonhosted.org/packages/c0/f4/e6284fc25a47961f4b23800098619d87b5798fb735e41d24d64fce3ab8ae/botocore_a_la_carte_docdb_elastic-1.34.89-py3-none-any.whl
+[2024-04-23 03:02:56] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/fb/48/d8ae9d97526f9fe8aaa87dbd3738a9f0181f42d8069e6296ef3dc95ba011/structifyai-0.8.0.tar.gz
+[2024-04-23 03:02:56] INFO root fetch - processPackages [botocore-a-la-carte-es]: Downloading https://files.pythonhosted.org/packages/40/3e/bff6cb21c447f546e7009e3d74169cd0ebc45c88193b3b8839a5c19a573d/botocore_a_la_carte_es-1.34.89-py3-none-any.whl
+[2024-04-23 03:02:56] INFO root fetch - processPackages [botocore-a-la-carte-events]: Downloading https://files.pythonhosted.org/packages/05/82/d1e6b74ee462ff0be93e5afc5629494315dd9e3c6a50cbd8041ac9e8b277/botocore_a_la_carte_events-1.34.89-py3-none-any.whl
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: Downloading https://files.pythonhosted.org/packages/b7/b9/8e9de1cb44ce085a45417acb04224f0ea04aea8bc99e6b9cd1bde562c50e/botocore_a_la_carte_outposts-1.34.89-py3-none-any.whl
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: Downloading https://files.pythonhosted.org/packages/ff/8f/a987e949282c917843ead48faa1a914f59ad75cbee73554682ce7c10631d/botocore_a_la_carte_lex_runtime-1.34.89-py3-none-any.whl
+[2024-04-23 03:02:57] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/f7/6b/dfb273e82e9d6e9683b6aeec350e95eca4ab01a7c631065f6d0a6f5c49f5/mo_dots-9.596.24113.tar.gz
+[2024-04-23 03:02:57] INFO root fetch - processPackages [pulumi-commandx]: Downloading https://files.pythonhosted.org/packages/e9/fc/1a62484745fcaed61d490a9fa693beb4b7df5955829ee5723e876965c386/pulumi_commandx-0.0.2a1713828252.tar.gz
+[2024-04-23 03:02:57] INFO root fetch - processPackages [mo-dots]: executing diffoscope
+[2024-04-23 03:02:57] INFO root fetch - processPackages [mo-dots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_dots-9.595.24112.tar.gz tmp/mo_dots-9.596.24113.tar.gz --markdown 20240423/m/mo-dots/9.595.24112-9.596.24113/README.md --exclude *.pyd
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-b2bi]: Downloading https://files.pythonhosted.org/packages/17/f4/acf49ddaf095c70c5e8bde42c012f41b10b66534d272a59a77c02c0a5ce2/botocore-a-la-carte-b2bi-1.34.9.tar.gz
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-glue]: Downloading https://files.pythonhosted.org/packages/1a/af/a2ae404db386a9760755754dd4725f512ddbfc6b10a7e0bc8e2bdc59bc56/botocore-a-la-carte-glue-1.34.9.tar.gz
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: Downloading https://files.pythonhosted.org/packages/c9/70/b3f9fed27445e5ca164ecc5e3160d130eedd14febb922e88e907425c3e42/botocore-a-la-carte-docdb-elastic-1.34.9.tar.gz
+[2024-04-23 03:02:57] INFO root fetch - processPackages [pulumi-commandx]: executing diffoscope
+[2024-04-23 03:02:57] INFO root fetch - processPackages [pulumi-commandx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_commandx-0.0.2a1713827595.tar.gz tmp/pulumi_commandx-0.0.2a1713828252.tar.gz --markdown 20240423/p/pulumi-commandx/0.0.2a1713827595-0.0.2a1713828252/README.md --exclude *.pyd
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-events]: Downloading https://files.pythonhosted.org/packages/75/94/be33b948a3b45b265e007284939897180353f305d02817e423745b99fdf3/botocore-a-la-carte-events-1.34.9.tar.gz
+[2024-04-23 03:02:57] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/a2/30/35ee236f19dac5e3f595bedeabbbb3e29fee055ddc18222df1f7e833f066/structifyai-0.9.0.tar.gz
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-es]: Downloading https://files.pythonhosted.org/packages/b8/de/9255a29e2222c81026ab4963b4e0f26bfa6bba22f8692a7a6aa167a31314/botocore-a-la-carte-es-1.34.9.tar.gz
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: executing diffoscope
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_a_la_carte_docdb_elastic-1.34.89-py3-none-any.whl.zip tmp/botocore-a-la-carte-docdb-elastic-1.34.9.tar.gz --markdown 20240423/b/botocore-a-la-carte-docdb-elastic/1.34.89-1.34.9/README.md --exclude *.pyd
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: Downloading https://files.pythonhosted.org/packages/25/79/9a0d161085758127d72533e7b1a40d830ec995871e6ac7ee65ae04b207bc/botocore-a-la-carte-lex-runtime-1.34.9.tar.gz
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-events]: executing diffoscope
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_a_la_carte_events-1.34.89-py3-none-any.whl.zip tmp/botocore-a-la-carte-events-1.34.9.tar.gz --markdown 20240423/b/botocore-a-la-carte-events/1.34.89-1.34.9/README.md --exclude *.pyd
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-glue]: executing diffoscope
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_a_la_carte_glue-1.34.89-py3-none-any.whl.zip tmp/botocore-a-la-carte-glue-1.34.9.tar.gz --markdown 20240423/b/botocore-a-la-carte-glue/1.34.89-1.34.9/README.md --exclude *.pyd
+[2024-04-23 03:02:57] INFO root fetch - processPackages [structifyai]: executing diffoscope
+[2024-04-23 03:02:57] INFO root fetch - processPackages [structifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structifyai-0.8.0.tar.gz tmp/structifyai-0.9.0.tar.gz --markdown 20240423/s/structifyai/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-b2bi]: executing diffoscope
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-b2bi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_a_la_carte_b2bi-1.34.89-py3-none-any.whl.zip tmp/botocore-a-la-carte-b2bi-1.34.9.tar.gz --markdown 20240423/b/botocore-a-la-carte-b2bi/1.34.89-1.34.9/README.md --exclude *.pyd
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-es]: executing diffoscope
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-es]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_a_la_carte_es-1.34.89-py3-none-any.whl.zip tmp/botocore-a-la-carte-es-1.34.9.tar.gz --markdown 20240423/b/botocore-a-la-carte-es/1.34.89-1.34.9/README.md --exclude *.pyd
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: executing diffoscope
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_a_la_carte_lex_runtime-1.34.89-py3-none-any.whl.zip tmp/botocore-a-la-carte-lex-runtime-1.34.9.tar.gz --markdown 20240423/b/botocore-a-la-carte-lex-runtime/1.34.89-1.34.9/README.md --exclude *.pyd
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: Downloading https://files.pythonhosted.org/packages/24/13/f7eb0b2f3abc4d5cc496aa603818167bd3744238a22464b124c41f7da9a3/botocore-a-la-carte-outposts-1.34.9.tar.gz
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: executing diffoscope
+[2024-04-23 03:02:57] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_a_la_carte_outposts-1.34.89-py3-none-any.whl.zip tmp/botocore-a-la-carte-outposts-1.34.9.tar.gz --markdown 20240423/b/botocore-a-la-carte-outposts/1.34.89-1.34.9/README.md --exclude *.pyd
+[2024-04-23 03:02:58] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.595.24112.tar.gz]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.596.24113.tar.gz]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [mo-dots]: Start processing: botocore-a-la-carte-sso-admin
+[2024-04-23 03:02:58] INFO root fetch - main [MainThread]: End processing [mo-dots]: success
+[2024-04-23 03:02:58] INFO root fetch - processPackages [pulumi-commandx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_commandx-0.0.2a1713827595.tar.gz]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [pulumi-commandx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_commandx-0.0.2a1713828252.tar.gz]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [pulumi-commandx]: Start processing: botocore-a-la-carte-migrationhubstrategy
+[2024-04-23 03:02:58] INFO root fetch - main [MainThread]: End processing [pulumi-commandx]: success
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-sso-admin]: New version: [1.34.9] Old Version: [1.34.89]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_docdb_elastic-1.34.89-py3-none-any.whl.zip]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-docdb-elastic-1.34.9.tar.gz]
+[2024-04-23 03:02:58] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-docdb-elastic]: success
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-sso-admin]: Downloading https://files.pythonhosted.org/packages/fd/04/9be98b776265bb744e5dceccfdee4dab4d7e7e2655e35c4eaf8800839aa9/botocore_a_la_carte_sso_admin-1.34.89-py3-none-any.whl
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-events]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_events-1.34.89-py3-none-any.whl.zip]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-events]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-events-1.34.9.tar.gz]
+[2024-04-23 03:02:58] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-events]: success
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_lex_runtime-1.34.89-py3-none-any.whl.zip]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-lex-runtime-1.34.9.tar.gz]
+[2024-04-23 03:02:58] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-lex-runtime]: success
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: New version: [1.34.9] Old Version: [1.34.89]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-es]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_es-1.34.89-py3-none-any.whl.zip]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-es]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-es-1.34.9.tar.gz]
+[2024-04-23 03:02:58] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-es]: success
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-glue]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_glue-1.34.89-py3-none-any.whl.zip]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-glue]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-glue-1.34.9.tar.gz]
+[2024-04-23 03:02:58] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-glue]: success
+[2024-04-23 03:02:58] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.8.0.tar.gz]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.9.0.tar.gz]
+[2024-04-23 03:02:58] INFO root fetch - main [MainThread]: End processing [structifyai]: success
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-b2bi]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_b2bi-1.34.89-py3-none-any.whl.zip]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-b2bi]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-b2bi-1.34.9.tar.gz]
+[2024-04-23 03:02:58] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-b2bi]: success
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_outposts-1.34.89-py3-none-any.whl.zip]
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-outposts-1.34.9.tar.gz]
+[2024-04-23 03:02:58] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-outposts]: success
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: Downloading https://files.pythonhosted.org/packages/83/32/04a39887079039fe13ed10b59b6a0064b11e91b51eedcf6b5d0d912ba4a5/botocore_a_la_carte_migrationhubstrategy-1.34.89-py3-none-any.whl
+[2024-04-23 03:02:58] INFO root fetch - processPackages [botocore-a-la-carte-sso-admin]: Downloading https://files.pythonhosted.org/packages/77/10/24bd8ad1a8e213f174147cec0aa77503520fcd492b589175f99f301203fa/botocore-a-la-carte-sso-admin-1.34.9.tar.gz
+[2024-04-23 03:02:59] INFO root fetch - processPackages [botocore-a-la-carte-sso-admin]: executing diffoscope
+[2024-04-23 03:02:59] INFO root fetch - processPackages [botocore-a-la-carte-sso-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_a_la_carte_sso_admin-1.34.89-py3-none-any.whl.zip tmp/botocore-a-la-carte-sso-admin-1.34.9.tar.gz --markdown 20240423/b/botocore-a-la-carte-sso-admin/1.34.89-1.34.9/README.md --exclude *.pyd
+[2024-04-23 03:02:59] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: Downloading https://files.pythonhosted.org/packages/31/66/2499e2bf75101d1303535b7732f2b0c5e6028a9b311c8bee0267676640f6/botocore-a-la-carte-migrationhubstrategy-1.34.9.tar.gz
+[2024-04-23 03:02:59] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: executing diffoscope
+[2024-04-23 03:02:59] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_a_la_carte_migrationhubstrategy-1.34.89-py3-none-any.whl.zip tmp/botocore-a-la-carte-migrationhubstrategy-1.34.9.tar.gz --markdown 20240423/b/botocore-a-la-carte-migrationhubstrategy/1.34.89-1.34.9/README.md --exclude *.pyd
+[2024-04-23 03:02:59] INFO root fetch - processPackages [botocore-a-la-carte-sso-admin]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_sso_admin-1.34.89-py3-none-any.whl.zip]
+[2024-04-23 03:02:59] INFO root fetch - processPackages [botocore-a-la-carte-sso-admin]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sso-admin-1.34.9.tar.gz]
+[2024-04-23 03:02:59] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sso-admin]: success
+[2024-04-23 03:02:59] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_migrationhubstrategy-1.34.89-py3-none-any.whl.zip]
+[2024-04-23 03:02:59] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-migrationhubstrategy-1.34.9.tar.gz]
+[2024-04-23 03:02:59] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-migrationhubstrategy]: success
+[2024-04-23 03:02:59] INFO root fetch - main [MainThread]: Store serial: [22886611]
