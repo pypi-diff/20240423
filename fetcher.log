@@ -18693,3 +18693,17 @@
 [2024-04-23 12:56:30] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
 [2024-04-23 12:56:30] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-04-23 12:56:30] INFO root fetch - main [MainThread]: Store serial: [22892593]
+[2024-04-23 12:58:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892593]
+[2024-04-23 12:58:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 12:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiokeitaro
+[2024-04-23 12:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: db-conn-lib
+[2024-04-23 12:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: my-conn-lib
+[2024-04-23 12:58:39] INFO root fetch - processPackages [aiokeitaro]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 12:58:39] INFO root fetch - processPackages [aiokeitaro]: Downloading https://files.pythonhosted.org/packages/52/3e/8c710ac9f0fa45afa07af77ffb4590bc81d1036947d9a944b9526232ab38/aiokeitaro-0.0.2.tar.gz
+[2024-04-23 12:58:39] WARNING root fetch - processPackages [db-conn-lib]: Skipping, unable to determine old version
+[2024-04-23 12:58:39] INFO root fetch - main [MainThread]: End processing [db-conn-lib] error
+[2024-04-23 12:58:39] WARNING root fetch - processPackages [my-conn-lib]: Skipping, unable to determine old version
+[2024-04-23 12:58:39] INFO root fetch - main [MainThread]: End processing [my-conn-lib] error
+[2024-04-23 12:58:39] ERROR root fetch - processPackages [aiokeitaro]: Unable to fetch info: No such project/version 'aiokeitaro' 0.0.3
+[2024-04-23 12:58:39] INFO root fetch - main [MainThread]: End processing [aiokeitaro] error
+[2024-04-23 12:58:39] INFO root fetch - main [MainThread]: Store serial: [22892609]
