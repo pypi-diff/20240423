@@ -18113,3 +18113,27 @@
 [2024-04-23 12:32:26] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
 [2024-04-23 12:32:26] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-04-23 12:32:26] INFO root fetch - main [MainThread]: Store serial: [22892384]
+[2024-04-23 12:34:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892384]
+[2024-04-23 12:34:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 12:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LeeCo
+[2024-04-23 12:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lense
+[2024-04-23 12:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tabviz
+[2024-04-23 12:34:35] INFO root fetch - processPackages [tabviz]: New version: [1.1.0.8] Old Version: [1.1.0.7]
+[2024-04-23 12:34:35] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 12:34:35] WARNING root fetch - processPackages [LeeCo]: Skipping, unable to determine old version
+[2024-04-23 12:34:35] INFO root fetch - main [MainThread]: End processing [LeeCo] error
+[2024-04-23 12:34:35] INFO root fetch - processPackages [tabviz]: Downloading https://files.pythonhosted.org/packages/13/4b/f142e592809af97a7c82325ca106dff42f5ea36d5aceff2ce4f575e391a7/tabviz-1.1.0.7.tar.gz
+[2024-04-23 12:34:35] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-23 12:34:35] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-23 12:34:35] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 12:34:35] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 12:34:35] INFO root fetch - processPackages [tabviz]: Downloading https://files.pythonhosted.org/packages/26/cd/6f660226ee28f795d75c5af50824ad80eb1f5f9f9c1b70784d1f1ff0504d/tabviz-1.1.0.8.tar.gz
+[2024-04-23 12:34:35] INFO root fetch - processPackages [tabviz]: executing diffoscope
+[2024-04-23 12:34:35] INFO root fetch - processPackages [tabviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabviz-1.1.0.7.tar.gz tmp/tabviz-1.1.0.8.tar.gz --markdown 20240423/t/tabviz/1.1.0.7-1.1.0.8/README.md --exclude *.pyd
+[2024-04-23 12:34:36] INFO root fetch - processPackages [tabviz]: Remove: archive file [/home/abi/fetcher/tmp/tabviz-1.1.0.7.tar.gz]
+[2024-04-23 12:34:36] INFO root fetch - processPackages [tabviz]: Remove: archive file [/home/abi/fetcher/tmp/tabviz-1.1.0.8.tar.gz]
+[2024-04-23 12:34:36] INFO root fetch - main [MainThread]: End processing [tabviz]: success
+[2024-04-23 12:34:36] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 12:34:36] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 12:34:36] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 12:34:36] INFO root fetch - main [MainThread]: Store serial: [22892397]
