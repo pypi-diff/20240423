@@ -21464,3 +21464,59 @@ EOFError: EOF read where object expected
 [2024-04-23 14:32:42] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.9.tar.gz]
 [2024-04-23 14:32:42] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
 [2024-04-23 14:32:42] INFO root fetch - main [MainThread]: Store serial: [22893782]
+[2024-04-23 14:34:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893782]
+[2024-04-23 14:34:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 14:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: puma-hep
+[2024-04-23 14:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doctran_openai
+[2024-04-23 14:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zanshin-sdk-python
+[2024-04-23 14:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peracotta
+[2024-04-23 14:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kotlin-jupyter-kernel
+[2024-04-23 14:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stTransfer
+[2024-04-23 14:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TreeSAK
+[2024-04-23 14:34:51] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:34:51] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/cf/ee/05034545d75a841e008b92e49c2b144b94ab265f8b8878a39626222b7677/doctran_openai-0.0.8.tar.gz
+[2024-04-23 14:34:51] INFO root fetch - processPackages [puma-hep]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-23 14:34:51] WARNING root fetch - processPackages [zanshin-sdk-python]: Skipping, unable to determine old version
+[2024-04-23 14:34:51] INFO root fetch - main [MainThread]: End processing [zanshin-sdk-python] error
+[2024-04-23 14:34:51] INFO root fetch - processPackages [peracotta]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-04-23 14:34:51] INFO root fetch - processPackages [stTransfer]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 14:34:51] INFO root fetch - processPackages [kotlin-jupyter-kernel]: New version: [0.9.1.9] Old Version: [0.9.1.51]
+[2024-04-23 14:34:51] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-23 14:34:51] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-04-23 14:34:51] INFO root fetch - processPackages [puma-hep]: Downloading https://files.pythonhosted.org/packages/61/74/931c4dbfdf30478667c17db419dd28bc1fd990c2ab84d8eb5eb98f1c5d22/puma-hep-0.3.4.tar.gz
+[2024-04-23 14:34:51] INFO root fetch - processPackages [peracotta]: Downloading https://files.pythonhosted.org/packages/42/75/51a8fa792239c5f9e638e448de296acd89da7c045afb726aaf72329441e5/peracotta-2.3.0.tar.gz
+[2024-04-23 14:34:51] INFO root fetch - processPackages [stTransfer]: Downloading https://files.pythonhosted.org/packages/e7/3d/6f32e797c5da76df593dd4645c178ceed0ef6593567c851a1c276320ca39/stTransfer-1.0.8.tar.gz
+[2024-04-23 14:34:51] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/bf/57/6123b8227a48d42aa4dc92614deefd2fb96be6aa7d4e4d9a03e12fbde0cb/doctran_openai-0.0.9.tar.gz
+[2024-04-23 14:34:51] INFO root fetch - processPackages [kotlin-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/84/d8/070fb52aa873f86e8a019d38a7c7c4dca376350d00e416c60a93da4a7387/kotlin_jupyter_kernel-0.9.1.51-py3-none-any.whl
+[2024-04-23 14:34:51] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-23 14:34:51] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.8.tar.gz tmp/doctran_openai-0.0.9.tar.gz --markdown 20240423/d/doctran_openai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:34:51] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-04-23 14:34:51] INFO root fetch - processPackages [stTransfer]: Downloading https://files.pythonhosted.org/packages/a7/be/74161372cc083a46becbdc8ae9f3be2847446f6360d09831ac56762291c7/stTransfer-1.0.9.tar.gz
+[2024-04-23 14:34:51] INFO root fetch - processPackages [puma-hep]: Downloading https://files.pythonhosted.org/packages/04/24/2dd0b8bdfef1386545c520b7c8a2e7cbd4765756ce9c4cfbc228a5eee589/puma_hep-0.3.5.tar.gz
+[2024-04-23 14:34:51] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-04-23 14:34:51] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240423/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-23 14:34:52] INFO root fetch - processPackages [stTransfer]: executing diffoscope
+[2024-04-23 14:34:52] INFO root fetch - processPackages [stTransfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stTransfer-1.0.8.tar.gz tmp/stTransfer-1.0.9.tar.gz --markdown 20240423/s/stTransfer/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 14:34:52] INFO root fetch - processPackages [peracotta]: Downloading https://files.pythonhosted.org/packages/d6/e2/a621bd96113a1cb421c363bfa020c8b3da8c9ea9f3d3b8b0f73222fd9d0b/peracotta-2.3.1.tar.gz
+[2024-04-23 14:34:52] WARNING root fetch - processPackages [kotlin-jupyter-kernel]: Skipping package: exceeds size limit 64206818>=10485760
+[2024-04-23 14:34:52] INFO root fetch - main [MainThread]: End processing [kotlin-jupyter-kernel] error
+[2024-04-23 14:34:52] INFO root fetch - processPackages [puma-hep]: executing diffoscope
+[2024-04-23 14:34:52] INFO root fetch - processPackages [puma-hep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puma-hep-0.3.4.tar.gz tmp/puma_hep-0.3.5.tar.gz --markdown 20240423/p/puma-hep/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-23 14:34:52] INFO root fetch - processPackages [peracotta]: executing diffoscope
+[2024-04-23 14:34:52] INFO root fetch - processPackages [peracotta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peracotta-2.3.0.tar.gz tmp/peracotta-2.3.1.tar.gz --markdown 20240423/p/peracotta/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-04-23 14:34:52] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.8.tar.gz]
+[2024-04-23 14:34:52] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.9.tar.gz]
+[2024-04-23 14:34:52] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-23 14:34:52] INFO root fetch - processPackages [stTransfer]: Remove: archive file [/home/abi/fetcher/tmp/stTransfer-1.0.8.tar.gz]
+[2024-04-23 14:34:52] INFO root fetch - processPackages [stTransfer]: Remove: archive file [/home/abi/fetcher/tmp/stTransfer-1.0.9.tar.gz]
+[2024-04-23 14:34:52] INFO root fetch - main [MainThread]: End processing [stTransfer]: success
+[2024-04-23 14:34:52] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-04-23 14:34:52] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-04-23 14:34:52] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-04-23 14:34:52] INFO root fetch - processPackages [puma-hep]: Remove: archive file [/home/abi/fetcher/tmp/puma-hep-0.3.4.tar.gz]
+[2024-04-23 14:34:52] INFO root fetch - processPackages [puma-hep]: Remove: archive file [/home/abi/fetcher/tmp/puma_hep-0.3.5.tar.gz]
+[2024-04-23 14:34:52] INFO root fetch - main [MainThread]: End processing [puma-hep]: success
+[2024-04-23 14:34:53] INFO root fetch - processPackages [peracotta]: Remove: archive file [/home/abi/fetcher/tmp/peracotta-2.3.0.tar.gz]
+[2024-04-23 14:34:53] INFO root fetch - processPackages [peracotta]: Remove: archive file [/home/abi/fetcher/tmp/peracotta-2.3.1.tar.gz]
+[2024-04-23 14:34:53] INFO root fetch - main [MainThread]: End processing [peracotta]: success
+[2024-04-23 14:34:53] INFO root fetch - main [MainThread]: Store serial: [22893805]
