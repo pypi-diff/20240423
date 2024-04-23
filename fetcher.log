@@ -13415,3 +13415,55 @@
 [2024-04-23 09:36:37] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip]
 [2024-04-23 09:36:37] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
 [2024-04-23 09:36:37] INFO root fetch - main [MainThread]: Store serial: [22890302]
+[2024-04-23 09:38:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890302]
+[2024-04-23 09:38:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 09:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Robocon-24
+[2024-04-23 09:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2024-04-23 09:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: probatus
+[2024-04-23 09:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ftrack-python-api
+[2024-04-23 09:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perun.proxygui
+[2024-04-23 09:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: video-images-creator
+[2024-04-23 09:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansys-pre-commit-hooks
+[2024-04-23 09:38:46] INFO root fetch - processPackages [perun.proxygui]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-04-23 09:38:46] INFO root fetch - processPackages [video-images-creator]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 09:38:46] INFO root fetch - processPackages [ftrack-python-api]: New version: [3.0.0rc2] Old Version: [3.0.0rc1]
+[2024-04-23 09:38:46] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/e8/4d/afcb117547cd80c76e4649179068bba43b8e7516467504441ea8e7fd7160/perun.proxygui-4.1.0.tar.gz
+[2024-04-23 09:38:47] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/f8/f2/eab0da3e76b34b9105df3034dbfc2ee8b4eec71db93526b3238860abcc7a/video_images_creator-0.3.8.tar.gz
+[2024-04-23 09:38:47] WARNING root fetch - processPackages [Robocon-24]: Skipping, unable to determine old version
+[2024-04-23 09:38:47] INFO root fetch - main [MainThread]: End processing [Robocon-24] error
+[2024-04-23 09:38:47] INFO root fetch - processPackages [probatus]: New version: [3.1.0] Old Version: [3.0.1]
+[2024-04-23 09:38:47] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-23 09:38:47] INFO root fetch - processPackages [ansys-pre-commit-hooks]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-23 09:38:47] WARNING root fetch - processPackages [video-images-creator]: Skipping package: exceeds size limit 46958238>=10485760
+[2024-04-23 09:38:47] INFO root fetch - main [MainThread]: End processing [video-images-creator] error
+[2024-04-23 09:38:47] INFO root fetch - processPackages [ftrack-python-api]: Downloading https://files.pythonhosted.org/packages/ab/54/c61b2c907e71ded8d2a783cc434718f04e084ca2d7a9f361a5a3be954eb9/ftrack_python_api-3.0.0rc1-py3-none-any.whl
+[2024-04-23 09:38:47] INFO root fetch - processPackages [probatus]: Downloading https://files.pythonhosted.org/packages/dd/c9/586cc1c2ccf771cd9e4ea6a463088a5c5c9ef1aeb9e6e5603448b97ad9e2/probatus-3.0.1.tar.gz
+[2024-04-23 09:38:47] INFO root fetch - processPackages [ansys-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/ee/4a/af9852c7f446cf4e8d3b9d60f031f2ec80f2ca919d11c4bcd149747ec91e/ansys_pre_commit_hooks-0.3.0.tar.gz
+[2024-04-23 09:38:47] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-23 09:38:47] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-23 09:38:47] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-23 09:38:47] INFO root fetch - processPackages [probatus]: Downloading https://files.pythonhosted.org/packages/b0/02/7dd8aa938e8e67f9b3eeb11f06a0061f649af87cf51a85790a65cb5aae83/probatus-3.1.0.tar.gz
+[2024-04-23 09:38:47] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/48/5e/5a7a62d933478f5ceba9b241c36ce7232d127d3180fd29876502d5173520/perun.proxygui-4.1.1.tar.gz
+[2024-04-23 09:38:47] INFO root fetch - processPackages [probatus]: executing diffoscope
+[2024-04-23 09:38:47] INFO root fetch - processPackages [probatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probatus-3.0.1.tar.gz tmp/probatus-3.1.0.tar.gz --markdown 20240423/p/probatus/3.0.1-3.1.0/README.md --exclude *.pyd
+[2024-04-23 09:38:47] INFO root fetch - processPackages [ansys-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/84/d2/c88218d3f2198b82b143be44e589d67a173d1e3982efb92fe8b126aa4876/ansys_pre_commit_hooks-0.3.1.tar.gz
+[2024-04-23 09:38:47] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-04-23 09:38:47] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-4.1.0.tar.gz tmp/perun.proxygui-4.1.1.tar.gz --markdown 20240423/p/perun.proxygui/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-04-23 09:38:48] INFO root fetch - processPackages [ansys-pre-commit-hooks]: executing diffoscope
+[2024-04-23 09:38:48] INFO root fetch - processPackages [ansys-pre-commit-hooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_pre_commit_hooks-0.3.0.tar.gz tmp/ansys_pre_commit_hooks-0.3.1.tar.gz --markdown 20240423/a/ansys-pre-commit-hooks/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-23 09:38:48] INFO root fetch - processPackages [probatus]: Remove: archive file [/home/abi/fetcher/tmp/probatus-3.0.1.tar.gz]
+[2024-04-23 09:38:48] INFO root fetch - processPackages [probatus]: Remove: archive file [/home/abi/fetcher/tmp/probatus-3.1.0.tar.gz]
+[2024-04-23 09:38:48] INFO root fetch - main [MainThread]: End processing [probatus]: success
+[2024-04-23 09:38:48] INFO root fetch - processPackages [ansys-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/ansys_pre_commit_hooks-0.3.0.tar.gz]
+[2024-04-23 09:38:48] INFO root fetch - processPackages [ansys-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/ansys_pre_commit_hooks-0.3.1.tar.gz]
+[2024-04-23 09:38:48] INFO root fetch - main [MainThread]: End processing [ansys-pre-commit-hooks]: success
+[2024-04-23 09:38:49] INFO root fetch - processPackages [ftrack-python-api]: Downloading https://files.pythonhosted.org/packages/20/a4/6985036cf85a1fd9a2fc5a987643a3b3c0b447d957f231eab02da4f61315/ftrack_python_api-3.0.0rc2-py3-none-any.whl
+[2024-04-23 09:38:49] INFO root fetch - processPackages [ftrack-python-api]: executing diffoscope
+[2024-04-23 09:38:49] INFO root fetch - processPackages [ftrack-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_python_api-3.0.0rc1-py3-none-any.whl.zip tmp/ftrack_python_api-3.0.0rc2-py3-none-any.whl.zip --markdown 20240423/f/ftrack-python-api/3.0.0rc1-3.0.0rc2/README.md --exclude *.pyd
+[2024-04-23 09:38:49] INFO root fetch - processPackages [ftrack-python-api]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_python_api-3.0.0rc1-py3-none-any.whl.zip]
+[2024-04-23 09:38:49] INFO root fetch - processPackages [ftrack-python-api]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_python_api-3.0.0rc2-py3-none-any.whl.zip]
+[2024-04-23 09:38:49] INFO root fetch - main [MainThread]: End processing [ftrack-python-api]: success
+[2024-04-23 09:38:50] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-4.1.0.tar.gz]
+[2024-04-23 09:38:50] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-4.1.1.tar.gz]
+[2024-04-23 09:38:50] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-04-23 09:38:50] INFO root fetch - main [MainThread]: Store serial: [22890334]
