@@ -19291,3 +19291,52 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 13:16:25] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.6.tar.gz]
 [2024-04-23 13:16:25] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
 [2024-04-23 13:16:25] INFO root fetch - main [MainThread]: Store serial: [22892877]
+[2024-04-23 13:18:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892877]
+[2024-04-23 13:18:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 13:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-04-23 13:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2024-04-23 13:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opytimal
+[2024-04-23 13:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: few-shot-priming
+[2024-04-23 13:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: osdatahub
+[2024-04-23 13:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gridengine-framework
+[2024-04-23 13:18:33] INFO root fetch - processPackages [gridengine-framework]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-23 13:18:33] WARNING root fetch - processPackages [opytimal]: Skipping, unable to determine old version
+[2024-04-23 13:18:33] INFO root fetch - main [MainThread]: End processing [opytimal] error
+[2024-04-23 13:18:33] INFO root fetch - processPackages [gridengine-framework]: Downloading https://files.pythonhosted.org/packages/11/ce/df4dfbe5c32fc61e024fa14920a52fa7467a8079b9d983e7e8a14d5d592b/gridengine_framework-0.8.2.tar.gz
+[2024-04-23 13:18:33] INFO root fetch - processPackages [osdatahub]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-23 13:18:33] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-23 13:18:33] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-23 13:18:33] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-23 13:18:34] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-23 13:18:34] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-23 13:18:34] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-23 13:18:34] INFO root fetch - processPackages [osdatahub]: Downloading https://files.pythonhosted.org/packages/36/56/3d8bbe3ffaa68d482f6cef19f73b6fe35496853cb4a9380e701819e491f9/osdatahub-1.2.8.tar.gz
+[2024-04-23 13:18:34] INFO root fetch - processPackages [gridengine-framework]: Downloading https://files.pythonhosted.org/packages/c0/19/43c213a08c73ebf3000511916f1c2a7970a8041f35747f2f19df9646a269/gridengine_framework-0.8.3.tar.gz
+[2024-04-23 13:18:34] INFO root fetch - processPackages [gridengine-framework]: executing diffoscope
+[2024-04-23 13:18:34] INFO root fetch - processPackages [gridengine-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridengine_framework-0.8.2.tar.gz tmp/gridengine_framework-0.8.3.tar.gz --markdown 20240423/g/gridengine-framework/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-04-23 13:18:34] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-23 13:18:34] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-23 13:18:35] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-23 13:18:35] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240423/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-23 13:18:35] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-23 13:18:35] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240423/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-23 13:18:35] INFO root fetch - processPackages [gridengine-framework]: Remove: archive file [/home/abi/fetcher/tmp/gridengine_framework-0.8.2.tar.gz]
+[2024-04-23 13:18:35] INFO root fetch - processPackages [gridengine-framework]: Remove: archive file [/home/abi/fetcher/tmp/gridengine_framework-0.8.3.tar.gz]
+[2024-04-23 13:18:35] INFO root fetch - main [MainThread]: End processing [gridengine-framework]: success
+[2024-04-23 13:18:35] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-23 13:18:35] INFO root fetch - processPackages [osdatahub]: Downloading https://files.pythonhosted.org/packages/ce/27/2985199cbb9fae3aeb659225e060566a3288955d27d543f1ed9e87398f92/osdatahub-1.2.9.tar.gz
+[2024-04-23 13:18:36] INFO root fetch - processPackages [osdatahub]: executing diffoscope
+[2024-04-23 13:18:36] INFO root fetch - processPackages [osdatahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osdatahub-1.2.8.tar.gz tmp/osdatahub-1.2.9.tar.gz --markdown 20240423/o/osdatahub/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-23 13:18:36] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-23 13:18:36] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240423/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-23 13:18:36] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-23 13:18:36] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-23 13:18:36] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-23 13:18:36] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-23 13:18:37] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-23 13:18:37] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-23 13:18:37] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-23 13:18:37] INFO root fetch - processPackages [osdatahub]: Remove: archive file [/home/abi/fetcher/tmp/osdatahub-1.2.8.tar.gz]
+[2024-04-23 13:18:37] INFO root fetch - processPackages [osdatahub]: Remove: archive file [/home/abi/fetcher/tmp/osdatahub-1.2.9.tar.gz]
+[2024-04-23 13:18:37] INFO root fetch - main [MainThread]: End processing [osdatahub]: success
+[2024-04-23 13:18:37] INFO root fetch - main [MainThread]: Store serial: [22892902]
