@@ -13177,3 +13177,53 @@
 [2024-04-23 09:27:48] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.5.0.tar.gz]
 [2024-04-23 09:27:48] INFO root fetch - main [MainThread]: End processing [opsramp-analytics-utils]: success
 [2024-04-23 09:27:48] INFO root fetch - main [MainThread]: Store serial: [22890196]
+[2024-04-23 09:29:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890196]
+[2024-04-23 09:29:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 09:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paddle-python-sdk
+[2024-04-23 09:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video-images-creator
+[2024-04-23 09:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-continuous
+[2024-04-23 09:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tipo-kgen
+[2024-04-23 09:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oceanum
+[2024-04-23 09:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tueplots
+[2024-04-23 09:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opteryx
+[2024-04-23 09:29:57] INFO root fetch - processPackages [video-images-creator]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 09:29:57] INFO root fetch - processPackages [tueplots]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 09:29:57] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/f8/f2/eab0da3e76b34b9105df3034dbfc2ee8b4eec71db93526b3238860abcc7a/video_images_creator-0.3.8.tar.gz
+[2024-04-23 09:29:57] WARNING root fetch - processPackages [pytest-continuous]: Skipping, unable to determine old version
+[2024-04-23 09:29:57] INFO root fetch - main [MainThread]: End processing [pytest-continuous] error
+[2024-04-23 09:29:57] INFO root fetch - processPackages [tipo-kgen]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-23 09:29:57] WARNING root fetch - processPackages [paddle-python-sdk]: Skipping, unable to determine old version
+[2024-04-23 09:29:57] INFO root fetch - main [MainThread]: End processing [paddle-python-sdk] error
+[2024-04-23 09:29:57] INFO root fetch - processPackages [oceanum]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-23 09:29:57] INFO root fetch - processPackages [opteryx]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-23 09:29:58] WARNING root fetch - processPackages [video-images-creator]: Skipping package: exceeds size limit 46958238>=10485760
+[2024-04-23 09:29:58] INFO root fetch - main [MainThread]: End processing [video-images-creator] error
+[2024-04-23 09:29:58] INFO root fetch - processPackages [tueplots]: Downloading https://files.pythonhosted.org/packages/27/32/375ec453963e5b241b81311c639b7d9a714fba94f44c7610154f9c32a0d9/tueplots-0.0.8-py3-none-any.whl
+[2024-04-23 09:29:58] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/57/ed/935840882fb2e119b107f69f3f9b67b25107aa1acd866accb4eb44166804/oceanum-0.9.7.tar.gz
+[2024-04-23 09:29:58] INFO root fetch - processPackages [tipo-kgen]: Downloading https://files.pythonhosted.org/packages/83/51/7787e8351d303f8b386cdbaab98d1f15677f59ec4ac752bd5ba4e08f5edd/tipo-kgen-0.0.7.tar.gz
+[2024-04-23 09:29:58] INFO root fetch - processPackages [opteryx]: Downloading https://files.pythonhosted.org/packages/5e/91/765e2a472f1ca3feaa2526a4bbec45d770e3d67f120965da4092459d8d99/opteryx-0.9.2.tar.gz
+[2024-04-23 09:29:58] INFO root fetch - processPackages [tueplots]: Downloading https://files.pythonhosted.org/packages/51/79/977cf1eb1d3331b3ef76472222a02e31d0261ea32f3ae6cb0b9da47938a9/tueplots-0.0.9-py3-none-any.whl
+[2024-04-23 09:29:58] INFO root fetch - processPackages [tueplots]: executing diffoscope
+[2024-04-23 09:29:58] INFO root fetch - processPackages [tueplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tueplots-0.0.8-py3-none-any.whl.zip tmp/tueplots-0.0.9-py3-none-any.whl.zip --markdown 20240423/t/tueplots/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 09:29:58] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/d6/84/c1ff2f83b55b69b2f4e65d205b4e2a9f88f1070aa1310d7fd5b4a1df7df1/oceanum-0.9.8.tar.gz
+[2024-04-23 09:29:58] INFO root fetch - processPackages [opteryx]: Downloading https://files.pythonhosted.org/packages/64/71/44793ad728906cb5f308a98ffac1dea36c22000fac4080dd51bc5c9a0ef4/opteryx-0.9.3.tar.gz
+[2024-04-23 09:29:58] INFO root fetch - processPackages [tipo-kgen]: Downloading https://files.pythonhosted.org/packages/ea/76/27672027fb2466a0e17202a0cff59d356d9c4def878c6d1089f63e768593/tipo-kgen-0.0.8.tar.gz
+[2024-04-23 09:29:58] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2024-04-23 09:29:58] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.9.7.tar.gz tmp/oceanum-0.9.8.tar.gz --markdown 20240423/o/oceanum/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-23 09:29:58] INFO root fetch - processPackages [opteryx]: executing diffoscope
+[2024-04-23 09:29:58] INFO root fetch - processPackages [opteryx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opteryx-0.9.2.tar.gz tmp/opteryx-0.9.3.tar.gz --markdown 20240423/o/opteryx/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-23 09:29:59] INFO root fetch - processPackages [tueplots]: Remove: archive file [/home/abi/fetcher/tmp/tueplots-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 09:29:59] INFO root fetch - processPackages [tueplots]: Remove: archive file [/home/abi/fetcher/tmp/tueplots-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 09:29:59] INFO root fetch - main [MainThread]: End processing [tueplots]: success
+[2024-04-23 09:29:59] INFO root fetch - processPackages [tipo-kgen]: executing diffoscope
+[2024-04-23 09:29:59] INFO root fetch - processPackages [tipo-kgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tipo-kgen-0.0.7.tar.gz tmp/tipo-kgen-0.0.8.tar.gz --markdown 20240423/t/tipo-kgen/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-23 09:29:59] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.7.tar.gz]
+[2024-04-23 09:29:59] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.8.tar.gz]
+[2024-04-23 09:29:59] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2024-04-23 09:30:00] INFO root fetch - processPackages [opteryx]: Remove: archive file [/home/abi/fetcher/tmp/opteryx-0.9.2.tar.gz]
+[2024-04-23 09:30:00] INFO root fetch - processPackages [opteryx]: Remove: archive file [/home/abi/fetcher/tmp/opteryx-0.9.3.tar.gz]
+[2024-04-23 09:30:00] INFO root fetch - main [MainThread]: End processing [opteryx]: success
+[2024-04-23 09:30:00] INFO root fetch - processPackages [tipo-kgen]: Remove: archive file [/home/abi/fetcher/tmp/tipo-kgen-0.0.7.tar.gz]
+[2024-04-23 09:30:00] INFO root fetch - processPackages [tipo-kgen]: Remove: archive file [/home/abi/fetcher/tmp/tipo-kgen-0.0.8.tar.gz]
+[2024-04-23 09:30:00] INFO root fetch - main [MainThread]: End processing [tipo-kgen]: success
+[2024-04-23 09:30:00] INFO root fetch - main [MainThread]: Store serial: [22890227]
