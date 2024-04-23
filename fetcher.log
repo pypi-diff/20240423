@@ -10272,3 +10272,36 @@
 [2024-04-23 06:39:01] INFO root fetch - processPackages [feffery-antd-charts]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_charts-0.0.9.tar.gz]
 [2024-04-23 06:39:01] INFO root fetch - main [MainThread]: End processing [feffery-antd-charts]: success
 [2024-04-23 06:39:01] INFO root fetch - main [MainThread]: Store serial: [22889036]
+[2024-04-23 06:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889036]
+[2024-04-23 06:41:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coretex
+[2024-04-23 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addons-oca-maintenance
+[2024-04-23 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib-repo-tool
+[2024-04-23 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jeutil
+[2024-04-23 06:41:11] INFO root fetch - processPackages [odoo14-addons-oca-maintenance]: New version: [14.0.20240422.0] Old Version: [14.0.20240407.0]
+[2024-04-23 06:41:11] INFO root fetch - processPackages [lib-repo-tool]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-04-23 06:41:11] WARNING root fetch - processPackages [jeutil]: Skipping, unable to determine old version
+[2024-04-23 06:41:11] INFO root fetch - main [MainThread]: End processing [jeutil] error
+[2024-04-23 06:41:11] INFO root fetch - processPackages [coretex]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-04-23 06:41:11] INFO root fetch - processPackages [odoo14-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/12/96/44d02450c135527460fc6e998a717f72167eb73bb34908d9458855220824/odoo14_addons_oca_maintenance-14.0.20240407.0-py3-none-any.whl
+[2024-04-23 06:41:11] INFO root fetch - processPackages [lib-repo-tool]: Downloading https://files.pythonhosted.org/packages/01/8a/a28b67dc0e3e6ffca9f87c5dfac6769049d7c5ae78b759dca8ed4182f099/lib_repo_tool-2.0.6.tar.gz
+[2024-04-23 06:41:11] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/9c/9e/96442e220cdfb0a7de20d94e88cc29d613e1047969cf03065f2d31453bac/coretex-1.0.96.tar.gz
+[2024-04-23 06:41:11] INFO root fetch - processPackages [odoo14-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/81/6c/66d55b2058507892c2e141dc954b1176a92d66c04a410cb164028e688a45/odoo14_addons_oca_maintenance-14.0.20240422.0-py3-none-any.whl
+[2024-04-23 06:41:11] INFO root fetch - processPackages [lib-repo-tool]: Downloading https://files.pythonhosted.org/packages/36/cf/2806297dfd674ddb97eab5b372bf07ea24b8ee19a329a0f1e4a4f52a52a3/lib_repo_tool-2.0.7.tar.gz
+[2024-04-23 06:41:11] INFO root fetch - processPackages [odoo14-addons-oca-maintenance]: executing diffoscope
+[2024-04-23 06:41:11] INFO root fetch - processPackages [odoo14-addons-oca-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_maintenance-14.0.20240407.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_maintenance-14.0.20240422.0-py3-none-any.whl.zip --markdown 20240423/o/odoo14-addons-oca-maintenance/14.0.20240407.0-14.0.20240422.0/README.md --exclude *.pyd
+[2024-04-23 06:41:11] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/35/0f/19a109dc4ec31f790990676e2491f95aa631705ada3ef9669d6992624fc3/coretex-1.0.99.tar.gz
+[2024-04-23 06:41:11] INFO root fetch - processPackages [lib-repo-tool]: executing diffoscope
+[2024-04-23 06:41:11] INFO root fetch - processPackages [lib-repo-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_repo_tool-2.0.6.tar.gz tmp/lib_repo_tool-2.0.7.tar.gz --markdown 20240423/l/lib-repo-tool/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-04-23 06:41:11] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2024-04-23 06:41:11] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.96.tar.gz tmp/coretex-1.0.99.tar.gz --markdown 20240423/c/coretex/1.0.96-1.0.99/README.md --exclude *.pyd
+[2024-04-23 06:41:12] INFO root fetch - processPackages [odoo14-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_maintenance-14.0.20240407.0-py3-none-any.whl.zip]
+[2024-04-23 06:41:12] INFO root fetch - processPackages [odoo14-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_maintenance-14.0.20240422.0-py3-none-any.whl.zip]
+[2024-04-23 06:41:12] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-maintenance]: success
+[2024-04-23 06:41:12] INFO root fetch - processPackages [lib-repo-tool]: Remove: archive file [/home/abi/fetcher/tmp/lib_repo_tool-2.0.6.tar.gz]
+[2024-04-23 06:41:12] INFO root fetch - processPackages [lib-repo-tool]: Remove: archive file [/home/abi/fetcher/tmp/lib_repo_tool-2.0.7.tar.gz]
+[2024-04-23 06:41:12] INFO root fetch - main [MainThread]: End processing [lib-repo-tool]: success
+[2024-04-23 06:41:12] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.96.tar.gz]
+[2024-04-23 06:41:12] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
+[2024-04-23 06:41:12] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2024-04-23 06:41:12] INFO root fetch - main [MainThread]: Store serial: [22889050]
