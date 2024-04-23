@@ -22230,3 +22230,76 @@ EOFError: EOF read where object expected
 [2024-04-23 14:58:02] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.0.8rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-04-23 14:58:02] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
 [2024-04-23 14:58:02] INFO root fetch - main [MainThread]: Store serial: [22894141]
+[2024-04-23 15:00:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894141]
+[2024-04-23 15:00:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opytimal
+[2024-04-23 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opytimal
+[2024-04-23 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zonesmart-utils-fork
+[2024-04-23 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnxsharp
+[2024-04-23 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: next-api-starter
+[2024-04-23 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: otpcr
+[2024-04-23 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: duo-game-lib
+[2024-04-23 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HyFetch
+[2024-04-23 15:00:11] INFO root fetch - processPackages [next-api-starter]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 15:00:11] INFO root fetch - processPackages [opytimal]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-23 15:00:11] INFO root fetch - processPackages [opytimal]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-23 15:00:11] INFO root fetch - processPackages [zonesmart-utils-fork]: New version: [0.5.9.9] Old Version: [0.5.9.8]
+[2024-04-23 15:00:11] INFO root fetch - processPackages [next-api-starter]: Downloading https://files.pythonhosted.org/packages/53/6e/2afff998951f5bbf7d1046fe0634a2ddd8e2a17bc8e27fde38285be7dcf9/next-api-starter-0.1.1.tar.gz
+[2024-04-23 15:00:11] INFO root fetch - processPackages [duo-game-lib]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 15:00:11] INFO root fetch - processPackages [otpcr]: New version: [5] Old Version: [4]
+[2024-04-23 15:00:11] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/ac/47/1130d7b53e172d964de4c8aefa9fe0cdf36d46807fa8b70486a1cadeeb15/opytimal-0.5.8.tar.gz
+[2024-04-23 15:00:11] INFO root fetch - processPackages [onnxsharp]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 15:00:11] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/ac/47/1130d7b53e172d964de4c8aefa9fe0cdf36d46807fa8b70486a1cadeeb15/opytimal-0.5.8.tar.gz
+[2024-04-23 15:00:11] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/1f/3c/039c94473127564e1d61c86469dc142a7a89988f07bba21541fea00682d5/zonesmart-utils-fork-0.5.9.8.tar.gz
+[2024-04-23 15:00:11] INFO root fetch - processPackages [HyFetch]: New version: [1.5.0a1] Old Version: [1.4.9]
+[2024-04-23 15:00:11] INFO root fetch - processPackages [duo-game-lib]: Downloading https://files.pythonhosted.org/packages/46/ac/c313c6577f0a62071db8a3fea2313b33d8266dc5ca83a7224495496ca1d3/duo_game_lib-0.1.1.tar.gz
+[2024-04-23 15:00:11] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/cc/c0/d9052c582ce274042abaa76f9a120a847f5beabded7aa262040767cf9d7c/onnxsharp-0.0.2-py2.py3-none-any.whl
+[2024-04-23 15:00:11] INFO root fetch - processPackages [next-api-starter]: Downloading https://files.pythonhosted.org/packages/25/8f/b87d887e4adab2c193e049ea5b664c27b061f89b3fde9a3fef5f6b9a10eb/next_api_starter-0.1.2.tar.gz
+[2024-04-23 15:00:11] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/c9/ca/c334820aa6ff971be5ba7f4311ae8f8756ccd543c3cee00bf556059db26f/otpcr-4.tar.gz
+[2024-04-23 15:00:11] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/c7/9f/2ff32de4eacc484eb5a9007534d13156a1b1a1a9c62233775741db20c020/zonesmart-utils-fork-0.5.9.9.tar.gz
+[2024-04-23 15:00:11] INFO root fetch - processPackages [HyFetch]: Downloading https://files.pythonhosted.org/packages/3a/62/c6b2f5ada2c57995dcede94c9edca5b862689c273adc9b4e229b61069634/HyFetch-1.4.9.tar.gz
+[2024-04-23 15:00:11] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/7b/08/8d64c5a781a8dadc9dfa60ccef39849f75f4e577f33ddc6cd1cf947466b7/opytimal-0.5.9.tar.gz
+[2024-04-23 15:00:11] INFO root fetch - processPackages [opytimal]: Downloading https://files.pythonhosted.org/packages/7b/08/8d64c5a781a8dadc9dfa60ccef39849f75f4e577f33ddc6cd1cf947466b7/opytimal-0.5.9.tar.gz
+[2024-04-23 15:00:11] INFO root fetch - processPackages [next-api-starter]: executing diffoscope
+[2024-04-23 15:00:11] INFO root fetch - processPackages [next-api-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/next-api-starter-0.1.1.tar.gz tmp/next_api_starter-0.1.2.tar.gz --markdown 20240423/n/next-api-starter/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 15:00:11] INFO root fetch - processPackages [zonesmart-utils-fork]: executing diffoscope
+[2024-04-23 15:00:11] INFO root fetch - processPackages [zonesmart-utils-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-fork-0.5.9.8.tar.gz tmp/zonesmart-utils-fork-0.5.9.9.tar.gz --markdown 20240423/z/zonesmart-utils-fork/0.5.9.8-0.5.9.9/README.md --exclude *.pyd
+[2024-04-23 15:00:11] INFO root fetch - processPackages [duo-game-lib]: Downloading https://files.pythonhosted.org/packages/51/57/2d4d435ae80ad6733ff72762b0beef3e60304909742e2ba85703bd1ac67a/duo_game_lib-0.1.2.tar.gz
+[2024-04-23 15:00:12] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 15:00:12] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.5.8.tar.gz tmp/opytimal-0.5.9.tar.gz --markdown 20240423/o/opytimal/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-23 15:00:12] INFO root fetch - processPackages [opytimal]: executing diffoscope
+[2024-04-23 15:00:12] INFO root fetch - processPackages [opytimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opytimal-0.5.8.tar.gz tmp/opytimal-0.5.9.tar.gz --markdown 20240423/o/opytimal/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-23 15:00:12] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/a5/a5/ce9c11ae34998c536cb230bf91a4a816c34697dfe829d606355d94f778cb/onnxsharp-0.0.3-py2.py3-none-any.whl
+[2024-04-23 15:00:12] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/d4/e5/910d45033bdb4eb9a95d27bb3a42421a14eeecc8c566cb8b8d6e1a6db169/otpcr-5.tar.gz
+[2024-04-23 15:00:12] INFO root fetch - processPackages [duo-game-lib]: executing diffoscope
+[2024-04-23 15:00:12] INFO root fetch - processPackages [duo-game-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duo_game_lib-0.1.1.tar.gz tmp/duo_game_lib-0.1.2.tar.gz --markdown 20240423/d/duo-game-lib/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 15:00:12] INFO root fetch - processPackages [HyFetch]: Downloading https://files.pythonhosted.org/packages/45/57/402fdc43b01f5cb5488a4ea3c94b19c93e87cd9ffe3462314893e3c1a5c1/HyFetch-1.5.0a1-py3-none-manylinux1_x86_64.whl
+[2024-04-23 15:00:12] INFO root fetch - processPackages [onnxsharp]: executing diffoscope
+[2024-04-23 15:00:12] INFO root fetch - processPackages [onnxsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxsharp-0.0.2-py2.py3-none-any.whl.zip tmp/onnxsharp-0.0.3-py2.py3-none-any.whl.zip --markdown 20240423/o/onnxsharp/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 15:00:12] INFO root fetch - processPackages [next-api-starter]: Remove: archive file [/home/abi/fetcher/tmp/next-api-starter-0.1.1.tar.gz]
+[2024-04-23 15:00:12] INFO root fetch - processPackages [next-api-starter]: Remove: archive file [/home/abi/fetcher/tmp/next_api_starter-0.1.2.tar.gz]
+[2024-04-23 15:00:12] INFO root fetch - main [MainThread]: End processing [next-api-starter]: success
+[2024-04-23 15:00:12] INFO root fetch - processPackages [otpcr]: executing diffoscope
+[2024-04-23 15:00:12] INFO root fetch - processPackages [otpcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpcr-4.tar.gz tmp/otpcr-5.tar.gz --markdown 20240423/o/otpcr/4-5/README.md --exclude *.pyd
+[2024-04-23 15:00:12] INFO root fetch - processPackages [duo-game-lib]: Remove: archive file [/home/abi/fetcher/tmp/duo_game_lib-0.1.1.tar.gz]
+[2024-04-23 15:00:12] INFO root fetch - processPackages [duo-game-lib]: Remove: archive file [/home/abi/fetcher/tmp/duo_game_lib-0.1.2.tar.gz]
+[2024-04-23 15:00:12] INFO root fetch - main [MainThread]: End processing [duo-game-lib]: success
+[2024-04-23 15:00:13] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.5.8.tar.gz]
+[2024-04-23 15:00:13] INFO root fetch - processPackages [opytimal]: Remove: archive file [/home/abi/fetcher/tmp/opytimal-0.5.9.tar.gz]
+[2024-04-23 15:00:13] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 15:00:13] INFO root fetch - main [MainThread]: End processing [opytimal]: success
+[2024-04-23 15:00:13] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.2-py2.py3-none-any.whl.zip]
+[2024-04-23 15:00:13] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.3-py2.py3-none-any.whl.zip]
+[2024-04-23 15:00:13] INFO root fetch - main [MainThread]: End processing [onnxsharp]: success
+[2024-04-23 15:00:13] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-4.tar.gz]
+[2024-04-23 15:00:13] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-5.tar.gz]
+[2024-04-23 15:00:13] INFO root fetch - main [MainThread]: End processing [otpcr]: success
+[2024-04-23 15:00:13] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.8.tar.gz]
+[2024-04-23 15:00:13] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.9.tar.gz]
+[2024-04-23 15:00:13] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
+[2024-04-23 15:00:14] INFO root fetch - processPackages [HyFetch]: executing diffoscope
+[2024-04-23 15:00:14] INFO root fetch - processPackages [HyFetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HyFetch-1.4.9.tar.gz tmp/HyFetch-1.5.0a1-py3-none-manylinux1_x86_64.whl.zip --markdown 20240423/H/HyFetch/1.4.9-1.5.0a1/README.md --exclude *.pyd
+[2024-04-23 15:00:15] INFO root fetch - processPackages [HyFetch]: Remove: archive file [/home/abi/fetcher/tmp/HyFetch-1.4.9.tar.gz]
+[2024-04-23 15:00:15] INFO root fetch - processPackages [HyFetch]: Remove: archive file [/home/abi/fetcher/tmp/HyFetch-1.5.0a1-py3-none-manylinux1_x86_64.whl.zip]
+[2024-04-23 15:00:15] INFO root fetch - main [MainThread]: End processing [HyFetch]: success
+[2024-04-23 15:00:15] INFO root fetch - main [MainThread]: Store serial: [22894181]
