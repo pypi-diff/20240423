@@ -13266,3 +13266,63 @@
 [2024-04-23 09:32:10] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
 [2024-04-23 09:32:10] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
 [2024-04-23 09:32:10] INFO root fetch - main [MainThread]: Store serial: [22890240]
+[2024-04-23 09:34:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890240]
+[2024-04-23 09:34:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 09:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudpss
+[2024-04-23 09:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trio-binance
+[2024-04-23 09:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wassncplot
+[2024-04-23 09:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hscloud
+[2024-04-23 09:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perun.proxygui
+[2024-04-23 09:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dwh-oppfolging
+[2024-04-23 09:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scriptonite
+[2024-04-23 09:34:19] INFO root fetch - processPackages [trio-binance]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-23 09:34:19] INFO root fetch - processPackages [hscloud]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-23 09:34:19] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/44/46/85a4db0ac00e8e47b0a35aa201392e9821b509917b7713bfb8d292f0bf49/trio-binance-0.2.2.tar.gz
+[2024-04-23 09:34:19] INFO root fetch - processPackages [cloudpss]: New version: [4.1.1b9] Old Version: [4.1.1b8]
+[2024-04-23 09:34:19] WARNING root fetch - processPackages [scriptonite]: Skipping, unable to determine old version
+[2024-04-23 09:34:19] INFO root fetch - main [MainThread]: End processing [scriptonite] error
+[2024-04-23 09:34:19] INFO root fetch - processPackages [perun.proxygui]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-04-23 09:34:19] INFO root fetch - processPackages [wassncplot]: New version: [2.5.3] Old Version: [2.5.1]
+[2024-04-23 09:34:19] INFO root fetch - processPackages [dwh-oppfolging]: New version: [0.0.92] Old Version: [0.0.91]
+[2024-04-23 09:34:19] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/f3/6c/4905265c8b1daa8feca2555988147bd84ba2961c9bd5587239bf88a9dbec/hscloud-0.0.4.tar.gz
+[2024-04-23 09:34:19] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/e8/4d/afcb117547cd80c76e4649179068bba43b8e7516467504441ea8e7fd7160/perun.proxygui-4.1.0.tar.gz
+[2024-04-23 09:34:19] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/65/0d/e9ba31f289288d38ec199f38c22f1178ac0366abcaa1e81a28f168399008/cloudpss-4.1.1b8.tar.gz
+[2024-04-23 09:34:19] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/fe/5d/61f5d32c4c734a6ddf1c899409de967d3ff62b3b499a6563101fb9ec5335/trio_binance-0.3.0.tar.gz
+[2024-04-23 09:34:19] INFO root fetch - processPackages [wassncplot]: Downloading https://files.pythonhosted.org/packages/f0/bd/8abed468cb5227bc937162fb344c51649d46245d795f4016055873b83d57/wassncplot-2.5.1.tar.gz
+[2024-04-23 09:34:20] INFO root fetch - processPackages [dwh-oppfolging]: Downloading https://files.pythonhosted.org/packages/dc/e3/35ce7538711df6c576cea46235652b78bdc4613a977270265dc5a0593b4c/dwh_oppfolging-0.0.91.tar.gz
+[2024-04-23 09:34:20] INFO root fetch - processPackages [trio-binance]: executing diffoscope
+[2024-04-23 09:34:20] INFO root fetch - processPackages [trio-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio-binance-0.2.2.tar.gz tmp/trio_binance-0.3.0.tar.gz --markdown 20240423/t/trio-binance/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-23 09:34:20] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/a4/f6/ab6fc0a9febaff44e08375e64d836aacc1992f528f2f552b851d2d8d88ab/hscloud-0.0.5.tar.gz
+[2024-04-23 09:34:20] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/5b/24/24989e49cb8cf21d5d2c8b071d835f6a78aca17eceeb1885baa86476f8d4/cloudpss-4.1.1b9.tar.gz
+[2024-04-23 09:34:20] INFO root fetch - processPackages [wassncplot]: Downloading https://files.pythonhosted.org/packages/83/29/d223f973e5974a5199af0012347c2f896216422d83a67e301a5cd8e7eb71/wassncplot-2.5.3.tar.gz
+[2024-04-23 09:34:20] INFO root fetch - processPackages [hscloud]: executing diffoscope
+[2024-04-23 09:34:20] INFO root fetch - processPackages [hscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscloud-0.0.4.tar.gz tmp/hscloud-0.0.5.tar.gz --markdown 20240423/h/hscloud/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-23 09:34:20] INFO root fetch - processPackages [cloudpss]: executing diffoscope
+[2024-04-23 09:34:20] INFO root fetch - processPackages [cloudpss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-4.1.1b8.tar.gz tmp/cloudpss-4.1.1b9.tar.gz --markdown 20240423/c/cloudpss/4.1.1b8-4.1.1b9/README.md --exclude *.pyd
+[2024-04-23 09:34:20] INFO root fetch - processPackages [dwh-oppfolging]: Downloading https://files.pythonhosted.org/packages/b9/3c/94503cb82b2aea4f8ff5ced8203087e5316d12bdc61bf6cafb95f8f9d9f1/dwh_oppfolging-0.0.92.tar.gz
+[2024-04-23 09:34:20] INFO root fetch - processPackages [wassncplot]: executing diffoscope
+[2024-04-23 09:34:20] INFO root fetch - processPackages [wassncplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wassncplot-2.5.1.tar.gz tmp/wassncplot-2.5.3.tar.gz --markdown 20240423/w/wassncplot/2.5.1-2.5.3/README.md --exclude *.pyd
+[2024-04-23 09:34:20] INFO root fetch - processPackages [dwh-oppfolging]: executing diffoscope
+[2024-04-23 09:34:20] INFO root fetch - processPackages [dwh-oppfolging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwh_oppfolging-0.0.91.tar.gz tmp/dwh_oppfolging-0.0.92.tar.gz --markdown 20240423/d/dwh-oppfolging/0.0.91-0.0.92/README.md --exclude *.pyd
+[2024-04-23 09:34:20] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/48/5e/5a7a62d933478f5ceba9b241c36ce7232d127d3180fd29876502d5173520/perun.proxygui-4.1.1.tar.gz
+[2024-04-23 09:34:20] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio-binance-0.2.2.tar.gz]
+[2024-04-23 09:34:20] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio_binance-0.3.0.tar.gz]
+[2024-04-23 09:34:20] INFO root fetch - main [MainThread]: End processing [trio-binance]: success
+[2024-04-23 09:34:20] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.4.tar.gz]
+[2024-04-23 09:34:20] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.5.tar.gz]
+[2024-04-23 09:34:20] INFO root fetch - main [MainThread]: End processing [hscloud]: success
+[2024-04-23 09:34:21] INFO root fetch - processPackages [wassncplot]: Remove: archive file [/home/abi/fetcher/tmp/wassncplot-2.5.1.tar.gz]
+[2024-04-23 09:34:21] INFO root fetch - processPackages [wassncplot]: Remove: archive file [/home/abi/fetcher/tmp/wassncplot-2.5.3.tar.gz]
+[2024-04-23 09:34:21] INFO root fetch - main [MainThread]: End processing [wassncplot]: success
+[2024-04-23 09:34:21] INFO root fetch - processPackages [dwh-oppfolging]: Remove: archive file [/home/abi/fetcher/tmp/dwh_oppfolging-0.0.91.tar.gz]
+[2024-04-23 09:34:21] INFO root fetch - processPackages [dwh-oppfolging]: Remove: archive file [/home/abi/fetcher/tmp/dwh_oppfolging-0.0.92.tar.gz]
+[2024-04-23 09:34:21] INFO root fetch - main [MainThread]: End processing [dwh-oppfolging]: success
+[2024-04-23 09:34:21] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-4.1.1b8.tar.gz]
+[2024-04-23 09:34:21] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-4.1.1b9.tar.gz]
+[2024-04-23 09:34:21] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
+[2024-04-23 09:34:22] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-04-23 09:34:22] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-4.1.0.tar.gz tmp/perun.proxygui-4.1.1.tar.gz --markdown 20240423/p/perun.proxygui/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-04-23 09:34:25] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-4.1.0.tar.gz]
+[2024-04-23 09:34:25] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-4.1.1.tar.gz]
+[2024-04-23 09:34:25] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-04-23 09:34:25] INFO root fetch - main [MainThread]: Store serial: [22890264]
