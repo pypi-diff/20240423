@@ -7548,3 +7548,24 @@
 [2024-04-23 03:52:20] INFO root fetch - processPackages [pbc-distance-calculator]: Remove: archive file [/home/abi/fetcher/tmp/pbc_distance_calculator-1.1.0.tar.gz]
 [2024-04-23 03:52:20] INFO root fetch - main [MainThread]: End processing [pbc-distance-calculator]: success
 [2024-04-23 03:52:20] INFO root fetch - main [MainThread]: Store serial: [22887955]
+[2024-04-23 03:54:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22887955]
+[2024-04-23 03:54:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 03:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pbc-distance-calculator
+[2024-04-23 03:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napalm-panos
+[2024-04-23 03:54:30] INFO root fetch - processPackages [pbc-distance-calculator]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-23 03:54:30] INFO root fetch - processPackages [pbc-distance-calculator]: Downloading https://files.pythonhosted.org/packages/50/dd/03197a50893fcdd7ad4fc15d24d5f09b2e602a05c406f32a9571f88c90fd/pbc_distance_calculator-1.1.0.tar.gz
+[2024-04-23 03:54:30] INFO root fetch - processPackages [napalm-panos]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-23 03:54:30] INFO root fetch - processPackages [napalm-panos]: Downloading https://files.pythonhosted.org/packages/0a/d5/5a7c7fcbf7377cd5e2ba385d668cf7792963448675cc2bfee0fd710e6c11/napalm_panos-0.6.0.tar.gz
+[2024-04-23 03:54:30] INFO root fetch - processPackages [pbc-distance-calculator]: Downloading https://files.pythonhosted.org/packages/e6/40/d7c04cb7f1a0ee8c70d9880e7275ab48a16218a03b63bb85e65ed6e1aadc/pbc_distance_calculator-1.2.0.tar.gz
+[2024-04-23 03:54:30] INFO root fetch - processPackages [pbc-distance-calculator]: executing diffoscope
+[2024-04-23 03:54:30] INFO root fetch - processPackages [pbc-distance-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbc_distance_calculator-1.1.0.tar.gz tmp/pbc_distance_calculator-1.2.0.tar.gz --markdown 20240423/p/pbc-distance-calculator/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-23 03:54:30] INFO root fetch - processPackages [napalm-panos]: Downloading https://files.pythonhosted.org/packages/e5/cc/5bfd99447e14b26db89136609463df38bfc99752cb9e914e60846e23ff5d/napalm_panos-0.6.1.tar.gz
+[2024-04-23 03:54:30] INFO root fetch - processPackages [napalm-panos]: executing diffoscope
+[2024-04-23 03:54:30] INFO root fetch - processPackages [napalm-panos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_panos-0.6.0.tar.gz tmp/napalm_panos-0.6.1.tar.gz --markdown 20240423/n/napalm-panos/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-23 03:54:31] INFO root fetch - processPackages [pbc-distance-calculator]: Remove: archive file [/home/abi/fetcher/tmp/pbc_distance_calculator-1.1.0.tar.gz]
+[2024-04-23 03:54:31] INFO root fetch - processPackages [pbc-distance-calculator]: Remove: archive file [/home/abi/fetcher/tmp/pbc_distance_calculator-1.2.0.tar.gz]
+[2024-04-23 03:54:31] INFO root fetch - main [MainThread]: End processing [pbc-distance-calculator]: success
+[2024-04-23 03:54:31] INFO root fetch - processPackages [napalm-panos]: Remove: archive file [/home/abi/fetcher/tmp/napalm_panos-0.6.0.tar.gz]
+[2024-04-23 03:54:31] INFO root fetch - processPackages [napalm-panos]: Remove: archive file [/home/abi/fetcher/tmp/napalm_panos-0.6.1.tar.gz]
+[2024-04-23 03:54:31] INFO root fetch - main [MainThread]: End processing [napalm-panos]: success
+[2024-04-23 03:54:31] INFO root fetch - main [MainThread]: Store serial: [22887961]
