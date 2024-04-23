@@ -12472,3 +12472,56 @@
 [2024-04-23 08:55:47] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.2.0.tar.gz]
 [2024-04-23 08:55:47] INFO root fetch - main [MainThread]: End processing [qteasy]: success
 [2024-04-23 08:55:47] INFO root fetch - main [MainThread]: Store serial: [22889929]
+[2024-04-23 08:57:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889929]
+[2024-04-23 08:57:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 08:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: video-images-creator
+[2024-04-23 08:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-cpp-python
+[2024-04-23 08:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shared-atomic-enterprise
+[2024-04-23 08:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: luminesce-sdk-preview
+[2024-04-23 08:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: motor-decorator
+[2024-04-23 08:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-admin-assets
+[2024-04-23 08:57:56] INFO root fetch - processPackages [video-images-creator]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 08:57:56] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1504] Old Version: [1.0.0.post1502]
+[2024-04-23 08:57:56] INFO root fetch - processPackages [motor-decorator]: New version: [0.0.3.5] Old Version: [0.0.3.4]
+[2024-04-23 08:57:56] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 08:57:56] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/f8/f2/eab0da3e76b34b9105df3034dbfc2ee8b4eec71db93526b3238860abcc7a/video_images_creator-0.3.8.tar.gz
+[2024-04-23 08:57:56] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/d7/fe/019c4e97244b184c6179140b78b70f2cc279d53a6f1ae8c82b9989d031c6/nucliadb_admin_assets-1.0.0.post1502-py3-none-any.whl
+[2024-04-23 08:57:56] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!3.3.5] Old Version: [5!3.3.3]
+[2024-04-23 08:57:56] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-04-23 08:57:56] WARNING root fetch - processPackages [video-images-creator]: Skipping package: exceeds size limit 46958238>=10485760
+[2024-04-23 08:57:56] INFO root fetch - main [MainThread]: End processing [video-images-creator] error
+[2024-04-23 08:57:56] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/6d/60/edbd982673a71c6c27fa6818914ad61c6171d165de4e777d489539f1d959/llama_cpp_python-0.2.8.tar.gz
+[2024-04-23 08:57:56] INFO root fetch - processPackages [motor-decorator]: Downloading https://files.pythonhosted.org/packages/66/40/f4ea528940990f5d9896f351544f267a9a1ef3253c99106b0daa398ef9aa/motor-decorator-0.0.3.4.tar.gz
+[2024-04-23 08:57:56] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/d6/51/7f86a1ca8fc09392499ffe1ce5ed056244193afcf0cecfbdc67c6ef186f8/shared_atomic_enterprise-5!3.3.3-cp39-none-win_amd64.whl
+[2024-04-23 08:57:56] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-04-23 08:57:56] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/81/d1/e0c58352d68f21cfcaa1c3f54ede2d37529cf092f6c8865567742ed1df83/nucliadb_admin_assets-1.0.0.post1504-py3-none-any.whl
+[2024-04-23 08:57:57] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-23 08:57:57] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1502-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1504-py3-none-any.whl.zip --markdown 20240423/n/nucliadb-admin-assets/1.0.0.post1502-1.0.0.post1504/README.md --exclude *.pyd
+[2024-04-23 08:57:57] INFO root fetch - processPackages [motor-decorator]: Downloading https://files.pythonhosted.org/packages/56/0d/ef156f46318b7b73669f2287da3cd52160959ea6533c0947b3560e4d4a4b/motor-decorator-0.0.3.5.tar.gz
+[2024-04-23 08:57:57] INFO root fetch - processPackages [motor-decorator]: executing diffoscope
+[2024-04-23 08:57:57] INFO root fetch - processPackages [motor-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motor-decorator-0.0.3.4.tar.gz tmp/motor-decorator-0.0.3.5.tar.gz --markdown 20240423/m/motor-decorator/0.0.3.4-0.0.3.5/README.md --exclude *.pyd
+[2024-04-23 08:57:57] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/6b/74/16cd3c057208f22257b22806a896dbb4c79a4559658ed9ddfb479329122b/shared_atomic_enterprise-5!3.3.5-cp39-none-win_amd64.whl
+[2024-04-23 08:57:57] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-04-23 08:57:57] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-04-23 08:57:57] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240423/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-04-23 08:57:57] INFO root fetch - processPackages [motor-decorator]: Remove: archive file [/home/abi/fetcher/tmp/motor-decorator-0.0.3.4.tar.gz]
+[2024-04-23 08:57:57] INFO root fetch - processPackages [motor-decorator]: Remove: archive file [/home/abi/fetcher/tmp/motor-decorator-0.0.3.5.tar.gz]
+[2024-04-23 08:57:57] INFO root fetch - main [MainThread]: End processing [motor-decorator]: success
+[2024-04-23 08:57:57] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/98/2e/357d936ff7418591c56a27b9472e2b3581bd9eeb90c4221580fae5e00588/llama_cpp_python-0.2.9.tar.gz
+[2024-04-23 08:57:57] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2024-04-23 08:57:57] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!3.3.3-cp39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!3.3.5-cp39-none-win_amd64.whl.zip --markdown 20240423/s/shared-atomic-enterprise/5!3.3.3-5!3.3.5/README.md --exclude *.pyd
+[2024-04-23 08:57:58] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2024-04-23 08:57:58] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.2.8.tar.gz tmp/llama_cpp_python-0.2.9.tar.gz --markdown 20240423/l/llama-cpp-python/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 08:57:58] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-04-23 08:57:58] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-04-23 08:57:58] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-04-23 08:57:59] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.8.tar.gz]
+[2024-04-23 08:57:59] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
+[2024-04-23 08:57:59] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2024-04-23 08:58:08] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.3.3-cp39-none-win_amd64.whl.zip]
+[2024-04-23 08:58:08] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.3.5-cp39-none-win_amd64.whl.zip]
+[2024-04-23 08:58:08] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2024-04-23 08:58:11] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1502-py3-none-any.whl.zip]
+[2024-04-23 08:58:11] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1504-py3-none-any.whl.zip]
+[2024-04-23 08:58:11] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-23 08:58:11] INFO root fetch - main [MainThread]: Store serial: [22889948]
