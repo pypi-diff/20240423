@@ -16871,3 +16871,51 @@
 [2024-04-23 11:44:16] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
 [2024-04-23 11:44:16] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
 [2024-04-23 11:44:16] INFO root fetch - main [MainThread]: Store serial: [22891909]
+[2024-04-23 11:46:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891909]
+[2024-04-23 11:46:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: servicefoundry
+[2024-04-23 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devicetorch
+[2024-04-23 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaraco.docker
+[2024-04-23 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchvinecopulib
+[2024-04-23 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robust-extraction
+[2024-04-23 11:46:24] INFO root fetch - processPackages [devicetorch]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-23 11:46:24] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.9rc2] Old Version: [0.9.9rc1]
+[2024-04-23 11:46:24] INFO root fetch - processPackages [robust-extraction]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 11:46:24] INFO root fetch - processPackages [jaraco.docker]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-04-23 11:46:24] INFO root fetch - processPackages [torchvinecopulib]: New version: [2024.4.0] Old Version: [2024.3.3]
+[2024-04-23 11:46:24] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/02/05/5016312c66b2c7a88f194b61f74c045e7449386ad8b2d1c5248a45a6094f/servicefoundry-0.9.9rc1.tar.gz
+[2024-04-23 11:46:24] INFO root fetch - processPackages [robust-extraction]: Downloading https://files.pythonhosted.org/packages/a1/3e/7b2828388391de2f8109cddd06317d084589f928d29bf0fc29800ea18286/robust_extraction-0.1.8.tar.gz
+[2024-04-23 11:46:25] INFO root fetch - processPackages [devicetorch]: Downloading https://files.pythonhosted.org/packages/33/3f/9286d9947396f15eeafe68ee90c8078067b05f614fa21411108881647596/devicetorch-0.1.5.tar.gz
+[2024-04-23 11:46:25] INFO root fetch - processPackages [jaraco.docker]: Downloading https://files.pythonhosted.org/packages/86/8d/8f206692f3f645230faf7cb0473e12137c4ee683e21ad0283297f5b2fc58/jaraco.docker-2.1.2.tar.gz
+[2024-04-23 11:46:25] INFO root fetch - processPackages [torchvinecopulib]: Downloading https://files.pythonhosted.org/packages/e9/70/8b73eef92d421f647fe05ec308981bcd4e943a7628ae1c3eeda5f2d38df2/torchvinecopulib-2024.3.3.tar.gz
+[2024-04-23 11:46:25] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/95/2d/4d48175602335d472c23250316e448a45d05e4002ce13dc0e65cd515514a/servicefoundry-0.9.9rc2.tar.gz
+[2024-04-23 11:46:25] INFO root fetch - processPackages [devicetorch]: Downloading https://files.pythonhosted.org/packages/14/1d/4af7508ae7aecda28e22b7d9d6352de1b46d482917b3e89ffdb29762fac1/devicetorch-0.1.6.tar.gz
+[2024-04-23 11:46:25] INFO root fetch - processPackages [robust-extraction]: Downloading https://files.pythonhosted.org/packages/0d/43/a8bb93d85a7bbbec00eecbb969e011477bfd7816348453ad4d8b6f46a7f2/robust_extraction-0.1.9.tar.gz
+[2024-04-23 11:46:25] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2024-04-23 11:46:25] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.9rc1.tar.gz tmp/servicefoundry-0.9.9rc2.tar.gz --markdown 20240423/s/servicefoundry/0.9.9rc1-0.9.9rc2/README.md --exclude *.pyd
+[2024-04-23 11:46:25] INFO root fetch - processPackages [devicetorch]: executing diffoscope
+[2024-04-23 11:46:25] INFO root fetch - processPackages [devicetorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devicetorch-0.1.5.tar.gz tmp/devicetorch-0.1.6.tar.gz --markdown 20240423/d/devicetorch/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-23 11:46:25] INFO root fetch - processPackages [robust-extraction]: executing diffoscope
+[2024-04-23 11:46:25] INFO root fetch - processPackages [robust-extraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robust_extraction-0.1.8.tar.gz tmp/robust_extraction-0.1.9.tar.gz --markdown 20240423/r/robust-extraction/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 11:46:25] INFO root fetch - processPackages [jaraco.docker]: Downloading https://files.pythonhosted.org/packages/6c/ab/6cf1261b363267565c083f70bcd57a8802327f742a8a915d430429cf5d4a/jaraco_docker-2.2.0.tar.gz
+[2024-04-23 11:46:25] INFO root fetch - processPackages [torchvinecopulib]: Downloading https://files.pythonhosted.org/packages/e8/55/a97f6a79bdc98a85c20d4a75026b364891bd16954603c08829eb333602b7/torchvinecopulib-2024.4.0.tar.gz
+[2024-04-23 11:46:25] INFO root fetch - processPackages [jaraco.docker]: executing diffoscope
+[2024-04-23 11:46:25] INFO root fetch - processPackages [jaraco.docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.docker-2.1.2.tar.gz tmp/jaraco_docker-2.2.0.tar.gz --markdown 20240423/j/jaraco.docker/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-04-23 11:46:25] INFO root fetch - processPackages [torchvinecopulib]: executing diffoscope
+[2024-04-23 11:46:25] INFO root fetch - processPackages [torchvinecopulib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchvinecopulib-2024.3.3.tar.gz tmp/torchvinecopulib-2024.4.0.tar.gz --markdown 20240423/t/torchvinecopulib/2024.3.3-2024.4.0/README.md --exclude *.pyd
+[2024-04-23 11:46:25] INFO root fetch - processPackages [devicetorch]: Remove: archive file [/home/abi/fetcher/tmp/devicetorch-0.1.5.tar.gz]
+[2024-04-23 11:46:25] INFO root fetch - processPackages [devicetorch]: Remove: archive file [/home/abi/fetcher/tmp/devicetorch-0.1.6.tar.gz]
+[2024-04-23 11:46:25] INFO root fetch - main [MainThread]: End processing [devicetorch]: success
+[2024-04-23 11:46:26] INFO root fetch - processPackages [robust-extraction]: Remove: archive file [/home/abi/fetcher/tmp/robust_extraction-0.1.8.tar.gz]
+[2024-04-23 11:46:26] INFO root fetch - processPackages [robust-extraction]: Remove: archive file [/home/abi/fetcher/tmp/robust_extraction-0.1.9.tar.gz]
+[2024-04-23 11:46:26] INFO root fetch - main [MainThread]: End processing [robust-extraction]: success
+[2024-04-23 11:46:26] INFO root fetch - processPackages [jaraco.docker]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.docker-2.1.2.tar.gz]
+[2024-04-23 11:46:26] INFO root fetch - processPackages [jaraco.docker]: Remove: archive file [/home/abi/fetcher/tmp/jaraco_docker-2.2.0.tar.gz]
+[2024-04-23 11:46:26] INFO root fetch - main [MainThread]: End processing [jaraco.docker]: success
+[2024-04-23 11:46:26] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc1.tar.gz]
+[2024-04-23 11:46:26] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
+[2024-04-23 11:46:26] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2024-04-23 11:46:26] INFO root fetch - processPackages [torchvinecopulib]: Remove: archive file [/home/abi/fetcher/tmp/torchvinecopulib-2024.3.3.tar.gz]
+[2024-04-23 11:46:26] INFO root fetch - processPackages [torchvinecopulib]: Remove: archive file [/home/abi/fetcher/tmp/torchvinecopulib-2024.4.0.tar.gz]
+[2024-04-23 11:46:26] INFO root fetch - main [MainThread]: End processing [torchvinecopulib]: success
+[2024-04-23 11:46:26] INFO root fetch - main [MainThread]: Store serial: [22891921]
