@@ -14382,3 +14382,57 @@
 [2024-04-23 10:14:39] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
 [2024-04-23 10:14:39] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-04-23 10:14:39] INFO root fetch - main [MainThread]: Store serial: [22890769]
+[2024-04-23 10:16:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890769]
+[2024-04-23 10:16:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 10:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maplib
+[2024-04-23 10:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-04-23 10:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyzdd
+[2024-04-23 10:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mediawiki-langcodes
+[2024-04-23 10:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rcquant-sdk
+[2024-04-23 10:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zonesmart-utils-fork
+[2024-04-23 10:16:48] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 10:16:48] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-23 10:16:48] INFO root fetch - processPackages [mediawiki-langcodes]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-23 10:16:48] INFO root fetch - processPackages [pyzdd]: New version: [0.2.8] Old Version: [0.2.6]
+[2024-04-23 10:16:48] INFO root fetch - processPackages [zonesmart-utils-fork]: New version: [0.5.9.9] Old Version: [0.5.9.8]
+[2024-04-23 10:16:48] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-23 10:16:48] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-04-23 10:16:48] INFO root fetch - processPackages [maplib]: New version: [0.8.8] Old Version: [0.8.7]
+[2024-04-23 10:16:48] INFO root fetch - processPackages [pyzdd]: Downloading https://files.pythonhosted.org/packages/32/14/eaa8e6a25daa47ec77e18b26d99e44568e599b8b9e53acbabd48e0e31fbc/pyzdd-0.2.6.tar.gz
+[2024-04-23 10:16:48] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/1f/3c/039c94473127564e1d61c86469dc142a7a89988f07bba21541fea00682d5/zonesmart-utils-fork-0.5.9.8.tar.gz
+[2024-04-23 10:16:48] INFO root fetch - processPackages [mediawiki-langcodes]: Downloading https://files.pythonhosted.org/packages/e9/4f/b67c19b1a8875ebe0a0db982b8752929c85f8f38dcb160e9f071d59f3b99/mediawiki_langcodes-0.2.4.tar.gz
+[2024-04-23 10:16:48] INFO root fetch - processPackages [maplib]: Downloading https://files.pythonhosted.org/packages/50/e5/4c31f61ae9e4fc9577b6c8cf4cf2866cdf54f5bdb0c54a509f21725dce7d/maplib-0.8.7.tar.gz
+[2024-04-23 10:16:48] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-04-23 10:16:48] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/c7/9f/2ff32de4eacc484eb5a9007534d13156a1b1a1a9c62233775741db20c020/zonesmart-utils-fork-0.5.9.9.tar.gz
+[2024-04-23 10:16:48] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-23 10:16:48] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-04-23 10:16:48] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240423/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 10:16:48] INFO root fetch - processPackages [pyzdd]: Downloading https://files.pythonhosted.org/packages/5f/61/2ef003e20169a0b32829f6b98496c99e40c3b17d12e73c20fe61dfe69a52/pyzdd-0.2.8.tar.gz
+[2024-04-23 10:16:48] INFO root fetch - processPackages [zonesmart-utils-fork]: executing diffoscope
+[2024-04-23 10:16:48] INFO root fetch - processPackages [zonesmart-utils-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-fork-0.5.9.8.tar.gz tmp/zonesmart-utils-fork-0.5.9.9.tar.gz --markdown 20240423/z/zonesmart-utils-fork/0.5.9.8-0.5.9.9/README.md --exclude *.pyd
+[2024-04-23 10:16:48] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-23 10:16:48] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240423/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-23 10:16:48] INFO root fetch - processPackages [mediawiki-langcodes]: Downloading https://files.pythonhosted.org/packages/d4/18/fe902f8666f716adb4e281d8d99e05da5cc9fa70217e948d80111f3a6396/mediawiki_langcodes-0.2.5.tar.gz
+[2024-04-23 10:16:48] INFO root fetch - processPackages [pyzdd]: executing diffoscope
+[2024-04-23 10:16:48] INFO root fetch - processPackages [pyzdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzdd-0.2.6.tar.gz tmp/pyzdd-0.2.8.tar.gz --markdown 20240423/p/pyzdd/0.2.6-0.2.8/README.md --exclude *.pyd
+[2024-04-23 10:16:49] INFO root fetch - processPackages [maplib]: Downloading https://files.pythonhosted.org/packages/4a/2a/0bf1c5308bca10b38f42e0206c28b5cf7cb5b5c137a61e7f2f1f40bad225/maplib-0.8.8-cp311-cp311-macosx_11_0_arm64.whl
+[2024-04-23 10:16:49] INFO root fetch - processPackages [mediawiki-langcodes]: executing diffoscope
+[2024-04-23 10:16:49] INFO root fetch - processPackages [mediawiki-langcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediawiki_langcodes-0.2.4.tar.gz tmp/mediawiki_langcodes-0.2.5.tar.gz --markdown 20240423/m/mediawiki-langcodes/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-23 10:16:49] WARNING root fetch - processPackages [maplib]: Skipping package: exceeds size limit 13113941>=10485760
+[2024-04-23 10:16:49] INFO root fetch - main [MainThread]: End processing [maplib] error
+[2024-04-23 10:16:49] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-04-23 10:16:49] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-04-23 10:16:49] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-04-23 10:16:49] INFO root fetch - processPackages [pyzdd]: Remove: archive file [/home/abi/fetcher/tmp/pyzdd-0.2.6.tar.gz]
+[2024-04-23 10:16:49] INFO root fetch - processPackages [pyzdd]: Remove: archive file [/home/abi/fetcher/tmp/pyzdd-0.2.8.tar.gz]
+[2024-04-23 10:16:49] INFO root fetch - main [MainThread]: End processing [pyzdd]: success
+[2024-04-23 10:16:49] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.8.tar.gz]
+[2024-04-23 10:16:49] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.9.tar.gz]
+[2024-04-23 10:16:49] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
+[2024-04-23 10:16:50] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-23 10:16:50] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-23 10:16:50] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-23 10:16:53] INFO root fetch - processPackages [mediawiki-langcodes]: Remove: archive file [/home/abi/fetcher/tmp/mediawiki_langcodes-0.2.4.tar.gz]
+[2024-04-23 10:16:53] INFO root fetch - processPackages [mediawiki-langcodes]: Remove: archive file [/home/abi/fetcher/tmp/mediawiki_langcodes-0.2.5.tar.gz]
+[2024-04-23 10:16:53] INFO root fetch - main [MainThread]: End processing [mediawiki-langcodes]: success
+[2024-04-23 10:16:53] INFO root fetch - main [MainThread]: Store serial: [22890795]
