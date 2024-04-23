@@ -12160,3 +12160,33 @@
 [2024-04-23 08:41:49] INFO root fetch - processPackages [HeraData]: Remove: archive file [/home/abi/fetcher/tmp/HeraData-0.1.1.tar.gz]
 [2024-04-23 08:41:49] INFO root fetch - main [MainThread]: End processing [HeraData]: success
 [2024-04-23 08:41:49] INFO root fetch - main [MainThread]: Store serial: [22889789]
+[2024-04-23 08:43:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889789]
+[2024-04-23 08:43:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 08:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chamco-ragbot
+[2024-04-23 08:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cs2solutions
+[2024-04-23 08:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fixcloudutils
+[2024-04-23 08:43:57] INFO root fetch - processPackages [chamco-ragbot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 08:43:57] INFO root fetch - processPackages [cs2solutions]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-23 08:43:57] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/28/24/217618cc94e5d20215b780cc06e8b8ea901198fa7e2ab0f9ae59576698af/chamco_ragbot-0.1.8.tar.gz
+[2024-04-23 08:43:57] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/a3/2b/7842b5d4c1f24009ecae47d7c5cea8344b1a248f6c7b3dccb743fb40b41c/cs2solutions-0.7.0.tar.gz
+[2024-04-23 08:43:57] INFO root fetch - processPackages [fixcloudutils]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-23 08:43:58] INFO root fetch - processPackages [fixcloudutils]: Downloading https://files.pythonhosted.org/packages/46/b3/43b1d2ef3ca6d2111b4b734e496ae84497a6b764c5cd5724da945efdc97b/fixcloudutils-1.8.0.tar.gz
+[2024-04-23 08:43:58] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/6d/2f/b0cfb668429f9c2cc9bbd78a2a429261023e9941169dc50b7905e48db0ac/chamco_ragbot-0.1.9.tar.gz
+[2024-04-23 08:43:58] INFO root fetch - processPackages [chamco-ragbot]: executing diffoscope
+[2024-04-23 08:43:58] INFO root fetch - processPackages [chamco-ragbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chamco_ragbot-0.1.8.tar.gz tmp/chamco_ragbot-0.1.9.tar.gz --markdown 20240423/c/chamco-ragbot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 08:43:58] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/3b/7f/9c13c53d435789f1ef88f8eb971651391b722a85bf8be1c2c01a1526b592/cs2solutions-0.7.1.tar.gz
+[2024-04-23 08:43:58] INFO root fetch - processPackages [cs2solutions]: executing diffoscope
+[2024-04-23 08:43:58] INFO root fetch - processPackages [cs2solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2solutions-0.7.0.tar.gz tmp/cs2solutions-0.7.1.tar.gz --markdown 20240423/c/cs2solutions/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-23 08:43:58] INFO root fetch - processPackages [fixcloudutils]: Downloading https://files.pythonhosted.org/packages/38/04/99a6a0618deb1632f415fdc3493db0d71e60ecf1fb7356fa35d10f379a8d/fixcloudutils-1.9.0.tar.gz
+[2024-04-23 08:43:58] INFO root fetch - processPackages [fixcloudutils]: executing diffoscope
+[2024-04-23 08:43:58] INFO root fetch - processPackages [fixcloudutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixcloudutils-1.8.0.tar.gz tmp/fixcloudutils-1.9.0.tar.gz --markdown 20240423/f/fixcloudutils/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-23 08:43:58] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.8.tar.gz]
+[2024-04-23 08:43:58] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.9.tar.gz]
+[2024-04-23 08:43:58] INFO root fetch - main [MainThread]: End processing [chamco-ragbot]: success
+[2024-04-23 08:43:58] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.7.0.tar.gz]
+[2024-04-23 08:43:58] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.7.1.tar.gz]
+[2024-04-23 08:43:58] INFO root fetch - main [MainThread]: End processing [cs2solutions]: success
+[2024-04-23 08:43:59] INFO root fetch - processPackages [fixcloudutils]: Remove: archive file [/home/abi/fetcher/tmp/fixcloudutils-1.8.0.tar.gz]
+[2024-04-23 08:43:59] INFO root fetch - processPackages [fixcloudutils]: Remove: archive file [/home/abi/fetcher/tmp/fixcloudutils-1.9.0.tar.gz]
+[2024-04-23 08:43:59] INFO root fetch - main [MainThread]: End processing [fixcloudutils]: success
+[2024-04-23 08:43:59] INFO root fetch - main [MainThread]: Store serial: [22889798]
