@@ -10191,3 +10191,30 @@
 [2024-04-23 06:27:54] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.1.1.tar.gz]
 [2024-04-23 06:27:54] INFO root fetch - main [MainThread]: End processing [komodo-sdk]: success
 [2024-04-23 06:27:54] INFO root fetch - main [MainThread]: Store serial: [22889004]
+[2024-04-23 06:29:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889004]
+[2024-04-23 06:30:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 06:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-ru
+[2024-04-23 06:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addons-oca-l10n-russia
+[2024-04-23 06:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enrichsdk
+[2024-04-23 06:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datafog
+[2024-04-23 06:30:03] INFO root fetch - processPackages [datafog]: New version: [3.0.0b3] Old Version: [3.0.0b2]
+[2024-04-23 06:30:03] INFO root fetch - processPackages [datafog]: Downloading https://files.pythonhosted.org/packages/05/b1/ce1bfc2cc3ab854f62fffec351e72476ac2febc28101e6e5c9d01a14552c/datafog-3.0.0b2.tar.gz
+[2024-04-23 06:30:03] WARNING root fetch - processPackages [odoo14-addon-l10n-ru]: Skipping, unable to determine old version
+[2024-04-23 06:30:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ru] error
+[2024-04-23 06:30:03] WARNING root fetch - processPackages [odoo14-addons-oca-l10n-russia]: Skipping, unable to determine old version
+[2024-04-23 06:30:03] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-russia] error
+[2024-04-23 06:30:03] INFO root fetch - processPackages [enrichsdk]: New version: [5.3.0] Old Version: [5.2.5]
+[2024-04-23 06:30:03] INFO root fetch - processPackages [enrichsdk]: Downloading https://files.pythonhosted.org/packages/79/fd/4b98264088ab95913cf7e6d49bf1a8bab93aa04eef367102e37f97e1891f/enrichsdk-5.2.5.tar.gz
+[2024-04-23 06:30:03] INFO root fetch - processPackages [datafog]: Downloading https://files.pythonhosted.org/packages/53/51/832919e67374fdf5767a98c50aab1c230f5dc2b90dedf19cc6150ba1b307/datafog-3.0.0b3.tar.gz
+[2024-04-23 06:30:03] INFO root fetch - processPackages [datafog]: executing diffoscope
+[2024-04-23 06:30:03] INFO root fetch - processPackages [datafog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datafog-3.0.0b2.tar.gz tmp/datafog-3.0.0b3.tar.gz --markdown 20240423/d/datafog/3.0.0b2-3.0.0b3/README.md --exclude *.pyd
+[2024-04-23 06:30:03] INFO root fetch - processPackages [enrichsdk]: Downloading https://files.pythonhosted.org/packages/4f/07/456b0898636e484452b10249a6e95e2d114e342867f0c1e7f84fde2e85e6/enrichsdk-5.3.0.tar.gz
+[2024-04-23 06:30:04] INFO root fetch - processPackages [enrichsdk]: executing diffoscope
+[2024-04-23 06:30:04] INFO root fetch - processPackages [enrichsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enrichsdk-5.2.5.tar.gz tmp/enrichsdk-5.3.0.tar.gz --markdown 20240423/e/enrichsdk/5.2.5-5.3.0/README.md --exclude *.pyd
+[2024-04-23 06:30:04] INFO root fetch - processPackages [datafog]: Remove: archive file [/home/abi/fetcher/tmp/datafog-3.0.0b2.tar.gz]
+[2024-04-23 06:30:04] INFO root fetch - processPackages [datafog]: Remove: archive file [/home/abi/fetcher/tmp/datafog-3.0.0b3.tar.gz]
+[2024-04-23 06:30:04] INFO root fetch - main [MainThread]: End processing [datafog]: success
+[2024-04-23 06:30:05] INFO root fetch - processPackages [enrichsdk]: Remove: archive file [/home/abi/fetcher/tmp/enrichsdk-5.2.5.tar.gz]
+[2024-04-23 06:30:05] INFO root fetch - processPackages [enrichsdk]: Remove: archive file [/home/abi/fetcher/tmp/enrichsdk-5.3.0.tar.gz]
+[2024-04-23 06:30:05] INFO root fetch - main [MainThread]: End processing [enrichsdk]: success
+[2024-04-23 06:30:05] INFO root fetch - main [MainThread]: Store serial: [22889016]
