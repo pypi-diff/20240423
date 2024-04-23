@@ -18363,3 +18363,29 @@
 [2024-04-23 12:43:23] INFO root fetch - processPackages [stow]: Remove: archive file [/home/abi/fetcher/tmp/stow-1.4.0.tar.gz]
 [2024-04-23 12:43:23] INFO root fetch - main [MainThread]: End processing [stow]: success
 [2024-04-23 12:43:23] INFO root fetch - main [MainThread]: Store serial: [22892486]
+[2024-04-23 12:45:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892486]
+[2024-04-23 12:45:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 12:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codex-of-the-damned
+[2024-04-23 12:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lense
+[2024-04-23 12:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctkdlib
+[2024-04-23 12:45:32] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 12:45:32] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-23 12:45:32] INFO root fetch - processPackages [ctkdlib]: New version: [5.0] Old Version: [4.2]
+[2024-04-23 12:45:32] INFO root fetch - processPackages [codex-of-the-damned]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 12:45:32] INFO root fetch - processPackages [codex-of-the-damned]: Downloading https://files.pythonhosted.org/packages/c2/11/df884619fc13a601b050cb3e01ceb86181c35a4ee94f824c8544d07562f3/codex-of-the-damned-1.8.tar.gz
+[2024-04-23 12:45:32] INFO root fetch - processPackages [ctkdlib]: Downloading https://files.pythonhosted.org/packages/c7/67/8ac35e1180bd1fb69c66e5f3a13a8c237cbe961c31dd40a0233a11f9d963/ctkdlib-4.2.tar.gz
+[2024-04-23 12:45:32] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-23 12:45:32] WARNING root fetch - processPackages [codex-of-the-damned]: Skipping package: exceeds size limit 17715792>=10485760
+[2024-04-23 12:45:32] INFO root fetch - main [MainThread]: End processing [codex-of-the-damned] error
+[2024-04-23 12:45:32] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 12:45:32] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 12:45:33] INFO root fetch - processPackages [ctkdlib]: Downloading https://files.pythonhosted.org/packages/0a/82/23c83c7ae2a3a224af8c5f482b7e60b46802db0040e37e69ccccbaf019b7/ctkdlib-5.0.tar.gz
+[2024-04-23 12:45:33] INFO root fetch - processPackages [ctkdlib]: executing diffoscope
+[2024-04-23 12:45:33] INFO root fetch - processPackages [ctkdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctkdlib-4.2.tar.gz tmp/ctkdlib-5.0.tar.gz --markdown 20240423/c/ctkdlib/4.2-5.0/README.md --exclude *.pyd
+[2024-04-23 12:45:33] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 12:45:33] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 12:45:33] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 12:45:33] INFO root fetch - processPackages [ctkdlib]: Remove: archive file [/home/abi/fetcher/tmp/ctkdlib-4.2.tar.gz]
+[2024-04-23 12:45:33] INFO root fetch - processPackages [ctkdlib]: Remove: archive file [/home/abi/fetcher/tmp/ctkdlib-5.0.tar.gz]
+[2024-04-23 12:45:33] INFO root fetch - main [MainThread]: End processing [ctkdlib]: success
+[2024-04-23 12:45:33] INFO root fetch - main [MainThread]: Store serial: [22892494]
