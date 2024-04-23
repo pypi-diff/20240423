@@ -20144,3 +20144,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 13:47:12] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
 [2024-04-23 13:47:12] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2024-04-23 13:47:12] INFO root fetch - main [MainThread]: Store serial: [22893223]
+[2024-04-23 13:49:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893223]
+[2024-04-23 13:49:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-23 13:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lense
+[2024-04-23 13:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sep005-io-fbgs
+[2024-04-23 13:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: danila-lib
+[2024-04-23 13:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libsmartocr
+[2024-04-23 13:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dulwich
+[2024-04-23 13:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hmx-v2-python
+[2024-04-23 13:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wttch-train-helper
+[2024-04-23 13:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sedrila
+[2024-04-23 13:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openmeter
+[2024-04-23 13:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: infoindia
+[2024-04-23 13:49:21] INFO root fetch - processPackages [danila-lib]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-04-23 13:49:21] INFO root fetch - processPackages [dulwich]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-23 13:49:21] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 13:49:21] WARNING root fetch - processPackages [libsmartocr]: Skipping, unable to determine old version
+[2024-04-23 13:49:21] INFO root fetch - processPackages [libsmartocr]: Start processing: pulumi-ovh
+[2024-04-23 13:49:21] INFO root fetch - main [MainThread]: End processing [libsmartocr] error
+[2024-04-23 13:49:21] INFO root fetch - processPackages [sedrila]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-23 13:49:21] WARNING root fetch - processPackages [infoindia]: Skipping, unable to determine old version
+[2024-04-23 13:49:21] INFO root fetch - main [MainThread]: End processing [infoindia] error
+[2024-04-23 13:49:21] INFO root fetch - processPackages [hmx-v2-python]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-23 13:49:21] INFO root fetch - processPackages [sep005-io-fbgs]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 13:49:21] INFO root fetch - processPackages [wttch-train-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 13:49:21] INFO root fetch - processPackages [openmeter]: New version: [1.0.0b63] Old Version: [1.0.0b62]
+[2024-04-23 13:49:21] INFO root fetch - processPackages [pulumi-ovh]: New version: [0.43.0] Old Version: [0.42.0]
+[2024-04-23 13:49:21] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-23 13:49:21] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/40/48/a25f42c2d9697326d8f062a8a5db34d8bbfe71fb529c55cd0b9bae7d99bf/danila-lib-1.3.7.tar.gz
+[2024-04-23 13:49:21] INFO root fetch - processPackages [pulumi-ovh]: Downloading https://files.pythonhosted.org/packages/88/bb/6fe6f8e9e7463721c6da508e2bbd335876f914fc6b4fb52badc6a1def833/pulumi_ovh-0.42.0.tar.gz
+[2024-04-23 13:49:21] INFO root fetch - processPackages [dulwich]: Downloading https://files.pythonhosted.org/packages/de/48/ed3daa6fab00a6a70118ea5f80436849a24f07b1021f05e07634c84a02e7/dulwich-0.9.8.tar.gz
+[2024-04-23 13:49:21] INFO root fetch - processPackages [sep005-io-fbgs]: Downloading https://files.pythonhosted.org/packages/2b/e0/620f0b975e353b526a8c1e91a7e6e0548fa6a69517864da3234f7fd7b483/sep005_io_fbgs-0.0.1.tar.gz
+[2024-04-23 13:49:21] INFO root fetch - processPackages [sedrila]: Downloading https://files.pythonhosted.org/packages/84/2b/e37ed9875fb47dc31707e454444c5c5e5332e10ca4b5cec0df928802a3c6/sedrila-1.0.0.tar.gz
+[2024-04-23 13:49:21] INFO root fetch - processPackages [hmx-v2-python]: Downloading https://files.pythonhosted.org/packages/49/02/9a01834883f16cce1617b21fec74ceec73ace1a3ab66c74f5e23fa151df2/hmx-v2-python-1.0.2.tar.gz
+[2024-04-23 13:49:21] INFO root fetch - processPackages [openmeter]: Downloading https://files.pythonhosted.org/packages/67/43/5c9dee4970d87ab8bc04963b34383745ee0318cd0b2ec86a767204cab92d/openmeter-1.0.0b62.tar.gz
+[2024-04-23 13:49:21] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-23 13:49:21] INFO root fetch - processPackages [wttch-train-helper]: Downloading https://files.pythonhosted.org/packages/3b/39/20b37adf77ac5d3a1c29fac307c5b35603437a19b4e9ccfdf3da730c7734/wttch-train-helper-0.0.8.tar.gz
+[2024-04-23 13:49:21] INFO root fetch - processPackages [pulumi-ovh]: Downloading https://files.pythonhosted.org/packages/ec/93/e5d738a2dcbabf7c32b01c07532f6ae0dbcbd7b1c5036c0bb959d707880c/pulumi_ovh-0.43.0.tar.gz
+[2024-04-23 13:49:21] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 13:49:21] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 13:49:21] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/37/b7/85e68db321984d9968d8a05ead25c72415a7b38168e28ebc7930bdf89b44/danila-lib-1.3.8.tar.gz
+[2024-04-23 13:49:21] INFO root fetch - processPackages [dulwich]: Downloading https://files.pythonhosted.org/packages/d8/e6/ffb02a47cfa863a05d9197d800a3cb4c97fbf973c83d044ebcd8c1a4a341/dulwich-0.9.9.tar.gz
+[2024-04-23 13:49:22] INFO root fetch - processPackages [sedrila]: Downloading https://files.pythonhosted.org/packages/cf/3a/29e6507d5d9ff28b89b373e9eba8ea11d80627a400381ec1a83de844812a/sedrila-1.1.0.tar.gz
+[2024-04-23 13:49:22] INFO root fetch - processPackages [pulumi-ovh]: executing diffoscope
+[2024-04-23 13:49:22] INFO root fetch - processPackages [pulumi-ovh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ovh-0.42.0.tar.gz tmp/pulumi_ovh-0.43.0.tar.gz --markdown 20240423/p/pulumi-ovh/0.42.0-0.43.0/README.md --exclude *.pyd
+[2024-04-23 13:49:22] INFO root fetch - processPackages [sep005-io-fbgs]: Downloading https://files.pythonhosted.org/packages/f2/07/ae6f4f4636de9d3718c02b4cb1b3c2209240d2e7721e7f5408139426c305/sep005_io_fbgs-0.0.2.tar.gz
+[2024-04-23 13:49:22] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-04-23 13:49:22] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.3.7.tar.gz tmp/danila-lib-1.3.8.tar.gz --markdown 20240423/d/danila-lib/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-04-23 13:49:22] INFO root fetch - processPackages [openmeter]: Downloading https://files.pythonhosted.org/packages/de/1b/e9ae342ab8e3974869015e5b928fea36644d5a634f59eacc1dbfba2e9f10/openmeter-1.0.0b63.tar.gz
+[2024-04-23 13:49:22] INFO root fetch - processPackages [dulwich]: executing diffoscope
+[2024-04-23 13:49:22] INFO root fetch - processPackages [dulwich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dulwich-0.9.8.tar.gz tmp/dulwich-0.9.9.tar.gz --markdown 20240423/d/dulwich/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-23 13:49:22] INFO root fetch - processPackages [hmx-v2-python]: Downloading https://files.pythonhosted.org/packages/c5/8f/ef1103f837e539bbf2e3601970e91fa835c766183816e7414e52b3e08972/hmx-v2-python-1.1.0.tar.gz
+[2024-04-23 13:49:22] INFO root fetch - processPackages [wttch-train-helper]: Downloading https://files.pythonhosted.org/packages/06/f1/4c3862ff8dfa72e0261e6a5f5e8fb8722a335c9adec2134db760cf92c16a/wttch-train-helper-0.0.9.tar.gz
+[2024-04-23 13:49:22] INFO root fetch - processPackages [sedrila]: executing diffoscope
+[2024-04-23 13:49:22] INFO root fetch - processPackages [sedrila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedrila-1.0.0.tar.gz tmp/sedrila-1.1.0.tar.gz --markdown 20240423/s/sedrila/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-23 13:49:22] INFO root fetch - processPackages [sep005-io-fbgs]: executing diffoscope
+[2024-04-23 13:49:22] INFO root fetch - processPackages [sep005-io-fbgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sep005_io_fbgs-0.0.1.tar.gz tmp/sep005_io_fbgs-0.0.2.tar.gz --markdown 20240423/s/sep005-io-fbgs/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 13:49:22] INFO root fetch - processPackages [wttch-train-helper]: executing diffoscope
+[2024-04-23 13:49:22] INFO root fetch - processPackages [wttch-train-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wttch-train-helper-0.0.8.tar.gz tmp/wttch-train-helper-0.0.9.tar.gz --markdown 20240423/w/wttch-train-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 13:49:22] INFO root fetch - processPackages [hmx-v2-python]: executing diffoscope
+[2024-04-23 13:49:22] INFO root fetch - processPackages [hmx-v2-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmx-v2-python-1.0.2.tar.gz tmp/hmx-v2-python-1.1.0.tar.gz --markdown 20240423/h/hmx-v2-python/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-04-23 13:49:22] INFO root fetch - processPackages [openmeter]: executing diffoscope
+[2024-04-23 13:49:22] INFO root fetch - processPackages [openmeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmeter-1.0.0b62.tar.gz tmp/openmeter-1.0.0b63.tar.gz --markdown 20240423/o/openmeter/1.0.0b62-1.0.0b63/README.md --exclude *.pyd
+[2024-04-23 13:49:22] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 13:49:22] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 13:49:22] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 13:49:22] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.3.7.tar.gz]
+[2024-04-23 13:49:22] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.3.8.tar.gz]
+[2024-04-23 13:49:22] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-04-23 13:49:23] INFO root fetch - processPackages [wttch-train-helper]: Remove: archive file [/home/abi/fetcher/tmp/wttch-train-helper-0.0.8.tar.gz]
+[2024-04-23 13:49:23] INFO root fetch - processPackages [wttch-train-helper]: Remove: archive file [/home/abi/fetcher/tmp/wttch-train-helper-0.0.9.tar.gz]
+[2024-04-23 13:49:23] INFO root fetch - main [MainThread]: End processing [wttch-train-helper]: success
+[2024-04-23 13:49:23] INFO root fetch - processPackages [sep005-io-fbgs]: Remove: archive file [/home/abi/fetcher/tmp/sep005_io_fbgs-0.0.1.tar.gz]
+[2024-04-23 13:49:23] INFO root fetch - processPackages [sep005-io-fbgs]: Remove: archive file [/home/abi/fetcher/tmp/sep005_io_fbgs-0.0.2.tar.gz]
+[2024-04-23 13:49:23] INFO root fetch - main [MainThread]: End processing [sep005-io-fbgs]: success
+[2024-04-23 13:49:23] INFO root fetch - processPackages [openmeter]: Remove: archive file [/home/abi/fetcher/tmp/openmeter-1.0.0b62.tar.gz]
+[2024-04-23 13:49:23] INFO root fetch - processPackages [openmeter]: Remove: archive file [/home/abi/fetcher/tmp/openmeter-1.0.0b63.tar.gz]
+[2024-04-23 13:49:23] INFO root fetch - main [MainThread]: End processing [openmeter]: success
+[2024-04-23 13:49:23] INFO root fetch - processPackages [hmx-v2-python]: Remove: archive file [/home/abi/fetcher/tmp/hmx-v2-python-1.0.2.tar.gz]
+[2024-04-23 13:49:23] INFO root fetch - processPackages [hmx-v2-python]: Remove: archive file [/home/abi/fetcher/tmp/hmx-v2-python-1.1.0.tar.gz]
+[2024-04-23 13:49:23] INFO root fetch - main [MainThread]: End processing [hmx-v2-python]: success
+[2024-04-23 13:49:23] INFO root fetch - processPackages [sedrila]: Remove: archive file [/home/abi/fetcher/tmp/sedrila-1.0.0.tar.gz]
+[2024-04-23 13:49:23] INFO root fetch - processPackages [sedrila]: Remove: archive file [/home/abi/fetcher/tmp/sedrila-1.1.0.tar.gz]
+[2024-04-23 13:49:23] INFO root fetch - main [MainThread]: End processing [sedrila]: success
+[2024-04-23 13:49:23] INFO root fetch - processPackages [dulwich]: Remove: archive file [/home/abi/fetcher/tmp/dulwich-0.9.8.tar.gz]
+[2024-04-23 13:49:23] INFO root fetch - processPackages [dulwich]: Remove: archive file [/home/abi/fetcher/tmp/dulwich-0.9.9.tar.gz]
+[2024-04-23 13:49:23] INFO root fetch - main [MainThread]: End processing [dulwich]: success
+[2024-04-23 13:49:24] INFO root fetch - processPackages [pulumi-ovh]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ovh-0.42.0.tar.gz]
+[2024-04-23 13:49:24] INFO root fetch - processPackages [pulumi-ovh]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ovh-0.43.0.tar.gz]
+[2024-04-23 13:49:24] INFO root fetch - main [MainThread]: End processing [pulumi-ovh]: success
+[2024-04-23 13:49:24] INFO root fetch - main [MainThread]: Store serial: [22893281]
