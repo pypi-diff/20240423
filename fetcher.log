@@ -22743,3 +22743,102 @@ EOFError: EOF read where object expected
 [2024-04-23 15:12:09] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-23 15:12:09] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-04-23 15:12:09] INFO root fetch - main [MainThread]: Store serial: [22894361]
+[2024-04-23 15:14:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894361]
+[2024-04-23 15:14:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-23 15:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Geode-Explicit
+[2024-04-23 15:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-cryptapi
+[2024-04-23 15:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: udata-front
+[2024-04-23 15:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-widgets
+[2024-04-23 15:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imgmagic
+[2024-04-23 15:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylake
+[2024-04-23 15:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: talisman-ie-datamodel
+[2024-04-23 15:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SnaxModule
+[2024-04-23 15:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Geode-Simplex
+[2024-04-23 15:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xl2thrift
+[2024-04-23 15:14:18] INFO root fetch - processPackages [udata-front]: New version: [3.5.6.dev19119] Old Version: [3.5.6.dev19088]
+[2024-04-23 15:14:18] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.7.4rc1] Old Version: [6.7.3rc1]
+[2024-04-23 15:14:18] INFO root fetch - processPackages [talisman-ie-datamodel]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-23 15:14:18] WARNING root fetch - processPackages [imgmagic]: Skipping, unable to determine old version
+[2024-04-23 15:14:18] INFO root fetch - processPackages [imgmagic]: Start processing: nxtomo
+[2024-04-23 15:14:18] INFO root fetch - main [MainThread]: End processing [imgmagic] error
+[2024-04-23 15:14:18] INFO root fetch - processPackages [pylake]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-23 15:14:18] WARNING root fetch - processPackages [SnaxModule]: Skipping, unable to determine old version
+[2024-04-23 15:14:18] INFO root fetch - processPackages [SnaxModule]: Start processing: mkdocs-table-of-figures
+[2024-04-23 15:14:18] INFO root fetch - main [MainThread]: End processing [SnaxModule] error
+[2024-04-23 15:14:18] INFO root fetch - processPackages [xl2thrift]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 15:14:18] INFO root fetch - processPackages [python-cryptapi]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-23 15:14:18] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/52/db/44521b5ef29690be856cc56690e6f2a073ef0342fa5f695ccc89dc9522f4/udata_front-3.5.6.dev19088-py2.py3-none-any.whl
+[2024-04-23 15:14:18] INFO root fetch - processPackages [bec-widgets]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-23 15:14:18] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/ca/2f/aa45f3d8763e22073d3fe5256294b98db167f78d20a81734d401709a6422/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl
+[2024-04-23 15:14:18] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.7.4rc1] Old Version: [4.7.3rc1]
+[2024-04-23 15:14:19] INFO root fetch - processPackages [nxtomo]: New version: [1.3.0.dev2] Old Version: [1.3.0.dev1]
+[2024-04-23 15:14:19] INFO root fetch - processPackages [talisman-ie-datamodel]: Downloading https://files.pythonhosted.org/packages/f2/ea/6522b4ff3f5e8302b2508ebc4f5d135e2f38d0ba87e2290b48578e696120/talisman-ie-datamodel-0.4.0.tar.gz
+[2024-04-23 15:14:19] INFO root fetch - processPackages [mkdocs-table-of-figures]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-04-23 15:14:19] INFO root fetch - processPackages [pylake]: Downloading https://files.pythonhosted.org/packages/d1/04/4aff376d5ed8331e20acbfc826d956e84fb1a79d168ab2211be7c320e204/pylake-0.1.5.tar.gz
+[2024-04-23 15:14:19] INFO root fetch - processPackages [xl2thrift]: Downloading https://files.pythonhosted.org/packages/db/80/8d9297f017f67be2e6a088f8ae9187bf08f60589158d266304163f71a7e7/xl2thrift-0.0.1.tar.gz
+[2024-04-23 15:14:19] INFO root fetch - processPackages [python-cryptapi]: Downloading https://files.pythonhosted.org/packages/f7/8d/d8285fe51f464e0a20878f35f9e14ce551ee2448e5f4a9c53c2263f8da52/python-cryptapi-1.0.4.tar.gz
+[2024-04-23 15:14:19] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/d4/a4/036c9cedb9f9879c6b5fee42a6aa51583c18be1eaa61ffbad1171b243b07/bec_widgets-0.8.1.tar.gz
+[2024-04-23 15:14:19] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/04/73/83b0a3a773aad2b7ba75aaeb8c67ca9bf07489e8167638469c9f6229d8f0/Geode_Explicit-4.7.3rc1-cp39-cp39-win_amd64.whl
+[2024-04-23 15:14:19] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/d8/08/7b5aadae0f6923dfb08f8f55976149fadc364462faf75e435fe4dc1ce11c/Geode_Simplex-6.7.4rc1-cp39-cp39-win_amd64.whl
+[2024-04-23 15:14:19] INFO root fetch - processPackages [mkdocs-table-of-figures]: Downloading https://files.pythonhosted.org/packages/2e/24/fd71b93a0cb5f4a2b31546199a362e49f2809974dec4948b86551961373b/mkdocs-table-of-figures-0.2.0.tar.gz
+[2024-04-23 15:14:19] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/7b/e6/68a9811ec8510a320cd3cd5f47b87f8dd777a4f16143aeb7bd115645485b/bec_widgets-0.9.0.tar.gz
+[2024-04-23 15:14:19] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/1b/a8/57ea46ddfa24d13bdfa7d2bab43af94f279e8eeb2571d193d0b2b4330960/udata_front-3.5.6.dev19119-py2.py3-none-any.whl
+[2024-04-23 15:14:19] INFO root fetch - processPackages [python-cryptapi]: Downloading https://files.pythonhosted.org/packages/62/c8/81c4bb147f5a4dc7bd22695fffa99a19db8e331ac3f63f32e7172ff98f4d/python-cryptapi-1.0.5.tar.gz
+[2024-04-23 15:14:19] INFO root fetch - processPackages [talisman-ie-datamodel]: Downloading https://files.pythonhosted.org/packages/69/cb/6a8072617bdb0a56c0e1a0a17f049c00a14e5982380a9cb23b7837ffd5f6/talisman-ie-datamodel-0.4.1.tar.gz
+[2024-04-23 15:14:19] INFO root fetch - processPackages [xl2thrift]: Downloading https://files.pythonhosted.org/packages/2a/7b/2b60cbd50624d3ff66f023e1f709aed58f9a4c8c5343561a9d6691f291c5/xl2thrift-0.0.2.tar.gz
+[2024-04-23 15:14:19] INFO root fetch - processPackages [pylake]: Downloading https://files.pythonhosted.org/packages/50/31/b275c4db62c77e5aac94e9d14142a7d1df180d44923b8aa481a2427ab0f6/pylake-0.1.6.tar.gz
+[2024-04-23 15:14:19] INFO root fetch - processPackages [bec-widgets]: executing diffoscope
+[2024-04-23 15:14:19] INFO root fetch - processPackages [bec-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_widgets-0.8.1.tar.gz tmp/bec_widgets-0.9.0.tar.gz --markdown 20240423/b/bec-widgets/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-23 15:14:19] INFO root fetch - processPackages [python-cryptapi]: executing diffoscope
+[2024-04-23 15:14:19] INFO root fetch - processPackages [python-cryptapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-cryptapi-1.0.4.tar.gz tmp/python-cryptapi-1.0.5.tar.gz --markdown 20240423/p/python-cryptapi/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-23 15:14:19] INFO root fetch - processPackages [pylake]: executing diffoscope
+[2024-04-23 15:14:19] INFO root fetch - processPackages [pylake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylake-0.1.5.tar.gz tmp/pylake-0.1.6.tar.gz --markdown 20240423/p/pylake/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-23 15:14:19] INFO root fetch - processPackages [xl2thrift]: executing diffoscope
+[2024-04-23 15:14:19] INFO root fetch - processPackages [xl2thrift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xl2thrift-0.0.1.tar.gz tmp/xl2thrift-0.0.2.tar.gz --markdown 20240423/x/xl2thrift/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 15:14:19] INFO root fetch - processPackages [talisman-ie-datamodel]: executing diffoscope
+[2024-04-23 15:14:19] INFO root fetch - processPackages [talisman-ie-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talisman-ie-datamodel-0.4.0.tar.gz tmp/talisman-ie-datamodel-0.4.1.tar.gz --markdown 20240423/t/talisman-ie-datamodel/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-23 15:14:19] INFO root fetch - processPackages [nxtomo]: Downloading https://files.pythonhosted.org/packages/19/b7/3f04fd8a90e21158801ef04d449dbb58e1461a0a8ebf30613f44da12e0ed/nxtomo-1.3.0.dev1.tar.gz
+[2024-04-23 15:14:19] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-04-23 15:14:19] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.7.4rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240423/G/Geode-Simplex/6.7.3rc1-6.7.4rc1/README.md --exclude *.pyd
+[2024-04-23 15:14:19] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/89/b8/14f621faa4bfc8388a89bd5bb1661a29596963b4db56c6b0e423949cdee7/Geode_Explicit-4.7.4rc1-cp39-cp39-win_amd64.whl
+[2024-04-23 15:14:19] INFO root fetch - processPackages [mkdocs-table-of-figures]: Downloading https://files.pythonhosted.org/packages/ec/c2/c20e5246f9b76e5eef260dbe7db57a814c79b8ef7e458767c5f23206e8d5/mkdocs-table-of-figures-0.2.2.tar.gz
+[2024-04-23 15:14:20] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-23 15:14:20] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.6.dev19088-py2.py3-none-any.whl.zip tmp/udata_front-3.5.6.dev19119-py2.py3-none-any.whl.zip --markdown 20240423/u/udata-front/3.5.6.dev19088-3.5.6.dev19119/README.md --exclude *.pyd
+[2024-04-23 15:14:20] INFO root fetch - processPackages [mkdocs-table-of-figures]: executing diffoscope
+[2024-04-23 15:14:20] INFO root fetch - processPackages [mkdocs-table-of-figures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-table-of-figures-0.2.0.tar.gz tmp/mkdocs-table-of-figures-0.2.2.tar.gz --markdown 20240423/m/mkdocs-table-of-figures/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-04-23 15:14:20] INFO root fetch - processPackages [nxtomo]: Downloading https://files.pythonhosted.org/packages/5d/3c/895382a472090f7f049121577b48e76441a0af7f3095e3ab11f219afeef4/nxtomo-1.3.0.dev2.tar.gz
+[2024-04-23 15:14:20] INFO root fetch - processPackages [nxtomo]: executing diffoscope
+[2024-04-23 15:14:20] INFO root fetch - processPackages [nxtomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxtomo-1.3.0.dev1.tar.gz tmp/nxtomo-1.3.0.dev2.tar.gz --markdown 20240423/n/nxtomo/1.3.0.dev1-1.3.0.dev2/README.md --exclude *.pyd
+[2024-04-23 15:14:20] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2024-04-23 15:14:20] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.7.3rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.7.4rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240423/G/Geode-Explicit/4.7.3rc1-4.7.4rc1/README.md --exclude *.pyd
+[2024-04-23 15:14:20] INFO root fetch - processPackages [python-cryptapi]: Remove: archive file [/home/abi/fetcher/tmp/python-cryptapi-1.0.4.tar.gz]
+[2024-04-23 15:14:20] INFO root fetch - processPackages [python-cryptapi]: Remove: archive file [/home/abi/fetcher/tmp/python-cryptapi-1.0.5.tar.gz]
+[2024-04-23 15:14:20] INFO root fetch - main [MainThread]: End processing [python-cryptapi]: success
+[2024-04-23 15:14:20] INFO root fetch - processPackages [xl2thrift]: Remove: archive file [/home/abi/fetcher/tmp/xl2thrift-0.0.1.tar.gz]
+[2024-04-23 15:14:20] INFO root fetch - processPackages [xl2thrift]: Remove: archive file [/home/abi/fetcher/tmp/xl2thrift-0.0.2.tar.gz]
+[2024-04-23 15:14:20] INFO root fetch - main [MainThread]: End processing [xl2thrift]: success
+[2024-04-23 15:14:20] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.8.1.tar.gz]
+[2024-04-23 15:14:20] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.9.0.tar.gz]
+[2024-04-23 15:14:20] INFO root fetch - main [MainThread]: End processing [bec-widgets]: success
+[2024-04-23 15:14:20] INFO root fetch - processPackages [pylake]: Remove: archive file [/home/abi/fetcher/tmp/pylake-0.1.5.tar.gz]
+[2024-04-23 15:14:20] INFO root fetch - processPackages [pylake]: Remove: archive file [/home/abi/fetcher/tmp/pylake-0.1.6.tar.gz]
+[2024-04-23 15:14:20] INFO root fetch - main [MainThread]: End processing [pylake]: success
+[2024-04-23 15:14:20] INFO root fetch - processPackages [talisman-ie-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/talisman-ie-datamodel-0.4.0.tar.gz]
+[2024-04-23 15:14:20] INFO root fetch - processPackages [talisman-ie-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/talisman-ie-datamodel-0.4.1.tar.gz]
+[2024-04-23 15:14:20] INFO root fetch - main [MainThread]: End processing [talisman-ie-datamodel]: success
+[2024-04-23 15:14:20] INFO root fetch - processPackages [mkdocs-table-of-figures]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-table-of-figures-0.2.0.tar.gz]
+[2024-04-23 15:14:20] INFO root fetch - processPackages [mkdocs-table-of-figures]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-table-of-figures-0.2.2.tar.gz]
+[2024-04-23 15:14:20] INFO root fetch - main [MainThread]: End processing [mkdocs-table-of-figures]: success
+[2024-04-23 15:14:21] INFO root fetch - processPackages [nxtomo]: Remove: archive file [/home/abi/fetcher/tmp/nxtomo-1.3.0.dev1.tar.gz]
+[2024-04-23 15:14:21] INFO root fetch - processPackages [nxtomo]: Remove: archive file [/home/abi/fetcher/tmp/nxtomo-1.3.0.dev2.tar.gz]
+[2024-04-23 15:14:21] INFO root fetch - main [MainThread]: End processing [nxtomo]: success
+[2024-04-23 15:14:44] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 15:14:44] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 15:14:44] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2024-04-23 15:14:47] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 15:14:47] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-23 15:14:47] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-04-23 15:15:51] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.6.dev19088-py2.py3-none-any.whl.zip]
+[2024-04-23 15:15:51] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.6.dev19119-py2.py3-none-any.whl.zip]
+[2024-04-23 15:15:51] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-23 15:15:51] INFO root fetch - main [MainThread]: Store serial: [22894402]
