@@ -16791,3 +16791,83 @@
 [2024-04-23 11:42:05] INFO root fetch - processPackages [codefuse-muagent]: Remove: archive file [/home/abi/fetcher/tmp/codefuse_muagent-0.0.3.tar.gz]
 [2024-04-23 11:42:05] INFO root fetch - main [MainThread]: End processing [codefuse-muagent]: success
 [2024-04-23 11:42:05] INFO root fetch - main [MainThread]: Store serial: [22891885]
+[2024-04-23 11:44:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891885]
+[2024-04-23 11:44:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 11:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SilverStreamingApplicationPoC
+[2024-04-23 11:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ckanext-dc-serve
+[2024-04-23 11:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-pipelines
+[2024-04-23 11:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rats-apps
+[2024-04-23 11:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antakia-core
+[2024-04-23 11:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: image-center
+[2024-04-23 11:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rats-processors
+[2024-04-23 11:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antakia
+[2024-04-23 11:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: superstore
+[2024-04-23 11:44:14] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 11:44:14] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 11:44:14] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 11:44:14] INFO root fetch - processPackages [superstore]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-23 11:44:14] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-23 11:44:14] INFO root fetch - processPackages [ckanext-dc-serve]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-23 11:44:14] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 11:44:14] INFO root fetch - processPackages [image-center]: New version: [2024.4.23] Old Version: [2024.3.28]
+[2024-04-23 11:44:14] INFO root fetch - processPackages [antakia-core]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-23 11:44:14] INFO root fetch - processPackages [antakia]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-23 11:44:14] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-23 11:44:14] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 11:44:14] INFO root fetch - processPackages [superstore]: Downloading https://files.pythonhosted.org/packages/b6/5d/56661a751c427fec1d24a5221e508204b4f21baab8ffc4cfb1406607a867/superstore-0.2.1.tar.gz
+[2024-04-23 11:44:14] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-23 11:44:14] INFO root fetch - processPackages [ckanext-dc-serve]: Downloading https://files.pythonhosted.org/packages/91/75/de4f8e7a0c6632f278d47cba7ffe8073874d23d49026ce5ccd66006107a9/ckanext-dc_serve-0.9.4.tar.gz
+[2024-04-23 11:44:14] INFO root fetch - processPackages [image-center]: Downloading https://files.pythonhosted.org/packages/93/80/a3c7f22c4f32642be54a2789824bd62f08b58a3a202a745a88291ad360b3/image_center-2024.3.28.tar.gz
+[2024-04-23 11:44:14] INFO root fetch - processPackages [antakia-core]: Downloading https://files.pythonhosted.org/packages/82/c3/645f29d6d39e0a81d93c4ba5d983e97b44c7dadfc1a5fba7be18811bbe94/antakia_core-0.4.0.tar.gz
+[2024-04-23 11:44:14] INFO root fetch - processPackages [antakia]: Downloading https://files.pythonhosted.org/packages/3d/d9/ae5a4c12ebdda4d71140e378843d304e53d652d47528e93fcbcc7b5b8b01/antakia-0.4.0.tar.gz
+[2024-04-23 11:44:14] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-23 11:44:14] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 11:44:14] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 11:44:14] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-23 11:44:14] INFO root fetch - processPackages [superstore]: Downloading https://files.pythonhosted.org/packages/d3/01/3ae8850774afb0e840dfba7074c9bd19edf8e7017a935ad131c05704b28a/superstore-0.2.2.tar.gz
+[2024-04-23 11:44:14] WARNING root fetch - processPackages [antakia]: Skipping package: exceeds size limit 22881318>=10485760
+[2024-04-23 11:44:14] INFO root fetch - main [MainThread]: End processing [antakia] error
+[2024-04-23 11:44:15] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-23 11:44:15] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240423/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-23 11:44:15] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-23 11:44:15] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 11:44:15] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-23 11:44:15] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 11:44:15] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-23 11:44:15] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240423/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-23 11:44:15] INFO root fetch - processPackages [superstore]: executing diffoscope
+[2024-04-23 11:44:15] INFO root fetch - processPackages [superstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superstore-0.2.1.tar.gz tmp/superstore-0.2.2.tar.gz --markdown 20240423/s/superstore/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-23 11:44:15] INFO root fetch - processPackages [ckanext-dc-serve]: Downloading https://files.pythonhosted.org/packages/fd/f1/a13147acdffced969cdb04865379b686343be9353b05279ab9c0f6c8d88b/ckanext-dc_serve-0.9.5.tar.gz
+[2024-04-23 11:44:15] INFO root fetch - processPackages [antakia-core]: Downloading https://files.pythonhosted.org/packages/9a/ee/331f646aab5ae877f8c334927aa2b50c23460c4463e407b47f4c97932121/antakia_core-0.4.1.tar.gz
+[2024-04-23 11:44:15] INFO root fetch - processPackages [ckanext-dc-serve]: executing diffoscope
+[2024-04-23 11:44:15] INFO root fetch - processPackages [ckanext-dc-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-dc_serve-0.9.4.tar.gz tmp/ckanext-dc_serve-0.9.5.tar.gz --markdown 20240423/c/ckanext-dc-serve/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-23 11:44:15] INFO root fetch - processPackages [image-center]: Downloading https://files.pythonhosted.org/packages/16/eb/b9faad1e7a1cf597a7f319ac3c02a43ba782cd5c0b5ac37c5928a1b9522c/image_center-2024.4.23.tar.gz
+[2024-04-23 11:44:15] INFO root fetch - processPackages [antakia-core]: executing diffoscope
+[2024-04-23 11:44:15] INFO root fetch - processPackages [antakia-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antakia_core-0.4.0.tar.gz tmp/antakia_core-0.4.1.tar.gz --markdown 20240423/a/antakia-core/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-23 11:44:15] INFO root fetch - processPackages [image-center]: executing diffoscope
+[2024-04-23 11:44:15] INFO root fetch - processPackages [image-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_center-2024.3.28.tar.gz tmp/image_center-2024.4.23.tar.gz --markdown 20240423/i/image-center/2024.3.28-2024.4.23/README.md --exclude *.pyd
+[2024-04-23 11:44:15] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 11:44:15] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 11:44:15] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-23 11:44:15] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-23 11:44:15] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-23 11:44:15] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-23 11:44:15] INFO root fetch - processPackages [superstore]: Remove: archive file [/home/abi/fetcher/tmp/superstore-0.2.1.tar.gz]
+[2024-04-23 11:44:15] INFO root fetch - processPackages [superstore]: Remove: archive file [/home/abi/fetcher/tmp/superstore-0.2.2.tar.gz]
+[2024-04-23 11:44:15] INFO root fetch - main [MainThread]: End processing [superstore]: success
+[2024-04-23 11:44:16] INFO root fetch - processPackages [ckanext-dc-serve]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dc_serve-0.9.4.tar.gz]
+[2024-04-23 11:44:16] INFO root fetch - processPackages [ckanext-dc-serve]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dc_serve-0.9.5.tar.gz]
+[2024-04-23 11:44:16] INFO root fetch - main [MainThread]: End processing [ckanext-dc-serve]: success
+[2024-04-23 11:44:16] INFO root fetch - processPackages [image-center]: Remove: archive file [/home/abi/fetcher/tmp/image_center-2024.3.28.tar.gz]
+[2024-04-23 11:44:16] INFO root fetch - processPackages [image-center]: Remove: archive file [/home/abi/fetcher/tmp/image_center-2024.4.23.tar.gz]
+[2024-04-23 11:44:16] INFO root fetch - main [MainThread]: End processing [image-center]: success
+[2024-04-23 11:44:16] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 11:44:16] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 11:44:16] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-23 11:44:16] INFO root fetch - processPackages [antakia-core]: Remove: archive file [/home/abi/fetcher/tmp/antakia_core-0.4.0.tar.gz]
+[2024-04-23 11:44:16] INFO root fetch - processPackages [antakia-core]: Remove: archive file [/home/abi/fetcher/tmp/antakia_core-0.4.1.tar.gz]
+[2024-04-23 11:44:16] INFO root fetch - main [MainThread]: End processing [antakia-core]: success
+[2024-04-23 11:44:16] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-23 11:44:16] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-23 11:44:16] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-23 11:44:16] INFO root fetch - main [MainThread]: Store serial: [22891909]
