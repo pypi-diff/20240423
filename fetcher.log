@@ -17087,3 +17087,77 @@
 [2024-04-23 11:50:48] INFO root fetch - processPackages [dbt-trino]: Remove: archive file [/home/abi/fetcher/tmp/dbt-trino-1.8.0b3.tar.gz]
 [2024-04-23 11:50:48] INFO root fetch - main [MainThread]: End processing [dbt-trino]: success
 [2024-04-23 11:50:48] INFO root fetch - main [MainThread]: Store serial: [22891991]
+[2024-04-23 11:52:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22891991]
+[2024-04-23 11:52:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-23 11:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tabviz
+[2024-04-23 11:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dblcsgen
+[2024-04-23 11:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strledger
+[2024-04-23 11:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panel
+[2024-04-23 11:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vadi
+[2024-04-23 11:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcor-control
+[2024-04-23 11:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: contrastive-ne
+[2024-04-23 11:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tui-dsmt
+[2024-04-23 11:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdo-sdk-python
+[2024-04-23 11:52:57] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.96] Old Version: [1.0.95]
+[2024-04-23 11:52:58] WARNING root fetch - processPackages [vadi]: Skipping, unable to determine old version
+[2024-04-23 11:52:58] INFO root fetch - main [MainThread]: End processing [vadi] error
+[2024-04-23 11:52:58] INFO root fetch - processPackages [tui-dsmt]: New version: [202404230921] Old Version: [202404181339]
+[2024-04-23 11:52:58] INFO root fetch - processPackages [dcor-control]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-23 11:52:58] INFO root fetch - processPackages [panel]: New version: [1.4.2rc2] Old Version: [1.4.2rc1]
+[2024-04-23 11:52:58] INFO root fetch - processPackages [dblcsgen]: New version: [0.2.3] Old Version: [0.2.2.dev1]
+[2024-04-23 11:52:58] INFO root fetch - processPackages [contrastive-ne]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-23 11:52:58] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/de/90/18ae6ab5616b4f442014bf4c9824b1b8870cc7aa66986e5737e7f02ce57e/cdo-sdk-python-1.0.95.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [tabviz]: New version: [1.1.0.4] Old Version: [1.1.0.3]
+[2024-04-23 11:52:58] INFO root fetch - processPackages [strledger]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-23 11:52:58] INFO root fetch - processPackages [dcor-control]: Downloading https://files.pythonhosted.org/packages/3f/e0/b529d0b47a5311206f02a4a2afcb79c527dc87c6e48d5502150b3f89c584/dcor_control-0.9.4.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/d9/19/1ec8ca6a47f17b72492bf3175dc22c29c9356300bcd2cb9cec65d137bfdb/tui_dsmt-202404181339.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/a1/d0/4052923941b432941bf0e468fe0401fea4d198d8c6dc7084652c844c95be/panel-1.4.2rc1.tar.gz
+[2024-04-23 11:52:58] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 38417866>=10485760
+[2024-04-23 11:52:58] INFO root fetch - main [MainThread]: End processing [panel] error
+[2024-04-23 11:52:58] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/26/ba/7f87607beeef8f98e26c730d769e21fb38cc5d84b7a2a24348acf7546816/dblcsgen-0.2.2.dev1.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [tabviz]: Downloading https://files.pythonhosted.org/packages/ab/98/2932931033adbdcbd919b81f430b0b9138a350ea06cb786803c422456ea5/tabviz-1.1.0.3.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [strledger]: Downloading https://files.pythonhosted.org/packages/b1/70/293f5ebefa01faf89cf3f959ad46fb774139269f467899d29f35a5c7d286/strledger-0.5.1.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [contrastive-ne]: Downloading https://files.pythonhosted.org/packages/1c/dc/cfe7459c2a0a3dd063127daa2e5de753155265825e81a974dd0f3e7cad9c/contrastive_ne-0.3.5.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/fc/70/463d408e0f0dae733c07c420d7c157c845a95fec5d25c1510f6f5523b945/tui_dsmt-202404230921.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [dcor-control]: Downloading https://files.pythonhosted.org/packages/cd/c1/a7cdfc3e3b4c69171f93c66e26ce8a4d0b4c13c0f47406c81ed0a12433f0/dcor_control-0.9.5.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/fb/73/26dfed74d441d20053ac9db514718945a7f9263f45762b4334c4eba1e927/cdo-sdk-python-1.0.96.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-23 11:52:58] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404181339.tar.gz tmp/tui_dsmt-202404230921.tar.gz --markdown 20240423/t/tui-dsmt/202404181339-202404230921/README.md --exclude *.pyd
+[2024-04-23 11:52:58] INFO root fetch - processPackages [dcor-control]: executing diffoscope
+[2024-04-23 11:52:58] INFO root fetch - processPackages [dcor-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcor_control-0.9.4.tar.gz tmp/dcor_control-0.9.5.tar.gz --markdown 20240423/d/dcor-control/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-23 11:52:58] INFO root fetch - processPackages [tabviz]: Downloading https://files.pythonhosted.org/packages/f3/c6/75b6220dca4271bd94f5e7e5dd7c6bc75df252de1d5651b245636fce35f1/tabviz-1.1.0.4.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-23 11:52:58] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.95.tar.gz tmp/cdo-sdk-python-1.0.96.tar.gz --markdown 20240423/c/cdo-sdk-python/1.0.95-1.0.96/README.md --exclude *.pyd
+[2024-04-23 11:52:58] INFO root fetch - processPackages [strledger]: Downloading https://files.pythonhosted.org/packages/38/ea/bffbeeacec37952d3e8b34f46339eb9e10a1aa48ad30eee7ed881900fe80/strledger-0.6.0.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [contrastive-ne]: Downloading https://files.pythonhosted.org/packages/bf/c4/296d7f3eeff1362e1e4f0439a6bc2bb4c38ad3740c0692c34a3b1f62a9e9/contrastive_ne-0.3.6.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/70/43/76cd763dc67d3b9528544899f04d7b82af5079cd834dac58a848b1015bdf/dblcsgen-0.2.3.tar.gz
+[2024-04-23 11:52:58] INFO root fetch - processPackages [tabviz]: executing diffoscope
+[2024-04-23 11:52:58] INFO root fetch - processPackages [tabviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabviz-1.1.0.3.tar.gz tmp/tabviz-1.1.0.4.tar.gz --markdown 20240423/t/tabviz/1.1.0.3-1.1.0.4/README.md --exclude *.pyd
+[2024-04-23 11:52:58] INFO root fetch - processPackages [strledger]: executing diffoscope
+[2024-04-23 11:52:58] INFO root fetch - processPackages [strledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strledger-0.5.1.tar.gz tmp/strledger-0.6.0.tar.gz --markdown 20240423/s/strledger/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-23 11:52:58] INFO root fetch - processPackages [contrastive-ne]: executing diffoscope
+[2024-04-23 11:52:58] INFO root fetch - processPackages [contrastive-ne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contrastive_ne-0.3.5.tar.gz tmp/contrastive_ne-0.3.6.tar.gz --markdown 20240423/c/contrastive-ne/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-23 11:52:58] INFO root fetch - processPackages [dblcsgen]: executing diffoscope
+[2024-04-23 11:52:58] INFO root fetch - processPackages [dblcsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dblcsgen-0.2.2.dev1.tar.gz tmp/dblcsgen-0.2.3.tar.gz --markdown 20240423/d/dblcsgen/0.2.2.dev1-0.2.3/README.md --exclude *.pyd
+[2024-04-23 11:52:59] INFO root fetch - processPackages [dcor-control]: Remove: archive file [/home/abi/fetcher/tmp/dcor_control-0.9.4.tar.gz]
+[2024-04-23 11:52:59] INFO root fetch - processPackages [dcor-control]: Remove: archive file [/home/abi/fetcher/tmp/dcor_control-0.9.5.tar.gz]
+[2024-04-23 11:52:59] INFO root fetch - main [MainThread]: End processing [dcor-control]: success
+[2024-04-23 11:52:59] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404181339.tar.gz]
+[2024-04-23 11:52:59] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404230921.tar.gz]
+[2024-04-23 11:52:59] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-23 11:52:59] INFO root fetch - processPackages [tabviz]: Remove: archive file [/home/abi/fetcher/tmp/tabviz-1.1.0.3.tar.gz]
+[2024-04-23 11:52:59] INFO root fetch - processPackages [tabviz]: Remove: archive file [/home/abi/fetcher/tmp/tabviz-1.1.0.4.tar.gz]
+[2024-04-23 11:52:59] INFO root fetch - main [MainThread]: End processing [tabviz]: success
+[2024-04-23 11:52:59] INFO root fetch - processPackages [contrastive-ne]: Remove: archive file [/home/abi/fetcher/tmp/contrastive_ne-0.3.5.tar.gz]
+[2024-04-23 11:52:59] INFO root fetch - processPackages [contrastive-ne]: Remove: archive file [/home/abi/fetcher/tmp/contrastive_ne-0.3.6.tar.gz]
+[2024-04-23 11:52:59] INFO root fetch - main [MainThread]: End processing [contrastive-ne]: success
+[2024-04-23 11:52:59] INFO root fetch - processPackages [strledger]: Remove: archive file [/home/abi/fetcher/tmp/strledger-0.5.1.tar.gz]
+[2024-04-23 11:52:59] INFO root fetch - processPackages [strledger]: Remove: archive file [/home/abi/fetcher/tmp/strledger-0.6.0.tar.gz]
+[2024-04-23 11:52:59] INFO root fetch - main [MainThread]: End processing [strledger]: success
+[2024-04-23 11:52:59] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.2.dev1.tar.gz]
+[2024-04-23 11:52:59] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.3.tar.gz]
+[2024-04-23 11:52:59] INFO root fetch - main [MainThread]: End processing [dblcsgen]: success
+[2024-04-23 11:53:00] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.95.tar.gz]
+[2024-04-23 11:53:00] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.96.tar.gz]
+[2024-04-23 11:53:00] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-23 11:53:00] INFO root fetch - main [MainThread]: Store serial: [22892018]
