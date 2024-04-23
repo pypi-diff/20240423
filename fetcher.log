@@ -19549,3 +19549,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 13:27:26] INFO root fetch - processPackages [invenio-records-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-resources-5.6.0.tar.gz]
 [2024-04-23 13:27:26] INFO root fetch - main [MainThread]: End processing [invenio-records-resources]: success
 [2024-04-23 13:27:26] INFO root fetch - main [MainThread]: Store serial: [22892980]
+[2024-04-23 13:29:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892980]
+[2024-04-23 13:29:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-23 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypaq
+[2024-04-23 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hume
+[2024-04-23 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composio-core
+[2024-04-23 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiopegelonline
+[2024-04-23 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emm
+[2024-04-23 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-langchain
+[2024-04-23 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-crewai
+[2024-04-23 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-autogen
+[2024-04-23 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composio-lyzr
+[2024-04-23 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: freerec
+[2024-04-23 13:29:35] INFO root fetch - processPackages [hume]: New version: [0.5.0rc4] Old Version: [0.5.0rc3]
+[2024-04-23 13:29:35] INFO root fetch - processPackages [emm]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-23 13:29:35] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 13:29:35] INFO root fetch - processPackages [pypaq]: New version: [1.7.6] Old Version: [1.7.5]
+[2024-04-23 13:29:35] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 13:29:35] INFO root fetch - processPackages [aiopegelonline]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 13:29:35] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/b0/68/cd5c3e2846a710bee9ca38ad57611e33f0fd0295106cbd4943ab961035da/hume-0.5.0rc3.tar.gz
+[2024-04-23 13:29:35] INFO root fetch - processPackages [freerec]: New version: [0.8.1] Old Version: [0.7.5]
+[2024-04-23 13:29:35] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 13:29:35] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 13:29:35] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 13:29:35] INFO root fetch - processPackages [emm]: Downloading https://files.pythonhosted.org/packages/d6/8c/dbf9b33dfc97f1698241230261ff94e901cd60cc025daa5cc2d8fe42c96d/emm-2.1.0.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [pypaq]: Downloading https://files.pythonhosted.org/packages/3c/ff/3fe8da6eab6c078a65b9b58e40b15aa17e00a705ec5d78113c7b34f96b32/pypaq-1.7.5.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [aiopegelonline]: Downloading https://files.pythonhosted.org/packages/de/04/68e96fa60d90ec26dc3ec35382fb97c3d21c7f717d9779678aaaec4831e8/aiopegelonline-0.0.8-py3-none-any.whl
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [freerec]: Downloading https://files.pythonhosted.org/packages/1c/f2/c373eea1358498541839fca34035e794ecf3360f47530cd6fec25353dab4/freerec-0.7.5.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/fe/59/244409e7fa8f8c47dab37e3582d5faf7da7c01053cc6c080dadb93d4b36c/hume-0.5.0rc4.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [emm]: Downloading https://files.pythonhosted.org/packages/3b/f8/5f3f8c718a65b28b5fe0f91bcc66fbcba318e8191e769d845e1b2c6d3b01/emm-2.1.1.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [hume]: executing diffoscope
+[2024-04-23 13:29:36] INFO root fetch - processPackages [hume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hume-0.5.0rc3.tar.gz tmp/hume-0.5.0rc4.tar.gz --markdown 20240423/h/hume/0.5.0rc3-0.5.0rc4/README.md --exclude *.pyd
+[2024-04-23 13:29:36] INFO root fetch - processPackages [pypaq]: Downloading https://files.pythonhosted.org/packages/da/df/909b0a2c01e44660033eb09bbdc06248d20852a91b67be7cab12ccc6d9bd/pypaq-1.7.6.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [aiopegelonline]: Downloading https://files.pythonhosted.org/packages/88/73/84871dfb519fd75a4699a330237ca4c6c58904090925fc6838e134d43225/aiopegelonline-0.0.9-py3-none-any.whl
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [emm]: executing diffoscope
+[2024-04-23 13:29:36] INFO root fetch - processPackages [emm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emm-2.1.0.tar.gz tmp/emm-2.1.1.tar.gz --markdown 20240423/e/emm/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-23 13:29:36] INFO root fetch - processPackages [pypaq]: executing diffoscope
+[2024-04-23 13:29:36] INFO root fetch - processPackages [pypaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypaq-1.7.5.tar.gz tmp/pypaq-1.7.6.tar.gz --markdown 20240423/p/pypaq/1.7.5-1.7.6/README.md --exclude *.pyd
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240423/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 13:29:36] INFO root fetch - processPackages [freerec]: Downloading https://files.pythonhosted.org/packages/a2/86/499dcc7d09d7f6aef8f013b2e2643b8efd292715f06d79e4cc23312643c8/freerec-0.8.1.tar.gz
+[2024-04-23 13:29:36] INFO root fetch - processPackages [aiopegelonline]: executing diffoscope
+[2024-04-23 13:29:36] INFO root fetch - processPackages [aiopegelonline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopegelonline-0.0.8-py3-none-any.whl.zip tmp/aiopegelonline-0.0.9-py3-none-any.whl.zip --markdown 20240423/a/aiopegelonline/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240423/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240423/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240423/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-23 13:29:36] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240423/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 13:29:36] INFO root fetch - processPackages [freerec]: executing diffoscope
+[2024-04-23 13:29:36] INFO root fetch - processPackages [freerec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freerec-0.7.5.tar.gz tmp/freerec-0.8.1.tar.gz --markdown 20240423/f/freerec/0.7.5-0.8.1/README.md --exclude *.pyd
+[2024-04-23 13:29:37] INFO root fetch - processPackages [hume]: Remove: archive file [/home/abi/fetcher/tmp/hume-0.5.0rc3.tar.gz]
+[2024-04-23 13:29:37] INFO root fetch - processPackages [hume]: Remove: archive file [/home/abi/fetcher/tmp/hume-0.5.0rc4.tar.gz]
+[2024-04-23 13:29:37] INFO root fetch - processPackages [hume]: Start processing: few-shot-priming
+[2024-04-23 13:29:37] INFO root fetch - main [MainThread]: End processing [hume]: success
+[2024-04-23 13:29:37] INFO root fetch - processPackages [aiopegelonline]: Remove: archive file [/home/abi/fetcher/tmp/aiopegelonline-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 13:29:37] INFO root fetch - processPackages [aiopegelonline]: Remove: archive file [/home/abi/fetcher/tmp/aiopegelonline-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 13:29:37] INFO root fetch - main [MainThread]: End processing [aiopegelonline]: success
+[2024-04-23 13:29:37] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-23 13:29:37] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-23 13:29:37] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-04-23 13:29:37] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-23 13:29:38] INFO root fetch - processPackages [pypaq]: Remove: archive file [/home/abi/fetcher/tmp/pypaq-1.7.5.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - processPackages [pypaq]: Remove: archive file [/home/abi/fetcher/tmp/pypaq-1.7.6.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - main [MainThread]: End processing [pypaq]: success
+[2024-04-23 13:29:38] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-04-23 13:29:38] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-23 13:29:38] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-23 13:29:38] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-23 13:29:38] INFO root fetch - processPackages [freerec]: Remove: archive file [/home/abi/fetcher/tmp/freerec-0.7.5.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - processPackages [freerec]: Remove: archive file [/home/abi/fetcher/tmp/freerec-0.8.1.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - main [MainThread]: End processing [freerec]: success
+[2024-04-23 13:29:38] INFO root fetch - processPackages [emm]: Remove: archive file [/home/abi/fetcher/tmp/emm-2.1.0.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - processPackages [emm]: Remove: archive file [/home/abi/fetcher/tmp/emm-2.1.1.tar.gz]
+[2024-04-23 13:29:38] INFO root fetch - main [MainThread]: End processing [emm]: success
+[2024-04-23 13:29:38] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-23 13:29:38] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-23 13:29:38] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240423/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-23 13:29:39] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-23 13:29:39] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-23 13:29:39] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-23 13:29:39] INFO root fetch - main [MainThread]: Store serial: [22893023]
