@@ -11612,3 +11612,88 @@
 [2024-04-23 08:12:52] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
 [2024-04-23 08:12:52] INFO root fetch - main [MainThread]: End processing [fireducks]: success
 [2024-04-23 08:12:52] INFO root fetch - main [MainThread]: Store serial: [22889609]
+[2024-04-23 08:15:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889609]
+[2024-04-23 08:15:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-23 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazyad
+[2024-04-23 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chargespot
+[2024-04-23 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2024-04-23 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: echo-endpoints
+[2024-04-23 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liveramp-automation
+[2024-04-23 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jcalapi
+[2024-04-23 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-picking-batch-packaging-qty
+[2024-04-23 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: echo-endpoints
+[2024-04-23 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sunholo
+[2024-04-23 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: placeholder-img
+[2024-04-23 08:15:16] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 08:15:16] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-23 08:15:16] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240422] Old Version: [2.6.0.dev20240421]
+[2024-04-23 08:15:16] INFO root fetch - processPackages [liveramp-automation]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-04-23 08:15:16] INFO root fetch - processPackages [jcalapi]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-23 08:15:16] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-23 08:15:16] WARNING root fetch - processPackages [chargespot]: Skipping, unable to determine old version
+[2024-04-23 08:15:16] INFO root fetch - main [MainThread]: End processing [chargespot] error
+[2024-04-23 08:15:16] INFO root fetch - processPackages [echo-endpoints]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 08:15:16] INFO root fetch - processPackages [echo-endpoints]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 08:15:16] INFO root fetch - processPackages [placeholder-img]: New version: [0.3] Old Version: [0.2]
+[2024-04-23 08:15:16] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-packaging-qty]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2024-04-23 08:15:16] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-23 08:15:16] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/bd/55/49264dc5db88ed22b382098fc309dbdd8c6ab30a3b0ed86c0a2fd3365478/pyg_nightly-2.6.0.dev20240421.tar.gz
+[2024-04-23 08:15:16] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/b6/13/79f97f494b738626d4b186602e03ce957b7213e5ee3a1be68f2d8dfb8fd0/liveramp_automation-1.3.6.tar.gz
+[2024-04-23 08:15:16] INFO root fetch - processPackages [echo-endpoints]: Downloading https://files.pythonhosted.org/packages/90/aa/fd96f2418c7a7a513f34665cef550846df4550b4130a0c3fc0da8bd60c3f/echo_endpoints-0.0.1-py3-none-any.whl
+[2024-04-23 08:15:16] INFO root fetch - processPackages [echo-endpoints]: Downloading https://files.pythonhosted.org/packages/90/aa/fd96f2418c7a7a513f34665cef550846df4550b4130a0c3fc0da8bd60c3f/echo_endpoints-0.0.1-py3-none-any.whl
+[2024-04-23 08:15:16] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-packaging-qty]: Downloading https://files.pythonhosted.org/packages/27/4d/1a552c2449c956033c29a2761cc250fbaa3db3c13a5af19efc77658a6595/odoo_addon_stock_picking_batch_packaging_qty-16.0.1.0.1-py3-none-any.whl
+[2024-04-23 08:15:16] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-23 08:15:16] INFO root fetch - processPackages [jcalapi]: Downloading https://files.pythonhosted.org/packages/d5/f3/f7234e5da1fdd258d8ccb3f1e87bddb62871edbe7391aa9f917debd0f9fa/jcalapi-0.1.5.tar.gz
+[2024-04-23 08:15:16] INFO root fetch - processPackages [placeholder-img]: Downloading https://files.pythonhosted.org/packages/91/0f/17d44e56998721b0d0f7c7ec416242cc798ec2ec4eb22cd4c1cb189eb051/placeholder_img-0.2.tar.gz
+[2024-04-23 08:15:16] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-23 08:15:17] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-23 08:15:17] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240423/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 08:15:17] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-23 08:15:17] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240423/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-23 08:15:17] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/1e/57/b0daf7144f8d622236b0b2d3262742e27531e9350a080347c66a5e1dc505/liveramp_automation-1.3.7.tar.gz
+[2024-04-23 08:15:17] INFO root fetch - processPackages [echo-endpoints]: Downloading https://files.pythonhosted.org/packages/a8/d0/b0556017858d3f170c20b2671cda6426867a035a85cafbc7f320b268c8a7/echo_endpoints-0.0.2.tar.gz
+[2024-04-23 08:15:17] INFO root fetch - processPackages [echo-endpoints]: Downloading https://files.pythonhosted.org/packages/a8/d0/b0556017858d3f170c20b2671cda6426867a035a85cafbc7f320b268c8a7/echo_endpoints-0.0.2.tar.gz
+[2024-04-23 08:15:17] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/7c/85/418d01c7b7528ff67976d9f5415a8339eea452e695fd44cb8a90dad6fe59/pyg_nightly-2.6.0.dev20240422.tar.gz
+[2024-04-23 08:15:17] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-packaging-qty]: Downloading https://files.pythonhosted.org/packages/69/09/383651a4eb29d043d0db75bafc9089d29dcfa1afaa490a5086289055a8dc/odoo_addon_stock_picking_batch_packaging_qty-16.0.1.0.1.2-py3-none-any.whl
+[2024-04-23 08:15:17] INFO root fetch - processPackages [jcalapi]: Downloading https://files.pythonhosted.org/packages/76/e5/57e8f7b9706127d8e29f64416508c2af1813a790beef79dc08a29a5a82c3/jcalapi-0.1.6.tar.gz
+[2024-04-23 08:15:17] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2024-04-23 08:15:17] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-1.3.6.tar.gz tmp/liveramp_automation-1.3.7.tar.gz --markdown 20240423/l/liveramp-automation/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-04-23 08:15:17] INFO root fetch - processPackages [echo-endpoints]: executing diffoscope
+[2024-04-23 08:15:17] INFO root fetch - processPackages [echo-endpoints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echo_endpoints-0.0.1-py3-none-any.whl.zip tmp/echo_endpoints-0.0.2.tar.gz --markdown 20240423/e/echo-endpoints/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 08:15:17] INFO root fetch - processPackages [echo-endpoints]: executing diffoscope
+[2024-04-23 08:15:17] INFO root fetch - processPackages [echo-endpoints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echo_endpoints-0.0.1-py3-none-any.whl.zip tmp/echo_endpoints-0.0.2.tar.gz --markdown 20240423/e/echo-endpoints/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 08:15:17] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-packaging-qty]: executing diffoscope
+[2024-04-23 08:15:17] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-packaging-qty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_batch_packaging_qty-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_batch_packaging_qty-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-stock-picking-batch-packaging-qty/16.0.1.0.1-16.0.1.0.1.2/README.md --exclude *.pyd
+[2024-04-23 08:15:17] INFO root fetch - processPackages [jcalapi]: executing diffoscope
+[2024-04-23 08:15:17] INFO root fetch - processPackages [jcalapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcalapi-0.1.5.tar.gz tmp/jcalapi-0.1.6.tar.gz --markdown 20240423/j/jcalapi/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-23 08:15:17] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-23 08:15:17] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240421.tar.gz tmp/pyg_nightly-2.6.0.dev20240422.tar.gz --markdown 20240423/p/pyg-nightly/2.6.0.dev20240421-2.6.0.dev20240422/README.md --exclude *.pyd
+[2024-04-23 08:15:17] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-23 08:15:17] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-23 08:15:17] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-23 08:15:18] INFO root fetch - processPackages [echo-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/echo_endpoints-0.0.1-py3-none-any.whl.zip]
+[2024-04-23 08:15:18] INFO root fetch - processPackages [echo-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/echo_endpoints-0.0.2.tar.gz]
+[2024-04-23 08:15:18] INFO root fetch - main [MainThread]: End processing [echo-endpoints]: success
+[2024-04-23 08:15:18] INFO root fetch - main [MainThread]: End processing [echo-endpoints]: success
+[2024-04-23 08:15:18] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-23 08:15:18] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-23 08:15:18] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-23 08:15:18] INFO root fetch - processPackages [jcalapi]: Remove: archive file [/home/abi/fetcher/tmp/jcalapi-0.1.5.tar.gz]
+[2024-04-23 08:15:18] INFO root fetch - processPackages [jcalapi]: Remove: archive file [/home/abi/fetcher/tmp/jcalapi-0.1.6.tar.gz]
+[2024-04-23 08:15:18] INFO root fetch - main [MainThread]: End processing [jcalapi]: success
+[2024-04-23 08:15:18] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-packaging-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_batch_packaging_qty-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-23 08:15:18] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-packaging-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_batch_packaging_qty-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-04-23 08:15:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-batch-packaging-qty]: success
+[2024-04-23 08:15:18] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.3.6.tar.gz]
+[2024-04-23 08:15:18] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.3.7.tar.gz]
+[2024-04-23 08:15:18] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2024-04-23 08:15:18] INFO root fetch - processPackages [placeholder-img]: Downloading https://files.pythonhosted.org/packages/00/e3/c162fc9a28d8f147821f5162e0878a5bea24650b49aab464c8ed1259c62e/placeholder_img-0.3.tar.gz
+[2024-04-23 08:15:19] INFO root fetch - processPackages [placeholder-img]: executing diffoscope
+[2024-04-23 08:15:19] INFO root fetch - processPackages [placeholder-img]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/placeholder_img-0.2.tar.gz tmp/placeholder_img-0.3.tar.gz --markdown 20240423/p/placeholder-img/0.2-0.3/README.md --exclude *.pyd
+[2024-04-23 08:15:20] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240421.tar.gz]
+[2024-04-23 08:15:20] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240422.tar.gz]
+[2024-04-23 08:15:20] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-23 08:15:20] INFO root fetch - processPackages [placeholder-img]: Remove: archive file [/home/abi/fetcher/tmp/placeholder_img-0.2.tar.gz]
+[2024-04-23 08:15:20] INFO root fetch - processPackages [placeholder-img]: Remove: archive file [/home/abi/fetcher/tmp/placeholder_img-0.3.tar.gz]
+[2024-04-23 08:15:20] INFO root fetch - main [MainThread]: End processing [placeholder-img]: success
+[2024-04-23 08:15:20] INFO root fetch - main [MainThread]: Store serial: [22889642]
