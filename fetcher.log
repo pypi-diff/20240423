@@ -18612,3 +18612,84 @@
 [2024-04-23 12:54:18] INFO root fetch - processPackages [lxdbapi]: Remove: archive file [/home/abi/fetcher/tmp/lxdbapi-2.3.202404051040.tar.gz]
 [2024-04-23 12:54:18] INFO root fetch - main [MainThread]: End processing [lxdbapi]: success
 [2024-04-23 12:54:18] INFO root fetch - main [MainThread]: Store serial: [22892561]
+[2024-04-23 12:56:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892561]
+[2024-04-23 12:56:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-23 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-gatewayx
+[2024-04-23 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LbAdmin
+[2024-04-23 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: variPEPS
+[2024-04-23 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SilverStreamingApplicationPoC
+[2024-04-23 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chanjo2
+[2024-04-23 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple-rule34
+[2024-04-23 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crawlnet
+[2024-04-23 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: r8format
+[2024-04-23 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chatllm
+[2024-04-23 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hume
+[2024-04-23 12:56:27] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 12:56:27] INFO root fetch - processPackages [hume]: New version: [0.5.0rc3] Old Version: [0.5.0rc2]
+[2024-04-23 12:56:27] INFO root fetch - processPackages [simple-rule34]: New version: [0.1.5.4] Old Version: [0.1.5.3]
+[2024-04-23 12:56:27] WARNING root fetch - processPackages [r8format]: Skipping, unable to determine old version
+[2024-04-23 12:56:27] INFO root fetch - main [MainThread]: End processing [r8format] error
+[2024-04-23 12:56:27] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.23.9.47.34]
+[2024-04-23 12:56:27] INFO root fetch - processPackages [antchain-gatewayx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 12:56:27] INFO root fetch - processPackages [LbAdmin]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 12:56:27] INFO root fetch - processPackages [variPEPS]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-23 12:56:27] INFO root fetch - processPackages [chanjo2]: New version: [1.6.0] Old Version: [1.5.1]
+[2024-04-23 12:56:27] WARNING root fetch - processPackages [crawlnet]: Skipping, unable to determine old version
+[2024-04-23 12:56:27] INFO root fetch - main [MainThread]: End processing [crawlnet] error
+[2024-04-23 12:56:27] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-23 12:56:27] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/93/0a/ca3ba07bec420029cf32ebc0b5d10289fcf855cc4c169ac18b7e2ac6d9e1/hume-0.5.0rc2.tar.gz
+[2024-04-23 12:56:27] INFO root fetch - processPackages [simple-rule34]: Downloading https://files.pythonhosted.org/packages/e6/12/dda3c9a8114eaf3d7bcc366e1693c069e61c8f20f96dc9a9523555d7bced/simple_rule34-0.1.5.3.tar.gz
+[2024-04-23 12:56:27] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/97/6d/dc66a8f48453cfaa486b94d6cbee1872a1cddfe8854c71262644fc951a5b/chatllm-2024.4.23.9.47.34.tar.gz
+[2024-04-23 12:56:28] INFO root fetch - processPackages [antchain-gatewayx]: Downloading https://files.pythonhosted.org/packages/73/3c/5fc72b1764e4b98512ddac28c0fa235b49c7000b7f782d6d059afc40f756/antchain_gatewayx-1.0.8.tar.gz
+[2024-04-23 12:56:28] INFO root fetch - processPackages [chanjo2]: Downloading https://files.pythonhosted.org/packages/ed/90/295f17ccd1784aebff598780bbe4b41b42cbcc3abe8a64c99c9c7e089057/chanjo2-1.5.1.tar.gz
+[2024-04-23 12:56:28] INFO root fetch - processPackages [variPEPS]: Downloading https://files.pythonhosted.org/packages/79/d8/6119d6eebd3846feaafe55bb1a650a0857869951b4efc6e2725e80393ee2/varipeps-0.5.4.tar.gz
+[2024-04-23 12:56:28] INFO root fetch - processPackages [LbAdmin]: Downloading https://files.pythonhosted.org/packages/b9/16/8782aa5dfdc97b864b5267418582e4b3c858e6d8a7bc15682f68ff426191/LbAdmin-0.0.8.tar.gz
+[2024-04-23 12:56:28] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/b0/68/cd5c3e2846a710bee9ca38ad57611e33f0fd0295106cbd4943ab961035da/hume-0.5.0rc3.tar.gz
+[2024-04-23 12:56:28] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-23 12:56:28] INFO root fetch - processPackages [simple-rule34]: Downloading https://files.pythonhosted.org/packages/c3/b0/08718f6d56d75615f44706b1e0b82ad651267ac297cc5277c9b8b752327e/simple_rule34-0.1.5.4.tar.gz
+[2024-04-23 12:56:28] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-23 12:56:28] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-23 12:56:28] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240423/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-23 12:56:28] INFO root fetch - processPackages [hume]: executing diffoscope
+[2024-04-23 12:56:28] INFO root fetch - processPackages [hume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hume-0.5.0rc2.tar.gz tmp/hume-0.5.0rc3.tar.gz --markdown 20240423/h/hume/0.5.0rc2-0.5.0rc3/README.md --exclude *.pyd
+[2024-04-23 12:56:28] INFO root fetch - processPackages [simple-rule34]: executing diffoscope
+[2024-04-23 12:56:28] INFO root fetch - processPackages [simple-rule34]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_rule34-0.1.5.3.tar.gz tmp/simple_rule34-0.1.5.4.tar.gz --markdown 20240423/s/simple-rule34/0.1.5.3-0.1.5.4/README.md --exclude *.pyd
+[2024-04-23 12:56:28] INFO root fetch - processPackages [antchain-gatewayx]: Downloading https://files.pythonhosted.org/packages/0f/13/fce32d025a741a1103765739ec10065bd7b30ff9f3cbd921271dd656116b/antchain_gatewayx-1.0.9.tar.gz
+[2024-04-23 12:56:28] INFO root fetch - processPackages [chanjo2]: Downloading https://files.pythonhosted.org/packages/27/19/e58ea7b1b55fa61a0e0d4a63f31719382384bd7b49a2a399457a33fddfe9/chanjo2-1.6.0.tar.gz
+[2024-04-23 12:56:28] INFO root fetch - processPackages [variPEPS]: Downloading https://files.pythonhosted.org/packages/bd/53/30321c21e8b610c6bcee3324bf1ab905a0fddf14d81ba6ae9267ca2b228f/varipeps-0.5.5.tar.gz
+[2024-04-23 12:56:28] INFO root fetch - processPackages [antchain-gatewayx]: executing diffoscope
+[2024-04-23 12:56:28] INFO root fetch - processPackages [antchain-gatewayx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_gatewayx-1.0.8.tar.gz tmp/antchain_gatewayx-1.0.9.tar.gz --markdown 20240423/a/antchain-gatewayx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-23 12:56:28] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-23 12:56:28] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.23.9.47.34.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240423/c/chatllm/2024.4.23.9.47.34-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-23 12:56:28] INFO root fetch - processPackages [chanjo2]: executing diffoscope
+[2024-04-23 12:56:28] INFO root fetch - processPackages [chanjo2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanjo2-1.5.1.tar.gz tmp/chanjo2-1.6.0.tar.gz --markdown 20240423/c/chanjo2/1.5.1-1.6.0/README.md --exclude *.pyd
+[2024-04-23 12:56:28] INFO root fetch - processPackages [LbAdmin]: Downloading https://files.pythonhosted.org/packages/36/64/3f22996813d1037bf125d32b0070e842d7e2bf2d343b0008b4dac4a32a6e/LbAdmin-0.0.9.tar.gz
+[2024-04-23 12:56:28] INFO root fetch - processPackages [variPEPS]: executing diffoscope
+[2024-04-23 12:56:28] INFO root fetch - processPackages [variPEPS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varipeps-0.5.4.tar.gz tmp/varipeps-0.5.5.tar.gz --markdown 20240423/v/variPEPS/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-04-23 12:56:28] INFO root fetch - processPackages [LbAdmin]: executing diffoscope
+[2024-04-23 12:56:28] INFO root fetch - processPackages [LbAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbAdmin-0.0.8.tar.gz tmp/LbAdmin-0.0.9.tar.gz --markdown 20240423/L/LbAdmin/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 12:56:29] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-23 12:56:29] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-23 12:56:29] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-23 12:56:29] INFO root fetch - processPackages [simple-rule34]: Remove: archive file [/home/abi/fetcher/tmp/simple_rule34-0.1.5.3.tar.gz]
+[2024-04-23 12:56:29] INFO root fetch - processPackages [simple-rule34]: Remove: archive file [/home/abi/fetcher/tmp/simple_rule34-0.1.5.4.tar.gz]
+[2024-04-23 12:56:29] INFO root fetch - main [MainThread]: End processing [simple-rule34]: success
+[2024-04-23 12:56:29] INFO root fetch - processPackages [hume]: Remove: archive file [/home/abi/fetcher/tmp/hume-0.5.0rc2.tar.gz]
+[2024-04-23 12:56:29] INFO root fetch - processPackages [hume]: Remove: archive file [/home/abi/fetcher/tmp/hume-0.5.0rc3.tar.gz]
+[2024-04-23 12:56:29] INFO root fetch - main [MainThread]: End processing [hume]: success
+[2024-04-23 12:56:29] INFO root fetch - processPackages [antchain-gatewayx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_gatewayx-1.0.8.tar.gz]
+[2024-04-23 12:56:29] INFO root fetch - processPackages [antchain-gatewayx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_gatewayx-1.0.9.tar.gz]
+[2024-04-23 12:56:29] INFO root fetch - main [MainThread]: End processing [antchain-gatewayx]: success
+[2024-04-23 12:56:29] INFO root fetch - processPackages [LbAdmin]: Remove: archive file [/home/abi/fetcher/tmp/LbAdmin-0.0.8.tar.gz]
+[2024-04-23 12:56:29] INFO root fetch - processPackages [LbAdmin]: Remove: archive file [/home/abi/fetcher/tmp/LbAdmin-0.0.9.tar.gz]
+[2024-04-23 12:56:29] INFO root fetch - main [MainThread]: End processing [LbAdmin]: success
+[2024-04-23 12:56:29] INFO root fetch - processPackages [variPEPS]: Remove: archive file [/home/abi/fetcher/tmp/varipeps-0.5.4.tar.gz]
+[2024-04-23 12:56:29] INFO root fetch - processPackages [variPEPS]: Remove: archive file [/home/abi/fetcher/tmp/varipeps-0.5.5.tar.gz]
+[2024-04-23 12:56:29] INFO root fetch - main [MainThread]: End processing [variPEPS]: success
+[2024-04-23 12:56:29] INFO root fetch - processPackages [chanjo2]: Remove: archive file [/home/abi/fetcher/tmp/chanjo2-1.5.1.tar.gz]
+[2024-04-23 12:56:29] INFO root fetch - processPackages [chanjo2]: Remove: archive file [/home/abi/fetcher/tmp/chanjo2-1.6.0.tar.gz]
+[2024-04-23 12:56:29] INFO root fetch - main [MainThread]: End processing [chanjo2]: success
+[2024-04-23 12:56:30] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.23.9.47.34.tar.gz]
+[2024-04-23 12:56:30] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-23 12:56:30] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-23 12:56:30] INFO root fetch - main [MainThread]: Store serial: [22892593]
