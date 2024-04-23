@@ -21408,3 +21408,59 @@ EOFError: EOF read where object expected
 [2024-04-23 14:30:31] INFO root fetch - processPackages [RsWaveform]: Remove: archive file [/home/abi/fetcher/tmp/rswaveform-0.3.0.tar.gz]
 [2024-04-23 14:30:31] INFO root fetch - main [MainThread]: End processing [RsWaveform]: success
 [2024-04-23 14:30:31] INFO root fetch - main [MainThread]: Store serial: [22893755]
+[2024-04-23 14:32:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893755]
+[2024-04-23 14:32:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-23 14:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecv-python-development
+[2024-04-23 14:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eoshep
+[2024-04-23 14:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fmtr
+[2024-04-23 14:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zonesmart-utils-fork
+[2024-04-23 14:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TreeSAK
+[2024-04-23 14:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlsauce
+[2024-04-23 14:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sunholo
+[2024-04-23 14:32:40] INFO root fetch - processPackages [zonesmart-utils-fork]: New version: [0.5.9.9] Old Version: [0.5.9.8]
+[2024-04-23 14:32:40] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-23 14:32:40] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-23 14:32:40] WARNING root fetch - processPackages [fmtr]: Skipping, unable to determine old version
+[2024-04-23 14:32:40] INFO root fetch - main [MainThread]: End processing [fmtr] error
+[2024-04-23 14:32:40] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/1f/3c/039c94473127564e1d61c86469dc142a7a89988f07bba21541fea00682d5/zonesmart-utils-fork-0.5.9.8.tar.gz
+[2024-04-23 14:32:40] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:32:40] INFO root fetch - processPackages [mlsauce]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-23 14:32:40] INFO root fetch - processPackages [eoshep]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-23 14:32:40] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-04-23 14:32:40] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-23 14:32:40] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/1a/0b/57f1b4e7808f0e68005e3460c3b2e28d121224116313e32caff0da5d477c/ecv-python-development-0.0.8.tar.gz
+[2024-04-23 14:32:40] INFO root fetch - processPackages [eoshep]: Downloading https://files.pythonhosted.org/packages/7b/d9/a701150c24fdeae82c37e576abc1b3aa363c64fe68dce6006e0ad490b9aa/eoshep-1.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-23 14:32:40] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/09/f7/2b520a477f7710396348e4b9d582826758d5b083fe9b79613abe9c1435dd/mlsauce-0.9.0.tar.gz
+[2024-04-23 14:32:40] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/c7/9f/2ff32de4eacc484eb5a9007534d13156a1b1a1a9c62233775741db20c020/zonesmart-utils-fork-0.5.9.9.tar.gz
+[2024-04-23 14:32:40] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-23 14:32:40] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-04-23 14:32:40] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/1e/40/7f623022bae0ebc2f5beb167e8175b1dad049a8b27764e6859798786fdb2/ecv-python-development-0.0.9.tar.gz
+[2024-04-23 14:32:40] WARNING root fetch - processPackages [eoshep]: Skipping package: exceeds size limit 78897637>=10485760
+[2024-04-23 14:32:40] INFO root fetch - main [MainThread]: End processing [eoshep] error
+[2024-04-23 14:32:40] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-23 14:32:40] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240423/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-23 14:32:40] INFO root fetch - processPackages [zonesmart-utils-fork]: executing diffoscope
+[2024-04-23 14:32:40] INFO root fetch - processPackages [zonesmart-utils-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-fork-0.5.9.8.tar.gz tmp/zonesmart-utils-fork-0.5.9.9.tar.gz --markdown 20240423/z/zonesmart-utils-fork/0.5.9.8-0.5.9.9/README.md --exclude *.pyd
+[2024-04-23 14:32:40] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-23 14:32:40] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.8.tar.gz tmp/ecv-python-development-0.0.9.tar.gz --markdown 20240423/e/ecv-python-development/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:32:41] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-04-23 14:32:41] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240423/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-23 14:32:41] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/34/94/ecad26410f10cd9ffb719f2bc235ed21c44541226f01a963cd37706f4b37/mlsauce-0.9.1.tar.gz
+[2024-04-23 14:32:41] INFO root fetch - processPackages [mlsauce]: executing diffoscope
+[2024-04-23 14:32:41] INFO root fetch - processPackages [mlsauce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsauce-0.9.0.tar.gz tmp/mlsauce-0.9.1.tar.gz --markdown 20240423/m/mlsauce/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-23 14:32:41] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-04-23 14:32:41] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-04-23 14:32:41] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-04-23 14:32:42] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.8.tar.gz]
+[2024-04-23 14:32:42] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.9.tar.gz]
+[2024-04-23 14:32:42] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-23 14:32:42] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-23 14:32:42] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-23 14:32:42] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-23 14:32:42] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.0.tar.gz]
+[2024-04-23 14:32:42] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.1.tar.gz]
+[2024-04-23 14:32:42] INFO root fetch - main [MainThread]: End processing [mlsauce]: success
+[2024-04-23 14:32:42] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.8.tar.gz]
+[2024-04-23 14:32:42] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.9.tar.gz]
+[2024-04-23 14:32:42] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
+[2024-04-23 14:32:42] INFO root fetch - main [MainThread]: Store serial: [22893782]
