@@ -18069,3 +18069,47 @@
 [2024-04-23 12:30:15] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.9.tar.gz]
 [2024-04-23 12:30:15] INFO root fetch - main [MainThread]: End processing [kk]: success
 [2024-04-23 12:30:15] INFO root fetch - main [MainThread]: Store serial: [22892372]
+[2024-04-23 12:32:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892372]
+[2024-04-23 12:32:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-04-23 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lense
+[2024-04-23 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polartoolkit
+[2024-04-23 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crlfi
+[2024-04-23 12:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codex-of-the-damned
+[2024-04-23 12:32:24] INFO root fetch - processPackages [crlfi]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-23 12:32:24] INFO root fetch - processPackages [polartoolkit]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-23 12:32:24] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 12:32:24] INFO root fetch - processPackages [codex-of-the-damned]: New version: [1.9] Old Version: [1.8]
+[2024-04-23 12:32:24] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.23.9.47.34]
+[2024-04-23 12:32:24] INFO root fetch - processPackages [crlfi]: Downloading https://files.pythonhosted.org/packages/55/e6/d625b93657e5ee417f207f5d3e64878401268dc0af296d34203842476fdb/crlfi-0.0.2.tar.gz
+[2024-04-23 12:32:24] INFO root fetch - processPackages [polartoolkit]: Downloading https://files.pythonhosted.org/packages/22/19/39c8aa166a7815ee84f6682478f7e294dd5491b300f2d5e953a6597ed78d/polartoolkit-0.3.1.tar.gz
+[2024-04-23 12:32:24] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-23 12:32:24] INFO root fetch - processPackages [codex-of-the-damned]: Downloading https://files.pythonhosted.org/packages/c2/11/df884619fc13a601b050cb3e01ceb86181c35a4ee94f824c8544d07562f3/codex-of-the-damned-1.8.tar.gz
+[2024-04-23 12:32:24] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/97/6d/dc66a8f48453cfaa486b94d6cbee1872a1cddfe8854c71262644fc951a5b/chatllm-2024.4.23.9.47.34.tar.gz
+[2024-04-23 12:32:24] WARNING root fetch - processPackages [codex-of-the-damned]: Skipping package: exceeds size limit 17715792>=10485760
+[2024-04-23 12:32:24] INFO root fetch - main [MainThread]: End processing [codex-of-the-damned] error
+[2024-04-23 12:32:24] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-23 12:32:24] INFO root fetch - processPackages [polartoolkit]: Downloading https://files.pythonhosted.org/packages/f8/f9/b9748faf5a857d91ac08d4ba05bf6ed0d87ff6bad686fcc52597c43996da/polartoolkit-0.3.2.tar.gz
+[2024-04-23 12:32:24] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-23 12:32:24] INFO root fetch - processPackages [crlfi]: Downloading https://files.pythonhosted.org/packages/4a/3d/6ab330edddb3d80ec74fdfe8f3942bd668ec6e33387e89513ad73ca0b57f/crlfi-0.0.3.tar.gz
+[2024-04-23 12:32:24] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-23 12:32:24] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240423/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 12:32:24] INFO root fetch - processPackages [polartoolkit]: executing diffoscope
+[2024-04-23 12:32:24] INFO root fetch - processPackages [polartoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polartoolkit-0.3.1.tar.gz tmp/polartoolkit-0.3.2.tar.gz --markdown 20240423/p/polartoolkit/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-23 12:32:25] INFO root fetch - processPackages [crlfi]: executing diffoscope
+[2024-04-23 12:32:25] INFO root fetch - processPackages [crlfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crlfi-0.0.2.tar.gz tmp/crlfi-0.0.3.tar.gz --markdown 20240423/c/crlfi/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-23 12:32:25] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-23 12:32:25] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.23.9.47.34.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240423/c/chatllm/2024.4.23.9.47.34-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-23 12:32:25] INFO root fetch - processPackages [polartoolkit]: Remove: archive file [/home/abi/fetcher/tmp/polartoolkit-0.3.1.tar.gz]
+[2024-04-23 12:32:25] INFO root fetch - processPackages [polartoolkit]: Remove: archive file [/home/abi/fetcher/tmp/polartoolkit-0.3.2.tar.gz]
+[2024-04-23 12:32:25] INFO root fetch - main [MainThread]: End processing [polartoolkit]: success
+[2024-04-23 12:32:25] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-23 12:32:25] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-23 12:32:25] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-23 12:32:25] INFO root fetch - processPackages [crlfi]: Remove: archive file [/home/abi/fetcher/tmp/crlfi-0.0.2.tar.gz]
+[2024-04-23 12:32:25] INFO root fetch - processPackages [crlfi]: Remove: archive file [/home/abi/fetcher/tmp/crlfi-0.0.3.tar.gz]
+[2024-04-23 12:32:25] INFO root fetch - main [MainThread]: End processing [crlfi]: success
+[2024-04-23 12:32:26] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.23.9.47.34.tar.gz]
+[2024-04-23 12:32:26] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-23 12:32:26] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-23 12:32:26] INFO root fetch - main [MainThread]: Store serial: [22892384]
