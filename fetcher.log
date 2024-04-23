@@ -8267,3 +8267,31 @@
 [2024-04-23 04:32:50] INFO root fetch - processPackages [linker-atom]: Remove: archive file [/home/abi/fetcher/tmp/linker_atom-0.0.36.tar.gz]
 [2024-04-23 04:32:50] INFO root fetch - main [MainThread]: End processing [linker-atom]: success
 [2024-04-23 04:32:50] INFO root fetch - main [MainThread]: Store serial: [22888209]
+[2024-04-23 04:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888209]
+[2024-04-23 04:34:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LiteEFG
+[2024-04-23 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LiteEFG
+[2024-04-23 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mvesuvio
+[2024-04-23 04:34:59] INFO root fetch - processPackages [LiteEFG]: New version: [0.0.5] Old Version: [0.0.2]
+[2024-04-23 04:34:59] INFO root fetch - processPackages [LiteEFG]: New version: [0.0.5] Old Version: [0.0.2]
+[2024-04-23 04:34:59] INFO root fetch - processPackages [mvesuvio]: New version: [0.0.0.dev183] Old Version: [0.0.0.dev181]
+[2024-04-23 04:34:59] INFO root fetch - processPackages [LiteEFG]: Downloading https://files.pythonhosted.org/packages/c1/d0/f53fa12671c2973f3f7bd55a93b1f59b55bdca2933fcf096315d0e49e987/LiteEFG-0.0.2.tar.gz
+[2024-04-23 04:34:59] INFO root fetch - processPackages [LiteEFG]: Downloading https://files.pythonhosted.org/packages/c1/d0/f53fa12671c2973f3f7bd55a93b1f59b55bdca2933fcf096315d0e49e987/LiteEFG-0.0.2.tar.gz
+[2024-04-23 04:34:59] INFO root fetch - processPackages [mvesuvio]: Downloading https://files.pythonhosted.org/packages/3d/4a/892bfcae14c38c273b5e8721c89cb552b6d9ac33bacb164d7beabab9bf8e/mvesuvio-0.0.0.dev181.tar.gz
+[2024-04-23 04:34:59] INFO root fetch - processPackages [mvesuvio]: Downloading https://files.pythonhosted.org/packages/b8/08/262c910b7ef0e77299660f56266fea2479c58f71b39c7e30253042876324/mvesuvio-0.0.0.dev183.tar.gz
+[2024-04-23 04:34:59] INFO root fetch - processPackages [LiteEFG]: Downloading https://files.pythonhosted.org/packages/ed/19/73a477eab9ea536531409f5b4d1bd29aee51a781d6c9115ff588c21843af/LiteEFG-0.0.5.tar.gz
+[2024-04-23 04:34:59] INFO root fetch - processPackages [LiteEFG]: Downloading https://files.pythonhosted.org/packages/ed/19/73a477eab9ea536531409f5b4d1bd29aee51a781d6c9115ff588c21843af/LiteEFG-0.0.5.tar.gz
+[2024-04-23 04:35:00] INFO root fetch - processPackages [mvesuvio]: executing diffoscope
+[2024-04-23 04:35:00] INFO root fetch - processPackages [mvesuvio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvesuvio-0.0.0.dev181.tar.gz tmp/mvesuvio-0.0.0.dev183.tar.gz --markdown 20240423/m/mvesuvio/0.0.0.dev181-0.0.0.dev183/README.md --exclude *.pyd
+[2024-04-23 04:35:00] INFO root fetch - processPackages [mvesuvio]: Remove: archive file [/home/abi/fetcher/tmp/mvesuvio-0.0.0.dev181.tar.gz]
+[2024-04-23 04:35:00] INFO root fetch - processPackages [mvesuvio]: Remove: archive file [/home/abi/fetcher/tmp/mvesuvio-0.0.0.dev183.tar.gz]
+[2024-04-23 04:35:00] INFO root fetch - main [MainThread]: End processing [mvesuvio]: success
+[2024-04-23 04:35:01] INFO root fetch - processPackages [LiteEFG]: executing diffoscope
+[2024-04-23 04:35:01] INFO root fetch - processPackages [LiteEFG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LiteEFG-0.0.2.tar.gz tmp/LiteEFG-0.0.5.tar.gz --markdown 20240423/L/LiteEFG/0.0.2-0.0.5/README.md --exclude *.pyd
+[2024-04-23 04:35:01] INFO root fetch - processPackages [LiteEFG]: executing diffoscope
+[2024-04-23 04:35:01] INFO root fetch - processPackages [LiteEFG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LiteEFG-0.0.2.tar.gz tmp/LiteEFG-0.0.5.tar.gz --markdown 20240423/L/LiteEFG/0.0.2-0.0.5/README.md --exclude *.pyd
+[2024-04-23 04:35:04] INFO root fetch - processPackages [LiteEFG]: Remove: archive file [/home/abi/fetcher/tmp/LiteEFG-0.0.2.tar.gz]
+[2024-04-23 04:35:04] INFO root fetch - processPackages [LiteEFG]: Remove: archive file [/home/abi/fetcher/tmp/LiteEFG-0.0.5.tar.gz]
+[2024-04-23 04:35:04] INFO root fetch - main [MainThread]: End processing [LiteEFG]: success
+[2024-04-23 04:35:04] INFO root fetch - main [MainThread]: End processing [LiteEFG]: success
+[2024-04-23 04:35:04] INFO root fetch - main [MainThread]: Store serial: [22888214]
