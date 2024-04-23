@@ -19868,3 +19868,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 13:38:24] INFO root fetch - processPackages [roff]: Remove: archive file [/home/abi/fetcher/tmp/roff-0.2.0.tar.gz]
 [2024-04-23 13:38:24] INFO root fetch - main [MainThread]: End processing [roff]: success
 [2024-04-23 13:38:24] INFO root fetch - main [MainThread]: Store serial: [22893119]
+[2024-04-23 13:40:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893119]
+[2024-04-23 13:40:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-23 13:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composio-autogen
+[2024-04-23 13:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composio-lyzr
+[2024-04-23 13:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meantools
+[2024-04-23 13:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyLemur
+[2024-04-23 13:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acryl-datahub
+[2024-04-23 13:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lib-conn-db
+[2024-04-23 13:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: acryl-datahub-airflow-plugin
+[2024-04-23 13:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: progres
+[2024-04-23 13:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finbourne-insights-sdk-preview
+[2024-04-23 13:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lusid-drive-sdk
+[2024-04-23 13:40:32] WARNING root fetch - processPackages [meantools]: Skipping, unable to determine old version
+[2024-04-23 13:40:32] INFO root fetch - processPackages [meantools]: Start processing: env-star
+[2024-04-23 13:40:32] INFO root fetch - main [MainThread]: End processing [meantools] error
+[2024-04-23 13:40:32] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 13:40:32] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-23 13:40:33] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-04-23 13:40:33] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.1.7] Old Version: [2.1.6]
+[2024-04-23 13:40:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-04-23 13:40:33] WARNING root fetch - processPackages [lib-conn-db]: Skipping, unable to determine old version
+[2024-04-23 13:40:33] INFO root fetch - processPackages [pyLemur]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-23 13:40:33] INFO root fetch - main [MainThread]: End processing [lib-conn-db] error
+[2024-04-23 13:40:33] INFO root fetch - processPackages [progres]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-23 13:40:33] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: New version: [0.0.771] Old Version: [0.0.765]
+[2024-04-23 13:40:33] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [env-star]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-23 13:40:33] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/51/f2/1c03b62015dad870f9cfb107b2258b17ce2c90b07d33fb8de313e5cd2e10/lusid_drive_sdk-2.1.6.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [pyLemur]: Downloading https://files.pythonhosted.org/packages/88/26/fe38348393fc6d3d46933ffd6662473e912ee7fac1fd562e9eb9e8d05e3c/pylemur-0.2.0.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [progres]: Downloading https://files.pythonhosted.org/packages/53/b7/c82387762025aadcc12f5e869b0ea71aacb49beba5a4fdd990503e5c37c9/progres-0.2.1.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/8a/80/738ee3cb8650ce361890173845111a2e631ca7074fbca9bd9b9e12e2b956/finbourne-insights-sdk-preview-0.0.765.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [env-star]: Downloading https://files.pythonhosted.org/packages/d2/fb/a9d2c9ec1bd89b44deadcad7a887efe054abc5011983736e87a5450ef0f3/env_star-2.4.0.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-04-23 13:40:33] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240423/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 13:40:33] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/f8/2c/6a87c1c6515971f80f2486497a5e5892220bc68a801098d8a0d217dbaf4c/lusid_drive_sdk-2.1.7.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-23 13:40:33] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240423/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-23 13:40:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-04-23 13:40:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240423/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-04-23 13:40:33] INFO root fetch - processPackages [pyLemur]: Downloading https://files.pythonhosted.org/packages/3b/8c/82c03745e6d06c83449b2d5865602158d90b24ec997dd71a24b002a52b36/pylemur-0.2.1.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [progres]: Downloading https://files.pythonhosted.org/packages/33/62/97f638743a9c33fec54f501da4144e94e6d20ef4250ef2fea4bb42b51d45/progres-0.2.2.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-04-23 13:40:33] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.1.6.tar.gz tmp/lusid_drive_sdk-2.1.7.tar.gz --markdown 20240423/l/lusid-drive-sdk/2.1.6-2.1.7/README.md --exclude *.pyd
+[2024-04-23 13:40:33] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f5/ab/e78cf79f94066ea39aaa20bf60729ffdb6e6417724d5bb01a1db5c17b277/finbourne-insights-sdk-preview-0.0.771.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-04-23 13:40:33] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240423/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-04-23 13:40:33] INFO root fetch - processPackages [env-star]: Downloading https://files.pythonhosted.org/packages/01/61/e375f548cef9b55b044dfa3cd50c75b270f60cde805c38443a3fbf0de98d/env_star-2.4.1.tar.gz
+[2024-04-23 13:40:33] INFO root fetch - processPackages [progres]: executing diffoscope
+[2024-04-23 13:40:33] INFO root fetch - processPackages [progres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progres-0.2.1.tar.gz tmp/progres-0.2.2.tar.gz --markdown 20240423/p/progres/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-23 13:40:33] INFO root fetch - processPackages [pyLemur]: executing diffoscope
+[2024-04-23 13:40:33] INFO root fetch - processPackages [pyLemur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylemur-0.2.0.tar.gz tmp/pylemur-0.2.1.tar.gz --markdown 20240423/p/pyLemur/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-23 13:40:33] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: executing diffoscope
+[2024-04-23 13:40:33] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-insights-sdk-preview-0.0.765.tar.gz tmp/finbourne-insights-sdk-preview-0.0.771.tar.gz --markdown 20240423/f/finbourne-insights-sdk-preview/0.0.765-0.0.771/README.md --exclude *.pyd
+[2024-04-23 13:40:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-04-23 13:40:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-04-23 13:40:34] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-04-23 13:40:34] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-04-23 13:40:34] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-04-23 13:40:34] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-23 13:40:34] INFO root fetch - processPackages [env-star]: executing diffoscope
+[2024-04-23 13:40:34] INFO root fetch - processPackages [env-star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/env_star-2.4.0.tar.gz tmp/env_star-2.4.1.tar.gz --markdown 20240423/e/env-star/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-04-23 13:40:34] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-04-23 13:40:34] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-04-23 13:40:34] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-04-23 13:40:34] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.6.tar.gz]
+[2024-04-23 13:40:34] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.7.tar.gz]
+[2024-04-23 13:40:34] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-04-23 13:40:34] INFO root fetch - processPackages [progres]: Remove: archive file [/home/abi/fetcher/tmp/progres-0.2.1.tar.gz]
+[2024-04-23 13:40:34] INFO root fetch - processPackages [progres]: Remove: archive file [/home/abi/fetcher/tmp/progres-0.2.2.tar.gz]
+[2024-04-23 13:40:34] INFO root fetch - main [MainThread]: End processing [progres]: success
+[2024-04-23 13:40:34] INFO root fetch - processPackages [pyLemur]: Remove: archive file [/home/abi/fetcher/tmp/pylemur-0.2.0.tar.gz]
+[2024-04-23 13:40:34] INFO root fetch - processPackages [pyLemur]: Remove: archive file [/home/abi/fetcher/tmp/pylemur-0.2.1.tar.gz]
+[2024-04-23 13:40:34] INFO root fetch - main [MainThread]: End processing [pyLemur]: success
+[2024-04-23 13:40:35] INFO root fetch - processPackages [env-star]: Remove: archive file [/home/abi/fetcher/tmp/env_star-2.4.0.tar.gz]
+[2024-04-23 13:40:35] INFO root fetch - processPackages [env-star]: Remove: archive file [/home/abi/fetcher/tmp/env_star-2.4.1.tar.gz]
+[2024-04-23 13:40:35] INFO root fetch - main [MainThread]: End processing [env-star]: success
+[2024-04-23 13:40:35] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.765.tar.gz]
+[2024-04-23 13:40:35] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.771.tar.gz]
+[2024-04-23 13:40:35] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
+[2024-04-23 13:40:36] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-04-23 13:40:36] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-04-23 13:40:36] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-04-23 13:40:36] INFO root fetch - main [MainThread]: Store serial: [22893155]
