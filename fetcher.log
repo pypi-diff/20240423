@@ -20326,3 +20326,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 13:54:34] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
 [2024-04-23 13:54:34] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2024-04-23 13:54:34] INFO root fetch - main [MainThread]: Store serial: [22893341]
+[2024-04-23 13:56:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893341]
+[2024-04-23 13:56:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 13:56:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opytimal
+[2024-04-23 13:56:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yoggopoth
+[2024-04-23 13:56:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyastroweatherio
+[2024-04-23 13:56:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vortexasdk
+[2024-04-23 13:56:42] WARNING root fetch - processPackages [yoggopoth]: Skipping, unable to determine old version
+[2024-04-23 13:56:42] INFO root fetch - main [MainThread]: End processing [yoggopoth] error
+[2024-04-23 13:56:42] WARNING root fetch - processPackages [opytimal]: Skipping, unable to determine old version
+[2024-04-23 13:56:42] INFO root fetch - main [MainThread]: End processing [opytimal] error
+[2024-04-23 13:56:42] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.43.1.dev9] Old Version: [0.43.1.dev8]
+[2024-04-23 13:56:42] INFO root fetch - processPackages [vortexasdk]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-23 13:56:42] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/52/24/2c570e0e19bb51a136edaf868d693f0156fca6c66aca91674ec5e7973a2c/pyastroweatherio-0.43.1.dev8.tar.gz
+[2024-04-23 13:56:42] INFO root fetch - processPackages [vortexasdk]: Downloading https://files.pythonhosted.org/packages/a1/63/5e62928d10b53b9d7e36e95cb81551f518531b388257d5884afa2ac4c880/vortexasdk-0.9.1.tar.gz
+[2024-04-23 13:56:42] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/75/07/e7eb1179d1b5db7e5e45ea03766c9c39fee7686fa1e316830827643977ac/pyastroweatherio-0.43.1.dev9.tar.gz
+[2024-04-23 13:56:42] INFO root fetch - processPackages [vortexasdk]: Downloading https://files.pythonhosted.org/packages/9a/31/e1cc1cd981ce5e6d81530725d9809ba21ee5447abe7cd2a52f8c0d15989f/vortexasdk-0.9.2.tar.gz
+[2024-04-23 13:56:43] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-04-23 13:56:43] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.43.1.dev8.tar.gz tmp/pyastroweatherio-0.43.1.dev9.tar.gz --markdown 20240423/p/pyastroweatherio/0.43.1.dev8-0.43.1.dev9/README.md --exclude *.pyd
+[2024-04-23 13:56:43] INFO root fetch - processPackages [vortexasdk]: executing diffoscope
+[2024-04-23 13:56:43] INFO root fetch - processPackages [vortexasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vortexasdk-0.9.1.tar.gz tmp/vortexasdk-0.9.2.tar.gz --markdown 20240423/v/vortexasdk/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-23 13:56:43] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev8.tar.gz]
+[2024-04-23 13:56:43] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev9.tar.gz]
+[2024-04-23 13:56:43] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-04-23 13:56:43] INFO root fetch - processPackages [vortexasdk]: Remove: archive file [/home/abi/fetcher/tmp/vortexasdk-0.9.1.tar.gz]
+[2024-04-23 13:56:43] INFO root fetch - processPackages [vortexasdk]: Remove: archive file [/home/abi/fetcher/tmp/vortexasdk-0.9.2.tar.gz]
+[2024-04-23 13:56:43] INFO root fetch - main [MainThread]: End processing [vortexasdk]: success
+[2024-04-23 13:56:43] INFO root fetch - main [MainThread]: Store serial: [22893351]
