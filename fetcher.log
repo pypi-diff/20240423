@@ -10663,3 +10663,60 @@
 [2024-04-23 07:09:32] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
 [2024-04-23 07:09:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
 [2024-04-23 07:09:32] INFO root fetch - main [MainThread]: Store serial: [22889199]
+[2024-04-23 07:11:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889199]
+[2024-04-23 07:11:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-pos-receipt-replace-user-by-trigram
+[2024-04-23 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afeng-py-tools
+[2024-04-23 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-pos-product-label
+[2024-04-23 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gd_excelexporter
+[2024-04-23 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: haskellian
+[2024-04-23 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datafog
+[2024-04-23 07:11:41] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 07:11:41] INFO root fetch - processPackages [haskellian]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-23 07:11:41] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-23 07:11:41] INFO root fetch - processPackages [datafog]: New version: [3.0.0b4] Old Version: [3.0.0b3]
+[2024-04-23 07:11:41] INFO root fetch - processPackages [gd_excelexporter]: New version: [3.0.1a0] Old Version: [3.0.0a1]
+[2024-04-23 07:11:41] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: Downloading https://files.pythonhosted.org/packages/80/e5/d71eb19a75e29fcc4998eab059594d769a193a8c34e5a9f2cb1e868fa4a2/odoo_addon_pos_receipt_replace_user_by_trigram-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-23 07:11:41] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-23 07:11:41] INFO root fetch - processPackages [odoo-addon-pos-product-label]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2024-04-23 07:11:41] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/51/26/93f4102975c181a0db37d4f57dbfc3afcaf2194c244373be2316bf9568ba/haskellian-0.3.6.tar.gz
+[2024-04-23 07:11:41] INFO root fetch - processPackages [datafog]: Downloading https://files.pythonhosted.org/packages/53/51/832919e67374fdf5767a98c50aab1c230f5dc2b90dedf19cc6150ba1b307/datafog-3.0.0b3.tar.gz
+[2024-04-23 07:11:42] INFO root fetch - processPackages [gd_excelexporter]: Downloading https://files.pythonhosted.org/packages/8a/5d/443233a5346cceab5d224a48c0437021dcd1ca321fb0996d4bb72f745235/gd_excelexporter-3.0.0a1.tar.gz
+[2024-04-23 07:11:42] INFO root fetch - processPackages [odoo-addon-pos-product-label]: Downloading https://files.pythonhosted.org/packages/66/49/9ae0d6671e984f0d12e01932a8cc622650b136dfe96f9173cfec413eb4ae/odoo_addon_pos_product_label-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-23 07:11:42] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: Downloading https://files.pythonhosted.org/packages/5d/93/19b00db994f85fbdbcbb2e60f9a497d4c009a6a72a0f770537de26ed462c/odoo_addon_pos_receipt_replace_user_by_trigram-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-23 07:11:42] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-23 07:11:42] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/67/03/2a3a6e2b362ab6e72ec34dd99a585a48331220bee652740486e82548e1d9/haskellian-0.3.7.tar.gz
+[2024-04-23 07:11:42] INFO root fetch - processPackages [datafog]: Downloading https://files.pythonhosted.org/packages/2f/07/4a36b66a0dfd226de1100eb8b0b4678180772c24aa9a14465f7c02d7a317/datafog-3.0.0b4.tar.gz
+[2024-04-23 07:11:42] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: executing diffoscope
+[2024-04-23 07:11:42] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_receipt_replace_user_by_trigram-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_pos_receipt_replace_user_by_trigram-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-pos-receipt-replace-user-by-trigram/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-23 07:11:42] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-23 07:11:42] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240423/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 07:11:42] INFO root fetch - processPackages [haskellian]: executing diffoscope
+[2024-04-23 07:11:42] INFO root fetch - processPackages [haskellian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-0.3.6.tar.gz tmp/haskellian-0.3.7.tar.gz --markdown 20240423/h/haskellian/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-23 07:11:42] INFO root fetch - processPackages [gd_excelexporter]: Downloading https://files.pythonhosted.org/packages/7f/e5/e30e9202b8f738848ac46e5800c11e8044578958e85d23da4c1ff97565be/gd_excelexporter-3.0.1a0.tar.gz
+[2024-04-23 07:11:42] INFO root fetch - processPackages [datafog]: executing diffoscope
+[2024-04-23 07:11:42] INFO root fetch - processPackages [datafog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datafog-3.0.0b3.tar.gz tmp/datafog-3.0.0b4.tar.gz --markdown 20240423/d/datafog/3.0.0b3-3.0.0b4/README.md --exclude *.pyd
+[2024-04-23 07:11:42] INFO root fetch - processPackages [odoo-addon-pos-product-label]: Downloading https://files.pythonhosted.org/packages/1e/d5/daa7305c4ff95ca580e8b3d7398f047f3dd03fb12c646280385d5c0838b2/odoo_addon_pos_product_label-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-23 07:11:42] INFO root fetch - processPackages [gd_excelexporter]: executing diffoscope
+[2024-04-23 07:11:42] INFO root fetch - processPackages [gd_excelexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gd_excelexporter-3.0.0a1.tar.gz tmp/gd_excelexporter-3.0.1a0.tar.gz --markdown 20240423/g/gd_excelexporter/3.0.0a1-3.0.1a0/README.md --exclude *.pyd
+[2024-04-23 07:11:42] INFO root fetch - processPackages [odoo-addon-pos-product-label]: executing diffoscope
+[2024-04-23 07:11:42] INFO root fetch - processPackages [odoo-addon-pos-product-label]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_product_label-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_pos_product_label-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240423/o/odoo-addon-pos-product-label/16.0.1.0.0.6-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-04-23 07:11:43] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.6.tar.gz]
+[2024-04-23 07:11:43] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.7.tar.gz]
+[2024-04-23 07:11:43] INFO root fetch - main [MainThread]: End processing [haskellian]: success
+[2024-04-23 07:11:43] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_receipt_replace_user_by_trigram-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-23 07:11:43] INFO root fetch - processPackages [odoo-addon-pos-receipt-replace-user-by-trigram]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_receipt_replace_user_by_trigram-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-23 07:11:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-receipt-replace-user-by-trigram]: success
+[2024-04-23 07:11:43] INFO root fetch - processPackages [datafog]: Remove: archive file [/home/abi/fetcher/tmp/datafog-3.0.0b3.tar.gz]
+[2024-04-23 07:11:43] INFO root fetch - processPackages [datafog]: Remove: archive file [/home/abi/fetcher/tmp/datafog-3.0.0b4.tar.gz]
+[2024-04-23 07:11:43] INFO root fetch - main [MainThread]: End processing [datafog]: success
+[2024-04-23 07:11:43] INFO root fetch - processPackages [gd_excelexporter]: Remove: archive file [/home/abi/fetcher/tmp/gd_excelexporter-3.0.0a1.tar.gz]
+[2024-04-23 07:11:43] INFO root fetch - processPackages [gd_excelexporter]: Remove: archive file [/home/abi/fetcher/tmp/gd_excelexporter-3.0.1a0.tar.gz]
+[2024-04-23 07:11:43] INFO root fetch - main [MainThread]: End processing [gd_excelexporter]: success
+[2024-04-23 07:11:43] INFO root fetch - processPackages [odoo-addon-pos-product-label]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_product_label-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-23 07:11:43] INFO root fetch - processPackages [odoo-addon-pos-product-label]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_product_label-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-23 07:11:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-product-label]: success
+[2024-04-23 07:11:43] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-23 07:11:43] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-23 07:11:43] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-23 07:11:43] INFO root fetch - main [MainThread]: Store serial: [22889215]
