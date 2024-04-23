@@ -8466,3 +8466,33 @@
 [2024-04-23 04:48:39] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-04-23 04:48:39] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-04-23 04:48:39] INFO root fetch - main [MainThread]: Store serial: [22888286]
+[2024-04-23 04:50:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888286]
+[2024-04-23 04:50:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-23 04:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dispatch-py
+[2024-04-23 04:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypreql-nlp
+[2024-04-23 04:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tradingview-indicators
+[2024-04-23 04:50:48] INFO root fetch - processPackages [tradingview-indicators]: New version: [0.3.7.1] Old Version: [0.3.7]
+[2024-04-23 04:50:48] INFO root fetch - processPackages [tradingview-indicators]: Downloading https://files.pythonhosted.org/packages/e2/f9/f56aa61f78d1bb043c5083f0d3ad2d13bd8b5090a3a24104c92b581f145e/tradingview_indicators-0.3.7.tar.gz
+[2024-04-23 04:50:48] INFO root fetch - processPackages [pypreql-nlp]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 04:50:48] INFO root fetch - processPackages [dispatch-py]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-23 04:50:48] INFO root fetch - processPackages [tradingview-indicators]: Downloading https://files.pythonhosted.org/packages/ce/f6/53647829fb507edc1f76dd4da20c208c38470f566bcb8dccbdcb4930b87a/tradingview_indicators-0.3.7.1.tar.gz
+[2024-04-23 04:50:48] INFO root fetch - processPackages [pypreql-nlp]: Downloading https://files.pythonhosted.org/packages/59/c6/a8a53247e6f49aa856d7321d493f36d7c0b06634db06f2687d6d3a2a6c78/pypreql-nlp-0.0.8.tar.gz
+[2024-04-23 04:50:48] INFO root fetch - processPackages [dispatch-py]: Downloading https://files.pythonhosted.org/packages/ea/a5/217673a6b3fb94d886198b569260b0c53518a3bfd1383fd09c1e6749764d/dispatch-py-0.5.1.tar.gz
+[2024-04-23 04:50:48] INFO root fetch - processPackages [tradingview-indicators]: executing diffoscope
+[2024-04-23 04:50:48] INFO root fetch - processPackages [tradingview-indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradingview_indicators-0.3.7.tar.gz tmp/tradingview_indicators-0.3.7.1.tar.gz --markdown 20240423/t/tradingview-indicators/0.3.7-0.3.7.1/README.md --exclude *.pyd
+[2024-04-23 04:50:49] INFO root fetch - processPackages [pypreql-nlp]: Downloading https://files.pythonhosted.org/packages/75/31/b75d3a74248ae21827dccb016fe9addad4a1807980784b2d8e6bfebf0f78/pypreql-nlp-0.0.9.tar.gz
+[2024-04-23 04:50:49] INFO root fetch - processPackages [dispatch-py]: Downloading https://files.pythonhosted.org/packages/40/cb/8a8fff1d25deb0bdc86421802526847b3a98bde6e470da562fd9234b716a/dispatch_py-0.6.0.tar.gz
+[2024-04-23 04:50:49] INFO root fetch - processPackages [pypreql-nlp]: executing diffoscope
+[2024-04-23 04:50:49] INFO root fetch - processPackages [pypreql-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypreql-nlp-0.0.8.tar.gz tmp/pypreql-nlp-0.0.9.tar.gz --markdown 20240423/p/pypreql-nlp/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 04:50:49] INFO root fetch - processPackages [tradingview-indicators]: Remove: archive file [/home/abi/fetcher/tmp/tradingview_indicators-0.3.7.tar.gz]
+[2024-04-23 04:50:49] INFO root fetch - processPackages [tradingview-indicators]: Remove: archive file [/home/abi/fetcher/tmp/tradingview_indicators-0.3.7.1.tar.gz]
+[2024-04-23 04:50:49] INFO root fetch - main [MainThread]: End processing [tradingview-indicators]: success
+[2024-04-23 04:50:49] INFO root fetch - processPackages [dispatch-py]: executing diffoscope
+[2024-04-23 04:50:49] INFO root fetch - processPackages [dispatch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispatch-py-0.5.1.tar.gz tmp/dispatch_py-0.6.0.tar.gz --markdown 20240423/d/dispatch-py/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-23 04:50:49] INFO root fetch - processPackages [pypreql-nlp]: Remove: archive file [/home/abi/fetcher/tmp/pypreql-nlp-0.0.8.tar.gz]
+[2024-04-23 04:50:49] INFO root fetch - processPackages [pypreql-nlp]: Remove: archive file [/home/abi/fetcher/tmp/pypreql-nlp-0.0.9.tar.gz]
+[2024-04-23 04:50:49] INFO root fetch - main [MainThread]: End processing [pypreql-nlp]: success
+[2024-04-23 04:50:49] INFO root fetch - processPackages [dispatch-py]: Remove: archive file [/home/abi/fetcher/tmp/dispatch-py-0.5.1.tar.gz]
+[2024-04-23 04:50:49] INFO root fetch - processPackages [dispatch-py]: Remove: archive file [/home/abi/fetcher/tmp/dispatch_py-0.6.0.tar.gz]
+[2024-04-23 04:50:49] INFO root fetch - main [MainThread]: End processing [dispatch-py]: success
+[2024-04-23 04:50:49] INFO root fetch - main [MainThread]: Store serial: [22888322]
