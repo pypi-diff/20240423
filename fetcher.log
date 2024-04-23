@@ -21625,3 +21625,159 @@ EOFError: EOF read where object expected
 [2024-04-23 14:41:29] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.74.0.tar.gz]
 [2024-04-23 14:41:29] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-04-23 14:41:29] INFO root fetch - main [MainThread]: Store serial: [22893841]
+[2024-04-23 14:43:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893841]
+[2024-04-23 14:43:39] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-23 14:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecv-python-development
+[2024-04-23 14:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dmlcloud
+[2024-04-23 14:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: async-extensions
+[2024-04-23 14:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypipr
+[2024-04-23 14:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dforge
+[2024-04-23 14:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LogGuard
+[2024-04-23 14:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cfn_kafka_admin
+[2024-04-23 14:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tui-dsmt
+[2024-04-23 14:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-llm
+[2024-04-23 14:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sts-lib
+[2024-04-23 14:43:39] INFO root fetch - processPackages [tui-dsmt]: New version: [202404230944] Old Version: [202404230921]
+[2024-04-23 14:43:39] INFO root fetch - processPackages [dmlcloud]: New version: [0.3.3] Old Version: [0.3.1]
+[2024-04-23 14:43:39] INFO root fetch - processPackages [LogGuard]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-23 14:43:39] INFO root fetch - processPackages [dforge]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-23 14:43:39] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 14:43:39] INFO root fetch - processPackages [sts-lib]: New version: [0.27.2] Old Version: [0.27.1]
+[2024-04-23 14:43:39] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.86]
+[2024-04-23 14:43:39] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240422] Old Version: [2.5.0b20240421]
+[2024-04-23 14:43:39] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/fc/70/463d408e0f0dae733c07c420d7c157c845a95fec5d25c1510f6f5523b945/tui_dsmt-202404230921.tar.gz
+[2024-04-23 14:43:39] INFO root fetch - processPackages [cfn_kafka_admin]: New version: [0.6.0rc4] Old Version: [0.6.0rc3]
+[2024-04-23 14:43:39] INFO root fetch - processPackages [async-extensions]: New version: [4.0.0] Old Version: [3.1.2]
+[2024-04-23 14:43:39] INFO root fetch - processPackages [LogGuard]: Downloading https://files.pythonhosted.org/packages/a1/cf/7edd920b76a9b4a76cb76b10121ebb8ee05a3dc9bb58a5edcf6a4cc2350f/logguard-0.2.7.tar.gz
+[2024-04-23 14:43:39] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/1a/0b/57f1b4e7808f0e68005e3460c3b2e28d121224116313e32caff0da5d477c/ecv-python-development-0.0.8.tar.gz
+[2024-04-23 14:43:39] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/a5/72/fcfa176d1e8cf5d5a458f872270c4b2d80c5fb4c803299cfc01e8d93586e/sts_lib-0.27.1.tar.gz
+[2024-04-23 14:43:39] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/e7/d8/4bcc20d52342585809b0c0ad44071ba18f540fa5a97998b1b4f7ada69a3b/bigdl_llm-2.5.0b20240421-py3-none-win_amd64.whl
+[2024-04-23 14:43:39] INFO root fetch - processPackages [dmlcloud]: Downloading https://files.pythonhosted.org/packages/6e/11/a60fe6cbde7d7acc734300b31fd1924a6df76b0a31d35d688a83fc4df32a/dmlcloud-0.3.1-py3-none-any.whl
+[2024-04-23 14:43:39] INFO root fetch - processPackages [dforge]: Downloading https://files.pythonhosted.org/packages/97/fe/648d1fa429fac98951de592943486ad60890efcd959a4ac6a355f53ca0d2/dforge-2.1.2.tar.gz
+[2024-04-23 14:43:39] INFO root fetch - processPackages [cfn_kafka_admin]: Downloading https://files.pythonhosted.org/packages/e4/c2/d6bb4cc7455be635edb2888a48f7b161f2fea45919a466789e9c93189e48/cfn_kafka_admin-0.6.0rc3.tar.gz
+[2024-04-23 14:43:39] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/f1/f6/e130e07ceeca3b4bfcb153c0aaa11c9472cd6103ee9513087ce27ad28242/pypipr-1.0.86.tar.gz
+[2024-04-23 14:43:39] INFO root fetch - processPackages [async-extensions]: Downloading https://files.pythonhosted.org/packages/f4/dc/5204ea2a268d08fa9aa179630451aa0fcff0375672c0e67f4dcc6627e19d/async_extensions-3.1.2.tar.gz
+[2024-04-23 14:43:39] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/1e/40/7f623022bae0ebc2f5beb167e8175b1dad049a8b27764e6859798786fdb2/ecv-python-development-0.0.9.tar.gz
+[2024-04-23 14:43:39] INFO root fetch - processPackages [dmlcloud]: Downloading https://files.pythonhosted.org/packages/55/20/236fb65fb92d4204062710e6f393f68300ed130da58ff9f5239bab82e91f/dmlcloud-0.3.3-py3-none-any.whl
+[2024-04-23 14:43:39] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/bc/06/69c4c1476589506bc99a40481b43c5cf35b3a1e1511fd6395cfba7900f85/tui_dsmt-202404230944.tar.gz
+[2024-04-23 14:43:39] INFO root fetch - processPackages [LogGuard]: Downloading https://files.pythonhosted.org/packages/63/9e/a6ca719d1f83d8615300502c0179e5feb3a92006df68eaeb6542d3b99a66/logguard-0.2.8.tar.gz
+[2024-04-23 14:43:40] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-23 14:43:40] INFO root fetch - processPackages [dforge]: Downloading https://files.pythonhosted.org/packages/50/70/6f61ccdb5a11c8b9642868e85b2703d605e5e0a85fb40a4b5a6c636f22ed/dforge-2.1.3.tar.gz
+[2024-04-23 14:43:40] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-23 14:43:40] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.8.tar.gz tmp/ecv-python-development-0.0.9.tar.gz --markdown 20240423/e/ecv-python-development/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 14:43:40] INFO root fetch - processPackages [cfn_kafka_admin]: Downloading https://files.pythonhosted.org/packages/ce/c7/1101f78160cf436a58dc99678ac344484b1afca9063044702451c0b7703c/cfn_kafka_admin-0.6.0rc4.tar.gz
+[2024-04-23 14:43:40] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/e5/cb/5e7aa9c8817071a1cab0c32d157a1f0f0568c3fa9eed72b6208349518f56/sts_lib-0.27.2.tar.gz
+[2024-04-23 14:43:40] INFO root fetch - processPackages [dmlcloud]: executing diffoscope
+[2024-04-23 14:43:40] INFO root fetch - processPackages [dmlcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmlcloud-0.3.1-py3-none-any.whl.zip tmp/dmlcloud-0.3.3-py3-none-any.whl.zip --markdown 20240423/d/dmlcloud/0.3.1-0.3.3/README.md --exclude *.pyd
+[2024-04-23 14:43:40] INFO root fetch - processPackages [async-extensions]: Downloading https://files.pythonhosted.org/packages/92/a6/8c323f11942b3576547435c3db715b449d703c24ed488ea1ab09ea13fd31/async_extensions-4.0.0.tar.gz
+[2024-04-23 14:43:40] INFO root fetch - processPackages [LogGuard]: executing diffoscope
+[2024-04-23 14:43:40] INFO root fetch - processPackages [LogGuard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logguard-0.2.7.tar.gz tmp/logguard-0.2.8.tar.gz --markdown 20240423/L/LogGuard/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-23 14:43:40] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-23 14:43:40] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404230921.tar.gz tmp/tui_dsmt-202404230944.tar.gz --markdown 20240423/t/tui-dsmt/202404230921-202404230944/README.md --exclude *.pyd
+[2024-04-23 14:43:40] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-23 14:43:40] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.86.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240423/p/pypipr/1.0.86-1.0.9/README.md --exclude *.pyd
+[2024-04-23 14:43:40] INFO root fetch - processPackages [dforge]: executing diffoscope
+[2024-04-23 14:43:40] INFO root fetch - processPackages [dforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dforge-2.1.2.tar.gz tmp/dforge-2.1.3.tar.gz --markdown 20240423/d/dforge/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-23 14:43:40] INFO root fetch - processPackages [cfn_kafka_admin]: executing diffoscope
+[2024-04-23 14:43:40] INFO root fetch - processPackages [cfn_kafka_admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn_kafka_admin-0.6.0rc3.tar.gz tmp/cfn_kafka_admin-0.6.0rc4.tar.gz --markdown 20240423/c/cfn_kafka_admin/0.6.0rc3-0.6.0rc4/README.md --exclude *.pyd
+[2024-04-23 14:43:40] INFO root fetch - processPackages [async-extensions]: executing diffoscope
+[2024-04-23 14:43:40] INFO root fetch - processPackages [async-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_extensions-3.1.2.tar.gz tmp/async_extensions-4.0.0.tar.gz --markdown 20240423/a/async-extensions/3.1.2-4.0.0/README.md --exclude *.pyd
+[2024-04-23 14:43:40] INFO root fetch - processPackages [sts-lib]: executing diffoscope
+[2024-04-23 14:43:40] INFO root fetch - processPackages [sts-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_lib-0.27.1.tar.gz tmp/sts_lib-0.27.2.tar.gz --markdown 20240423/s/sts-lib/0.27.1-0.27.2/README.md --exclude *.pyd
+[2024-04-23 14:43:40] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/dc/f0/84a3a3354f1843d52fa0f266ec6d42afee48143ccbdb9bb2c2edf31882ff/bigdl_llm-2.5.0b20240422-py3-none-win_amd64.whl
+[2024-04-23 14:43:40] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-04-23 14:43:40] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240421-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240422-py3-none-win_amd64.whl.zip --markdown 20240423/b/bigdl-llm/2.5.0b20240421-2.5.0b20240422/README.md --exclude *.pyd
+[2024-04-23 14:43:41] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.86.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [pypipr]: Start processing: unitradeapi
+[2024-04-23 14:43:41] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-23 14:43:41] INFO root fetch - processPackages [LogGuard]: Remove: archive file [/home/abi/fetcher/tmp/logguard-0.2.7.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [LogGuard]: Remove: archive file [/home/abi/fetcher/tmp/logguard-0.2.8.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [LogGuard]: Start processing: lino
+[2024-04-23 14:43:41] INFO root fetch - main [MainThread]: End processing [LogGuard]: success
+[2024-04-23 14:43:41] INFO root fetch - processPackages [dmlcloud]: Remove: archive file [/home/abi/fetcher/tmp/dmlcloud-0.3.1-py3-none-any.whl.zip]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [dmlcloud]: Remove: archive file [/home/abi/fetcher/tmp/dmlcloud-0.3.3-py3-none-any.whl.zip]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [dmlcloud]: Start processing: pynumstim
+[2024-04-23 14:43:41] INFO root fetch - main [MainThread]: End processing [dmlcloud]: success
+[2024-04-23 14:43:41] INFO root fetch - processPackages [unitradeapi]: New version: [0.120] Old Version: [0.119]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404230921.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404230944.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [tui-dsmt]: Start processing: strledger
+[2024-04-23 14:43:41] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-23 14:43:41] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.8.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.9.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [ecv-python-development]: Start processing: mkmavrykchain
+[2024-04-23 14:43:41] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-23 14:43:41] INFO root fetch - processPackages [pynumstim]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [lino]: New version: [24.4.0] Old Version: [24.3.4]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [strledger]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [mkmavrykchain]: New version: [6.25.7] Old Version: [6.25.6]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [cfn_kafka_admin]: Remove: archive file [/home/abi/fetcher/tmp/cfn_kafka_admin-0.6.0rc3.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [cfn_kafka_admin]: Remove: archive file [/home/abi/fetcher/tmp/cfn_kafka_admin-0.6.0rc4.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [cfn_kafka_admin]: Start processing: qualesim-quiets
+[2024-04-23 14:43:41] INFO root fetch - main [MainThread]: End processing [cfn_kafka_admin]: success
+[2024-04-23 14:43:41] INFO root fetch - processPackages [strledger]: Downloading https://files.pythonhosted.org/packages/b1/70/293f5ebefa01faf89cf3f959ad46fb774139269f467899d29f35a5c7d286/strledger-0.5.1.tar.gz
+[2024-04-23 14:43:41] INFO root fetch - processPackages [unitradeapi]: Downloading https://files.pythonhosted.org/packages/c9/15/0a0f3222a796d3ec5967edd195758c496b6970ec3dbf07e2fd0afa1b6292/unitradeapi-0.119.tar.gz
+[2024-04-23 14:43:41] INFO root fetch - processPackages [async-extensions]: Remove: archive file [/home/abi/fetcher/tmp/async_extensions-3.1.2.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [async-extensions]: Remove: archive file [/home/abi/fetcher/tmp/async_extensions-4.0.0.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [async-extensions]: Start processing: tensorcircuit-nightly
+[2024-04-23 14:43:41] INFO root fetch - main [MainThread]: End processing [async-extensions]: success
+[2024-04-23 14:43:41] INFO root fetch - processPackages [dforge]: Remove: archive file [/home/abi/fetcher/tmp/dforge-2.1.2.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [dforge]: Remove: archive file [/home/abi/fetcher/tmp/dforge-2.1.3.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - main [MainThread]: End processing [dforge]: success
+[2024-04-23 14:43:41] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/bb/55/eb0d26405c4a5ef81954453ce7c9c1a83be7195e8e9a2ea017fc66d0069f/mkmavrykchain-6.25.6-py3-none-any.whl
+[2024-04-23 14:43:41] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.27.1.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.27.2.tar.gz]
+[2024-04-23 14:43:41] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
+[2024-04-23 14:43:41] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [pynumstim]: Downloading https://files.pythonhosted.org/packages/50/cb/5dcbb948ae446fb80506c9b649ae70c087fe49d08a0d788b4d422438abcf/pynumstim-0.2.7.tar.gz
+[2024-04-23 14:43:41] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/41/48/ae65c08bba27e79d46d58b5717588c3b3236b16f1116e1ecdd7d11152727/lino-24.3.4.tar.gz
+[2024-04-23 14:43:41] INFO root fetch - processPackages [qualesim-quiets]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-04-23 14:43:41] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-04-23 14:43:41] INFO root fetch - processPackages [strledger]: Downloading https://files.pythonhosted.org/packages/38/ea/bffbeeacec37952d3e8b34f46339eb9e10a1aa48ad30eee7ed881900fe80/strledger-0.6.0.tar.gz
+[2024-04-23 14:43:41] INFO root fetch - processPackages [unitradeapi]: Downloading https://files.pythonhosted.org/packages/36/27/780783971b90227716811bb6ae5fc901c85dd5e56e662a0d0f41a0723888/unitradeapi-0.120.tar.gz
+[2024-04-23 14:43:41] INFO root fetch - processPackages [strledger]: executing diffoscope
+[2024-04-23 14:43:41] INFO root fetch - processPackages [strledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strledger-0.5.1.tar.gz tmp/strledger-0.6.0.tar.gz --markdown 20240423/s/strledger/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-23 14:43:41] INFO root fetch - processPackages [qualesim-quiets]: Downloading https://files.pythonhosted.org/packages/8d/69/48792a87aac9b303d618a90449671ccada47ee9548388bb3d65eedfba748/qualesim-quiets-1.0.8.tar.gz
+[2024-04-23 14:43:41] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/7f/97/25c0ada8399254c4453589d4f5bccee5ef2483945e0819762df0c04bbd3e/mkmavrykchain-6.25.7-py3-none-any.whl
+[2024-04-23 14:43:41] INFO root fetch - processPackages [unitradeapi]: executing diffoscope
+[2024-04-23 14:43:41] INFO root fetch - processPackages [unitradeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitradeapi-0.119.tar.gz tmp/unitradeapi-0.120.tar.gz --markdown 20240423/u/unitradeapi/0.119-0.120/README.md --exclude *.pyd
+[2024-04-23 14:43:41] INFO root fetch - processPackages [pynumstim]: Downloading https://files.pythonhosted.org/packages/c1/87/07fdbe02eb1fccd6d6e9762262f89b2c37fe11d095cb8a1bfee9fc13a9ed/pynumstim-0.2.8.tar.gz
+[2024-04-23 14:43:41] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-04-23 14:43:42] INFO root fetch - processPackages [mkmavrykchain]: executing diffoscope
+[2024-04-23 14:43:42] INFO root fetch - processPackages [mkmavrykchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkmavrykchain-6.25.6-py3-none-any.whl.zip tmp/mkmavrykchain-6.25.7-py3-none-any.whl.zip --markdown 20240423/m/mkmavrykchain/6.25.6-6.25.7/README.md --exclude *.pyd
+[2024-04-23 14:43:42] INFO root fetch - processPackages [pynumstim]: executing diffoscope
+[2024-04-23 14:43:42] INFO root fetch - processPackages [pynumstim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynumstim-0.2.7.tar.gz tmp/pynumstim-0.2.8.tar.gz --markdown 20240423/p/pynumstim/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-23 14:43:42] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-04-23 14:43:42] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240423/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-04-23 14:43:42] INFO root fetch - processPackages [qualesim-quiets]: Downloading https://files.pythonhosted.org/packages/7f/ba/89d83cc5e8f1c32a3ec8a89a493be102dbc80abc4b403102f08d1c89ec38/qualesim-quiets-1.1.0.tar.gz
+[2024-04-23 14:43:42] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/8c/cd/dab94d9198f4e5444bb42b6ccc1e42a340f4b39ba44033fb70342b56da54/lino-24.4.0.tar.gz
+[2024-04-23 14:43:42] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240421-py3-none-win_amd64.whl.zip]
+[2024-04-23 14:43:42] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240422-py3-none-win_amd64.whl.zip]
+[2024-04-23 14:43:42] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-04-23 14:43:42] INFO root fetch - processPackages [qualesim-quiets]: executing diffoscope
+[2024-04-23 14:43:42] INFO root fetch - processPackages [qualesim-quiets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualesim-quiets-1.0.8.tar.gz tmp/qualesim-quiets-1.1.0.tar.gz --markdown 20240423/q/qualesim-quiets/1.0.8-1.1.0/README.md --exclude *.pyd
+[2024-04-23 14:43:42] INFO root fetch - processPackages [strledger]: Remove: archive file [/home/abi/fetcher/tmp/strledger-0.5.1.tar.gz]
+[2024-04-23 14:43:42] INFO root fetch - processPackages [strledger]: Remove: archive file [/home/abi/fetcher/tmp/strledger-0.6.0.tar.gz]
+[2024-04-23 14:43:42] INFO root fetch - main [MainThread]: End processing [strledger]: success
+[2024-04-23 14:43:42] INFO root fetch - processPackages [unitradeapi]: Remove: archive file [/home/abi/fetcher/tmp/unitradeapi-0.119.tar.gz]
+[2024-04-23 14:43:42] INFO root fetch - processPackages [unitradeapi]: Remove: archive file [/home/abi/fetcher/tmp/unitradeapi-0.120.tar.gz]
+[2024-04-23 14:43:42] INFO root fetch - main [MainThread]: End processing [unitradeapi]: success
+[2024-04-23 14:43:42] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.6-py3-none-any.whl.zip]
+[2024-04-23 14:43:42] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.7-py3-none-any.whl.zip]
+[2024-04-23 14:43:42] INFO root fetch - main [MainThread]: End processing [mkmavrykchain]: success
+[2024-04-23 14:43:42] INFO root fetch - processPackages [pynumstim]: Remove: archive file [/home/abi/fetcher/tmp/pynumstim-0.2.7.tar.gz]
+[2024-04-23 14:43:42] INFO root fetch - processPackages [pynumstim]: Remove: archive file [/home/abi/fetcher/tmp/pynumstim-0.2.8.tar.gz]
+[2024-04-23 14:43:42] INFO root fetch - main [MainThread]: End processing [pynumstim]: success
+[2024-04-23 14:43:42] INFO root fetch - processPackages [lino]: executing diffoscope
+[2024-04-23 14:43:42] INFO root fetch - processPackages [lino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-24.3.4.tar.gz tmp/lino-24.4.0.tar.gz --markdown 20240423/l/lino/24.3.4-24.4.0/README.md --exclude *.pyd
+[2024-04-23 14:43:43] INFO root fetch - processPackages [qualesim-quiets]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quiets-1.0.8.tar.gz]
+[2024-04-23 14:43:43] INFO root fetch - processPackages [qualesim-quiets]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quiets-1.1.0.tar.gz]
+[2024-04-23 14:43:43] INFO root fetch - main [MainThread]: End processing [qualesim-quiets]: success
+[2024-04-23 14:43:43] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-04-23 14:43:43] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-04-23 14:43:43] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-04-23 14:44:09] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-24.3.4.tar.gz]
+[2024-04-23 14:44:09] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-24.4.0.tar.gz]
+[2024-04-23 14:44:09] INFO root fetch - main [MainThread]: End processing [lino]: success
+[2024-04-23 14:44:09] INFO root fetch - main [MainThread]: Store serial: [22893897]
