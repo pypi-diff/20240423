@@ -3049,3 +3049,78 @@
 [2024-04-23 02:37:39] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.2.0.tar.gz]
 [2024-04-23 02:37:39] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
 [2024-04-23 02:37:39] INFO root fetch - main [MainThread]: Store serial: [22886444]
+[2024-04-23 02:39:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886444]
+[2024-04-23 02:39:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 02:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ploomber-cloud
+[2024-04-23 02:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-json
+[2024-04-23 02:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DFRobotUPS
+[2024-04-23 02:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyavaccess
+[2024-04-23 02:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bife
+[2024-04-23 02:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mbp
+[2024-04-23 02:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-aggrid
+[2024-04-23 02:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dragonfly-radiance
+[2024-04-23 02:39:47] INFO root fetch - processPackages [bife]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 02:39:47] INFO root fetch - processPackages [mbp]: New version: [1.5.92] Old Version: [1.5.91]
+[2024-04-23 02:39:47] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 02:39:47] INFO root fetch - processPackages [bife]: Downloading https://files.pythonhosted.org/packages/c7/80/22b6544aebed95b655d570aeacbe00aa440ef488f329e67b613fb3ce7255/bife-0.1.8.tar.gz
+[2024-04-23 02:39:47] INFO root fetch - processPackages [pyavaccess]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-23 02:39:47] INFO root fetch - processPackages [DFRobotUPS]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-23 02:39:47] INFO root fetch - processPackages [ploomber-cloud]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-23 02:39:47] INFO root fetch - processPackages [mbp]: Downloading https://files.pythonhosted.org/packages/78/3d/6cbe5ef626c635c6e580c03b1566184dd9a647d22e1d28dfae12b5598116/mbp-1.5.91.tar.gz
+[2024-04-23 02:39:47] INFO root fetch - processPackages [streamlit-aggrid]: New version: [1.0.4] Old Version: [1.0.3.post2]
+[2024-04-23 02:39:47] INFO root fetch - processPackages [mo-json]: New version: [6.599.24114] Old Version: [6.589.24111]
+[2024-04-23 02:39:47] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a2/41/805cddd3de27bfc114d3b54bbf0a558b1d450bb0bc346c8bbfc9f9e1ca04/dragonfly-radiance-0.3.8.tar.gz
+[2024-04-23 02:39:47] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/e6/f8/f4451ff0cb54c012c89da5286d33c3f73ca21e606814f7366bd6cda4738a/ploomber-cloud-0.1.9.tar.gz
+[2024-04-23 02:39:47] INFO root fetch - processPackages [DFRobotUPS]: Downloading https://files.pythonhosted.org/packages/3b/b4/0868734ef532e54a73e1415f93c199033305249b3d85a55d5d6304cd3f63/DFRobotUPS-0.4.2.tar.gz
+[2024-04-23 02:39:47] INFO root fetch - processPackages [pyavaccess]: Downloading https://files.pythonhosted.org/packages/b5/48/e30cb859ee05c3360140275aeec3774721ab9d9232de52d5266840599b74/pyavaccess-0.1.0.tar.gz
+[2024-04-23 02:39:48] INFO root fetch - processPackages [bife]: Downloading https://files.pythonhosted.org/packages/1b/91/8264a9bd386cd8eb239fc574b35c12379bb2cdc6e428bacdca36e173d7d6/bife-0.1.9.tar.gz
+[2024-04-23 02:39:48] INFO root fetch - processPackages [streamlit-aggrid]: Downloading https://files.pythonhosted.org/packages/a7/4c/c714a04ee1c8166d2a0ad85846fba388b7a737049258d2f734e5b3764245/streamlit_aggrid-1.0.3.post2.tar.gz
+[2024-04-23 02:39:48] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/b0/cc/7b27be38771d89ef00e887bff9602002d93559a11612a904f68cdf68044a/mo_json-6.589.24111.tar.gz
+[2024-04-23 02:39:48] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/a2/42/881d67de4fa4af26a62ccab7df149a2946c89ee55cd83ad02f8e772a896c/ploomber-cloud-0.2.0.tar.gz
+[2024-04-23 02:39:48] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a9/93/8933c5c67b8d336f624b3e7f9cb128678c38867dac08b6bb30a824b7cb3d/dragonfly-radiance-0.3.9.tar.gz
+[2024-04-23 02:39:48] INFO root fetch - processPackages [mbp]: Downloading https://files.pythonhosted.org/packages/93/93/679c2f902e747bc463bc4465dc857a6a319ce436473d0697c7cd69c59624/mbp-1.5.92.tar.gz
+[2024-04-23 02:39:48] INFO root fetch - processPackages [bife]: executing diffoscope
+[2024-04-23 02:39:48] INFO root fetch - processPackages [bife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bife-0.1.8.tar.gz tmp/bife-0.1.9.tar.gz --markdown 20240423/b/bife/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 02:39:48] INFO root fetch - processPackages [ploomber-cloud]: executing diffoscope
+[2024-04-23 02:39:48] INFO root fetch - processPackages [ploomber-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-cloud-0.1.9.tar.gz tmp/ploomber-cloud-0.2.0.tar.gz --markdown 20240423/p/ploomber-cloud/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-23 02:39:48] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2024-04-23 02:39:48] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.3.8.tar.gz tmp/dragonfly-radiance-0.3.9.tar.gz --markdown 20240423/d/dragonfly-radiance/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 02:39:48] INFO root fetch - processPackages [mbp]: executing diffoscope
+[2024-04-23 02:39:48] INFO root fetch - processPackages [mbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbp-1.5.91.tar.gz tmp/mbp-1.5.92.tar.gz --markdown 20240423/m/mbp/1.5.91-1.5.92/README.md --exclude *.pyd
+[2024-04-23 02:39:48] INFO root fetch - processPackages [DFRobotUPS]: Downloading https://files.pythonhosted.org/packages/d2/79/58c6850e434ce0ea1746e33ba8ad3a62b3632c44526d7dd4277992586527/DFRobotUPS-0.4.3.tar.gz
+[2024-04-23 02:39:48] INFO root fetch - processPackages [pyavaccess]: Downloading https://files.pythonhosted.org/packages/9c/f9/e1d8fb214f6925d99781db54bd66380abcce77c5dba46e22e5b216b3b44c/pyavaccess-0.2.0.tar.gz
+[2024-04-23 02:39:48] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/47/78/4ec7b02191f87ce9398b3b7be53b356c1a91938cdd851f71b7dd9b1b8326/mo_json-6.599.24114.tar.gz
+[2024-04-23 02:39:48] INFO root fetch - processPackages [DFRobotUPS]: executing diffoscope
+[2024-04-23 02:39:48] INFO root fetch - processPackages [DFRobotUPS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DFRobotUPS-0.4.2.tar.gz tmp/DFRobotUPS-0.4.3.tar.gz --markdown 20240423/D/DFRobotUPS/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-23 02:39:48] INFO root fetch - processPackages [pyavaccess]: executing diffoscope
+[2024-04-23 02:39:48] INFO root fetch - processPackages [pyavaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyavaccess-0.1.0.tar.gz tmp/pyavaccess-0.2.0.tar.gz --markdown 20240423/p/pyavaccess/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-23 02:39:48] INFO root fetch - processPackages [mo-json]: executing diffoscope
+[2024-04-23 02:39:48] INFO root fetch - processPackages [mo-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json-6.589.24111.tar.gz tmp/mo_json-6.599.24114.tar.gz --markdown 20240423/m/mo-json/6.589.24111-6.599.24114/README.md --exclude *.pyd
+[2024-04-23 02:39:48] INFO root fetch - processPackages [streamlit-aggrid]: Downloading https://files.pythonhosted.org/packages/8c/4f/be2287892f3c41b16c80e38eda3967dc95a75e1c6950591f536e35613111/streamlit_aggrid-1.0.4.tar.gz
+[2024-04-23 02:39:49] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.9.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.2.0.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
+[2024-04-23 02:39:49] INFO root fetch - processPackages [bife]: Remove: archive file [/home/abi/fetcher/tmp/bife-0.1.8.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - processPackages [bife]: Remove: archive file [/home/abi/fetcher/tmp/bife-0.1.9.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - main [MainThread]: End processing [bife]: success
+[2024-04-23 02:39:49] INFO root fetch - processPackages [mbp]: Remove: archive file [/home/abi/fetcher/tmp/mbp-1.5.91.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - processPackages [mbp]: Remove: archive file [/home/abi/fetcher/tmp/mbp-1.5.92.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - main [MainThread]: End processing [mbp]: success
+[2024-04-23 02:39:49] INFO root fetch - processPackages [streamlit-aggrid]: executing diffoscope
+[2024-04-23 02:39:49] INFO root fetch - processPackages [streamlit-aggrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_aggrid-1.0.3.post2.tar.gz tmp/streamlit_aggrid-1.0.4.tar.gz --markdown 20240423/s/streamlit-aggrid/1.0.3.post2-1.0.4/README.md --exclude *.pyd
+[2024-04-23 02:39:49] INFO root fetch - processPackages [DFRobotUPS]: Remove: archive file [/home/abi/fetcher/tmp/DFRobotUPS-0.4.2.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - processPackages [DFRobotUPS]: Remove: archive file [/home/abi/fetcher/tmp/DFRobotUPS-0.4.3.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - main [MainThread]: End processing [DFRobotUPS]: success
+[2024-04-23 02:39:49] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.8.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2024-04-23 02:39:49] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.589.24111.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.599.24114.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - main [MainThread]: End processing [mo-json]: success
+[2024-04-23 02:39:49] INFO root fetch - processPackages [pyavaccess]: Remove: archive file [/home/abi/fetcher/tmp/pyavaccess-0.1.0.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - processPackages [pyavaccess]: Remove: archive file [/home/abi/fetcher/tmp/pyavaccess-0.2.0.tar.gz]
+[2024-04-23 02:39:49] INFO root fetch - main [MainThread]: End processing [pyavaccess]: success
+[2024-04-23 02:40:19] INFO root fetch - processPackages [streamlit-aggrid]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_aggrid-1.0.3.post2.tar.gz]
+[2024-04-23 02:40:19] INFO root fetch - processPackages [streamlit-aggrid]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_aggrid-1.0.4.tar.gz]
+[2024-04-23 02:40:19] INFO root fetch - main [MainThread]: End processing [streamlit-aggrid]: success
+[2024-04-23 02:40:19] INFO root fetch - main [MainThread]: Store serial: [22886468]
