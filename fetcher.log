@@ -20708,3 +20708,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-23 14:10:43] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.9.tar.gz]
 [2024-04-23 14:10:43] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
 [2024-04-23 14:10:43] INFO root fetch - main [MainThread]: Store serial: [22893497]
+[2024-04-23 14:12:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22893497]
+[2024-04-23 14:12:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-23 14:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tifftools
+[2024-04-23 14:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentry-sdk
+[2024-04-23 14:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: perun.proxygui
+[2024-04-23 14:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecs-session
+[2024-04-23 14:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nestipy-decorator
+[2024-04-23 14:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zonesmart-utils-fork
+[2024-04-23 14:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FPC
+[2024-04-23 14:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python3-cyberfusion-cluster-cli
+[2024-04-23 14:12:52] INFO root fetch - processPackages [ecs-session]: New version: [24.4.5] Old Version: [24.4.4]
+[2024-04-23 14:12:52] INFO root fetch - processPackages [zonesmart-utils-fork]: New version: [0.5.9.9] Old Version: [0.5.9.8]
+[2024-04-23 14:12:52] INFO root fetch - processPackages [perun.proxygui]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-04-23 14:12:52] INFO root fetch - processPackages [tifftools]: New version: [1.4.2.dev4] Old Version: [1.4.2.dev2]
+[2024-04-23 14:12:52] INFO root fetch - processPackages [sentry-sdk]: New version: [2.0.0rc5] Old Version: [2.0.0rc4]
+[2024-04-23 14:12:52] WARNING root fetch - processPackages [nestipy-decorator]: Skipping, unable to determine old version
+[2024-04-23 14:12:52] INFO root fetch - main [MainThread]: End processing [nestipy-decorator] error
+[2024-04-23 14:12:52] INFO root fetch - processPackages [python3-cyberfusion-cluster-cli]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-04-23 14:12:52] INFO root fetch - processPackages [FPC]: New version: [0.9] Old Version: [0.8]
+[2024-04-23 14:12:52] INFO root fetch - processPackages [ecs-session]: Downloading https://files.pythonhosted.org/packages/e0/5b/cd281c64582487cb38911aa6c449796a63111c9b6605deace69fda764f27/ecs_session-24.4.4.tar.gz
+[2024-04-23 14:12:52] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/1f/3c/039c94473127564e1d61c86469dc142a7a89988f07bba21541fea00682d5/zonesmart-utils-fork-0.5.9.8.tar.gz
+[2024-04-23 14:12:52] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/28/24/ff7cd57775997a89a150b94096a399ada7117a3b103978b50520f0523aac/perun.proxygui-5.0.0.tar.gz
+[2024-04-23 14:12:53] INFO root fetch - processPackages [tifftools]: Downloading https://files.pythonhosted.org/packages/60/53/c4f5d6c1743d90eb09d8be8176c3151d10daddce44ebcc68ad868b8a5176/tifftools-1.4.2.dev2.tar.gz
+[2024-04-23 14:12:53] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/62/1a/384fdd8148a7550e2a4f5cabfc6f75cc5693dd64ec52d679e573c9073519/sentry-sdk-2.0.0rc4.tar.gz
+[2024-04-23 14:12:53] INFO root fetch - processPackages [python3-cyberfusion-cluster-cli]: Downloading https://files.pythonhosted.org/packages/76/39/1b637a0f5f479f81272a3e23e8b537cb1a1301c8c9ef221a029c6ba388f5/python3-cyberfusion-cluster-cli-1.9.7.tar.gz
+[2024-04-23 14:12:53] INFO root fetch - processPackages [ecs-session]: Downloading https://files.pythonhosted.org/packages/19/2f/de4c6a0e83a4d7e913989020092a89825f07f1cc949353133990013002fe/ecs_session-24.4.5.tar.gz
+[2024-04-23 14:12:53] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/21/8e/cb3fde359346e40cec7994e595614ef647675f843dea133076850fd2db07/FPC-0.8.tar.gz
+[2024-04-23 14:12:53] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/c7/9f/2ff32de4eacc484eb5a9007534d13156a1b1a1a9c62233775741db20c020/zonesmart-utils-fork-0.5.9.9.tar.gz
+[2024-04-23 14:12:53] INFO root fetch - processPackages [ecs-session]: executing diffoscope
+[2024-04-23 14:12:53] INFO root fetch - processPackages [ecs-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecs_session-24.4.4.tar.gz tmp/ecs_session-24.4.5.tar.gz --markdown 20240423/e/ecs-session/24.4.4-24.4.5/README.md --exclude *.pyd
+[2024-04-23 14:12:53] INFO root fetch - processPackages [zonesmart-utils-fork]: executing diffoscope
+[2024-04-23 14:12:53] INFO root fetch - processPackages [zonesmart-utils-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-fork-0.5.9.8.tar.gz tmp/zonesmart-utils-fork-0.5.9.9.tar.gz --markdown 20240423/z/zonesmart-utils-fork/0.5.9.8-0.5.9.9/README.md --exclude *.pyd
+[2024-04-23 14:12:53] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/c4/82/11c92d0e5250434a88b7d546f2401582005c35fb06f9cc7a975289116871/perun.proxygui-5.0.1.tar.gz
+[2024-04-23 14:12:53] INFO root fetch - processPackages [tifftools]: Downloading https://files.pythonhosted.org/packages/bf/cd/633a11aed95c40f01d99c9211f5fb313965c93103e062e5efe74b64dc774/tifftools-1.4.2.dev4.tar.gz
+[2024-04-23 14:12:53] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/07/ab/dcd64cb9aec1ce2959801c128398e9c948a5010270f458c2cd80653af096/sentry-sdk-2.0.0rc5.tar.gz
+[2024-04-23 14:12:53] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/2e/52/6ad17c7fd21298054bcd96fc5e86fe54f07e006467ce5452d57c016d92bc/FPC-0.9.tar.gz
+[2024-04-23 14:12:53] INFO root fetch - processPackages [tifftools]: executing diffoscope
+[2024-04-23 14:12:53] INFO root fetch - processPackages [tifftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tifftools-1.4.2.dev2.tar.gz tmp/tifftools-1.4.2.dev4.tar.gz --markdown 20240423/t/tifftools/1.4.2.dev2-1.4.2.dev4/README.md --exclude *.pyd
+[2024-04-23 14:12:53] INFO root fetch - processPackages [python3-cyberfusion-cluster-cli]: Downloading https://files.pythonhosted.org/packages/e0/30/f24a875f40bdb4fad0e70d22b6ed32b3dc5d7cf663f40e77c1a7209f9538/python3-cyberfusion-cluster-cli-1.9.8.tar.gz
+[2024-04-23 14:12:53] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2024-04-23 14:12:53] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-2.0.0rc4.tar.gz tmp/sentry-sdk-2.0.0rc5.tar.gz --markdown 20240423/s/sentry-sdk/2.0.0rc4-2.0.0rc5/README.md --exclude *.pyd
+[2024-04-23 14:12:53] INFO root fetch - processPackages [FPC]: executing diffoscope
+[2024-04-23 14:12:53] INFO root fetch - processPackages [FPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPC-0.8.tar.gz tmp/FPC-0.9.tar.gz --markdown 20240423/F/FPC/0.8-0.9/README.md --exclude *.pyd
+[2024-04-23 14:12:53] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-04-23 14:12:53] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-5.0.0.tar.gz tmp/perun.proxygui-5.0.1.tar.gz --markdown 20240423/p/perun.proxygui/5.0.0-5.0.1/README.md --exclude *.pyd
+[2024-04-23 14:12:53] INFO root fetch - processPackages [python3-cyberfusion-cluster-cli]: executing diffoscope
+[2024-04-23 14:12:53] INFO root fetch - processPackages [python3-cyberfusion-cluster-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-cyberfusion-cluster-cli-1.9.7.tar.gz tmp/python3-cyberfusion-cluster-cli-1.9.8.tar.gz --markdown 20240423/p/python3-cyberfusion-cluster-cli/1.9.7-1.9.8/README.md --exclude *.pyd
+[2024-04-23 14:12:54] INFO root fetch - processPackages [ecs-session]: Remove: archive file [/home/abi/fetcher/tmp/ecs_session-24.4.4.tar.gz]
+[2024-04-23 14:12:54] INFO root fetch - processPackages [ecs-session]: Remove: archive file [/home/abi/fetcher/tmp/ecs_session-24.4.5.tar.gz]
+[2024-04-23 14:12:54] INFO root fetch - main [MainThread]: End processing [ecs-session]: success
+[2024-04-23 14:12:54] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.8.tar.gz]
+[2024-04-23 14:12:54] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.9.tar.gz]
+[2024-04-23 14:12:54] INFO root fetch - main [MainThread]: End processing [FPC]: success
+[2024-04-23 14:12:54] INFO root fetch - processPackages [tifftools]: Remove: archive file [/home/abi/fetcher/tmp/tifftools-1.4.2.dev2.tar.gz]
+[2024-04-23 14:12:54] INFO root fetch - processPackages [tifftools]: Remove: archive file [/home/abi/fetcher/tmp/tifftools-1.4.2.dev4.tar.gz]
+[2024-04-23 14:12:54] INFO root fetch - main [MainThread]: End processing [tifftools]: success
+[2024-04-23 14:12:54] INFO root fetch - processPackages [python3-cyberfusion-cluster-cli]: Remove: archive file [/home/abi/fetcher/tmp/python3-cyberfusion-cluster-cli-1.9.7.tar.gz]
+[2024-04-23 14:12:54] INFO root fetch - processPackages [python3-cyberfusion-cluster-cli]: Remove: archive file [/home/abi/fetcher/tmp/python3-cyberfusion-cluster-cli-1.9.8.tar.gz]
+[2024-04-23 14:12:54] INFO root fetch - main [MainThread]: End processing [python3-cyberfusion-cluster-cli]: success
+[2024-04-23 14:12:55] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.8.tar.gz]
+[2024-04-23 14:12:55] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.9.tar.gz]
+[2024-04-23 14:12:55] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
+[2024-04-23 14:12:55] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-2.0.0rc4.tar.gz]
+[2024-04-23 14:12:55] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-2.0.0rc5.tar.gz]
+[2024-04-23 14:12:55] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2024-04-23 14:12:57] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.0.0.tar.gz]
+[2024-04-23 14:12:57] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.0.1.tar.gz]
+[2024-04-23 14:12:57] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-04-23 14:12:57] INFO root fetch - main [MainThread]: Store serial: [22893523]
