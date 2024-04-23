@@ -10794,3 +10794,42 @@
 [2024-04-23 07:18:11] INFO root fetch - processPackages [ml-metadata]: Remove: archive file [/home/abi/fetcher/tmp/ml_metadata-1.9.0-cp39-cp39-win_amd64.whl.zip]
 [2024-04-23 07:18:11] INFO root fetch - main [MainThread]: End processing [ml-metadata]: success
 [2024-04-23 07:18:11] INFO root fetch - main [MainThread]: Store serial: [22889269]
+[2024-04-23 07:20:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22889269]
+[2024-04-23 07:20:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 07:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dmk-packages
+[2024-04-23 07:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpe-rift-pipe
+[2024-04-23 07:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: YaraForge
+[2024-04-23 07:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uac-api
+[2024-04-23 07:20:20] INFO root fetch - processPackages [uac-api]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-23 07:20:20] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-04-23 07:20:20] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/c0/3b/41ff1dc15fa0338560b03a1df021e637cd7114f98c6bc1fb3d6dd22e8557/uac-api-0.2.0.tar.gz
+[2024-04-23 07:20:20] INFO root fetch - processPackages [dmk-packages]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-23 07:20:20] INFO root fetch - processPackages [YaraForge]: New version: [0.1.4b1] Old Version: [0.1.3b1]
+[2024-04-23 07:20:20] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-04-23 07:20:20] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/7d/23/caa2113b4caa58cb489a4e8a321dedf75f38c993eec20eea9d5993ee2b9c/dmk_packages-0.6.4.tar.gz
+[2024-04-23 07:20:20] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/06/48/331e12f504dba80c777ac5327154633890d84a6dc9578c1fc4714cd17a39/YaraForge-0.1.3b1.tar.gz
+[2024-04-23 07:20:20] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-04-23 07:20:20] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/ca/03/5a1cc4ca34e0ccc2c528bddab8886693991c47030930d689e2558d50f91c/uac-api-0.2.1.tar.gz
+[2024-04-23 07:20:20] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-04-23 07:20:20] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240423/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-04-23 07:20:20] INFO root fetch - processPackages [uac-api]: executing diffoscope
+[2024-04-23 07:20:20] INFO root fetch - processPackages [uac-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uac-api-0.2.0.tar.gz tmp/uac-api-0.2.1.tar.gz --markdown 20240423/u/uac-api/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-23 07:20:20] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/01/43/1c295b96bd6c2b16ad8ff7c25cb80a5fd52d73bd4f45aa8ba31620557af6/dmk_packages-0.6.5.tar.gz
+[2024-04-23 07:20:20] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/b3/63/08fc5a81b7ee9dc079aeffbecdfcf9d817f5c144b7dce7c611f620445740/YaraForge-0.1.4b1.tar.gz
+[2024-04-23 07:20:20] INFO root fetch - processPackages [dmk-packages]: executing diffoscope
+[2024-04-23 07:20:20] INFO root fetch - processPackages [dmk-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmk_packages-0.6.4.tar.gz tmp/dmk_packages-0.6.5.tar.gz --markdown 20240423/d/dmk-packages/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-04-23 07:20:21] INFO root fetch - processPackages [YaraForge]: executing diffoscope
+[2024-04-23 07:20:21] INFO root fetch - processPackages [YaraForge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YaraForge-0.1.3b1.tar.gz tmp/YaraForge-0.1.4b1.tar.gz --markdown 20240423/Y/YaraForge/0.1.3b1-0.1.4b1/README.md --exclude *.pyd
+[2024-04-23 07:20:21] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.2.0.tar.gz]
+[2024-04-23 07:20:21] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.2.1.tar.gz]
+[2024-04-23 07:20:21] INFO root fetch - main [MainThread]: End processing [uac-api]: success
+[2024-04-23 07:20:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-04-23 07:20:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-04-23 07:20:21] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-04-23 07:20:21] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.4.tar.gz]
+[2024-04-23 07:20:21] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.5.tar.gz]
+[2024-04-23 07:20:21] INFO root fetch - main [MainThread]: End processing [dmk-packages]: success
+[2024-04-23 07:20:22] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.3b1.tar.gz]
+[2024-04-23 07:20:22] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.4b1.tar.gz]
+[2024-04-23 07:20:22] INFO root fetch - main [MainThread]: End processing [YaraForge]: success
+[2024-04-23 07:20:22] INFO root fetch - main [MainThread]: Store serial: [22889284]
