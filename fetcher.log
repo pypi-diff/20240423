@@ -23452,3 +23452,57 @@ EOFError: EOF read where object expected
 [2024-04-23 15:27:06] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.7.0-cp39-cp39-win_amd64.whl.zip]
 [2024-04-23 15:27:06] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
 [2024-04-23 15:27:06] INFO root fetch - main [MainThread]: Store serial: [22894646]
+[2024-04-23 15:29:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22894646]
+[2024-04-23 15:29:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 15:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TheSilent
+[2024-04-23 15:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matter-observability
+[2024-04-23 15:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2024-04-23 15:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zato-apitest
+[2024-04-23 15:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: doctran_openai
+[2024-04-23 15:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onnxruntime-genai
+[2024-04-23 15:29:15] INFO root fetch - processPackages [matter-observability]: New version: [2.0.0] Old Version: [1.6.0]
+[2024-04-23 15:29:15] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 15:29:15] INFO root fetch - processPackages [cg]: New version: [60.2.9] Old Version: [60.2.8]
+[2024-04-23 15:29:15] INFO root fetch - processPackages [zato-apitest]: New version: [24.1.9] Old Version: [24.1.10]
+[2024-04-23 15:29:15] INFO root fetch - processPackages [matter-observability]: Downloading https://files.pythonhosted.org/packages/de/cf/31ec2eeb793f47b82f9035b9592262833b299093bd1503ffa56119581f47/matter_observability-1.6.0-py3-none-any.whl
+[2024-04-23 15:29:15] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/cf/ee/05034545d75a841e008b92e49c2b144b94ab265f8b8878a39626222b7677/doctran_openai-0.0.8.tar.gz
+[2024-04-23 15:29:15] INFO root fetch - processPackages [onnxruntime-genai]: New version: [0.2.0rc1] Old Version: [0.1.0rc4]
+[2024-04-23 15:29:15] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/dd/49/ac51a477f27ab9495f9e9c5feb3ab9a6c7214546687895725a3dc4d9f147/cg-60.2.8-py3-none-any.whl
+[2024-04-23 15:29:16] INFO root fetch - processPackages [zato-apitest]: Downloading https://files.pythonhosted.org/packages/ac/38/229401f479e7dd13f5c650a183009399ebf4a887ba68646ff1498f486af8/zato_apitest-24.1.10.tar.gz
+[2024-04-23 15:29:16] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 15:29:16] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/bf/57/6123b8227a48d42aa4dc92614deefd2fb96be6aa7d4e4d9a03e12fbde0cb/doctran_openai-0.0.9.tar.gz
+[2024-04-23 15:29:16] INFO root fetch - processPackages [matter-observability]: Downloading https://files.pythonhosted.org/packages/5f/3e/0bf06765fbd39c52d61dfdcde4aaaea5b578c11d8cec53b93b78367d4f39/matter_observability-2.0.0-py3-none-any.whl
+[2024-04-23 15:29:16] INFO root fetch - processPackages [onnxruntime-genai]: Downloading https://files.pythonhosted.org/packages/67/c1/4d2ff4cec8480f10f1f4f8f9e37fc9539ff34dc945bd12a6bd9cdba661b9/onnxruntime_genai-0.1.0rc4-cp39-cp39-win_amd64.whl
+[2024-04-23 15:29:16] INFO root fetch - processPackages [matter-observability]: executing diffoscope
+[2024-04-23 15:29:16] INFO root fetch - processPackages [matter-observability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matter_observability-1.6.0-py3-none-any.whl.zip tmp/matter_observability-2.0.0-py3-none-any.whl.zip --markdown 20240423/m/matter-observability/1.6.0-2.0.0/README.md --exclude *.pyd
+[2024-04-23 15:29:16] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-23 15:29:16] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.8.tar.gz tmp/doctran_openai-0.0.9.tar.gz --markdown 20240423/d/doctran_openai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 15:29:16] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2024-04-23 15:29:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/0f/0d/e3839924847f808deb84f1a764c2aba70c0f1a0932a03e98a5f08b02d908/cg-60.2.9-py3-none-any.whl
+[2024-04-23 15:29:16] INFO root fetch - processPackages [zato-apitest]: Downloading https://files.pythonhosted.org/packages/84/b8/7b3d980ceafadb22236bf2537c793cd5475ba3d961aa2d78e2365bf43180/zato-apitest-24.1.9.tar.gz
+[2024-04-23 15:29:16] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2024-04-23 15:29:16] INFO root fetch - processPackages [zato-apitest]: executing diffoscope
+[2024-04-23 15:29:16] INFO root fetch - processPackages [zato-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zato_apitest-24.1.10.tar.gz tmp/zato-apitest-24.1.9.tar.gz --markdown 20240423/z/zato-apitest/24.1.10-24.1.9/README.md --exclude *.pyd
+[2024-04-23 15:29:16] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-23 15:29:16] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.2.8-py3-none-any.whl.zip tmp/cg-60.2.9-py3-none-any.whl.zip --markdown 20240423/c/cg/60.2.8-60.2.9/README.md --exclude *.pyd
+[2024-04-23 15:29:16] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2024-04-23 15:29:16] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20240423/T/TheSilent/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 15:29:17] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.8.tar.gz]
+[2024-04-23 15:29:17] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.9.tar.gz]
+[2024-04-23 15:29:17] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-23 15:29:17] INFO root fetch - processPackages [matter-observability]: Remove: archive file [/home/abi/fetcher/tmp/matter_observability-1.6.0-py3-none-any.whl.zip]
+[2024-04-23 15:29:17] INFO root fetch - processPackages [matter-observability]: Remove: archive file [/home/abi/fetcher/tmp/matter_observability-2.0.0-py3-none-any.whl.zip]
+[2024-04-23 15:29:17] INFO root fetch - main [MainThread]: End processing [matter-observability]: success
+[2024-04-23 15:29:17] INFO root fetch - processPackages [zato-apitest]: Remove: archive file [/home/abi/fetcher/tmp/zato_apitest-24.1.10.tar.gz]
+[2024-04-23 15:29:17] INFO root fetch - processPackages [zato-apitest]: Remove: archive file [/home/abi/fetcher/tmp/zato-apitest-24.1.9.tar.gz]
+[2024-04-23 15:29:17] INFO root fetch - main [MainThread]: End processing [zato-apitest]: success
+[2024-04-23 15:29:17] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2024-04-23 15:29:17] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2024-04-23 15:29:17] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2024-04-23 15:29:17] INFO root fetch - processPackages [onnxruntime-genai]: Downloading https://files.pythonhosted.org/packages/1f/b7/2873fbd2123c021745b7bc5ed222264aa9ab80e7e1ae51583b9b16569b65/onnxruntime_genai-0.2.0rc1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+[2024-04-23 15:29:18] WARNING root fetch - processPackages [onnxruntime-genai]: Skipping package: exceeds size limit 11841112>=10485760
+[2024-04-23 15:29:18] INFO root fetch - main [MainThread]: End processing [onnxruntime-genai] error
+[2024-04-23 15:29:20] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.8-py3-none-any.whl.zip]
+[2024-04-23 15:29:20] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.9-py3-none-any.whl.zip]
+[2024-04-23 15:29:20] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-23 15:29:20] INFO root fetch - main [MainThread]: Store serial: [22894694]
