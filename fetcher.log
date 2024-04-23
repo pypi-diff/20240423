@@ -13775,3 +13775,104 @@
 [2024-04-23 09:53:19] INFO root fetch - processPackages [tensorneko]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko-0.3.9.tar.gz]
 [2024-04-23 09:53:19] INFO root fetch - main [MainThread]: End processing [tensorneko]: success
 [2024-04-23 09:53:19] INFO root fetch - main [MainThread]: Store serial: [22890511]
+[2024-04-23 09:55:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890511]
+[2024-04-23 09:55:28] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-23 09:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-photovoltaic-api
+[2024-04-23 09:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: memento-scorecard
+[2024-04-23 09:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yolonnx
+[2024-04-23 09:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorneko-util
+[2024-04-23 09:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heimdall-tools
+[2024-04-23 09:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: requake
+[2024-04-23 09:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phewgle
+[2024-04-23 09:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bo4e
+[2024-04-23 09:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unimernet
+[2024-04-23 09:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CoreStart
+[2024-04-23 09:55:29] INFO root fetch - processPackages [CoreStart]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-04-23 09:55:29] INFO root fetch - processPackages [unimernet]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-23 09:55:29] INFO root fetch - processPackages [memento-scorecard]: New version: [2.0.1] Old Version: [1.3.2]
+[2024-04-23 09:55:29] INFO root fetch - processPackages [bo4e]: New version: [202401.1.0rc2] Old Version: [202401.1.0rc1]
+[2024-04-23 09:55:29] INFO root fetch - processPackages [tensorneko-util]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-23 09:55:29] INFO root fetch - processPackages [heimdall-tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-23 09:55:29] INFO root fetch - processPackages [requake]: New version: [0.5] Old Version: [0.4.1]
+[2024-04-23 09:55:29] WARNING root fetch - processPackages [yolonnx]: Skipping, unable to determine old version
+[2024-04-23 09:55:29] INFO root fetch - processPackages [yolonnx]: Start processing: cfunits
+[2024-04-23 09:55:29] INFO root fetch - main [MainThread]: End processing [yolonnx] error
+[2024-04-23 09:55:29] INFO root fetch - processPackages [phewgle]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-23 09:55:29] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: New version: [13.0.1.1.9] Old Version: [13.0.1.1.8]
+[2024-04-23 09:55:29] INFO root fetch - processPackages [CoreStart]: Downloading https://files.pythonhosted.org/packages/95/98/8b5a65f1ce29178a4da6b3e2520bbb3ad03279d66e94a41a84f5653df402/corestart-0.1.1.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/4f/da/cceeadb919be7df05b17a3a58f7b3254001ae022884011d94aac7361ea57/memento-scorecard-1.3.2.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/c8/f0/3927c822e3df9b1dd7bf65903532ab21494d3f97b40261a123f031dd1fb2/bo4e-202401.1.0rc1.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [unimernet]: Downloading https://files.pythonhosted.org/packages/b1/d6/f0ca4caa53ace2d5de53a4b348d63652dd44c13b212830fb0d5f1e4772a1/unimernet-0.0.1-py2.py3-none-any.whl
+[2024-04-23 09:55:29] INFO root fetch - processPackages [cfunits]: New version: [3.3.7] Old Version: [3.3.6]
+[2024-04-23 09:55:29] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/6c/30/d301927021a6b908e481c4096c9bd4b6f354dc4f7b5ac834126fef61cc37/tensorneko_util-0.3.8.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/10/1e/0b0cc8eb273e9b2b2675b349a155493ebe136169886e86af1026c50463d5/odoo13-addon-photovoltaic_api-13.0.1.1.8.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [requake]: Downloading https://files.pythonhosted.org/packages/7b/51/c911b3471e1a58b9004585d3502b552293c4dd3cd8c56faadc8f3a7b81d9/requake-0.4.1.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [heimdall-tools]: Downloading https://files.pythonhosted.org/packages/48/b3/47f59506f243a0534f0906ff47761fe5fc85abdaf8b16a06ba8ad9f18790/heimdall_tools-0.1.1.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [phewgle]: Downloading https://files.pythonhosted.org/packages/ef/00/b4bc9a4f29bdc2d78d7b0959c41c7b44142fdb42c4a3e915c67859a9783e/phewgle-0.1.3.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [CoreStart]: Downloading https://files.pythonhosted.org/packages/f7/b7/8eee325ef5f2d234449df5e7fef12724682530728aa62573003163019a47/CoreStart-0.1.3.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/ec/36/3d0a6181b2c6fc8df4204764a32eb4aa3bce00249ea2b0a67abb0d514b56/bo4e-202401.1.0rc2.tar.gz
+[2024-04-23 09:55:29] ERROR root fetch - processPackages [memento-scorecard]: Unable to fetch info: No such project/version 'memento-scorecard' 2.0.1
+[2024-04-23 09:55:29] INFO root fetch - processPackages [memento-scorecard]: Start processing: cdo-sdk-python
+[2024-04-23 09:55:29] INFO root fetch - main [MainThread]: End processing [memento-scorecard] error
+[2024-04-23 09:55:29] INFO root fetch - processPackages [cfunits]: Downloading https://files.pythonhosted.org/packages/d7/fc/a9080394ec6e2d3d661605d50d5598f87172c34d44f3c1166361e967009f/cfunits-3.3.6.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.94] Old Version: [1.0.93]
+[2024-04-23 09:55:29] INFO root fetch - processPackages [CoreStart]: executing diffoscope
+[2024-04-23 09:55:29] INFO root fetch - processPackages [CoreStart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corestart-0.1.1.tar.gz tmp/CoreStart-0.1.3.tar.gz --markdown 20240423/C/CoreStart/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-04-23 09:55:29] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/cd/ca/e0bbc9b82757c92ef4cc7f070f8780a102404579b31524b31c83483e6c51/odoo13-addon-photovoltaic_api-13.0.1.1.9.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/27/a0/32ada2566d3e8299f16a69152a6b56cdfbeb57958dfd65b208bdf17a34eb/cdo-sdk-python-1.0.93.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [heimdall-tools]: Downloading https://files.pythonhosted.org/packages/ab/16/ce456d8ccf2f3ffa41d5ea2a481747f6659ff6b13a71ddbbadb0489da135/heimdall_tools-0.1.2.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [bo4e]: executing diffoscope
+[2024-04-23 09:55:29] INFO root fetch - processPackages [bo4e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bo4e-202401.1.0rc1.tar.gz tmp/bo4e-202401.1.0rc2.tar.gz --markdown 20240423/b/bo4e/202401.1.0rc1-202401.1.0rc2/README.md --exclude *.pyd
+[2024-04-23 09:55:29] INFO root fetch - processPackages [phewgle]: Downloading https://files.pythonhosted.org/packages/00/97/1112f235377ae77e36026613421659529376ac4618e5dc4cbc77ded10a0b/phewgle-0.1.4.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [requake]: Downloading https://files.pythonhosted.org/packages/29/81/22e03fed018fa1ae47549692b2ff4b5b9cb9345536fba7ab0063aea5ff9d/requake-0.5.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/44/6e/a3d6aaf90349d556781694cb9e147d2267e187f267835e0bfdb74a3c5d6d/tensorneko_util-0.3.9.tar.gz
+[2024-04-23 09:55:29] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: executing diffoscope
+[2024-04-23 09:55:29] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13-addon-photovoltaic_api-13.0.1.1.8.tar.gz tmp/odoo13-addon-photovoltaic_api-13.0.1.1.9.tar.gz --markdown 20240423/o/odoo13-addon-photovoltaic-api/13.0.1.1.8-13.0.1.1.9/README.md --exclude *.pyd
+[2024-04-23 09:55:30] INFO root fetch - processPackages [unimernet]: Downloading https://files.pythonhosted.org/packages/e2/a2/5f1c9bcacdb2cf950cd57d5c71bed17a8de2b730425a5844a9b4c0c8784e/unimernet-0.0.2-py2.py3-none-any.whl
+[2024-04-23 09:55:30] INFO root fetch - processPackages [cfunits]: Downloading https://files.pythonhosted.org/packages/94/33/6ab78579a3c3be1f7ada33b7d4b8c4db9c00bc93ba77c8913d3090d3bf24/cfunits-3.3.7.tar.gz
+[2024-04-23 09:55:30] INFO root fetch - processPackages [heimdall-tools]: executing diffoscope
+[2024-04-23 09:55:30] INFO root fetch - processPackages [heimdall-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heimdall_tools-0.1.1.tar.gz tmp/heimdall_tools-0.1.2.tar.gz --markdown 20240423/h/heimdall-tools/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-23 09:55:30] INFO root fetch - processPackages [phewgle]: executing diffoscope
+[2024-04-23 09:55:30] INFO root fetch - processPackages [phewgle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phewgle-0.1.3.tar.gz tmp/phewgle-0.1.4.tar.gz --markdown 20240423/p/phewgle/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-23 09:55:30] INFO root fetch - processPackages [requake]: executing diffoscope
+[2024-04-23 09:55:30] INFO root fetch - processPackages [requake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requake-0.4.1.tar.gz tmp/requake-0.5.tar.gz --markdown 20240423/r/requake/0.4.1-0.5/README.md --exclude *.pyd
+[2024-04-23 09:55:30] INFO root fetch - processPackages [tensorneko-util]: executing diffoscope
+[2024-04-23 09:55:30] INFO root fetch - processPackages [tensorneko-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko_util-0.3.8.tar.gz tmp/tensorneko_util-0.3.9.tar.gz --markdown 20240423/t/tensorneko-util/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-23 09:55:30] INFO root fetch - processPackages [cfunits]: executing diffoscope
+[2024-04-23 09:55:30] INFO root fetch - processPackages [cfunits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfunits-3.3.6.tar.gz tmp/cfunits-3.3.7.tar.gz --markdown 20240423/c/cfunits/3.3.6-3.3.7/README.md --exclude *.pyd
+[2024-04-23 09:55:30] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/8d/90/1f71b5f0c56b1b0acc059a4db0538855fb6e5a45be7f153748a30210007c/cdo-sdk-python-1.0.94.tar.gz
+[2024-04-23 09:55:30] INFO root fetch - processPackages [unimernet]: executing diffoscope
+[2024-04-23 09:55:30] INFO root fetch - processPackages [unimernet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimernet-0.0.1-py2.py3-none-any.whl.zip tmp/unimernet-0.0.2-py2.py3-none-any.whl.zip --markdown 20240423/u/unimernet/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-23 09:55:30] INFO root fetch - processPackages [CoreStart]: Remove: archive file [/home/abi/fetcher/tmp/corestart-0.1.1.tar.gz]
+[2024-04-23 09:55:30] INFO root fetch - processPackages [CoreStart]: Remove: archive file [/home/abi/fetcher/tmp/CoreStart-0.1.3.tar.gz]
+[2024-04-23 09:55:30] INFO root fetch - main [MainThread]: End processing [CoreStart]: success
+[2024-04-23 09:55:30] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-23 09:55:30] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.93.tar.gz tmp/cdo-sdk-python-1.0.94.tar.gz --markdown 20240423/c/cdo-sdk-python/1.0.93-1.0.94/README.md --exclude *.pyd
+[2024-04-23 09:55:30] INFO root fetch - processPackages [phewgle]: Remove: archive file [/home/abi/fetcher/tmp/phewgle-0.1.3.tar.gz]
+[2024-04-23 09:55:30] INFO root fetch - processPackages [phewgle]: Remove: archive file [/home/abi/fetcher/tmp/phewgle-0.1.4.tar.gz]
+[2024-04-23 09:55:30] INFO root fetch - main [MainThread]: End processing [phewgle]: success
+[2024-04-23 09:55:30] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_api-13.0.1.1.8.tar.gz]
+[2024-04-23 09:55:30] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_api-13.0.1.1.9.tar.gz]
+[2024-04-23 09:55:30] INFO root fetch - main [MainThread]: End processing [odoo13-addon-photovoltaic-api]: success
+[2024-04-23 09:55:31] INFO root fetch - processPackages [heimdall-tools]: Remove: archive file [/home/abi/fetcher/tmp/heimdall_tools-0.1.1.tar.gz]
+[2024-04-23 09:55:31] INFO root fetch - processPackages [heimdall-tools]: Remove: archive file [/home/abi/fetcher/tmp/heimdall_tools-0.1.2.tar.gz]
+[2024-04-23 09:55:31] INFO root fetch - main [MainThread]: End processing [heimdall-tools]: success
+[2024-04-23 09:55:31] INFO root fetch - processPackages [cfunits]: Remove: archive file [/home/abi/fetcher/tmp/cfunits-3.3.6.tar.gz]
+[2024-04-23 09:55:31] INFO root fetch - processPackages [cfunits]: Remove: archive file [/home/abi/fetcher/tmp/cfunits-3.3.7.tar.gz]
+[2024-04-23 09:55:31] INFO root fetch - main [MainThread]: End processing [cfunits]: success
+[2024-04-23 09:55:31] INFO root fetch - processPackages [requake]: Remove: archive file [/home/abi/fetcher/tmp/requake-0.4.1.tar.gz]
+[2024-04-23 09:55:31] INFO root fetch - processPackages [requake]: Remove: archive file [/home/abi/fetcher/tmp/requake-0.5.tar.gz]
+[2024-04-23 09:55:31] INFO root fetch - main [MainThread]: End processing [requake]: success
+[2024-04-23 09:55:31] INFO root fetch - processPackages [unimernet]: Remove: archive file [/home/abi/fetcher/tmp/unimernet-0.0.1-py2.py3-none-any.whl.zip]
+[2024-04-23 09:55:31] INFO root fetch - processPackages [unimernet]: Remove: archive file [/home/abi/fetcher/tmp/unimernet-0.0.2-py2.py3-none-any.whl.zip]
+[2024-04-23 09:55:31] INFO root fetch - main [MainThread]: End processing [unimernet]: success
+[2024-04-23 09:55:31] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.1.0rc1.tar.gz]
+[2024-04-23 09:55:31] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.1.0rc2.tar.gz]
+[2024-04-23 09:55:31] INFO root fetch - main [MainThread]: End processing [bo4e]: success
+[2024-04-23 09:55:31] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.93.tar.gz]
+[2024-04-23 09:55:31] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.94.tar.gz]
+[2024-04-23 09:55:31] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-23 09:55:39] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.8.tar.gz]
+[2024-04-23 09:55:39] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.9.tar.gz]
+[2024-04-23 09:55:39] INFO root fetch - main [MainThread]: End processing [tensorneko-util]: success
+[2024-04-23 09:55:39] INFO root fetch - main [MainThread]: Store serial: [22890546]
