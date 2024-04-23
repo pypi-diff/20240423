@@ -3189,3 +3189,38 @@
 [2024-04-23 02:44:55] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404220044.tar.gz]
 [2024-04-23 02:44:55] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-23 02:44:55] INFO root fetch - main [MainThread]: Store serial: [22886490]
+[2024-04-23 02:46:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886490]
+[2024-04-23 02:47:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-23 02:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchling-api-client
+[2024-04-23 02:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-readability-metrics-small
+[2024-04-23 02:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nm-magic-wand-nightly
+[2024-04-23 02:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: market-engine
+[2024-04-23 02:47:04] INFO root fetch - processPackages [py-readability-metrics-small]: New version: [1.5] Old Version: [1.4.4]
+[2024-04-23 02:47:04] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-23 02:47:04] INFO root fetch - processPackages [market-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-23 02:47:04] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240423] Old Version: [0.2.2.20240422]
+[2024-04-23 02:47:04] INFO root fetch - processPackages [py-readability-metrics-small]: Downloading https://files.pythonhosted.org/packages/1c/e4/2c18455014a79195388685fac711d53deb8c9706e33cc9128f121ed6509a/py-readability-metrics-small-1.4.4.tar.gz
+[2024-04-23 02:47:04] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2024-04-23 02:47:04] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/d8/bd/82a9be9afd2e3a96f90ebba4b98815d7c0d5c6661a2819b61db3eabf4cc2/market-engine-0.1.8.tar.gz
+[2024-04-23 02:47:04] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/70/97/4488e7e86425331f7b7317a26c6734b0d20ca2a38cf5e61f9febaafbd5a8/nm_magic_wand_nightly-0.2.2.20240422-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-23 02:47:04] INFO root fetch - processPackages [py-readability-metrics-small]: Downloading https://files.pythonhosted.org/packages/96/98/8123505b77f8416b9ca110eeda94476c2183bbca2376300e4c6a1e682139/py_readability_metrics_small-1.5.tar.gz
+[2024-04-23 02:47:04] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 76592067>=10485760
+[2024-04-23 02:47:04] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-23 02:47:04] INFO root fetch - processPackages [py-readability-metrics-small]: executing diffoscope
+[2024-04-23 02:47:04] INFO root fetch - processPackages [py-readability-metrics-small]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-readability-metrics-small-1.4.4.tar.gz tmp/py_readability_metrics_small-1.5.tar.gz --markdown 20240423/p/py-readability-metrics-small/1.4.4-1.5/README.md --exclude *.pyd
+[2024-04-23 02:47:04] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2024-04-23 02:47:04] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/3b/e0/436fca5207f1cd4f34ca629d8709efe1ef4b8955f65769c7375c0278d2c5/market-engine-0.1.9.tar.gz
+[2024-04-23 02:47:05] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2024-04-23 02:47:05] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.1.8.tar.gz tmp/market-engine-0.1.9.tar.gz --markdown 20240423/m/market-engine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-23 02:47:05] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2024-04-23 02:47:05] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20240423/b/benchling-api-client/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-23 02:47:05] INFO root fetch - processPackages [py-readability-metrics-small]: Remove: archive file [/home/abi/fetcher/tmp/py-readability-metrics-small-1.4.4.tar.gz]
+[2024-04-23 02:47:05] INFO root fetch - processPackages [py-readability-metrics-small]: Remove: archive file [/home/abi/fetcher/tmp/py_readability_metrics_small-1.5.tar.gz]
+[2024-04-23 02:47:05] INFO root fetch - main [MainThread]: End processing [py-readability-metrics-small]: success
+[2024-04-23 02:47:05] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.1.8.tar.gz]
+[2024-04-23 02:47:05] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.1.9.tar.gz]
+[2024-04-23 02:47:05] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2024-04-23 02:47:23] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2024-04-23 02:47:23] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2024-04-23 02:47:23] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2024-04-23 02:47:23] INFO root fetch - main [MainThread]: Store serial: [22886504]
