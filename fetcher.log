@@ -8835,3 +8835,60 @@
 [2024-04-23 05:08:21] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_text_translator-2024.4.22.tar.gz]
 [2024-04-23 05:08:21] INFO root fetch - main [MainThread]: End processing [django-text-translator]: success
 [2024-04-23 05:08:21] INFO root fetch - main [MainThread]: Store serial: [22888416]
+[2024-04-23 05:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22888416]
+[2024-04-23 05:10:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-23 05:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-04-23 05:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proksee-batch
+[2024-04-23 05:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qualesim-qcis
+[2024-04-23 05:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: afeng-py-tools
+[2024-04-23 05:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MeUtils
+[2024-04-23 05:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cns
+[2024-04-23 05:10:30] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-23 05:10:30] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.23.9.47.34]
+[2024-04-23 05:10:30] INFO root fetch - processPackages [qualesim-qcis]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-23 05:10:30] INFO root fetch - processPackages [cns]: New version: [1.9.35] Old Version: [1.9.34]
+[2024-04-23 05:10:30] INFO root fetch - processPackages [proksee-batch]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-23 05:10:30] INFO root fetch - processPackages [MeUtils]: New version: [2024.4.23.11.9.43] Old Version: [2024.4.11.9.16.11]
+[2024-04-23 05:10:30] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-23 05:10:30] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/97/6d/dc66a8f48453cfaa486b94d6cbee1872a1cddfe8854c71262644fc951a5b/chatllm-2024.4.23.9.47.34.tar.gz
+[2024-04-23 05:10:30] INFO root fetch - processPackages [qualesim-qcis]: Downloading https://files.pythonhosted.org/packages/bd/0c/52c7fe40ddda41d81fb8e8a206f4836cffe218a1bff3336c499058e2227d/qualesim-qcis-1.0.0.tar.gz
+[2024-04-23 05:10:30] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/9e/21/52a1a6fb50a3d4a5c41a99b086e37ccaf17c85a2d566a7149a4eef2ec213/cns-1.9.34-py3-none-any.whl
+[2024-04-23 05:10:30] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/87/77/eceea51332b123244f3f38872eb959aeb2e5a1989b4c71a79f775a545aa1/proksee_batch-0.5.8.tar.gz
+[2024-04-23 05:10:30] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/d7/0f/dea3e24c5aa53d02b6ece96a91d67a0043f5a7c61f776eaecf95bb95200f/MeUtils-2024.4.11.9.16.11.tar.gz
+[2024-04-23 05:10:30] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-23 05:10:30] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-23 05:10:30] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240423/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-23 05:10:30] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-23 05:10:30] INFO root fetch - processPackages [qualesim-qcis]: Downloading https://files.pythonhosted.org/packages/c7/d4/b2a231ef4317f2a4447b9d013cfe0774eec77cab9d183382a9c6cac779db/qualesim-qcis-1.0.1.tar.gz
+[2024-04-23 05:10:30] INFO root fetch - processPackages [qualesim-qcis]: executing diffoscope
+[2024-04-23 05:10:30] INFO root fetch - processPackages [qualesim-qcis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualesim-qcis-1.0.0.tar.gz tmp/qualesim-qcis-1.0.1.tar.gz --markdown 20240423/q/qualesim-qcis/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-23 05:10:30] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/2d/69/a271340d45456c6ca1f14a458226277e0e2dbcc75ec2f4b0555877e23b27/cns-1.9.35-py3-none-any.whl
+[2024-04-23 05:10:30] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-23 05:10:30] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.23.9.47.34.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240423/c/chatllm/2024.4.23.9.47.34-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-23 05:10:31] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/a2/22/c05b4f6461bdf1baf4831041268c4f903463fec38a2fdf911a6f85a96787/MeUtils-2024.4.23.11.9.43.tar.gz
+[2024-04-23 05:10:31] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/cd/e5/77ba32d35c45add0f725e323bf178c710319e608ffdec0b1828dafeeda4f/proksee_batch-0.5.9.tar.gz
+[2024-04-23 05:10:31] INFO root fetch - processPackages [cns]: executing diffoscope
+[2024-04-23 05:10:31] INFO root fetch - processPackages [cns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cns-1.9.34-py3-none-any.whl.zip tmp/cns-1.9.35-py3-none-any.whl.zip --markdown 20240423/c/cns/1.9.34-1.9.35/README.md --exclude *.pyd
+[2024-04-23 05:10:31] INFO root fetch - processPackages [qualesim-qcis]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-qcis-1.0.0.tar.gz]
+[2024-04-23 05:10:31] INFO root fetch - processPackages [qualesim-qcis]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-qcis-1.0.1.tar.gz]
+[2024-04-23 05:10:31] INFO root fetch - main [MainThread]: End processing [qualesim-qcis]: success
+[2024-04-23 05:10:31] INFO root fetch - processPackages [proksee-batch]: executing diffoscope
+[2024-04-23 05:10:31] INFO root fetch - processPackages [proksee-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proksee_batch-0.5.8.tar.gz tmp/proksee_batch-0.5.9.tar.gz --markdown 20240423/p/proksee-batch/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-23 05:10:31] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.9.34-py3-none-any.whl.zip]
+[2024-04-23 05:10:31] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.9.35-py3-none-any.whl.zip]
+[2024-04-23 05:10:31] INFO root fetch - main [MainThread]: End processing [cns]: success
+[2024-04-23 05:10:31] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-23 05:10:31] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-23 05:10:31] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-23 05:10:32] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-04-23 05:10:32] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.4.11.9.16.11.tar.gz tmp/MeUtils-2024.4.23.11.9.43.tar.gz --markdown 20240423/M/MeUtils/2024.4.11.9.16.11-2024.4.23.11.9.43/README.md --exclude *.pyd
+[2024-04-23 05:10:32] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.23.9.47.34.tar.gz]
+[2024-04-23 05:10:32] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-23 05:10:32] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-23 05:10:33] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.5.8.tar.gz]
+[2024-04-23 05:10:33] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.5.9.tar.gz]
+[2024-04-23 05:10:33] INFO root fetch - main [MainThread]: End processing [proksee-batch]: success
+[2024-04-23 05:10:34] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.11.9.16.11.tar.gz]
+[2024-04-23 05:10:34] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.23.11.9.43.tar.gz]
+[2024-04-23 05:10:34] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-04-23 05:10:34] INFO root fetch - main [MainThread]: Store serial: [22888433]
