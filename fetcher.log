@@ -2941,3 +2941,51 @@
 [2024-04-23 02:31:06] INFO root fetch - processPackages [picoscope]: Remove: archive file [/home/abi/fetcher/tmp/picoscope-0.7.9.tar.gz]
 [2024-04-23 02:31:06] INFO root fetch - main [MainThread]: End processing [picoscope]: success
 [2024-04-23 02:31:06] INFO root fetch - main [MainThread]: Store serial: [22886414]
+[2024-04-23 02:33:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22886414]
+[2024-04-23 02:33:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 02:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picoscope
+[2024-04-23 02:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docprompt
+[2024-04-23 02:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bbot
+[2024-04-23 02:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DFRobotUPS
+[2024-04-23 02:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsms-sdk
+[2024-04-23 02:33:15] INFO root fetch - processPackages [DFRobotUPS]: New version: [0.4.1] Old Version: [0.4]
+[2024-04-23 02:33:15] INFO root fetch - processPackages [picoscope]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-23 02:33:15] INFO root fetch - processPackages [docprompt]: New version: [0.3.0] Old Version: [0.2.8]
+[2024-04-23 02:33:15] INFO root fetch - processPackages [dsms-sdk]: New version: [1.4.0rc8] Old Version: [1.4.0rc7]
+[2024-04-23 02:33:15] INFO root fetch - processPackages [picoscope]: Downloading https://files.pythonhosted.org/packages/bb/ea/1c4375e1d37bc25eecc4cdd346021300a968d90605fd631c763b1fb286ba/picoscope-0.7.8.tar.gz
+[2024-04-23 02:33:15] INFO root fetch - processPackages [bbot]: New version: [1.1.7.7rc0] Old Version: [1.1.7.6rc0]
+[2024-04-23 02:33:15] INFO root fetch - processPackages [DFRobotUPS]: Downloading https://files.pythonhosted.org/packages/c8/cb/1a44e7d68bf5d1d58b235c5cbe5ec1d70f3c93d6f879c327a79498fa0c58/DFRobotUPS-0.4.tar.gz
+[2024-04-23 02:33:15] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/c9/5e/25b5c20e689ae1be4626a23ff0de1d1e92c366c7dbff26132a1332c78dce/dsms_sdk-1.4.0rc7.tar.gz
+[2024-04-23 02:33:15] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/d0/a2/89c31b328efee618185ff850c44a8963cc162678f5ed62e5127feb0977cc/docprompt-0.2.8.tar.gz
+[2024-04-23 02:33:15] INFO root fetch - processPackages [picoscope]: Downloading https://files.pythonhosted.org/packages/22/84/f3b04c2a22f6a3b559838cfb6f974165ed7df20cf4ec390d06edd3cf1fe1/picoscope-0.7.9.tar.gz
+[2024-04-23 02:33:15] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/0e/89/05677f40d2885a5aa8306d6e691a9c8e8bde59b2659d8c45e30c01a31b74/bbot-1.1.7.6rc0.tar.gz
+[2024-04-23 02:33:15] INFO root fetch - processPackages [picoscope]: executing diffoscope
+[2024-04-23 02:33:15] INFO root fetch - processPackages [picoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picoscope-0.7.8.tar.gz tmp/picoscope-0.7.9.tar.gz --markdown 20240423/p/picoscope/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-23 02:33:16] INFO root fetch - processPackages [DFRobotUPS]: Downloading https://files.pythonhosted.org/packages/b3/89/0609a9ca4cf5269202a59e384949af27c78b8baf85b759539ba46e8d90f9/DFRobotUPS-0.4.1.tar.gz
+[2024-04-23 02:33:16] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/99/f2/574cc897b36eaa90d9d659e0e3ca096c1c734ad8e9381a87579cff03e716/dsms_sdk-1.4.0rc8.tar.gz
+[2024-04-23 02:33:16] INFO root fetch - processPackages [DFRobotUPS]: executing diffoscope
+[2024-04-23 02:33:16] INFO root fetch - processPackages [DFRobotUPS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DFRobotUPS-0.4.tar.gz tmp/DFRobotUPS-0.4.1.tar.gz --markdown 20240423/D/DFRobotUPS/0.4-0.4.1/README.md --exclude *.pyd
+[2024-04-23 02:33:16] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/89/ec/604538d7aeaf7a1ef2bb5ed997ee174a40c2141393894aa4052f0bcc3ec0/docprompt-0.3.0.tar.gz
+[2024-04-23 02:33:16] INFO root fetch - processPackages [dsms-sdk]: executing diffoscope
+[2024-04-23 02:33:16] INFO root fetch - processPackages [dsms-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsms_sdk-1.4.0rc7.tar.gz tmp/dsms_sdk-1.4.0rc8.tar.gz --markdown 20240423/d/dsms-sdk/1.4.0rc7-1.4.0rc8/README.md --exclude *.pyd
+[2024-04-23 02:33:16] INFO root fetch - processPackages [docprompt]: executing diffoscope
+[2024-04-23 02:33:16] INFO root fetch - processPackages [docprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docprompt-0.2.8.tar.gz tmp/docprompt-0.3.0.tar.gz --markdown 20240423/d/docprompt/0.2.8-0.3.0/README.md --exclude *.pyd
+[2024-04-23 02:33:16] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/84/41/8580d0cea5bf01417fb7b7db4ce6c0bc6617c939c9859c98790d2121b508/bbot-1.1.7.7rc0.tar.gz
+[2024-04-23 02:33:16] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2024-04-23 02:33:16] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.7.6rc0.tar.gz tmp/bbot-1.1.7.7rc0.tar.gz --markdown 20240423/b/bbot/1.1.7.6rc0-1.1.7.7rc0/README.md --exclude *.pyd
+[2024-04-23 02:33:16] INFO root fetch - processPackages [picoscope]: Remove: archive file [/home/abi/fetcher/tmp/picoscope-0.7.8.tar.gz]
+[2024-04-23 02:33:16] INFO root fetch - processPackages [picoscope]: Remove: archive file [/home/abi/fetcher/tmp/picoscope-0.7.9.tar.gz]
+[2024-04-23 02:33:16] INFO root fetch - main [MainThread]: End processing [picoscope]: success
+[2024-04-23 02:33:16] INFO root fetch - processPackages [DFRobotUPS]: Remove: archive file [/home/abi/fetcher/tmp/DFRobotUPS-0.4.tar.gz]
+[2024-04-23 02:33:16] INFO root fetch - processPackages [DFRobotUPS]: Remove: archive file [/home/abi/fetcher/tmp/DFRobotUPS-0.4.1.tar.gz]
+[2024-04-23 02:33:16] INFO root fetch - main [MainThread]: End processing [DFRobotUPS]: success
+[2024-04-23 02:33:16] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc7.tar.gz]
+[2024-04-23 02:33:16] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc8.tar.gz]
+[2024-04-23 02:33:16] INFO root fetch - main [MainThread]: End processing [dsms-sdk]: success
+[2024-04-23 02:33:17] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.2.8.tar.gz]
+[2024-04-23 02:33:17] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.3.0.tar.gz]
+[2024-04-23 02:33:17] INFO root fetch - main [MainThread]: End processing [docprompt]: success
+[2024-04-23 02:33:18] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.6rc0.tar.gz]
+[2024-04-23 02:33:18] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.7rc0.tar.gz]
+[2024-04-23 02:33:18] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2024-04-23 02:33:18] INFO root fetch - main [MainThread]: Store serial: [22886430]
