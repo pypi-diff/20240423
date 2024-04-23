@@ -12746,3 +12746,24 @@
 [2024-04-23 09:05:28] INFO root fetch - processPackages [basx-bread]: Remove: archive file [/home/abi/fetcher/tmp/basx_bread-0.7.95.tar.gz]
 [2024-04-23 09:05:28] INFO root fetch - main [MainThread]: End processing [basx-bread]: success
 [2024-04-23 09:05:28] INFO root fetch - main [MainThread]: Store serial: [22890034]
+[2024-04-23 09:07:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22890034]
+[2024-04-23 09:07:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-23 09:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doctran_openai
+[2024-04-23 09:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mycttestsdk
+[2024-04-23 09:07:36] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-23 09:07:36] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/25/47/288f458d0098f1d13a3ab90efa82cc3d6af7aca0079827895228df401e8e/doctran_openai-0.0.5.tar.gz
+[2024-04-23 09:07:37] INFO root fetch - processPackages [mycttestsdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-23 09:07:37] INFO root fetch - processPackages [mycttestsdk]: Downloading https://files.pythonhosted.org/packages/8d/c4/b3ab11926c54fd1f74c9d4f9db56c0f279b9d4f5d015a7fb982c429a464d/mycttestsdk-0.1.0.tar.gz
+[2024-04-23 09:07:37] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/da/b3/5d97d5ddc29220e78dcc232f9decf9220c07b4b800c8c896212fc37009e4/doctran_openai-0.0.6.tar.gz
+[2024-04-23 09:07:37] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-23 09:07:37] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.5.tar.gz tmp/doctran_openai-0.0.6.tar.gz --markdown 20240423/d/doctran_openai/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-23 09:07:37] INFO root fetch - processPackages [mycttestsdk]: Downloading https://files.pythonhosted.org/packages/6b/bd/8197146e66447e6b6e5ce15a9dac03cc94bc1045ea70a4c4e737e5eb71d5/mycttestsdk-0.1.1.tar.gz
+[2024-04-23 09:07:37] INFO root fetch - processPackages [mycttestsdk]: executing diffoscope
+[2024-04-23 09:07:37] INFO root fetch - processPackages [mycttestsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycttestsdk-0.1.0.tar.gz tmp/mycttestsdk-0.1.1.tar.gz --markdown 20240423/m/mycttestsdk/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-23 09:07:37] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.5.tar.gz]
+[2024-04-23 09:07:37] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.6.tar.gz]
+[2024-04-23 09:07:37] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-23 09:07:38] INFO root fetch - processPackages [mycttestsdk]: Remove: archive file [/home/abi/fetcher/tmp/mycttestsdk-0.1.0.tar.gz]
+[2024-04-23 09:07:38] INFO root fetch - processPackages [mycttestsdk]: Remove: archive file [/home/abi/fetcher/tmp/mycttestsdk-0.1.1.tar.gz]
+[2024-04-23 09:07:38] INFO root fetch - main [MainThread]: End processing [mycttestsdk]: success
+[2024-04-23 09:07:38] INFO root fetch - main [MainThread]: Store serial: [22890041]
