@@ -19103,3 +19103,191 @@
 [2024-04-23 13:14:12] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-04-23 13:14:12] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-04-23 13:14:12] INFO root fetch - main [MainThread]: Store serial: [22892833]
+[2024-04-23 13:16:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892833]
+[2024-04-23 13:16:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-23 13:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: db-conn-lib
+[2024-04-23 13:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pellipop
+[2024-04-23 13:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-23 13:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opensr-utils
+[2024-04-23 13:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kiauto
+[2024-04-23 13:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fdamages
+[2024-04-23 13:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyatlan
+[2024-04-23 13:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: input4mips-validation
+[2024-04-23 13:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pellipop
+[2024-04-23 13:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: numerous
+[2024-04-23 13:16:21] WARNING root fetch - processPackages [db-conn-lib]: Skipping, unable to determine old version
+[2024-04-23 13:16:21] INFO root fetch - processPackages [db-conn-lib]: Start processing: gridengine-framework
+[2024-04-23 13:16:21] INFO root fetch - main [MainThread]: End processing [db-conn-lib] error
+[2024-04-23 13:16:21] INFO root fetch - processPackages [opensr-utils]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-23 13:16:21] INFO root fetch - processPackages [input4mips-validation]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-23 13:16:21] INFO root fetch - processPackages [gridengine-framework]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-23 13:16:21] INFO root fetch - processPackages [pellipop]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-23 13:16:21] INFO root fetch - processPackages [pellipop]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-23 13:16:21] INFO root fetch - processPackages [fdamages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 13:16:21] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240423] Old Version: [2.5.0b20240422]
+[2024-04-23 13:16:21] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/0a/69/fd45c2b7a784583b1532eb88fa3531a0895c5bff99d148b276a3808510d7/opensr-utils-0.4.8.tar.gz
+[2024-04-23 13:16:21] INFO root fetch - processPackages [numerous]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-23 13:16:21] INFO root fetch - processPackages [kiauto]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-04-23 13:16:21] INFO root fetch - processPackages [pyatlan]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-23 13:16:21] INFO root fetch - processPackages [input4mips-validation]: Downloading https://files.pythonhosted.org/packages/e2/d6/599f811d342dcaf885f341f402b494313fb5adc20b5590d90cf750a0c410/input4mips_validation-0.2.1.tar.gz
+[2024-04-23 13:16:21] INFO root fetch - processPackages [gridengine-framework]: Downloading https://files.pythonhosted.org/packages/76/42/4eae3dba0bf7717567bfcefe92487b55f07bcaeb317d749f632dbcc35935/gridengine_framework-0.8.1.tar.gz
+[2024-04-23 13:16:21] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/d8/16/79b2cae3ce333bdc6d1c61d62fd340157cc9b87c7f13b529df9781c5bbf9/pellipop-0.8.1.tar.gz
+[2024-04-23 13:16:21] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/d8/16/79b2cae3ce333bdc6d1c61d62fd340157cc9b87c7f13b529df9781c5bbf9/pellipop-0.8.1.tar.gz
+[2024-04-23 13:16:21] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/77/6b/96d48ee9e315541e9d856fc6a93ffd7c7a217dc9f817f2da1ff2f37c5d0f/numerous-0.0.8.tar.gz
+[2024-04-23 13:16:21] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/f7/47/b073d66da70f033a16648506bf9c8c9bf6bb94a4c2addffde34a57d1029e/fdamages-0.0.8.tar.gz
+[2024-04-23 13:16:21] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/ec/e2/68317fbe6e0b8067d191db425e2cec2776a26d00d680876c208decc65d8f/bigdl_core_xe_esimd_21-2.5.0b20240422-cp39-cp39-win_amd64.whl
+[2024-04-23 13:16:21] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/15/be/dcc97824d92435287338dc6735864ecc8a1eae11406d3059337add644a08/pyatlan-2.1.5.tar.gz
+[2024-04-23 13:16:21] INFO root fetch - processPackages [kiauto]: Downloading https://files.pythonhosted.org/packages/ed/3d/08f03ed2ed762affbab3c2a584c4968707cb809f8e1dea87ed3c9a959192/kiauto-2.3.0.tar.gz
+[2024-04-23 13:16:21] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/01/be/98b9f6d453ee11648ecbba55c24d93d20f21bea71dc8cc0b0ca3f3271908/opensr-utils-0.4.9.tar.gz
+[2024-04-23 13:16:21] INFO root fetch - processPackages [input4mips-validation]: Downloading https://files.pythonhosted.org/packages/48/25/26fe3e97a61d6c695b66d0065d50c49b1a511fe6f2ca8442ffc0ab9cd709/input4mips_validation-0.3.0.tar.gz
+[2024-04-23 13:16:21] INFO root fetch - processPackages [gridengine-framework]: Downloading https://files.pythonhosted.org/packages/11/ce/df4dfbe5c32fc61e024fa14920a52fa7467a8079b9d983e7e8a14d5d592b/gridengine_framework-0.8.2.tar.gz
+[2024-04-23 13:16:21] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 34528401>=10485760
+[2024-04-23 13:16:21] INFO root fetch - processPackages [numerous]: Start processing: mediaflowimage
+[2024-04-23 13:16:21] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-04-23 13:16:22] INFO root fetch - processPackages [mediaflowimage]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-23 13:16:22] INFO root fetch - processPackages [opensr-utils]: executing diffoscope
+[2024-04-23 13:16:22] INFO root fetch - processPackages [opensr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-utils-0.4.8.tar.gz tmp/opensr-utils-0.4.9.tar.gz --markdown 20240423/o/opensr-utils/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-23 13:16:22] INFO root fetch - processPackages [input4mips-validation]: executing diffoscope
+[2024-04-23 13:16:22] INFO root fetch - processPackages [input4mips-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/input4mips_validation-0.2.1.tar.gz tmp/input4mips_validation-0.3.0.tar.gz --markdown 20240423/i/input4mips-validation/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-23 13:16:22] INFO root fetch - processPackages [gridengine-framework]: executing diffoscope
+[2024-04-23 13:16:22] INFO root fetch - processPackages [gridengine-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridengine_framework-0.8.1.tar.gz tmp/gridengine_framework-0.8.2.tar.gz --markdown 20240423/g/gridengine-framework/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-04-23 13:16:22] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/f6/61/48b4986e4ee58f89331ebe73c8c351eefc914f1ffe18b14d8db1ec201c5c/pellipop-0.8.2.tar.gz
+[2024-04-23 13:16:22] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/f6/61/48b4986e4ee58f89331ebe73c8c351eefc914f1ffe18b14d8db1ec201c5c/pellipop-0.8.2.tar.gz
+[2024-04-23 13:16:22] INFO root fetch - processPackages [mediaflowimage]: Downloading https://files.pythonhosted.org/packages/2c/c4/d0ccdd32a18a1c5fa29165d2fff518fc6d2bfaca0cee565376edbd9dec9d/mediaflowimage-1.0.2.tar.gz
+[2024-04-23 13:16:22] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/c8/91/80a20c426c12fcad2a527baf311c3b6d5f974f223536344ee9c16296a491/fdamages-0.0.9.tar.gz
+[2024-04-23 13:16:22] INFO root fetch - processPackages [pellipop]: executing diffoscope
+[2024-04-23 13:16:22] INFO root fetch - processPackages [pellipop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pellipop-0.8.1.tar.gz tmp/pellipop-0.8.2.tar.gz --markdown 20240423/p/pellipop/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-04-23 13:16:22] INFO root fetch - processPackages [kiauto]: Downloading https://files.pythonhosted.org/packages/f3/59/eb973ba00049f707ee91a014e1cd2bf4c6219aef62132c87f82f92e8687d/kiauto-2.3.1.tar.gz
+[2024-04-23 13:16:22] INFO root fetch - processPackages [pellipop]: executing diffoscope
+[2024-04-23 13:16:22] INFO root fetch - processPackages [pellipop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pellipop-0.8.1.tar.gz tmp/pellipop-0.8.2.tar.gz --markdown 20240423/p/pellipop/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-04-23 13:16:22] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/d4/0c/90e0d68c7db4cc880b981dc6f8e2cba82b4a93075e9df1c6774ac8165936/pyatlan-2.1.6.tar.gz
+[2024-04-23 13:16:22] INFO root fetch - processPackages [fdamages]: executing diffoscope
+[2024-04-23 13:16:22] INFO root fetch - processPackages [fdamages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdamages-0.0.8.tar.gz tmp/fdamages-0.0.9.tar.gz --markdown 20240423/f/fdamages/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-23 13:16:22] INFO root fetch - processPackages [mediaflowimage]: Downloading https://files.pythonhosted.org/packages/62/70/651a127968041dc2ecd69ef801e734fae627812504c5d7049c9b49366cd7/mediaflowimage-1.0.3.tar.gz
+[2024-04-23 13:16:22] INFO root fetch - processPackages [kiauto]: executing diffoscope
+[2024-04-23 13:16:22] INFO root fetch - processPackages [kiauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiauto-2.3.0.tar.gz tmp/kiauto-2.3.1.tar.gz --markdown 20240423/k/kiauto/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-04-23 13:16:22] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2024-04-23 13:16:22] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-2.1.5.tar.gz tmp/pyatlan-2.1.6.tar.gz --markdown 20240423/p/pyatlan/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-04-23 13:16:22] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/0b/15/808df634a1c422bef17663cb07f9f73fa210eee1a20518676512d6369ad0/bigdl_core_xe_esimd_21-2.5.0b20240423-cp310-cp310-win_amd64.whl
+[2024-04-23 13:16:22] INFO root fetch - processPackages [mediaflowimage]: executing diffoscope
+[2024-04-23 13:16:22] INFO root fetch - processPackages [mediaflowimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediaflowimage-1.0.2.tar.gz tmp/mediaflowimage-1.0.3.tar.gz --markdown 20240423/m/mediaflowimage/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-23 13:16:22] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-04-23 13:16:22] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240422-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240423-cp310-cp310-win_amd64.whl.zip --markdown 20240423/b/bigdl-core-xe-esimd-21/2.5.0b20240422-2.5.0b20240423/README.md --exclude *.pyd
+[2024-04-23 13:16:23] INFO root fetch - processPackages [input4mips-validation]: Remove: archive file [/home/abi/fetcher/tmp/input4mips_validation-0.2.1.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - processPackages [input4mips-validation]: Remove: archive file [/home/abi/fetcher/tmp/input4mips_validation-0.3.0.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - main [MainThread]: End processing [input4mips-validation]: success
+[2024-04-23 13:16:23] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.8.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.9.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - main [MainThread]: End processing [opensr-utils]: success
+[2024-04-23 13:16:23] INFO root fetch - processPackages [pellipop]: Remove: archive file [/home/abi/fetcher/tmp/pellipop-0.8.1.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - processPackages [pellipop]: Remove: archive file [/home/abi/fetcher/tmp/pellipop-0.8.2.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - main [MainThread]: End processing [pellipop]: success
+[2024-04-23 13:16:23] INFO root fetch - main [MainThread]: End processing [pellipop]: success
+[2024-04-23 13:16:23] INFO root fetch - processPackages [gridengine-framework]: Remove: archive file [/home/abi/fetcher/tmp/gridengine_framework-0.8.1.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - processPackages [gridengine-framework]: Remove: archive file [/home/abi/fetcher/tmp/gridengine_framework-0.8.2.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - main [MainThread]: End processing [gridengine-framework]: success
+[2024-04-23 13:16:23] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.8.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.9.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - main [MainThread]: End processing [fdamages]: success
+[2024-04-23 13:16:23] INFO root fetch - processPackages [kiauto]: Remove: archive file [/home/abi/fetcher/tmp/kiauto-2.3.0.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - processPackages [kiauto]: Remove: archive file [/home/abi/fetcher/tmp/kiauto-2.3.1.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - main [MainThread]: End processing [kiauto]: success
+[2024-04-23 13:16:23] INFO root fetch - processPackages [mediaflowimage]: Remove: archive file [/home/abi/fetcher/tmp/mediaflowimage-1.0.2.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - processPackages [mediaflowimage]: Remove: archive file [/home/abi/fetcher/tmp/mediaflowimage-1.0.3.tar.gz]
+[2024-04-23 13:16:23] INFO root fetch - main [MainThread]: End processing [mediaflowimage]: success
+[2024-04-23 13:16:23] ERROR root fetch - processPackages [bigdl-core-xe-esimd-21]: Diffoscope failed: time="2024-04-23T13:16:22+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140214978747904)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140214844530064)
+
+[2024-04-23 13:16:23] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-04-23 13:16:25] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.5.tar.gz]
+[2024-04-23 13:16:25] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.6.tar.gz]
+[2024-04-23 13:16:25] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2024-04-23 13:16:25] INFO root fetch - main [MainThread]: Store serial: [22892877]
