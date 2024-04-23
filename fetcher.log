@@ -17325,3 +17325,45 @@
 [2024-04-23 11:59:33] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
 [2024-04-23 11:59:33] INFO root fetch - main [MainThread]: End processing [coretex]: success
 [2024-04-23 11:59:33] INFO root fetch - main [MainThread]: Store serial: [22892079]
+[2024-04-23 12:01:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22892079]
+[2024-04-23 12:01:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-23 12:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kubemarine
+[2024-04-23 12:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voila-sepal-ui
+[2024-04-23 12:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arte
+[2024-04-23 12:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vxutils
+[2024-04-23 12:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-identity
+[2024-04-23 12:01:42] INFO root fetch - processPackages [arte]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-23 12:01:42] INFO root fetch - processPackages [kubemarine]: New version: [0.29.0] Old Version: [0.28.1]
+[2024-04-23 12:01:42] WARNING root fetch - processPackages [voila-sepal-ui]: Skipping, unable to determine old version
+[2024-04-23 12:01:42] INFO root fetch - main [MainThread]: End processing [voila-sepal-ui] error
+[2024-04-23 12:01:42] INFO root fetch - processPackages [vxutils]: New version: [20240423] Old Version: [20240410]
+[2024-04-23 12:01:42] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-23 12:01:42] INFO root fetch - processPackages [arte]: Downloading https://files.pythonhosted.org/packages/e1/b1/bebe6e94fc0ed0f3952b151a7fa90a0c9e49a2872c5414fac569fd65dc98/arte-0.8.0.tar.gz
+[2024-04-23 12:01:42] INFO root fetch - processPackages [kubemarine]: Downloading https://files.pythonhosted.org/packages/36/be/690222e57758e6fcc54633350202477261fbb42594a1cefc31483c91f469/kubemarine-0.28.1.tar.gz
+[2024-04-23 12:01:42] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/a9/17/aa0ee51da5b288ebd0f42587862e412b9f69fa7556de621e78d8b6f9371b/vxutils-20240410.tar.gz
+[2024-04-23 12:01:42] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-04-23 12:01:42] INFO root fetch - processPackages [arte]: Downloading https://files.pythonhosted.org/packages/4f/0a/afd63f63c85b5ca4418eaf8b0fc71626022178281ddccf37a9e97eabfd44/arte-0.9.0.tar.gz
+[2024-04-23 12:01:43] INFO root fetch - processPackages [arte]: executing diffoscope
+[2024-04-23 12:01:43] INFO root fetch - processPackages [arte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arte-0.8.0.tar.gz tmp/arte-0.9.0.tar.gz --markdown 20240423/a/arte/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-23 12:01:43] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/ad/14/98d61054798201a82fa62da4e346cfe25dc68e8688d143a0cad8397120d2/vxutils-20240423.tar.gz
+[2024-04-23 12:01:43] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-04-23 12:01:43] INFO root fetch - processPackages [vxutils]: executing diffoscope
+[2024-04-23 12:01:43] INFO root fetch - processPackages [vxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vxutils-20240410.tar.gz tmp/vxutils-20240423.tar.gz --markdown 20240423/v/vxutils/20240410-20240423/README.md --exclude *.pyd
+[2024-04-23 12:01:43] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-04-23 12:01:43] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240423/s/spaceone-identity/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-23 12:01:43] INFO root fetch - processPackages [kubemarine]: Downloading https://files.pythonhosted.org/packages/8d/55/471bfc642691be40653ec55c30d82e7ead663e933278b074ebb42bf50c2e/kubemarine-0.29.0.tar.gz
+[2024-04-23 12:01:43] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240410.tar.gz]
+[2024-04-23 12:01:43] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240423.tar.gz]
+[2024-04-23 12:01:43] INFO root fetch - main [MainThread]: End processing [vxutils]: success
+[2024-04-23 12:01:43] INFO root fetch - processPackages [arte]: Remove: archive file [/home/abi/fetcher/tmp/arte-0.8.0.tar.gz]
+[2024-04-23 12:01:43] INFO root fetch - processPackages [arte]: Remove: archive file [/home/abi/fetcher/tmp/arte-0.9.0.tar.gz]
+[2024-04-23 12:01:43] INFO root fetch - main [MainThread]: End processing [arte]: success
+[2024-04-23 12:01:44] INFO root fetch - processPackages [kubemarine]: executing diffoscope
+[2024-04-23 12:01:44] INFO root fetch - processPackages [kubemarine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240423:/home/abi/fetcher/20240423:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubemarine-0.28.1.tar.gz tmp/kubemarine-0.29.0.tar.gz --markdown 20240423/k/kubemarine/0.28.1-0.29.0/README.md --exclude *.pyd
+[2024-04-23 12:01:44] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-04-23 12:01:44] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-04-23 12:01:44] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-04-23 12:01:46] INFO root fetch - processPackages [kubemarine]: Remove: archive file [/home/abi/fetcher/tmp/kubemarine-0.28.1.tar.gz]
+[2024-04-23 12:01:46] INFO root fetch - processPackages [kubemarine]: Remove: archive file [/home/abi/fetcher/tmp/kubemarine-0.29.0.tar.gz]
+[2024-04-23 12:01:46] INFO root fetch - main [MainThread]: End processing [kubemarine]: success
+[2024-04-23 12:01:46] INFO root fetch - main [MainThread]: Store serial: [22892096]
